@@ -26,8 +26,8 @@
 在仓库根目录使用Python 3.10及以上版本运行：
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
+conda env create -f environment.yml
+conda activate internship-pipeline
 bash run_pipeline.sh --quick --run-dir logs/quick-001
 ```
 
@@ -38,3 +38,12 @@ quick使用测试tokenizer处理历史数据并回放已有分数，不加载模
 代码、数据协议、模型说明和报告分别位于`scripts/`、`configs/`、`models/`、`reports/`；逐周材料位于`Submission/`，原始工程记录位于`deliverables/`。详见[目录约定](docs/REPOSITORY_STRUCTURE.md)。部分历史路径为冻结协议的必要依赖，保持原位。
 
 已有Linux CUDA训练、评估和部署记录，以及独立macOS环境的数据与评分验证；未验证从零安装CUDA后的全部流程。权重与大型视频单独存储，原仓库和中间检查点保留。独立发布副本提供`RELEASE_SHA256SUMS.txt`，用于核验当前文件完整性。
+
+## 常见问题
+
+- 没有Conda：可按[操作指南](docs/RUNNING.md)使用Python虚拟环境运行quick。
+- 没有GPU：可运行quick和数据准备；7B训练、生成与部署需要对应GPU环境。
+- 运行目录已存在：使用新的`--run-dir`，保留此前结果。
+- 模型文件不在clone中：按[模型与附件](docs/ARTIFACTS.md)准备并核验权重，然后配置本机路径。
+
+发布仓库：[sense-time-internship-delivery](https://github.com/JAcKs0n02/sense-time-internship-delivery)（私有）。原仓库保留过程档案；其他账号访问需要单独授权。

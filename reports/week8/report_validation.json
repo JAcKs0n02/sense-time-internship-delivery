@@ -5,6 +5,6 @@
   "pdf_pages": 35,
   "figures": 6,
   "numbered_tables": 21,
-  "status": "report_editorial_content_and_latex_pdf_verified_git_pending",
+  "status": "report_editorial_content_and_latex_pdf_verified",
   "verification": "reports/week8/report_editorial_20260920/verification.json"
 }

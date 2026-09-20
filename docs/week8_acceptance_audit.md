@@ -16,14 +16,14 @@
 | 42.2 Week4教师→0.5B学生两轮 | 真实训练与技术检查已完成 | 200条生成经全量筛选保留152条，137/15划分；320完成2轮36步，合并张量与CUDA冷加载通过；phase3_distillation_student_gpu/checks.json |
 | 42.3 学生前后CEval/速度 | 实测与分析已完成 | CEval723→715/1346，53.7147%→53.1204%；吞吐55.5303→55.6263 token/s；243份证据本地重验，见week8_distillation_comparison.md |
 | 43.1–43.2 前四章、图表、3000字 | 报告源已更新，字数程序核对 | technical_report.md/tex；历史图表注明周次，不冒充本周结果 |
-| 44.1–44.2 八章、6000字、PDF源文件 | 实验报告已整合并完成渲染核验 | technical_report.md/tex/pdf；已加入9月19日入口、依赖及备份结果；当前排版检查见latex_report_20260919，旧40页Word版收据仅描述历史版本 |
+| 44.1–44.2 八章、6000字、PDF源文件 | 实验报告已整合并完成渲染核验 | technical_report.md/tex/pdf；已加入9月19日入口、依赖及备份结果；当前排版检查见report_editorial_20260920，旧40页Word版收据仅描述历史版本 |
 | 45.1 只保留最终模型 | 三个最终模型备份已验收；删除按当前安排暂缓 | 38文件、31.50GB全量哈希/索引及本地CPU加载通过；320已关机，未删除检查点 |
 | 45.2 功能目录 | 已存在 | data/scripts/configs/models/logs/reports与历史归档并存 |
 | 45.3 README及环境/quick/FAQ | 已更新，quick容器实跑 | 根README、environment.yml、configs/README.md；容器quick不是conda完整CUDA安装验证 |
-| 45.4 Git推送 | 待发布审查 | 已配置远端，但大量未跟踪和修改文件；本轮未全量暂存、提交或推送 |
+| 45.4 Git推送 | 独立私有仓库已推送 | Week1–8导航统一，远端clone与quick检查通过；老师账号访问尚待授权 |
 | 验收1 干净环境数据及评估 | 独立CPU数据准备通过；干净环境真实评估待补 | 无网络Python3.11容器运行数据与历史评估；新模型评估在目标环境实际完成，需分别陈述 |
-| 验收2 6000字报告 | 报告字数与格式核验通过 | report_validation.json；共14453汉字，前四章统计5832字；报告保留质量失败与仓库剩余事项 |
-| 验收3 可复现仓库 | 入口和索引已整理；真实评估复现与发布待完成 | 本文、README、Submission/Week8/README.md |
+| 验收2 6000字报告 | 报告字数与格式核验通过 | report_validation.json；共14849个中文字符，前四章统计5480字；报告保留质量失败与仓库剩余事项 |
+| 验收3 可复现仓库 | 导航与Git推送完成；新macOS验证与已有CUDA实测分别记录 | 本文、README、Submission/Week8/README.md |
 | 验收4 成功蒸馏尝试 | 尝试与分析已完成，效果未提升 | 真实0.5B两轮36步，前后CEval和速度同协议实测；按要求保留效果不理想的分析，非效果提升验收 |
 | Day14.3 另一位同事/导师盲评 | 两份各60条评分已核验汇总 | phase2_custom20_review/reviewers；不复用第三周人工分数冒充本次评分 |
 
