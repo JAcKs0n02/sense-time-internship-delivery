@@ -1,0 +1,106 @@
+{
+  "files": [
+    {
+      "path": "Submission/Week2/Day6_Data_Collection_and_Formatting/Data/Formatted_Alpaca_5K.jsonl",
+      "occurrences": 2,
+      "line_numbers": [
+        4654,
+        4654
+      ],
+      "source_sha256": "8c626aefaf0a31cf292ed09755c5bd5302e3c381d1637440339c36a67fc4d304",
+      "export_sha256": "4118d86644023755428384e0708f877f599996b1dcec287eb78de665e79dc343",
+      "transformation": "Known credential literal replaced with [REDACTED_API_KEY]"
+    },
+    {
+      "path": "Submission/Week2/Day6_Data_Collection_and_Formatting/Data/Formatted_ShareGPT_5K.jsonl",
+      "occurrences": 2,
+      "line_numbers": [
+        4654,
+        4654
+      ],
+      "source_sha256": "96b383f5769ae9aa59d86d12b23384cbf08eb8cdb50555cfc4d3880e3a499645",
+      "export_sha256": "9c147b2ecfaf53ba45c9cf925c7c036eb6d092c60dd4f8b509fb5b985599c5ee",
+      "transformation": "Known credential literal replaced with [REDACTED_API_KEY]"
+    },
+    {
+      "path": "Submission/Week2/Day7_Cleaning_Pipeline/Data/Cleaned_Alpaca_4999.jsonl",
+      "occurrences": 2,
+      "line_numbers": [
+        4653,
+        4653
+      ],
+      "source_sha256": "600c01cb1d2ca41bb1fbe7fca3973336568062ead29ee0e6b6033733a86b2743",
+      "export_sha256": "f296b983cd78df8c534fbb3594881b4647fcfa78ae14f032e26941e1cae545bf",
+      "transformation": "Known credential literal replaced with [REDACTED_API_KEY]"
+    },
+    {
+      "path": "Submission/Week2/Day7_Cleaning_Pipeline/Data/Cleaned_ShareGPT_4999.jsonl",
+      "occurrences": 2,
+      "line_numbers": [
+        4653,
+        4653
+      ],
+      "source_sha256": "74f113c9d816b9eda72a8bcae4039f143e2d88d0811729e64e088542cc4739e7",
+      "export_sha256": "0f273850a6b6704f8e1cfda760ab5c8401818b7862ac0869137f2b9bcfdbec8e",
+      "transformation": "Known credential literal replaced with [REDACTED_API_KEY]"
+    },
+    {
+      "path": "deliverables/week2/day6/source/data/formatted/week2_5k_alpaca.jsonl",
+      "occurrences": 2,
+      "line_numbers": [
+        4654,
+        4654
+      ],
+      "source_sha256": "8c626aefaf0a31cf292ed09755c5bd5302e3c381d1637440339c36a67fc4d304",
+      "export_sha256": "4118d86644023755428384e0708f877f599996b1dcec287eb78de665e79dc343",
+      "transformation": "Known credential literal replaced with [REDACTED_API_KEY]"
+    },
+    {
+      "path": "deliverables/week2/day6/source/data/formatted/week2_5k_sharegpt.jsonl",
+      "occurrences": 2,
+      "line_numbers": [
+        4654,
+        4654
+      ],
+      "source_sha256": "96b383f5769ae9aa59d86d12b23384cbf08eb8cdb50555cfc4d3880e3a499645",
+      "export_sha256": "9c147b2ecfaf53ba45c9cf925c7c036eb6d092c60dd4f8b509fb5b985599c5ee",
+      "transformation": "Known credential literal replaced with [REDACTED_API_KEY]"
+    },
+    {
+      "path": "deliverables/week2/day6/source/data/raw/sharegpt_zh_1k.jsonl",
+      "occurrences": 2,
+      "line_numbers": [
+        654,
+        654
+      ],
+      "source_sha256": "e7fb562bbe4ccf884c3968f2536b5a5d53b4ad48e72688e95b77203695f6e092",
+      "export_sha256": "4cf4b2b53d0204fc8dd4d43b43ae7b581d81d00dd2a05c55d38a5611102faba2",
+      "transformation": "Known credential literal replaced with [REDACTED_API_KEY]"
+    },
+    {
+      "path": "deliverables/week2/day7/data/week2_clean_alpaca.jsonl",
+      "occurrences": 2,
+      "line_numbers": [
+        4653,
+        4653
+      ],
+      "source_sha256": "600c01cb1d2ca41bb1fbe7fca3973336568062ead29ee0e6b6033733a86b2743",
+      "export_sha256": "f296b983cd78df8c534fbb3594881b4647fcfa78ae14f032e26941e1cae545bf",
+      "transformation": "Known credential literal replaced with [REDACTED_API_KEY]"
+    },
+    {
+      "path": "deliverables/week2/day7/data/week2_clean_sharegpt.jsonl",
+      "occurrences": 2,
+      "line_numbers": [
+        4653,
+        4653
+      ],
+      "source_sha256": "74f113c9d816b9eda72a8bcae4039f143e2d88d0811729e64e088542cc4739e7",
+      "export_sha256": "0f273850a6b6704f8e1cfda760ab5c8401818b7862ac0869137f2b9bcfdbec8e",
+      "transformation": "Known credential literal replaced with [REDACTED_API_KEY]"
+    }
+  ],
+  "source_files_unchanged": true,
+  "jsonl_structure_and_all_other_values_unchanged": true,
+  "historical_training_results_not_recomputed": true
+}

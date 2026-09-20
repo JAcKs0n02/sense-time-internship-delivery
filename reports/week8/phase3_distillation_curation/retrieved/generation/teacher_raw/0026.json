@@ -1,0 +1,14 @@
+{
+  "sample_id": "31eddbf80415cc2f0f7888f3695d400e09fe108be8971cc8cf6327dc259d4632",
+  "prompt": "创建一个任务的示例输入：给定一个数字列表，找到最大的数字。\n\n输入：\n[4, 12, 8, 14, 10]",
+  "messages": [
+    {
+      "role": "user",
+      "content": "创建一个任务的示例输入：给定一个数字列表，找到最大的数字。\n\n输入：\n[4, 12, 8, 14, 10]"
+    }
+  ],
+  "answer": "输出：\n14",
+  "truncated": false,
+  "input_tokens": 67,
+  "output_tokens": 5
+}

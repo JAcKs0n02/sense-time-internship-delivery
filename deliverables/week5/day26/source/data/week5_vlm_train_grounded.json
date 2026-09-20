@@ -1,0 +1,3002 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请提取图表中的关键信息，并概括最重要的结论。"
+      },
+      {
+        "role": "assistant",
+        "content": "图表类型与主题：一张比较不同组别指标的科研数据表。结构与关键信息：左侧列出 Group 和 N；表头分为 fHjDA uptake 与 DAT density，并各有 Vmax、Km、SD 等子列。可见字段或数值：Group；N；Vmax；Km；SD；fHjDA uptake；DAT density。结论仅限上述可见内容，未显示的年份、事件、排名或数值不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-01.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"chart_table\", \"details\": [\"左侧列出 Group 和 N\", \"表头分为 fHjDA uptake 与 DAT density，并各有 Vmax、Km、SD 等子列\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"一张比较不同组别指标的科研数据表\", \"visible_text\": \"Group；N；Vmax；Km；SD；fHjDA uptake；DAT density\"}"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-01.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请说明你如何从图表的标题、坐标、图例或单元格得到结论。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：左侧列出 Group 和 N；表头分为 fHjDA uptake 与 DAT density，并各有 Vmax、Km、SD 等子列。可见文字或符号：Group；N；Vmax；Km；SD；fHjDA uptake；DAT density。这些线索支持将主体判断为“一张比较不同组别指标的科研数据表”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-01.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图中是一张只有红色折线的折线图”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是一张比较不同组别指标的科研数据表；左侧列出 Group 和 N；表头分为 fHjDA uptake 与 DAT density，并各有 Vmax、Km、SD 等子列；可见文字或符号为：Group；N；Vmax；Km；SD；fHjDA uptake；DAT density。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-01.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请提取图表中的关键信息，并概括最重要的结论。"
+      },
+      {
+        "role": "assistant",
+        "content": "图表类型与主题：一张行为量表相关系数表。结构与关键信息：行列均列出多种量表或行为维度；部分数值带星号表示统计标记。可见字段或数值：BEHAVE-AD Scales；M-NCAS Scales；Total BEHAVE-AD；Hallucination；Aggression。结论仅限上述可见内容，未显示的年份、事件、排名或数值不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-02.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"chart_table\", \"details\": [\"行列均列出多种量表或行为维度\", \"部分数值带星号表示统计标记\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"一张行为量表相关系数表\", \"visible_text\": \"BEHAVE-AD Scales；M-NCAS Scales；Total BEHAVE-AD；Hallucination；Aggression\"}"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-02.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请说明你如何从图表的标题、坐标、图例或单元格得到结论。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：行列均列出多种量表或行为维度；部分数值带星号表示统计标记。可见文字或符号：BEHAVE-AD Scales；M-NCAS Scales；Total BEHAVE-AD；Hallucination；Aggression。这些线索支持将主体判断为“一张行为量表相关系数表”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-02.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“表格只有两行两列”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是一张行为量表相关系数表；行列均列出多种量表或行为维度；部分数值带星号表示统计标记；可见文字或符号为：BEHAVE-AD Scales；M-NCAS Scales；Total BEHAVE-AD；Hallucination；Aggression。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-02.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请提取图表中的关键信息，并概括最重要的结论。"
+      },
+      {
+        "role": "assistant",
+        "content": "图表类型与主题：一道带手写计算痕迹的分组频数表题目。结构与关键信息：表格按数值区间分组；右侧是频数或百分比，表格旁有手写算式。可见字段或数值：可见区间如 600≤x<800、800≤x<1000、1000≤x<1200，以及手写百分数。结论仅限上述可见内容，未显示的年份、事件、排名或数值不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-03.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"chart_table\", \"details\": [\"表格按数值区间分组\", \"右侧是频数或百分比，表格旁有手写算式\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"一道带手写计算痕迹的分组频数表题目\", \"visible_text\": \"可见区间如 600≤x<800、800≤x<1000、1000≤x<1200，以及手写百分数\"}"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-03.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请说明你如何从图表的标题、坐标、图例或单元格得到结论。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：表格按数值区间分组；右侧是频数或百分比，表格旁有手写算式。可见文字或符号：可见区间如 600≤x<800、800≤x<1000、1000≤x<1200，以及手写百分数。这些线索支持将主体判断为“一道带手写计算痕迹的分组频数表题目”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-03.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“所有单元格都为空白”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是一道带手写计算痕迹的分组频数表题目；表格按数值区间分组；右侧是频数或百分比，表格旁有手写算式；可见文字或符号为：可见区间如 600≤x<800、800≤x<1000、1000≤x<1200，以及手写百分数。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-03.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请提取图表中的关键信息，并概括最重要的结论。"
+      },
+      {
+        "role": "assistant",
+        "content": "图表类型与主题：一页带彩色版面框标注的双栏学术文档。结构与关键信息：页面上方有标题与作者信息；正文为双栏排版，并包含被框出的表格或文本区域。可见字段或数值：页内为英文论文文字；小字号不适合逐字完整转写。结论仅限上述可见内容，未显示的年份、事件、排名或数值不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-04.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"chart_table\", \"details\": [\"页面上方有标题与作者信息\", \"正文为双栏排版，并包含被框出的表格或文本区域\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"一页带彩色版面框标注的双栏学术文档\", \"visible_text\": \"页内为英文论文文字；小字号不适合逐字完整转写\"}"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-04.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请说明你如何从图表的标题、坐标、图例或单元格得到结论。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：页面上方有标题与作者信息；正文为双栏排版，并包含被框出的表格或文本区域。可见文字或符号：页内为英文论文文字；小字号不适合逐字完整转写。这些线索支持将主体判断为“一页带彩色版面框标注的双栏学术文档”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-04.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图中没有任何结构化数据区域”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是一页带彩色版面框标注的双栏学术文档；页面上方有标题与作者信息；正文为双栏排版，并包含被框出的表格或文本区域；可见文字或符号为：页内为英文论文文字；小字号不适合逐字完整转写。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-04.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请提取图表中的关键信息，并概括最重要的结论。"
+      },
+      {
+        "role": "assistant",
+        "content": "图表类型与主题：一页包含大量人脸缩略图和对照表的学术文章。结构与关键信息：上方是多行图像样本；中部及下方有表格和双栏正文。可见字段或数值：可见 Figure/Table 风格标题及多组数值，但字号较小。结论仅限上述可见内容，未显示的年份、事件、排名或数值不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-05.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"chart_table\", \"details\": [\"上方是多行图像样本\", \"中部及下方有表格和双栏正文\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"一页包含大量人脸缩略图和对照表的学术文章\", \"visible_text\": \"可见 Figure/Table 风格标题及多组数值，但字号较小\"}"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-05.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请说明你如何从图表的标题、坐标、图例或单元格得到结论。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：上方是多行图像样本；中部及下方有表格和双栏正文。可见文字或符号：可见 Figure/Table 风格标题及多组数值，但字号较小。这些线索支持将主体判断为“一页包含大量人脸缩略图和对照表的学术文章”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-05.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图中是一张只有红色折线的折线图”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是一页包含大量人脸缩略图和对照表的学术文章；上方是多行图像样本；中部及下方有表格和双栏正文；可见文字或符号为：可见 Figure/Table 风格标题及多组数值，但字号较小。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-05.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请提取图表中的关键信息，并概括最重要的结论。"
+      },
+      {
+        "role": "assistant",
+        "content": "图表类型与主题：一张按紫、绿、红色区块分组的结构化表格。结构与关键信息：不同颜色区块包含多行记录；右侧列中有数值或短文本。可见字段或数值：表格含多个分组标题与行项目；缩略图不足以可靠补全全部单元格。结论仅限上述可见内容，未显示的年份、事件、排名或数值不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-06.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"chart_table\", \"details\": [\"不同颜色区块包含多行记录\", \"右侧列中有数值或短文本\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"一张按紫、绿、红色区块分组的结构化表格\", \"visible_text\": \"表格含多个分组标题与行项目；缩略图不足以可靠补全全部单元格\"}"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-06.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请说明你如何从图表的标题、坐标、图例或单元格得到结论。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：不同颜色区块包含多行记录；右侧列中有数值或短文本。可见文字或符号：表格含多个分组标题与行项目；缩略图不足以可靠补全全部单元格。这些线索支持将主体判断为“一张按紫、绿、红色区块分组的结构化表格”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-06.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“表格只有两行两列”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是一张按紫、绿、红色区块分组的结构化表格；不同颜色区块包含多行记录；右侧列中有数值或短文本；可见文字或符号为：表格含多个分组标题与行项目；缩略图不足以可靠补全全部单元格。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-06.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请提取图表中的关键信息，并概括最重要的结论。"
+      },
+      {
+        "role": "assistant",
+        "content": "图表类型与主题：包含商品招牌图片和多个比较表的报告页。结构与关键信息：上半部分是多张圆形或矩形店招图片；下半部分是密集的数值表与说明文字。可见字段或数值：可见多列指标、百分比和英文说明；应按图表区域分别读取。结论仅限上述可见内容，未显示的年份、事件、排名或数值不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-07.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"chart_table\", \"details\": [\"上半部分是多张圆形或矩形店招图片\", \"下半部分是密集的数值表与说明文字\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"包含商品招牌图片和多个比较表的报告页\", \"visible_text\": \"可见多列指标、百分比和英文说明；应按图表区域分别读取\"}"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-07.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请说明你如何从图表的标题、坐标、图例或单元格得到结论。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：上半部分是多张圆形或矩形店招图片；下半部分是密集的数值表与说明文字。可见文字或符号：可见多列指标、百分比和英文说明；应按图表区域分别读取。这些线索支持将主体判断为“包含商品招牌图片和多个比较表的报告页”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-07.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“所有单元格都为空白”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是包含商品招牌图片和多个比较表的报告页；上半部分是多张圆形或矩形店招图片；下半部分是密集的数值表与说明文字；可见文字或符号为：可见多列指标、百分比和英文说明；应按图表区域分别读取。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-07.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请提取图表中的关键信息，并概括最重要的结论。"
+      },
+      {
+        "role": "assistant",
+        "content": "图表类型与主题：两张并排的中文年度数据表。结构与关键信息：左表为灰色浅网格；右表有更明显的黑色边框，列头包含多个年份。可见字段或数值：可见年份 2020、2021、2022、2023、2024 及多行百分比数值。结论仅限上述可见内容，未显示的年份、事件、排名或数值不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-08.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"chart_table\", \"details\": [\"左表为灰色浅网格\", \"右表有更明显的黑色边框，列头包含多个年份\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"两张并排的中文年度数据表\", \"visible_text\": \"可见年份 2020、2021、2022、2023、2024 及多行百分比数值\"}"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-08.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请说明你如何从图表的标题、坐标、图例或单元格得到结论。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：左表为灰色浅网格；右表有更明显的黑色边框，列头包含多个年份。可见文字或符号：可见年份 2020、2021、2022、2023、2024 及多行百分比数值。这些线索支持将主体判断为“两张并排的中文年度数据表”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-08.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图中没有任何结构化数据区域”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是两张并排的中文年度数据表；左表为灰色浅网格；右表有更明显的黑色边框，列头包含多个年份；可见文字或符号为：可见年份 2020、2021、2022、2023、2024 及多行百分比数值。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-08.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请提取图表中的关键信息，并概括最重要的结论。"
+      },
+      {
+        "role": "assistant",
+        "content": "图表类型与主题：蓝色表头的中文业务表与右侧明细表拼图。结构与关键信息：左侧是多列记录表；右侧按行列展示较长中文说明。可见字段或数值：包含多列中文字段、编号和说明文字；单元格内容较密集。结论仅限上述可见内容，未显示的年份、事件、排名或数值不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-09.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"chart_table\", \"details\": [\"左侧是多列记录表\", \"右侧按行列展示较长中文说明\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"蓝色表头的中文业务表与右侧明细表拼图\", \"visible_text\": \"包含多列中文字段、编号和说明文字；单元格内容较密集\"}"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-09.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请说明你如何从图表的标题、坐标、图例或单元格得到结论。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：左侧是多列记录表；右侧按行列展示较长中文说明。可见文字或符号：包含多列中文字段、编号和说明文字；单元格内容较密集。这些线索支持将主体判断为“蓝色表头的中文业务表与右侧明细表拼图”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-09.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图中是一张只有红色折线的折线图”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是蓝色表头的中文业务表与右侧明细表拼图；左侧是多列记录表；右侧按行列展示较长中文说明；可见文字或符号为：包含多列中文字段、编号和说明文字；单元格内容较密集。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-09.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请提取图表中的关键信息，并概括最重要的结论。"
+      },
+      {
+        "role": "assistant",
+        "content": "图表类型与主题：两份并排展示的检验结果表。结构与关键信息：左侧表格含检验名称、结果、单位和参考范围；右侧表格对同类项目给出结果与参考区间。可见字段或数值：可见项目缩写与数值，以及 U/L、参考范围等字段。结论仅限上述可见内容，未显示的年份、事件、排名或数值不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-10.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"chart_table\", \"details\": [\"左侧表格含检验名称、结果、单位和参考范围\", \"右侧表格对同类项目给出结果与参考区间\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"两份并排展示的检验结果表\", \"visible_text\": \"可见项目缩写与数值，以及 U/L、参考范围等字段\"}"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-10.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请说明你如何从图表的标题、坐标、图例或单元格得到结论。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：左侧表格含检验名称、结果、单位和参考范围；右侧表格对同类项目给出结果与参考区间。可见文字或符号：可见项目缩写与数值，以及 U/L、参考范围等字段。这些线索支持将主体判断为“两份并排展示的检验结果表”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-10.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“表格只有两行两列”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是两份并排展示的检验结果表；左侧表格含检验名称、结果、单位和参考范围；右侧表格对同类项目给出结果与参考区间；可见文字或符号为：可见项目缩写与数值，以及 U/L、参考范围等字段。"
+      }
+    ],
+    "images": [
+      "images/train/chart_table-10.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中的公式，并解释各部分表达的含义。"
+      },
+      {
+        "role": "assistant",
+        "content": "转写：\\mathcal{L}_{eyelid}=-\\sum_{t=1}^{T}\\sum_{v=1}^{V}\\mathcal{M}_{v}^{(eyelid)}\\left(\\lVert\\hat{h}_{t,v}-x_{t,v}\\rVert^2\\right)。结构：含对 t 和 v 的双重求和；末项是预测量与目标量之差的平方范数。含义：只说明图中可见的符号和运算结构；具体物理语义、变量取值或计算结果不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/formula-01.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"formula\", \"details\": [\"含对 t 和 v 的双重求和\", \"末项是预测量与目标量之差的平方范数\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"一条白字黑底的眼睑损失函数\", \"visible_text\": \"\\\\mathcal{L}_{eyelid}=-\\\\sum_{t=1}^{T}\\\\sum_{v=1}^{V}\\\\mathcal{M}_{v}^{(eyelid)}\\\\left(\\\\lVert\\\\hat{h}_{t,v}-x_{t,v}\\\\rVert^2\\\\right)\"}"
+      }
+    ],
+    "images": [
+      "images/train/formula-01.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请逐项解释公式中的符号、结构和整体含义。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：含对 t 和 v 的双重求和；末项是预测量与目标量之差的平方范数。可见文字或符号：\\mathcal{L}_{eyelid}=-\\sum_{t=1}^{T}\\sum_{v=1}^{V}\\mathcal{M}_{v}^{(eyelid)}\\left(\\lVert\\hat{h}_{t,v}-x_{t,v}\\rVert^2\\right)。这些线索支持将主体判断为“一条白字黑底的眼睑损失函数”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/formula-01.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图中没有等号或数学符号”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是一条白字黑底的眼睑损失函数；含对 t 和 v 的双重求和；末项是预测量与目标量之差的平方范数；可见文字或符号为：\\mathcal{L}_{eyelid}=-\\sum_{t=1}^{T}\\sum_{v=1}^{V}\\mathcal{M}_{v}^{(eyelid)}\\left(\\lVert\\hat{h}_{t,v}-x_{t,v}\\rVert^2\\right)。"
+      }
+    ],
+    "images": [
+      "images/train/formula-01.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中的公式，并解释各部分表达的含义。"
+      },
+      {
+        "role": "assistant",
+        "content": "转写：\\frac{7x^2-x+1}{x^3+1}=\\frac{7x^2-x+1}{(x+1)(x^2-x+1)}=\\frac{1}{x+1}+\\frac{6x+6}{x^2-x+1}。结构：左端分子近似 7x^2-x+1，分母是三次多项式；右端把表达式拆为三个分式项。含义：只说明图中可见的符号和运算结构；具体物理语义、变量取值或计算结果不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/formula-02.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"formula\", \"details\": [\"左端分子近似 7x^2-x+1，分母是三次多项式\", \"右端把表达式拆为三个分式项\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"一条蓝灰色的有理式分解等式\", \"visible_text\": \"\\\\frac{7x^2-x+1}{x^3+1}=\\\\frac{7x^2-x+1}{(x+1)(x^2-x+1)}=\\\\frac{1}{x+1}+\\\\frac{6x+6}{x^2-x+1}\"}"
+      }
+    ],
+    "images": [
+      "images/train/formula-02.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请逐项解释公式中的符号、结构和整体含义。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：左端分子近似 7x^2-x+1，分母是三次多项式；右端把表达式拆为三个分式项。可见文字或符号：\\frac{7x^2-x+1}{x^3+1}=\\frac{7x^2-x+1}{(x+1)(x^2-x+1)}=\\frac{1}{x+1}+\\frac{6x+6}{x^2-x+1}。这些线索支持将主体判断为“一条蓝灰色的有理式分解等式”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/formula-02.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“表达式只包含普通中文段落”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是一条蓝灰色的有理式分解等式；左端分子近似 7x^2-x+1，分母是三次多项式；右端把表达式拆为三个分式项；可见文字或符号为：\\frac{7x^2-x+1}{x^3+1}=\\frac{7x^2-x+1}{(x+1)(x^2-x+1)}=\\frac{1}{x+1}+\\frac{6x+6}{x^2-x+1}。"
+      }
+    ],
+    "images": [
+      "images/train/formula-02.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中的公式，并解释各部分表达的含义。"
+      },
+      {
+        "role": "assistant",
+        "content": "转写：F(z)=F(0)+\\sum_{m=1}^{\\infty}\\left\\{\\frac{b_m}{z-a_m}+\\frac{b_m}{a_m}\\right\\}+\\sum_{m=1}^{\\infty}\\left\\{\\frac{b_{-m}}{z-a_{-m}}+\\frac{b_{-m}}{a_{-m}}\\right\\}。结构：等式以 F(z)=F(0) 开头；后续两组求和的分母含 z-a_m 或 z-a_{-m}。含义：只说明图中可见的符号和运算结构；具体物理语义、变量取值或计算结果不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/formula-03.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"formula\", \"details\": [\"等式以 F(z)=F(0) 开头\", \"后续两组求和的分母含 z-a_m 或 z-a_{-m}\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"一条包含两个无穷级数的复变函数展开式\", \"visible_text\": \"F(z)=F(0)+\\\\sum_{m=1}^{\\\\infty}\\\\left\\\\{\\\\frac{b_m}{z-a_m}+\\\\frac{b_m}{a_m}\\\\right\\\\}+\\\\sum_{m=1}^{\\\\infty}\\\\left\\\\{\\\\frac{b_{-m}}{z-a_{-m}}+\\\\frac{b_{-m}}{a_{-m}}\\\\right\\\\}\"}"
+      }
+    ],
+    "images": [
+      "images/train/formula-03.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请逐项解释公式中的符号、结构和整体含义。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：等式以 F(z)=F(0) 开头；后续两组求和的分母含 z-a_m 或 z-a_{-m}。可见文字或符号：F(z)=F(0)+\\sum_{m=1}^{\\infty}\\left\\{\\frac{b_m}{z-a_m}+\\frac{b_m}{a_m}\\right\\}+\\sum_{m=1}^{\\infty}\\left\\{\\frac{b_{-m}}{z-a_{-m}}+\\frac{b_{-m}}{a_{-m}}\\right\\}。这些线索支持将主体判断为“一条包含两个无穷级数的复变函数展开式”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/formula-03.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“公式的结果明确等于零”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是一条包含两个无穷级数的复变函数展开式；等式以 F(z)=F(0) 开头；后续两组求和的分母含 z-a_m 或 z-a_{-m}；可见文字或符号为：F(z)=F(0)+\\sum_{m=1}^{\\infty}\\left\\{\\frac{b_m}{z-a_m}+\\frac{b_m}{a_m}\\right\\}+\\sum_{m=1}^{\\infty}\\left\\{\\frac{b_{-m}}{z-a_{-m}}+\\frac{b_{-m}}{a_{-m}}\\right\\}。"
+      }
+    ],
+    "images": [
+      "images/train/formula-03.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中的公式，并解释各部分表达的含义。"
+      },
+      {
+        "role": "assistant",
+        "content": "转写：L_t=L_{rec}+\\left[\\frac{(1-\\alpha_t)^2}{2\\alpha_t(1-\\bar{\\alpha}_t)\\lVert\\Sigma_\\theta\\rVert_2^2}\\right]e_t- e_t(\\sqrt{\\bar{\\alpha}_t}x_0+\\sqrt{1-\\bar{\\alpha}_t}\\epsilon_t,t)。结构：左端为 L_t；右端包含 L_{rec}、分式项以及带根号的 e_t 项。含义：只说明图中可见的符号和运算结构；具体物理语义、变量取值或计算结果不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/formula-04.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"formula\", \"details\": [\"左端为 L_t\", \"右端包含 L_{rec}、分式项以及带根号的 e_t 项\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"一条红字黑底的组合损失函数\", \"visible_text\": \"L_t=L_{rec}+\\\\left[\\\\frac{(1-\\\\alpha_t)^2}{2\\\\alpha_t(1-\\\\bar{\\\\alpha}_t)\\\\lVert\\\\Sigma_\\\\theta\\\\rVert_2^2}\\\\right]e_t- e_t(\\\\sqrt{\\\\bar{\\\\alpha}_t}x_0+\\\\sqrt{1-\\\\bar{\\\\alpha}_t}\\\\epsilon_t,t)\"}"
+      }
+    ],
+    "images": [
+      "images/train/formula-04.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请逐项解释公式中的符号、结构和整体含义。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：左端为 L_t；右端包含 L_{rec}、分式项以及带根号的 e_t 项。可见文字或符号：L_t=L_{rec}+\\left[\\frac{(1-\\alpha_t)^2}{2\\alpha_t(1-\\bar{\\alpha}_t)\\lVert\\Sigma_\\theta\\rVert_2^2}\\right]e_t- e_t(\\sqrt{\\bar{\\alpha}_t}x_0+\\sqrt{1-\\bar{\\alpha}_t}\\epsilon_t,t)。这些线索支持将主体判断为“一条红字黑底的组合损失函数”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/formula-04.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图片是一张统计数据表而不是公式”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是一条红字黑底的组合损失函数；左端为 L_t；右端包含 L_{rec}、分式项以及带根号的 e_t 项；可见文字或符号为：L_t=L_{rec}+\\left[\\frac{(1-\\alpha_t)^2}{2\\alpha_t(1-\\bar{\\alpha}_t)\\lVert\\Sigma_\\theta\\rVert_2^2}\\right]e_t- e_t(\\sqrt{\\bar{\\alpha}_t}x_0+\\sqrt{1-\\bar{\\alpha}_t}\\epsilon_t,t)。"
+      }
+    ],
+    "images": [
+      "images/train/formula-04.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中的公式，并解释各部分表达的含义。"
+      },
+      {
+        "role": "assistant",
+        "content": "转写：\\begin{cases}25a-5b+c=1\\\\a-b+c=1\\\\9a-3b+c=0\\end{cases}。结构：左侧用大括号连接三行；未知量为 a、b、c。含义：只说明图中可见的符号和运算结构；具体物理语义、变量取值或计算结果不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/formula-05.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"formula\", \"details\": [\"左侧用大括号连接三行\", \"未知量为 a、b、c\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"一个包含三条线性方程的方程组\", \"visible_text\": \"\\\\begin{cases}25a-5b+c=1\\\\\\\\a-b+c=1\\\\\\\\9a-3b+c=0\\\\end{cases}\"}"
+      }
+    ],
+    "images": [
+      "images/train/formula-05.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请逐项解释公式中的符号、结构和整体含义。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：左侧用大括号连接三行；未知量为 a、b、c。可见文字或符号：\\begin{cases}25a-5b+c=1\\\\a-b+c=1\\\\9a-3b+c=0\\end{cases}。这些线索支持将主体判断为“一个包含三条线性方程的方程组”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/formula-05.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图中没有等号或数学符号”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是一个包含三条线性方程的方程组；左侧用大括号连接三行；未知量为 a、b、c；可见文字或符号为：\\begin{cases}25a-5b+c=1\\\\a-b+c=1\\\\9a-3b+c=0\\end{cases}。"
+      }
+    ],
+    "images": [
+      "images/train/formula-05.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中的公式，并解释各部分表达的含义。"
+      },
+      {
+        "role": "assistant",
+        "content": "转写：\\begin{bmatrix}0&1&0&0\\\\0&0&\\frac{m^2gl^2}{Mml^2}&0\\\\0&0&0&1\\\\0&0&-\\frac{mgl(M+m)}{Mml^2}&0\\end{bmatrix}。结构：矩阵多数元素为 0；非零项包含 1、m^2gl^2/(Mml^2) 和 -mgl(M+m)/(Mml^2)。含义：只说明图中可见的符号和运算结构；具体物理语义、变量取值或计算结果不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/formula-06.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"formula\", \"details\": [\"矩阵多数元素为 0\", \"非零项包含 1、m^2gl^2/(Mml^2) 和 -mgl(M+m)/(Mml^2)\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"一个四行四列的稀疏矩阵\", \"visible_text\": \"\\\\begin{bmatrix}0&1&0&0\\\\\\\\0&0&\\\\frac{m^2gl^2}{Mml^2}&0\\\\\\\\0&0&0&1\\\\\\\\0&0&-\\\\frac{mgl(M+m)}{Mml^2}&0\\\\end{bmatrix}\"}"
+      }
+    ],
+    "images": [
+      "images/train/formula-06.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请逐项解释公式中的符号、结构和整体含义。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：矩阵多数元素为 0；非零项包含 1、m^2gl^2/(Mml^2) 和 -mgl(M+m)/(Mml^2)。可见文字或符号：\\begin{bmatrix}0&1&0&0\\\\0&0&\\frac{m^2gl^2}{Mml^2}&0\\\\0&0&0&1\\\\0&0&-\\frac{mgl(M+m)}{Mml^2}&0\\end{bmatrix}。这些线索支持将主体判断为“一个四行四列的稀疏矩阵”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/formula-06.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“表达式只包含普通中文段落”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是一个四行四列的稀疏矩阵；矩阵多数元素为 0；非零项包含 1、m^2gl^2/(Mml^2) 和 -mgl(M+m)/(Mml^2)；可见文字或符号为：\\begin{bmatrix}0&1&0&0\\\\0&0&\\frac{m^2gl^2}{Mml^2}&0\\\\0&0&0&1\\\\0&0&-\\frac{mgl(M+m)}{Mml^2}&0\\end{bmatrix}。"
+      }
+    ],
+    "images": [
+      "images/train/formula-06.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中的公式，并解释各部分表达的含义。"
+      },
+      {
+        "role": "assistant",
+        "content": "转写：s_2-s_1=\\int_{t_1}^{t_2}v\\,dt。结构：左端为 s_2-s_1；积分上下限为 t_1 和 t_2，被积函数为 v。含义：只说明图中可见的符号和运算结构；具体物理语义、变量取值或计算结果不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/formula-07.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"formula\", \"details\": [\"左端为 s_2-s_1\", \"积分上下限为 t_1 和 t_2，被积函数为 v\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"一条手写的位移与速度积分关系式\", \"visible_text\": \"s_2-s_1=\\\\int_{t_1}^{t_2}v\\\\,dt\"}"
+      }
+    ],
+    "images": [
+      "images/train/formula-07.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请逐项解释公式中的符号、结构和整体含义。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：左端为 s_2-s_1；积分上下限为 t_1 和 t_2，被积函数为 v。可见文字或符号：s_2-s_1=\\int_{t_1}^{t_2}v\\,dt。这些线索支持将主体判断为“一条手写的位移与速度积分关系式”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/formula-07.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“公式的结果明确等于零”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是一条手写的位移与速度积分关系式；左端为 s_2-s_1；积分上下限为 t_1 和 t_2，被积函数为 v；可见文字或符号为：s_2-s_1=\\int_{t_1}^{t_2}v\\,dt。"
+      }
+    ],
+    "images": [
+      "images/train/formula-07.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中的公式，并解释各部分表达的含义。"
+      },
+      {
+        "role": "assistant",
+        "content": "转写：\\int_{-\\infty}^{+\\infty} e^{-t(s+\\frac{2ij}{s+t})^2}\\,ds=\\int_{-\\infty}^{+\\infty}e^{-ts^2}\\,ds。结构：左右两边积分上下限均为负无穷到正无穷；被积函数含指数项，左侧还含 ds。含义：只说明图中可见的符号和运算结构；具体物理语义、变量取值或计算结果不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/formula-08.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"formula\", \"details\": [\"左右两边积分上下限均为负无穷到正无穷\", \"被积函数含指数项，左侧还含 ds\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"一条手写的广义积分等式\", \"visible_text\": \"\\\\int_{-\\\\infty}^{+\\\\infty} e^{-t(s+\\\\frac{2ij}{s+t})^2}\\\\,ds=\\\\int_{-\\\\infty}^{+\\\\infty}e^{-ts^2}\\\\,ds\"}"
+      }
+    ],
+    "images": [
+      "images/train/formula-08.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请逐项解释公式中的符号、结构和整体含义。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：左右两边积分上下限均为负无穷到正无穷；被积函数含指数项，左侧还含 ds。可见文字或符号：\\int_{-\\infty}^{+\\infty} e^{-t(s+\\frac{2ij}{s+t})^2}\\,ds=\\int_{-\\infty}^{+\\infty}e^{-ts^2}\\,ds。这些线索支持将主体判断为“一条手写的广义积分等式”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/formula-08.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图片是一张统计数据表而不是公式”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是一条手写的广义积分等式；左右两边积分上下限均为负无穷到正无穷；被积函数含指数项，左侧还含 ds；可见文字或符号为：\\int_{-\\infty}^{+\\infty} e^{-t(s+\\frac{2ij}{s+t})^2}\\,ds=\\int_{-\\infty}^{+\\infty}e^{-ts^2}\\,ds。"
+      }
+    ],
+    "images": [
+      "images/train/formula-08.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中的公式，并解释各部分表达的含义。"
+      },
+      {
+        "role": "assistant",
+        "content": "转写：\\begin{cases}\\frac{dy}{dx}+y=3\\\\\\frac{d^2y}{dx^2}+3\\left(\\frac{dy}{dx}\\right)^3+y^3=0\\end{cases}。结构：第一行是一阶导数 dy/dx 与 y 的关系；第二行包含二阶导数和一阶导数的三次方。含义：只说明图中可见的符号和运算结构；具体物理语义、变量取值或计算结果不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/formula-09.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"formula\", \"details\": [\"第一行是一阶导数 dy/dx 与 y 的关系\", \"第二行包含二阶导数和一阶导数的三次方\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"由两条常微分方程组成的手写方程组\", \"visible_text\": \"\\\\begin{cases}\\\\frac{dy}{dx}+y=3\\\\\\\\\\\\frac{d^2y}{dx^2}+3\\\\left(\\\\frac{dy}{dx}\\\\right)^3+y^3=0\\\\end{cases}\"}"
+      }
+    ],
+    "images": [
+      "images/train/formula-09.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请逐项解释公式中的符号、结构和整体含义。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：第一行是一阶导数 dy/dx 与 y 的关系；第二行包含二阶导数和一阶导数的三次方。可见文字或符号：\\begin{cases}\\frac{dy}{dx}+y=3\\\\\\frac{d^2y}{dx^2}+3\\left(\\frac{dy}{dx}\\right)^3+y^3=0\\end{cases}。这些线索支持将主体判断为“由两条常微分方程组成的手写方程组”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/formula-09.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图中没有等号或数学符号”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是由两条常微分方程组成的手写方程组；第一行是一阶导数 dy/dx 与 y 的关系；第二行包含二阶导数和一阶导数的三次方；可见文字或符号为：\\begin{cases}\\frac{dy}{dx}+y=3\\\\\\frac{d^2y}{dx^2}+3\\left(\\frac{dy}{dx}\\right)^3+y^3=0\\end{cases}。"
+      }
+    ],
+    "images": [
+      "images/train/formula-09.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中的公式，并解释各部分表达的含义。"
+      },
+      {
+        "role": "assistant",
+        "content": "转写：\\lim_{x\\to\\frac14}\\frac{1-4^{x-\\frac14}}{1-4x}。结构：自变量 x 趋近 1/4；分子为 1-4^{x-1/4}，分母为 1-4x。含义：只说明图中可见的符号和运算结构；具体物理语义、变量取值或计算结果不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/formula-10.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"formula\", \"details\": [\"自变量 x 趋近 1/4\", \"分子为 1-4^{x-1/4}，分母为 1-4x\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"一个手写极限表达式\", \"visible_text\": \"\\\\lim_{x\\\\to\\\\frac14}\\\\frac{1-4^{x-\\\\frac14}}{1-4x}\"}"
+      }
+    ],
+    "images": [
+      "images/train/formula-10.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请逐项解释公式中的符号、结构和整体含义。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：自变量 x 趋近 1/4；分子为 1-4^{x-1/4}，分母为 1-4x。可见文字或符号：\\lim_{x\\to\\frac14}\\frac{1-4^{x-\\frac14}}{1-4x}。这些线索支持将主体判断为“一个手写极限表达式”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/formula-10.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“表达式只包含普通中文段落”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是一个手写极限表达式；自变量 x 趋近 1/4；分子为 1-4^{x-1/4}，分母为 1-4x；可见文字或符号为：\\lim_{x\\to\\frac14}\\frac{1-4^{x-\\frac14}}{1-4x}。"
+      }
+    ],
+    "images": [
+      "images/train/formula-10.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请客观描述图中的主体、环境和重要细节。"
+      },
+      {
+        "role": "assistant",
+        "content": "主体与场景：一名穿橙色宇航服的女宇航员半身肖像。可见细节：人物身后有美国国旗；右后方可见白色火箭模型，前景有黑色头盔。图中未确认的地点、时间、型号或人物身份不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-01.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"natural_scene\", \"details\": [\"人物身后有美国国旗\", \"右后方可见白色火箭模型，前景有黑色头盔\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"一名穿橙色宇航服的女宇航员半身肖像\", \"visible_text\": \"宇航服胸前可见 NASA 风格任务徽章\"}"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-01.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n你是根据哪些可见线索得出这段图像描述的？"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：人物身后有美国国旗；右后方可见白色火箭模型，前景有黑色头盔。可见文字或符号：宇航服胸前可见 NASA 风格任务徽章。这些线索支持将主体判断为“一名穿橙色宇航服的女宇航员半身肖像”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-01.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图中主体是一辆蓝色公交车”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是一名穿橙色宇航服的女宇航员半身肖像；人物身后有美国国旗；右后方可见白色火箭模型，前景有黑色头盔；可见文字或符号为：宇航服胸前可见 NASA 风格任务徽章。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-01.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请客观描述图中的主体、环境和重要细节。"
+      },
+      {
+        "role": "assistant",
+        "content": "主体与场景：一名在户外操作三脚架相机的男子。可见细节：画面为黑白照片；男子弯腰贴近取景器，远处有建筑和树木。图中未确认的地点、时间、型号或人物身份不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-02.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"natural_scene\", \"details\": [\"画面为黑白照片\", \"男子弯腰贴近取景器，远处有建筑和树木\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"一名在户外操作三脚架相机的男子\", \"visible_text\": \"无需要转写的主体文字\"}"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-02.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n你是根据哪些可见线索得出这段图像描述的？"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：画面为黑白照片；男子弯腰贴近取景器，远处有建筑和树木。可见文字或符号：无需要转写的主体文字。这些线索支持将主体判断为“一名在户外操作三脚架相机的男子”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-02.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“画面右上角有醒目的红色文字”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是一名在户外操作三脚架相机的男子；画面为黑白照片；男子弯腰贴近取景器，远处有建筑和树木；可见文字或符号为：无需要转写的主体文字。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-02.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请客观描述图中的主体、环境和重要细节。"
+      },
+      {
+        "role": "assistant",
+        "content": "主体与场景：一只棕色虎斑猫的面部特写。可见细节：猫有黄绿色眼睛；鼻子位于画面中央，背景明显虚化。图中未确认的地点、时间、型号或人物身份不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-03.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"natural_scene\", \"details\": [\"猫有黄绿色眼睛\", \"鼻子位于画面中央，背景明显虚化\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"一只棕色虎斑猫的面部特写\", \"visible_text\": \"无需要转写的主体文字\"}"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-03.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n你是根据哪些可见线索得出这段图像描述的？"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：猫有黄绿色眼睛；鼻子位于画面中央，背景明显虚化。可见文字或符号：无需要转写的主体文字。这些线索支持将主体判断为“一只棕色虎斑猫的面部特写”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-03.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图中至少有三个人正在交谈”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是一只棕色虎斑猫的面部特写；猫有黄绿色眼睛；鼻子位于画面中央，背景明显虚化；可见文字或符号为：无需要转写的主体文字。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-03.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请客观描述图中的主体、环境和重要细节。"
+      },
+      {
+        "role": "assistant",
+        "content": "主体与场景：木桌上的一杯咖啡。可见细节：白色咖啡杯放在红色杯碟上；杯碟右侧放有一把金属小勺。图中未确认的地点、时间、型号或人物身份不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-04.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"natural_scene\", \"details\": [\"白色咖啡杯放在红色杯碟上\", \"杯碟右侧放有一把金属小勺\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"木桌上的一杯咖啡\", \"visible_text\": \"无需要转写的主体文字\"}"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-04.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n你是根据哪些可见线索得出这段图像描述的？"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：白色咖啡杯放在红色杯碟上；杯碟右侧放有一把金属小勺。可见文字或符号：无需要转写的主体文字。这些线索支持将主体判断为“木桌上的一杯咖啡”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-04.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“画面是室内会议室”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是木桌上的一杯咖啡；白色咖啡杯放在红色杯碟上；杯碟右侧放有一把金属小勺；可见文字或符号为：无需要转写的主体文字。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-04.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请客观描述图中的主体、环境和重要细节。"
+      },
+      {
+        "role": "assistant",
+        "content": "主体与场景：深色背景上按行摆放的多枚硬币。可见细节：硬币大小和图案各不相同；图像为灰度照片，共有多行硬币。图中未确认的地点、时间、型号或人物身份不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-05.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"natural_scene\", \"details\": [\"硬币大小和图案各不相同\", \"图像为灰度照片，共有多行硬币\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"深色背景上按行摆放的多枚硬币\", \"visible_text\": \"无需要转写的主体文字\"}"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-05.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n你是根据哪些可见线索得出这段图像描述的？"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：硬币大小和图案各不相同；图像为灰度照片，共有多行硬币。可见文字或符号：无需要转写的主体文字。这些线索支持将主体判断为“深色背景上按行摆放的多枚硬币”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-05.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图中主体是一辆蓝色公交车”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是深色背景上按行摆放的多枚硬币；硬币大小和图案各不相同；图像为灰度照片，共有多行硬币；可见文字或符号为：无需要转写的主体文字。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-05.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请客观描述图中的主体、环境和重要细节。"
+      },
+      {
+        "role": "assistant",
+        "content": "主体与场景：由长方形砖块组成的规则表面纹理。可见细节：砖块呈灰色；砖缝形成错位的横纵线条。图中未确认的地点、时间、型号或人物身份不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-06.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"natural_scene\", \"details\": [\"砖块呈灰色\", \"砖缝形成错位的横纵线条\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"由长方形砖块组成的规则表面纹理\", \"visible_text\": \"无需要转写的主体文字\"}"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-06.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n你是根据哪些可见线索得出这段图像描述的？"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：砖块呈灰色；砖缝形成错位的横纵线条。可见文字或符号：无需要转写的主体文字。这些线索支持将主体判断为“由长方形砖块组成的规则表面纹理”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-06.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“画面右上角有醒目的红色文字”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是由长方形砖块组成的规则表面纹理；砖块呈灰色；砖缝形成错位的横纵线条；可见文字或符号为：无需要转写的主体文字。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-06.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请客观描述图中的主体、环境和重要细节。"
+      },
+      {
+        "role": "assistant",
+        "content": "主体与场景：近距离拍摄的草地纹理。可见细节：画面由交错的草叶覆盖；图像为灰度或低饱和度。图中未确认的地点、时间、型号或人物身份不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-07.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"natural_scene\", \"details\": [\"画面由交错的草叶覆盖\", \"图像为灰度或低饱和度\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"近距离拍摄的草地纹理\", \"visible_text\": \"无需要转写的主体文字\"}"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-07.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n你是根据哪些可见线索得出这段图像描述的？"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：画面由交错的草叶覆盖；图像为灰度或低饱和度。可见文字或符号：无需要转写的主体文字。这些线索支持将主体判断为“近距离拍摄的草地纹理”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-07.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图中至少有三个人正在交谈”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是近距离拍摄的草地纹理；画面由交错的草叶覆盖；图像为灰度或低饱和度；可见文字或符号为：无需要转写的主体文字。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-07.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请客观描述图中的主体、环境和重要细节。"
+      },
+      {
+        "role": "assistant",
+        "content": "主体与场景：铺满画面的碎石纹理。可见细节：碎石大小接近但形状不规则；画面没有明显前景主体或文字。图中未确认的地点、时间、型号或人物身份不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-08.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"natural_scene\", \"details\": [\"碎石大小接近但形状不规则\", \"画面没有明显前景主体或文字\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"铺满画面的碎石纹理\", \"visible_text\": \"无需要转写的主体文字\"}"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-08.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n你是根据哪些可见线索得出这段图像描述的？"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：碎石大小接近但形状不规则；画面没有明显前景主体或文字。可见文字或符号：无需要转写的主体文字。这些线索支持将主体判断为“铺满画面的碎石纹理”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-08.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“画面是室内会议室”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是铺满画面的碎石纹理；碎石大小接近但形状不规则；画面没有明显前景主体或文字；可见文字或符号为：无需要转写的主体文字。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-08.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请客观描述图中的主体、环境和重要细节。"
+      },
+      {
+        "role": "assistant",
+        "content": "主体与场景：白色背景上的黑色马匹侧面剪影。可见细节：马头朝向右侧；四条腿、尾巴和耳朵轮廓清晰。图中未确认的地点、时间、型号或人物身份不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-09.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"natural_scene\", \"details\": [\"马头朝向右侧\", \"四条腿、尾巴和耳朵轮廓清晰\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"白色背景上的黑色马匹侧面剪影\", \"visible_text\": \"无需要转写的主体文字\"}"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-09.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n你是根据哪些可见线索得出这段图像描述的？"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：马头朝向右侧；四条腿、尾巴和耳朵轮廓清晰。可见文字或符号：无需要转写的主体文字。这些线索支持将主体判断为“白色背景上的黑色马匹侧面剪影”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-09.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图中主体是一辆蓝色公交车”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是白色背景上的黑色马匹侧面剪影；马头朝向右侧；四条腿、尾巴和耳朵轮廓清晰；可见文字或符号为：无需要转写的主体文字。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-09.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请客观描述图中的主体、环境和重要细节。"
+      },
+      {
+        "role": "assistant",
+        "content": "主体与场景：布满星系和恒星的深空图像。可见细节：背景接近黑色；可见大量不同颜色和亮度的点状、团状天体。图中未确认的地点、时间、型号或人物身份不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-10.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"natural_scene\", \"details\": [\"背景接近黑色\", \"可见大量不同颜色和亮度的点状、团状天体\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"布满星系和恒星的深空图像\", \"visible_text\": \"无需要转写的主体文字\"}"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-10.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n你是根据哪些可见线索得出这段图像描述的？"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：背景接近黑色；可见大量不同颜色和亮度的点状、团状天体。可见文字或符号：无需要转写的主体文字。这些线索支持将主体判断为“布满星系和恒星的深空图像”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-10.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“画面右上角有醒目的红色文字”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是布满星系和恒星的深空图像；背景接近黑色；可见大量不同颜色和亮度的点状、团状天体；可见文字或符号为：无需要转写的主体文字。"
+      }
+    ],
+    "images": [
+      "images/train/natural_scene-10.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中清晰可见的文字；无法确认的部分不要猜测。"
+      },
+      {
+        "role": "assistant",
+        "content": "清晰转写：BOARDING PASS；MU 2379；03DEC；FUZHOU；TAIYUAN；ZHANGQIWEI；G11。版面依据：票面包含航班、日期、座位、出发地和目的地字段；右侧有红色印章，底部有条形码。模糊、遮挡或被裁切的其余内容不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-01.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"ocr\", \"details\": [\"票面包含航班、日期、座位、出发地和目的地字段\", \"右侧有红色印章，底部有条形码\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"一张中英文登机牌\", \"visible_text\": \"BOARDING PASS；MU 2379；03DEC；FUZHOU；TAIYUAN；ZHANGQIWEI；G11\"}"
+      }
+    ],
+    "images": [
+      "images/train/ocr-01.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请解释转写结果，并指出辨认这些文字所依据的视觉位置或排版线索。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：票面包含航班、日期、座位、出发地和目的地字段；右侧有红色印章，底部有条形码。可见文字或符号：BOARDING PASS；MU 2379；03DEC；FUZHOU；TAIYUAN；ZHANGQIWEI；G11。这些线索支持将主体判断为“一张中英文登机牌”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-01.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图中清楚写着 WELCOME HOME”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是一张中英文登机牌；票面包含航班、日期、座位、出发地和目的地字段；右侧有红色印章，底部有条形码；可见文字或符号为：BOARDING PASS；MU 2379；03DEC；FUZHOU；TAIYUAN；ZHANGQIWEI；G11。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-01.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中清晰可见的文字；无法确认的部分不要猜测。"
+      },
+      {
+        "role": "assistant",
+        "content": "清晰转写：BLUE LAGOON；TROPICAL BAR & GRILL；SEA YARD COFFEE；Hy-Vee；WAL-MART。版面依据：上排可见椭圆或矩形商店招牌；中下部可见球员背影和体育场入口。模糊、遮挡或被裁切的其余内容不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-02.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"ocr\", \"details\": [\"上排可见椭圆或矩形商店招牌\", \"中下部可见球员背影和体育场入口\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"由多张英文招牌和体育照片组成的拼图\", \"visible_text\": \"BLUE LAGOON；TROPICAL BAR & GRILL；SEA YARD COFFEE；Hy-Vee；WAL-MART\"}"
+      }
+    ],
+    "images": [
+      "images/train/ocr-02.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请解释转写结果，并指出辨认这些文字所依据的视觉位置或排版线索。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：上排可见椭圆或矩形商店招牌；中下部可见球员背影和体育场入口。可见文字或符号：BLUE LAGOON；TROPICAL BAR & GRILL；SEA YARD COFFEE；Hy-Vee；WAL-MART。这些线索支持将主体判断为“由多张英文招牌和体育照片组成的拼图”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-02.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“所有文字都是英文印刷体”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是由多张英文招牌和体育照片组成的拼图；上排可见椭圆或矩形商店招牌；中下部可见球员背影和体育场入口；可见文字或符号为：BLUE LAGOON；TROPICAL BAR & GRILL；SEA YARD COFFEE；Hy-Vee；WAL-MART。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-02.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中清晰可见的文字；无法确认的部分不要猜测。"
+      },
+      {
+        "role": "assistant",
+        "content": "清晰转写：放；澳；吧；把；板（个别字形可能受手写体影响）。版面依据：每个字位于独立浅色小框内；笔迹为黑灰色且粗细不一。模糊、遮挡或被裁切的其余内容不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-03.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"ocr\", \"details\": [\"每个字位于独立浅色小框内\", \"笔迹为黑灰色且粗细不一\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"五个分隔开的手写汉字样本\", \"visible_text\": \"放；澳；吧；把；板（个别字形可能受手写体影响）\"}"
+      }
+    ],
+    "images": [
+      "images/train/ocr-03.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请解释转写结果，并指出辨认这些文字所依据的视觉位置或排版线索。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：每个字位于独立浅色小框内；笔迹为黑灰色且粗细不一。可见文字或符号：放；澳；吧；把；板（个别字形可能受手写体影响）。这些线索支持将主体判断为“五个分隔开的手写汉字样本”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-03.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图中的数字只有 2024”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是五个分隔开的手写汉字样本；每个字位于独立浅色小框内；笔迹为黑灰色且粗细不一；可见文字或符号为：放；澳；吧；把；板（个别字形可能受手写体影响）。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-03.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中清晰可见的文字；无法确认的部分不要猜测。"
+      },
+      {
+        "role": "assistant",
+        "content": "清晰转写：可见多处中文店名与服务文字；小字号内容不宜强行补全。版面依据：左图是商铺入口及多块绿色标牌；右图包含黄色横向招牌和红色竖向招牌。模糊、遮挡或被裁切的其余内容不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-04.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"ocr\", \"details\": [\"左图是商铺入口及多块绿色标牌\", \"右图包含黄色横向招牌和红色竖向招牌\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"两张街景招牌检测示例的并排拼图\", \"visible_text\": \"可见多处中文店名与服务文字；小字号内容不宜强行补全\"}"
+      }
+    ],
+    "images": [
+      "images/train/ocr-04.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请解释转写结果，并指出辨认这些文字所依据的视觉位置或排版线索。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：左图是商铺入口及多块绿色标牌；右图包含黄色横向招牌和红色竖向招牌。可见文字或符号：可见多处中文店名与服务文字；小字号内容不宜强行补全。这些线索支持将主体判断为“两张街景招牌检测示例的并排拼图”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-04.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图片完全不含可读文字”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是两张街景招牌检测示例的并排拼图；左图是商铺入口及多块绿色标牌；右图包含黄色横向招牌和红色竖向招牌；可见文字或符号为：可见多处中文店名与服务文字；小字号内容不宜强行补全。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-04.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中清晰可见的文字；无法确认的部分不要猜测。"
+      },
+      {
+        "role": "assistant",
+        "content": "清晰转写：GT: 依佳人网咖；GT: 赫伦芭蕾国际艺术教育。版面依据：左图为深色网咖招牌；右图为红色艺术教育机构招牌。模糊、遮挡或被裁切的其余内容不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-05.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"ocr\", \"details\": [\"左图为深色网咖招牌\", \"右图为红色艺术教育机构招牌\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"两张中文店面招牌及其标注文字\", \"visible_text\": \"GT: 依佳人网咖；GT: 赫伦芭蕾国际艺术教育\"}"
+      }
+    ],
+    "images": [
+      "images/train/ocr-05.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请解释转写结果，并指出辨认这些文字所依据的视觉位置或排版线索。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：左图为深色网咖招牌；右图为红色艺术教育机构招牌。可见文字或符号：GT: 依佳人网咖；GT: 赫伦芭蕾国际艺术教育。这些线索支持将主体判断为“两张中文店面招牌及其标注文字”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-05.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图中清楚写着 WELCOME HOME”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是两张中文店面招牌及其标注文字；左图为深色网咖招牌；右图为红色艺术教育机构招牌；可见文字或符号为：GT: 依佳人网咖；GT: 赫伦芭蕾国际艺术教育。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-05.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中清晰可见的文字；无法确认的部分不要猜测。"
+      },
+      {
+        "role": "assistant",
+        "content": "清晰转写：可辨认若干数字串与字母 d、m；由于手写重叠，不应声称完整精确转写。版面依据：字符按行排列，颜色包括灰、绿、蓝、紫等；部分笔画重叠或不清晰。模糊、遮挡或被裁切的其余内容不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-06.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"ocr\", \"details\": [\"字符按行排列，颜色包括灰、绿、蓝、紫等\", \"部分笔画重叠或不清晰\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"一组多行彩色手写数字与字母\", \"visible_text\": \"可辨认若干数字串与字母 d、m；由于手写重叠，不应声称完整精确转写\"}"
+      }
+    ],
+    "images": [
+      "images/train/ocr-06.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请解释转写结果，并指出辨认这些文字所依据的视觉位置或排版线索。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：字符按行排列，颜色包括灰、绿、蓝、紫等；部分笔画重叠或不清晰。可见文字或符号：可辨认若干数字串与字母 d、m；由于手写重叠，不应声称完整精确转写。这些线索支持将主体判断为“一组多行彩色手写数字与字母”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-06.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“所有文字都是英文印刷体”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是一组多行彩色手写数字与字母；字符按行排列，颜色包括灰、绿、蓝、紫等；部分笔画重叠或不清晰；可见文字或符号为：可辨认若干数字串与字母 d、m；由于手写重叠，不应声称完整精确转写。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-06.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中清晰可见的文字；无法确认的部分不要猜测。"
+      },
+      {
+        "role": "assistant",
+        "content": "清晰转写：可见皖A开头的车牌，后续字符近似 533Y3，需保留不确定性。版面依据：蓝色牌照位于画面中央；白色字符受透视和反光影响。模糊、遮挡或被裁切的其余内容不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-07.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"ocr\", \"details\": [\"蓝色牌照位于画面中央\", \"白色字符受透视和反光影响\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"车辆牌照的倾斜近景\", \"visible_text\": \"可见皖A开头的车牌，后续字符近似 533Y3，需保留不确定性\"}"
+      }
+    ],
+    "images": [
+      "images/train/ocr-07.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请解释转写结果，并指出辨认这些文字所依据的视觉位置或排版线索。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：蓝色牌照位于画面中央；白色字符受透视和反光影响。可见文字或符号：可见皖A开头的车牌，后续字符近似 533Y3，需保留不确定性。这些线索支持将主体判断为“车辆牌照的倾斜近景”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-07.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图中的数字只有 2024”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是车辆牌照的倾斜近景；蓝色牌照位于画面中央；白色字符受透视和反光影响；可见文字或符号为：可见皖A开头的车牌，后续字符近似 533Y3，需保留不确定性。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-07.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中清晰可见的文字；无法确认的部分不要猜测。"
+      },
+      {
+        "role": "assistant",
+        "content": "清晰转写：如，和对旋游表演形式（中部字形较模糊）。版面依据：文字横向排列；左侧开头为“如，”。模糊、遮挡或被裁切的其余内容不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-08.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"ocr\", \"details\": [\"文字横向排列\", \"左侧开头为“如，”\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"灰底黑字的中文文本行裁片\", \"visible_text\": \"如，和对旋游表演形式（中部字形较模糊）\"}"
+      }
+    ],
+    "images": [
+      "images/train/ocr-08.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请解释转写结果，并指出辨认这些文字所依据的视觉位置或排版线索。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：文字横向排列；左侧开头为“如，”。可见文字或符号：如，和对旋游表演形式（中部字形较模糊）。这些线索支持将主体判断为“灰底黑字的中文文本行裁片”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-08.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图片完全不含可读文字”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是灰底黑字的中文文本行裁片；文字横向排列；左侧开头为“如，”；可见文字或符号为：如，和对旋游表演形式（中部字形较模糊）。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-08.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中清晰可见的文字；无法确认的部分不要猜测。"
+      },
+      {
+        "role": "assistant",
+        "content": "清晰转写：4年工作报告》中指出。版面依据：文字为印刷体；右端仍有被裁切的后续内容。模糊、遮挡或被裁切的其余内容不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-09.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"ocr\", \"details\": [\"文字为印刷体\", \"右端仍有被裁切的后续内容\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"灰底黑字的中文报告文本行裁片\", \"visible_text\": \"4年工作报告》中指出\"}"
+      }
+    ],
+    "images": [
+      "images/train/ocr-09.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请解释转写结果，并指出辨认这些文字所依据的视觉位置或排版线索。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：文字为印刷体；右端仍有被裁切的后续内容。可见文字或符号：4年工作报告》中指出。这些线索支持将主体判断为“灰底黑字的中文报告文本行裁片”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-09.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图中清楚写着 WELCOME HOME”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是灰底黑字的中文报告文本行裁片；文字为印刷体；右端仍有被裁切的后续内容；可见文字或符号为：4年工作报告》中指出。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-09.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中清晰可见的文字；无法确认的部分不要猜测。"
+      },
+      {
+        "role": "assistant",
+        "content": "清晰转写：魅派集成吊顶。版面依据：大字横向排列；背景为深色。模糊、遮挡或被裁切的其余内容不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-10.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"ocr\", \"details\": [\"大字横向排列\", \"背景为深色\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"蓝白描边的中文门店招牌\", \"visible_text\": \"魅派集成吊顶\"}"
+      }
+    ],
+    "images": [
+      "images/train/ocr-10.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请解释转写结果，并指出辨认这些文字所依据的视觉位置或排版线索。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：大字横向排列；背景为深色。可见文字或符号：魅派集成吊顶。这些线索支持将主体判断为“蓝白描边的中文门店招牌”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-10.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“所有文字都是英文印刷体”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是蓝白描边的中文门店招牌；大字横向排列；背景为深色；可见文字或符号为：魅派集成吊顶。"
+      }
+    ],
+    "images": [
+      "images/train/ocr-10.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请说明当前界面的用途、主要区域以及用户可以执行的操作。"
+      },
+      {
+        "role": "assistant",
+        "content": "界面用途与场景：Windows 上打开的 Microsoft Excel 空白工作簿。主要区域：顶部是功能区和公式栏；中央是带行号列标的空白单元格网格。可执行操作：选择或编辑单元格、输入数据或公式，并使用顶部功能区。未显示的按钮、弹窗或系统状态不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/ui-01.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"ui\", \"details\": [\"顶部是功能区和公式栏\", \"中央是带行号列标的空白单元格网格\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"Windows 上打开的 Microsoft Excel 空白工作簿\", \"visible_text\": \"Excel 功能区可见 Home 等标签，工作表区域尚未输入数据\"}"
+      }
+    ],
+    "images": [
+      "images/train/ui-01.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请解释这个界面的信息层级，以及完成主要操作的步骤。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：顶部是功能区和公式栏；中央是带行号列标的空白单元格网格。可见文字或符号：Excel 功能区可见 Home 等标签，工作表区域尚未输入数据。这些线索支持将主体判断为“Windows 上打开的 Microsoft Excel 空白工作簿”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/ui-01.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“界面正在显示打印对话框”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是Windows 上打开的 Microsoft Excel 空白工作簿；顶部是功能区和公式栏；中央是带行号列标的空白单元格网格；可见文字或符号为：Excel 功能区可见 Home 等标签，工作表区域尚未输入数据。"
+      }
+    ],
+    "images": [
+      "images/train/ui-01.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请说明当前界面的用途、主要区域以及用户可以执行的操作。"
+      },
+      {
+        "role": "assistant",
+        "content": "界面用途与场景：浏览器中的 Google 搜索主页。主要区域：中央有 Google 标志和搜索框；页面顶部和底部有导航链接。可执行操作：在搜索框输入关键词并提交搜索，或打开可见导航链接。未显示的按钮、弹窗或系统状态不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/ui-02.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"ui\", \"details\": [\"中央有 Google 标志和搜索框\", \"页面顶部和底部有导航链接\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"浏览器中的 Google 搜索主页\", \"visible_text\": \"Google；Google Search；I'm Feeling Lucky\"}"
+      }
+    ],
+    "images": [
+      "images/train/ui-02.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请解释这个界面的信息层级，以及完成主要操作的步骤。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：中央有 Google 标志和搜索框；页面顶部和底部有导航链接。可见文字或符号：Google；Google Search；I'm Feeling Lucky。这些线索支持将主体判断为“浏览器中的 Google 搜索主页”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/ui-02.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“屏幕中央弹出了系统错误提示”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是浏览器中的 Google 搜索主页；中央有 Google 标志和搜索框；页面顶部和底部有导航链接；可见文字或符号为：Google；Google Search；I'm Feeling Lucky。"
+      }
+    ],
+    "images": [
+      "images/train/ui-02.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请说明当前界面的用途、主要区域以及用户可以执行的操作。"
+      },
+      {
+        "role": "assistant",
+        "content": "界面用途与场景：一部 iPhone 的主屏幕应用网格。主要区域：多行应用图标排列在蓝色背景上；底部 Dock 栏含电话、信息等常用应用。可执行操作：点击应用图标启动应用，或使用底部 Dock 切换常用应用。未显示的按钮、弹窗或系统状态不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/ui-03.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"ui\", \"details\": [\"多行应用图标排列在蓝色背景上\", \"底部 Dock 栏含电话、信息等常用应用\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"一部 iPhone 的主屏幕应用网格\", \"visible_text\": \"图标中可见 X、TikTok 等应用标识\"}"
+      }
+    ],
+    "images": [
+      "images/train/ui-03.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请解释这个界面的信息层级，以及完成主要操作的步骤。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：多行应用图标排列在蓝色背景上；底部 Dock 栏含电话、信息等常用应用。可见文字或符号：图标中可见 X、TikTok 等应用标识。这些线索支持将主体判断为“一部 iPhone 的主屏幕应用网格”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/ui-03.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“用户正在视频通话且摄像头已打开”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是一部 iPhone 的主屏幕应用网格；多行应用图标排列在蓝色背景上；底部 Dock 栏含电话、信息等常用应用；可见文字或符号为：图标中可见 X、TikTok 等应用标识。"
+      }
+    ],
+    "images": [
+      "images/train/ui-03.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请说明当前界面的用途、主要区域以及用户可以执行的操作。"
+      },
+      {
+        "role": "assistant",
+        "content": "界面用途与场景：横向显示的 iPadOS 主屏幕。主要区域：左侧有天气、时钟和日历等小组件；底部为应用 Dock，背景是卡通羊图案。可执行操作：点击应用或 Dock 图标，并查看可见小组件信息。未显示的按钮、弹窗或系统状态不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/ui-04.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"ui\", \"details\": [\"左侧有天气、时钟和日历等小组件\", \"底部为应用 Dock，背景是卡通羊图案\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"横向显示的 iPadOS 主屏幕\", \"visible_text\": \"小组件中可见温度 3° 及日历信息\"}"
+      }
+    ],
+    "images": [
+      "images/train/ui-04.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请解释这个界面的信息层级，以及完成主要操作的步骤。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：左侧有天气、时钟和日历等小组件；底部为应用 Dock，背景是卡通羊图案。可见文字或符号：小组件中可见温度 3° 及日历信息。这些线索支持将主体判断为“横向显示的 iPadOS 主屏幕”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/ui-04.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“当前应用是一个全屏游戏”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是横向显示的 iPadOS 主屏幕；左侧有天气、时钟和日历等小组件；底部为应用 Dock，背景是卡通羊图案；可见文字或符号为：小组件中可见温度 3° 及日历信息。"
+      }
+    ],
+    "images": [
+      "images/train/ui-04.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请说明当前界面的用途、主要区域以及用户可以执行的操作。"
+      },
+      {
+        "role": "assistant",
+        "content": "界面用途与场景：浏览器内打开的 Microsoft OneNote 网页界面。主要区域：左侧是笔记本和页面导航栏；中间为笔记编辑区域，顶部有紫色工具栏。可执行操作：选择笔记本或页面、编辑笔记，并使用顶部工具栏插入或绘制内容。未显示的按钮、弹窗或系统状态不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/ui-05.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"ui\", \"details\": [\"左侧是笔记本和页面导航栏\", \"中间为笔记编辑区域，顶部有紫色工具栏\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"浏览器内打开的 Microsoft OneNote 网页界面\", \"visible_text\": \"OneNote 界面包含 Home、Insert、Draw 等功能区域\"}"
+      }
+    ],
+    "images": [
+      "images/train/ui-05.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请解释这个界面的信息层级，以及完成主要操作的步骤。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：左侧是笔记本和页面导航栏；中间为笔记编辑区域，顶部有紫色工具栏。可见文字或符号：OneNote 界面包含 Home、Insert、Draw 等功能区域。这些线索支持将主体判断为“浏览器内打开的 Microsoft OneNote 网页界面”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/ui-05.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“界面正在显示打印对话框”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是浏览器内打开的 Microsoft OneNote 网页界面；左侧是笔记本和页面导航栏；中间为笔记编辑区域，顶部有紫色工具栏；可见文字或符号为：OneNote 界面包含 Home、Insert、Draw 等功能区域。"
+      }
+    ],
+    "images": [
+      "images/train/ui-05.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请说明当前界面的用途、主要区域以及用户可以执行的操作。"
+      },
+      {
+        "role": "assistant",
+        "content": "界面用途与场景：Microsoft Word 中的空白文档编辑界面。主要区域：顶部功能区展开；中央白色页面顶部出现 Copilot 写作提示。可执行操作：在页面中输入和编辑文档，并通过功能区调整格式或插入内容。未显示的按钮、弹窗或系统状态不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/ui-06.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"ui\", \"details\": [\"顶部功能区展开\", \"中央白色页面顶部出现 Copilot 写作提示\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"Microsoft Word 中的空白文档编辑界面\", \"visible_text\": \"Draft with Copilot；Home；Insert；Draw；Design；Layout\"}"
+      }
+    ],
+    "images": [
+      "images/train/ui-06.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请解释这个界面的信息层级，以及完成主要操作的步骤。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：顶部功能区展开；中央白色页面顶部出现 Copilot 写作提示。可见文字或符号：Draft with Copilot；Home；Insert；Draw；Design；Layout。这些线索支持将主体判断为“Microsoft Word 中的空白文档编辑界面”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/ui-06.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“屏幕中央弹出了系统错误提示”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是Microsoft Word 中的空白文档编辑界面；顶部功能区展开；中央白色页面顶部出现 Copilot 写作提示；可见文字或符号为：Draft with Copilot；Home；Insert；Draw；Design；Layout。"
+      }
+    ],
+    "images": [
+      "images/train/ui-06.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请说明当前界面的用途、主要区域以及用户可以执行的操作。"
+      },
+      {
+        "role": "assistant",
+        "content": "界面用途与场景：浏览器中的 OmniParser 相关演示或说明页面。主要区域：页面左侧为文字说明；中部包含一张桌面界面截图，右侧有橙色操作按钮。可执行操作：阅读页面说明、查看演示截图，并操作页面中可见的按钮。未显示的按钮、弹窗或系统状态不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/ui-07.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"ui\", \"details\": [\"页面左侧为文字说明\", \"中部包含一张桌面界面截图，右侧有橙色操作按钮\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"浏览器中的 OmniParser 相关演示或说明页面\", \"visible_text\": \"页面包含 Setup/Run 类说明与截图；按钮文字较小\"}"
+      }
+    ],
+    "images": [
+      "images/train/ui-07.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请解释这个界面的信息层级，以及完成主要操作的步骤。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：页面左侧为文字说明；中部包含一张桌面界面截图，右侧有橙色操作按钮。可见文字或符号：页面包含 Setup/Run 类说明与截图；按钮文字较小。这些线索支持将主体判断为“浏览器中的 OmniParser 相关演示或说明页面”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/ui-07.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“用户正在视频通话且摄像头已打开”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是浏览器中的 OmniParser 相关演示或说明页面；页面左侧为文字说明；中部包含一张桌面界面截图，右侧有橙色操作按钮；可见文字或符号为：页面包含 Setup/Run 类说明与截图；按钮文字较小。"
+      }
+    ],
+    "images": [
+      "images/train/ui-07.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请说明当前界面的用途、主要区域以及用户可以执行的操作。"
+      },
+      {
+        "role": "assistant",
+        "content": "界面用途与场景：深色主题的 Microsoft Teams 聊天界面。主要区域：左侧是团队或聊天列表；中间为消息会话，右侧展示代码或内容面板。可执行操作：选择会话、阅读或输入消息，并使用可见搜索或导航区域。未显示的按钮、弹窗或系统状态不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/ui-08.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"ui\", \"details\": [\"左侧是团队或聊天列表\", \"中间为消息会话，右侧展示代码或内容面板\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"深色主题的 Microsoft Teams 聊天界面\", \"visible_text\": \"Teams 界面可见多条会话消息和顶部搜索/导航区域\"}"
+      }
+    ],
+    "images": [
+      "images/train/ui-08.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请解释这个界面的信息层级，以及完成主要操作的步骤。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：左侧是团队或聊天列表；中间为消息会话，右侧展示代码或内容面板。可见文字或符号：Teams 界面可见多条会话消息和顶部搜索/导航区域。这些线索支持将主体判断为“深色主题的 Microsoft Teams 聊天界面”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/ui-08.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“当前应用是一个全屏游戏”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是深色主题的 Microsoft Teams 聊天界面；左侧是团队或聊天列表；中间为消息会话，右侧展示代码或内容面板；可见文字或符号为：Teams 界面可见多条会话消息和顶部搜索/导航区域。"
+      }
+    ],
+    "images": [
+      "images/train/ui-08.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请说明当前界面的用途、主要区域以及用户可以执行的操作。"
+      },
+      {
+        "role": "assistant",
+        "content": "界面用途与场景：Windows 11 桌面。主要区域：背景为蓝色 Windows 11 波纹图案；左侧有多个桌面快捷方式，底部任务栏居中。可执行操作：双击桌面快捷方式启动应用，或通过任务栏切换和管理窗口。未显示的按钮、弹窗或系统状态不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/ui-09.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"ui\", \"details\": [\"背景为蓝色 Windows 11 波纹图案\", \"左侧有多个桌面快捷方式，底部任务栏居中\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"Windows 11 桌面\", \"visible_text\": \"桌面可见 Google Chrome、Microsoft Edge、VLC 等快捷方式\"}"
+      }
+    ],
+    "images": [
+      "images/train/ui-09.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请解释这个界面的信息层级，以及完成主要操作的步骤。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：背景为蓝色 Windows 11 波纹图案；左侧有多个桌面快捷方式，底部任务栏居中。可见文字或符号：桌面可见 Google Chrome、Microsoft Edge、VLC 等快捷方式。这些线索支持将主体判断为“Windows 11 桌面”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/ui-09.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“界面正在显示打印对话框”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是Windows 11 桌面；背景为蓝色 Windows 11 波纹图案；左侧有多个桌面快捷方式，底部任务栏居中；可见文字或符号为：桌面可见 Google Chrome、Microsoft Edge、VLC 等快捷方式。"
+      }
+    ],
+    "images": [
+      "images/train/ui-09.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请说明当前界面的用途、主要区域以及用户可以执行的操作。"
+      },
+      {
+        "role": "assistant",
+        "content": "界面用途与场景：以山地风景为壁纸的 Windows 桌面。主要区域：桌面本身没有打开应用窗口；底部可见任务栏，壁纸显示山脊与沙地。可执行操作：通过任务栏或桌面入口启动应用并管理桌面窗口。未显示的按钮、弹窗或系统状态不作推断。"
+      }
+    ],
+    "images": [
+      "images/train/ui-10.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请仅用一个 JSON 对象整理图像信息，字段为 category、subject、details、visible_text、grounding。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"category\": \"ui\", \"details\": [\"桌面本身没有打开应用窗口\", \"底部可见任务栏，壁纸显示山脊与沙地\"], \"grounding\": \"only_visible_evidence\", \"subject\": \"以山地风景为壁纸的 Windows 桌面\", \"visible_text\": \"未见打开的对话框或文档窗口\"}"
+      }
+    ],
+    "images": [
+      "images/train/ui-10.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请解释这个界面的信息层级，以及完成主要操作的步骤。"
+      },
+      {
+        "role": "assistant",
+        "content": "可见依据：桌面本身没有打开应用窗口；底部可见任务栏，壁纸显示山脊与沙地。可见文字或符号：未见打开的对话框或文档窗口。这些线索支持将主体判断为“以山地风景为壁纸的 Windows 桌面”；不使用图外信息。"
+      }
+    ],
+    "images": [
+      "images/train/ui-10.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“屏幕中央弹出了系统错误提示”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：图中主体是以山地风景为壁纸的 Windows 桌面；桌面本身没有打开应用窗口；底部可见任务栏，壁纸显示山脊与沙地；可见文字或符号为：未见打开的对话框或文档窗口。"
+      }
+    ],
+    "images": [
+      "images/train/ui-10.png"
+    ]
+  }
+]

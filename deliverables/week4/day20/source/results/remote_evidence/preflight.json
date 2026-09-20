@@ -1,0 +1,11 @@
+{
+  "valid": true,
+  "gpu": "NVIDIA GeForce RTX 3090, 24576, 24126",
+  "data_disk": "/dev/nvme1n1    100G   56G   45G  56% /root/autodl-tmp",
+  "sft_model_path": "/root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged",
+  "sft_model_file_count": 14,
+  "sft_model_total_bytes": 15247180180,
+  "sft_model_manifest_sha256_from_day19": "e4512f7dd0f85b2f1d8154d123aec176295f557046142aab406a030c8e76e971",
+  "adapter_path": "/root/autodl-tmp/qwen25-week4/day19/runs/formal/attempt_002/trainer_output",
+  "adapter_sha256": "a1d7c5eafba28dd927e676836f30338870fbda3dc239caf6ffe950f064b7319b"
+}

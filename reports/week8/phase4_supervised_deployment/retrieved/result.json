@@ -1,0 +1,9 @@
+{
+  "status": "SUPERVISED_DEPLOYMENT_VERIFIED",
+  "started_utc": "2026-09-18T21:41:47Z",
+  "quality_promotion": false,
+  "environment_unchanged": true,
+  "model_unchanged": true,
+  "gpu_idle": true,
+  "finished_utc": "2026-09-18T21:43:12Z"
+}

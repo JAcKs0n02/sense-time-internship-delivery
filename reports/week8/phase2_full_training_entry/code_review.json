@@ -1,0 +1,10 @@
+{
+  "status": "LOCAL_CODE_REVIEW_NO_REMAINING_BLOCKERS",
+  "fixed": [
+    "startup step/sample validation",
+    "bounded CPU verification workers",
+    "failure receipts and stage state",
+    "training versus evaluation sample headers"
+  ],
+  "gpu_validated": false
+}

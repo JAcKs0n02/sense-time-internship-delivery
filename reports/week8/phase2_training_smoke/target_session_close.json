@@ -1,0 +1,14 @@
+{
+  "utc": "2026-09-16T16:40:40.330530+00:00",
+  "instance": "be044ebe99-be706b14",
+  "state": "已关机",
+  "shutdown_schedule_removed": true,
+  "automation_id": "week8-320",
+  "automation_status": "PAUSED",
+  "gpu_processes_after_training": [],
+  "started_only_approved_instance": true,
+  "price_cny_hour": 1.48,
+  "actual_bill_checked": false,
+  "api_calls": 0,
+  "full_training_allowed": false
+}

@@ -1,0 +1,20 @@
+F                                                                        [100%]
+=================================== FAILURES ===================================
+_ AssetIdentityTests.test_staging_binds_real_qwen_config_and_excludes_adapter_redirect _
+
+self = <test_week8_loader.AssetIdentityTests testMethod=test_staging_binds_real_qwen_config_and_excludes_adapter_redirect>
+
+    def test_staging_binds_real_qwen_config_and_excludes_adapter_redirect(self):
+        import tempfile,json,hashlib
+        root=Path(__file__).resolve().parents[1]
+        protocol=json.loads((root/'configs/week8_data_protocol.json').read_text())
+        with tempfile.TemporaryDirectory(prefix='attempt-mpt-') as td:
+            target=Path(td)/'tokenizer';target.mkdir()
+>           receipt=audit.stage_tokenizer(protocol,target)
+                    ^^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: module 'check_week8_loader' has no attribute 'stage_tokenizer'
+
+tests/test_week8_loader.py:40: AttributeError
+=========================== short test summary info ============================
+FAILED tests/test_week8_loader.py::AssetIdentityTests::test_staging_binds_real_qwen_config_and_excludes_adapter_redirect
+1 failed in 0.01s

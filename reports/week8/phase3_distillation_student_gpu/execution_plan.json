@@ -1,0 +1,11 @@
+{
+  "instance": "be044ebe99-be706b14",
+  "remote_root": "/root/autodl-tmp/week8-distillation-student-20260918",
+  "deadline_utc": "2026-09-18T20:20:00Z",
+  "platform_shutdown_utc": "2026-09-18T20:25:00Z",
+  "platform_shutdown_display": "2026-09-18 21:25:00",
+  "training_timeout_seconds": 1800,
+  "automatic_retry": false,
+  "expected_epochs": 2,
+  "expected_optimizer_steps": 36
+}

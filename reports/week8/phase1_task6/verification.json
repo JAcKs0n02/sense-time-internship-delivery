@@ -1,0 +1,352 @@
+{
+  "status": "PHASE1_DATA_PREPARATION_PASS_TRAINING_BLOCKED",
+  "date": "2026-09-15",
+  "completed_tasks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "protocol_id": "week8-data-v1.1-20260914",
+  "protocol_sha256": "de92cce2f90ce30595d752c515ac37ec2730514cefbdf5dc91cf1c474277cffd",
+  "data_dir": "logs/week8-protocol-data-20260914/run-a",
+  "fresh_loader_dir": "logs/week8-real-loader-20260915/task6-recheck",
+  "checks": [
+    {
+      "check": "frozen_rules_match",
+      "passed": true
+    },
+    {
+      "check": "bound_file:outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/technical_preflight_20260911/train.sharegpt.jsonl",
+      "passed": true
+    },
+    {
+      "check": "bound_file:outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/technical_preflight_20260911/train_lineage.jsonl",
+      "passed": true
+    },
+    {
+      "check": "bound_file:outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/technical_preflight_20260911/split_group_links.jsonl",
+      "passed": true
+    },
+    {
+      "check": "bound_file:outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/technical_preflight_20260911/validation.sharegpt.jsonl",
+      "passed": true
+    },
+    {
+      "check": "bound_file:.worktrees/pre-week7-model-recovery/deliverables/model_recovery/source/data/evaluation_suite_200.json",
+      "passed": true
+    },
+    {
+      "check": "bound_file:.worktrees/pre-week7-model-recovery/deliverables/model_recovery/source/results/root_cause_audit/code_sandbox_replay_20260905/evaluation_suite_200_corrected.json",
+      "passed": true
+    },
+    {
+      "check": "bound_file:.worktrees/pre-week7-model-recovery/deliverables/week3/day14/source/data/evaluation_questions.json",
+      "passed": true
+    },
+    {
+      "check": "bound_file:.worktrees/pre-week7-model-recovery/deliverables/week4/day18/source/data/raw/evaluation_holdout_prompts.json",
+      "passed": true
+    },
+    {
+      "check": "bound_file:.worktrees/pre-week7-model-recovery/deliverables/week6/day32/source/data/frozen_agent_eval.json",
+      "passed": true
+    },
+    {
+      "check": "bound_file:.worktrees/pre-week7-model-recovery/deliverables/week6/day31/source/data/tool_sft_test_v2.json",
+      "passed": true
+    },
+    {
+      "check": "bound_file:.worktrees/pre-week7-model-recovery/deliverables/week6/day31/source/data/tool_sft_eval_frozen.json",
+      "passed": true
+    },
+    {
+      "check": "bound_file:.worktrees/pre-week7-model-recovery/deliverables/week2/day9/source/results/evaluation_questions.json",
+      "passed": true
+    },
+    {
+      "check": "bound_file:outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/generation_comparison_20260911/inference_inputs.json",
+      "passed": true
+    },
+    {
+      "check": "bound_file:outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/checkpoint_diagnostic_20260911/inference_inputs.json",
+      "passed": true
+    },
+    {
+      "check": "bound_file:outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/precision_path_20260911/inference_inputs.json",
+      "passed": true
+    },
+    {
+      "check": "bound_file:outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/conservative_sft_20260911/inference_inputs.json",
+      "passed": true
+    },
+    {
+      "check": "bound_file:outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/conservative_sft_20260911/confirmation_questions.json",
+      "passed": true
+    },
+    {
+      "check": "bound_file:deliverables/week3/day14/source/data/evaluation_questions.json",
+      "passed": true
+    },
+    {
+      "check": "bound_file:deliverables/week3/day14/source/data/evaluation_rubric.json",
+      "passed": true
+    },
+    {
+      "check": "bound_file:outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/technical_preflight_20260911/remote_evidence/smoke_adapter/tokenizer.json",
+      "passed": true
+    },
+    {
+      "check": "bound_file:outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/technical_preflight_20260911/remote_evidence/smoke_adapter/tokenizer_config.json",
+      "passed": true
+    },
+    {
+      "check": "bound_file:outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/technical_preflight_20260911/remote_evidence/smoke_adapter/vocab.json",
+      "passed": true
+    },
+    {
+      "check": "bound_file:outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/technical_preflight_20260911/remote_evidence/smoke_adapter/added_tokens.json",
+      "passed": true
+    },
+    {
+      "check": "bound_file:outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/technical_preflight_20260911/remote_evidence/smoke_adapter/special_tokens_map.json",
+      "passed": true
+    },
+    {
+      "check": "review_bound_data:dataset_info.json",
+      "passed": true
+    },
+    {
+      "check": "review_bound_data:exclusions.json",
+      "passed": true
+    },
+    {
+      "check": "review_bound_data:group_edges.json",
+      "passed": true
+    },
+    {
+      "check": "review_bound_data:groups.json",
+      "passed": true
+    },
+    {
+      "check": "review_bound_data:input_receipt.json",
+      "passed": true
+    },
+    {
+      "check": "review_bound_data:lengths.json",
+      "passed": true
+    },
+    {
+      "check": "review_bound_data:lineage.json",
+      "passed": true
+    },
+    {
+      "check": "review_bound_data:protected_coverage.json",
+      "passed": true
+    },
+    {
+      "check": "review_bound_data:protected_hits.json",
+      "passed": true
+    },
+    {
+      "check": "review_bound_data:protocol.json",
+      "passed": true
+    },
+    {
+      "check": "review_bound_data:statistics.json",
+      "passed": true
+    },
+    {
+      "check": "review_bound_data:train_alpaca.json",
+      "passed": true
+    },
+    {
+      "check": "review_bound_data:train_sharegpt.json",
+      "passed": true
+    },
+    {
+      "check": "review_bound_data:validation_alpaca.json",
+      "passed": true
+    },
+    {
+      "check": "review_bound_data:validation_sharegpt.json",
+      "passed": true
+    },
+    {
+      "check": "sample_count_and_unique_ids",
+      "passed": true
+    },
+    {
+      "check": "review_exact_current_content",
+      "passed": true
+    },
+    {
+      "check": "review_all_multiturn",
+      "passed": true
+    },
+    {
+      "check": "no_unresolved_blocking_review",
+      "passed": true
+    },
+    {
+      "check": "review_not_claimed_human",
+      "passed": true
+    },
+    {
+      "check": "example_execution_reproduces",
+      "passed": true
+    },
+    {
+      "check": "review_artifact:build_review.py",
+      "passed": true
+    },
+    {
+      "check": "review_artifact:check_examples.py",
+      "passed": true
+    },
+    {
+      "check": "review_artifact:example_checks.json",
+      "passed": true
+    },
+    {
+      "check": "review_artifact:issues.json",
+      "passed": true
+    },
+    {
+      "check": "review_artifact:review_notes.json",
+      "passed": true
+    },
+    {
+      "check": "review_artifact:review_pack.html",
+      "passed": true
+    },
+    {
+      "check": "review_artifact:review_records.json",
+      "passed": true
+    },
+    {
+      "check": "review_artifact:select_samples.py",
+      "passed": true
+    },
+    {
+      "check": "review_artifact:selected_samples.json",
+      "passed": true
+    },
+    {
+      "check": "review_artifact:selection_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "review_artifact:verification.json",
+      "passed": true
+    },
+    {
+      "check": "task3_code:scripts/week8_data.py",
+      "passed": true
+    },
+    {
+      "check": "task3_code:scripts/step1_data_prep.py",
+      "passed": true
+    },
+    {
+      "check": "task3_code:scripts/train_pipeline.py",
+      "passed": true
+    },
+    {
+      "check": "task3_code:run_pipeline.sh",
+      "passed": true
+    },
+    {
+      "check": "task3_code:tests/test_week8_protocol_data.py",
+      "passed": true
+    },
+    {
+      "check": "task3_code:tests/test_week8_pipeline.py",
+      "passed": true
+    },
+    {
+      "check": "task3_code:configs/week8_data_protocol.json",
+      "passed": true
+    },
+    {
+      "check": "task3_code:reports/week8/phase1_task3/verify_outputs.py",
+      "passed": true
+    },
+    {
+      "check": "task5_implementation:scripts/check_week8_loader.py",
+      "passed": true
+    },
+    {
+      "check": "task5_implementation:tests/test_week8_loader.py",
+      "passed": true
+    },
+    {
+      "check": "task5_implementation:configs/requirements-loader-cpu.txt",
+      "passed": true
+    },
+    {
+      "check": "task5_implementation:docs/week8_phase1_task5_result.md",
+      "passed": true
+    },
+    {
+      "check": "new_loader_pass",
+      "passed": true
+    },
+    {
+      "check": "fresh_loader_byte_identical:train_token_rows.jsonl",
+      "passed": true
+    },
+    {
+      "check": "fresh_loader_byte_identical:validation_token_rows.jsonl",
+      "passed": true
+    },
+    {
+      "check": "fresh_27_tests_pass",
+      "passed": true
+    },
+    {
+      "check": "fresh_source_34_checks",
+      "passed": true
+    },
+    {
+      "check": "fresh_independent_data_audit",
+      "passed": true
+    }
+  ],
+  "counts": {
+    "train": 1422,
+    "validation": 158,
+    "historical_protected": 83,
+    "reviewed_records": 50,
+    "review_advisories": 9,
+    "input_identity_checks": 34,
+    "tests_passed": 27,
+    "example_checks_passed": 13
+  },
+  "unresolved_phase1_blocking_issues": [],
+  "training_authorized_by_receipt": false,
+  "data_ready_for_training": false,
+  "next_stage": "Day40-2: lock evaluation runtime, recheck contamination, GPU and base model preflight, then separate short smoke runs",
+  "pre_training_blockers": [
+    "benchmark snapshots, evaluation runtime and judge identity lock absent",
+    "new benchmark questions not yet included in lexical contamination check",
+    "target Linux CUDA environment and full original model weights not freshly verified",
+    "pipeline training release guard remains closed"
+  ],
+  "limitations": [
+    "50-row AI-assisted content review is not full factual verification or new human sign-off",
+    "lexical checks do not prove absence of semantic leakage",
+    "CPU loader audit does not test model forward, loss, CUDA or weights",
+    "DPO preference input is only a next-stage candidate, not covered by SFT phase1 acceptance"
+  ],
+  "resolved_incidents": [
+    {
+      "incident": "task3 recheck initially used project test venv without transformers",
+      "resolution": "reran in pinned CPU loader environment; independent audit passed",
+      "failed_log": "recheck/task3_wrong_environment.log",
+      "passed_log": "recheck/task3.log"
+    }
+  ]
+}

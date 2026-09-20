@@ -1,0 +1,952 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "case_count": 40,
+  "frozen_eval_sha256": "406b01115967c865cc1d38915e59810e7e260a2e09417722a55d734803043b84",
+  "generation_config": {
+    "do_sample": false,
+    "max_new_tokens": 384,
+    "repetition_penalty": 1.0,
+    "seed": 42
+  },
+  "model_identity_sha256": "578dde8fbc32deef204286e12074c974ee9d9272fd4e8504f2857f796c8e2aef",
+  "metrics": {
+    "first_tool_choice": 0.925,
+    "full_tool_sequence": 0.925,
+    "argument_schema_valid": 1.0,
+    "argument_correctness": 0.9,
+    "observation_integrity": 1.0,
+    "format_valid": 0.875,
+    "semantic_correctness": 0.5,
+    "final_answer_grounded": 0.45,
+    "safe_termination": 0.95,
+    "completion": 0.875,
+    "no_loops": 1.0
+  },
+  "unique_failed_cases": 22,
+  "primary_label_counts": {
+    "wrong_tool": 0,
+    "argument_extraction_error": 1,
+    "dead_loop": 0,
+    "tool_error_unhandled": 0,
+    "premature_answer": 0,
+    "final_answer_error": 17,
+    "hallucinated_observation": 0,
+    "format_parse_error": 4,
+    "unknown_failure": 0
+  },
+  "label_occurrence_counts": {
+    "wrong_tool": 3,
+    "argument_extraction_error": 4,
+    "dead_loop": 0,
+    "tool_error_unhandled": 0,
+    "premature_answer": 0,
+    "final_answer_error": 22,
+    "hallucinated_observation": 0,
+    "format_parse_error": 4,
+    "unknown_failure": 0
+  },
+  "case_analysis": [
+    {
+      "case_id": "dev-calculator-001",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "dev-calculator-002",
+      "passed": false,
+      "primary_label": "final_answer_error",
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": [
+        "final_answer_grounded"
+      ]
+    },
+    {
+      "case_id": "dev-calculator-003",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "dev-calculator-004",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "dev-calculator-005",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "dev-calculator-006",
+      "passed": false,
+      "primary_label": "format_parse_error",
+      "secondary_labels": [
+        "wrong_tool",
+        "argument_extraction_error",
+        "final_answer_error"
+      ],
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "actual_tool_sequence": [],
+      "observation_outcomes": [],
+      "failed_checks": [
+        "first_tool_choice",
+        "full_tool_sequence",
+        "argument_correctness",
+        "format_valid",
+        "semantic_correctness",
+        "final_answer_grounded",
+        "completion"
+      ]
+    },
+    {
+      "case_id": "dev-calculator-007",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "dev-calculator-008",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "dev-knowledge-001",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "dev-knowledge-002",
+      "passed": false,
+      "primary_label": "final_answer_error",
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": [
+        "semantic_correctness",
+        "final_answer_grounded"
+      ]
+    },
+    {
+      "case_id": "dev-knowledge-003",
+      "passed": false,
+      "primary_label": "final_answer_error",
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": [
+        "semantic_correctness",
+        "final_answer_grounded"
+      ]
+    },
+    {
+      "case_id": "dev-knowledge-004",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "dev-knowledge-005",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "dev-knowledge-006",
+      "passed": false,
+      "primary_label": "final_answer_error",
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": [
+        "semantic_correctness",
+        "final_answer_grounded"
+      ]
+    },
+    {
+      "case_id": "dev-knowledge-007",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "dev-knowledge-008",
+      "passed": false,
+      "primary_label": "final_answer_error",
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": [
+        "semantic_correctness",
+        "final_answer_grounded"
+      ]
+    },
+    {
+      "case_id": "dev-code-001",
+      "passed": false,
+      "primary_label": "final_answer_error",
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "actual_tool_sequence": [
+        "code_executor"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": [
+        "semantic_correctness",
+        "final_answer_grounded"
+      ]
+    },
+    {
+      "case_id": "dev-code-002",
+      "passed": false,
+      "primary_label": "final_answer_error",
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "actual_tool_sequence": [
+        "code_executor"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": [
+        "semantic_correctness",
+        "final_answer_grounded"
+      ]
+    },
+    {
+      "case_id": "dev-code-003",
+      "passed": false,
+      "primary_label": "final_answer_error",
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "actual_tool_sequence": [
+        "code_executor"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "rejected",
+          "error_code": "risk_nodes_detected"
+        }
+      ],
+      "failed_checks": [
+        "semantic_correctness",
+        "final_answer_grounded"
+      ]
+    },
+    {
+      "case_id": "dev-code-004",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "actual_tool_sequence": [
+        "code_executor"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "rejected",
+          "error_code": "syntax_error"
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "dev-code-005",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "actual_tool_sequence": [
+        "code_executor"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "rejected",
+          "error_code": "risk_nodes_detected"
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "dev-code-006",
+      "passed": false,
+      "primary_label": "final_answer_error",
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "actual_tool_sequence": [
+        "code_executor"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "rejected",
+          "error_code": "risk_nodes_detected"
+        }
+      ],
+      "failed_checks": [
+        "semantic_correctness",
+        "final_answer_grounded"
+      ]
+    },
+    {
+      "case_id": "dev-code-007",
+      "passed": false,
+      "primary_label": "final_answer_error",
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "actual_tool_sequence": [
+        "code_executor"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": [
+        "semantic_correctness",
+        "final_answer_grounded"
+      ]
+    },
+    {
+      "case_id": "dev-code-008",
+      "passed": false,
+      "primary_label": "final_answer_error",
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "actual_tool_sequence": [
+        "code_executor"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": [
+        "semantic_correctness",
+        "final_answer_grounded"
+      ]
+    },
+    {
+      "case_id": "dev-budget-001",
+      "passed": false,
+      "primary_label": "final_answer_error",
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        },
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": [
+        "semantic_correctness",
+        "final_answer_grounded"
+      ]
+    },
+    {
+      "case_id": "dev-budget-002",
+      "passed": false,
+      "primary_label": "final_answer_error",
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        },
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": [
+        "semantic_correctness",
+        "final_answer_grounded"
+      ]
+    },
+    {
+      "case_id": "dev-budget-003",
+      "passed": false,
+      "primary_label": "format_parse_error",
+      "secondary_labels": [
+        "final_answer_error"
+      ],
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        },
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": [
+        "format_valid",
+        "semantic_correctness",
+        "final_answer_grounded",
+        "completion"
+      ]
+    },
+    {
+      "case_id": "dev-budget-004",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        },
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "dev-budget-005",
+      "passed": false,
+      "primary_label": "final_answer_error",
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        },
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": [
+        "semantic_correctness",
+        "final_answer_grounded"
+      ]
+    },
+    {
+      "case_id": "dev-budget-006",
+      "passed": false,
+      "primary_label": "final_answer_error",
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        },
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": [
+        "semantic_correctness",
+        "final_answer_grounded"
+      ]
+    },
+    {
+      "case_id": "dev-budget-007",
+      "passed": false,
+      "primary_label": "argument_extraction_error",
+      "secondary_labels": [
+        "final_answer_error"
+      ],
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        },
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": [
+        "argument_correctness",
+        "format_valid",
+        "final_answer_grounded",
+        "completion"
+      ]
+    },
+    {
+      "case_id": "dev-budget-008",
+      "passed": false,
+      "primary_label": "final_answer_error",
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        },
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": [
+        "semantic_correctness",
+        "final_answer_grounded"
+      ]
+    },
+    {
+      "case_id": "dev-budget-009",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        },
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "dev-budget-010",
+      "passed": false,
+      "primary_label": "final_answer_error",
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        },
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": [
+        "semantic_correctness",
+        "final_answer_grounded"
+      ]
+    },
+    {
+      "case_id": "dev-recovery-001",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "rejected",
+          "error_code": "division_by_zero"
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "dev-recovery-002",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "not_found",
+          "error_code": "not_found"
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "dev-recovery-003",
+      "passed": false,
+      "primary_label": "format_parse_error",
+      "secondary_labels": [
+        "wrong_tool",
+        "argument_extraction_error",
+        "final_answer_error"
+      ],
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "actual_tool_sequence": [],
+      "observation_outcomes": [],
+      "failed_checks": [
+        "first_tool_choice",
+        "full_tool_sequence",
+        "argument_correctness",
+        "format_valid",
+        "semantic_correctness",
+        "final_answer_grounded",
+        "safe_termination",
+        "completion"
+      ]
+    },
+    {
+      "case_id": "dev-recovery-004",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "rejected",
+          "error_code": "division_by_zero"
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "dev-recovery-005",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "not_found",
+          "error_code": "not_found"
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "dev-recovery-006",
+      "passed": false,
+      "primary_label": "format_parse_error",
+      "secondary_labels": [
+        "wrong_tool",
+        "argument_extraction_error",
+        "final_answer_error"
+      ],
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "actual_tool_sequence": [],
+      "observation_outcomes": [],
+      "failed_checks": [
+        "first_tool_choice",
+        "full_tool_sequence",
+        "argument_correctness",
+        "format_valid",
+        "semantic_correctness",
+        "final_answer_grounded",
+        "safe_termination",
+        "completion"
+      ]
+    }
+  ]
+}

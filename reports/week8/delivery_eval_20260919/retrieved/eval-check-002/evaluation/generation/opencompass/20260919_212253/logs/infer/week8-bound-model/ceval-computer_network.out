@@ -1,0 +1,1253 @@
+09/19 21:23:21 - OpenCompass - INFO - Task [week8-bound-model/ceval-computer_network,week8-bound-model/ceval-operating_system,week8-bound-model/ceval-computer_architecture,week8-bound-model/ceval-college_programming,week8-bound-model/ceval-college_physics,week8-bound-model/ceval-college_chemistry,week8-bound-model/ceval-advanced_mathematics,week8-bound-model/ceval-probability_and_statistics,week8-bound-model/ceval-discrete_mathematics,week8-bound-model/ceval-electrical_engineer,week8-bound-model/ceval-metrology_engineer,week8-bound-model/ceval-high_school_mathematics,week8-bound-model/ceval-high_school_physics,week8-bound-model/ceval-high_school_chemistry,week8-bound-model/ceval-high_school_biology,week8-bound-model/ceval-middle_school_mathematics,week8-bound-model/ceval-middle_school_biology,week8-bound-model/ceval-middle_school_physics,week8-bound-model/ceval-middle_school_chemistry,week8-bound-model/ceval-veterinary_medicine,week8-bound-model/ceval-college_economics,week8-bound-model/ceval-business_administration,week8-bound-model/ceval-marxism,week8-bound-model/ceval-mao_zedong_thought,week8-bound-model/ceval-education_science,week8-bound-model/ceval-teacher_qualification,week8-bound-model/ceval-high_school_politics,week8-bound-model/ceval-high_school_geography,week8-bound-model/ceval-middle_school_politics,week8-bound-model/ceval-middle_school_geography,week8-bound-model/ceval-modern_chinese_history,week8-bound-model/ceval-ideological_and_moral_cultivation,week8-bound-model/ceval-logic,week8-bound-model/ceval-law,week8-bound-model/ceval-chinese_language_and_literature,week8-bound-model/ceval-art_studies,week8-bound-model/ceval-professional_tour_guide,week8-bound-model/ceval-legal_professional,week8-bound-model/ceval-high_school_chinese,week8-bound-model/ceval-high_school_history,week8-bound-model/ceval-middle_school_history,week8-bound-model/ceval-civil_servant,week8-bound-model/ceval-sports_science,week8-bound-model/ceval-plant_protection,week8-bound-model/ceval-basic_medicine,week8-bound-model/ceval-clinical_medicine,week8-bound-model/ceval-urban_and_rural_planner,week8-bound-model/ceval-accountant,week8-bound-model/ceval-fire_engineer,week8-bound-model/ceval-environmental_impact_assessment_engineer,week8-bound-model/ceval-tax_accountant,week8-bound-model/ceval-physician,week8-bound-model/cmmlu-agronomy,week8-bound-model/cmmlu-anatomy,week8-bound-model/cmmlu-ancient_chinese,week8-bound-model/cmmlu-arts,week8-bound-model/cmmlu-astronomy,week8-bound-model/cmmlu-business_ethics,week8-bound-model/cmmlu-chinese_civil_service_exam,week8-bound-model/cmmlu-chinese_driving_rule,week8-bound-model/cmmlu-chinese_food_culture,week8-bound-model/cmmlu-chinese_foreign_policy,week8-bound-model/cmmlu-chinese_history,week8-bound-model/cmmlu-chinese_literature,week8-bound-model/cmmlu-chinese_teacher_qualification,week8-bound-model/cmmlu-clinical_knowledge,week8-bound-model/cmmlu-college_actuarial_science,week8-bound-model/cmmlu-college_education,week8-bound-model/cmmlu-college_engineering_hydrology,week8-bound-model/cmmlu-college_law,week8-bound-model/cmmlu-college_mathematics,week8-bound-model/cmmlu-college_medical_statistics,week8-bound-model/cmmlu-college_medicine,week8-bound-model/cmmlu-computer_science,week8-bound-model/cmmlu-computer_security,week8-bound-model/cmmlu-conceptual_physics,week8-bound-model/cmmlu-construction_project_management,week8-bound-model/cmmlu-economics,week8-bound-model/cmmlu-education,week8-bound-model/cmmlu-electrical_engineering,week8-bound-model/cmmlu-elementary_chinese,week8-bound-model/cmmlu-elementary_commonsense,week8-bound-model/cmmlu-elementary_information_and_technology,week8-bound-model/cmmlu-elementary_mathematics,week8-bound-model/cmmlu-ethnology,week8-bound-model/cmmlu-food_science,week8-bound-model/cmmlu-genetics,week8-bound-model/cmmlu-global_facts,week8-bound-model/cmmlu-high_school_biology,week8-bound-model/cmmlu-high_school_chemistry,week8-bound-model/cmmlu-high_school_geography,week8-bound-model/cmmlu-high_school_mathematics,week8-bound-model/cmmlu-high_school_physics,week8-bound-model/cmmlu-high_school_politics,week8-bound-model/cmmlu-human_sexuality,week8-bound-model/cmmlu-international_law,week8-bound-model/cmmlu-journalism,week8-bound-model/cmmlu-jurisprudence,week8-bound-model/cmmlu-legal_and_moral_basis,week8-bound-model/cmmlu-logical,week8-bound-model/cmmlu-machine_learning,week8-bound-model/cmmlu-management,week8-bound-model/cmmlu-marketing,week8-bound-model/cmmlu-marxist_theory,week8-bound-model/cmmlu-modern_chinese,week8-bound-model/cmmlu-nutrition,week8-bound-model/cmmlu-philosophy,week8-bound-model/cmmlu-professional_accounting,week8-bound-model/cmmlu-professional_law,week8-bound-model/cmmlu-professional_medicine,week8-bound-model/cmmlu-professional_psychology,week8-bound-model/cmmlu-public_relations,week8-bound-model/cmmlu-security_study,week8-bound-model/cmmlu-sociology,week8-bound-model/cmmlu-sports_science,week8-bound-model/cmmlu-traditional_chinese_medicine,week8-bound-model/cmmlu-virology,week8-bound-model/cmmlu-world_history,week8-bound-model/cmmlu-world_religions]
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.09it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.09it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.18it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.71it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.44it/s]
+09/19 21:23:24 - OpenCompass - INFO - using stop words: ['<|endoftext|>', '<|im_end|>']
+09/19 21:23:24 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 1/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1382.34 examples/s]
+Map:   0%|          | 0/19 [00:00<?, ? examples/s]Map: 100%|██████████| 19/19 [00:00<00:00, 4549.14 examples/s]
+Map:   0%|          | 0/171 [00:00<?, ? examples/s]Map: 100%|██████████| 171/171 [00:00<00:00, 10086.15 examples/s]
+09/19 21:23:24 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-computer_network]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 46091.25it/s]
+[2026-09-19 21:23:24,925] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:24,925] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:24 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:24 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe62d6ec0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+/root/autodl-tmp/conda/envs/llm_exp/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:628: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/root/autodl-tmp/conda/envs/llm_exp/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/root/autodl-tmp/conda/envs/llm_exp/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:650: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+100%|██████████| 1/1 [00:00<00:00,  1.98it/s]100%|██████████| 1/1 [00:00<00:00,  1.98it/s]
+09/19 21:23:25 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 2/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1663.35 examples/s]
+Map:   0%|          | 0/19 [00:00<?, ? examples/s]Map: 100%|██████████| 19/19 [00:00<00:00, 4893.27 examples/s]
+Map:   0%|          | 0/179 [00:00<?, ? examples/s]Map: 100%|██████████| 179/179 [00:00<00:00, 12592.55 examples/s]
+09/19 21:23:25 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-operating_system]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47127.01it/s]
+[2026-09-19 21:23:25,487] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:25,487] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:25 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:25 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe62d4640>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  6.58it/s]100%|██████████| 1/1 [00:00<00:00,  6.57it/s]
+09/19 21:23:25 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 3/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1651.30 examples/s]
+Map:   0%|          | 0/21 [00:00<?, ? examples/s]Map: 100%|██████████| 21/21 [00:00<00:00, 5043.54 examples/s]
+Map:   0%|          | 0/193 [00:00<?, ? examples/s]Map: 100%|██████████| 193/193 [00:00<00:00, 12579.65 examples/s]
+09/19 21:23:25 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-computer_architecture]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 46603.38it/s]
+[2026-09-19 21:23:25,698] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:25,698] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:25 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:25 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe62adfc0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.50it/s]100%|██████████| 1/1 [00:00<00:00,  4.49it/s]
+09/19 21:23:25 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 4/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1675.31 examples/s]
+Map:   0%|          | 0/37 [00:00<?, ? examples/s]Map: 100%|██████████| 37/37 [00:00<00:00, 7194.01 examples/s]
+Map:   0%|          | 0/342 [00:00<?, ? examples/s]Map: 100%|██████████| 342/342 [00:00<00:00, 13872.84 examples/s]
+09/19 21:23:25 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-college_programming]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 46091.25it/s]
+[2026-09-19 21:23:25,992] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:25,992] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:25 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:25 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe632bbb0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.79it/s]100%|██████████| 1/1 [00:00<00:00,  4.78it/s]
+09/19 21:23:26 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 5/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1601.86 examples/s]
+Map:   0%|          | 0/19 [00:00<?, ? examples/s]Map: 100%|██████████| 19/19 [00:00<00:00, 4352.60 examples/s]
+Map:   0%|          | 0/176 [00:00<?, ? examples/s]Map: 100%|██████████| 176/176 [00:00<00:00, 12979.30 examples/s]
+09/19 21:23:26 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-college_physics]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47127.01it/s]
+[2026-09-19 21:23:26,260] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:26,260] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:26 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:26 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe638ab00>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.79it/s]100%|██████████| 1/1 [00:00<00:00,  4.79it/s]
+09/19 21:23:26 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 6/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1577.64 examples/s]
+Map:   0%|          | 0/24 [00:00<?, ? examples/s]Map: 100%|██████████| 24/24 [00:00<00:00, 5322.16 examples/s]
+Map:   0%|          | 0/224 [00:00<?, ? examples/s]Map: 100%|██████████| 224/224 [00:00<00:00, 13164.50 examples/s]
+09/19 21:23:26 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-college_chemistry]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47127.01it/s]
+[2026-09-19 21:23:26,532] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:26,532] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:26 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:26 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633d3f0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  5.80it/s]100%|██████████| 1/1 [00:00<00:00,  5.79it/s]
+09/19 21:23:26 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 7/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1667.85 examples/s]
+Map:   0%|          | 0/19 [00:00<?, ? examples/s]Map: 100%|██████████| 19/19 [00:00<00:00, 4903.51 examples/s]
+Map:   0%|          | 0/173 [00:00<?, ? examples/s]Map: 100%|██████████| 173/173 [00:00<00:00, 13039.83 examples/s]
+09/19 21:23:26 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-advanced_mathematics]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48210.39it/s]
+[2026-09-19 21:23:26,761] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:26,761] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:26 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:26 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe632a3b0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  3.94it/s]100%|██████████| 1/1 [00:00<00:00,  3.94it/s]
+09/19 21:23:27 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 8/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1702.23 examples/s]
+Map:   0%|          | 0/18 [00:00<?, ? examples/s]Map: 100%|██████████| 18/18 [00:00<00:00, 4771.38 examples/s]
+Map:   0%|          | 0/166 [00:00<?, ? examples/s]Map: 100%|██████████| 166/166 [00:00<00:00, 12524.59 examples/s]
+09/19 21:23:27 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-probability_and_statistics]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47662.55it/s]
+[2026-09-19 21:23:27,072] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:27,072] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:27 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:27 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633e3b0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  3.42it/s]100%|██████████| 1/1 [00:00<00:00,  3.42it/s]
+09/19 21:23:27 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 9/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1571.02 examples/s]
+Map:   0%|          | 0/16 [00:00<?, ? examples/s]Map: 100%|██████████| 16/16 [00:00<00:00, 4395.68 examples/s]
+Map:   0%|          | 0/153 [00:00<?, ? examples/s]Map: 100%|██████████| 153/153 [00:00<00:00, 12588.59 examples/s]
+09/19 21:23:27 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-discrete_mathematics]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48210.39it/s]
+[2026-09-19 21:23:27,419] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:27,419] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:27 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:27 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633f490>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  5.99it/s]100%|██████████| 1/1 [00:00<00:00,  5.99it/s]
+09/19 21:23:27 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 10/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1786.79 examples/s]
+Map:   0%|          | 0/37 [00:00<?, ? examples/s]Map: 100%|██████████| 37/37 [00:00<00:00, 7638.02 examples/s]
+Map:   0%|          | 0/339 [00:00<?, ? examples/s]Map: 100%|██████████| 339/339 [00:00<00:00, 14627.53 examples/s]
+09/19 21:23:27 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-electrical_engineer]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 51781.53it/s]
+[2026-09-19 21:23:27,652] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:27,652] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:27 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:27 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633e9e0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.87it/s]100%|██████████| 1/1 [00:00<00:00,  4.87it/s]
+09/19 21:23:27 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 11/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1649.61 examples/s]
+Map:   0%|          | 0/24 [00:00<?, ? examples/s]Map: 100%|██████████| 24/24 [00:00<00:00, 5822.05 examples/s]
+Map:   0%|          | 0/219 [00:00<?, ? examples/s]Map: 100%|██████████| 219/219 [00:00<00:00, 13349.11 examples/s]
+09/19 21:23:27 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-metrology_engineer]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48770.98it/s]
+[2026-09-19 21:23:27,918] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:27,918] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:27 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:27 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633d090>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.81it/s]100%|██████████| 1/1 [00:00<00:00,  4.80it/s]
+09/19 21:23:28 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 12/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1564.81 examples/s]
+Map:   0%|          | 0/18 [00:00<?, ? examples/s]Map: 100%|██████████| 18/18 [00:00<00:00, 4468.89 examples/s]
+Map:   0%|          | 0/166 [00:00<?, ? examples/s]Map: 100%|██████████| 166/166 [00:00<00:00, 12721.62 examples/s]
+09/19 21:23:28 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-high_school_mathematics]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47662.55it/s]
+[2026-09-19 21:23:28,184] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:28,184] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:28 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:28 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe638ae00>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  3.92it/s]100%|██████████| 1/1 [00:00<00:00,  3.92it/s]
+09/19 21:23:28 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 13/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1525.31 examples/s]
+Map:   0%|          | 0/19 [00:00<?, ? examples/s]Map: 100%|██████████| 19/19 [00:00<00:00, 4775.11 examples/s]
+Map:   0%|          | 0/175 [00:00<?, ? examples/s]Map: 100%|██████████| 175/175 [00:00<00:00, 12879.51 examples/s]
+09/19 21:23:28 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-high_school_physics]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 46603.38it/s]
+[2026-09-19 21:23:28,498] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:28,498] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:28 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:28 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633d750>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.79it/s]100%|██████████| 1/1 [00:00<00:00,  4.78it/s]
+09/19 21:23:28 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 14/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1535.48 examples/s]
+Map:   0%|          | 0/19 [00:00<?, ? examples/s]Map: 100%|██████████| 19/19 [00:00<00:00, 4515.63 examples/s]
+Map:   0%|          | 0/172 [00:00<?, ? examples/s]Map: 100%|██████████| 172/172 [00:00<00:00, 12633.45 examples/s]
+09/19 21:23:28 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-high_school_chemistry]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 46091.25it/s]
+[2026-09-19 21:23:28,766] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:28,767] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:28 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:28 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633eaa0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.86it/s]100%|██████████| 1/1 [00:00<00:00,  4.86it/s]
+09/19 21:23:28 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 15/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1589.96 examples/s]
+Map:   0%|          | 0/19 [00:00<?, ? examples/s]Map: 100%|██████████| 19/19 [00:00<00:00, 4484.62 examples/s]
+Map:   0%|          | 0/175 [00:00<?, ? examples/s]Map: 100%|██████████| 175/175 [00:00<00:00, 13256.57 examples/s]
+09/19 21:23:29 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-high_school_biology]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47127.01it/s]
+[2026-09-19 21:23:29,030] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:29,030] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:29 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:29 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe638b4f0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.90it/s]100%|██████████| 1/1 [00:00<00:00,  4.89it/s]
+09/19 21:23:29 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 16/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1705.42 examples/s]
+Map:   0%|          | 0/19 [00:00<?, ? examples/s]Map: 100%|██████████| 19/19 [00:00<00:00, 4398.24 examples/s]
+Map:   0%|          | 0/177 [00:00<?, ? examples/s]Map: 100%|██████████| 177/177 [00:00<00:00, 12410.22 examples/s]
+09/19 21:23:29 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-middle_school_mathematics]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 49344.75it/s]
+[2026-09-19 21:23:29,292] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:29,292] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:29 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:29 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633f340>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.51it/s]100%|██████████| 1/1 [00:00<00:00,  4.50it/s]
+09/19 21:23:29 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 17/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1800.90 examples/s]
+Map:   0%|          | 0/21 [00:00<?, ? examples/s]Map: 100%|██████████| 21/21 [00:00<00:00, 5415.67 examples/s]
+Map:   0%|          | 0/192 [00:00<?, ? examples/s]Map: 100%|██████████| 192/192 [00:00<00:00, 13622.02 examples/s]
+09/19 21:23:29 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-middle_school_biology]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 49932.19it/s]
+[2026-09-19 21:23:29,568] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:29,568] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:29 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:29 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe63890c0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  6.06it/s]100%|██████████| 1/1 [00:00<00:00,  6.05it/s]
+09/19 21:23:29 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 18/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1758.18 examples/s]
+Map:   0%|          | 0/19 [00:00<?, ? examples/s]Map: 100%|██████████| 19/19 [00:00<00:00, 4966.46 examples/s]
+Map:   0%|          | 0/178 [00:00<?, ? examples/s]Map: 100%|██████████| 178/178 [00:00<00:00, 13167.30 examples/s]
+09/19 21:23:29 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-middle_school_physics]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 51781.53it/s]
+[2026-09-19 21:23:29,788] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:29,788] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:29 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:29 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633eef0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.96it/s]100%|██████████| 1/1 [00:00<00:00,  4.95it/s]
+09/19 21:23:29 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 19/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1671.17 examples/s]
+Map:   0%|          | 0/20 [00:00<?, ? examples/s]Map: 100%|██████████| 20/20 [00:00<00:00, 5017.11 examples/s]
+Map:   0%|          | 0/185 [00:00<?, ? examples/s]Map: 100%|██████████| 185/185 [00:00<00:00, 12657.35 examples/s]
+09/19 21:23:30 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-middle_school_chemistry]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 49932.19it/s]
+[2026-09-19 21:23:30,047] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:30,047] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:30 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:30 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe638bc10>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.84it/s]100%|██████████| 1/1 [00:00<00:00,  4.83it/s]
+09/19 21:23:30 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 20/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1696.59 examples/s]
+Map:   0%|          | 0/23 [00:00<?, ? examples/s]Map: 100%|██████████| 23/23 [00:00<00:00, 5776.93 examples/s]
+Map:   0%|          | 0/210 [00:00<?, ? examples/s]Map: 100%|██████████| 210/210 [00:00<00:00, 13449.23 examples/s]
+09/19 21:23:30 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-veterinary_medicine]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48210.39it/s]
+[2026-09-19 21:23:30,312] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:30,312] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:30 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:30 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633c280>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  6.01it/s]100%|██████████| 1/1 [00:00<00:00,  6.00it/s]
+09/19 21:23:30 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 21/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1551.38 examples/s]
+Map:   0%|          | 0/55 [00:00<?, ? examples/s]Map: 100%|██████████| 55/55 [00:00<00:00, 9003.81 examples/s]
+Map:   0%|          | 0/497 [00:00<?, ? examples/s]Map: 100%|██████████| 497/497 [00:00<00:00, 15055.17 examples/s]
+09/19 21:23:30 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-college_economics]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47127.01it/s]
+[2026-09-19 21:23:30,559] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:30,560] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:30 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:30 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633e7a0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  5.88it/s]100%|██████████| 1/1 [00:00<00:00,  5.87it/s]
+09/19 21:23:30 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 22/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1628.86 examples/s]
+Map:   0%|          | 0/33 [00:00<?, ? examples/s]Map: 100%|██████████| 33/33 [00:00<00:00, 6496.39 examples/s]
+Map:   0%|          | 0/301 [00:00<?, ? examples/s]Map: 100%|██████████| 301/301 [00:00<00:00, 13989.38 examples/s]
+09/19 21:23:30 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-business_administration]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 45590.26it/s]
+[2026-09-19 21:23:30,799] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:30,799] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:30 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:30 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe638ab30>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  5.84it/s]100%|██████████| 1/1 [00:00<00:00,  5.83it/s]
+09/19 21:23:30 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 23/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1512.44 examples/s]
+Map:   0%|          | 0/19 [00:00<?, ? examples/s]Map: 100%|██████████| 19/19 [00:00<00:00, 4405.29 examples/s]
+Map:   0%|          | 0/179 [00:00<?, ? examples/s]Map: 100%|██████████| 179/179 [00:00<00:00, 12780.98 examples/s]
+09/19 21:23:31 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-marxism]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47127.01it/s]
+[2026-09-19 21:23:31,029] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:31,029] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:31 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:31 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633f1c0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  5.87it/s]100%|██████████| 1/1 [00:00<00:00,  5.86it/s]
+09/19 21:23:31 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 24/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1575.74 examples/s]
+Map:   0%|          | 0/24 [00:00<?, ? examples/s]Map: 100%|██████████| 24/24 [00:00<00:00, 5703.95 examples/s]
+Map:   0%|          | 0/219 [00:00<?, ? examples/s]Map: 100%|██████████| 219/219 [00:00<00:00, 13455.69 examples/s]
+09/19 21:23:31 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-mao_zedong_thought]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 49344.75it/s]
+[2026-09-19 21:23:31,261] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:31,261] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:31 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:31 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe632b490>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  5.85it/s]100%|██████████| 1/1 [00:00<00:00,  5.85it/s]
+09/19 21:23:31 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 25/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1691.39 examples/s]
+Map:   0%|          | 0/29 [00:00<?, ? examples/s]Map: 100%|██████████| 29/29 [00:00<00:00, 6931.15 examples/s]
+Map:   0%|          | 0/270 [00:00<?, ? examples/s]Map: 100%|██████████| 270/270 [00:00<00:00, 14407.18 examples/s]
+09/19 21:23:31 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-education_science]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 50533.78it/s]
+[2026-09-19 21:23:31,493] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:31,493] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:31 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:31 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633efe0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  6.12it/s]100%|██████████| 1/1 [00:00<00:00,  6.11it/s]
+09/19 21:23:31 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 26/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1809.14 examples/s]
+Map:   0%|          | 0/44 [00:00<?, ? examples/s]Map: 100%|██████████| 44/44 [00:00<00:00, 8474.51 examples/s]
+Map:   0%|          | 0/399 [00:00<?, ? examples/s]Map: 100%|██████████| 399/399 [00:00<00:00, 14959.30 examples/s]
+09/19 21:23:31 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-teacher_qualification]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 51781.53it/s]
+[2026-09-19 21:23:31,726] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:31,727] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:31 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:31 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633c0d0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  6.09it/s]100%|██████████| 1/1 [00:00<00:00,  6.09it/s]
+09/19 21:23:31 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 27/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1809.61 examples/s]
+Map:   0%|          | 0/19 [00:00<?, ? examples/s]Map: 100%|██████████| 19/19 [00:00<00:00, 4855.11 examples/s]
+Map:   0%|          | 0/176 [00:00<?, ? examples/s]Map: 100%|██████████| 176/176 [00:00<00:00, 13588.29 examples/s]
+09/19 21:23:31 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-high_school_politics]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 51781.53it/s]
+[2026-09-19 21:23:31,946] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:31,946] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:31 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:31 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe638be20>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.01it/s]100%|██████████| 1/1 [00:00<00:00,  4.00it/s]
+09/19 21:23:32 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 28/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1670.11 examples/s]
+Map:   0%|          | 0/19 [00:00<?, ? examples/s]Map: 100%|██████████| 19/19 [00:00<00:00, 4940.29 examples/s]
+Map:   0%|          | 0/178 [00:00<?, ? examples/s]Map: 100%|██████████| 178/178 [00:00<00:00, 12843.17 examples/s]
+09/19 21:23:32 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-high_school_geography]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 50533.78it/s]
+[2026-09-19 21:23:32,252] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:32,252] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:32 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:32 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633c520>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  6.07it/s]100%|██████████| 1/1 [00:00<00:00,  6.06it/s]
+09/19 21:23:32 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 29/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1701.41 examples/s]
+Map:   0%|          | 0/21 [00:00<?, ? examples/s]Map: 100%|██████████| 21/21 [00:00<00:00, 5305.73 examples/s]
+Map:   0%|          | 0/193 [00:00<?, ? examples/s]Map: 100%|██████████| 193/193 [00:00<00:00, 13183.41 examples/s]
+09/19 21:23:32 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-middle_school_politics]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 49932.19it/s]
+[2026-09-19 21:23:32,474] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:32,474] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:32 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:32 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe6388af0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.40it/s]100%|██████████| 1/1 [00:00<00:00,  4.40it/s]
+09/19 21:23:32 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 30/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1627.47 examples/s]
+Map:   0%|          | 0/12 [00:00<?, ? examples/s]Map: 100%|██████████| 12/12 [00:00<00:00, 3777.52 examples/s]
+Map:   0%|          | 0/108 [00:00<?, ? examples/s]Map: 100%|██████████| 108/108 [00:00<00:00, 11741.44 examples/s]
+09/19 21:23:32 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-middle_school_geography]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48770.98it/s]
+[2026-09-19 21:23:32,753] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:32,753] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:32 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:32 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633ff70>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  6.03it/s]100%|██████████| 1/1 [00:00<00:00,  6.02it/s]
+09/19 21:23:32 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 31/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1638.53 examples/s]
+Map:   0%|          | 0/23 [00:00<?, ? examples/s]Map: 100%|██████████| 23/23 [00:00<00:00, 5549.30 examples/s]
+Map:   0%|          | 0/212 [00:00<?, ? examples/s]Map: 100%|██████████| 212/212 [00:00<00:00, 13369.30 examples/s]
+09/19 21:23:32 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-modern_chinese_history]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 46603.38it/s]
+[2026-09-19 21:23:32,977] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:32,978] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:32 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:32 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe638ab00>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.91it/s]100%|██████████| 1/1 [00:00<00:00,  4.90it/s]
+09/19 21:23:33 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 32/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1647.67 examples/s]
+Map:   0%|          | 0/19 [00:00<?, ? examples/s]Map: 100%|██████████| 19/19 [00:00<00:00, 4706.86 examples/s]
+Map:   0%|          | 0/172 [00:00<?, ? examples/s]Map: 100%|██████████| 172/172 [00:00<00:00, 12686.54 examples/s]
+09/19 21:23:33 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-ideological_and_moral_cultivation]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47127.01it/s]
+[2026-09-19 21:23:33,238] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:33,238] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:33 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:33 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633fdf0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  6.44it/s]100%|██████████| 1/1 [00:00<00:00,  6.43it/s]
+09/19 21:23:33 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 33/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1641.48 examples/s]
+Map:   0%|          | 0/22 [00:00<?, ? examples/s]Map: 100%|██████████| 22/22 [00:00<00:00, 5346.78 examples/s]
+Map:   0%|          | 0/204 [00:00<?, ? examples/s]Map: 100%|██████████| 204/204 [00:00<00:00, 13247.63 examples/s]
+09/19 21:23:33 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-logic]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48770.98it/s]
+[2026-09-19 21:23:33,455] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:33,455] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:33 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:33 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe62afdf0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  3.24it/s]100%|██████████| 1/1 [00:00<00:00,  3.24it/s]
+09/19 21:23:33 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 34/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1610.59 examples/s]
+Map:   0%|          | 0/24 [00:00<?, ? examples/s]Map: 100%|██████████| 24/24 [00:00<00:00, 5795.91 examples/s]
+Map:   0%|          | 0/221 [00:00<?, ? examples/s]Map: 100%|██████████| 221/221 [00:00<00:00, 13516.99 examples/s]
+09/19 21:23:33 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-law]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 49932.19it/s]
+[2026-09-19 21:23:33,825] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:33,825] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:33 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:33 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633fd30>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.87it/s]100%|██████████| 1/1 [00:00<00:00,  4.86it/s]
+09/19 21:23:34 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 35/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1816.97 examples/s]
+Map:   0%|          | 0/23 [00:00<?, ? examples/s]Map: 100%|██████████| 23/23 [00:00<00:00, 5722.45 examples/s]
+Map:   0%|          | 0/209 [00:00<?, ? examples/s]Map: 100%|██████████| 209/209 [00:00<00:00, 13189.64 examples/s]
+09/19 21:23:34 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-chinese_language_and_literature]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48210.39it/s]
+[2026-09-19 21:23:34,087] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:34,087] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:34 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:34 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe638ab30>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  6.07it/s]100%|██████████| 1/1 [00:00<00:00,  6.06it/s]
+09/19 21:23:34 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 36/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1764.83 examples/s]
+Map:   0%|          | 0/33 [00:00<?, ? examples/s]Map: 100%|██████████| 33/33 [00:00<00:00, 7010.69 examples/s]
+Map:   0%|          | 0/298 [00:00<?, ? examples/s]Map: 100%|██████████| 298/298 [00:00<00:00, 14266.83 examples/s]
+09/19 21:23:34 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-art_studies]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 49344.75it/s]
+[2026-09-19 21:23:34,315] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:34,315] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:34 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:34 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633df00>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  6.49it/s]100%|██████████| 1/1 [00:00<00:00,  6.48it/s]
+09/19 21:23:34 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 37/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1636.87 examples/s]
+Map:   0%|          | 0/29 [00:00<?, ? examples/s]Map: 100%|██████████| 29/29 [00:00<00:00, 6289.29 examples/s]
+Map:   0%|          | 0/266 [00:00<?, ? examples/s]Map: 100%|██████████| 266/266 [00:00<00:00, 13354.94 examples/s]
+09/19 21:23:34 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-professional_tour_guide]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47127.01it/s]
+[2026-09-19 21:23:34,532] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:34,533] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:34 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:34 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe6389510>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  6.06it/s]100%|██████████| 1/1 [00:00<00:00,  6.05it/s]
+09/19 21:23:34 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 38/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1583.95 examples/s]
+Map:   0%|          | 0/23 [00:00<?, ? examples/s]Map: 100%|██████████| 23/23 [00:00<00:00, 5725.50 examples/s]
+Map:   0%|          | 0/215 [00:00<?, ? examples/s]Map: 100%|██████████| 215/215 [00:00<00:00, 13439.07 examples/s]
+09/19 21:23:34 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-legal_professional]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 49932.19it/s]
+[2026-09-19 21:23:34,759] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:34,759] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:34 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:34 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633dae0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  3.47it/s]100%|██████████| 1/1 [00:00<00:00,  3.47it/s]
+09/19 21:23:35 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 39/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1584.43 examples/s]
+Map:   0%|          | 0/19 [00:00<?, ? examples/s]Map: 100%|██████████| 19/19 [00:00<00:00, 4716.89 examples/s]
+Map:   0%|          | 0/178 [00:00<?, ? examples/s]Map: 100%|██████████| 178/178 [00:00<00:00, 12073.65 examples/s]
+09/19 21:23:35 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-high_school_chinese]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 45590.26it/s]
+[2026-09-19 21:23:35,107] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:35,107] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:35 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:35 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe638b040>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  3.25it/s]100%|██████████| 1/1 [00:00<00:00,  3.25it/s]
+09/19 21:23:35 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 40/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1665.99 examples/s]
+Map:   0%|          | 0/20 [00:00<?, ? examples/s]Map: 100%|██████████| 20/20 [00:00<00:00, 5069.56 examples/s]
+Map:   0%|          | 0/182 [00:00<?, ? examples/s]Map: 100%|██████████| 182/182 [00:00<00:00, 13142.18 examples/s]
+09/19 21:23:35 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-high_school_history]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47662.55it/s]
+[2026-09-19 21:23:35,472] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:35,472] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:35 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:35 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633d7e0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.84it/s]100%|██████████| 1/1 [00:00<00:00,  4.83it/s]
+09/19 21:23:35 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 41/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1617.55 examples/s]
+Map:   0%|          | 0/22 [00:00<?, ? examples/s]Map: 100%|██████████| 22/22 [00:00<00:00, 5403.45 examples/s]
+Map:   0%|          | 0/207 [00:00<?, ? examples/s]Map: 100%|██████████| 207/207 [00:00<00:00, 13130.99 examples/s]
+09/19 21:23:35 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-middle_school_history]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47662.55it/s]
+[2026-09-19 21:23:35,737] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:35,738] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:35 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:35 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe638b3a0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  5.88it/s]100%|██████████| 1/1 [00:00<00:00,  5.87it/s]
+09/19 21:23:35 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 42/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1623.94 examples/s]
+Map:   0%|          | 0/47 [00:00<?, ? examples/s]Map: 100%|██████████| 47/47 [00:00<00:00, 8217.95 examples/s]
+Map:   0%|          | 0/429 [00:00<?, ? examples/s]Map: 100%|██████████| 429/429 [00:00<00:00, 14075.84 examples/s]
+09/19 21:23:35 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-civil_servant]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 45590.26it/s]
+[2026-09-19 21:23:35,989] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:35,989] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:35 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:35 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633ece0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.01it/s]100%|██████████| 1/1 [00:00<00:00,  4.00it/s]
+09/19 21:23:36 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 43/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1725.06 examples/s]
+Map:   0%|          | 0/19 [00:00<?, ? examples/s]Map: 100%|██████████| 19/19 [00:00<00:00, 4809.40 examples/s]
+Map:   0%|          | 0/180 [00:00<?, ? examples/s]Map: 100%|██████████| 180/180 [00:00<00:00, 13373.51 examples/s]
+09/19 21:23:36 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-sports_science]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 50533.78it/s]
+[2026-09-19 21:23:36,293] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:36,293] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:36 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:36 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633de10>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  6.57it/s]100%|██████████| 1/1 [00:00<00:00,  6.56it/s]
+09/19 21:23:36 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 44/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1798.74 examples/s]
+Map:   0%|          | 0/22 [00:00<?, ? examples/s]Map: 100%|██████████| 22/22 [00:00<00:00, 5495.16 examples/s]
+Map:   0%|          | 0/199 [00:00<?, ? examples/s]Map: 100%|██████████| 199/199 [00:00<00:00, 13596.35 examples/s]
+09/19 21:23:36 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-plant_protection]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48770.98it/s]
+[2026-09-19 21:23:36,500] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:36,501] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:36 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:36 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633ca60>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  6.51it/s]100%|██████████| 1/1 [00:00<00:00,  6.50it/s]
+09/19 21:23:36 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 45/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1673.44 examples/s]
+Map:   0%|          | 0/19 [00:00<?, ? examples/s]Map: 100%|██████████| 19/19 [00:00<00:00, 4859.55 examples/s]
+Map:   0%|          | 0/175 [00:00<?, ? examples/s]Map: 100%|██████████| 175/175 [00:00<00:00, 13038.28 examples/s]
+09/19 21:23:36 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-basic_medicine]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48770.98it/s]
+[2026-09-19 21:23:36,709] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:36,709] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:36 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:36 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe638b820>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  6.52it/s]100%|██████████| 1/1 [00:00<00:00,  6.51it/s]
+09/19 21:23:36 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 46/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1623.43 examples/s]
+Map:   0%|          | 0/22 [00:00<?, ? examples/s]Map: 100%|██████████| 22/22 [00:00<00:00, 5319.65 examples/s]
+Map:   0%|          | 0/200 [00:00<?, ? examples/s]Map: 100%|██████████| 200/200 [00:00<00:00, 13385.36 examples/s]
+09/19 21:23:36 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-clinical_medicine]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48770.98it/s]
+[2026-09-19 21:23:36,920] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:36,920] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:36 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:36 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633d810>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.89it/s]100%|██████████| 1/1 [00:00<00:00,  4.89it/s]
+09/19 21:23:37 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 47/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1691.80 examples/s]
+Map:   0%|          | 0/46 [00:00<?, ? examples/s]Map: 100%|██████████| 46/46 [00:00<00:00, 8740.90 examples/s]
+Map:   0%|          | 0/418 [00:00<?, ? examples/s]Map: 100%|██████████| 418/418 [00:00<00:00, 15071.21 examples/s]
+09/19 21:23:37 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-urban_and_rural_planner]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47127.01it/s]
+[2026-09-19 21:23:37,198] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:37,198] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:37 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:37 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633e6e0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  5.87it/s]100%|██████████| 1/1 [00:00<00:00,  5.86it/s]
+09/19 21:23:37 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 48/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1664.67 examples/s]
+Map:   0%|          | 0/49 [00:00<?, ? examples/s]Map: 100%|██████████| 49/49 [00:00<00:00, 8537.05 examples/s]
+Map:   0%|          | 0/443 [00:00<?, ? examples/s]Map: 100%|██████████| 443/443 [00:00<00:00, 14956.75 examples/s]
+09/19 21:23:37 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-accountant]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 34663.67it/s]
+[2026-09-19 21:23:37,445] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:37,445] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:37 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:37 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633f910>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.51it/s]100%|██████████| 1/1 [00:00<00:00,  4.51it/s]
+09/19 21:23:37 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 49/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1650.39 examples/s]
+Map:   0%|          | 0/31 [00:00<?, ? examples/s]Map: 100%|██████████| 31/31 [00:00<00:00, 6936.80 examples/s]
+Map:   0%|          | 0/282 [00:00<?, ? examples/s]Map: 100%|██████████| 282/282 [00:00<00:00, 14300.49 examples/s]
+09/19 21:23:37 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-fire_engineer]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 46091.25it/s]
+[2026-09-19 21:23:37,732] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:37,732] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:37 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:37 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633c580>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.83it/s]100%|██████████| 1/1 [00:00<00:00,  4.82it/s]
+09/19 21:23:37 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 50/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1668.51 examples/s]
+Map:   0%|          | 0/31 [00:00<?, ? examples/s]Map: 100%|██████████| 31/31 [00:00<00:00, 7159.88 examples/s]
+Map:   0%|          | 0/281 [00:00<?, ? examples/s]Map: 100%|██████████| 281/281 [00:00<00:00, 14260.64 examples/s]
+09/19 21:23:37 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-environmental_impact_assessment_engineer]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 45100.04it/s]
+[2026-09-19 21:23:38,004] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:38,004] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:38 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:38 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633f3a0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.96it/s]100%|██████████| 1/1 [00:00<00:00,  4.96it/s]
+09/19 21:23:38 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 51/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1695.35 examples/s]
+Map:   0%|          | 0/49 [00:00<?, ? examples/s]Map: 100%|██████████| 49/49 [00:00<00:00, 8097.43 examples/s]
+Map:   0%|          | 0/443 [00:00<?, ? examples/s]Map: 100%|██████████| 443/443 [00:00<00:00, 14434.47 examples/s]
+09/19 21:23:38 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-tax_accountant]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48210.39it/s]
+[2026-09-19 21:23:38,282] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:38,283] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:38 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:38 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe638be80>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.90it/s]100%|██████████| 1/1 [00:00<00:00,  4.89it/s]
+09/19 21:23:38 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 52/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1705.42 examples/s]
+Map:   0%|          | 0/49 [00:00<?, ? examples/s]Map: 100%|██████████| 49/49 [00:00<00:00, 8420.92 examples/s]
+Map:   0%|          | 0/443 [00:00<?, ? examples/s]Map: 100%|██████████| 443/443 [00:00<00:00, 14913.89 examples/s]
+09/19 21:23:38 - OpenCompass - INFO - Start inferencing [week8-bound-model/ceval-physician]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 50533.78it/s]
+[2026-09-19 21:23:38,561] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:38,561] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:38 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:38 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633cd30>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  6.08it/s]100%|██████████| 1/1 [00:00<00:00,  6.07it/s]
+09/19 21:23:38 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 53/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1873.29 examples/s]
+Map:   0%|          | 0/169 [00:00<?, ? examples/s]Map: 100%|██████████| 169/169 [00:00<00:00, 14482.92 examples/s]
+09/19 21:23:38 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-agronomy]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48210.39it/s]
+[2026-09-19 21:23:38,763] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:38,763] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:38 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:38 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633d750>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.41it/s]100%|██████████| 1/1 [00:00<00:00,  4.40it/s]
+09/19 21:23:38 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 54/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1908.06 examples/s]
+Map:   0%|          | 0/148 [00:00<?, ? examples/s]Map: 100%|██████████| 148/148 [00:00<00:00, 14922.04 examples/s]
+09/19 21:23:39 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-anatomy]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 46603.38it/s]
+[2026-09-19 21:23:39,026] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:39,026] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:39 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:39 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633e110>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.42it/s]100%|██████████| 1/1 [00:00<00:00,  4.42it/s]
+09/19 21:23:39 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 55/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1760.83 examples/s]
+Map:   0%|          | 0/164 [00:00<?, ? examples/s]Map: 100%|██████████| 164/164 [00:00<00:00, 15285.91 examples/s]
+09/19 21:23:39 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-ancient_chinese]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48770.98it/s]
+[2026-09-19 21:23:39,290] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:39,290] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:39 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:39 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633dd80>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.09it/s]100%|██████████| 1/1 [00:00<00:00,  4.09it/s]
+09/19 21:23:39 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 56/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1825.67 examples/s]
+Map:   0%|          | 0/160 [00:00<?, ? examples/s]Map: 100%|██████████| 160/160 [00:00<00:00, 15522.60 examples/s]
+09/19 21:23:39 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-arts]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 49932.19it/s]
+[2026-09-19 21:23:39,570] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:39,571] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:39 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:39 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633f940>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.41it/s]100%|██████████| 1/1 [00:00<00:00,  4.40it/s]
+09/19 21:23:39 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 57/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1874.80 examples/s]
+Map:   0%|          | 0/165 [00:00<?, ? examples/s]Map: 100%|██████████| 165/165 [00:00<00:00, 14380.77 examples/s]
+09/19 21:23:39 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-astronomy]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48770.98it/s]
+[2026-09-19 21:23:39,835] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:39,835] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:39 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:39 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633fcd0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.42it/s]100%|██████████| 1/1 [00:00<00:00,  4.42it/s]
+09/19 21:23:40 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 58/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1791.06 examples/s]
+Map:   0%|          | 0/209 [00:00<?, ? examples/s]Map: 100%|██████████| 209/209 [00:00<00:00, 15167.57 examples/s]
+09/19 21:23:40 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-business_ethics]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 45590.26it/s]
+[2026-09-19 21:23:40,102] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:40,102] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:40 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:40 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633edd0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.46it/s]100%|██████████| 1/1 [00:00<00:00,  4.46it/s]
+09/19 21:23:40 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 59/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1899.94 examples/s]
+Map:   0%|          | 0/160 [00:00<?, ? examples/s]Map: 100%|██████████| 160/160 [00:00<00:00, 15469.29 examples/s]
+09/19 21:23:40 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-chinese_civil_service_exam]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 49344.75it/s]
+[2026-09-19 21:23:40,362] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:40,362] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:40 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:40 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633e4d0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.08it/s]100%|██████████| 1/1 [00:00<00:00,  4.08it/s]
+09/19 21:23:40 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 60/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1921.70 examples/s]
+Map:   0%|          | 0/131 [00:00<?, ? examples/s]Map: 100%|██████████| 131/131 [00:00<00:00, 13751.82 examples/s]
+09/19 21:23:40 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-chinese_driving_rule]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48210.39it/s]
+[2026-09-19 21:23:40,642] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:40,642] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:40 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:40 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633f040>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.40it/s]100%|██████████| 1/1 [00:00<00:00,  4.40it/s]
+09/19 21:23:40 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 61/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 2003.78 examples/s]
+Map:   0%|          | 0/136 [00:00<?, ? examples/s]Map: 100%|██████████| 136/136 [00:00<00:00, 14354.66 examples/s]
+09/19 21:23:40 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-chinese_food_culture]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48770.98it/s]
+[2026-09-19 21:23:40,903] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:40,903] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:40 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:40 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633c310>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.33it/s]100%|██████████| 1/1 [00:00<00:00,  4.32it/s]
+09/19 21:23:41 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 62/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1759.95 examples/s]
+Map:   0%|          | 0/107 [00:00<?, ? examples/s]Map: 100%|██████████| 107/107 [00:00<00:00, 13301.44 examples/s]
+09/19 21:23:41 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-chinese_foreign_policy]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48770.98it/s]
+[2026-09-19 21:23:41,170] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:41,170] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:41 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:41 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633c760>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  3.57it/s]100%|██████████| 1/1 [00:00<00:00,  3.57it/s]
+09/19 21:23:41 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 63/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1823.93 examples/s]
+Map:   0%|          | 0/323 [00:00<?, ? examples/s]Map: 100%|██████████| 323/323 [00:00<00:00, 16456.84 examples/s]
+09/19 21:23:41 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-chinese_history]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47662.55it/s]
+[2026-09-19 21:23:41,498] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:41,498] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:41 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:41 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe634f0d0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  3.57it/s]100%|██████████| 1/1 [00:00<00:00,  3.56it/s]
+09/19 21:23:41 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 64/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1798.43 examples/s]
+Map:   0%|          | 0/204 [00:00<?, ? examples/s]Map: 100%|██████████| 204/204 [00:00<00:00, 16172.80 examples/s]
+09/19 21:23:41 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-chinese_literature]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 46603.38it/s]
+[2026-09-19 21:23:41,818] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:41,818] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:41 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:41 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633ff10>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.38it/s]100%|██████████| 1/1 [00:00<00:00,  4.38it/s]
+09/19 21:23:42 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 65/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1806.49 examples/s]
+Map:   0%|          | 0/179 [00:00<?, ? examples/s]Map: 100%|██████████| 179/179 [00:00<00:00, 15233.45 examples/s]
+09/19 21:23:42 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-chinese_teacher_qualification]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 44150.57it/s]
+[2026-09-19 21:23:42,086] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:42,086] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:42 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:42 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633fc70>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.10it/s]100%|██████████| 1/1 [00:00<00:00,  4.10it/s]
+09/19 21:23:42 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 66/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1852.44 examples/s]
+Map:   0%|          | 0/237 [00:00<?, ? examples/s]Map: 100%|██████████| 237/237 [00:00<00:00, 16608.19 examples/s]
+09/19 21:23:42 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-clinical_knowledge]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48770.98it/s]
+[2026-09-19 21:23:42,371] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:42,371] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:42 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:42 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633d780>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.09it/s]100%|██████████| 1/1 [00:00<00:00,  4.09it/s]
+09/19 21:23:42 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 67/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1989.14 examples/s]
+Map:   0%|          | 0/106 [00:00<?, ? examples/s]Map: 100%|██████████| 106/106 [00:00<00:00, 13494.70 examples/s]
+09/19 21:23:42 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-college_actuarial_science]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47127.01it/s]
+[2026-09-19 21:23:42,648] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:42,648] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:42 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:42 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe634ded0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  3.57it/s]100%|██████████| 1/1 [00:00<00:00,  3.57it/s]
+09/19 21:23:42 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 68/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1856.71 examples/s]
+Map:   0%|          | 0/107 [00:00<?, ? examples/s]Map: 100%|██████████| 107/107 [00:00<00:00, 11714.10 examples/s]
+09/19 21:23:42 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-college_education]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 49344.75it/s]
+[2026-09-19 21:23:42,965] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:42,965] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:42 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:42 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633ceb0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.38it/s]100%|██████████| 1/1 [00:00<00:00,  4.37it/s]
+09/19 21:23:43 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 69/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1927.88 examples/s]
+Map:   0%|          | 0/106 [00:00<?, ? examples/s]Map: 100%|██████████| 106/106 [00:00<00:00, 13556.83 examples/s]
+09/19 21:23:43 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-college_engineering_hydrology]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47662.55it/s]
+[2026-09-19 21:23:43,227] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:43,227] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:43 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:43 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633ece0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.41it/s]100%|██████████| 1/1 [00:00<00:00,  4.41it/s]
+09/19 21:23:43 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 70/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1897.19 examples/s]
+Map:   0%|          | 0/108 [00:00<?, ? examples/s]Map: 100%|██████████| 108/108 [00:00<00:00, 13805.88 examples/s]
+09/19 21:23:43 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-college_law]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48210.39it/s]
+[2026-09-19 21:23:43,487] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:43,487] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:43 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:43 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633c5e0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.06it/s]100%|██████████| 1/1 [00:00<00:00,  4.06it/s]
+09/19 21:23:43 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 71/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1787.55 examples/s]
+Map:   0%|          | 0/105 [00:00<?, ? examples/s]Map: 100%|██████████| 105/105 [00:00<00:00, 13128.69 examples/s]
+09/19 21:23:43 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-college_mathematics]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 46603.38it/s]
+[2026-09-19 21:23:43,768] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:43,769] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:43 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:43 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633e950>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  3.60it/s]100%|██████████| 1/1 [00:00<00:00,  3.59it/s]
+09/19 21:23:44 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 72/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1877.99 examples/s]
+Map:   0%|          | 0/106 [00:00<?, ? examples/s]Map: 100%|██████████| 106/106 [00:00<00:00, 13038.39 examples/s]
+09/19 21:23:44 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-college_medical_statistics]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48770.98it/s]
+[2026-09-19 21:23:44,080] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:44,081] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:44 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:44 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633f580>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.19it/s]100%|██████████| 1/1 [00:00<00:00,  4.18it/s]
+09/19 21:23:44 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 73/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1886.44 examples/s]
+Map:   0%|          | 0/273 [00:00<?, ? examples/s]Map: 100%|██████████| 273/273 [00:00<00:00, 15908.71 examples/s]
+09/19 21:23:44 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-college_medicine]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48770.98it/s]
+[2026-09-19 21:23:44,362] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:44,362] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:44 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:44 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633d540>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.38it/s]100%|██████████| 1/1 [00:00<00:00,  4.38it/s]
+09/19 21:23:44 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 74/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1894.10 examples/s]
+Map:   0%|          | 0/204 [00:00<?, ? examples/s]Map: 100%|██████████| 204/204 [00:00<00:00, 15827.56 examples/s]
+09/19 21:23:44 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-computer_science]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48210.39it/s]
+[2026-09-19 21:23:44,630] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:44,630] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:44 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:44 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633dab0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.49it/s]100%|██████████| 1/1 [00:00<00:00,  4.49it/s]
+09/19 21:23:44 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 75/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1991.41 examples/s]
+Map:   0%|          | 0/171 [00:00<?, ? examples/s]Map: 100%|██████████| 171/171 [00:00<00:00, 15716.58 examples/s]
+09/19 21:23:44 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-computer_security]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 51150.05it/s]
+[2026-09-19 21:23:44,888] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:44,888] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:44 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:44 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633d9c0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.35it/s]100%|██████████| 1/1 [00:00<00:00,  4.35it/s]
+09/19 21:23:45 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 76/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1887.29 examples/s]
+Map:   0%|          | 0/147 [00:00<?, ? examples/s]Map: 100%|██████████| 147/147 [00:00<00:00, 14144.59 examples/s]
+09/19 21:23:45 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-conceptual_physics]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 46091.25it/s]
+[2026-09-19 21:23:45,154] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:45,154] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:45 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:45 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe634e410>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.00it/s]100%|██████████| 1/1 [00:00<00:00,  3.99it/s]
+09/19 21:23:45 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 77/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1588.87 examples/s]
+Map:   0%|          | 0/139 [00:00<?, ? examples/s]Map: 100%|██████████| 139/139 [00:00<00:00, 13079.56 examples/s]
+09/19 21:23:45 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-construction_project_management]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47662.55it/s]
+[2026-09-19 21:23:45,443] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:45,443] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:45 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:45 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe634de10>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.43it/s]100%|██████████| 1/1 [00:00<00:00,  4.43it/s]
+09/19 21:23:45 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 78/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1901.49 examples/s]
+Map:   0%|          | 0/159 [00:00<?, ? examples/s]Map: 100%|██████████| 159/159 [00:00<00:00, 15242.25 examples/s]
+09/19 21:23:45 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-economics]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 49344.75it/s]
+[2026-09-19 21:23:45,704] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:45,704] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:45 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:45 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633d090>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.46it/s]100%|██████████| 1/1 [00:00<00:00,  4.46it/s]
+09/19 21:23:45 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 79/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1930.19 examples/s]
+Map:   0%|          | 0/163 [00:00<?, ? examples/s]Map: 100%|██████████| 163/163 [00:00<00:00, 14522.72 examples/s]
+09/19 21:23:45 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-education]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 46603.38it/s]
+[2026-09-19 21:23:45,964] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:45,964] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:45 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:45 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633cd00>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.45it/s]100%|██████████| 1/1 [00:00<00:00,  4.44it/s]
+09/19 21:23:46 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 80/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1795.35 examples/s]
+Map:   0%|          | 0/172 [00:00<?, ? examples/s]Map: 100%|██████████| 172/172 [00:00<00:00, 14849.84 examples/s]
+09/19 21:23:46 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-electrical_engineering]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47127.01it/s]
+[2026-09-19 21:23:46,226] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:46,227] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:46 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:46 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633d870>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.41it/s]100%|██████████| 1/1 [00:00<00:00,  4.40it/s]
+09/19 21:23:46 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 81/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1786.63 examples/s]
+Map:   0%|          | 0/252 [00:00<?, ? examples/s]Map: 100%|██████████| 252/252 [00:00<00:00, 16653.77 examples/s]
+09/19 21:23:46 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-elementary_chinese]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48210.39it/s]
+[2026-09-19 21:23:46,495] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:46,495] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:46 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:46 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633d780>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.43it/s]100%|██████████| 1/1 [00:00<00:00,  4.43it/s]
+09/19 21:23:46 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 82/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1963.99 examples/s]
+Map:   0%|          | 0/198 [00:00<?, ? examples/s]Map: 100%|██████████| 198/198 [00:00<00:00, 15950.37 examples/s]
+09/19 21:23:46 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-elementary_commonsense]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 50533.78it/s]
+[2026-09-19 21:23:46,758] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:46,758] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:46 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:46 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633d990>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.46it/s]100%|██████████| 1/1 [00:00<00:00,  4.46it/s]
+09/19 21:23:46 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 83/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 2019.79 examples/s]
+Map:   0%|          | 0/238 [00:00<?, ? examples/s]Map: 100%|██████████| 238/238 [00:00<00:00, 16851.70 examples/s]
+09/19 21:23:47 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-elementary_information_and_technology]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 49344.75it/s]
+[2026-09-19 21:23:47,020] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:47,020] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:47 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:47 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633cc40>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.50it/s]100%|██████████| 1/1 [00:00<00:00,  4.49it/s]
+09/19 21:23:47 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 84/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1971.56 examples/s]
+Map:   0%|          | 0/230 [00:00<?, ? examples/s]Map: 100%|██████████| 230/230 [00:00<00:00, 16390.40 examples/s]
+09/19 21:23:47 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-elementary_mathematics]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 49932.19it/s]
+[2026-09-19 21:23:47,281] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:47,281] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:47 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:47 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633f880>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.40it/s]100%|██████████| 1/1 [00:00<00:00,  4.40it/s]
+09/19 21:23:47 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 85/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 2019.99 examples/s]
+Map:   0%|          | 0/135 [00:00<?, ? examples/s]Map: 100%|██████████| 135/135 [00:00<00:00, 14058.42 examples/s]
+09/19 21:23:47 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-ethnology]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 46603.38it/s]
+[2026-09-19 21:23:47,542] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:47,542] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:47 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:47 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633f820>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.36it/s]100%|██████████| 1/1 [00:00<00:00,  4.35it/s]
+09/19 21:23:47 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 86/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1737.92 examples/s]
+Map:   0%|          | 0/143 [00:00<?, ? examples/s]Map: 100%|██████████| 143/143 [00:00<00:00, 13192.25 examples/s]
+09/19 21:23:47 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-food_science]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 46603.38it/s]
+[2026-09-19 21:23:47,810] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:47,810] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:47 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:47 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633e680>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.42it/s]100%|██████████| 1/1 [00:00<00:00,  4.42it/s]
+09/19 21:23:48 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 87/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1871.45 examples/s]
+Map:   0%|          | 0/176 [00:00<?, ? examples/s]Map: 100%|██████████| 176/176 [00:00<00:00, 15987.64 examples/s]
+09/19 21:23:48 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-genetics]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47127.01it/s]
+[2026-09-19 21:23:48,073] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:48,073] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:48 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:48 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633eef0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.39it/s]100%|██████████| 1/1 [00:00<00:00,  4.38it/s]
+09/19 21:23:48 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 88/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1884.23 examples/s]
+Map:   0%|          | 0/149 [00:00<?, ? examples/s]Map: 100%|██████████| 149/149 [00:00<00:00, 14850.45 examples/s]
+09/19 21:23:48 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-global_facts]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 46603.38it/s]
+[2026-09-19 21:23:48,337] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:48,337] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:48 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:48 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633dea0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.40it/s]100%|██████████| 1/1 [00:00<00:00,  4.39it/s]
+09/19 21:23:48 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 89/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1879.84 examples/s]
+Map:   0%|          | 0/169 [00:00<?, ? examples/s]Map: 100%|██████████| 169/169 [00:00<00:00, 14805.38 examples/s]
+09/19 21:23:48 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-high_school_biology]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 46603.38it/s]
+[2026-09-19 21:23:48,604] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:48,604] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:48 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:48 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633e560>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  3.56it/s]100%|██████████| 1/1 [00:00<00:00,  3.55it/s]
+09/19 21:23:48 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 90/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1773.79 examples/s]
+Map:   0%|          | 0/132 [00:00<?, ? examples/s]Map: 100%|██████████| 132/132 [00:00<00:00, 14295.81 examples/s]
+09/19 21:23:48 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-high_school_chemistry]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 46603.38it/s]
+[2026-09-19 21:23:48,921] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:48,922] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:48 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:48 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633ebc0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.08it/s]100%|██████████| 1/1 [00:00<00:00,  4.07it/s]
+09/19 21:23:49 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 91/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1909.45 examples/s]
+Map:   0%|          | 0/118 [00:00<?, ? examples/s]Map: 100%|██████████| 118/118 [00:00<00:00, 14049.28 examples/s]
+09/19 21:23:49 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-high_school_geography]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47127.01it/s]
+[2026-09-19 21:23:49,201] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:49,201] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:49 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:49 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633f640>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.20it/s]100%|██████████| 1/1 [00:00<00:00,  4.19it/s]
+09/19 21:23:49 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 92/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1912.59 examples/s]
+Map:   0%|          | 0/164 [00:00<?, ? examples/s]Map: 100%|██████████| 164/164 [00:00<00:00, 15232.09 examples/s]
+09/19 21:23:49 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-high_school_mathematics]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48210.39it/s]
+[2026-09-19 21:23:49,475] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:49,475] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:49 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:49 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633e7a0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.17it/s]100%|██████████| 1/1 [00:00<00:00,  4.17it/s]
+09/19 21:23:49 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 93/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 2038.25 examples/s]
+Map:   0%|          | 0/110 [00:00<?, ? examples/s]Map: 100%|██████████| 110/110 [00:00<00:00, 13488.87 examples/s]
+09/19 21:23:49 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-high_school_physics]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 49344.75it/s]
+[2026-09-19 21:23:49,748] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:49,748] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:49 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:49 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633d6c0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.06it/s]100%|██████████| 1/1 [00:00<00:00,  4.05it/s]
+09/19 21:23:49 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 94/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1882.04 examples/s]
+Map:   0%|          | 0/143 [00:00<?, ? examples/s]Map: 100%|██████████| 143/143 [00:00<00:00, 13564.59 examples/s]
+09/19 21:23:50 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-high_school_politics]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 42799.02it/s]
+[2026-09-19 21:23:50,032] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:50,033] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:50 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:50 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633e350>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  3.58it/s]100%|██████████| 1/1 [00:00<00:00,  3.57it/s]
+09/19 21:23:50 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 95/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1885.08 examples/s]
+Map:   0%|          | 0/126 [00:00<?, ? examples/s]Map: 100%|██████████| 126/126 [00:00<00:00, 14208.81 examples/s]
+09/19 21:23:50 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-human_sexuality]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47127.01it/s]
+[2026-09-19 21:23:50,347] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:50,347] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:50 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:50 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633fca0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.38it/s]100%|██████████| 1/1 [00:00<00:00,  4.38it/s]
+09/19 21:23:50 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 96/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1791.37 examples/s]
+Map:   0%|          | 0/185 [00:00<?, ? examples/s]Map: 100%|██████████| 185/185 [00:00<00:00, 15207.77 examples/s]
+09/19 21:23:50 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-international_law]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47662.55it/s]
+[2026-09-19 21:23:50,614] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:50,614] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:50 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:50 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe634fa00>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.35it/s]100%|██████████| 1/1 [00:00<00:00,  4.35it/s]
+09/19 21:23:50 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 97/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1796.28 examples/s]
+Map:   0%|          | 0/172 [00:00<?, ? examples/s]Map: 100%|██████████| 172/172 [00:00<00:00, 15131.41 examples/s]
+09/19 21:23:50 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-journalism]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48770.98it/s]
+[2026-09-19 21:23:50,881] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:50,881] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:50 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:50 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe634f580>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.40it/s]100%|██████████| 1/1 [00:00<00:00,  4.40it/s]
+09/19 21:23:51 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 98/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1813.36 examples/s]
+Map:   0%|          | 0/411 [00:00<?, ? examples/s]Map: 100%|██████████| 411/411 [00:00<00:00, 16480.17 examples/s]
+09/19 21:23:51 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-jurisprudence]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 44150.57it/s]
+[2026-09-19 21:23:51,162] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:51,162] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:51 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:51 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe634d4b0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.37it/s]100%|██████████| 1/1 [00:00<00:00,  4.36it/s]
+09/19 21:23:51 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 99/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1901.49 examples/s]
+Map:   0%|          | 0/214 [00:00<?, ? examples/s]Map: 100%|██████████| 214/214 [00:00<00:00, 16142.67 examples/s]
+09/19 21:23:51 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-legal_and_moral_basis]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48210.39it/s]
+[2026-09-19 21:23:51,430] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:51,430] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:51 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:51 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe634efe0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.35it/s]100%|██████████| 1/1 [00:00<00:00,  4.35it/s]
+09/19 21:23:51 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 100/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1907.02 examples/s]
+Map:   0%|          | 0/123 [00:00<?, ? examples/s]Map: 100%|██████████| 123/123 [00:00<00:00, 13830.71 examples/s]
+09/19 21:23:51 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-logical]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48770.98it/s]
+[2026-09-19 21:23:51,694] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:51,694] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:51 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:51 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe634d090>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.46it/s]100%|██████████| 1/1 [00:00<00:00,  4.45it/s]
+09/19 21:23:51 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 101/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 2033.50 examples/s]
+Map:   0%|          | 0/122 [00:00<?, ? examples/s]Map: 100%|██████████| 122/122 [00:00<00:00, 13080.73 examples/s]
+09/19 21:23:51 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-machine_learning]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 49932.19it/s]
+[2026-09-19 21:23:51,953] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:51,953] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:51 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:51 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe634c2e0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.15it/s]100%|██████████| 1/1 [00:00<00:00,  4.15it/s]
+09/19 21:23:52 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 102/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 2008.19 examples/s]
+Map:   0%|          | 0/210 [00:00<?, ? examples/s]Map: 100%|██████████| 210/210 [00:00<00:00, 16294.59 examples/s]
+09/19 21:23:52 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-management]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48770.98it/s]
+[2026-09-19 21:23:52,231] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:52,231] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:52 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:52 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe634d750>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.45it/s]100%|██████████| 1/1 [00:00<00:00,  4.44it/s]
+09/19 21:23:52 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 103/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1806.64 examples/s]
+Map:   0%|          | 0/180 [00:00<?, ? examples/s]Map: 100%|██████████| 180/180 [00:00<00:00, 15148.88 examples/s]
+09/19 21:23:52 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-marketing]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47662.55it/s]
+[2026-09-19 21:23:52,494] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:52,494] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:52 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:52 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe634d090>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.39it/s]100%|██████████| 1/1 [00:00<00:00,  4.38it/s]
+09/19 21:23:52 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 104/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1782.23 examples/s]
+Map:   0%|          | 0/189 [00:00<?, ? examples/s]Map: 100%|██████████| 189/189 [00:00<00:00, 14690.40 examples/s]
+09/19 21:23:52 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-marxist_theory]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 45100.04it/s]
+[2026-09-19 21:23:52,763] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:52,763] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:52 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:52 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe638aa40>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.36it/s]100%|██████████| 1/1 [00:00<00:00,  4.35it/s]
+09/19 21:23:52 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 105/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1887.29 examples/s]
+Map:   0%|          | 0/116 [00:00<?, ? examples/s]Map: 100%|██████████| 116/116 [00:00<00:00, 13807.23 examples/s]
+09/19 21:23:53 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-modern_chinese]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48770.98it/s]
+[2026-09-19 21:23:53,026] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:53,027] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:53 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:53 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633f9a0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.36it/s]100%|██████████| 1/1 [00:00<00:00,  4.35it/s]
+09/19 21:23:53 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 106/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1840.41 examples/s]
+Map:   0%|          | 0/145 [00:00<?, ? examples/s]Map: 100%|██████████| 145/145 [00:00<00:00, 14389.88 examples/s]
+09/19 21:23:53 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-nutrition]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 35246.25it/s]
+[2026-09-19 21:23:53,292] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:53,292] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:53 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:53 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633c820>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.40it/s]100%|██████████| 1/1 [00:00<00:00,  4.40it/s]
+09/19 21:23:53 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 107/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1874.47 examples/s]
+Map:   0%|          | 0/105 [00:00<?, ? examples/s]Map: 100%|██████████| 105/105 [00:00<00:00, 13245.97 examples/s]
+09/19 21:23:53 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-philosophy]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47662.55it/s]
+[2026-09-19 21:23:53,553] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:53,553] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:53 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:53 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633d540>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.35it/s]100%|██████████| 1/1 [00:00<00:00,  4.34it/s]
+09/19 21:23:53 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 108/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1826.63 examples/s]
+Map:   0%|          | 0/175 [00:00<?, ? examples/s]Map: 100%|██████████| 175/175 [00:00<00:00, 15229.86 examples/s]
+09/19 21:23:53 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-professional_accounting]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47662.55it/s]
+[2026-09-19 21:23:53,821] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:53,821] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:53 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:53 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633db40>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.18it/s]100%|██████████| 1/1 [00:00<00:00,  4.18it/s]
+09/19 21:23:54 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 109/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1900.11 examples/s]
+Map:   0%|          | 0/211 [00:00<?, ? examples/s]Map: 100%|██████████| 211/211 [00:00<00:00, 15661.47 examples/s]
+09/19 21:23:54 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-professional_law]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 46603.38it/s]
+[2026-09-19 21:23:54,099] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:54,099] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:54 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:54 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633f700>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  3.40it/s]100%|██████████| 1/1 [00:00<00:00,  3.40it/s]
+09/19 21:23:54 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 110/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1892.22 examples/s]
+Map:   0%|          | 0/376 [00:00<?, ? examples/s]Map: 100%|██████████| 376/376 [00:00<00:00, 16699.58 examples/s]
+09/19 21:23:54 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-professional_medicine]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 49344.75it/s]
+[2026-09-19 21:23:54,442] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:54,442] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:54 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:54 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633efe0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.32it/s]100%|██████████| 1/1 [00:00<00:00,  4.31it/s]
+09/19 21:23:54 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 111/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1774.39 examples/s]
+Map:   0%|          | 0/232 [00:00<?, ? examples/s]Map: 100%|██████████| 232/232 [00:00<00:00, 15055.44 examples/s]
+09/19 21:23:54 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-professional_psychology]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 43690.67it/s]
+[2026-09-19 21:23:54,716] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:54,716] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:54 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:54 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633fd00>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.34it/s]100%|██████████| 1/1 [00:00<00:00,  4.34it/s]
+09/19 21:23:54 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 112/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1711.68 examples/s]
+Map:   0%|          | 0/174 [00:00<?, ? examples/s]Map: 100%|██████████| 174/174 [00:00<00:00, 14782.14 examples/s]
+09/19 21:23:54 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-public_relations]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 42366.71it/s]
+[2026-09-19 21:23:54,985] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:54,985] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:54 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:54 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe638b7c0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.41it/s]100%|██████████| 1/1 [00:00<00:00,  4.41it/s]
+09/19 21:23:55 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 113/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1837.03 examples/s]
+Map:   0%|          | 0/135 [00:00<?, ? examples/s]Map: 100%|██████████| 135/135 [00:00<00:00, 14445.77 examples/s]
+09/19 21:23:55 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-security_study]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47127.01it/s]
+[2026-09-19 21:23:55,247] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:55,247] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:55 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:55 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633f880>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.40it/s]100%|██████████| 1/1 [00:00<00:00,  4.39it/s]
+09/19 21:23:55 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 114/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1877.49 examples/s]
+Map:   0%|          | 0/226 [00:00<?, ? examples/s]Map: 100%|██████████| 226/226 [00:00<00:00, 15852.71 examples/s]
+09/19 21:23:55 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-sociology]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47127.01it/s]
+[2026-09-19 21:23:55,515] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:55,515] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:55 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:55 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633d480>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.47it/s]100%|██████████| 1/1 [00:00<00:00,  4.47it/s]
+09/19 21:23:55 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 115/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1891.37 examples/s]
+Map:   0%|          | 0/165 [00:00<?, ? examples/s]Map: 100%|██████████| 165/165 [00:00<00:00, 15228.52 examples/s]
+09/19 21:23:55 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-sports_science]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 46091.25it/s]
+[2026-09-19 21:23:55,775] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:55,775] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:55 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:55 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633f8e0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.45it/s]100%|██████████| 1/1 [00:00<00:00,  4.44it/s]
+09/19 21:23:56 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 116/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1899.08 examples/s]
+Map:   0%|          | 0/185 [00:00<?, ? examples/s]Map: 100%|██████████| 185/185 [00:00<00:00, 15742.79 examples/s]
+09/19 21:23:56 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-traditional_chinese_medicine]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 49344.75it/s]
+[2026-09-19 21:23:56,036] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:56,036] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:56 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:56 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633d390>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.51it/s]100%|██████████| 1/1 [00:00<00:00,  4.50it/s]
+09/19 21:23:56 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 117/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 2030.94 examples/s]
+Map:   0%|          | 0/169 [00:00<?, ? examples/s]Map: 100%|██████████| 169/169 [00:00<00:00, 15513.38 examples/s]
+09/19 21:23:56 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-virology]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 50533.78it/s]
+[2026-09-19 21:23:56,294] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:56,294] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:56 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:56 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633f3a0>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.46it/s]100%|██████████| 1/1 [00:00<00:00,  4.45it/s]
+09/19 21:23:56 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 118/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 2002.05 examples/s]
+Map:   0%|          | 0/161 [00:00<?, ? examples/s]Map: 100%|██████████| 161/161 [00:00<00:00, 14937.57 examples/s]
+09/19 21:23:56 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-world_history]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48770.98it/s]
+[2026-09-19 21:23:56,556] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:56,556] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:56 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:56 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633f970>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  3.57it/s]100%|██████████| 1/1 [00:00<00:00,  3.57it/s]
+09/19 21:23:56 - OpenCompass - INFO - The Progress of This Task --> Models: 1/1, Datasets: 119/119
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 2000.53 examples/s]
+Map:   0%|          | 0/160 [00:00<?, ? examples/s]Map: 100%|██████████| 160/160 [00:00<00:00, 15410.32 examples/s]
+09/19 21:23:56 - OpenCompass - INFO - Start inferencing [week8-bound-model/cmmlu-world_religions]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 48770.98it/s]
+[2026-09-19 21:23:56,871] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting build dataloader
+[2026-09-19 21:23:56,871] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/1 [00:00<?, ?it/s]09/19 21:23:56 - OpenCompass - INFO - Generation Args of Huggingface: 
+09/19 21:23:56 - OpenCompass - INFO - {'do_sample': False, 'num_beams': 1, 'stopping_criteria': [<opencompass.models.huggingface_above_v4_33._get_stopping_criteria.<locals>.MultiTokenEOSCriteria object at 0x7f5fe633c880>], 'max_new_tokens': 32, 'pad_token_id': 151643}
+100%|██████████| 1/1 [00:00<00:00,  4.33it/s]100%|██████████| 1/1 [00:00<00:00,  4.33it/s]
+09/19 21:23:57 - OpenCompass - INFO - time elapsed: 35.69s

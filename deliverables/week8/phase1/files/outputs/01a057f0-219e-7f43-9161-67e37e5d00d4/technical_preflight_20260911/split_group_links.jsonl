@@ -1,0 +1,12 @@
+{"left":"de73e7ef12c7571dbcbd84acb6c4dbb2a332e20a93e0ce90ef3449f285a71e65","right":"c8c130e03408274793c44ce819a1adb56c9787b62e6901d3b29c28a058fe3123","kind":"char5_jaccard","score":0.9441624365482234}
+{"left":"de73e7ef12c7571dbcbd84acb6c4dbb2a332e20a93e0ce90ef3449f285a71e65","right":"c72cab546ea75a41158c3189eb969570379ea926926bff3f1e8e68001dd86feb","kind":"char5_jaccard","score":0.8305882352941176}
+{"left":"c8c130e03408274793c44ce819a1adb56c9787b62e6901d3b29c28a058fe3123","right":"c72cab546ea75a41158c3189eb969570379ea926926bff3f1e8e68001dd86feb","kind":"char5_jaccard","score":0.8190255220417634}
+{"left":"6fae63c3172679681180a9b1d616ee5bc382136c0ae60f578697b67371889a4a","right":"0cab35ea8c201ac86d1dad7ae248a18da797cdf55a81877182a9a0b376d271ca","kind":"char5_jaccard","score":0.8153846153846154}
+{"left":"5bb112a4ab051578bcc5fa8a76b61e02c5d72c0cc03725e31fcec10da15218fe","right":"1bbda06fd2d2df9b57d093d0beea2a0bf753998d5a3ad592e558fc9cf038a6cc","kind":"normalized_exact","score":1.0}
+{"left":"213c904052a7ad402c2a6c62508d310d338bebd8b6a1ec1f61dc03dcbf872348","right":"55b0b9cdf88915db58429f29ec44894a1f987376ff8ef542b3c9da945164fedb","kind":"normalized_exact","score":1.0}
+{"left":"a72d5d5de611ec08c72fc068cf3fec49eee8b59bdb66912f75fd71fb9ed6e239","right":"0281cab67a19564cfa78eb5537d15d0f11c41b8932fd00602aff279344a6a948","kind":"char5_jaccard","score":0.8857142857142857}
+{"left":"d506fe8a7505e9edba6fd2a6020aabbd668d438a14e778b2e314d0bf87bc8fd5","right":"3b6dbd15defbf5bccfa11f0d7796219fc8f33705fc9fb85ad55caed6456ecdc6","kind":"char5_jaccard","score":0.975452196382429}
+{"left":"8dd4013cc53f6d3cb07df9e1c1ad31c29dcf125cc113b4269d0bacad64c26add","right":"a134197a56e00e2f0e3cfe6933e34e7b9255c1365f4bb6ccc71f6162cfbcfb0d","kind":"normalized_exact","score":1.0}
+{"left":"518978390b88ddd680c31d0cd9e5b156910a33bcce9c1ef15ed0297284452a6d","right":"c2f2b852931ca33433db298f050d7dbe653521289bf1fb0520d5bf2c31eb73a7","kind":"normalized_exact","score":1.0}
+{"left":"518978390b88ddd680c31d0cd9e5b156910a33bcce9c1ef15ed0297284452a6d","right":"0b7416ebf42b1c99844bff2c65bf0186e59a255401832fdf8f37acffdf241486","kind":"normalized_exact","score":1.0}
+{"left":"c2f2b852931ca33433db298f050d7dbe653521289bf1fb0520d5bf2c31eb73a7","right":"0b7416ebf42b1c99844bff2c65bf0186e59a255401832fdf8f37acffdf241486","kind":"normalized_exact","score":1.0}

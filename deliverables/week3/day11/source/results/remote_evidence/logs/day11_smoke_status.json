@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "exit_code": 0,
+  "started_at": "2026-08-03T17:53:22.028508+08:00",
+  "finished_at": "2026-08-03T17:54:07.210065+08:00",
+  "output_dir": "/root/autodl-tmp/qwen25-week3/smoke/day11-qlora-smoke",
+  "output_files": [
+    "README.md",
+    "adapter_config.json",
+    "adapter_model.safetensors",
+    "added_tokens.json",
+    "all_results.json",
+    "checkpoint-2",
+    "merges.txt",
+    "runs",
+    "special_tokens_map.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "train_results.json",
+    "trainer_log.jsonl",
+    "trainer_state.json",
+    "training_args.bin",
+    "training_loss.png",
+    "vocab.json"
+  ]
+}

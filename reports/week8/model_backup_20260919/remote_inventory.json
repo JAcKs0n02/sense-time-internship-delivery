@@ -1,0 +1,20 @@
+[
+  {
+    "role": "week8_final_sft",
+    "source": "/root/autodl-tmp/week8-full-training-runtime-20260916/logs/full-run-01/models/final_sft",
+    "file_count": 14,
+    "expected_files_present_sizes_match": true
+  },
+  {
+    "role": "week8_final_dpo",
+    "source": "/root/autodl-tmp/week8-full-training-runtime-20260916/logs/full-run-01/models/final_dpo",
+    "file_count": 14,
+    "expected_files_present_sizes_match": true
+  },
+  {
+    "role": "week8_final_distilled",
+    "source": "/root/autodl-tmp/week8-distillation-student-20260918/run-01/student/final_distilled",
+    "file_count": 10,
+    "expected_files_present_sizes_match": true
+  }
+]

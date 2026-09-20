@@ -1,0 +1,642 @@
+{
+  "models": {
+    "original_base": {
+      "weighted_mean": 3.9825,
+      "without_math05": 4.025,
+      "mean_absolute_rater_delta": 0.135,
+      "maximum_rater_delta": 0.75,
+      "categories": {
+        "MATH": 4.192857142857143,
+        "REASON": 3.9857142857142858,
+        "CODE": 3.7333333333333334
+      }
+    },
+    "final_sft": {
+      "weighted_mean": 3.64875,
+      "without_math05": 3.7026315789473685,
+      "mean_absolute_rater_delta": 0.1875,
+      "maximum_rater_delta": 0.75,
+      "categories": {
+        "MATH": 3.617857142857143,
+        "REASON": 4.089285714285714,
+        "CODE": 3.1708333333333334
+      }
+    },
+    "final_dpo": {
+      "weighted_mean": 3.62875,
+      "without_math05": 3.6473684210526316,
+      "mean_absolute_rater_delta": 0.1925,
+      "maximum_rater_delta": 0.55,
+      "categories": {
+        "MATH": 3.710714285714286,
+        "REASON": 4.078571428571428,
+        "CODE": 3.0083333333333333
+      }
+    }
+  },
+  "paired_records": [
+    {
+      "model": "final_dpo",
+      "question_id": "CODE-01",
+      "review_id": "179aef53aba61cda",
+      "rater_1": 3.75,
+      "rater_2": 3.5,
+      "mean": 3.625,
+      "absolute_delta": 0.25,
+      "max_dimension_delta": 1.0
+    },
+    {
+      "model": "original_base",
+      "question_id": "CODE-01",
+      "review_id": "23a0158df2dc0f49",
+      "rater_1": 3.95,
+      "rater_2": 3.95,
+      "mean": 3.95,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "final_sft",
+      "question_id": "CODE-01",
+      "review_id": "4293a4cd3a5ae89a",
+      "rater_1": 3.75,
+      "rater_2": 3.5,
+      "mean": 3.625,
+      "absolute_delta": 0.25,
+      "max_dimension_delta": 1.0
+    },
+    {
+      "model": "final_sft",
+      "question_id": "CODE-02",
+      "review_id": "8a60048bf8151385",
+      "rater_1": 2.0,
+      "rater_2": 1.8,
+      "mean": 1.9,
+      "absolute_delta": 0.2,
+      "max_dimension_delta": 2.0
+    },
+    {
+      "model": "original_base",
+      "question_id": "CODE-02",
+      "review_id": "0af5731b05c361a4",
+      "rater_1": 5.0,
+      "rater_2": 5.0,
+      "mean": 5.0,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "CODE-02",
+      "review_id": "ac38cd90691c1410",
+      "rater_1": 2.0,
+      "rater_2": 1.8,
+      "mean": 1.9,
+      "absolute_delta": 0.2,
+      "max_dimension_delta": 2.0
+    },
+    {
+      "model": "original_base",
+      "question_id": "CODE-03",
+      "review_id": "a368e0ca2b3ad309",
+      "rater_1": 3.0,
+      "rater_2": 3.0,
+      "mean": 3.0,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "final_sft",
+      "question_id": "CODE-03",
+      "review_id": "b7a06e4bef1abaec",
+      "rater_1": 3.5,
+      "rater_2": 3.5,
+      "mean": 3.5,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "CODE-03",
+      "review_id": "cce0a76c96d969cd",
+      "rater_1": 2.8,
+      "rater_2": 2.25,
+      "mean": 2.525,
+      "absolute_delta": 0.55,
+      "max_dimension_delta": 1.0
+    },
+    {
+      "model": "original_base",
+      "question_id": "CODE-04",
+      "review_id": "a8c419c444ff28b3",
+      "rater_1": 1.45,
+      "rater_2": 1.45,
+      "mean": 1.45,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "CODE-04",
+      "review_id": "5af49d495a583544",
+      "rater_1": 1.65,
+      "rater_2": 1.85,
+      "mean": 1.75,
+      "absolute_delta": 0.2,
+      "max_dimension_delta": 1.0
+    },
+    {
+      "model": "final_sft",
+      "question_id": "CODE-04",
+      "review_id": "226e264734804697",
+      "rater_1": 1.65,
+      "rater_2": 1.85,
+      "mean": 1.75,
+      "absolute_delta": 0.2,
+      "max_dimension_delta": 1.0
+    },
+    {
+      "model": "final_sft",
+      "question_id": "CODE-05",
+      "review_id": "4a7c46801143e216",
+      "rater_1": 3.0,
+      "rater_2": 3.5,
+      "mean": 3.25,
+      "absolute_delta": 0.5,
+      "max_dimension_delta": 1.0
+    },
+    {
+      "model": "original_base",
+      "question_id": "CODE-05",
+      "review_id": "9cdccad5180bd1cb",
+      "rater_1": 3.75,
+      "rater_2": 4.25,
+      "mean": 4.0,
+      "absolute_delta": 0.5,
+      "max_dimension_delta": 1.0
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "CODE-05",
+      "review_id": "30ba193cd0a3e338",
+      "rater_1": 3.0,
+      "rater_2": 3.5,
+      "mean": 3.25,
+      "absolute_delta": 0.5,
+      "max_dimension_delta": 1.0
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "CODE-06",
+      "review_id": "15d1af672c64e046",
+      "rater_1": 5.0,
+      "rater_2": 5.0,
+      "mean": 5.0,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "original_base",
+      "question_id": "CODE-06",
+      "review_id": "5ad928e5d8c18705",
+      "rater_1": 5.0,
+      "rater_2": 5.0,
+      "mean": 5.0,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "final_sft",
+      "question_id": "CODE-06",
+      "review_id": "7525e1c0d322aa3e",
+      "rater_1": 5.0,
+      "rater_2": 5.0,
+      "mean": 5.0,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "original_base",
+      "question_id": "MATH-01",
+      "review_id": "b1ee58fe120a3e45",
+      "rater_1": 4.9,
+      "rater_2": 4.9,
+      "mean": 4.9,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "final_sft",
+      "question_id": "MATH-01",
+      "review_id": "87e9d1750a73490c",
+      "rater_1": 5.0,
+      "rater_2": 5.0,
+      "mean": 5.0,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "MATH-01",
+      "review_id": "f5233746dad282ae",
+      "rater_1": 5.0,
+      "rater_2": 5.0,
+      "mean": 5.0,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "final_sft",
+      "question_id": "MATH-02",
+      "review_id": "d245e13e198bb492",
+      "rater_1": 3.0,
+      "rater_2": 3.0,
+      "mean": 3.0,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "MATH-02",
+      "review_id": "b72327a467301658",
+      "rater_1": 3.0,
+      "rater_2": 3.0,
+      "mean": 3.0,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "original_base",
+      "question_id": "MATH-02",
+      "review_id": "2541eb2de19d450f",
+      "rater_1": 3.3,
+      "rater_2": 3.25,
+      "mean": 3.275,
+      "absolute_delta": 0.05,
+      "max_dimension_delta": 1.0
+    },
+    {
+      "model": "final_sft",
+      "question_id": "MATH-03",
+      "review_id": "9494e2eb08944f6c",
+      "rater_1": 3.9,
+      "rater_2": 4.2,
+      "mean": 4.05,
+      "absolute_delta": 0.3,
+      "max_dimension_delta": 1.0
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "MATH-03",
+      "review_id": "28d84b4076bae477",
+      "rater_1": 3.9,
+      "rater_2": 4.2,
+      "mean": 4.05,
+      "absolute_delta": 0.3,
+      "max_dimension_delta": 1.0
+    },
+    {
+      "model": "original_base",
+      "question_id": "MATH-03",
+      "review_id": "5d3d31f1c2fbc903",
+      "rater_1": 4.9,
+      "rater_2": 4.9,
+      "mean": 4.9,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "MATH-04",
+      "review_id": "a9bd54f44f4065a9",
+      "rater_1": 2.8,
+      "rater_2": 2.5,
+      "mean": 2.65,
+      "absolute_delta": 0.3,
+      "max_dimension_delta": 1.0
+    },
+    {
+      "model": "final_sft",
+      "question_id": "MATH-04",
+      "review_id": "052d40e6c23d3ade",
+      "rater_1": 2.8,
+      "rater_2": 2.5,
+      "mean": 2.65,
+      "absolute_delta": 0.3,
+      "max_dimension_delta": 1.0
+    },
+    {
+      "model": "original_base",
+      "question_id": "MATH-04",
+      "review_id": "71bbc12a11dde3e1",
+      "rater_1": 3.15,
+      "rater_2": 3.05,
+      "mean": 3.1,
+      "absolute_delta": 0.1,
+      "max_dimension_delta": 1.0
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "MATH-05",
+      "review_id": "46566047ef205087",
+      "rater_1": 3.4,
+      "rater_2": 3.15,
+      "mean": 3.275,
+      "absolute_delta": 0.25,
+      "max_dimension_delta": 1.0
+    },
+    {
+      "model": "final_sft",
+      "question_id": "MATH-05",
+      "review_id": "da9afb4bdd45a4b2",
+      "rater_1": 2.75,
+      "rater_2": 2.5,
+      "mean": 2.625,
+      "absolute_delta": 0.25,
+      "max_dimension_delta": 1.0
+    },
+    {
+      "model": "original_base",
+      "question_id": "MATH-05",
+      "review_id": "9b7397bea39682e1",
+      "rater_1": 3.3,
+      "rater_2": 3.05,
+      "mean": 3.175,
+      "absolute_delta": 0.25,
+      "max_dimension_delta": 1.0
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "MATH-06",
+      "review_id": "e5db7308f3eddec0",
+      "rater_1": 4.0,
+      "rater_2": 4.0,
+      "mean": 4.0,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "final_sft",
+      "question_id": "MATH-06",
+      "review_id": "88d6aa79e9a7bffa",
+      "rater_1": 4.0,
+      "rater_2": 4.0,
+      "mean": 4.0,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "original_base",
+      "question_id": "MATH-06",
+      "review_id": "768ac3368b295457",
+      "rater_1": 5.0,
+      "rater_2": 5.0,
+      "mean": 5.0,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "original_base",
+      "question_id": "MATH-07",
+      "review_id": "fda76c2fa1e800d7",
+      "rater_1": 5.0,
+      "rater_2": 5.0,
+      "mean": 5.0,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "final_sft",
+      "question_id": "MATH-07",
+      "review_id": "05874e21614886b3",
+      "rater_1": 4.0,
+      "rater_2": 4.0,
+      "mean": 4.0,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "MATH-07",
+      "review_id": "231efa3c8c9e9e1e",
+      "rater_1": 4.0,
+      "rater_2": 4.0,
+      "mean": 4.0,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "final_sft",
+      "question_id": "REASON-01",
+      "review_id": "cf1235a937a7adef",
+      "rater_1": 5.0,
+      "rater_2": 5.0,
+      "mean": 5.0,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "original_base",
+      "question_id": "REASON-01",
+      "review_id": "61a187796596d22c",
+      "rater_1": 4.5,
+      "rater_2": 4.5,
+      "mean": 4.5,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "REASON-01",
+      "review_id": "a00eb96a5d458d6d",
+      "rater_1": 5.0,
+      "rater_2": 5.0,
+      "mean": 5.0,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "original_base",
+      "question_id": "REASON-02",
+      "review_id": "ac0cdbc21509b8eb",
+      "rater_1": 3.0,
+      "rater_2": 2.5,
+      "mean": 2.75,
+      "absolute_delta": 0.5,
+      "max_dimension_delta": 2.0
+    },
+    {
+      "model": "final_sft",
+      "question_id": "REASON-02",
+      "review_id": "518c6bd0a15ffbad",
+      "rater_1": 3.0,
+      "rater_2": 2.25,
+      "mean": 2.625,
+      "absolute_delta": 0.75,
+      "max_dimension_delta": 3.0
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "REASON-02",
+      "review_id": "87420680a3ec01ea",
+      "rater_1": 3.0,
+      "rater_2": 2.5,
+      "mean": 2.75,
+      "absolute_delta": 0.5,
+      "max_dimension_delta": 2.0
+    },
+    {
+      "model": "final_sft",
+      "question_id": "REASON-03",
+      "review_id": "8e44e070747ff21d",
+      "rater_1": 3.4,
+      "rater_2": 3.15,
+      "mean": 3.275,
+      "absolute_delta": 0.25,
+      "max_dimension_delta": 1.0
+    },
+    {
+      "model": "original_base",
+      "question_id": "REASON-03",
+      "review_id": "71af32ad0bb6ff14",
+      "rater_1": 3.75,
+      "rater_2": 4.05,
+      "mean": 3.9,
+      "absolute_delta": 0.3,
+      "max_dimension_delta": 1.0
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "REASON-03",
+      "review_id": "80dae54b18bccb54",
+      "rater_1": 3.1,
+      "rater_2": 2.85,
+      "mean": 2.975,
+      "absolute_delta": 0.25,
+      "max_dimension_delta": 1.0
+    },
+    {
+      "model": "final_sft",
+      "question_id": "REASON-04",
+      "review_id": "e45c89e5d9d892ed",
+      "rater_1": 4.5,
+      "rater_2": 4.75,
+      "mean": 4.625,
+      "absolute_delta": 0.25,
+      "max_dimension_delta": 1.0
+    },
+    {
+      "model": "original_base",
+      "question_id": "REASON-04",
+      "review_id": "53d2774091d2b65a",
+      "rater_1": 4.75,
+      "rater_2": 4.75,
+      "mean": 4.75,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "REASON-04",
+      "review_id": "ffc05a5207a31c3d",
+      "rater_1": 4.5,
+      "rater_2": 4.75,
+      "mean": 4.625,
+      "absolute_delta": 0.25,
+      "max_dimension_delta": 1.0
+    },
+    {
+      "model": "final_sft",
+      "question_id": "REASON-05",
+      "review_id": "afc0c8d84b6bef87",
+      "rater_1": 4.05,
+      "rater_2": 4.25,
+      "mean": 4.15,
+      "absolute_delta": 0.2,
+      "max_dimension_delta": 1.0
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "REASON-05",
+      "review_id": "6856e4cb05a9e082",
+      "rater_1": 4.25,
+      "rater_2": 4.25,
+      "mean": 4.25,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "original_base",
+      "question_id": "REASON-05",
+      "review_id": "87a66c71888f374c",
+      "rater_1": 4.5,
+      "rater_2": 4.25,
+      "mean": 4.375,
+      "absolute_delta": 0.25,
+      "max_dimension_delta": 1.0
+    },
+    {
+      "model": "final_sft",
+      "question_id": "REASON-06",
+      "review_id": "3197449bc2b7e776",
+      "rater_1": 5.0,
+      "rater_2": 5.0,
+      "mean": 5.0,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "REASON-06",
+      "review_id": "45f9a3445f6c0576",
+      "rater_1": 5.0,
+      "rater_2": 5.0,
+      "mean": 5.0,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "original_base",
+      "question_id": "REASON-06",
+      "review_id": "5f75bf974ae3cb60",
+      "rater_1": 5.0,
+      "rater_2": 5.0,
+      "mean": 5.0,
+      "absolute_delta": 0.0,
+      "max_dimension_delta": 0.0
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "REASON-07",
+      "review_id": "8e066943e82f2204",
+      "rater_1": 3.8,
+      "rater_2": 4.1,
+      "mean": 3.95,
+      "absolute_delta": 0.3,
+      "max_dimension_delta": 1.0
+    },
+    {
+      "model": "final_sft",
+      "question_id": "REASON-07",
+      "review_id": "fa95f19e7a5ed82f",
+      "rater_1": 3.8,
+      "rater_2": 4.1,
+      "mean": 3.95,
+      "absolute_delta": 0.3,
+      "max_dimension_delta": 1.0
+    },
+    {
+      "model": "original_base",
+      "question_id": "REASON-07",
+      "review_id": "07bfa0c2c50507bf",
+      "rater_1": 3.0,
+      "rater_2": 2.25,
+      "mean": 2.625,
+      "absolute_delta": 0.75,
+      "max_dimension_delta": 3.0
+    }
+  ],
+  "attribution": "user reports two completed human reviews; files label reviewers as reviewer_1 and reviewer_2; actual identities and dates not present in CSV",
+  "scores_modified": false,
+  "identical_answer_within_reviewer_differences": []
+}

@@ -1,0 +1,116 @@
+{
+  "status": "PASS_FINAL_MODEL_BACKUP",
+  "completed_utc": "2026-09-19T00:18:18.968666+00:00",
+  "instance": "be044ebe99-be706b14",
+  "models": [
+    {
+      "role": "week8_final_sft",
+      "files": 14,
+      "bytes": 15247180172,
+      "tensor_count": 339,
+      "sha256_and_index": "PASS"
+    },
+    {
+      "role": "week8_final_dpo",
+      "files": 14,
+      "bytes": 15247180172,
+      "tensor_count": 339,
+      "sha256_and_index": "PASS"
+    },
+    {
+      "role": "week8_final_distilled",
+      "files": 10,
+      "bytes": 1003978375,
+      "tensor_count": 290,
+      "sha256_and_index": "PASS"
+    }
+  ],
+  "file_count": 38,
+  "total_bytes": 31498338719,
+  "original_receipt_identity_check": "PASS",
+  "download_hash_check": "PASS",
+  "independent_hash_and_index_check": "PASS",
+  "offline_cpu_cold_loads": [
+    {
+      "status": "PASS_CPU_COLD_LOAD_AND_GENERATION",
+      "role": "week8_final_sft",
+      "device": "cpu",
+      "dtype": "bfloat16",
+      "torch": "2.6.0",
+      "parameter_count": 7615616512,
+      "all_logits_finite": true,
+      "new_token_ids": [
+        16,
+        10,
+        16,
+        107106,
+        17,
+        1773,
+        151645
+      ],
+      "generated_text": "1+1等于2。",
+      "elapsed_seconds": 18.198997974395752,
+      "verified_utc": "2026-09-19T00:11:39.182121+00:00",
+      "scope": "Local backup fresh-process loading and 8-token smoke only; not benchmark or quality promotion"
+    },
+    {
+      "status": "PASS_CPU_COLD_LOAD_AND_GENERATION",
+      "role": "week8_final_dpo",
+      "device": "cpu",
+      "dtype": "bfloat16",
+      "torch": "2.6.0",
+      "parameter_count": 7615616512,
+      "all_logits_finite": true,
+      "new_token_ids": [
+        16,
+        10,
+        16,
+        107106,
+        17,
+        1773,
+        151645
+      ],
+      "generated_text": "1+1等于2。",
+      "elapsed_seconds": 13.898205995559692,
+      "verified_utc": "2026-09-19T00:14:54.947212+00:00",
+      "scope": "Local backup fresh-process loading and 8-token smoke only; not benchmark or quality promotion"
+    },
+    {
+      "status": "PASS_CPU_COLD_LOAD_AND_GENERATION",
+      "role": "week8_final_distilled",
+      "device": "cpu",
+      "dtype": "bfloat16",
+      "torch": "2.6.0",
+      "parameter_count": 494032768,
+      "all_logits_finite": true,
+      "new_token_ids": [
+        16,
+        10,
+        16,
+        107106,
+        17,
+        1773,
+        151645
+      ],
+      "generated_text": "1+1等于2。",
+      "elapsed_seconds": 0.9695799350738525,
+      "verified_utc": "2026-09-18T23:48:58.275688+00:00",
+      "scope": "Local backup fresh-process loading and 8-token smoke only; not benchmark or quality promotion"
+    }
+  ],
+  "instance_shutdown": "STOPPED_VERIFIED",
+  "source_deleted": false,
+  "checkpoint_cleanup_allowed": false,
+  "release_allowed": false,
+  "new_gpu_jobs": 0,
+  "judge_api_calls": 0,
+  "git_commit_or_push": false,
+  "remaining": [
+    "Review exact checkpoint cleanup list",
+    "Prepare redacted release copy and file allowlist",
+    "Validate clean environment and complete CUDA pipeline",
+    "Final release review"
+  ],
+  "evidence_manifest": "manifest.json",
+  "scope": "Complete independent local backup and short CPU execution checks; not a quality benchmark or full CUDA pipeline reproduction."
+}

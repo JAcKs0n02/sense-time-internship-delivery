@@ -1,0 +1,14 @@
+{
+  "sample_id": "17262b4e5ce4ea2671dd4d718139265f56763dbbcf9a410b0d9b511ccaee0234",
+  "prompt": "请将下列中文翻译成马来语\n\nguzman的姓氏从何而来",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请将下列中文翻译成马来语\n\nguzman的姓氏从何而来"
+    }
+  ],
+  "answer": "nama terakhir guzman berasal dari mana?",
+  "truncated": false,
+  "input_tokens": 47,
+  "output_tokens": 12
+}

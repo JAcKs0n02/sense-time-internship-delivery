@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "only_request_change": "reasoning_effort high to low",
+  "requests": 8,
+  "plan_sha256": "66cb1e1dde817cd8c608137f3c872dabf50e4213a4b1c1f5a2f457eca1dc7ea4"
+}

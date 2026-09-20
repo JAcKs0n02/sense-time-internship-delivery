@@ -1,0 +1,10 @@
+{
+ "instance": "be044ebe99-be706b14",
+ "method": "same canonical tokenizer, distinct original and distilled 0.5B weights in isolated evaluation views",
+ "ceval": {"subjects":52,"questions":1346,"split":"val","shots":5,"max_seq_len":2048,"max_out_len":32,"batch_size":1,"do_sample":false},
+ "speed": {"warmups":2,"measured_runs":10,"new_tokens_per_run":128,"dtype":"bfloat16","includes_prefill":true},
+ "max_runtime_seconds":3600,
+ "automatic_retry":false,
+ "api_judge_calls":0,
+ "required_gates":["package and model manifests match","tokenizer structure and all CEval prompt tokens agree","actual OpenCompass runtime prompts match frozen hashes without truncation","same GPU and tokenized speed prompts","52 subject gold-verified results per model","manual early shutdown after evidence retrieval"]
+}

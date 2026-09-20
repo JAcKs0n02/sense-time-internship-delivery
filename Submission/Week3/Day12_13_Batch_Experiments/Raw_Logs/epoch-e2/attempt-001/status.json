@@ -1,0 +1,22 @@
+{
+  "run_id": "epoch-e2",
+  "attempt_id": "attempt-001",
+  "source_config_path": "runs/epoch-e2/attempt-001/source_config.yaml",
+  "source_config_sha256": "c3437d471349838e89726e3e7bbce8060fb402a6952d77c8f9548797f2e00dbb",
+  "runtime_config_path": "runs/epoch-e2/attempt-001/runtime_config.yaml",
+  "runtime_config_sha256": "48503d31796bf73454d702750d695e4b6076c53acdc7c668627e69f0201d3ebd",
+  "started_at": "2026-08-04T23:04:34.596305+00:00",
+  "status": "completed",
+  "pid": 45924,
+  "sampler_pid": 45923,
+  "command": [
+    "llamafactory-cli",
+    "train",
+    "runs/epoch-e2/attempt-001/runtime_config.yaml"
+  ],
+  "exit_code": 0,
+  "failure_reason": null,
+  "ended_at": "2026-08-05T01:12:24.454555+00:00",
+  "wall_clock_runtime_seconds": 7669.02243950218,
+  "adapter_path": "runs/epoch-e2/attempt-001/adapter"
+}

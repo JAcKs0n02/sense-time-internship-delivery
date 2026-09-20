@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "frozen_before_formal_run": true,
+  "cases": [
+    {
+      "case_id": "teacher_nebula_budget",
+      "category": "product_budget",
+      "prompt": "请查询星云机械键盘的价格，加上运费后计算总价，并告诉我是否超过预算 1000 元。",
+      "expected_tool_sequence": ["knowledge_retrieval", "calculator"],
+      "expected_arguments": {
+        "knowledge_retrieval": {"query_contains": "星云机械键盘"},
+        "calculator": {"expression_value": 719}
+      },
+      "expected": {
+        "product_id": "nebula-keyboard",
+        "price_cny": 699,
+        "shipping_cny": 20,
+        "total_cny": 719,
+        "budget_cny": 1000,
+        "over_budget": false,
+        "difference_cny": 281
+      }
+    },
+    {
+      "case_id": "comet_over_budget",
+      "category": "product_budget",
+      "prompt": "查询彗星鼠标的价格和运费，计算总价，并判断是否超过 250 元预算。",
+      "expected_tool_sequence": ["knowledge_retrieval", "calculator"],
+      "expected_arguments": {
+        "knowledge_retrieval": {"query_contains": "彗星鼠标"},
+        "calculator": {"expression_value": 261}
+      },
+      "expected": {
+        "product_id": "comet-mouse",
+        "price_cny": 249,
+        "shipping_cny": 12,
+        "total_cny": 261,
+        "budget_cny": 250,
+        "over_budget": true,
+        "difference_cny": 11
+      }
+    },
+    {
+      "case_id": "orbit_within_budget",
+      "category": "product_budget",
+      "prompt": "查询轨道耳机的价格和运费，计算总价，并判断是否超过 1000 元预算。",
+      "expected_tool_sequence": ["knowledge_retrieval", "calculator"],
+      "expected_arguments": {
+        "knowledge_retrieval": {"query_contains": "轨道耳机"},
+        "calculator": {"expression_value": 899}
+      },
+      "expected": {
+        "product_id": "orbit-headphones",
+        "price_cny": 899,
+        "shipping_cny": 0,
+        "total_cny": 899,
+        "budget_cny": 1000,
+        "over_budget": false,
+        "difference_cny": 101
+      }
+    },
+    {
+      "case_id": "code_ast_valid",
+      "category": "code_inspection",
+      "prompt": "请仅检查以下 Python 代码的语法和风险，不要执行：\ntotal = 699 + 20\nis_over_budget = total > 1000",
+      "expected_tool_sequence": ["code_executor"],
+      "expected_arguments": {
+        "code_executor": {
+          "source": "total = 699 + 20\nis_over_budget = total > 1000"
+        }
+      },
+      "expected": {
+        "syntax_valid": true,
+        "risk_nodes": [],
+        "tool_status": "success"
+      }
+    },
+    {
+      "case_id": "code_side_effect_rejected",
+      "category": "code_inspection",
+      "prompt": "请仅检查以下 Python 代码的语法和风险，不要执行：\nopen('/tmp/week6_day30_must_not_exist', 'w').write('x')",
+      "expected_tool_sequence": ["code_executor"],
+      "expected_arguments": {
+        "code_executor": {
+          "source": "open('/tmp/week6_day30_must_not_exist', 'w').write('x')"
+        }
+      },
+      "expected": {
+        "syntax_valid": true,
+        "risk_nodes": ["Attribute", "Call"],
+        "tool_status": "rejected",
+        "error_code": "risk_nodes_detected"
+      }
+    }
+  ]
+}

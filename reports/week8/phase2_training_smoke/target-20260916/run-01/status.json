@@ -1,0 +1,121 @@
+{
+  "status": "SMOKE_PASS_REVIEW_REQUIRED",
+  "training_started": true,
+  "full_training_allowed": false,
+  "results": {
+    "sft": {
+      "global_step": 3,
+      "metrics": [
+        {
+          "epoch": 0.0028129395218002813,
+          "grad_norm": 2.754084348678589,
+          "learning_rate": 0.0001,
+          "loss": 1.1983,
+          "step": 1
+        },
+        {
+          "epoch": 0.005625879043600563,
+          "grad_norm": 1.9567177295684814,
+          "learning_rate": 5e-05,
+          "loss": 1.9822,
+          "step": 2
+        },
+        {
+          "epoch": 0.008438818565400843,
+          "grad_norm": 2.140693187713623,
+          "learning_rate": 0.0,
+          "loss": 2.5578,
+          "step": 3
+        }
+      ],
+      "tensor_count": 392,
+      "nonzero_lora_b_tensors": 196,
+      "adapter_sha256": "f203f4cbde92165fed3b2af051cd73c517e2ab19e34bd0853574a90a132b37d2",
+      "optimizer": {
+        "parameter_states": 392,
+        "step": 3,
+        "sha256": "c045d083a9a59e9e83eb319bd362ae7baa04e36c223e18aae33581681d34506e"
+      }
+    },
+    "sft_merge": {
+      "tensors": 339,
+      "files": [
+        {
+          "path": "model-00001-of-00004.safetensors",
+          "sha256": "1f4c5880e3e344e2d317e3d922d8f0cd3f6fffeacdf5f0520765c587bb1e5542"
+        },
+        {
+          "path": "model-00002-of-00004.safetensors",
+          "sha256": "bb5dc535a5a656a832ea7c469967574cf36c487fb2ba8a4019aeed44d82721f3"
+        },
+        {
+          "path": "model-00003-of-00004.safetensors",
+          "sha256": "f04200d3c5810bfabc02d1f54f46e42022475b49a4bd71290d52d195169864c6"
+        },
+        {
+          "path": "model-00004-of-00004.safetensors",
+          "sha256": "06006972c3be88e8a44fe21cfe2b0472b130780c781a741f8f90f1fe5ba3aae2"
+        }
+      ]
+    },
+    "dpo": {
+      "global_step": 3,
+      "metrics": [
+        {
+          "epoch": 0.010217113665389528,
+          "grad_norm": 5.939225196838379,
+          "learning_rate": 6.89655172413793e-08,
+          "logits/chosen": -0.8820326328277588,
+          "logits/rejected": -0.546720564365387,
+          "logps/chosen": -229.39295959472656,
+          "logps/rejected": -218.1813201904297,
+          "loss": 0.6931,
+          "rewards/accuracies": 0.0,
+          "rewards/chosen": 0.0,
+          "rewards/margins": 0.0,
+          "rewards/rejected": 0.0,
+          "step": 1
+        },
+        {
+          "epoch": 0.020434227330779056,
+          "grad_norm": 5.701529026031494,
+          "learning_rate": 1.379310344827586e-07,
+          "logits/chosen": -0.2679493725299835,
+          "logits/rejected": -0.35568124055862427,
+          "logps/chosen": -350.5237121582031,
+          "logps/rejected": -235.84129333496094,
+          "loss": 0.6931,
+          "rewards/accuracies": 0.0,
+          "rewards/chosen": 0.0,
+          "rewards/margins": 0.0,
+          "rewards/rejected": 0.0,
+          "step": 2
+        },
+        {
+          "epoch": 0.03065134099616858,
+          "grad_norm": 6.313868045806885,
+          "learning_rate": 2.0689655172413793e-07,
+          "logits/chosen": -0.43501225113868713,
+          "logits/rejected": -0.861750066280365,
+          "logps/chosen": -286.30865478515625,
+          "logps/rejected": -153.0699005126953,
+          "loss": 0.6891,
+          "rewards/accuracies": 0.5,
+          "rewards/chosen": 0.01533050648868084,
+          "rewards/margins": 0.009125757962465286,
+          "rewards/rejected": 0.006204748060554266,
+          "step": 3
+        }
+      ],
+      "tensor_count": 392,
+      "nonzero_lora_b_tensors": 196,
+      "adapter_sha256": "fd6294442d4f09929ce59531bd16478445b079162b86834f892ebf8c9ff31910",
+      "optimizer": {
+        "parameter_states": 392,
+        "step": 3,
+        "sha256": "13a17828dd1e50c8c0cd429613bc382493ed933ac45efef4cfc9d7265167a9d7"
+      }
+    }
+  },
+  "lock_sha256": "7c9bc62c7870b5a652eb098a6451319728271902ab280d46eef078769d2be882"
+}

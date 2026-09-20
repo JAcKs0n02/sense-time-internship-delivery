@@ -1,0 +1,57 @@
+{
+  "decision": "implicit_lora_adapter_disabled_reference",
+  "fallback_used": true,
+  "llamafactory_version": "0.9.3",
+  "policy_model": "/root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged",
+  "policy_model_selected_run_id": "epoch-e5",
+  "policy_model_manifest_sha256": "e4512f7dd0f85b2f1d8154d123aec176295f557046142aab406a030c8e76e971",
+  "policy_model_load": "PASS",
+  "base_model_path": "/root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct",
+  "policy_quantization_bit": 4,
+  "logical_reference_model": "/root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged",
+  "reference_implementation": "LLaMA-Factory v0.9.3 disables the newly trained LoRA adapter during reference forward passes",
+  "short_smoke": {
+    "cutoff_len": 512,
+    "max_samples": 4,
+    "max_steps": 1,
+    "attempt": "attempt_002",
+    "returncode": 0,
+    "status": "completed"
+  },
+  "full_length_smoke": {
+    "cutoff_len": 2048,
+    "max_samples": 4,
+    "max_steps": 1,
+    "attempt": "attempt_001",
+    "returncode": 0,
+    "status": "completed"
+  },
+  "explicit_formal_attempt": {
+    "attempt": "attempt_001",
+    "completed_optimizer_steps": 16,
+    "returncode": 1,
+    "status": "failed",
+    "failure": "torch.cuda.OutOfMemoryError",
+    "requested_allocation_gib": 1.75,
+    "gpu_memory_in_use_gib": 21.99
+  },
+  "implicit_worst_length_smoke": {
+    "cutoff_len": 2048,
+    "max_chosen_tokens": 1738,
+    "max_rejected_tokens": 1670,
+    "max_samples": 4,
+    "max_steps": 1,
+    "attempt": "attempt_001",
+    "returncode": 0,
+    "status": "completed"
+  },
+  "formal_implicit_run": {
+    "attempt": "attempt_002",
+    "epochs": 3.0,
+    "expected_optimizer_steps": 240,
+    "global_step": 240,
+    "returncode": 0,
+    "status": "completed"
+  },
+  "reason": "Short and ordinary full-cutoff explicit-reference smoke tests passed, but the formal explicit run reproducibly exceeded RTX 3090 memory at a long record after step 16. The implicit LoRA reference then passed a one-step gate built from the four longest real training records."
+}

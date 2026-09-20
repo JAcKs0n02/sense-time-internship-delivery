@@ -1,0 +1,14 @@
+{
+  "sample_id": "a75a99d8908036515591906ba1417a43ec002206463ff4ba7dd322b5fdf48b6f",
+  "prompt": "请判断以下文本的语言类型\n\nБұл 1/4-ке тең екені түсіндіретіндей келеді.",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请判断以下文本的语言类型\n\nБұл 1/4-ке тең екені түсіндіретіндей келеді."
+    }
+  ],
+  "answer": "哈萨克语",
+  "truncated": false,
+  "input_tokens": 67,
+  "output_tokens": 5
+}

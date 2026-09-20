@@ -1,0 +1,15 @@
+model,dataset,score,macro_subject_score,subject_count,question_count,status,aggregation,result_dir,delta_vs_base,evidence_kind,accuracy,completeness,logic,safety,format,weighted_score
+base,ceval,77.542262,77.001569,52,1398,completed,sample_weighted_accuracy,/root/autodl-tmp/qwen25-week3/opencompass/formal/base/attempt-001/20260807_121515/results/Qwen2.5-7B-Instruct_hf,0.0,archived_opencompass,,,,,,
+base,cmmlu,0.647412,0.622482,67,11649,completed,sample_weighted_accuracy,/root/autodl-tmp/qwen25-week3/opencompass/formal/base/attempt-001/20260807_121515/results/Qwen2.5-7B-Instruct_hf,0.0,archived_opencompass,,,,,,
+best_sft,ceval,79.189426,78.977255,52,1398,completed,sample_weighted_accuracy,/root/autodl-tmp/qwen25-week3/opencompass/formal/best_sft/attempt-001/20260807_141654/results/qwen25-7b-week3-best-merged_hf,1.647164,archived_opencompass,,,,,,
+best_sft,cmmlu,5.205187,5.003287,67,11649,completed,sample_weighted_accuracy,/root/autodl-tmp/qwen25-week3/opencompass/formal/best_sft/attempt-001/20260807_141654/results/qwen25-7b-week3-best-merged_hf,4.557775,archived_opencompass,,,,,,
+base,custom20,,,,,,,,,archived_human_aggregate,3.925,4.35,4.075,4.85,3.975,4.205
+epoch-e2,custom20,,,,,,,,,archived_human_aggregate,3.2,3.475,3.125,4.75,3.45,3.51125
+epoch-e3,custom20,,,,,,,,,archived_human_aggregate,3.4,3.625,3.275,4.875,4.2,3.7325
+epoch-e5,custom20,,,,,,,,,archived_human_aggregate,3.35,3.8,3.275,4.825,4.55,3.78875
+lr-1e-4,custom20,,,,,,,,,archived_human_aggregate,3.25,3.75,3.3,4.85,3.925,3.6925
+lr-2e-4,custom20,,,,,,,,,archived_human_aggregate,2.625,2.9,2.8,4.675,3.525,3.12625
+lr-5e-5,custom20,,,,,,,,,archived_human_aggregate,2.975,3.525,2.95,4.8,4.3,3.51375
+rank-r32,custom20,,,,,,,,,archived_human_aggregate,3.175,3.725,3.225,4.75,3.675,3.60875
+rank-r64,custom20,,,,,,,,,archived_human_aggregate,3.425,3.725,3.45,4.625,3.625,3.705
+rank-r8,custom20,,,,,,,,,archived_human_aggregate,3.1,3.5,3.15,4.725,4.05,3.54875

@@ -1,0 +1,14 @@
+{
+  "sample_id": "7d41214a5d49fa970ba12e3850cdb99df93d2e0be52b856b476b57ab3893b8bd",
+  "prompt": "判断给定的陈述是否是语法正确的。\n\n输入：太阳从西方升起。",
+  "messages": [
+    {
+      "role": "user",
+      "content": "判断给定的陈述是否是语法正确的。\n\n输入：太阳从西方升起。"
+    }
+  ],
+  "answer": "对不起，这句话语法是正确的，但是事实不正确。太阳从东方升起，它西落。",
+  "truncated": false,
+  "input_tokens": 46,
+  "output_tokens": 22
+}

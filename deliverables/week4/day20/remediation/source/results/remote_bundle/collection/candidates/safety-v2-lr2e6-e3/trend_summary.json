@@ -1,0 +1,23 @@
+{
+  "training_complete": true,
+  "finite_metrics": true,
+  "adapter_nonempty": true,
+  "validation_margin_improved": true,
+  "train_window_chosen_improved": true,
+  "train_window_rejected_improved": false,
+  "validation_reward_accuracy": 0.7126436829566956,
+  "validation_margins": [
+    0.042052261531353,
+    0.11883924156427383,
+    0.2139551043510437,
+    0.2868238091468811,
+    0.33167412877082825,
+    0.3601745367050171,
+    0.3472321927547455
+  ],
+  "first_window_chosen_mean": 0.008546032069716603,
+  "final_window_chosen_mean": 0.5049187809228897,
+  "first_window_rejected_mean": 0.003689579287311062,
+  "final_window_rejected_mean": 0.049272312526591124,
+  "training_cost_steps": 291
+}

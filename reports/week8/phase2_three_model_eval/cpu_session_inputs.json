@@ -1,0 +1,24 @@
+{
+  "instance_id": "be044ebe99-be706b14",
+  "mode": "NO_GPU",
+  "rate_cny_per_hour": "0.10",
+  "shutdown_guard_utc": "2026-09-16T22:30:00+00:00",
+  "files": {
+    "target_audit.py": {
+      "sha256": "0c3ce0657a38f17f059993de2b50661f48af0fb4369bc617e121bdae4bd7f5ef",
+      "bytes": 5929
+    },
+    "target_review.json": {
+      "sha256": "80acf6dddecb6670642e2fb1d110827401d4f68de2d3148fbc52638f23891d6a",
+      "bytes": 696
+    },
+    "release_target.py": {
+      "sha256": "d19b1e851af277cd824f13c82c051241dad6aa4307257f40f7e1827b3fec6e6a",
+      "bytes": 3576
+    },
+    "three-model-cpu-audit-20260916.tar.gz": {
+      "sha256": "f4b03a60f76b72454f763c6fbe0c5f85bf6a307977da9a8f7a55c2d69e80250b",
+      "bytes": 72551
+    }
+  }
+}

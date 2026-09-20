@@ -1,0 +1,7 @@
+source_repo=https://huggingface.co/datasets/llamafactory/demo_data
+pinned_revision=999e7a11dadd6ce929180d7f3d61d4ca7e761db8
+matching_llamafactory_tag=v0.9.3
+matching_llamafactory_commit=ca75f1edf3cb50343ed1c98605141c3e22075b5f
+curl: (28) Failed to connect to huggingface.co port 443 after 129678 ms: Connection timed out
+result=stopped_after_remote_huggingface_request_stalled
+fallback=verified_official_snapshot_uploaded_from_local

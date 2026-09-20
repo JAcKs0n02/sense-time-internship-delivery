@@ -1,0 +1,27 @@
+{
+  "status": "SCORE_FILES_VALIDATED_AGGREGATION_COMPLETE",
+  "verified_utc": "2026-09-18T15:17:40.400713+00:00",
+  "rows_per_reviewer": 60,
+  "dimension_scores_checked": 600,
+  "missing_scores": 0,
+  "missing_reasons": 0,
+  "duplicate_rows": 0,
+  "original_question_answer_metadata_unchanged": true,
+  "reviewer_labels": [
+    "reviewer_1",
+    "reviewer_2"
+  ],
+  "provenance": "User states human scoring completed; actual identities/dates not independently verified",
+  "large_disagreement_screen": "weighted absolute delta >=0.5 OR any dimension delta >=2; diagnostic threshold, not pre-registered exclusion",
+  "large_disagreement_rows": 10,
+  "original_scores_modified": false,
+  "files": {
+    "reports/week8/phase2_custom20_review/reviewers/reviewer_1_scored.csv": "6cf9ad8427a302f7eb13b4679fb75bf5b39c6c8c9c2ea684d8cfa82beea2207c",
+    "reports/week8/phase2_custom20_review/reviewers/reviewer_2_scored.csv": "be04978300cd582c135140bf1c5ae65cb59d974663836725c8d0d927ccea1db7",
+    "reports/week8/phase2_custom20_review/private/blind_mapping.json": "631e99f0349ffa4c79608f5cb116d62c4a086ca35cfd26b84765cadadb7b50f4",
+    "reports/week8/phase2_custom20_review/reviewers/rubric.json": "f7ef335da29e13b9128230287181f9305251cf5de99746b97a6554335680693d",
+    "reports/week8/phase2_human_scores/summary.csv": "679b5e9d8538570301a0763842d1b69da0decf83edab3443db65d178a15d7dd6",
+    "reports/week8/phase2_human_scores/analysis.json": "73f713d87e591e59ea199844b88a5022776acc766f3c4f1ba47bc86bdb017e2f",
+    "reports/week8/phase2_human_scores/disagreements.csv": "e84b2f6e938ae6ba27d31f7258f39940dfac798938970dcaf0d0e6e75ae81d20"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "status": "LOCAL_PREPARATION_PASS_NOT_GPU_RELEASE",
+  "focused_tests_passed": 2,
+  "teacher_answers_generated": 0,
+  "candidate_prompts": 200,
+  "gpu_started": false,
+  "api_calls": 0,
+  "pending": [
+    "model identity verification",
+    "CEval comparison hardening",
+    "generation and training evidence gates",
+    "new GPU session release"
+  ],
+  "files": {
+    "scripts/distill.py": "d022aa9f0d52bd4c0c8b93157db1b8c09b3e07b0b0240cedabdd0b66a23f18fe",
+    "tests/test_week8_distillation_prep.py": "b13dda46de88ff0ab16c7b29ae9c47b015d78c8c31f99c4d2f891c8f5eb19cf2",
+    "docs/week8_distillation_preflight.md": "f1b9ee7c1f41a29236a481e7bab85a4992e362adebd7b9b635d2931ab1d8893e",
+    "reports/week8/phase3_distillation_preflight/plan.json": "a20cc783c42a78f57d7cfc90eaed6ed23fb5e2822e5a2fe316ae89b87eae9f2c",
+    "reports/week8/phase3_distillation_preflight/candidate_prompts.json": "6d723d6bf2e0c9543b5e276683304a7063fdb4584ec5ebbd717d7045f5a2d424",
+    "reports/week8/phase3_distillation_preflight/prepare_prompts.py": "429315fff7c298b568596642f2df4c6be0bd65d69a40e5ed576ad3fff16138d1",
+    "reports/week8/phase3_distillation_preflight/tests.log": "cbe4b84d897ac017db0552ccb3a31855ff0fb172bc344c967c4c4c92eb19e624"
+  }
+}

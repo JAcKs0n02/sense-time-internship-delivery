@@ -1,0 +1,25 @@
+{
+  "mode": "formal_tokenizer",
+  "tokenizer": "/root/autodl-tmp/week8-distillation-preflight-20260918/student-Qwen2.5-0.5B-Instruct",
+  "source": "/root/autodl-tmp/week8-distillation-student-20260918/curation/curated_targets.json",
+  "source_sha256": "8f0bed57299c4e088782ec53703e78d6a2fdffc82e8cdef0f53b6f2a353bcccf",
+  "seed": 42,
+  "raw_count": 152,
+  "clean_count": 152,
+  "rejected": 0,
+  "exact_duplicates": 0,
+  "fuzzy_duplicates": 0,
+  "train_count": 137,
+  "validation_count": 15,
+  "split_policy": "90:10 shuffled prompt groups; integer rounding; same prompt stays together",
+  "prompt_overlap": 0,
+  "max_length": 1024,
+  "length_unit": "model_chat_template_tokens",
+  "outputs": {
+    "dataset_info.json": "31e506e1ef7460b8b390a1bbf25c193f7b2fd14ddb90278d2f04e7c1522727d4",
+    "train_alpaca.json": "986f5dda095bbeae0f3c5c239b8141124cec3836bd16e40eefbbaff61870be32",
+    "train_sharegpt.json": "4703bc0a2f71af2caaef500f4c633673df78202ac6fe8b8a30e2b2359dce4ed1",
+    "validation_alpaca.json": "02b33b5d12b9c17b65acd1caf90e520a1f6641529cc0e655aa97aad4439e0e21",
+    "validation_sharegpt.json": "4f4ee46a1db52ef606c66e65b7d6f1a9f6c30e5e484a69e0713a1fb68d656623"
+  }
+}

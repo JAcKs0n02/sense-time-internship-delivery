@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "status": "downloaded_verified_offline_smoke_pass",
+  "repository": "Qwen/Qwen2-VL-7B-Instruct",
+  "revision": "eed13092ef92e448dd6875b2a00151bd3f7db0ac",
+  "revision_type": "immutable Hugging Face commit",
+  "repository_last_modified": "2025-02-06T05:18:08.000Z",
+  "repository_private": false,
+  "repository_gated": false,
+  "library_name": "transformers",
+  "pipeline_tag": "image-text-to-text",
+  "license": "Apache-2.0",
+  "selection_rule": {
+    "teacher_requirement": "Use Qwen2-VL-2B on 8 GB GPUs and Qwen2-VL-7B on GPUs with at least 16 GB VRAM.",
+    "expected_gpu": "NVIDIA GeForce RTX 3090 24 GB",
+    "selected_size": "7B",
+    "must_revalidate_gpu_on_autodl": true,
+    "actual_gpu": "NVIDIA GeForce RTX 3090",
+    "actual_vram_mib": 24576,
+    "gpu_revalidated": true
+  },
+  "expected_repository_files": [
+    ".gitattributes",
+    "LICENSE",
+    "README.md",
+    "chat_template.json",
+    "config.json",
+    "generation_config.json",
+    "merges.txt",
+    "model-00001-of-00005.safetensors",
+    "model-00002-of-00005.safetensors",
+    "model-00003-of-00005.safetensors",
+    "model-00004-of-00005.safetensors",
+    "model-00005-of-00005.safetensors",
+    "model.safetensors.index.json",
+    "preprocessor_config.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "vocab.json"
+  ],
+  "sources": {
+    "model_card": "https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct",
+    "revision_tree": "https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/tree/eed13092ef92e448dd6875b2a00151bd3f7db0ac",
+    "model_api": "https://huggingface.co/api/models/Qwen/Qwen2-VL-7B-Instruct"
+  },
+  "locked_at": "2026-08-17",
+  "completed_at": "2026-08-18",
+  "evidence": {
+    "environment": "../results/remote_evidence/environment.json",
+    "model_manifest": "../results/remote_evidence/model_manifest.json",
+    "offline_smoke": "../results/remote_evidence/offline_load_smoke.json",
+    "validation": "../results/day22_validation.json"
+  }
+}

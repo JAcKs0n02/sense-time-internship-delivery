@@ -1,0 +1,5 @@
+39eef2d0647d08cc1119ff2f80aa90224229cc6078d52982ad28a7b09b3d94fa  /root/autodl-tmp/qwen25-week2/day8/saves/qwen25-7b-week2-qlora-sft-run1/adapter_model.safetensors
+e8e0b20a536a51386108360ffb2871b7e2e51d62fcc36432267b41b7fd8ab24a  /root/autodl-tmp/qwen25-week2/merged/qwen25-7b-week2-sft-merged/model-00001-of-00004.safetensors
+283287fb932942f8f903051f2f8b6e2113cd8081dd113988f666b687bbe26be0  /root/autodl-tmp/qwen25-week2/merged/qwen25-7b-week2-sft-merged/model-00002-of-00004.safetensors
+599f5915eb403aaf15225cf82e8f5bfd66e5256e0bef3a42d034bbe0ef4fe1dd  /root/autodl-tmp/qwen25-week2/merged/qwen25-7b-week2-sft-merged/model-00003-of-00004.safetensors
+c5b3d6c6793a21f417a5787c2352009b9b70821042a64d45ab4e4ae253430017  /root/autodl-tmp/qwen25-week2/merged/qwen25-7b-week2-sft-merged/model-00004-of-00004.safetensors

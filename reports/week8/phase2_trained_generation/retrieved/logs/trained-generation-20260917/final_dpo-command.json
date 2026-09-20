@@ -1,0 +1,12 @@
+[
+  "/root/autodl-tmp/conda/envs/llm_exp/bin/python",
+  "/root/autodl-tmp/week8-judge-runtime-20260916/scripts/week8_generation_only.py",
+  "--plan",
+  "/root/autodl-tmp/week8-judge-runtime-20260916/reports/week8/phase2_trained_generation/released_plan.json",
+  "--plan-sha256",
+  "1294064be32e9bf92263346f38b4d7a2e3b2338cfbb3cdea6f5d0cb284a11a8c",
+  "--model-name",
+  "final_dpo",
+  "--output",
+  "/root/autodl-tmp/week8-judge-runtime-20260916/logs/trained-generation-20260917/final_dpo"
+]

@@ -1,0 +1,8 @@
+{
+  "train_count": 137,
+  "gradient_accumulation_steps": 8,
+  "steps_per_epoch": 18,
+  "max_steps": 36,
+  "trainer_epoch_bound": 3,
+  "sample_presentations": 274
+}

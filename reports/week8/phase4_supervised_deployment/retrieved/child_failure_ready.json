@@ -1,0 +1,11 @@
+{
+  "status": "ready",
+  "supervisor_pid": 2162,
+  "child_pids": [
+    2163,
+    2351
+  ],
+  "url": "http://127.0.0.1:7860",
+  "vision_backend": "not_started_single_gpu",
+  "startup_seconds": 32.10705563146621
+}

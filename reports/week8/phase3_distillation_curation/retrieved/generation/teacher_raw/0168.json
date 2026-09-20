@@ -1,0 +1,14 @@
+{
+  "sample_id": "72887e4c9520f379d1e3704ec5035a4ddf28b4b91fec56353abe684c3c30df29",
+  "prompt": "请将下句翻译成葡萄牙语\n\n但是，主要的区别在于Tokens也赋予持有人参与网络的权利。",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请将下句翻译成葡萄牙语\n\n但是，主要的区别在于Tokens也赋予持有人参与网络的权利。"
+    }
+  ],
+  "answer": "Mas o principal diferencial é que os tokens também dão ao detentor o direito de participar da rede.",
+  "truncated": false,
+  "input_tokens": 51,
+  "output_tokens": 26
+}

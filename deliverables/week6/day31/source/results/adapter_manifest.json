@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "status": "collected",
+  "trainer_output": "/root/autodl-tmp/qwen25-week6/day31/runs/tool-sft-lora",
+  "effective_config_sha256": "c60d660d258a8d1dc58c2ef361664df1a6584b6c0bceeaacf5c35a276f3596fd",
+  "preflight_sha256": "972de7559918fba56e550ae61ac2931df16d96a09e67798d507a70a2107d1bb6",
+  "launch_command_sha256": "b875247014f467d63ed92f339eb7747f58c762f6916d6c53bbadf7dd0a10304e",
+  "exit_status_sha256": "0c9f83f6dccd3c9a54b4b4ac533b9a5b6b955ef1f19428538c4d7a4152da96c2",
+  "lineage": {
+    "scheme": "A",
+    "load_mode": "verified_week4_merged",
+    "model_dir": "/root/autodl-tmp/qwen25-week4/best_model/qwen25-7b-week4-dpo-corrective-merged",
+    "merged_manifest_path": "/root/autodl-tmp/qwen25-week4/day20/corrective-results/merged_model_manifest.json",
+    "merged_manifest_sha256": "aca9a2932ed427f8fc6e9962e70274eb286a09c446d177af2bc00f6df1675e4c"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1531,
+      "sha256": "7cfdd7d6de0630e5aa3cdb6bcae5bc5e5df4e5365a474e72d9954d7ac3df922c"
+    },
+    {
+      "path": "adapter_config.json",
+      "bytes": 909,
+      "sha256": "61218d74fb2f4517044e610da120540050ecea1773cdc958fdbb143f30daf00b"
+    },
+    {
+      "path": "adapter_model.safetensors",
+      "bytes": 80792096,
+      "sha256": "7d7672cbbe7679d5badb20b040870b616e17c7093813baeb6605ee498925623c"
+    },
+    {
+      "path": "added_tokens.json",
+      "bytes": 605,
+      "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b"
+    },
+    {
+      "path": "all_results.json",
+      "bytes": 342,
+      "sha256": "f8d0fb51be4311dee2b2a0dcb6794191a678108090d3dedd6a571496c979abbe"
+    },
+    {
+      "path": "chat_template.jinja",
+      "bytes": 2507,
+      "sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f"
+    },
+    {
+      "path": "eval_results.json",
+      "bytes": 159,
+      "sha256": "6d3d292a63fd87e52597e3c616368a1ef6dba8ee80429d37b23c3bf985af3c3c"
+    },
+    {
+      "path": "merges.txt",
+      "bytes": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+    },
+    {
+      "path": "special_tokens_map.json",
+      "bytes": 613,
+      "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+    },
+    {
+      "path": "tokenizer.json",
+      "bytes": 11421896,
+      "sha256": "9c5ae00e602b8860cbd784ba82a8aa14e8feecec692e7076590d014d7b7fdafa"
+    },
+    {
+      "path": "tokenizer_config.json",
+      "bytes": 4713,
+      "sha256": "11d20a741a0eda1e7482d29b5d17553328922ed9e7391ec6f44d390215390f3d"
+    },
+    {
+      "path": "train_results.json",
+      "bytes": 203,
+      "sha256": "4677241a7bbd548d32ba3efc7599b5c78472fb7cf730cf2131d56fdef9d48d18"
+    },
+    {
+      "path": "trainer_log.jsonl",
+      "bytes": 7026,
+      "sha256": "4b51642b0f1f585dfd79421ee51ad60e90f896e8e86f14a918fbd93a3c03ff05"
+    },
+    {
+      "path": "trainer_state.json",
+      "bytes": 7125,
+      "sha256": "7328cae182502d6ec383ed35c7ab3fd408d426e6314b7603206d8d288bec3e9f"
+    },
+    {
+      "path": "training_args.bin",
+      "bytes": 5752,
+      "sha256": "9b9233b800f51e79108de784e80f2d88fb070cc862f156f87d3845d10293cbdc"
+    },
+    {
+      "path": "training_loss.png",
+      "bytes": 44306,
+      "sha256": "775b0d5ce80e0a0580c7ca825c0ab5ed33ad73072a26ebd741b44e3a08691516"
+    },
+    {
+      "path": "vocab.json",
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  ],
+  "total_bytes": 96738469,
+  "adapter": {
+    "path": "adapter_model.safetensors",
+    "bytes": 80792096,
+    "sha256": "7d7672cbbe7679d5badb20b040870b616e17c7093813baeb6605ee498925623c",
+    "config_sha256": "61218d74fb2f4517044e610da120540050ecea1773cdc958fdbb143f30daf00b"
+  }
+}

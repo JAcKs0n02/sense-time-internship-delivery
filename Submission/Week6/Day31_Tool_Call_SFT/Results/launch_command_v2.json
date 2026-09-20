@@ -1,0 +1,9 @@
+{
+  "argv": [
+    "llamafactory-cli",
+    "train",
+    "/root/autodl-tmp/qwen25-week6/formal-v2/results/week6_tool_sft_lora_v2_effective.yaml"
+  ],
+  "cwd": "/root/autodl-tmp/qwen25-week6/formal-v2/repository",
+  "config_sha256": "11d970d05b88b7e0a2817158822e9e211fd9e8c1a191bdc4829f4f9a43ac9365"
+}

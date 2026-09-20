@@ -1,0 +1,30 @@
+{
+  "cases": 14,
+  "max_calls": 14,
+  "max_attempts_per_case": 2,
+  "max_observed_spend_cny": "0.50",
+  "reserve_cny": "1.00",
+  "max_tokens": 8192,
+  "reasoning_effort": "low",
+  "model": "deepseek-flash",
+  "retry_only": "received invalid judgment JSON/schema; identical request, never retry based on score",
+  "pair_checks": [
+    {
+      "left": "EQ-BOOL",
+      "right": "EQ-TEXT",
+      "max_weighted_delta": 0.5,
+      "max_dimension_delta": 1
+    },
+    {
+      "left": "V3-04",
+      "right": "V3-05",
+      "max_weighted_delta": 0.5,
+      "max_dimension_delta": 1
+    }
+  ],
+  "formal_release": false,
+  "selection_warning": "Contains model-informed diagnostic pilots; not unbiased evaluation of judge accuracy.",
+  "endpoint": "https://api.deepseek.com/responses",
+  "automatic_retries": 0,
+  "protocol": "responses-json-schema"
+}

@@ -1,0 +1,6 @@
+{
+  "OMP_NUM_THREADS": 14,
+  "MKL_NUM_THREADS": 14,
+  "cli": "/root/autodl-tmp/conda/envs/llm_exp/bin/llamafactory-cli",
+  "timeout_seconds": 2400
+}

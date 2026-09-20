@@ -1,0 +1,174 @@
+{
+  "status": "PASS",
+  "valid": true,
+  "checks": [
+    {
+      "check": "day17_methodology",
+      "status": "PASS"
+    },
+    {
+      "check": "day18_dataset",
+      "status": "PASS"
+    },
+    {
+      "check": "day18_corrective_dataset",
+      "status": "PASS"
+    },
+    {
+      "check": "day19_training",
+      "status": "PASS"
+    },
+    {
+      "check": "day19_reward_trend",
+      "status": "PASS"
+    },
+    {
+      "check": "day20_safety",
+      "status": "PASS"
+    },
+    {
+      "check": "day20_business",
+      "status": "PASS"
+    },
+    {
+      "check": "merged_model",
+      "status": "PASS"
+    },
+    {
+      "check": "remediation_selection",
+      "status": "PASS"
+    }
+  ],
+  "facts": {
+    "day17": {
+      "preference_types": 5,
+      "example_pairs": 10,
+      "valid": true
+    },
+    "day18": {
+      "source_counts": {
+        "self_built": 210,
+        "ultrafeedback": 500
+      },
+      "total_count": 710,
+      "train_count": 639,
+      "validation_count": 71,
+      "full_sha256": "5971bfa47ecd4162cdaedc15f531db0204ffe0b979dcffa2269656bd335f1c82",
+      "train_sha256": "88c6a176eda7df50f5ffb0e01e78610c99178e71e14518d82b6c0bd20a50c320",
+      "validation_sha256": "5626226d8d0aff49cec6119de63720692cb3f3f27091bf94332524cd83a53372",
+      "valid": true,
+      "records_over_cutoff": 0,
+      "record_counts": {
+        "full": 710,
+        "train": 639,
+        "validation": 71
+      },
+      "hashes_verified": true,
+      "corrective_full_count": 870,
+      "corrective_train_count": 783,
+      "corrective_validation_count": 87,
+      "corrective_train_sha256": "99f90060ba8b0904e561e14296722e46e1aff55f8f61ab16a0c173a720e5cfcc",
+      "corrective_validation_sha256": "8af26c924daee6a47daf61f44ee0d17b082d6ec55cd52e7bdbc761a7b4f84e60",
+      "teacher_prompt_contamination": 0
+    },
+    "day19": {
+      "status": "completed",
+      "global_step": 40,
+      "max_steps": 40,
+      "completed_epoch_fraction": 0.4086845466155811,
+      "train_loss": 0.6883303463459015,
+      "adapter_path": "/root/autodl-tmp/qwen25-week4/day20-remediation/runs/reward-corrective-40step/attempt_001/trainer_output",
+      "adapter_sha256": "d7a932ee4f28c8950db289126381f5d4dd30a037b238852e87ad8e5a241f9e52",
+      "adapter_bytes": 80792096,
+      "config_sha256": "dff7f256e162a2c0ec9e884aa63bab29aa3e40748939664c4f75f315d30933a9",
+      "metrics_sha256": "55c41c3c99494bcbb5c9c3eda78c156a46c67ac9fe27fe7addf16b53a9418e13",
+      "reward_trend": {
+        "logged_steps": 40,
+        "first_step": 1,
+        "last_step": 40,
+        "trend_window": 20,
+        "chosen_reward_delta": 0.11778431385755539,
+        "rejected_reward_delta": 0.02223672904074192,
+        "margin_delta": 0.09554757922887802,
+        "chosen_reward_window_delta": 0.03185908608720638,
+        "rejected_reward_window_delta": -0.004136195220053195,
+        "margin_window_delta": 0.03599528145277873,
+        "first_window_chosen_mean": 0.0021473333647008984,
+        "final_window_chosen_mean": 0.03400641945190728,
+        "first_window_rejected_mean": 0.008552721887826919,
+        "final_window_rejected_mean": 0.004416526667773724,
+        "teacher_trend_observed": true
+      },
+      "final_validation": {
+        "epoch": 0.4086845466155811,
+        "eval_loss": 0.6694687008857727,
+        "eval_rewards/chosen": 0.055808912962675095,
+        "eval_rewards/rejected": 0.0053641414269804955,
+        "eval_rewards/margins": 0.050444766879081726,
+        "eval_rewards/accuracies": 0.7011494040489197,
+        "step": 40
+      },
+      "reference_strategy": {
+        "implementation": "implicit adapter-disabled reference in LLaMA-Factory LoRA DPO",
+        "logical_reference": "frozen Week3 best merged SFT",
+        "reason": "the explicit second 7B reference instance exceeded RTX 3090 24 GiB memory at a long sample"
+      },
+      "explicit_reference_attempt": {
+        "attempt": "attempt_001",
+        "completed_optimizer_steps": 16,
+        "returncode": 1,
+        "status": "failed",
+        "failure": "torch.cuda.OutOfMemoryError",
+        "requested_allocation_gib": 1.75,
+        "gpu_memory_in_use_gib": 21.99
+      },
+      "metric_row_count": 40
+    },
+    "day20": {
+      "safety_prompt_count": 10,
+      "business_prompt_count": 5,
+      "teacher_refusal_count": 10,
+      "teacher_refusal_rate": 1.0,
+      "enhanced_safe_completion_count": 4,
+      "enhanced_safe_completion_rate": 0.4,
+      "actionable_harm_count": 0,
+      "business_means": {
+        "sft_only": 3.595,
+        "sft_dpo": 3.64
+      },
+      "business_outcomes": {
+        "sft_dpo_wins": 2,
+        "sft_only_wins": 1,
+        "ties": 2
+      },
+      "merged_model_path": "/root/autodl-tmp/qwen25-week4/best_model/qwen25-7b-week4-dpo-corrective-merged",
+      "merged_manifest_sha256": "aca9a2932ed427f8fc6e9962e70274eb286a09c446d177af2bc00f6df1675e4c",
+      "merged_file_count": 14,
+      "weight_file_count": 4,
+      "weight_bytes": 15231271872,
+      "total_bytes": 15247180180,
+      "adapter_weight_present": false,
+      "merged_model_load": "PASS",
+      "harmless_generation": "PASS",
+      "evaluation_source_sha256": "841aeb528f3613c789b14f13b1e550e17f5acdd6fb62f71ab30fd7576be11ca8",
+      "submitted_model": "reward_corrective_40step_merged"
+    },
+    "week3_sft": {
+      "selected_run_id": "epoch-e5",
+      "base_model_path": "/root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct",
+      "merged_model_path": "/root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged",
+      "merged_model_manifest_sha256": "e4512f7dd0f85b2f1d8154d123aec176295f557046142aab406a030c8e76e971",
+      "merged_model_load": "PASS"
+    },
+    "remediation": {
+      "candidate": "reward-corrective-40step",
+      "passes_all_promotion_gates": true,
+      "promotion_allowed": true,
+      "development_refusal_rate": 0.9,
+      "development_benign_help_rate": 1.0,
+      "development_business_mean": 3.555,
+      "development_sft_business_mean": 3.58,
+      "teacher_test_reused_for_selection": false
+    }
+  }
+}

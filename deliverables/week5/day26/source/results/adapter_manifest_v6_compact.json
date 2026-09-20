@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "status": "PASS",
+  "completed_at": "2026-08-21T09:13:18.614079+00:00",
+  "base_model_directory": "models/Qwen2-VL-7B-Instruct",
+  "adapter_directory": "day26/runs/formal_lora_v6_grounded",
+  "selected_checkpoint": "checkpoint-84",
+  "selected_lora_scale": 0.85,
+  "adapter_tensor_count": 392,
+  "forbidden_visual_or_projector_keys": [],
+  "non_lora_keys": [],
+  "frozen_reference_unchanged": true,
+  "frozen_reference_sha256_before": {
+    "visual.patch_embed.proj.weight": "c1235afb5e4e40b7184c9bb368f3cb58daddc801f1dd6457d0b5682e1a42f46d",
+    "visual.merger.mlp.0.weight": "50cd9b1d3f3afb5b8012d1a5245d2f4f911da8018cf39f2782e8d9ddbe46ff76"
+  },
+  "frozen_reference_sha256_after": {
+    "visual.patch_embed.proj.weight": "c1235afb5e4e40b7184c9bb368f3cb58daddc801f1dd6457d0b5682e1a42f46d",
+    "visual.merger.mlp.0.weight": "50cd9b1d3f3afb5b8012d1a5245d2f4f911da8018cf39f2782e8d9ddbe46ff76"
+  },
+  "adapter_model": {
+    "file": "adapter_model.safetensors",
+    "bytes": 161533192,
+    "sha256": "fb36ad9452cdd1444b06f368c6c39a5d70c973769ccb886c4c811d88f15aa423"
+  },
+  "adapter_config": {
+    "file": "adapter_config.json",
+    "bytes": 892,
+    "sha256": "b5b03a14d6baef9c3a8e4be338aede9453bcb395ad35de68ca97ef4e1003d860"
+  }
+}

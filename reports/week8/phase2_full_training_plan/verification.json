@@ -1,0 +1,50 @@
+{
+  "status": "FULL_TRAINING_CANDIDATES_VERIFIED_NOT_RELEASED",
+  "training_started": false,
+  "execution_authorized": false,
+  "gpu_start_requested": false,
+  "full_training_allowed": false,
+  "requirements_source_hashes_verified": true,
+  "frozen_inputs_verified": 31,
+  "candidate_configs_verified": 4,
+  "input_manifest_sha256": "f5a714c052bec257d2ad3eea6c55382b886b69dc82e5e045b274abd11cf8aba5",
+  "sft": {
+    "samples": 1422,
+    "validation": 158,
+    "num_train_epochs": 5,
+    "expected_max_steps": 1775,
+    "step_calculation": "Transformers 4.50.0 actual Trainer method, CPU DataLoader, no model",
+    "save_steps": 500,
+    "save_total_limit": 2,
+    "eval_strategy": "epoch"
+  },
+  "dpo": {
+    "samples": 783,
+    "validation": 87,
+    "max_steps": 40,
+    "warmup_steps": 29,
+    "eval_steps": 20
+  },
+  "budget_proposal": {
+    "price_ceiling_cny_hour": 1.48,
+    "wall_clock_hours": 3,
+    "compute_ceiling_cny": 4.44,
+    "approved": false,
+    "scope": "SFT+DPO+two merges+load checks; excludes formal benchmarks and API",
+    "rationale": "Planning allowance, not a runtime prediction; 3-step timings do not establish full-run time"
+  },
+  "resources": {
+    "minimum_free_disk_gib": 45,
+    "two_merged_weight_gib": 28.37,
+    "memory_limit_gib": 60,
+    "last_observed_disk_used_percent": 80.15,
+    "live_preflight_required": true,
+    "delete_existing_models": false
+  },
+  "remaining": [
+    "implement hash-bound full-training entry and stage-aware acceptance",
+    "validate cold loading of each complete merge and capture identity",
+    "confirm formal-session spending/time ceiling before paid launch",
+    "recheck target capacity/processes/disk before launch"
+  ]
+}

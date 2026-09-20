@@ -1,0 +1,10 @@
+{
+  "model": "gemini-3.1-pro-preview",
+  "max_calls": 2,
+  "max_attempts_per_case": 1,
+  "max_output_tokens_per_call": 16384,
+  "max_request_bytes": 65536,
+  "automatic_retries": 0,
+  "pair_checks": [],
+  "formal_release": false
+}

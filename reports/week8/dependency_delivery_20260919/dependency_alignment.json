@@ -1,0 +1,138 @@
+{
+  "status": "CORE_PINS_MATCH_OBSERVED_CUDA",
+  "rows": [
+    {
+      "file": "requirements-evaluation.txt",
+      "package": "torch",
+      "declared": "2.5.1",
+      "observed_cuda": "2.5.1+cu121"
+    },
+    {
+      "file": "requirements-evaluation.txt",
+      "package": "transformers",
+      "declared": "4.50.0",
+      "observed_cuda": "4.50.0"
+    },
+    {
+      "file": "requirements-evaluation.txt",
+      "package": "tokenizers",
+      "declared": "0.21.1",
+      "observed_cuda": "0.21.1"
+    },
+    {
+      "file": "requirements-evaluation.txt",
+      "package": "accelerate",
+      "declared": "1.2.1",
+      "observed_cuda": "1.2.1"
+    },
+    {
+      "file": "requirements-evaluation.txt",
+      "package": "datasets",
+      "declared": "3.2.0",
+      "observed_cuda": "3.2.0"
+    },
+    {
+      "file": "requirements-evaluation.txt",
+      "package": "numpy",
+      "declared": "1.26.4",
+      "observed_cuda": "1.26.4"
+    },
+    {
+      "file": "requirements-evaluation.txt",
+      "package": "opencompass",
+      "declared": "0.5.3",
+      "observed_cuda": "0.5.3"
+    },
+    {
+      "file": "requirements-evaluation.txt",
+      "package": "mmengine-lite",
+      "declared": "0.10.7",
+      "observed_cuda": "0.10.7"
+    },
+    {
+      "file": "requirements-evaluation.txt",
+      "package": "evaluate",
+      "declared": "0.4.6",
+      "observed_cuda": "0.4.6"
+    },
+    {
+      "file": "requirements-evaluation.txt",
+      "package": "sentence-transformers",
+      "declared": "5.6.0",
+      "observed_cuda": "5.6.0"
+    },
+    {
+      "file": "requirements-evaluation.txt",
+      "package": "opencv-python-headless",
+      "declared": "4.11.0.86",
+      "observed_cuda": "4.11.0.86"
+    },
+    {
+      "file": "requirements-evaluation.txt",
+      "package": "huggingface_hub",
+      "declared": "0.36.2",
+      "observed_cuda": "0.36.2"
+    },
+    {
+      "file": "requirements-evaluation.txt",
+      "package": "safetensors",
+      "declared": "0.8.0",
+      "observed_cuda": "0.8.0"
+    },
+    {
+      "file": "requirements-evaluation.txt",
+      "package": "sentencepiece",
+      "declared": "0.2.0",
+      "observed_cuda": "0.2.0"
+    },
+    {
+      "file": "requirements-evaluation.txt",
+      "package": "tiktoken",
+      "declared": "0.13.0",
+      "observed_cuda": "0.13.0"
+    },
+    {
+      "file": "requirements-evaluation.txt",
+      "package": "PyYAML",
+      "declared": "6.0.3",
+      "observed_cuda": "6.0.3"
+    },
+    {
+      "file": "requirements-evaluation.txt",
+      "package": "Jinja2",
+      "declared": "3.1.6",
+      "observed_cuda": "3.1.6"
+    },
+    {
+      "file": "requirements-training-cuda.txt",
+      "package": "llamafactory",
+      "declared": "0.9.3",
+      "observed_cuda": "0.9.3"
+    },
+    {
+      "file": "requirements-training-cuda.txt",
+      "package": "peft",
+      "declared": "0.15.1",
+      "observed_cuda": "0.15.1"
+    },
+    {
+      "file": "requirements-training-cuda.txt",
+      "package": "trl",
+      "declared": "0.9.6",
+      "observed_cuda": "0.9.6"
+    },
+    {
+      "file": "requirements-training-cuda.txt",
+      "package": "bitsandbytes",
+      "declared": "0.43.3",
+      "observed_cuda": "0.43.3"
+    },
+    {
+      "file": "requirements-training-cuda.txt",
+      "package": "tensorboard",
+      "declared": "2.21.0",
+      "observed_cuda": "2.21.0"
+    }
+  ],
+  "historical_training_requirements_unchanged": true
+}

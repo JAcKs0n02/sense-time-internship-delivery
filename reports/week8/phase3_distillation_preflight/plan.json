@@ -1,0 +1,52 @@
+{
+  "status": "LOCAL_PREPARATION_PASS_NOT_GPU_RELEASE",
+  "teacher": {
+    "required_lineage": "Week4 reward_corrective_40step_merged",
+    "historical_path": "/root/autodl-tmp/qwen25-week4/best_model/qwen25-7b-week4-dpo-corrective-merged",
+    "historical_manifest_sha256": "aca9a2932ed427f8fc6e9962e70274eb286a09c446d177af2bc00f6df1675e4c",
+    "current_remote_identity_verified": false
+  },
+  "student": {
+    "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+    "revision": null,
+    "local_path": null,
+    "current_identity_verified": false
+  },
+  "training": {
+    "method": "sequence_level_teacher_generation_then_student_sft",
+    "teacher_lineage": "Week4 reward_corrective_40step_merged; local path supplied explicitly",
+    "student_model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+    "student_model_note": "0.5B instruction checkpoint selected explicitly; not the 7B teacher",
+    "epochs": 2,
+    "max_samples": 200,
+    "max_new_tokens": 256,
+    "cutoff_len": 1024,
+    "temperature": 0.7,
+    "seed": 42,
+    "learning_rate": 5e-05,
+    "lora_rank": 8,
+    "lora_alpha": 16,
+    "soft_label_kl_implemented": false,
+    "acceptance": "GPU teacher generation, two student epochs, before/after CEval and identical-protocol throughput; pending until receipts exist"
+  },
+  "prompts": {
+    "source": "logs/week8-protocol-data-20260914/run-a/train_alpaca.json",
+    "source_sha256": "cbc2721be936bea7036a98ea9198fc3d6cb32c45b961892b14feb95d56257529",
+    "selection": "seed42 shuffle then first 200; prompt-only, original answers removed",
+    "candidate_path": "reports/week8/phase3_distillation_preflight/candidate_prompts.json",
+    "candidate_sha256": "6d723d6bf2e0c9543b5e276683304a7063fdb4584ec5ebbd717d7045f5a2d424",
+    "count": 200,
+    "source_records": 1422,
+    "validation_records_excluded": 158,
+    "validation_exact_prompt_overlap": 0
+  },
+  "required_before_gpu": [
+    "Verify current Week4 teacher and student snapshot file identities on 320",
+    "Replace shorthand OpenCompass comparison with explicit model-bound CEval config and frozen gold validation",
+    "Bind generation source, config and model manifests; inspect complete teacher targets before training",
+    "Verify two-epoch trainer state, merged tensors and independent model reload",
+    "New bounded session deadline, logs and shutdown plan; old inference session remains closed"
+  ],
+  "gpu_started": false,
+  "api_calls": 0
+}

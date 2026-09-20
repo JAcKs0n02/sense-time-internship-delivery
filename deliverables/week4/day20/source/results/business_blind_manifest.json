@@ -1,0 +1,10 @@
+{
+  "valid": true,
+  "seed": 42,
+  "candidate_count": 10,
+  "blinded_sha256": "ecfe6aba780450cf7ba2efab2f6a6500621c53ede522d3ba31481ea22bc840e1",
+  "identity_fields_excluded": [
+    "model_alias",
+    "model_dir"
+  ]
+}

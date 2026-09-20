@@ -1,0 +1,11 @@
+{
+  "status": {
+    "status": "failed",
+    "error": "one deployment child exited"
+  },
+  "ports_closed": {
+    "8000": true,
+    "7860": true
+  },
+  "gpu_idle": true
+}

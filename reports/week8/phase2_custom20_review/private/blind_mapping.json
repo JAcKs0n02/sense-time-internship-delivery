@@ -1,0 +1,306 @@
+{
+  "schema_version": 1,
+  "blinding_seed": 20260918,
+  "records": [
+    {
+      "review_id": "179aef53aba61cda",
+      "question_id": "CODE-01",
+      "candidate_id": "final_dpo"
+    },
+    {
+      "review_id": "23a0158df2dc0f49",
+      "question_id": "CODE-01",
+      "candidate_id": "original_base"
+    },
+    {
+      "review_id": "4293a4cd3a5ae89a",
+      "question_id": "CODE-01",
+      "candidate_id": "final_sft"
+    },
+    {
+      "review_id": "8a60048bf8151385",
+      "question_id": "CODE-02",
+      "candidate_id": "final_sft"
+    },
+    {
+      "review_id": "0af5731b05c361a4",
+      "question_id": "CODE-02",
+      "candidate_id": "original_base"
+    },
+    {
+      "review_id": "ac38cd90691c1410",
+      "question_id": "CODE-02",
+      "candidate_id": "final_dpo"
+    },
+    {
+      "review_id": "a368e0ca2b3ad309",
+      "question_id": "CODE-03",
+      "candidate_id": "original_base"
+    },
+    {
+      "review_id": "b7a06e4bef1abaec",
+      "question_id": "CODE-03",
+      "candidate_id": "final_sft"
+    },
+    {
+      "review_id": "cce0a76c96d969cd",
+      "question_id": "CODE-03",
+      "candidate_id": "final_dpo"
+    },
+    {
+      "review_id": "a8c419c444ff28b3",
+      "question_id": "CODE-04",
+      "candidate_id": "original_base"
+    },
+    {
+      "review_id": "5af49d495a583544",
+      "question_id": "CODE-04",
+      "candidate_id": "final_dpo"
+    },
+    {
+      "review_id": "226e264734804697",
+      "question_id": "CODE-04",
+      "candidate_id": "final_sft"
+    },
+    {
+      "review_id": "4a7c46801143e216",
+      "question_id": "CODE-05",
+      "candidate_id": "final_sft"
+    },
+    {
+      "review_id": "9cdccad5180bd1cb",
+      "question_id": "CODE-05",
+      "candidate_id": "original_base"
+    },
+    {
+      "review_id": "30ba193cd0a3e338",
+      "question_id": "CODE-05",
+      "candidate_id": "final_dpo"
+    },
+    {
+      "review_id": "15d1af672c64e046",
+      "question_id": "CODE-06",
+      "candidate_id": "final_dpo"
+    },
+    {
+      "review_id": "5ad928e5d8c18705",
+      "question_id": "CODE-06",
+      "candidate_id": "original_base"
+    },
+    {
+      "review_id": "7525e1c0d322aa3e",
+      "question_id": "CODE-06",
+      "candidate_id": "final_sft"
+    },
+    {
+      "review_id": "b1ee58fe120a3e45",
+      "question_id": "MATH-01",
+      "candidate_id": "original_base"
+    },
+    {
+      "review_id": "87e9d1750a73490c",
+      "question_id": "MATH-01",
+      "candidate_id": "final_sft"
+    },
+    {
+      "review_id": "f5233746dad282ae",
+      "question_id": "MATH-01",
+      "candidate_id": "final_dpo"
+    },
+    {
+      "review_id": "d245e13e198bb492",
+      "question_id": "MATH-02",
+      "candidate_id": "final_sft"
+    },
+    {
+      "review_id": "b72327a467301658",
+      "question_id": "MATH-02",
+      "candidate_id": "final_dpo"
+    },
+    {
+      "review_id": "2541eb2de19d450f",
+      "question_id": "MATH-02",
+      "candidate_id": "original_base"
+    },
+    {
+      "review_id": "9494e2eb08944f6c",
+      "question_id": "MATH-03",
+      "candidate_id": "final_sft"
+    },
+    {
+      "review_id": "28d84b4076bae477",
+      "question_id": "MATH-03",
+      "candidate_id": "final_dpo"
+    },
+    {
+      "review_id": "5d3d31f1c2fbc903",
+      "question_id": "MATH-03",
+      "candidate_id": "original_base"
+    },
+    {
+      "review_id": "a9bd54f44f4065a9",
+      "question_id": "MATH-04",
+      "candidate_id": "final_dpo"
+    },
+    {
+      "review_id": "052d40e6c23d3ade",
+      "question_id": "MATH-04",
+      "candidate_id": "final_sft"
+    },
+    {
+      "review_id": "71bbc12a11dde3e1",
+      "question_id": "MATH-04",
+      "candidate_id": "original_base"
+    },
+    {
+      "review_id": "46566047ef205087",
+      "question_id": "MATH-05",
+      "candidate_id": "final_dpo"
+    },
+    {
+      "review_id": "da9afb4bdd45a4b2",
+      "question_id": "MATH-05",
+      "candidate_id": "final_sft"
+    },
+    {
+      "review_id": "9b7397bea39682e1",
+      "question_id": "MATH-05",
+      "candidate_id": "original_base"
+    },
+    {
+      "review_id": "e5db7308f3eddec0",
+      "question_id": "MATH-06",
+      "candidate_id": "final_dpo"
+    },
+    {
+      "review_id": "88d6aa79e9a7bffa",
+      "question_id": "MATH-06",
+      "candidate_id": "final_sft"
+    },
+    {
+      "review_id": "768ac3368b295457",
+      "question_id": "MATH-06",
+      "candidate_id": "original_base"
+    },
+    {
+      "review_id": "fda76c2fa1e800d7",
+      "question_id": "MATH-07",
+      "candidate_id": "original_base"
+    },
+    {
+      "review_id": "05874e21614886b3",
+      "question_id": "MATH-07",
+      "candidate_id": "final_sft"
+    },
+    {
+      "review_id": "231efa3c8c9e9e1e",
+      "question_id": "MATH-07",
+      "candidate_id": "final_dpo"
+    },
+    {
+      "review_id": "cf1235a937a7adef",
+      "question_id": "REASON-01",
+      "candidate_id": "final_sft"
+    },
+    {
+      "review_id": "61a187796596d22c",
+      "question_id": "REASON-01",
+      "candidate_id": "original_base"
+    },
+    {
+      "review_id": "a00eb96a5d458d6d",
+      "question_id": "REASON-01",
+      "candidate_id": "final_dpo"
+    },
+    {
+      "review_id": "ac0cdbc21509b8eb",
+      "question_id": "REASON-02",
+      "candidate_id": "original_base"
+    },
+    {
+      "review_id": "518c6bd0a15ffbad",
+      "question_id": "REASON-02",
+      "candidate_id": "final_sft"
+    },
+    {
+      "review_id": "87420680a3ec01ea",
+      "question_id": "REASON-02",
+      "candidate_id": "final_dpo"
+    },
+    {
+      "review_id": "8e44e070747ff21d",
+      "question_id": "REASON-03",
+      "candidate_id": "final_sft"
+    },
+    {
+      "review_id": "71af32ad0bb6ff14",
+      "question_id": "REASON-03",
+      "candidate_id": "original_base"
+    },
+    {
+      "review_id": "80dae54b18bccb54",
+      "question_id": "REASON-03",
+      "candidate_id": "final_dpo"
+    },
+    {
+      "review_id": "e45c89e5d9d892ed",
+      "question_id": "REASON-04",
+      "candidate_id": "final_sft"
+    },
+    {
+      "review_id": "53d2774091d2b65a",
+      "question_id": "REASON-04",
+      "candidate_id": "original_base"
+    },
+    {
+      "review_id": "ffc05a5207a31c3d",
+      "question_id": "REASON-04",
+      "candidate_id": "final_dpo"
+    },
+    {
+      "review_id": "afc0c8d84b6bef87",
+      "question_id": "REASON-05",
+      "candidate_id": "final_sft"
+    },
+    {
+      "review_id": "6856e4cb05a9e082",
+      "question_id": "REASON-05",
+      "candidate_id": "final_dpo"
+    },
+    {
+      "review_id": "87a66c71888f374c",
+      "question_id": "REASON-05",
+      "candidate_id": "original_base"
+    },
+    {
+      "review_id": "3197449bc2b7e776",
+      "question_id": "REASON-06",
+      "candidate_id": "final_sft"
+    },
+    {
+      "review_id": "45f9a3445f6c0576",
+      "question_id": "REASON-06",
+      "candidate_id": "final_dpo"
+    },
+    {
+      "review_id": "5f75bf974ae3cb60",
+      "question_id": "REASON-06",
+      "candidate_id": "original_base"
+    },
+    {
+      "review_id": "8e066943e82f2204",
+      "question_id": "REASON-07",
+      "candidate_id": "final_dpo"
+    },
+    {
+      "review_id": "fa95f19e7a5ed82f",
+      "question_id": "REASON-07",
+      "candidate_id": "final_sft"
+    },
+    {
+      "review_id": "07bfa0c2c50507bf",
+      "question_id": "REASON-07",
+      "candidate_id": "original_base"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "CPU_RETRIEVAL_COMPLETE_INSTANCE_OFF",
+  "instance": "be044ebe99-be706b14",
+  "mode": "CPU_ONLY_0_5_CORE_2GB",
+  "hourly_cny": 0.1,
+  "platform_shutdown_utc": "2026-09-18T19:30:00Z",
+  "platform_shutdown_display": "2026-09-18 20:30:00",
+  "internal_deadline_utc": "2026-09-18T19:25:00Z",
+  "gpu_started": false,
+  "training_allowed": false,
+  "instance_off_verified_before_utc": "2026-09-18T19:09:55.867274+00:00",
+  "files_retrieved": 213,
+  "shutdown_evidence": "AutoDL console 320 be044ebe99-be706b14 showed 已关机 after shutdown confirmation in this session. No GPU mode started."
+}

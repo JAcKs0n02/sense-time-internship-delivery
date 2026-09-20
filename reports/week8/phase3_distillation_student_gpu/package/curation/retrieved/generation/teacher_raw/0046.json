@@ -1,0 +1,14 @@
+{
+  "sample_id": "e0927b7aed68d5380be14c172055317730b1ec663bdd147f8c49c24d9899c7af",
+  "prompt": "将这句话改为将来时态：“宝宝正在睡觉”。",
+  "messages": [
+    {
+      "role": "user",
+      "content": "将这句话改为将来时态：“宝宝正在睡觉”。"
+    }
+  ],
+  "answer": "宝宝将会睡觉。",
+  "truncated": false,
+  "input_tokens": 40,
+  "output_tokens": 5
+}

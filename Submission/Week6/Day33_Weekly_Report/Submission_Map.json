@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "files": [
+    {
+      "submission_path": "Code/day33_reporting.py",
+      "formal_source": "deliverables/week6/source/week6_agent/day33_reporting.py",
+      "bytes": 6634,
+      "sha256": "82288c2e07c28640f1f41c2ce9bdacc77154a52135b30a5f2007d6f1cbbc6990"
+    },
+    {
+      "submission_path": "Model_Archive/adapter_config.json",
+      "formal_source": "deliverables/week6/day31/model_archive/adapter_config.json",
+      "bytes": 862,
+      "sha256": "3f9585b4844615acbddaf03ebc140f1e6b74694ea6bac801840e65392bf6222d"
+    },
+    {
+      "submission_path": "Model_Archive/adapter_manifest.json",
+      "formal_source": "deliverables/week6/day31/source/results/v2_adapter_manifest.json",
+      "bytes": 3972,
+      "sha256": "0e9a6acaa37b2c439a437d5313cbb764370351efca6a064f4bcedb623423c023"
+    },
+    {
+      "submission_path": "Report/Week6_Agent_Development_Report.md",
+      "formal_source": "deliverables/week6/day33/REPORT.md",
+      "bytes": 7362,
+      "sha256": "a128d5bec31178b02186d7fbdc91ece2a104f4ea3cd48348caa482ca0002a70e"
+    },
+    {
+      "submission_path": "Results/day33_validation.json",
+      "formal_source": "deliverables/week6/day33/source/results/day33_validation.json",
+      "bytes": 669,
+      "sha256": "06b0e63ee8ff0d2f6f1edc66e84cd47c20e7089cbb6ff1cb2b581b1b0a662554"
+    },
+    {
+      "submission_path": "Results/final_agent_archive.json",
+      "formal_source": "deliverables/week6/day33/source/results/final_agent_archive.json",
+      "bytes": 2674,
+      "sha256": "e154b7e9660777a5970425533e9514d1695e23139b1433ef1a48b091d4ec0a89"
+    },
+    {
+      "submission_path": "Results/report_input_manifest.json",
+      "formal_source": "deliverables/week6/day33/source/results/report_input_manifest.json",
+      "bytes": 2617,
+      "sha256": "57727103519d490fc2f5cc1d14fec2e419f5522dd4d39fa3c828f2788540b43e"
+    },
+    {
+      "submission_path": "Results/week6_acceptance_matrix.csv",
+      "formal_source": "deliverables/week6/day33/source/results/week6_acceptance_matrix.csv",
+      "bytes": 848,
+      "sha256": "0adfcfb6eae3e5fb186bbf263e36159b75cbc10ae8d3a701efeb60dd6f77e97c"
+    },
+    {
+      "submission_path": "Scripts/build_day33.py",
+      "formal_source": "deliverables/week6/day33/source/scripts/build_day33.py",
+      "bytes": 5880,
+      "sha256": "be62d60f0d501bdfbd316a75ab5cc4e5c9a72aa09470e2c35e07b65ec35f5789"
+    },
+    {
+      "submission_path": "Scripts/validate_day33.py",
+      "formal_source": "deliverables/week6/day33/source/scripts/validate_day33.py",
+      "bytes": 5309,
+      "sha256": "64e68676e6c8cc3a2f6d5d2d2ae9af1bdaf88a01ebd1be2988cd8a6a4d0daa58"
+    }
+  ]
+}

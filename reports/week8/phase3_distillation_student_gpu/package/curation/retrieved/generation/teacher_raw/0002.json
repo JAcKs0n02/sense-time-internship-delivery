@@ -1,0 +1,14 @@
+{
+  "sample_id": "7885a9086fea47c948f12770be329390b6d1fa25ee4fc72432a8173f6718cf1b",
+  "prompt": "请将下文翻译成中文\n\nColiseum 의 Lust Hmv Remix",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请将下文翻译成中文\n\nColiseum 의 Lust Hmv Remix"
+    }
+  ],
+  "answer": "Coliseum 的 Lust Hmv Remix",
+  "truncated": false,
+  "input_tokens": 44,
+  "output_tokens": 8
+}

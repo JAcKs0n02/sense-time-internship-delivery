@@ -1,0 +1,14 @@
+{
+  "status": "STRUCTURE_PASSED_OBSERVED_SAMPLES_SEMANTIC_GATE_FAILED",
+  "calls": 8,
+  "retries": 0,
+  "usage": {
+    "promptTokenCount": 15726,
+    "candidatesTokenCount": 1972,
+    "thoughtsTokenCount": 5030,
+    "totalTokenCount": 22728
+  },
+  "formal_release": false,
+  "gpu_started": false,
+  "finding": "MISSING-REASON conflates missing substantive reason with explicit array length violation; current prompt does not explicitly resolve this overlap. Gemini deducted completeness=3, format=5; frozen check requires format<=3."
+}

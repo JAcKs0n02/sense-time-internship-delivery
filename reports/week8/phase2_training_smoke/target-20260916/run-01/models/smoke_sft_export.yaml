@@ -1,0 +1,8 @@
+model_name_or_path: /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct
+adapter_name_or_path: /root/autodl-tmp/week8-training-smoke-runtime-20260916/run-01/sft/attempt-01/adapter
+template: qwen
+finetuning_type: lora
+export_dir: /root/autodl-tmp/week8-training-smoke-runtime-20260916/run-01/models/smoke_sft
+export_size: 5
+export_device: cpu
+export_legacy_format: false

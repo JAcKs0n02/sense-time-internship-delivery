@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "files": [
+    {
+      "path": "deliverables/week6/day28/source/results/day28_validation.json",
+      "bytes": 1162,
+      "sha256": "8985ad3ed8e0a714893fbde0976c73152c1787cdf99afd126f9ffb7971910cc8"
+    },
+    {
+      "path": "deliverables/week6/day30/source/results/teacher_acceptance.json",
+      "bytes": 2182,
+      "sha256": "33d4f11367cdc9105d3acaadd85d3ae445996213598deac06f132870eda15ec6"
+    },
+    {
+      "path": "deliverables/week6/day30/source/results/teacher_multistep_trace.json",
+      "bytes": 5291,
+      "sha256": "d438fc2140a80977c79a9c2744abe3f20292c42ef9d9e10ce236d3990f524aa7"
+    },
+    {
+      "path": "deliverables/week6/day31/source/results/data_validation_v2.json",
+      "bytes": 1423,
+      "sha256": "444f6eaf36493093c84341f296cd78a0a9fefd3fa5fc9104f0c0c2814ae56f44"
+    },
+    {
+      "path": "deliverables/week6/day31/source/results/v2_adapter_manifest.json",
+      "bytes": 3972,
+      "sha256": "0e9a6acaa37b2c439a437d5313cbb764370351efca6a064f4bcedb623423c023"
+    },
+    {
+      "path": "deliverables/week6/day31/source/results/v2_checkpoint_selection.json",
+      "bytes": 5213,
+      "sha256": "2bec7fce912a8dbe8146e446a33289be87c3eb2464daf34122f03ff9cd765e14"
+    },
+    {
+      "path": "deliverables/week6/day31/source/results/v2_final_test_summary.json",
+      "bytes": 1383,
+      "sha256": "b995124f4e80d6adf679e80f109762361ce3c2930b10bc65d0407cdeb285c8ae"
+    },
+    {
+      "path": "deliverables/week6/day31/source/results/v2_frozen_release.json",
+      "bytes": 1271,
+      "sha256": "05720fa10c6240ba1d28dda95d2ca7094ff85dc6f2b4e4f6c20bb694b311974f"
+    },
+    {
+      "path": "deliverables/week6/day31/source/results/v2_training_summary.json",
+      "bytes": 33418,
+      "sha256": "c87857d254b6393b15546259b5e45fa922d10cf12b1462d67689056e7ecc04d5"
+    },
+    {
+      "path": "deliverables/week6/day32/source/results/AGENT_ERROR_ANALYSIS.md",
+      "bytes": 4172,
+      "sha256": "0199fa8d08fcabd116ffc257f920986de9e8babd00b88ebfb83c8d3d53f0dc80"
+    },
+    {
+      "path": "deliverables/week6/day32/source/results/v2_analysis/prompt_comparison.json",
+      "bytes": 1884,
+      "sha256": "0e0730b58ab39bba9348c5dcd30dc1badb043621d6cf87f6544429a64de38dd7"
+    },
+    {
+      "path": "deliverables/week6/day32/source/results/v2_prompt_selection.json",
+      "bytes": 1385,
+      "sha256": "6739a53b23f3195f22f23bef58ba96f74ee56aeb5a8cb2b36b7e9af46a21c9cd"
+    },
+    {
+      "path": "deliverables/week6/day33/REPORT.md",
+      "bytes": 7362,
+      "sha256": "a128d5bec31178b02186d7fbdc91ece2a104f4ea3cd48348caa482ca0002a70e"
+    }
+  ]
+}

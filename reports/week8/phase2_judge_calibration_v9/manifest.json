@@ -1,0 +1,23 @@
+{
+  "reports/week8/phase2_judge_calibration_v9/plan.json": "4762af2c85deb01e6063f29e9ddf9fcf94c92de8b40dbc56df72b2f993844251",
+  "reports/week8/phase2_judge_calibration_v9/WRONG-CONCLUSION-request.json": "6a0d1e0ced6b23f26e1bfc548d7f9ba22a8bb4803b58c87e075ea7cc21f28cf4",
+  "reports/week8/phase2_judge_calibration_v9/MISSING-REASON-request.json": "cc9d69f2d59ddaf6971851c36707fe149716126467db2230366fa91a241cc7a4",
+  "reports/week8/phase2_judge_calibration_v9/V3-06-request.json": "49943ba326b90024f6c09b20fd0a1583cde56e015a20273f847fe969bba06912",
+  "reports/week8/phase2_judge_calibration_v9/V3-01-request.json": "d541f37e51638f71eea357cfcf7e0af6bab2af1fe6b6f6f9a74c31b1a2ffc3d3",
+  "reports/week8/phase2_judge_calibration_v9/STRICT-BOOL-request.json": "e15f9b333576de501493effaa383d01a49c6d454bf569649b60d6f24067906b1",
+  "reports/week8/phase2_judge_calibration_v9/STRICT-TEXT-request.json": "c51ee5b278597b3d99588d076d7fec29aa3abed1f97a0a3abfb430ec7019379f",
+  "reports/week8/phase2_judge_calibration_v9/V3-03-request.json": "e91282571bea9196ce774411f04a7a9cd8b04f75af49231f83310acaf1601057",
+  "reports/week8/phase2_judge_calibration_v9/V3-04-request.json": "9c59e76ef62e313b8918fbcb5f28b1918abbdac40158fab80fc5617e89c9b9b1",
+  "reports/week8/phase2_judge_calibration_v9/EQ-BOOL-request.json": "c8722fbe8baf343c5cc89892c701ceb8cec739a05a273bb50d6f42e94f8e34b9",
+  "reports/week8/phase2_judge_calibration_v9/V3-05-request.json": "9c59e76ef62e313b8918fbcb5f28b1918abbdac40158fab80fc5617e89c9b9b1",
+  "reports/week8/phase2_judge_calibration_v9/PILOT-MATH-05-request.json": "d3acc2d540fb1d278374ef79cb6ef4215e99b8c7aa013a0e18882a5686bedf34",
+  "reports/week8/phase2_judge_calibration_v9/V3-02-request.json": "73053cb09a459c01c2ecd5a83d617546fb7fb0146a0a6c6e208f4c99fd5d116a",
+  "reports/week8/phase2_judge_calibration_v9/cases.json": "a8c3f3293c32c6d9cff8ad3aeb4e8ed30263b760262cc287b7e25ebf70c679de",
+  "reports/week8/phase2_judge_calibration_v9/EQ-TEXT-request.json": "d3319cade77ddfa2efc6a82413a81d6efc9b7d4b699ba12ae28a753e3a670578",
+  "reports/week8/phase2_judge_calibration_v9/run_calibration.py": "83d931dd22269a1c2d64d087da771e1d539be82429a90485e66257ed82cc5bd6",
+  "reports/week8/phase2_judge_calibration_v9/PILOT-REASON-06-request.json": "5d00a8cd8757818c16f00f386b08ad04d69d34448739959a4fe506101188d348",
+  "reports/week8/phase2_judge_calibration_v9/pro_adapter.py": "90975eb6326cf7b4b552754fd9a747f81ec161c90ceadedac2913b5cc5228f7b",
+  "scripts/week8_deepseek_judge.py": "5b8ad8ac4cb93578293a8d58aea0960ddd1dbacf93e02713e91cfe751cb5be7b",
+  "scripts/step3_eval.py": "663b115ec65ac8d91c42f4326dabcb951fd4fbf7823f0582b6baefa175971616",
+  "scripts/setup_week8_judge_key.py": "27a27f7cd7fba05794268e9a4e844a6264fa90526b2f4daecf6b5a46f3f63786"
+}

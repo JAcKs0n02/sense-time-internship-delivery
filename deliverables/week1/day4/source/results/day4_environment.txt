@@ -1,0 +1,9 @@
+Python=3.10.20
+transformers=4.50.0
+tokenizers=0.21.1
+sentencepiece=0.2.0
+pandas=2.3.3
+platform=Linux-5.15.0-94-generic-x86_64-with-glibc2.35
+model_dir=/root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct
+corpus_path=/root/autodl-tmp/qwen25-week1/week1/day4/source/data/tokenizer_comparison_corpus.txt
+output_dir=/root/autodl-tmp/qwen25-week1/week1/day4/source/results

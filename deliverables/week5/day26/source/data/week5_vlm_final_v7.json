@@ -1,0 +1,302 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请独立分析这张最终测试图片：概括图表主题、编码方式和两项可直接核对的数据关系。"
+      },
+      {
+        "role": "assistant",
+        "content": "2025 年各国一次能源中可再生能源占比的世界地图。地图以由浅至深的绿色表示占比区间；图例范围从 0% 延伸至 70% 以上；斜线填充区域在图例中标注为 No data。"
+      }
+    ],
+    "images": [
+      "images_v7/final/chart_table-v7-final-01.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。\n待核验陈述：斜线填充区域代表没有数据。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：符合。可见依据：地图下方图例把斜线填充样式明确标为“No data”。"
+      }
+    ],
+    "images": [
+      "images_v7/final/chart_table-v7-final-01.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请独立分析这张最终测试图片：概括图表主题、编码方式和两项可直接核对的数据关系。"
+      },
+      {
+        "role": "assistant",
+        "content": "1950 至 2023 年世界人口年龄组堆叠面积图。横轴从 1950 年延伸到 2023 年；右侧依次标注五个年龄组；蓝色的 25–64 岁区域在末端最宽。"
+      }
+    ],
+    "images": [
+      "images_v7/final/chart_table-v7-final-02.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。\n待核验陈述：2023 年时 25–64 岁年龄组是图中最小的区域。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：2023 年末蓝色 25–64 岁区域最宽，并非最小。"
+      }
+    ],
+    "images": [
+      "images_v7/final/chart_table-v7-final-02.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请独立分析这张最终测试图片：用 LaTeX 转写右栏编号 (1) 的公式，保留可见的符号、上下标和正负号。"
+      },
+      {
+        "role": "assistant",
+        "content": "指定区域的转写为：(F*k)(\\mathbf{p})=\\sum_{\\mathbf{s}+\\mathbf{t}=\\mathbf{p}}F(\\mathbf{s})k(\\mathbf{t})"
+      }
+    ],
+    "images": [
+      "images_v7/final/formula-v7-final-02.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。\n待核验陈述：编号 (1) 的求和条件写作 s+t=p。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：符合。可见依据：式 (1) 的求和号下方清楚标出 s+t=p。"
+      }
+    ],
+    "images": [
+      "images_v7/final/formula-v7-final-02.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请独立分析这张最终测试图片：用 LaTeX 转写图中四类数学标签，保留可见的符号、上下标和正负号。"
+      },
+      {
+        "role": "assistant",
+        "content": "指定区域的转写为：x^2;\\ \\frac{b}{2a}x;\\ -\\frac{c}{a};\\ \\left(\\frac{b}{2a}\\right)^2"
+      }
+    ],
+    "images": [
+      "images_v7/final/formula-v7-final-03.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。\n待核验陈述：右侧红色区域中的标签是正的 c/a。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：红色区域标签前有清晰负号，写作 -c/a。"
+      }
+    ],
+    "images": [
+      "images_v7/final/formula-v7-final-03.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请独立分析这张最终测试图片：描述主体、背景与相对位置，不猜测地点、身份或拍摄信息。"
+      },
+      {
+        "role": "assistant",
+        "content": "有多棵高大棕榈树的沙滩海景。多棵棕榈树集中在画面右半部；前景是浅色沙滩，左后方可见海面；远处有低矮山体轮廓，天空整体明亮。"
+      }
+    ],
+    "images": [
+      "images_v7/final/natural_scene-v7-final-03.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。\n待核验陈述：沙滩右侧可以看到多棵高大的棕榈树。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：符合。可见依据：画面右侧有数棵树干细长、树冠呈扇形的棕榈树。"
+      }
+    ],
+    "images": [
+      "images_v7/final/natural_scene-v7-final-03.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请独立分析这张最终测试图片：描述主体、背景与相对位置，不猜测地点、身份或拍摄信息。"
+      },
+      {
+        "role": "assistant",
+        "content": "两只在雪地上朝镜头跑来的犬。前后各有一只犬，均面向镜头；两只犬的四肢处于奔跑姿态；地面覆盖白雪，背景可见树木和灌丛。"
+      }
+    ],
+    "images": [
+      "images_v7/final/natural_scene-v7-final-04.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。\n待核验陈述：两只犬都坐在雪地上。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：两只犬的腿部均处于运动姿态，正在朝镜头跑来，并未坐下。"
+      }
+    ],
+    "images": [
+      "images_v7/final/natural_scene-v7-final-04.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请独立分析这张最终测试图片：只转写整行招牌文字，不要补写模糊或被裁切的其他文字。"
+      },
+      {
+        "role": "assistant",
+        "content": "指定区域的转写为：绿洲仕格维花园公寓"
+      }
+    ],
+    "images": [
+      "images_v7/final/ocr-v7-final-01.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。\n待核验陈述：招牌末尾两个字是“公寓”。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：符合。可见依据：整行文字可转写为“绿洲仕格维花园公寓”，末尾确为“公寓”。"
+      }
+    ],
+    "images": [
+      "images_v7/final/ocr-v7-final-01.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请独立分析这张最终测试图片：只转写第一行清晰可见的命令，不要补写模糊或被裁切的其他文字。"
+      },
+      {
+        "role": "assistant",
+        "content": "指定区域的转写为：python scripts/screenshot_daemon_with_server"
+      }
+    ],
+    "images": [
+      "images_v7/final/ocr-v7-final-02.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。\n待核验陈述：第一行命令以“pip install”开头。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：第一行清楚以“python”开头，后接 scripts/screenshot_daemon_with_server。"
+      }
+    ],
+    "images": [
+      "images_v7/final/ocr-v7-final-02.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请独立分析这张最终测试图片：说明界面名称、主要区域以及当前可见状态。"
+      },
+      {
+        "role": "assistant",
+        "content": "PowerToys Settings 中的 Color Picker 设置页。Enable Color Picker 开关显示为 On；激活快捷键显示为 Windows、Shift 和 C；下方列出 HEX、RGB、HSL、HSV 和 CMYK 格式。"
+      }
+    ],
+    "images": [
+      "images_v7/final/ui-v7-final-01.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。\n待核验陈述：Color Picker 当前处于启用状态。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：符合。可见依据：Enable Color Picker 一行右侧显示 On，开关呈蓝色启用状态。"
+      }
+    ],
+    "images": [
+      "images_v7/final/ui-v7-final-01.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请独立分析这张最终测试图片：说明界面名称、主要区域以及当前可见状态。"
+      },
+      {
+        "role": "assistant",
+        "content": "PowerToys Settings 的 Home 总览页。左侧导航含 Home、General 和多个工具分类；中间 Quick access 区域提供多个快捷入口；右侧 Modules 列表中多项开关处于开启状态。"
+      }
+    ],
+    "images": [
+      "images_v7/final/ui-v7-final-02.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。\n待核验陈述：Modules 列表中的所有模块开关都处于关闭状态。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：Advanced Paste、Always On Top、Awake、Color Picker 等多项开关明显处于开启状态。"
+      }
+    ],
+    "images": [
+      "images_v7/final/ui-v7-final-02.png"
+    ]
+  }
+]

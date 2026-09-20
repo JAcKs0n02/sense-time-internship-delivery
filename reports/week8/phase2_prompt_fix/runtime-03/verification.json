@@ -1,0 +1,26 @@
+{
+  "status": "ACTUAL_OC_PROMPT_RUNTIME_PASS_NO_INFERENCE",
+  "host": "Jacksons-MacBook-Pro.local",
+  "platform": "darwin",
+  "custom_template_sha256": "50c989d1291f7806b07ff11cd95a8ffb1064cf693f080ac3e6e7d434657efcb9",
+  "audit_script_sha256": "eb932c2d821993cd60b629fdbbcfd14dabdb63abbe9c9abdcbe099d779429662",
+  "expected_rows_sha256": "2d1278548ff9958e0e8a8631bd133cdb3a73645900adb70873df0a867d291542",
+  "expanded_config_reloaded": true,
+  "opencompass_version": "0.5.3",
+  "subjects": 119,
+  "questions": 12928,
+  "max_input_tokens": 1361,
+  "all_token_hashes_match_independent": true,
+  "all_five_shot": true,
+  "truncation_changes": 0,
+  "source_config_hashes": {
+    "/private/tmp/week8-oc-fix-20260915/lib/python3.11/site-packages/opencompass/configs/datasets/ceval/ceval_gen_5f30c7.py": "98388fc58c9d88dc993411ff668705932aa9470fd27a9e489bda149dd7ccfde3",
+    "/private/tmp/week8-oc-fix-20260915/lib/python3.11/site-packages/opencompass/configs/datasets/cmmlu/cmmlu_gen_c13365.py": "1ff4b082df0baaa421dcdc9e2f991d79d2326533b1f7cecdeb129bbb48306d39"
+  },
+  "model_weights_loaded": false,
+  "model_inference_run": false,
+  "training_started": false,
+  "full_evaluation_lock_ready": false,
+  "expanded_config_sha256": "7b729cbb7706d404fa9b63a689f5c71a5710c5dbdb9fba44356ffbaeb25110d6",
+  "prompt_rows_sha256": "1cb1c25c2a80e1b407c7947840e94d913cfe2193c179be41acde33058f310bc5"
+}

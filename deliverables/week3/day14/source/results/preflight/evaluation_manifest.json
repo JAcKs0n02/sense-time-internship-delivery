@@ -1,0 +1,66 @@
+{
+  "status": "validated",
+  "question_file": "/Users/yifanren/Documents/商汤科技实习/deliverables/week3/day14/source/data/evaluation_questions.json",
+  "question_file_sha256": "738f31aee068e6c651552169a7225337acbbe2f9eb993aebf9a0a714fb82ea5d",
+  "question_count": 20,
+  "generation_config": {
+    "do_sample": false,
+    "max_new_tokens": 512,
+    "repetition_penalty": 1.0,
+    "seed": 42
+  },
+  "candidate_count": 10,
+  "candidates": [
+    {
+      "candidate_id": "base",
+      "adapter_path": null,
+      "kind": "base"
+    },
+    {
+      "candidate_id": "rank-r8",
+      "adapter_path": "/root/autodl-tmp/qwen25-week3/runs/rank-r8/attempt-001/adapter",
+      "kind": "sft"
+    },
+    {
+      "candidate_id": "rank-r32",
+      "adapter_path": "/root/autodl-tmp/qwen25-week3/runs/rank-r32/attempt-001/adapter",
+      "kind": "sft"
+    },
+    {
+      "candidate_id": "rank-r64",
+      "adapter_path": "/root/autodl-tmp/qwen25-week3/runs/rank-r64/attempt-001/adapter",
+      "kind": "sft"
+    },
+    {
+      "candidate_id": "lr-1e-4",
+      "adapter_path": "/root/autodl-tmp/qwen25-week3/runs/lr-1e-4/attempt-001/adapter",
+      "kind": "sft"
+    },
+    {
+      "candidate_id": "lr-2e-4",
+      "adapter_path": "/root/autodl-tmp/qwen25-week3/runs/lr-2e-4/attempt-001/adapter",
+      "kind": "sft"
+    },
+    {
+      "candidate_id": "lr-5e-5",
+      "adapter_path": "/root/autodl-tmp/qwen25-week3/runs/lr-5e-5/attempt-001/adapter",
+      "kind": "sft"
+    },
+    {
+      "candidate_id": "epoch-e2",
+      "adapter_path": "/root/autodl-tmp/qwen25-week3/runs/epoch-e2/attempt-001/adapter",
+      "kind": "sft"
+    },
+    {
+      "candidate_id": "epoch-e3",
+      "adapter_path": "/root/autodl-tmp/qwen25-week3/runs/epoch-e3/attempt-001/adapter",
+      "kind": "sft"
+    },
+    {
+      "candidate_id": "epoch-e5",
+      "adapter_path": "/root/autodl-tmp/qwen25-week3/runs/epoch-e5/attempt-001/adapter",
+      "kind": "sft"
+    }
+  ],
+  "started_at_utc": "2026-08-06T03:29:40.145050+00:00"
+}

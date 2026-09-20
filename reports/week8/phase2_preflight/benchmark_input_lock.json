@@ -1,0 +1,85 @@
+{
+  "status": "BENCHMARK_INPUTS_PINNED_RUNTIME_NOT_READY",
+  "counts": {
+    "ceval": {
+      "dev": {
+        "subjects": 52,
+        "records": 260
+      },
+      "val": {
+        "subjects": 52,
+        "records": 1346
+      },
+      "test": {
+        "subjects": 52,
+        "records": 12342
+      }
+    },
+    "cmmlu": {
+      "dev": {
+        "subjects": 67,
+        "records": 335
+      },
+      "test": {
+        "subjects": 67,
+        "records": 11582
+      }
+    }
+  },
+  "normalized_records": 25865,
+  "benchmark_records_sha256": "2d2a88a2f6afd2870cb1efcfc19f1c5c2eb5e33c45297532d50cdcae7afcfa32",
+  "official_download_manifest_sha256": "dd563d1caf7878fbdd1671aa7d9c66a935eb89b7bc6b82f7fbc50b7727b5c3a4",
+  "local_data_manifest_sha256": "02c93d581ed1a1efc4426a5f10c070de1cf202056be59cd86f8362ce73f98719",
+  "opencompass_version": "0.5.3",
+  "opencompass_git_tag_commit": "a25fdd25dbe6a6e1da355332fa52e82dcfc3a1ee",
+  "wheel_sha256": "cd954e98183d7eedf65aa650a4f5921cc166b48becd60c0db3293f00111cebd9",
+  "explicit_configs": {
+    "ceval": {
+      "path": "package_source/opencompass/configs/datasets/ceval/ceval_gen_5f30c7.py",
+      "sha256": "98388fc58c9d88dc993411ff668705932aa9470fd27a9e489bda149dd7ccfde3",
+      "fewshot_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "test_split": "val",
+      "answer_postprocess": "first_capital_postprocess"
+    },
+    "cmmlu": {
+      "path": "package_source/opencompass/configs/datasets/cmmlu/cmmlu_gen_c13365.py",
+      "sha256": "1ff4b082df0baaa421dcdc9e2f991d79d2326533b1f7cecdeb129bbb48306d39",
+      "fewshot_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "test_split": "test",
+      "answer_postprocess": "first_capital_postprocess"
+    }
+  },
+  "generation_candidate": {
+    "do_sample": false,
+    "max_out_len": 32,
+    "seed": 42,
+    "max_seq_len": 2048,
+    "actual_prompt_length_and_truncation_audit_pending": true
+  },
+  "runtime_checks_pending": [
+    "bind explicit configs and local datasets in fresh evaluation entrypoint",
+    "validate expanded OpenCompass runtime and full 119-subject prompts, lengths and decoding",
+    "pin judge deployment/version/endpoint",
+    "fresh target GPU and model weight identity checks"
+  ],
+  "judge": null,
+  "gpu_target": null,
+  "training_allowed": false,
+  "historical_remote_counts": {
+    "ceval": 1398,
+    "cmmlu": 11649
+  },
+  "historical_counts_not_used_as_current_dataset_counts": true
+}

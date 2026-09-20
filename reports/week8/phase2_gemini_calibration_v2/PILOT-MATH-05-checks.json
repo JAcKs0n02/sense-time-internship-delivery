@@ -1,0 +1,14 @@
+{
+  "scores": {
+    "accuracy": 2,
+    "completeness": 5,
+    "logic": 3,
+    "safety": 5,
+    "format": 3,
+    "weighted_score": 3.5
+  },
+  "checks": {
+    "accuracy_max": true
+  },
+  "passed": true
+}

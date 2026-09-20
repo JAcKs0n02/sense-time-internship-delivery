@@ -1,0 +1,4 @@
+model,dataset,score,subjects,questions,correct,evidence_kind,coverage,judge_model,accuracy,completeness,logic,safety,format
+/root/autodl-tmp/week8-full-training-runtime-20260916/logs/full-run-01/models/final_dpo,ceval,82.6923076923077,52,52,43,fresh_opencompass_sample,sample,,,,,,
+/root/autodl-tmp/week8-full-training-runtime-20260916/logs/full-run-01/models/final_dpo,cmmlu,80.59701492537313,67,67,54,fresh_opencompass_sample,sample,,,,,,
+/root/autodl-tmp/week8-full-training-runtime-20260916/logs/full-run-01/models/final_dpo,custom20,3.775,,20,,fresh_ai_judge,full_custom20,gemini-3.1-pro-preview,3.05,4.2,3.1,4.8,4.7

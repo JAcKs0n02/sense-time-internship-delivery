@@ -1,0 +1,31 @@
+{
+  "status": "BASE_OBJECTIVE_RESULTS_INDEPENDENTLY_CHECKED_ONLY",
+  "results": {
+    "ceval": {
+      "subjects": 52,
+      "questions": 1346,
+      "correct": 1049,
+      "accuracy_percent": 77.93462109955424,
+      "frozen_gold_and_row_identity_checked": true
+    },
+    "cmmlu": {
+      "subjects": 67,
+      "questions": 11582,
+      "correct": 9246,
+      "accuracy_percent": 79.8307718874115,
+      "frozen_gold_and_row_identity_checked": true
+    }
+  },
+  "root_cause": "CMMLU details is an ordered list with singleton-list pred/refr/is_correct. Entry validator only accepts dict details and scalar row fields.",
+  "formal_session_complete": false,
+  "custom20_started": false,
+  "judge_attempts": 0,
+  "sft_started": false,
+  "dpo_started": false,
+  "archive_sha256": "089db59f8613651821ec4dcfa756edb238063f45eb9473bc87e1ddcd8af0754f",
+  "manifest_files_verified": 374,
+  "instance_state": "OFF_CONFIRMED",
+  "scheduled_shutdown_cleared": true,
+  "monitor_status": "PAUSED",
+  "observed_local_utc": "2026-09-16T23:50:33.871422+00:00"
+}

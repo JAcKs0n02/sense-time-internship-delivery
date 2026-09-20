@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "files": [
+    {
+      "submission_path": "Config/dataset_info_v2.json",
+      "formal_source": "deliverables/week6/day31/configs/dataset_info_v2.json",
+      "bytes": 567,
+      "sha256": "f5a916e441b4504b849c237d1a713d1035604e1816811cd46326c577d38ae52a"
+    },
+    {
+      "submission_path": "Config/runtime_versions_v2.json",
+      "formal_source": "deliverables/week6/day31/configs/runtime_versions_v2.json",
+      "bytes": 643,
+      "sha256": "1298fe57a8a6e9def9881542366bb78dc25bc05bbae54ee5367b10ae66888d21"
+    },
+    {
+      "submission_path": "Config/week6_tool_sft_lora_v2.yaml",
+      "formal_source": "deliverables/week6/day31/configs/week6_tool_sft_lora_v2.yaml",
+      "bytes": 1203,
+      "sha256": "e3c1dcbf91171410cbd1d47d598862188047a9bc77362d133b6c8e85cf11a973"
+    },
+    {
+      "submission_path": "Config/week6_tool_sft_lora_v2_effective.yaml",
+      "formal_source": "deliverables/week6/day31/source/results/week6_tool_sft_lora_v2_effective.yaml",
+      "bytes": 1217,
+      "sha256": "11d970d05b88b7e0a2817158822e9e211fd9e8c1a191bdc4829f4f9a43ac9365"
+    },
+    {
+      "submission_path": "Data/dataset_manifest_v2.json",
+      "formal_source": "deliverables/week6/day31/source/data/dataset_manifest_v2.json",
+      "bytes": 3282,
+      "sha256": "96f3a20b3fd1cbfd991f6ac1af2ffc1a25516c7761f66d5bfc8c666b9eede9cf"
+    },
+    {
+      "submission_path": "Data/tool_sft_dev_v2.json",
+      "formal_source": "deliverables/week6/day31/source/data/tool_sft_dev_v2.json",
+      "bytes": 144907,
+      "sha256": "406b01115967c865cc1d38915e59810e7e260a2e09417722a55d734803043b84"
+    },
+    {
+      "submission_path": "Data/tool_sft_test_v2.json",
+      "formal_source": "deliverables/week6/day31/source/data/tool_sft_test_v2.json",
+      "bytes": 362711,
+      "sha256": "ca74e32574bd7282f1a12428ec9559e2cf6abec58007fc3d7212c5160742b050"
+    },
+    {
+      "submission_path": "Data/tool_sft_train_core_100.json",
+      "formal_source": "deliverables/week6/day31/source/data/tool_sft_train_core_100.json",
+      "bytes": 362539,
+      "sha256": "c28ba5e24ca2bdbdb08d75349c6867f29017c0356041e0835b857f595acb9984"
+    },
+    {
+      "submission_path": "Data/tool_sft_train_v2.json",
+      "formal_source": "deliverables/week6/day31/source/data/tool_sft_train_v2.json",
+      "bytes": 1090474,
+      "sha256": "85c4840b3105a1be894e5c508afcd3df337db0626aa0fd0a1fcb432bd19e29c7"
+    },
+    {
+      "submission_path": "Model_Archive/adapter_config.json",
+      "formal_source": "deliverables/week6/day31/model_archive/adapter_config.json",
+      "bytes": 862,
+      "sha256": "3f9585b4844615acbddaf03ebc140f1e6b74694ea6bac801840e65392bf6222d"
+    },
+    {
+      "submission_path": "Model_Archive/adapter_manifest.json",
+      "formal_source": "deliverables/week6/day31/source/results/v2_adapter_manifest.json",
+      "bytes": 3972,
+      "sha256": "0e9a6acaa37b2c439a437d5313cbb764370351efca6a064f4bcedb623423c023"
+    },
+    {
+      "submission_path": "Results/checkpoint_selection_v2.json",
+      "formal_source": "deliverables/week6/day31/source/results/v2_checkpoint_selection.json",
+      "bytes": 5213,
+      "sha256": "2bec7fce912a8dbe8146e446a33289be87c3eb2464daf34122f03ff9cd765e14"
+    },
+    {
+      "submission_path": "Results/data_validation_v2.json",
+      "formal_source": "deliverables/week6/day31/source/results/data_validation_v2.json",
+      "bytes": 1423,
+      "sha256": "444f6eaf36493093c84341f296cd78a0a9fefd3fa5fc9104f0c0c2814ae56f44"
+    },
+    {
+      "submission_path": "Results/exit_status_v2.json",
+      "formal_source": "deliverables/week6/day31/source/results/exit_status_v2.json",
+      "bytes": 222,
+      "sha256": "ecad7731eb0da4905ab4f3e251e81a1252e647fcba09dbfa6aa7287f1ab19ad7"
+    },
+    {
+      "submission_path": "Results/final_test_guarded_v2.json",
+      "formal_source": "deliverables/week6/day31/source/results/v2_final_test_guarded.json",
+      "bytes": 435757,
+      "sha256": "98cca8176e89d7b2e6b106d7fba686d08f863d31d5f936ffbd6e4042769e88d5"
+    },
+    {
+      "submission_path": "Results/final_test_raw_v2.json",
+      "formal_source": "deliverables/week6/day31/source/results/v2_final_test_raw.json",
+      "bytes": 434761,
+      "sha256": "31368ccdcb8fe660f5c76cfae12dd5cf9afe7f18a30499a936fe71dbe681ae84"
+    },
+    {
+      "submission_path": "Results/final_test_summary_v2.json",
+      "formal_source": "deliverables/week6/day31/source/results/v2_final_test_summary.json",
+      "bytes": 1383,
+      "sha256": "b995124f4e80d6adf679e80f109762361ce3c2930b10bc65d0407cdeb285c8ae"
+    },
+    {
+      "submission_path": "Results/formal_preflight_v2.json",
+      "formal_source": "deliverables/week6/day31/source/results/formal_preflight_v2.json",
+      "bytes": 7772,
+      "sha256": "5aa33fc5984f4d9cf558e9b6440b8a8b10a10bbde02fcd0d248776e892123232"
+    },
+    {
+      "submission_path": "Results/frozen_release_v2.json",
+      "formal_source": "deliverables/week6/day31/source/results/v2_frozen_release.json",
+      "bytes": 1271,
+      "sha256": "05720fa10c6240ba1d28dda95d2ca7094ff85dc6f2b4e4f6c20bb694b311974f"
+    },
+    {
+      "submission_path": "Results/launch_command_v2.json",
+      "formal_source": "deliverables/week6/day31/source/results/launch_command_v2.json",
+      "bytes": 299,
+      "sha256": "9f0b6e0b3848872b635746bf4ff7f5c4ecbf68e324989de2b1c9f2bae57549f4"
+    },
+    {
+      "submission_path": "Results/official_parser_receipt_v2.json",
+      "formal_source": "deliverables/week6/day31/source/results/official_parser_receipt_v2.json",
+      "bytes": 1971,
+      "sha256": "9b863ad099604c0bdd07f525e585ca9a1a305d46c9c20963ea169d2312730487"
+    },
+    {
+      "submission_path": "Results/trainable_parameters_v2.json",
+      "formal_source": "deliverables/week6/day31/source/results/trainable_parameters_v2.json",
+      "bytes": 16017,
+      "sha256": "791dcd4365e856d0e1bc982ccb4d33aacaf235ad71d373aaebd5d4ed960ecf91"
+    },
+    {
+      "submission_path": "Results/training_log_v2.txt",
+      "formal_source": "deliverables/week6/day31/source/results/v2_training_log.txt",
+      "bytes": 71973,
+      "sha256": "dc82582e8f739f762686d64867a59e814fdf176097af3769f8d0b4faec43f8d2"
+    },
+    {
+      "submission_path": "Results/training_summary_v2.json",
+      "formal_source": "deliverables/week6/day31/source/results/v2_training_summary.json",
+      "bytes": 33418,
+      "sha256": "c87857d254b6393b15546259b5e45fa922d10cf12b1462d67689056e7ecc04d5"
+    },
+    {
+      "submission_path": "Scripts/build_tool_sft_dataset.py",
+      "formal_source": "deliverables/week6/day31/source/scripts/build_tool_sft_dataset.py",
+      "bytes": 36342,
+      "sha256": "5121e51e151f5224a4d820284b06ed615262d9e62ed4260045cdae0d8ee0d28a"
+    },
+    {
+      "submission_path": "Scripts/day31_harness.py",
+      "formal_source": "deliverables/week6/day31/source/scripts/day31_harness.py",
+      "bytes": 37894,
+      "sha256": "5af480d61e22e1220a2e99655723b33c325301ed739099bdf7abdb6dad22dd94"
+    },
+    {
+      "submission_path": "Scripts/select_v2_checkpoint.py",
+      "formal_source": "deliverables/week6/day31/source/scripts/select_v2_checkpoint.py",
+      "bytes": 4874,
+      "sha256": "e08fb1c12eff7bd6bc873a3404b965557841e5b0f3afe8579eda7cfff5c89802"
+    },
+    {
+      "submission_path": "Scripts/validate_tool_sft_dataset.py",
+      "formal_source": "deliverables/week6/day31/source/scripts/validate_tool_sft_dataset.py",
+      "bytes": 19978,
+      "sha256": "4243faaa9fc7da81022ab9dadd997a452f15d8e158692845d1a4cef014d01e8a"
+    }
+  ]
+}

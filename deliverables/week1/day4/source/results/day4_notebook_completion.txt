@@ -1,0 +1,10 @@
+DAY4_NOTEBOOK_EXECUTION=PASS
+fixed_cases=15
+special_tokens=3
+truncation_max_length=64
+comparison_target_vocab_size=800
+output=tokenizer_extreme_cases.csv
+output=special_token_results.json
+output=truncation_results.json
+output=tokenizer_comparison.csv
+output=day4_environment.txt

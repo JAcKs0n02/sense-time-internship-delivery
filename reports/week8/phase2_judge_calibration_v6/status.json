@@ -1,0 +1,20 @@
+{
+  "status": "FAILED_NOT_RELEASED",
+  "error_type": "ValueError",
+  "accepted_cases": [
+    "EQ-BOOL",
+    "EQ-TEXT",
+    "WRONG-CONCLUSION",
+    "STRICT-BOOL",
+    "STRICT-TEXT",
+    "MISSING-REASON"
+  ],
+  "attempts": 8,
+  "usage": {
+    "prompt_tokens": 15077,
+    "completion_tokens": 9474,
+    "total_tokens": 24551
+  },
+  "usage_complete": true,
+  "formal_release": false
+}

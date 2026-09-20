@@ -1,0 +1,5 @@
+requirement_id,requirement,status,metric,evidence
+three_tools,3 个工具可正常调用,PASS,3/3 tools verified with fixed schemas and safety boundaries,deliverables/week6/day28/source/results/day28_validation.json; deliverables/week6/day30/source/results/teacher_acceptance.json
+multistep,Agent 完成至少 3 步复杂任务,PASS,3 auditable stages; final total 719 CNY,deliverables/week6/day30/source/results/teacher_multistep_trace.json
+error_analysis,错误分析报告有深度,PASS,40 paired dev cases; 22 main failures vs 26 ablation failures,deliverables/week6/day32/source/results/AGENT_ERROR_ANALYSIS.md; deliverables/week6/day32/source/results/v2_analysis/prompt_comparison.json
+weekly_report,第 6 周周报完整提交,PASS,"11 report sections with lineage, final-test metrics, limits and archive",deliverables/week6/day33/REPORT.md

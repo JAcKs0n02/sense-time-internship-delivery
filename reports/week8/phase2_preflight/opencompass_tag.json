@@ -1,0 +1,10 @@
+{
+  "ref": "refs/tags/0.5.3",
+  "node_id": "REF_kwDOJv0mSa9yZWZzL3RhZ3MvMC41LjM",
+  "url": "https://api.github.com/repos/open-compass/opencompass/git/refs/tags/0.5.3",
+  "object": {
+    "sha": "a25fdd25dbe6a6e1da355332fa52e82dcfc3a1ee",
+    "type": "commit",
+    "url": "https://api.github.com/repos/open-compass/opencompass/git/commits/a25fdd25dbe6a6e1da355332fa52e82dcfc3a1ee"
+  }
+}

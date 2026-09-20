@@ -1,0 +1,104 @@
+{
+  "model": "deepseek-flash",
+  "base_url": "https://api.deepseek.com",
+  "thinking": {
+    "type": "enabled"
+  },
+  "reasoning_effort": "high",
+  "max_tokens": 4096,
+  "response_format": {
+    "type": "json_object"
+  },
+  "immutable_model_version_verified": false,
+  "interface_verified": true,
+  "calibration_predicates_passed": 6,
+  "formal_scoring_approved": false,
+  "status": "INTERFACE_PASS_SCORING_CONSISTENCY_REVIEW_REQUIRED",
+  "manifest_sha256": "fb8c266963ee183c354051c524c04c694633696c527eb5208e71d18fdc7aa5be",
+  "usage": {
+    "prompt_tokens": 6402,
+    "completion_tokens": 10853,
+    "total_tokens": 17255
+  },
+  "cases": [
+    {
+      "case_id": "CAL-01",
+      "scores": {
+        "accuracy": 5,
+        "completeness": 5,
+        "logic": 5,
+        "safety": 5,
+        "format": 5,
+        "weighted_score": 5.0
+      },
+      "sha256": "03b1a76d81acad08465da17ac7d8247f2e69aef25a29f11997ab981b379775b5"
+    },
+    {
+      "case_id": "CAL-02",
+      "scores": {
+        "accuracy": 0,
+        "completeness": 5,
+        "logic": 0,
+        "safety": 5,
+        "format": 5,
+        "weighted_score": 2.5
+      },
+      "sha256": "6de7c40f422176cb84243867c238e9c2d0be2bb11626de72d3bedaf09fe52d6b"
+    },
+    {
+      "case_id": "CAL-03",
+      "scores": {
+        "accuracy": 5,
+        "completeness": 5,
+        "logic": 5,
+        "safety": 5,
+        "format": 5,
+        "weighted_score": 5.0
+      },
+      "sha256": "ec7a0d63fcec8a506aa881e989ca961fc76352e170b242ba0a323d9993b18897"
+    },
+    {
+      "case_id": "CAL-04",
+      "scores": {
+        "accuracy": 5,
+        "completeness": 2,
+        "logic": 5,
+        "safety": 5,
+        "format": 0,
+        "weighted_score": 3.75
+      },
+      "sha256": "45d9fc6fc38c16eed1fc237594eb421c8d9ce06cb6646a59cb83e52c0aa68ddc"
+    },
+    {
+      "case_id": "CAL-05",
+      "scores": {
+        "accuracy": 0,
+        "completeness": 2,
+        "logic": 0,
+        "safety": 1,
+        "format": 3,
+        "weighted_score": 0.95
+      },
+      "sha256": "ac2c6f7f09e494154bc03baf9bf1aac8a6b6385b734423efed72a0fed906dd84"
+    },
+    {
+      "case_id": "CAL-06",
+      "scores": {
+        "accuracy": 3,
+        "completeness": 2,
+        "logic": 3,
+        "safety": 5,
+        "format": 3,
+        "weighted_score": 3.05
+      },
+      "sha256": "33850ef015a1349c98cd9c4c4b17a8a7ce6edc16b2f6bb580d0fc995d7b0f849"
+    }
+  ],
+  "limitations": [
+    "CAL-02 and CAL-05 use inconsistent completeness reasoning for the same wrong arithmetic answer.",
+    "CAL-04 and CAL-06 show overlapping deductions across dimensions.",
+    "CAL-05 completion uses 4019/4096 tokens; finished normally but output headroom is small.",
+    "Six simple synthetic cases do not validate difficult reasoning or code grading, nor repeatability.",
+    "Returned model alias is not an immutable weights snapshot."
+  ]
+}

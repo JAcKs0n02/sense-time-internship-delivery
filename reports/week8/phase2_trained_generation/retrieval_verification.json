@@ -1,0 +1,59 @@
+{
+  "status": "ALL_750_ARTIFACTS_SHA256_VERIFIED",
+  "bundle_sha256": "23c763762011c03c3de6a522a2af00af7368f1f5f152ca5be9122dd875bebf4d",
+  "bundle_bytes": 8255948,
+  "manifest_trailing_literal_newline": false,
+  "note": "Original manifest bytes preserved; JSON object parsed with exact trailing marker validation. No result files changed.",
+  "models": {
+    "final_sft": {
+      "benchmarks": [
+        {
+          "model": "/root/autodl-tmp/week8-full-training-runtime-20260916/logs/full-run-01/models/final_sft",
+          "dataset": "ceval",
+          "score": 79.64338781575037,
+          "subjects": 52,
+          "questions": 1346,
+          "correct": 1072,
+          "evidence_kind": "fresh_opencompass"
+        },
+        {
+          "model": "/root/autodl-tmp/week8-full-training-runtime-20260916/logs/full-run-01/models/final_sft",
+          "dataset": "cmmlu",
+          "score": 79.951649110689,
+          "subjects": 67,
+          "questions": 11582,
+          "correct": 9260,
+          "evidence_kind": "fresh_opencompass"
+        }
+      ],
+      "answers_sha256": "aeda09cbbb3ac309e395ae8ed5491999cba2baf28e06ef6afe2617eb97edf53a",
+      "unique_nonempty_answers": 20,
+      "judge_calls": 0
+    },
+    "final_dpo": {
+      "benchmarks": [
+        {
+          "model": "/root/autodl-tmp/week8-full-training-runtime-20260916/logs/full-run-01/models/final_dpo",
+          "dataset": "ceval",
+          "score": 80.01485884101041,
+          "subjects": 52,
+          "questions": 1346,
+          "correct": 1077,
+          "evidence_kind": "fresh_opencompass"
+        },
+        {
+          "model": "/root/autodl-tmp/week8-full-training-runtime-20260916/logs/full-run-01/models/final_dpo",
+          "dataset": "cmmlu",
+          "score": 79.98618546019685,
+          "subjects": 67,
+          "questions": 11582,
+          "correct": 9264,
+          "evidence_kind": "fresh_opencompass"
+        }
+      ],
+      "answers_sha256": "000c11275c7faa15c0e327a68a4b0a995379c5bccbe2b816da5d0a51e42ebb14",
+      "unique_nonempty_answers": 20,
+      "judge_calls": 0
+    }
+  }
+}

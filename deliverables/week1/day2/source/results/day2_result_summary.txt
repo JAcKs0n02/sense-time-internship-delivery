@@ -1,0 +1,12 @@
+result_rows 3
+code_generation input_tokens 85 output_tokens 644 seconds 15.205 peak_gpu_gib 14.244 response_chars 1627
+logic_reasoning input_tokens 93 output_tokens 405 seconds 9.346 peak_gpu_gib 14.229 response_chars 610
+role_play input_tokens 66 output_tokens 512 seconds 11.756 peak_gpu_gib 14.234 response_chars 921
+chat_false_ids 23
+chat_true_ids 26
+chat_added_ids [151644, 77091, 198]
+chat_true_suffix '\n<|im_start|>assistant\n'
+special_tokens {'<|im_start|>': 151644, '<|im_end|>': 151645, '<|endoftext|>': 151643}
+day2_code_validation.txt syntax True pytest __CODE_PYTEST_EXIT__=1
+day2_code_validation_attempt_2.txt syntax True pytest __CODE_PYTEST_EXIT__=1
+day2_code_validation_attempt_3.txt syntax True pytest __CODE_PYTEST_EXIT__=1

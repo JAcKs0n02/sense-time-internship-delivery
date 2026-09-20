@@ -1,0 +1,542 @@
+[
+  {
+    "case_id": "chart_table-11--direct",
+    "category": "chart_table",
+    "mode": "direct",
+    "image_relative_path": "images/dev/chart_table-11.jpg",
+    "image_sha256": "8f3073d9698c932a975dc18deef338129d50e4810a001f30c4ab219623109b04",
+    "source": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/version2.x/ppstructure/model_train/images/tableocr_pipeline.jpg",
+    "license": "Apache-2.0",
+    "user_instruction": "请提取图表中的关键信息，并概括最重要的结论。",
+    "reference_answer": "图中显示表格 OCR 处理流程图。左侧输入表格经过文本检测和表格结构预测；右侧通过 Cell 坐标聚合与文本聚合生成表格 Excel。",
+    "base_response": "### 图表关键信息提取\n\n1. **表格结构预测**:\n   - IPT (ours) 方法在 BSD68 和 Urban100 数据集上的 F-measure 分别为 38.30 和 28.21。\n   - 其他方法包括 CBM3D、TNRD、DnCNN、MemNet、IRCNN 和 RDN，但没有提供具体数据。\n\n2. **文本检测算法**:\n   - IPT (ours) 方法在 BSD68 和 Urban100 数据集上的 F-measure 分别为 39.07 和 28.80。\n   - 其他方法包括 CBM3D、TNRD、DnCNN、MemNet、IRCNN 和 RDN，但没有提供具体数据。\n\n3. **文本识别算法**:\n   - IPT (ours) 方法在 BSD68 和 Urban100 数据集上的 F-measure 分别为 39.07 和 28.80。\n   - 其他方法包括 CBM3D、TNRD、DnCNN、MemNet、IRCNN 和 RDN，但没有提供具体数据。\n\n4. **",
+    "lora_response": "图中显示一张蓝色背景的中文表格。表头包含多个列；右侧有数值或短文本。",
+    "base_metrics": {
+      "input_tokens": 352,
+      "output_tokens": 256,
+      "generation_seconds": 8.093,
+      "latency_seconds": 8.22,
+      "peak_gpu_memory_mib": 16214.703
+    },
+    "lora_metrics": {
+      "input_tokens": 352,
+      "output_tokens": 24,
+      "generation_seconds": 1.547,
+      "latency_seconds": 1.646,
+      "peak_gpu_memory_mib": 16368.797
+    }
+  },
+  {
+    "case_id": "chart_table-11--correction",
+    "category": "chart_table",
+    "mode": "correction",
+    "image_relative_path": "images/dev/chart_table-11.jpg",
+    "image_sha256": "8f3073d9698c932a975dc18deef338129d50e4810a001f30c4ab219623109b04",
+    "source": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/version2.x/ppstructure/model_train/images/tableocr_pipeline.jpg",
+    "license": "Apache-2.0",
+    "user_instruction": "有人声称：“所有单元格都为空白”。请先判断该说法是否符合图像，再给出可见依据。",
+    "reference_answer": "该说法不符合图像。图中显示表格 OCR 处理流程图。左侧输入表格经过文本检测和表格结构预测；右侧通过 Cell 坐标聚合与文本聚合生成表格 Excel。",
+    "base_response": "根据提供的图像，无法直接判断“所有单元格都为空白”这一说法是否符合图像。图像中显示了一个表格结构预测的流程图，但没有提供具体的表格内容或单元格的具体信息。\n\n要判断“所有单元格都为空白”，需要查看表格中的具体内容。如果表格中所有单元格都是空白的（即没有文本或其他内容），那么这个说法是正确的。否则，这个说法就不准确。\n\n因此，需要查看实际的表格内容才能做出判断。",
+    "lora_response": "该说法不符合图像。图中显示一张表格型图像；上半部分为比较表；下半部分包含蓝色流程框和多组数值。",
+    "base_metrics": {
+      "input_tokens": 365,
+      "output_tokens": 102,
+      "generation_seconds": 3.082,
+      "latency_seconds": 3.192,
+      "peak_gpu_memory_mib": 16213.903
+    },
+    "lora_metrics": {
+      "input_tokens": 365,
+      "output_tokens": 32,
+      "generation_seconds": 1.977,
+      "latency_seconds": 2.064,
+      "peak_gpu_memory_mib": 16369.84
+    }
+  },
+  {
+    "case_id": "chart_table-12--direct",
+    "category": "chart_table",
+    "mode": "direct",
+    "image_relative_path": "images/dev/chart_table-12.png",
+    "image_sha256": "6d50148ceccb2d5cecc50b084b5105e3167f2d55a8899b29e04c3ebe46e88fa8",
+    "source": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/tests/test_files/medal_table.png",
+    "license": "Apache-2.0",
+    "user_instruction": "请提取图表中的关键信息，并概括最重要的结论。",
+    "reference_answer": "图中显示按国家或地区统计奖牌数的排名表。列包含名次、国家/地区、金牌、银牌、铜牌和奖牌总数；前几行可见中国、美国、俄罗斯等。",
+    "base_response": "这张图片展示了一个表格，列出了不同国家/地区的奖牌总数。以下是关键信息：\n\n1. 中国（CHN）以100枚奖牌总数排名第一。\n2. 美国（USA）以112枚奖牌总数排名第二。\n3. 俄罗斯（RUS）以60枚奖牌总数排名第三。\n4. 英国（GBR）、德国（GER）、澳大利亚（AUS）、韩国（KOR）、日本（JPN）、意大利（ITA）、法国（FRA）、荷兰（NED）、乌克兰（UKR）、肯尼亚（KEN）、西班牙（ESP）、牙买加（JAM）等国家/地区也分别获得了不同的奖牌总数。\n\n最重要的结论是：中国在此次比赛中取得了显著的成就，以100枚奖牌总数遥遥领先其他国家/地区。",
+    "lora_response": "图中显示一张横向排列的奖牌榜表格。表头包含名次、国家/地区、金牌、银牌、铜牌和奖牌总数等字段；数值按国家分组列出。",
+    "base_metrics": {
+      "input_tokens": 272,
+      "output_tokens": 180,
+      "generation_seconds": 5.312,
+      "latency_seconds": 5.33,
+      "peak_gpu_memory_mib": 16053.57
+    },
+    "lora_metrics": {
+      "input_tokens": 272,
+      "output_tokens": 44,
+      "generation_seconds": 2.555,
+      "latency_seconds": 2.571,
+      "peak_gpu_memory_mib": 16209.792
+    }
+  },
+  {
+    "case_id": "chart_table-12--correction",
+    "category": "chart_table",
+    "mode": "correction",
+    "image_relative_path": "images/dev/chart_table-12.png",
+    "image_sha256": "6d50148ceccb2d5cecc50b084b5105e3167f2d55a8899b29e04c3ebe46e88fa8",
+    "source": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/tests/test_files/medal_table.png",
+    "license": "Apache-2.0",
+    "user_instruction": "有人声称：“图中没有任何结构化数据区域”。请先判断该说法是否符合图像，再给出可见依据。",
+    "reference_answer": "该说法不符合图像。图中显示按国家或地区统计奖牌数的排名表。列包含名次、国家/地区、金牌、银牌、铜牌和奖牌总数；前几行可见中国、美国、俄罗斯等。",
+    "base_response": "该说法不符合图像。\n\n在图像中，存在一个结构化的数据区域，具体表现为一个表格。这个表格列出了各个国家/地区的排名、金牌数、银牌数、铜牌数和奖牌总数。每个国家/地区的信息都清晰地排列在表格的相应单元格中，形成了一个有组织的数据结构。",
+    "lora_response": "该说法不符合图像。图中显示一张横向排列的奖牌榜表格。表头包含名次、国家/地区、金牌、银牌、铜牌和奖牌总数等字段；部分数值用中文或英文填写。",
+    "base_metrics": {
+      "input_tokens": 286,
+      "output_tokens": 71,
+      "generation_seconds": 2.178,
+      "latency_seconds": 2.2,
+      "peak_gpu_memory_mib": 16053.666
+    },
+    "lora_metrics": {
+      "input_tokens": 286,
+      "output_tokens": 50,
+      "generation_seconds": 2.886,
+      "latency_seconds": 2.902,
+      "peak_gpu_memory_mib": 16209.887
+    }
+  },
+  {
+    "case_id": "formula-11--direct",
+    "category": "formula",
+    "mode": "direct",
+    "image_relative_path": "images/dev/formula-11.png",
+    "image_sha256": "7885d4a349edcdfbfbc439305b8b554c2500f095949bc53d14835656b902dbcc",
+    "source": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/tests/test_files/formula.png",
+    "license": "Apache-2.0",
+    "user_instruction": "请转写图中的公式，并解释各部分表达的含义。",
+    "reference_answer": "图中是一条印刷体的复积分表达式。可转写为：S_0(\\nu)=\\frac{\\nu e^{-2\\nu}}{\\pi}\\int_{-\\mu}^{\\infty}d\\omega\\oint_{C_+}dz\\,\\frac{2z^2}{(z^2+\\omega^2)^{\\nu+1}}\\bar{\\Psi}(\\omega,z)e^{icz}。左端以 S_0(\nu) 开头；右端含无穷积分、闭合路径积分、指数项和波函数符号。",
+    "base_response": "该公式是一个量子场论中的积分公式，用于计算某个物理量。具体来说，这个公式是费米子自能的定义。下面是对公式的详细解释：\n\n1. **\\( \\zeta_0(\\nu) \\)**：这是费米子自能的零级近似，其中 \\( \\nu \\) 是费米子的动量。\n\n2. **\\( -\\frac{\\nu q}{\\pi} \\)**：这是自能的贡献项，其中 \\( q \\) 是外部场的动量。\n\n3. **\\( \\int_{\\mu}^{\\infty} d\\omega \\int_{C_+} dz \\frac{2z^2}{(z^2 + \\omega^2)^{\\nu+1}} \\tilde{\\Psi}(\\omega; z) e^{i\\epsilon z} \\)**：\n   - **\\( \\int_{\\mu}^{\\infty} d\\omega \\)**：积分范围从 \\( \\mu \\) 到无穷大，表示积分在所有频率上进行。\n   - **\\( \\int_{C_+} dz \\)**：积分路径 \\( C_+ \\) 在复平面上，沿着正",
+    "lora_response": "图中是一条蓝色手写微扰展开公式。左侧是 ξ_0(\\nu)；右侧包含积分、复指数和Ψ函数。",
+    "base_metrics": {
+      "input_tokens": 67,
+      "output_tokens": 256,
+      "generation_seconds": 7.405,
+      "latency_seconds": 7.41,
+      "peak_gpu_memory_mib": 15848.353
+    },
+    "lora_metrics": {
+      "input_tokens": 67,
+      "output_tokens": 33,
+      "generation_seconds": 1.843,
+      "latency_seconds": 1.846,
+      "peak_gpu_memory_mib": 16004.915
+    }
+  },
+  {
+    "case_id": "formula-11--correction",
+    "category": "formula",
+    "mode": "correction",
+    "image_relative_path": "images/dev/formula-11.png",
+    "image_sha256": "7885d4a349edcdfbfbc439305b8b554c2500f095949bc53d14835656b902dbcc",
+    "source": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/tests/test_files/formula.png",
+    "license": "Apache-2.0",
+    "user_instruction": "有人声称：“公式的结果明确等于零”。请先判断该说法是否符合图像，再给出可见依据。",
+    "reference_answer": "该说法不符合图像。图中是一条印刷体的复积分表达式。可转写为：S_0(\\nu)=\\frac{\\nu e^{-2\\nu}}{\\pi}\\int_{-\\mu}^{\\infty}d\\omega\\oint_{C_+}dz\\,\\frac{2z^2}{(z^2+\\omega^2)^{\\nu+1}}\\bar{\\Psi}(\\omega,z)e^{icz}。左端以 S_0(\nu) 开头；右端含无穷积分、闭合路径积分、指数项和波函数符号。",
+    "base_response": "该说法不符合图像。根据图像中的公式，其结果为：\n\n\\[ \\zeta_0(\\nu) = -\\frac{\\nu \\varrho^{-2\\nu}}{\\pi} \\int_{\\mu}^{\\infty} d\\omega \\int_{C_+} dz \\frac{2 z^2}{(z^2 + \\omega^2)^{\\nu+1}} \\tilde{\\Psi}(\\omega; z) e^{i \\epsilon z} \\]\n\n这个公式是一个积分表达式，其结果取决于积分的上下限、变量 \\( \\nu \\)，以及函数 \\( \\tilde{\\Psi}(\\omega; z) \\) 和 \\( e^{i \\epsilon z} \\) 的具体形式。因此，仅凭图像无法确定该公式的结果是否明确等于零。\n\n要判断该说法是否正确，需要知道具体的 \\( \\nu \\)，\\( \\mu \\)，\\( C_+ \\)，\\( \\omega \\)，\\( z \\)，\\( \\tilde{\\Psi}(\\omega; z) \\)，和 \\( \\epsilon \\) 的值，以及这些变量的具体关系。只有在这些信息都已知的情况下，才能判断该公式的结果是否明确等于零。",
+    "lora_response": "该说法不符合图像。图中显示蓝色手写微分方程。左侧有 ζ_0(ν)；积分符号从 μ 到 C_+ 无穷大；被积表达式含 dω、dz 和 ψ 函数。",
+    "base_metrics": {
+      "input_tokens": 76,
+      "output_tokens": 256,
+      "generation_seconds": 7.228,
+      "latency_seconds": 7.233,
+      "peak_gpu_memory_mib": 15851.011
+    },
+    "lora_metrics": {
+      "input_tokens": 76,
+      "output_tokens": 55,
+      "generation_seconds": 3.033,
+      "latency_seconds": 3.036,
+      "peak_gpu_memory_mib": 16008.14
+    }
+  },
+  {
+    "case_id": "formula-12--direct",
+    "category": "formula",
+    "mode": "direct",
+    "image_relative_path": "images/dev/formula-12.jpg",
+    "image_sha256": "9e7bfdf149d57e71368843e79d38ef9abd6699fcb4c0e3935e2fbedce7f145e7",
+    "source": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/version2.x/algorithm/formula_recognition/images/hme_00.jpg",
+    "license": "Apache-2.0",
+    "user_instruction": "请转写图中的公式，并解释各部分表达的含义。",
+    "reference_answer": "图中是一条白色手写字的代数项。可转写为：x_k x_{2k}+y_k y_{2k}。黑色背景上有两个乘积项；两个乘积之间是加号。",
+    "base_response": "图中的公式是：\n\n\\[ x_k x_k + y_k y_k \\]\n\n这个公式表示的是两个向量 \\( x_k \\) 和 \\( y_k \\) 的点积（内积）。\n\n- \\( x_k \\) 和 \\( y_k \\) 分别是两个向量，其中 \\( k \\) 是向量的索引或序号。\n- 点积（内积）是一个标量，它等于这两个向量对应的分量的乘积之和。在这个公式中，\\( x_k \\) 和 \\( y_k \\) 的点积就是它们各自分量的平方和。\n\n数学上，点积可以表示为：\n\n\\[ x_k \\cdot y_k = x_k^T y_k \\]\n\n其中 \\( x_k^T \\) 表示向量 \\( x_k \\) 的转置，即行向量变为列向量。",
+    "lora_response": "图中是一条手写或打印的数学等式。可转写为：x_k x_k + y_k y_k。其中 k 表示下标或循环变量。",
+    "base_metrics": {
+      "input_tokens": 86,
+      "output_tokens": 187,
+      "generation_seconds": 5.405,
+      "latency_seconds": 5.41,
+      "peak_gpu_memory_mib": 15855.238
+    },
+    "lora_metrics": {
+      "input_tokens": 86,
+      "output_tokens": 40,
+      "generation_seconds": 2.215,
+      "latency_seconds": 2.219,
+      "peak_gpu_memory_mib": 16012.367
+    }
+  },
+  {
+    "case_id": "formula-12--correction",
+    "category": "formula",
+    "mode": "correction",
+    "image_relative_path": "images/dev/formula-12.jpg",
+    "image_sha256": "9e7bfdf149d57e71368843e79d38ef9abd6699fcb4c0e3935e2fbedce7f145e7",
+    "source": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/version2.x/algorithm/formula_recognition/images/hme_00.jpg",
+    "license": "Apache-2.0",
+    "user_instruction": "有人声称：“图片是一张统计数据表而不是公式”。请先判断该说法是否符合图像，再给出可见依据。",
+    "reference_answer": "该说法不符合图像。图中是一条白色手写字的代数项。可转写为：x_k x_{2k}+y_k y_{2k}。黑色背景上有两个乘积项；两个乘积之间是加号。",
+    "base_response": "该说法不符合图像。\n\n根据图像内容，这是一个数学公式，表示两个变量的乘积和。公式的形式是 \\( x_k y_k + y_k x_k \\)。因此，该说法与图像内容不符。",
+    "lora_response": "该说法不符合图像。图中显示白色手写符号和字母；可辨认文字或符号为：x_k x_k + y_k y_k。其中可见符号包括：k、x、y。",
+    "base_metrics": {
+      "input_tokens": 97,
+      "output_tokens": 47,
+      "generation_seconds": 1.395,
+      "latency_seconds": 1.401,
+      "peak_gpu_memory_mib": 15859.18
+    },
+    "lora_metrics": {
+      "input_tokens": 97,
+      "output_tokens": 45,
+      "generation_seconds": 2.501,
+      "latency_seconds": 2.505,
+      "peak_gpu_memory_mib": 16016.309
+    }
+  },
+  {
+    "case_id": "natural_scene-11--direct",
+    "category": "natural_scene",
+    "mode": "direct",
+    "image_relative_path": "images/dev/natural_scene-11.png",
+    "image_sha256": "78739619d11f7eb9c165bb5d2efd4772cee557812ec847532dbb1d92ef71f577",
+    "source": "https://github.com/scikit-image/scikit-image/blob/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/skimage/data/moon.png",
+    "license": "BSD-3-Clause",
+    "user_instruction": "请客观描述图中的主体、环境和重要细节。",
+    "reference_answer": "图中显示布满撞击坑和阴影的月球表面。图像为灰度；不同大小的圆形凹坑分布在崎岖地表。",
+    "base_response": "这张图片展示了一个类似于月球表面的景观，可能是通过望远镜拍摄的。以下是对图片中主体、环境和重要细节的详细描述：\n\n### 主体\n- **主体**：图片的主要内容是一个类似月球表面的区域，包含多个大小不一的撞击坑和地形特征。\n  - **撞击坑**：图片中有几个明显的撞击坑，其中最大的一个位于右上角，较小的撞击坑散布在周围。\n  - **地形特征**：除了撞击坑外，还有许多小的陨石坑和凹陷区域，形成了复杂的地形结构。\n\n### 环境\n- **背景**：整体背景呈现出一种灰白色调，类似于月球表面的颜色。\n- **光照**：图片中的光照效果使得一些区域显得明亮，而其他区域则显得较暗，形成了明暗对比。\n\n### 重要细节\n- **纹理**：月球表面的纹理非常清晰，可以看到细小的颗粒和不规则的表面特征。\n- **阴影**：由于光照角度的原因，部分区域产生了阴影，增加了图像的立体感。\n- **细节丰富**：尽管是单色图像，但细节非常丰富，包括撞击坑的边缘、内部结构以及周围的地形",
+    "lora_response": "图中显示灰度的月球表面图像。画面中央可见大小不一的撞击坑；背景为浅色，纹理较为粗糙。",
+    "base_metrics": {
+      "input_tokens": 357,
+      "output_tokens": 256,
+      "generation_seconds": 7.549,
+      "latency_seconds": 7.579,
+      "peak_gpu_memory_mib": 16221.947
+    },
+    "lora_metrics": {
+      "input_tokens": 357,
+      "output_tokens": 31,
+      "generation_seconds": 1.913,
+      "latency_seconds": 1.939,
+      "peak_gpu_memory_mib": 16378.659
+    }
+  },
+  {
+    "case_id": "natural_scene-11--correction",
+    "category": "natural_scene",
+    "mode": "correction",
+    "image_relative_path": "images/dev/natural_scene-11.png",
+    "image_sha256": "78739619d11f7eb9c165bb5d2efd4772cee557812ec847532dbb1d92ef71f577",
+    "source": "https://github.com/scikit-image/scikit-image/blob/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/skimage/data/moon.png",
+    "license": "BSD-3-Clause",
+    "user_instruction": "有人声称：“图中至少有三个人正在交谈”。请先判断该说法是否符合图像，再给出可见依据。",
+    "reference_answer": "该说法不符合图像。图中显示布满撞击坑和阴影的月球表面。图像为灰度；不同大小的圆形凹坑分布在崎岖地表。",
+    "base_response": "该说法不符合图像。图像中没有显示任何人类或动物的迹象，也没有任何可以辨认出交谈行为的特征。图像主要由地形和地貌组成，没有明显的物体或生物存在。因此，无法从这张图像中得出“至少有三个人正在交谈”的结论。",
+    "lora_response": "该说法不符合图像。图中显示灰度的月球表面图像。画面中央可见大小不一的撞击坑；背景为浅色高地与深色低地相间。",
+    "base_metrics": {
+      "input_tokens": 371,
+      "output_tokens": 61,
+      "generation_seconds": 1.928,
+      "latency_seconds": 1.948,
+      "peak_gpu_memory_mib": 16221.947
+    },
+    "lora_metrics": {
+      "input_tokens": 371,
+      "output_tokens": 40,
+      "generation_seconds": 2.414,
+      "latency_seconds": 2.433,
+      "peak_gpu_memory_mib": 16378.659
+    }
+  },
+  {
+    "case_id": "natural_scene-12--direct",
+    "category": "natural_scene",
+    "mode": "direct",
+    "image_relative_path": "images/dev/natural_scene-12.png",
+    "image_sha256": "db18e9c4157617403c3537a6ba355dfeafe9a7eabb6b9b94cb33f6525dd49179",
+    "source": "https://github.com/scikit-image/scikit-image/blob/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/skimage/data/motorcycle_left.png",
+    "license": "BSD-3-Clause",
+    "user_instruction": "请客观描述图中的主体、环境和重要细节。",
+    "reference_answer": "图中显示车库内停放的一辆红色摩托车。摩托车侧面朝向右侧；背景可见木架、纸箱和工具等杂物。",
+    "base_response": "图中是一辆红色的摩托车，停放在一个车库内。摩托车的车身是红色的，车架是银色的，座椅也是黑色的。摩托车的前轮有一个橙色的转向灯，后轮也有一个橙色的转向灯。摩托车的前面有一个圆形的前照灯，车头部分有一些黑色的装饰。\n\n摩托车的后面有一个黑色的尾灯，尾灯旁边有一个白色的反光镜。摩托车的发动机部分是银色的，可以看到一些金属部件和管道。\n\n在摩托车的右侧，有一个灰色的货架，上面放着一些物品，包括一个红色的塑料桶和一些纸箱。在摩托车的左侧，有一个木制的椅子，椅子上放着一些工具和零件。在摩托车的后面，有一扇白色的门，门上有一些标签和标志。\n\n整个车库的地面是灰色的水泥地，墙壁是白色的，天花板是灰色的。在摩托车的后面，可以看到一些木制的架子和一些工具箱。整个场景给人一种整洁有序的感觉。",
+    "lora_response": "图中显示一辆红色摩托车停放在室内。背景中有货架和杂物；摩托车位于画面中央，可见前轮、油箱和座椅。",
+    "base_metrics": {
+      "input_tokens": 348,
+      "output_tokens": 213,
+      "generation_seconds": 6.168,
+      "latency_seconds": 6.207,
+      "peak_gpu_memory_mib": 16202.221
+    },
+    "lora_metrics": {
+      "input_tokens": 348,
+      "output_tokens": 31,
+      "generation_seconds": 1.907,
+      "latency_seconds": 1.948,
+      "peak_gpu_memory_mib": 16357.662
+    }
+  },
+  {
+    "case_id": "natural_scene-12--correction",
+    "category": "natural_scene",
+    "mode": "correction",
+    "image_relative_path": "images/dev/natural_scene-12.png",
+    "image_sha256": "db18e9c4157617403c3537a6ba355dfeafe9a7eabb6b9b94cb33f6525dd49179",
+    "source": "https://github.com/scikit-image/scikit-image/blob/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/skimage/data/motorcycle_left.png",
+    "license": "BSD-3-Clause",
+    "user_instruction": "有人声称：“画面是室内会议室”。请先判断该说法是否符合图像，再给出可见依据。",
+    "reference_answer": "该说法不符合图像。图中显示车库内停放的一辆红色摩托车。摩托车侧面朝向右侧；背景可见木架、纸箱和工具等杂物。",
+    "base_response": "该说法不符合图像。\n\n可见依据：\n1. 图像中有一辆摩托车停放在一个有架子和盒子的房间里。\n2. 房间内有一些工具和物品，看起来像是一个车库或储藏室，而不是会议室。\n3. 没有看到会议室常见的桌子、椅子和投影设备等设施。",
+    "lora_response": "该说法不符合图像。图中显示一辆红色摩托车停放在车库内。背景中有货架和杂物。",
+    "base_metrics": {
+      "input_tokens": 358,
+      "output_tokens": 68,
+      "generation_seconds": 2.104,
+      "latency_seconds": 2.15,
+      "peak_gpu_memory_mib": 16202.221
+    },
+    "lora_metrics": {
+      "input_tokens": 358,
+      "output_tokens": 23,
+      "generation_seconds": 1.467,
+      "latency_seconds": 1.504,
+      "peak_gpu_memory_mib": 16357.73
+    }
+  },
+  {
+    "case_id": "ocr-11--direct",
+    "category": "ocr",
+    "mode": "direct",
+    "image_relative_path": "images/dev/ocr-11.png",
+    "image_sha256": "0506a717662d4ddd1b8260c37a6cf70831984979936b569366cef645567a8e5a",
+    "source": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/ch_street_rec_2.png",
+    "license": "Apache-2.0",
+    "user_instruction": "请转写图中清晰可见的文字；无法确认的部分不要猜测。",
+    "reference_answer": "图中是白色发光中文店招。文字位于灰色背景上；字间距较大。可辨认文字包括：母婴用品连锁。",
+    "base_response": "母婴用品连锁",
+    "lora_response": "图中是一条横向的中文店铺招牌。文字为红色或粉色，背景为浅色网格状。可辨认文字包括：母婴用品连锁。",
+    "base_metrics": {
+      "input_tokens": 114,
+      "output_tokens": 4,
+      "generation_seconds": 0.153,
+      "latency_seconds": 0.162,
+      "peak_gpu_memory_mib": 15866.185
+    },
+    "lora_metrics": {
+      "input_tokens": 114,
+      "output_tokens": 34,
+      "generation_seconds": 1.897,
+      "latency_seconds": 1.906,
+      "peak_gpu_memory_mib": 16023.313
+    }
+  },
+  {
+    "case_id": "ocr-11--correction",
+    "category": "ocr",
+    "mode": "correction",
+    "image_relative_path": "images/dev/ocr-11.png",
+    "image_sha256": "0506a717662d4ddd1b8260c37a6cf70831984979936b569366cef645567a8e5a",
+    "source": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/ch_street_rec_2.png",
+    "license": "Apache-2.0",
+    "user_instruction": "有人声称：“图中的数字只有 2024”。请先判断该说法是否符合图像，再给出可见依据。",
+    "reference_answer": "该说法不符合图像。图中是白色发光中文店招。文字位于灰色背景上；字间距较大。可辨认文字包括：母婴用品连锁。",
+    "base_response": "该说法不符合图像。图像中显示的数字是“母婴用品连锁”，而不是“2024”。",
+    "lora_response": "该说法不符合图像。图中显示白色中文招牌；文字横向排列，背景为浅色网格状纹理。可辨认文字包括：母婴用品连锁。",
+    "base_metrics": {
+      "input_tokens": 126,
+      "output_tokens": 24,
+      "generation_seconds": 0.71,
+      "latency_seconds": 0.718,
+      "peak_gpu_memory_mib": 15870.485
+    },
+    "lora_metrics": {
+      "input_tokens": 126,
+      "output_tokens": 35,
+      "generation_seconds": 1.961,
+      "latency_seconds": 1.969,
+      "peak_gpu_memory_mib": 16027.614
+    }
+  },
+  {
+    "case_id": "ocr-12--direct",
+    "category": "ocr",
+    "mode": "direct",
+    "image_relative_path": "images/dev/ocr-12.jpg",
+    "image_sha256": "7d444c81f4ee3d33270abc669502f1117c44a24de4b856e0b75f491c1d50bb3a",
+    "source": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/cmb_demo.jpg",
+    "license": "Apache-2.0",
+    "user_instruction": "请转写图中清晰可见的文字；无法确认的部分不要猜测。",
+    "reference_answer": "图中是放在地面上的招商银行联名银行卡。卡片为橙黄色并带卡通图案；右下角可见银联标识。可辨认文字包括：招商银行；MICHAEL；UnionPay 银联。",
+    "base_response": "招行银行\nCHINA MERCHANTS BANK\n人民币信用卡\nRMB Credit Card\n6225 7583\nVALID THRU 07/41\nMICHAEL\nUnionPay\n银联",
+    "lora_response": "图中显示一张橙色背景的银行卡。卡面有卡通图案和文字说明。可辨认文字包括：招商银行、MICHAEL、UnionPay 和多组数字或字母。",
+    "base_metrics": {
+      "input_tokens": 351,
+      "output_tokens": 49,
+      "generation_seconds": 1.573,
+      "latency_seconds": 1.602,
+      "peak_gpu_memory_mib": 16202.221
+    },
+    "lora_metrics": {
+      "input_tokens": 351,
+      "output_tokens": 42,
+      "generation_seconds": 2.519,
+      "latency_seconds": 2.55,
+      "peak_gpu_memory_mib": 16357.682
+    }
+  },
+  {
+    "case_id": "ocr-12--correction",
+    "category": "ocr",
+    "mode": "correction",
+    "image_relative_path": "images/dev/ocr-12.jpg",
+    "image_sha256": "7d444c81f4ee3d33270abc669502f1117c44a24de4b856e0b75f491c1d50bb3a",
+    "source": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/cmb_demo.jpg",
+    "license": "Apache-2.0",
+    "user_instruction": "有人声称：“图片完全不含可读文字”。请先判断该说法是否符合图像，再给出可见依据。",
+    "reference_answer": "该说法不符合图像。图中是放在地面上的招商银行联名银行卡。卡片为橙黄色并带卡通图案；右下角可见银联标识。可辨认文字包括：招商银行；MICHAEL；UnionPay 银联。",
+    "base_response": "该说法不符合图像。\n\n在图像中，可以看到以下可读文字：\n\n- “招商银行”（China Merchants Bank）\n- “人民币信用卡”（RMB Credit Card）\n- “MICHAEL”（持卡人姓名）\n- “UnionPay”（银联标志）\n\n这些文字是清晰可见的，并且可以被识别和阅读。因此，该说法不准确。",
+    "lora_response": "该说法不符合图像。图中显示一张橙色卡通主题的银行卡。卡片上有卡通人物图案和银行标志；卡号、姓名缩写及部分信息被覆盖。",
+    "base_metrics": {
+      "input_tokens": 360,
+      "output_tokens": 81,
+      "generation_seconds": 2.472,
+      "latency_seconds": 2.501,
+      "peak_gpu_memory_mib": 16202.221
+    },
+    "lora_metrics": {
+      "input_tokens": 360,
+      "output_tokens": 38,
+      "generation_seconds": 2.285,
+      "latency_seconds": 2.315,
+      "peak_gpu_memory_mib": 16357.744
+    }
+  },
+  {
+    "case_id": "ui-11--direct",
+    "category": "ui",
+    "mode": "direct",
+    "image_relative_path": "images/dev/ui-11.png",
+    "image_sha256": "cdece5c30e3d87c63e3e99c9f6a796cc886a5e2a8a63cd4c6df0466e5a96c067",
+    "source": "https://github.com/microsoft/OmniParser/blob/354021201345a96178360b28733573e27269f2de/imgs/windows_multitab.png",
+    "license": "CC-BY-4.0",
+    "user_instruction": "请说明当前界面的用途、主要区域以及用户可以执行的操作。",
+    "reference_answer": "图中显示Windows 上并排打开的文件资源管理器和 Google 浏览器窗口。左侧资源管理器显示文件列表；右侧浏览器停留在 Google 搜索主页。",
+    "base_response": "当前界面是一个Windows 10操作系统的桌面环境，显示了多个应用程序和任务管理器。以下是界面的主要区域及其用途：\n\n### 左侧区域：\n- **任务管理器**：用于监控系统性能，包括CPU、内存、磁盘和网络使用情况。\n- **进程列表**：列出了正在运行的所有进程，每个进程都有其相应的CPU、内存、磁盘和网络使用情况。\n- **性能选项卡**：提供了详细的性能监控信息，如CPU使用率、内存使用情况等。\n- **应用历史记录**：显示了最近使用的应用程序列表。\n- **启动项**：显示了系统启动时自动加载的应用程序列表。\n\n### 右侧区域：\n- **浏览器窗口**：打开的是Google Chrome浏览器，显示了Google首页。\n- **搜索框**：用户可以在其中输入搜索词进行搜索。\n- **广告和链接**：显示了与搜索相关的广告和链接。\n- **导航栏**：包含返回、前进、刷新、书签和设置按钮。\n\n### 用户可以执行的操作：\n1. **查看和管理进程**：通过任务管理器，用户可以查看正在运行的进程，结束不必要的进程以释放资源。\n2. **监控系统性能**",
+    "lora_response": "图中显示 Windows 任务管理器左侧页面与浏览器 Google 搜索主页并排打开。左半边是任务管理器窗口；右半边为 Google 主页，顶部有搜索框和导航链接。",
+    "base_metrics": {
+      "input_tokens": 344,
+      "output_tokens": 256,
+      "generation_seconds": 7.352,
+      "latency_seconds": 7.734,
+      "peak_gpu_memory_mib": 16187.534
+    },
+    "lora_metrics": {
+      "input_tokens": 344,
+      "output_tokens": 46,
+      "generation_seconds": 2.726,
+      "latency_seconds": 3.094,
+      "peak_gpu_memory_mib": 16342.665
+    }
+  },
+  {
+    "case_id": "ui-11--correction",
+    "category": "ui",
+    "mode": "correction",
+    "image_relative_path": "images/dev/ui-11.png",
+    "image_sha256": "cdece5c30e3d87c63e3e99c9f6a796cc886a5e2a8a63cd4c6df0466e5a96c067",
+    "source": "https://github.com/microsoft/OmniParser/blob/354021201345a96178360b28733573e27269f2de/imgs/windows_multitab.png",
+    "license": "CC-BY-4.0",
+    "user_instruction": "有人声称：“用户正在视频通话且摄像头已打开”。请先判断该说法是否符合图像，再给出可见依据。",
+    "reference_answer": "该说法不符合图像。图中显示Windows 上并排打开的文件资源管理器和 Google 浏览器窗口。左侧资源管理器显示文件列表；右侧浏览器停留在 Google 搜索主页。",
+    "base_response": "根据提供的图像，无法确定用户是否正在进行视频通话或摄像头是否已打开。图像中没有显示任何与视频通话相关的界面或图标。因此，无法从当前图像中得出“用户正在视频通话且摄像头已打开”的结论。",
+    "lora_response": "该说法不符合图像。图中显示 Windows 桌面的浏览器窗口和任务管理器页面。左侧是任务管理器；右侧是 Google Chrome 浏览器中的 Google 主页。",
+    "base_metrics": {
+      "input_tokens": 355,
+      "output_tokens": 51,
+      "generation_seconds": 1.632,
+      "latency_seconds": 1.959,
+      "peak_gpu_memory_mib": 16187.534
+    },
+    "lora_metrics": {
+      "input_tokens": 355,
+      "output_tokens": 42,
+      "generation_seconds": 2.514,
+      "latency_seconds": 2.838,
+      "peak_gpu_memory_mib": 16342.665
+    }
+  },
+  {
+    "case_id": "ui-12--direct",
+    "category": "ui",
+    "mode": "direct",
+    "image_relative_path": "images/dev/ui-12.png",
+    "image_sha256": "929cbe8cecf7dfd8114ecab3cbaee2a1dea2fb1f28ba3eed309fd250bd550411",
+    "source": "https://github.com/microsoft/OmniParser/blob/354021201345a96178360b28733573e27269f2de/imgs/windows_vm.png",
+    "license": "CC-BY-4.0",
+    "user_instruction": "请说明当前界面的用途、主要区域以及用户可以执行的操作。",
+    "reference_answer": "图中显示Windows 11 桌面及左侧快捷方式。背景为蓝色 Windows 11 图案；底部任务栏可见，桌面左侧排列应用图标。",
+    "base_response": "当前界面是一个Windows 11操作系统的桌面，主要用于显示和管理用户的计算机文件和应用程序。以下是界面的主要区域及其用途：\n\n### 主要区域：\n1. **任务栏**：位于屏幕底部，包含以下内容：\n   - **开始按钮**：左侧的圆形图标。\n   - **搜索框**：中间的矩形区域，用于搜索文件、应用程序或设置。\n   - **应用程序图标**：右侧的多个小图标，包括文件资源管理器、浏览器、邮件等常用应用程序。\n\n2. **桌面背景**：占据屏幕大部分区域，显示了一个抽象的蓝色波浪图案。\n\n3. **桌面上的快捷方式**：在桌面的左下角，有多个快捷方式图标，如回收站、文件资源管理器、Google Chrome浏览器等。\n\n4. **系统托盘**：位于屏幕右下角，包含以下内容：\n   - **时间**：显示当前时间为11:44 PM。\n   - **日期**：显示日期为1/22/2025。\n   - **系统图标**：包括音量、网络、电池、电源选项等图标。\n\n### 用户可以执行的操作：\n1. **使用开始菜单**：点击开始按钮，",
+    "lora_response": "图中显示 Windows 11 桌面。背景为蓝色抽象图案；桌面有多个应用图标和任务栏。",
+    "base_metrics": {
+      "input_tokens": 358,
+      "output_tokens": 256,
+      "generation_seconds": 7.38,
+      "latency_seconds": 7.474,
+      "peak_gpu_memory_mib": 16217.909
+    },
+    "lora_metrics": {
+      "input_tokens": 358,
+      "output_tokens": 28,
+      "generation_seconds": 1.756,
+      "latency_seconds": 1.849,
+      "peak_gpu_memory_mib": 16374.238
+    }
+  },
+  {
+    "case_id": "ui-12--correction",
+    "category": "ui",
+    "mode": "correction",
+    "image_relative_path": "images/dev/ui-12.png",
+    "image_sha256": "929cbe8cecf7dfd8114ecab3cbaee2a1dea2fb1f28ba3eed309fd250bd550411",
+    "source": "https://github.com/microsoft/OmniParser/blob/354021201345a96178360b28733573e27269f2de/imgs/windows_vm.png",
+    "license": "CC-BY-4.0",
+    "user_instruction": "有人声称：“当前应用是一个全屏游戏”。请先判断该说法是否符合图像，再给出可见依据。",
+    "reference_answer": "该说法不符合图像。图中显示Windows 11 桌面及左侧快捷方式。背景为蓝色 Windows 11 图案；底部任务栏可见，桌面左侧排列应用图标。",
+    "base_response": "根据提供的图片，当前应用并不是一个全屏游戏。以下是一些可见的依据：\n\n1. **窗口标题栏**：在屏幕顶部可以看到“Upcoming”字样，这表明这是一个应用程序的窗口标题栏，而不是全屏游戏的界面。\n\n2. **任务栏和开始菜单**：屏幕底部有任务栏和开始菜单，这是Windows操作系统的典型特征，而不是全屏游戏的界面。\n\n3. **桌面图标**：桌面上有一些图标，如回收站、文件夹、浏览器等，这些图标通常出现在非全屏模式下。\n\n4. **窗口大小和位置**：当前窗口的大小和位置看起来像是一个标准的应用程序窗口，而不是全屏游戏的界面。\n\n综上所述，根据这些可见的依据，可以判断当前应用并不是一个全屏游戏。",
+    "lora_response": "该说法不符合图像。图中显示 Windows 11 桌面背景为蓝色波纹图案；桌面图标和任务栏位于画面中央。",
+    "base_metrics": {
+      "input_tokens": 367,
+      "output_tokens": 169,
+      "generation_seconds": 4.938,
+      "latency_seconds": 5.042,
+      "peak_gpu_memory_mib": 16217.909
+    },
+    "lora_metrics": {
+      "input_tokens": 367,
+      "output_tokens": 33,
+      "generation_seconds": 2.036,
+      "latency_seconds": 2.129,
+      "peak_gpu_memory_mib": 16374.238
+    }
+  }
+]

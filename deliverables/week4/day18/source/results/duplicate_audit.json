@@ -1,0 +1,2262 @@
+{
+  "eval_contamination": [],
+  "eval_near_contamination": [],
+  "exact_duplicate_groups": [],
+  "near_duplicate_candidates": [
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-completeness-bus-009",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-completeness-gen-016",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-completeness-bus-021",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-completeness-gen-021",
+      "similarity": 0.928571
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-completeness-gen-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-completeness-gen-011",
+      "similarity": 0.909091
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-completeness-gen-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-completeness-gen-018",
+      "similarity": 0.931034
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-completeness-gen-006",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-completeness-gen-013",
+      "similarity": 0.909091
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-completeness-gen-010",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-completeness-gen-017",
+      "similarity": 0.90566
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-002",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-bus-007",
+      "similarity": 0.923077
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-011",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-013",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-015",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-016",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-017",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-021",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-005",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-011",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-005",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-013",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-005",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-015",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-005",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-016",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-005",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-017",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-005",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-021",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-007",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-006",
+      "similarity": 0.920635
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-007",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-011",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-007",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-013",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-007",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-015",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-007",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-016",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-007",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-017",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-007",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-021",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-009",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-011",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-009",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-013",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-009",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-015",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-009",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-016",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-009",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-017",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-009",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-021",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-011",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-013",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-015",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-016",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-017",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-021",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-012",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-011",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-012",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-013",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-012",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-015",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-012",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-016",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-012",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-017",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-012",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-021",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-014",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-011",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-014",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-013",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-014",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-015",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-014",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-016",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-014",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-017",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-014",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-021",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-015",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-011",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-015",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-013",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-015",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-015",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-015",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-016",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-015",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-017",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-015",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-021",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-017",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-011",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-017",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-013",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-017",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-015",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-017",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-016",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-017",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-017",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-017",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-021",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-019",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-011",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-019",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-013",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-019",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-015",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-019",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-016",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-019",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-017",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-019",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-021",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-020",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-011",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-020",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-013",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-020",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-015",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-020",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-016",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-020",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-017",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-020",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-021",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-021",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-011",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-021",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-013",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-021",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-015",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-021",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-016",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-021",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-017",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-bus-021",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-021",
+      "similarity": 0.935484
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-001",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-011",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-001",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-013",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-001",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-015",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-001",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-016",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-001",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-017",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-001",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-021",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-003",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-011",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-003",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-013",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-003",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-015",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-003",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-016",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-003",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-017",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-003",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-021",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-006",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-010",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-011",
+      "similarity": 0.918033
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-013",
+      "similarity": 0.918033
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-015",
+      "similarity": 0.918033
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-016",
+      "similarity": 0.918033
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-017",
+      "similarity": 0.918033
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-018",
+      "similarity": 0.9375
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-021",
+      "similarity": 0.918033
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-006",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-010",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-006",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-011",
+      "similarity": 0.918033
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-006",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-013",
+      "similarity": 0.918033
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-006",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-015",
+      "similarity": 0.918033
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-006",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-016",
+      "similarity": 0.918033
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-006",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-017",
+      "similarity": 0.918033
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-006",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-021",
+      "similarity": 0.918033
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-010",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-011",
+      "similarity": 0.918033
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-010",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-013",
+      "similarity": 0.918033
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-010",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-015",
+      "similarity": 0.918033
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-010",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-016",
+      "similarity": 0.918033
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-010",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-017",
+      "similarity": 0.918033
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-010",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-021",
+      "similarity": 0.918033
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-012",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-013",
+      "similarity": 0.933333
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-014",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-015",
+      "similarity": 0.933333
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-016",
+      "similarity": 0.933333
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-017",
+      "similarity": 0.933333
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-019",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-021",
+      "similarity": 0.933333
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-012",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-013",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-012",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-015",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-012",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-016",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-012",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-017",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-012",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-021",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-013",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-014",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-013",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-015",
+      "similarity": 0.933333
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-013",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-016",
+      "similarity": 0.933333
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-013",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-017",
+      "similarity": 0.933333
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-013",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-019",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-013",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-021",
+      "similarity": 0.933333
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-014",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-015",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-014",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-016",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-014",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-017",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-014",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-021",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-015",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-016",
+      "similarity": 0.933333
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-015",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-017",
+      "similarity": 0.933333
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-015",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-019",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-015",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-021",
+      "similarity": 0.933333
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-016",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-017",
+      "similarity": 0.933333
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-016",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-019",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-016",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-021",
+      "similarity": 0.933333
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-017",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-019",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-017",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-021",
+      "similarity": 0.933333
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-factuality-gen-019",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-factuality-gen-021",
+      "similarity": 0.903226
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-bus-002",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-bus-007",
+      "similarity": 0.931507
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-bus-002",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-017",
+      "similarity": 0.901408
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-bus-005",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-010",
+      "similarity": 0.90411
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-bus-005",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-015",
+      "similarity": 0.916667
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-bus-007",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-017",
+      "similarity": 0.914286
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-bus-009",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-019",
+      "similarity": 0.909091
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-bus-010",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-015",
+      "similarity": 0.90411
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-bus-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-011",
+      "similarity": 0.90625
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-bus-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-016",
+      "similarity": 0.90625
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-bus-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-021",
+      "similarity": 0.90625
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-bus-012",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-bus-017",
+      "similarity": 0.916667
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-bus-012",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-017",
+      "similarity": 0.914286
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-bus-015",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-bus-020",
+      "similarity": 0.918919
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-bus-015",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-010",
+      "similarity": 0.90411
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-bus-015",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-015",
+      "similarity": 0.916667
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-bus-017",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-017",
+      "similarity": 0.914286
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-bus-019",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-014",
+      "similarity": 0.909091
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-bus-020",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-010",
+      "similarity": 0.90411
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-bus-020",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-015",
+      "similarity": 0.916667
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-bus-021",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-011",
+      "similarity": 0.90625
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-bus-021",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-016",
+      "similarity": 0.90625
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-bus-021",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-021",
+      "similarity": 0.9375
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-gen-001",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-011",
+      "similarity": 0.90625
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-gen-001",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-016",
+      "similarity": 0.90625
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-gen-001",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-021",
+      "similarity": 0.90625
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-gen-002",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-017",
+      "similarity": 0.901408
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-gen-005",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-015",
+      "similarity": 0.90411
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-gen-006",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-011",
+      "similarity": 0.920635
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-gen-006",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-016",
+      "similarity": 0.920635
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-gen-006",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-021",
+      "similarity": 0.920635
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-gen-010",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-015",
+      "similarity": 0.929577
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-gen-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-016",
+      "similarity": 0.935484
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-gen-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-021",
+      "similarity": 0.935484
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-gen-012",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-017",
+      "similarity": 0.914286
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-gen-015",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-020",
+      "similarity": 0.90411
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-format-gen-016",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-format-gen-021",
+      "similarity": 0.935484
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-002",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-bus-007",
+      "similarity": 0.920635
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-011",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-013",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-015",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-016",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-017",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-021",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-005",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-011",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-005",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-013",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-005",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-015",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-005",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-016",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-005",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-017",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-005",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-021",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-007",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-011",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-007",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-013",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-007",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-015",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-007",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-016",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-007",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-017",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-007",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-021",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-009",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-011",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-009",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-013",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-009",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-015",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-009",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-016",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-009",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-017",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-009",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-021",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-011",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-013",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-015",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-016",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-017",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-021",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-012",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-011",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-012",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-013",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-012",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-015",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-012",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-016",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-012",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-017",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-012",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-021",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-014",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-011",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-014",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-013",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-014",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-015",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-014",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-016",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-014",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-017",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-014",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-021",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-015",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-011",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-015",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-013",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-015",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-015",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-015",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-016",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-015",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-017",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-015",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-021",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-017",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-011",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-017",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-013",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-017",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-015",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-017",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-016",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-017",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-017",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-017",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-021",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-019",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-011",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-019",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-013",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-019",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-015",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-019",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-016",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-019",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-017",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-019",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-021",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-020",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-011",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-020",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-013",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-020",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-015",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-020",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-016",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-020",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-017",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-020",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-021",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-021",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-011",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-021",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-013",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-021",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-015",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-021",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-016",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-021",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-017",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-bus-021",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-021",
+      "similarity": 0.933333
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-001",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-011",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-001",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-013",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-001",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-015",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-001",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-016",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-001",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-017",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-001",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-021",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-003",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-011",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-003",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-013",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-003",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-015",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-003",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-016",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-003",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-017",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-003",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-021",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-006",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-010",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-011",
+      "similarity": 0.915254
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-013",
+      "similarity": 0.915254
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-015",
+      "similarity": 0.915254
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-016",
+      "similarity": 0.915254
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-017",
+      "similarity": 0.915254
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-004",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-021",
+      "similarity": 0.915254
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-006",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-010",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-006",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-011",
+      "similarity": 0.915254
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-006",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-013",
+      "similarity": 0.915254
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-006",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-015",
+      "similarity": 0.915254
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-006",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-016",
+      "similarity": 0.915254
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-006",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-017",
+      "similarity": 0.915254
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-006",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-021",
+      "similarity": 0.915254
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-010",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-011",
+      "similarity": 0.915254
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-010",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-013",
+      "similarity": 0.915254
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-010",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-015",
+      "similarity": 0.915254
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-010",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-016",
+      "similarity": 0.915254
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-010",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-017",
+      "similarity": 0.915254
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-010",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-021",
+      "similarity": 0.915254
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-012",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-013",
+      "similarity": 0.931034
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-014",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-015",
+      "similarity": 0.931034
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-016",
+      "similarity": 0.931034
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-017",
+      "similarity": 0.931034
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-019",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-011",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-021",
+      "similarity": 0.931034
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-012",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-013",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-012",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-015",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-012",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-016",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-012",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-017",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-012",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-021",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-013",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-014",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-013",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-015",
+      "similarity": 0.931034
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-013",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-016",
+      "similarity": 0.931034
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-013",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-017",
+      "similarity": 0.931034
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-013",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-019",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-013",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-021",
+      "similarity": 0.931034
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-014",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-015",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-014",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-016",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-014",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-017",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-014",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-021",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-015",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-016",
+      "similarity": 0.931034
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-015",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-017",
+      "similarity": 0.931034
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-015",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-019",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-015",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-021",
+      "similarity": 0.931034
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-016",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-017",
+      "similarity": 0.931034
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-016",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-019",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-016",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-021",
+      "similarity": 0.931034
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-017",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-019",
+      "similarity": 0.9
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-017",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-021",
+      "similarity": 0.931034
+    },
+    {
+      "decision": "retained_distinct_topic",
+      "left_id": "sb-helpfulness-gen-019",
+      "review_note": "两条记录共享受控写作模板，但主题事实不同，偏好标签相同且 Prompt 语义目标不同。",
+      "right_id": "sb-helpfulness-gen-021",
+      "similarity": 0.9
+    }
+  ],
+  "record_errors": {}
+}

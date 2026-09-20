@@ -1,0 +1,2 @@
+logs/day11_smoke.log -diff -text
+logs/day11_smoke_launcher.log -diff -text

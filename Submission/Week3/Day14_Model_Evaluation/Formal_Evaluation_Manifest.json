@@ -1,0 +1,69 @@
+{
+  "status": "completed",
+  "question_file": "/root/autodl-tmp/qwen25-week3/day14/source/data/evaluation_questions.json",
+  "question_file_sha256": "4967eb0ca0a64937446dff1412bb78878d3e744c4699b43cd4265aec09c2e85e",
+  "question_count": 20,
+  "generation_config": {
+    "do_sample": false,
+    "max_new_tokens": 512,
+    "repetition_penalty": 1.0,
+    "seed": 42
+  },
+  "candidate_count": 10,
+  "candidates": [
+    {
+      "candidate_id": "base",
+      "adapter_path": null,
+      "kind": "base"
+    },
+    {
+      "candidate_id": "rank-r8",
+      "adapter_path": "/root/autodl-tmp/qwen25-week3/runs/rank-r8/attempt-001/adapter",
+      "kind": "sft"
+    },
+    {
+      "candidate_id": "rank-r32",
+      "adapter_path": "/root/autodl-tmp/qwen25-week3/runs/rank-r32/attempt-001/adapter",
+      "kind": "sft"
+    },
+    {
+      "candidate_id": "rank-r64",
+      "adapter_path": "/root/autodl-tmp/qwen25-week3/runs/rank-r64/attempt-001/adapter",
+      "kind": "sft"
+    },
+    {
+      "candidate_id": "lr-1e-4",
+      "adapter_path": "/root/autodl-tmp/qwen25-week3/runs/lr-1e-4/attempt-001/adapter",
+      "kind": "sft"
+    },
+    {
+      "candidate_id": "lr-2e-4",
+      "adapter_path": "/root/autodl-tmp/qwen25-week3/runs/lr-2e-4/attempt-001/adapter",
+      "kind": "sft"
+    },
+    {
+      "candidate_id": "lr-5e-5",
+      "adapter_path": "/root/autodl-tmp/qwen25-week3/runs/lr-5e-5/attempt-001/adapter",
+      "kind": "sft"
+    },
+    {
+      "candidate_id": "epoch-e2",
+      "adapter_path": "/root/autodl-tmp/qwen25-week3/runs/epoch-e2/attempt-001/adapter",
+      "kind": "sft"
+    },
+    {
+      "candidate_id": "epoch-e3",
+      "adapter_path": "/root/autodl-tmp/qwen25-week3/runs/epoch-e3/attempt-001/adapter",
+      "kind": "sft"
+    },
+    {
+      "candidate_id": "epoch-e5",
+      "adapter_path": "/root/autodl-tmp/qwen25-week3/runs/epoch-e5/attempt-001/adapter",
+      "kind": "sft"
+    }
+  ],
+  "started_at_utc": "2026-08-06T03:47:26.256836+00:00",
+  "terminal_record_count": 200,
+  "failed_record_count": 0,
+  "completed_at_utc": "2026-08-06T04:34:04.594669+00:00"
+}

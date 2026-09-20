@@ -1,0 +1,14 @@
+{
+  "observed_utc": "2026-09-19T00:16:03.891377+00:00",
+  "instance": "be044ebe99-be706b14",
+  "machine": 320,
+  "status": "STOPPED_VERIFIED",
+  "console_text": "已关机",
+  "source": "Authenticated Codex in-app browser AutoDL instance row after explicit shutdown",
+  "gpu_jobs_started": 0,
+  "judge_api_calls": 0,
+  "remote_files_deleted": false,
+  "instance_released": false,
+  "billing_reconciled": false,
+  "note": "Backup used no-GPU CPU mode; storage remains retained and may continue platform storage charges."
+}

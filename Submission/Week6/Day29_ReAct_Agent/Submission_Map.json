@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Map flat teacher-facing files to the byte-identical formal experiment artifacts.",
+  "files": [
+    {
+      "formal_source": "deliverables/week6/source/week6_agent/__init__.py",
+      "submission_path": "Code/week6_agent/__init__.py",
+      "sha256": "6783056b217c87af19cb8e3e39a29e81c84f50b48244541e4a2f657f7b5ce8aa",
+      "bytes": 33
+    },
+    {
+      "formal_source": "deliverables/week6/source/week6_agent/agent_factory.py",
+      "submission_path": "Code/week6_agent/agent_factory.py",
+      "sha256": "9b930bdb286ff4552a828b4793131b659fddf043da5a05d375ce0f4097e12ac4",
+      "bytes": 22481
+    },
+    {
+      "formal_source": "deliverables/week6/source/week6_agent/limits.py",
+      "submission_path": "Code/week6_agent/limits.py",
+      "sha256": "a1fca1a119e84a7684e4c35df5c9effed80377e68ed78f28260d15dc62fb8028",
+      "bytes": 203
+    },
+    {
+      "formal_source": "deliverables/week6/source/week6_agent/model_adapter.py",
+      "submission_path": "Code/week6_agent/model_adapter.py",
+      "sha256": "6086831c7ad589f5e942f3f4579f5106501c2c40185bafdc94dc7b72bbb6e5cc",
+      "bytes": 6777
+    },
+    {
+      "formal_source": "deliverables/week6/source/week6_agent/tool_result.py",
+      "submission_path": "Code/week6_agent/tool_result.py",
+      "sha256": "8fc6e664858a0450f4c9a068cbb40a70a5b0e2e84bdb3e9bede2e0d3f9d19773",
+      "bytes": 791
+    },
+    {
+      "formal_source": "deliverables/week6/source/week6_agent/tools/__init__.py",
+      "submission_path": "Code/week6_agent/tools/__init__.py",
+      "sha256": "0be114ce6b11b148c33a0d311f8308c9d9519f31a1e8fa3bcf1bd1d5e3213523",
+      "bytes": 50
+    },
+    {
+      "formal_source": "deliverables/week6/source/week6_agent/tools/calculator.py",
+      "submission_path": "Code/week6_agent/tools/calculator.py",
+      "sha256": "6f60a42fde9f9d1506225f4033cb41572972ea6a12caa34fdc1d896dadd4e886",
+      "bytes": 5462
+    },
+    {
+      "formal_source": "deliverables/week6/source/week6_agent/tools/knowledge_retrieval.py",
+      "submission_path": "Code/week6_agent/tools/knowledge_retrieval.py",
+      "sha256": "c9a76c2826ce217753b03ebff0552e065e08731b30f742203a664330cd76cd3b",
+      "bytes": 7414
+    },
+    {
+      "formal_source": "deliverables/week6/source/week6_agent/trace_schema.py",
+      "submission_path": "Code/week6_agent/trace_schema.py",
+      "sha256": "c6285272263cfc7b2a637cff1ab62640e96167ac9bcfd9aeb4f559ad4cadcb3b",
+      "bytes": 6344
+    },
+    {
+      "formal_source": "deliverables/week6/day29/source/configs/agent_config.json",
+      "submission_path": "Config/agent_config.json",
+      "sha256": "abf6b09fa7d9cacca82da04a0306a95814dda68e89c11693bee0e7309dcae25c",
+      "bytes": 1220
+    },
+    {
+      "formal_source": "Submission/Week4/Day19_DPO_Training/Adapter_Manifest.json",
+      "submission_path": "Provenance/Adapter_Manifest.json",
+      "sha256": "f8c41f8096b61453aa6cce8c72c8a594682d80531c756ddb7b35cf2d880cf7e9",
+      "bytes": 486
+    },
+    {
+      "formal_source": "deliverables/week6/day29/source/results/code_tool_prompt_manifest.json",
+      "submission_path": "Results/code_tool_prompt_manifest.json",
+      "sha256": "f2cc66754a1aa10d4eccab778480dfb61430a5ab033c9b8133ccb2dabe0aa813",
+      "bytes": 3121
+    },
+    {
+      "formal_source": "deliverables/week6/day29/source/results/day29_validation.json",
+      "submission_path": "Results/day29_validation.json",
+      "sha256": "19d2aac9490313917f6fb49b9a318b57f3e4e4c2db1f172fd4954995722e3628",
+      "bytes": 1654
+    },
+    {
+      "formal_source": "deliverables/week6/day29/source/results/effective_config.json",
+      "submission_path": "Results/effective_config.json",
+      "sha256": "01b94da6f41a4587bef5f5ec0844a7cf1468116320830a83fc59a87b2e93dcb5",
+      "bytes": 1661
+    },
+    {
+      "formal_source": "deliverables/week6/day29/source/results/environment.json",
+      "submission_path": "Results/environment.json",
+      "sha256": "965217aa605dc46d832b6e5e3a2c2d2108a1ec97b85b14738c7fef3c44e6dea0",
+      "bytes": 618
+    },
+    {
+      "formal_source": "deliverables/week6/day29/source/results/model_preflight.json",
+      "submission_path": "Results/model_preflight.json",
+      "sha256": "954a7434572469b0183b3c10ee2b6ec898e0db1b81138dcfe242911c4a157807",
+      "bytes": 3555
+    },
+    {
+      "formal_source": "deliverables/week6/day29/source/results/run_spec.json",
+      "submission_path": "Results/run_spec.json",
+      "sha256": "e93d6729f35873ba3d726ad9b117624849e9283a25a8e96e4d4b2439d8158606",
+      "bytes": 4278
+    },
+    {
+      "formal_source": "deliverables/week6/day29/source/results/single_turn_trace.json",
+      "submission_path": "Results/single_turn_trace.json",
+      "sha256": "250a7907910f5af909208fa8170eb48646a792477a0191dcfa1b1ad11ae7654c",
+      "bytes": 11941
+    },
+    {
+      "formal_source": "deliverables/week6/day29/source/scripts/initialize_agent.py",
+      "submission_path": "Scripts/initialize_agent.py",
+      "sha256": "0a95d7bee0f82beadda468140a586e0a841e3db054316d48df843a0e7810af29",
+      "bytes": 3469
+    },
+    {
+      "formal_source": "deliverables/week6/day29/source/scripts/run_single_turn.py",
+      "submission_path": "Scripts/run_single_turn.py",
+      "sha256": "83d27b3ef42c5cc80399ab85a281f977b02b394d33ee942b3076112f4e983b8d",
+      "bytes": 4473
+    },
+    {
+      "formal_source": "deliverables/week6/day29/source/scripts/validate_day29.py",
+      "submission_path": "Scripts/validate_day29.py",
+      "sha256": "dcd9697733e503b58732120525e1d60cef845006abe1cb9b9092a95428c1d124",
+      "bytes": 4917
+    }
+  ]
+}

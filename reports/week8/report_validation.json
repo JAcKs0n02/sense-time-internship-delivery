@@ -1,0 +1,10 @@
+{
+  "chapter_count": 8,
+  "total_chinese_characters": 14849,
+  "chapters_1_to_4_chinese_characters": 5480,
+  "pdf_pages": 35,
+  "figures": 6,
+  "numbered_tables": 21,
+  "status": "report_editorial_content_and_latex_pdf_verified_git_pending",
+  "verification": "reports/week8/report_editorial_20260920/verification.json"
+}

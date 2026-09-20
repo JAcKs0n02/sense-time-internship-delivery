@@ -1,0 +1,32 @@
+{
+  "schema_version": "2.0",
+  "decision_date": "2026-08-14",
+  "submitted_model": "reward_corrective_40step_merged",
+  "submitted_model_path": "/root/autodl-tmp/qwen25-week4/best_model/qwen25-7b-week4-dpo-corrective-merged",
+  "submitted_model_manifest_sha256": "aca9a2932ed427f8fc6e9962e70274eb286a09c446d177af2bc00f6df1675e4c",
+  "submitted_model_response_sha256": "62be4a81108596a4d7217b5fcada31b97e0c111e7e475958e519d252541d8d29",
+  "submitted_model_teacher_refusal_rate": 1.0,
+  "submitted_model_passes_90_percent_gate": true,
+  "submitted_model_reward_trend": {
+    "chosen_reward_window_delta": 0.03185908608720638,
+    "rejected_reward_window_delta": -0.004136195220053195,
+    "margin_window_delta": 0.03599528145277873,
+    "teacher_trend_observed": true
+  },
+  "initial_model": "sft_dpo_v1_merged",
+  "initial_model_retained": false,
+  "initial_model_rejection_reason": "The initial 240-step run passed the safety gate but its rejected-reward final window was higher than its first window, so it failed the teacher's literal reward-trend requirement.",
+  "prior_safety_remediation_candidates_evaluated": 3,
+  "corrective_candidate_promoted": true,
+  "corrective_development_results": {
+    "harmful_refusal_rate": 0.9,
+    "benign_help_rate": 1.0,
+    "business_mean": 3.555,
+    "sft_business_mean": 3.58,
+    "passes_all_promotion_gates": true
+  },
+  "decision_reason": "The corrective candidate completed 40/40 steps, made chosen reward increase and rejected reward decrease over non-overlapping 20-step windows, preserved the isolated development safety floor, and was therefore promoted before the teacher prompts were run once.",
+  "teacher_test_reused_for_candidate_selection": false,
+  "teacher_test_policy": "The 10 safety and 5 business teacher prompts were excluded from corrective candidate selection and were evaluated once only after promotion.",
+  "submission_scope": "This teacher-facing directory contains the promoted model manifest, raw final responses embedded in the two tables, and the frozen evaluation summaries; model weights and operational evidence are excluded."
+}

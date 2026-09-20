@@ -1,0 +1,20 @@
+{
+  "status": "frozen_before_opencompass",
+  "selected_run_id": "epoch-e5",
+  "adapter_path": "/root/autodl-tmp/qwen25-week3/runs/epoch-e5/attempt-001/adapter",
+  "adapter_model_sha256": "cd2822fc5b160095524aa0203b1e2bab8e71e7897535cf093f4e8807c540a75a",
+  "human_weighted_total": 3.78875,
+  "selection_source": "Day 14 two-rater weighted human score",
+  "selection_commit": "c65d1d720041c19b32be5ca39e171142cad85157",
+  "selection_timestamp": "2026-08-06T21:09:14+08:00",
+  "opencompass_used_for_selection": false,
+  "source_sha256": {
+    "best_model_json": "a75c12886abb8e860c77d7a16c31a516df9120c3ce2900f8aa6b14da9be0c301",
+    "human_scores_csv": "636872d965706006671bca38eb800b39d17812c9b12077ebe8499d2adcb33eb4",
+    "reviewer_score_files": [
+      "06666df99d6bcca94dad14c657c415a366579d78c2c51b7e3cfc6c31118fd622",
+      "4acc575a4d415afab1db2323d3f3e5445e4e44a43e02777f306a7e8f8fa674fc"
+    ],
+    "adapter_manifest": "023c76a5cef8dbbe8870f9f97f36aadbeb6525a800273945639f56cf0ff4f8e5"
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "files": [
+    {
+      "path": "logs/formal-resume-20260917-01/launch.json",
+      "size": 681,
+      "sha256": "e0c9d1bf66997bbccef663493c600b3eacfaaae0441503e794a90208d02c4d06"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/answers.jsonl",
+      "size": 23272,
+      "sha256": "4c8f6b3e525c6dc66dfecccd44b05bc8f72d45718fcf16956b87ee2f00677f80"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/benchmark_provenance.json",
+      "size": 410,
+      "sha256": "8127ad78d9d36698d2c5e3db903c79da4e4c5f140bfad2c7bf56725afcd2fb45"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/judge/MATH-01/attempt-1.json",
+      "size": 11434,
+      "sha256": "95275dae9a378ad7b1886223f439c27e5964ecd30663e67a67161568cf8500ae"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/judge/MATH-01/attempt-1.started",
+      "size": 19,
+      "sha256": "3cd603f8713509ec8459ba420322988a76cc2c6f1f7dbc2993ef3d1c08cc537e"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/judge/MATH-01/result.json",
+      "size": 307,
+      "sha256": "31fdb83e1cf679ac49267133a4256ea6a5df4f8c3165cbb3e033a1c2c43e4bb8"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/judge/MATH-02/attempt-1.json",
+      "size": 26256,
+      "sha256": "4ec5abcecb62bf40666ee51e312779098e5398369ae85f0c2a129da83d056763"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/judge/MATH-02/attempt-1.started",
+      "size": 19,
+      "sha256": "3cd603f8713509ec8459ba420322988a76cc2c6f1f7dbc2993ef3d1c08cc537e"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/judge/MATH-02/result.json",
+      "size": 308,
+      "sha256": "6d62ceda8e6934d68d8e9134bd79b5e1644e29d90c7ff1aed1c686a193a639d2"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/judge/MATH-03/attempt-1.json",
+      "size": 19789,
+      "sha256": "189d4a62f056dacea4c0545c14d0cb8909b4a2e6a8e07b6bdc1231bacb19d796"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/judge/MATH-03/attempt-1.started",
+      "size": 19,
+      "sha256": "3cd603f8713509ec8459ba420322988a76cc2c6f1f7dbc2993ef3d1c08cc537e"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/judge/MATH-03/attempt-2.json",
+      "size": 16505,
+      "sha256": "43cd18843ae335f6d9844288eff5d8a0fc0f6c762fd5fbf66565eb5c7654f6ce"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/judge/MATH-03/attempt-2.started",
+      "size": 19,
+      "sha256": "76e383ca334fc994c7cd1c8d892f91cb1b97fc59d4ede6dd73aa6535af17f1d4"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/judge/MATH-03/result.json",
+      "size": 308,
+      "sha256": "670e9431c14064ed4b6331c34b2998c553e6625ce088cd8a91c343c810c2c897"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/judge/MATH-04/attempt-1.json",
+      "size": 23041,
+      "sha256": "385826d385c8935b3a3cf81e1403e11df4b4ebc4a2179044cd038cc4dba5f2bf"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/judge/MATH-04/attempt-1.started",
+      "size": 19,
+      "sha256": "3cd603f8713509ec8459ba420322988a76cc2c6f1f7dbc2993ef3d1c08cc537e"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/judge/MATH-04/result.json",
+      "size": 309,
+      "sha256": "553a58b64884e660bf8424d2911b14e2ea99413427cc269aea8074daf2e9a57b"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/judge/MATH-05/attempt-1.json",
+      "size": 27427,
+      "sha256": "39cbfefcba75305bd02292a085d11b0a979f7b88be4cccc4a762141020a88d6b"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/judge/MATH-05/attempt-1.started",
+      "size": 19,
+      "sha256": "3cd603f8713509ec8459ba420322988a76cc2c6f1f7dbc2993ef3d1c08cc537e"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/judge/MATH-05/result.json",
+      "size": 189,
+      "sha256": "8ee3177dc829bb2702c8e0a0315703128c8d6ca3ca84ad981607151d0a89487b"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/judge_balance/01.json",
+      "size": 55,
+      "sha256": "8cd93d1bffdd7f3699535df1003b8cd66ceccc8751ff34c0f8bc0fa7996c7f30"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/judge_balance/02.json",
+      "size": 55,
+      "sha256": "8cd93d1bffdd7f3699535df1003b8cd66ceccc8751ff34c0f8bc0fa7996c7f30"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/judge_balance/03.json",
+      "size": 55,
+      "sha256": "8cd93d1bffdd7f3699535df1003b8cd66ceccc8751ff34c0f8bc0fa7996c7f30"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/judge_balance/04.json",
+      "size": 55,
+      "sha256": "8cd93d1bffdd7f3699535df1003b8cd66ceccc8751ff34c0f8bc0fa7996c7f30"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/judge_balance/05.json",
+      "size": 55,
+      "sha256": "8cd93d1bffdd7f3699535df1003b8cd66ceccc8751ff34c0f8bc0fa7996c7f30"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/judge_balance/06.json",
+      "size": 55,
+      "sha256": "8cd93d1bffdd7f3699535df1003b8cd66ceccc8751ff34c0f8bc0fa7996c7f30"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/judge_starting_balance.json",
+      "size": 20,
+      "sha256": "95da4b55c074884e47c8d70b0c668876d6c601d3f6f0920bfe9fbbab2bb51fe0"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/judge_usage.json",
+      "size": 178,
+      "sha256": "15ae99ada858a41899813df715435ad5d3986f3077d7f10f5392fde1c113458d"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/resume_runtime_lock.json",
+      "size": 63479,
+      "sha256": "ce2adde9027af06c96dad05b668db954e1ef3fcf27b52affd7c6371627b4aee3"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base/status.json",
+      "size": 102,
+      "sha256": "0d13d928d0f86887daab0457e5d125721b944826634fdeb90ce04ad73cf91680"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base.log",
+      "size": 2709,
+      "sha256": "fd110dd40666e8064a09f1863b40730a60af911d16f647beb503e9ce8e495fb0"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base_command.json",
+      "size": 537,
+      "sha256": "c22eb7b82ce38207013c72de296487aaf8bf92c7df6bb8b3276947f8fa418bc8"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/original_base_process.json",
+      "size": 71,
+      "sha256": "af3adca12d8d3d78e8b2f42292cae6e11f5dd27ce622c769f2c53114adadd7f8"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/preflight_before.json",
+      "size": 66135,
+      "sha256": "3c319856325831352f4bcb7b805a014fc3775b0c09b29a606abbba560604701b"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/session_exit.json",
+      "size": 59,
+      "sha256": "ba02eaa228d91d0dd80ca7f0f35ca676ce10109fa27b72011253b63b73ad74da"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01/status.json",
+      "size": 189,
+      "sha256": "80238687f49c91eacc9f1343e7ab65cbade7be1d3ace392ed755213f42e0b772"
+    },
+    {
+      "path": "logs/formal-resume-20260917-01-coordinator.log",
+      "size": 334,
+      "sha256": "cf231e09bb040a26d4417b8fe24e18e3094a99f60bbae58a98c476e002e031ea"
+    },
+    {
+      "path": "reports/week8/phase2_eval_resume/run_resume_session_window2.py",
+      "size": 5589,
+      "sha256": "308dabb2fd65c66f49b3daca8e51f4591b90090a384769e36eb9c5c2d15bd4b9"
+    },
+    {
+      "path": "reports/week8/phase2_eval_resume/window2_target_receipt.json",
+      "size": 358,
+      "sha256": "e626856c6495201069076ccf88a5fd0d9fd01d8acf2c9f69317a9123dc0412a6"
+    }
+  ]
+}

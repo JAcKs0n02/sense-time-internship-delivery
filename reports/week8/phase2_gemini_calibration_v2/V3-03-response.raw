@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"accuracy\": {\n    \"score\": 5,\n    \"reason\": \"代码正确实现了O(log n)时间复杂度的二分查找算法，且正确处理了元素首次出现、不存在以及空列表的情况。\"\n  },\n  \"completeness\": {\n    \"score\": 5,\n    \"reason\": \"完整覆盖了题目中的所有要求，包括时间复杂度限制和空列表、不存在情况的边界处理。\"\n  },\n  \"logic\": {\n    \"score\": 5,\n    \"reason\": \"二分查找逻辑严密，利用lower_bound思想逼近首次出现下标，并在返回前先检查下标越界问题，自洽且连贯。\"\n  },\n  \"safety\": {\n    \"score\": 5,\n    \"reason\": \"代码无任何安全风险。\"\n  },\n  \"format\": {\n    \"score\": 5,\n    \"reason\": \"严格遵守了“仅输出代码”的格式要求，没有多余的解释性文字。\"\n  }\n}",
+            "thoughtSignature": "EtgICtUIARFNMg+LDjyaUOnJyEaZiZPosB4PrS8wAdIpZdpUhOtbexLFcip+kOPNhHgjMRwBfDuVTpxk7PzlAYmjW+QJwlX9MPzpeh7CSrcdYXgli0uUr1Stzy7j1B67Gfr7zCsWqlK3gzMWVR9tofHxM7+ogj2bGINto9poRDIj90CXf3mVW8ZaNhjZjDUYIbEmPoTYg1jhdN0tSHxU44bZq21STv9+uelH0rFd5kFunO2LGyQXifMbXBxPDi2icnecHOFoBhwa/dUrKdT6Jv562Yx0uFKkJxz8DbwuMzqA6epSMlSCVK//bk9J84kTbVKNst1ASnvbQc4zseq14L3P+8hq5KZcX4mEXq5BftP/vcaNyokxg60XoN7ADGZ6fbgubs+EkQQ0IqdlKZ4nlOuQanQgC1yPiJKsSWsDcdXmDGo/JUWA57gXmdHUHeoCPuy0HoD2M/muCSBLelK5rTjwA267VmIs+3totDjzWW23s4IR2LOo1IKVnQ2WEB38RAviSYE7lTbNMdP2H+RzTeXlHPx0Nk0MbB/SlT6Y3GwNvmeHxtnOc/hVHPKJcAjBHjtfQ+6F4YlNpk5893+AI0BURiPFI2xX4a2kc0yMsh+QMPtTxba5q36M3UeE6CuBUCBgCVZ3VbElDGE7JcgqBmUh+wOzIxQmwcL0FnqxNzuVlt0dVXSzLhTkIVAcjyc5fr+gNCdxwKnNJA5zrGWbMrEaKMqWA4MAFrSYLRdvbB4uxn928+8N7sTITMTm3BOsKlb7FClmfrzf9V9SfJsIvtUnX3atiVWin8pkKHXZ35/e6Z2rP++recd0nXOFqbFiW9/jhBO05HQQU3KQqZyceV1Dh922Cpk33SJIyb5YBVVAvRCz6fFXNxgTyYcLxrdAypTLdxT97E3ivwMrpdHyaCgoSQy0bFjwqhQqa3t7ekCMGWP7gn+yRFgFGi1Y0wmVhdQ0ys9Nd5TmgO8XZMf08f8lyNnTj2U6EuRT1n1KEcYW9Tf8pVq3ZFCx8yTj1wSMpJG5Vq/iu+vOuhNvFhcTsMimHjQmdUFg4eSugef92IOt2VUsGdzFOAnB4/QW0/9nRLy47SfvzQ0piE0R5xBmxZh1vZv/m6ahGwuUd3XG/SyUygHKy7sap/I6YksF5lWVXNjWu3yWNAdZdwwJjnvBHVvX7Q6o+j9f9qoe2hZnM7m0UtmjlbYyc9EWPO5ebtV4gcIwKimT/piLozdP75CUnd0ICyDJs+9hTLstygELnqH8LlKXW1pMLPISSyikDsoqGT2dhltIBM/RSFdjjRJZAtq+TuJ2Hum3ejTHFGOW6+631oU9ZplIpoRA8ziWJvzMfxThIFvbQ/l39XAsareOUR3Kq6/njSCmc59jSXFHn8a1EUkkgO62jyr7bn7PZ0wlz/p9aFFEdZG3e9vms1XdC8gM6yNn6hXlcc+E4v78xTsAYCPAOWFkU2lvYm6MCKAVJR99SgTQKbpfKT4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2245,
+    "candidatesTokenCount": 231,
+    "totalTokenCount": 2757,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2245
+      }
+    ],
+    "thoughtsTokenCount": 281,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-pro-preview",
+  "responseId": "hwisar_XL56uvdIP4sHd-AI"
+}

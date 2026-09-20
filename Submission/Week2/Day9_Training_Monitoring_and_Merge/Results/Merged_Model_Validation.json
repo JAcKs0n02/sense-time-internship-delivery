@@ -1,0 +1,11 @@
+{
+  "valid": true,
+  "model_dir": "/root/autodl-tmp/qwen25-week2/merged/qwen25-7b-week2-sft-merged",
+  "model_type": "qwen2",
+  "tokenizer_has_chat_template": true,
+  "file_count": 14,
+  "weight_file_count": 4,
+  "weight_bytes": 15231271872,
+  "total_bytes": 15247180180,
+  "adapter_weight_present": false
+}

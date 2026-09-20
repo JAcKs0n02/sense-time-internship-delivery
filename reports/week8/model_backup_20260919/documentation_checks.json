@@ -1,0 +1,367 @@
+{
+  "status": "PASS",
+  "checked_links": 79,
+  "links": [
+    {
+      "source": "README.md",
+      "target": "docs/week8_human_scoring_result.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/week8_acceptance_audit.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/week8_model_backup.md"
+    },
+    {
+      "source": "README.md",
+      "target": "reports/technical_report.md"
+    },
+    {
+      "source": "README.md",
+      "target": "reports/week8/current_evaluation_summary.csv"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/week8_custom20_diagnostic_review.md"
+    },
+    {
+      "source": "README.md",
+      "target": "Submission/Week8/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/prior_weeks_documentation_audit.md"
+    },
+    {
+      "source": "README.md",
+      "target": "configs/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/week8_pipeline_score_integration.md"
+    },
+    {
+      "source": "README.md",
+      "target": "Submission/Week7/本地部署与操作手册.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/week8_supervised_deployment.md"
+    },
+    {
+      "source": "README.md",
+      "target": "configs/distillation.json"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/week8_execution_plan.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/week8_distillation_student_training.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/week8_distillation_comparison.md"
+    },
+    {
+      "source": "README.md",
+      "target": "Submission/Week1/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "Submission/Week2/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "Submission/Week3/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "Submission/Week4/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "Submission/Week5/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "Submission/Week6/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "Submission/Week7/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/week8_execution_plan.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/week1_execution_plan.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/week2_execution_plan.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/week3_execution_plan.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/week4_execution_plan.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/week5_execution_plan.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/week6_execution_plan.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/week7_execution_plan.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/week8_execution_plan.md"
+    },
+    {
+      "source": "README.md",
+      "target": "Submission/Week7/README.md"
+    },
+    {
+      "source": "models/README.md",
+      "target": "../reports/week8/release_audit_20260919/expected_model_backups.json"
+    },
+    {
+      "source": "models/README.md",
+      "target": "../docs/week8_model_backup.md"
+    },
+    {
+      "source": "models/README.md",
+      "target": "../reports/week8/model_backup_20260919/verification.json"
+    },
+    {
+      "source": "models/README.md",
+      "target": "../docs/week8_release_review.md"
+    },
+    {
+      "source": "models/README.md",
+      "target": "../Submission/Week7/README.md"
+    },
+    {
+      "source": "docs/week8_model_backup.md",
+      "target": "../reports/week8/release_audit_20260919/expected_model_backups.json"
+    },
+    {
+      "source": "docs/week8_model_backup.md",
+      "target": "../reports/week8/model_backup_20260919/verification.json"
+    },
+    {
+      "source": "docs/week8_model_backup.md",
+      "target": "../reports/week8/model_backup_20260919/backup_files_manifest.json"
+    },
+    {
+      "source": "docs/week8_model_backup.md",
+      "target": "../reports/week8/model_backup_20260919/independent_file_verification.json"
+    },
+    {
+      "source": "docs/week8_model_backup.md",
+      "target": "../reports/week8/model_backup_20260919/instance_shutdown.json"
+    },
+    {
+      "source": "docs/week8_model_backup.md",
+      "target": "week8_release_review.md"
+    },
+    {
+      "source": "docs/week8_release_review.md",
+      "target": "../reports/week8/release_audit_20260919/verification.json"
+    },
+    {
+      "source": "docs/week8_release_review.md",
+      "target": "week8_model_backup.md"
+    },
+    {
+      "source": "docs/week8_acceptance_audit.md",
+      "target": "week8_distillation_curation.md"
+    },
+    {
+      "source": "docs/week8_acceptance_audit.md",
+      "target": "week8_distillation_student_preparation.md"
+    },
+    {
+      "source": "docs/week8_acceptance_audit.md",
+      "target": "week8_distillation_student_training.md"
+    },
+    {
+      "source": "docs/week8_acceptance_audit.md",
+      "target": "week8_distillation_comparison.md"
+    },
+    {
+      "source": "docs/week8_acceptance_audit.md",
+      "target": "week8_supervised_deployment.md"
+    },
+    {
+      "source": "docs/week8_acceptance_audit.md",
+      "target": "week8_pipeline_score_integration.md"
+    },
+    {
+      "source": "docs/week8_acceptance_audit.md",
+      "target": "week8_model_backup.md"
+    },
+    {
+      "source": "docs/week8_execution_plan.md",
+      "target": "week8_acceptance_audit.md"
+    },
+    {
+      "source": "docs/week8_execution_plan.md",
+      "target": "week8_model_backup.md"
+    },
+    {
+      "source": "docs/week8_execution_plan.md",
+      "target": "week8_data_input_decision.md"
+    },
+    {
+      "source": "docs/week8_execution_plan.md",
+      "target": "week8_data_protocol.md"
+    },
+    {
+      "source": "Submission/Week8/README.md",
+      "target": "../../reports/technical_report.pdf"
+    },
+    {
+      "source": "Submission/Week8/README.md",
+      "target": "../../reports/technical_report.docx"
+    },
+    {
+      "source": "Submission/Week8/README.md",
+      "target": "../../reports/technical_report.md"
+    },
+    {
+      "source": "Submission/Week8/README.md",
+      "target": "../../docs/week8_acceptance_audit.md"
+    },
+    {
+      "source": "Submission/Week8/README.md",
+      "target": "../../reports/week8/current_evaluation_summary.csv"
+    },
+    {
+      "source": "Submission/Week8/README.md",
+      "target": "../../docs/week8_trained_gemini_scoring.md"
+    },
+    {
+      "source": "Submission/Week8/README.md",
+      "target": "../../docs/week8_custom20_diagnostic_review.md"
+    },
+    {
+      "source": "Submission/Week8/README.md",
+      "target": "../../docs/week8_human_scoring_result.md"
+    },
+    {
+      "source": "Submission/Week8/README.md",
+      "target": "../../reports/week8/phase2_human_scores/summary.csv"
+    },
+    {
+      "source": "Submission/Week8/README.md",
+      "target": "../../README.md"
+    },
+    {
+      "source": "Submission/Week8/README.md",
+      "target": "../../configs/README.md"
+    },
+    {
+      "source": "Submission/Week8/README.md",
+      "target": "../../docs/week8_data_protocol.md"
+    },
+    {
+      "source": "Submission/Week8/README.md",
+      "target": "../../docs/week8_full_training_target.md"
+    },
+    {
+      "source": "Submission/Week8/README.md",
+      "target": "../../docs/week8_distillation_comparison.md"
+    },
+    {
+      "source": "Submission/Week8/README.md",
+      "target": "../../docs/week8_supervised_deployment.md"
+    },
+    {
+      "source": "Submission/Week8/README.md",
+      "target": "../../docs/week8_pipeline_score_integration.md"
+    },
+    {
+      "source": "Submission/Week8/README.md",
+      "target": "../../reports/week8/final_report_update/verification.json"
+    },
+    {
+      "source": "Submission/Week8/README.md",
+      "target": "../../reports/week8/final_report_update/manifest.json"
+    },
+    {
+      "source": "Submission/Week8/README.md",
+      "target": "../../reports/week8/closeout-20260918/verification.json"
+    },
+    {
+      "source": "Submission/Week8/README.md",
+      "target": "../../reports/week8/closeout-20260918/manifest.json"
+    },
+    {
+      "source": "Submission/Week8/README.md",
+      "target": "../../docs/week8_model_backup.md"
+    },
+    {
+      "source": "Submission/Week8/README.md",
+      "target": "../../reports/week8/phase2_custom20_review/reviewers/README.md"
+    }
+  ],
+  "checked_files_for_exact_runtime_token_and_key_pattern": [
+    "reports/week8/model_backup_20260919/independent_file_verification.json",
+    "reports/week8/model_backup_20260919/instance_running_observation.json",
+    "reports/week8/model_backup_20260919/remote_inventory.json",
+    "reports/week8/model_backup_20260919/backup_files_manifest.json",
+    "reports/week8/model_backup_20260919/week8_final_dpo_cpu_load.log",
+    "reports/week8/model_backup_20260919/download_models.py",
+    "reports/week8/model_backup_20260919/week8_final_distilled_cpu_load.log",
+    "reports/week8/model_backup_20260919/http_compatibility_check.json",
+    "reports/week8/model_backup_20260919/transfer.json",
+    "reports/week8/model_backup_20260919/metadata_verification.json",
+    "reports/week8/model_backup_20260919/week8_final_sft_cpu_load.log",
+    "reports/week8/model_backup_20260919/transfer_tuning.json",
+    "reports/week8/model_backup_20260919/load_local_models.py",
+    "reports/week8/model_backup_20260919/local_environment.json",
+    "reports/week8/model_backup_20260919/source_identity_verification.json",
+    "reports/week8/model_backup_20260919/week8_final_distilled_cpu_load.json",
+    "reports/week8/model_backup_20260919/backup_git_policy.json",
+    "reports/week8/model_backup_20260919/progress.json",
+    "reports/week8/model_backup_20260919/verification.json",
+    "reports/week8/model_backup_20260919/transfer_samples.jsonl",
+    "reports/week8/model_backup_20260919/week8_final_dpo_cpu_load.json",
+    "reports/week8/model_backup_20260919/verify_local_files.py",
+    "reports/week8/model_backup_20260919/instance_shutdown.json",
+    "reports/week8/model_backup_20260919/first_full_response_attempt_error.json",
+    "reports/week8/model_backup_20260919/week8_final_sft_cpu_load.json",
+    "README.md",
+    "models/README.md",
+    "docs/week8_model_backup.md",
+    "docs/week8_release_review.md",
+    "docs/week8_acceptance_audit.md",
+    "docs/week8_execution_plan.md",
+    "Submission/Week8/README.md"
+  ],
+  "runtime_token_found": false,
+  "key_like_literals_found": false,
+  "private_temporary_auth_script_removed": true,
+  "scope": "Only newly generated backup evidence and updated entry documents; not a repository-wide credential clearance",
+  "submission_files": 456,
+  "submission_content_changed_since_previous_audit": [
+    "Submission/Week8/README.md"
+  ],
+  "legacy_submission_checksums_verified": 439,
+  "helper_scripts_syntax": "PASS",
+  "git_diff_check": "PASS"
+}

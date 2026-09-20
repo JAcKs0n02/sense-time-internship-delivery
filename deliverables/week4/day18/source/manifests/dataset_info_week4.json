@@ -1,0 +1,22 @@
+{
+  "week4_dpo_train": {
+    "columns": {
+      "chosen": "chosen",
+      "messages": "conversations",
+      "rejected": "rejected"
+    },
+    "file_name": "week4_dpo_train.json",
+    "formatting": "sharegpt",
+    "ranking": true
+  },
+  "week4_dpo_validation": {
+    "columns": {
+      "chosen": "chosen",
+      "messages": "conversations",
+      "rejected": "rejected"
+    },
+    "file_name": "week4_dpo_validation.json",
+    "formatting": "sharegpt",
+    "ranking": true
+  }
+}

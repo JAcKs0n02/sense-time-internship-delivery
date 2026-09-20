@@ -1,0 +1,14 @@
+{
+  "sample_id": "525b12faaf7c3e994a9dea6652c0f2cb019878928b91a88167a5425ec52764b0",
+  "prompt": "说出一种常见的宠物动物。",
+  "messages": [
+    {
+      "role": "user",
+      "content": "说出一种常见的宠物动物。"
+    }
+  ],
+  "answer": "一种常见的宠物动物是狗。",
+  "truncated": false,
+  "input_tokens": 35,
+  "output_tokens": 8
+}

@@ -1,0 +1,25 @@
+{
+  "columns": [
+    "audios",
+    "chosen_attention_mask",
+    "chosen_input_ids",
+    "chosen_labels",
+    "images",
+    "rejected_attention_mask",
+    "rejected_input_ids",
+    "rejected_labels",
+    "videos"
+  ],
+  "cutoff_len": 2048,
+  "dataset_name": "week4_dpo_train",
+  "finetuning_stage": "dpo",
+  "first_chosen_tokens": 122,
+  "first_rejected_tokens": 67,
+  "llamafactory_version": "0.9.3",
+  "loaded_smoke_samples": 8,
+  "loader_stage": "rm",
+  "model_path": "/root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged",
+  "requested_smoke_samples": 8,
+  "status": "pass",
+  "template": "qwen"
+}

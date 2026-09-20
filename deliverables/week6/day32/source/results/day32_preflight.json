@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "status": "ready",
+  "case_count": 30,
+  "frozen_eval_sha256": "7c7a0aace93c29525edafa630b063647bf4ec630be8cc7f9be52a64cdb433f54",
+  "day31_frozen_sha256": "7c7a0aace93c29525edafa630b063647bf4ec630be8cc7f9be52a64cdb433f54",
+  "baseline_sha256": "17d7779cc17125f13616685d1c0bde2673a2de26b9ef555c847f7df17cd80f03",
+  "adapter_sha256": "7d7672cbbe7679d5badb20b040870b616e17c7093813baeb6605ee498925623c",
+  "generation_config": {
+    "do_sample": false,
+    "max_new_tokens": 192,
+    "repetition_penalty": 1.0,
+    "seed": 42
+  },
+  "protocol": {
+    "max_steps": 4,
+    "frozen_eval_file_sha256": "7c7a0aace93c29525edafa630b063647bf4ec630be8cc7f9be52a64cdb433f54",
+    "tool_sources_sha256": "497f9445cb9c2c1a589181ba5013112b21ba708c9b51793b855d2f92329c12e3",
+    "day30_config_sha256": "acf0792bcc86b814f7fd21bf9fff5290288ccdcef10cf41bd1d3ea4b0deb0d1b",
+    "base_model_config_sha256": "620f4c7a944d48024422dbea3429f03b994a3acccf379bf79849c27f08da75ac",
+    "preflight_sha256": "26e5175a98b75411e9a14615e625fc1b7e2f7da69620a248865ffe36ca1cd1a4",
+    "lineage": {
+      "scheme": "A",
+      "load_mode": "verified_week4_merged",
+      "model_dir": "/root/autodl-tmp/qwen25-week4/best_model/qwen25-7b-week4-dpo-corrective-merged",
+      "merged_manifest_path": "/root/autodl-tmp/qwen25-week4/day20/corrective-results/merged_model_manifest.json",
+      "merged_manifest_sha256": "aca9a2932ed427f8fc6e9962e70274eb286a09c446d177af2bc00f6df1675e4c"
+    }
+  },
+  "prompt_manifest": {
+    "schema_version": "1.0",
+    "change_scope": "system_prompt_only",
+    "baseline": {
+      "version": "week6-day30-three-tool-react-v1",
+      "path": "system_prompt_v1.txt",
+      "sha256": "b9132d22ab2154b7f36eabe49c281dcfb4c005d67c604ae3e19ce3545654623e"
+    },
+    "optimized": {
+      "version": "week6-day32-three-tool-react-v2",
+      "path": "system_prompt_v2.txt",
+      "sha256": "421c0139be8e1dea4369027e40039116e60a589dcbd4109ff9b8571844c52fc8"
+    },
+    "targeted_failures": [
+      "wrong_tool",
+      "argument_extraction_error",
+      "tool_error_unhandled",
+      "format_parse_error"
+    ]
+  }
+}

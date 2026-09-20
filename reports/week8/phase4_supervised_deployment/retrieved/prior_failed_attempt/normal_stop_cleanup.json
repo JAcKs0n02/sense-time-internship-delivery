@@ -1,0 +1,10 @@
+{
+  "status": {
+    "status": "stopped"
+  },
+  "ports_closed": {
+    "8000": true,
+    "7860": true
+  },
+  "gpu_idle": true
+}

@@ -1,0 +1,9 @@
+{
+  "host": "autodl-container-be044ebe99-be706b14",
+  "pid": 1503,
+  "gpu": "NVIDIA GeForce RTX 3090, GPU-bf88b89e-43bc-dc76-6d69-2afa56a3c747, 24576 MiB",
+  "started_utc": "2026-09-18T18:16:43.590532+00:00",
+  "deadline_utc": "2026-09-18T18:55:00Z",
+  "disk_free_bytes": 20363165696,
+  "student_training_allowed": false
+}

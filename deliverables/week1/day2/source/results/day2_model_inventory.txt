@@ -1,0 +1,9 @@
+model_type qwen2
+layers 28
+hidden_size 3584
+vocab 151665
+model-00001-of-00004.safetensors 3945441440
+model-00002-of-00004.safetensors 3864726352
+model-00003-of-00004.safetensors 3864726424
+model-00004-of-00004.safetensors 3556377672
+PASS model inventory

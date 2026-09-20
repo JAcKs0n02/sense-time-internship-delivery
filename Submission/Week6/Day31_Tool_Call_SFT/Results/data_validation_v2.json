@@ -1,0 +1,62 @@
+{
+  "schema_version": "2.0",
+  "profile": "week6_agent_formal_v2",
+  "valid": true,
+  "errors": [],
+  "checks": {
+    "core_exactly_100": true,
+    "expanded_minimum_200": true,
+    "combined_train_projection": true,
+    "dev_minimum_40": true,
+    "final_test_minimum_100": true,
+    "unique_ids": true,
+    "self_contained_inputs": true,
+    "split_product_ids_disjoint": true,
+    "natural_prompt_families": true,
+    "valid_rows": true,
+    "deterministic_rebuild": true,
+    "manifest_schema": true,
+    "manifest_file_sha256s": true,
+    "knowledge_base_binding": true,
+    "formal_llamafactory_runtime": "pending_autodl_preflight"
+  },
+  "counts": {
+    "train_core_100": 100,
+    "train_expanded": 200,
+    "train_v2": 300,
+    "dev_v2": 40,
+    "test_v2": 100
+  },
+  "product_partitions": {
+    "train": [
+      "comet-mouse",
+      "cosmos-tablet",
+      "eclipse-lamp",
+      "galaxy-microphone",
+      "luna-monitor",
+      "meteor-router",
+      "nebula-keyboard",
+      "nova-speaker",
+      "orbit-headphones",
+      "pulsar-stand",
+      "saturn-hub",
+      "solar-webcam"
+    ],
+    "dev": [
+      "alpine-keyboard",
+      "cedar-mouse",
+      "forest-router",
+      "ridge-webcam",
+      "summit-headphones",
+      "valley-monitor"
+    ],
+    "test": [
+      "breeze-webcam",
+      "cloud-router",
+      "harbor-keyboard",
+      "island-headphones",
+      "ocean-monitor",
+      "river-mouse"
+    ]
+  }
+}

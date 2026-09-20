@@ -1,0 +1,48 @@
+### Week6 formal QLoRA configuration. Runtime versions are bound by runtime_versions_v2.json.
+model_name_or_path: /root/autodl-tmp/qwen25-week4/best_model/qwen25-7b-week4-dpo-corrective-merged
+stage: sft
+do_train: true
+do_eval: true
+finetuning_type: lora
+lora_target: q_proj,k_proj,v_proj,o_proj
+lora_rank: 16
+lora_alpha: 32
+lora_dropout: 0.05
+quantization_bit: 4
+quantization_type: nf4
+double_quantization: true
+gradient_checkpointing: true
+
+dataset: week6_tool_sft_train_v2
+eval_dataset: week6_tool_sft_dev_v2
+dataset_dir: /root/autodl-tmp/qwen25-week6/formal-v2/training_data
+template: qwen
+cutoff_len: 2048
+max_samples: null
+overwrite_cache: true
+preprocessing_num_workers: 4
+
+output_dir: /root/autodl-tmp/qwen25-week6/formal-v2/runs/tool-sft-lora-v2
+logging_steps: 1
+eval_strategy: steps
+save_strategy: steps
+eval_steps: 19
+save_steps: 19
+save_total_limit: 4
+load_best_model_at_end: true
+metric_for_best_model: eval_loss
+greater_is_better: false
+plot_loss: true
+overwrite_output_dir: false
+
+per_device_train_batch_size: 1
+per_device_eval_batch_size: 1
+gradient_accumulation_steps: 8
+learning_rate: 5.0e-5
+num_train_epochs: 2.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.05
+bf16: true
+use_unsloth: false
+seed: 42
+

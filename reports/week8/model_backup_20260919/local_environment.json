@@ -1,0 +1,14 @@
+{
+  "python": "3.11.14 (main, Oct  9 2025, 16:16:55) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "platform": "macOS-15.7.3-arm64-arm-64bit",
+  "machine": "arm64",
+  "packages": {
+    "torch": "2.6.0",
+    "transformers": "4.50.0",
+    "accelerate": "1.5.2",
+    "safetensors": "0.5.3",
+    "tokenizers": "0.21.4",
+    "huggingface-hub": "0.36.2",
+    "numpy": "2.4.6"
+  }
+}

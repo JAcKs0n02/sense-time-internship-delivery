@@ -1,0 +1,35 @@
+{
+  "status": "PIPELINE_SCORE_RECOVERY_INTEGRATED_AND_VERIFIED",
+  "tests": {
+    "run": 39,
+    "failures": 0,
+    "errors": 0
+  },
+  "new_api_calls": 0,
+  "gpu_started": false,
+  "scored_answers_reverified": 60,
+  "original_source_and_claim_files_unchanged": 203,
+  "clean_environment": "Python venv without pip or third-party packages; real offline and completed-execute entry paths",
+  "full_cuda_end_to_end_verified": false,
+  "artifacts": {
+    "run_pipeline.sh": "66f857c3d67ee8c11e3ec428d1058bc24323c638ecebc1b2dc79b1c9ecc654ec",
+    "scripts/week8_pipeline_score.py": "555a0937f7bcd928e0ea02d7c4ab41abfa7fafeb28a2fdc57cb51425545e3046",
+    "tests/test_week8_pipeline_score.py": "ba8d814417d4427f7e1ceec3b63a7cc3a9979cbbad12e4dd7739bea6ace23d77",
+    "docs/week8_pipeline_score_integration.md": "19cc0a3dd3380ae8acb4eb3a6a4c2498fe959ce5cd466b7bad5dfffd066d102c",
+    "docs/week8_acceptance_audit.md": "9b9030b14f2cf73c1b37a3d56ffeca68d9f6fbe5a938d1b4b1fc7c6b220adba7",
+    "docs/week8_execution_plan.md": "8b17fbee05b107c7f65b41010692549a56d9a4bf864693ee7773b2f18a60712a",
+    "README.md": "6e6648d91e3bf7f105518b4339e9cb2656bf9a8b50c402cceb1c97bf086ff5a2",
+    "reports/week8/phase4_pipeline_score_integration/completed_execute.log": "029887eba2ffb655ce9cc9bc5192a1c508cc05d27fcddd5859764ae7e17a4499",
+    "reports/week8/phase4_pipeline_score_integration/regression.log": "e30928b48447cc02feead323d591a8fd28b0e620a2bd955bfb7c8f203d6424e8",
+    "reports/week8/phase4_pipeline_score_integration/regression_green.log": "24f3566200d0a5ef10a5439ada207f2b484a3223269bd76e71a6cf661d7adda8",
+    "reports/week8/phase4_pipeline_score_integration/output_guard_red.log": "71a7001ea521d8a3418943233a04582723f9e7205f1cad9aed87a444e94e771a",
+    "reports/week8/phase4_pipeline_score_integration/offline_all.log": "029887eba2ffb655ce9cc9bc5192a1c508cc05d27fcddd5859764ae7e17a4499",
+    "reports/week8/phase4_pipeline_score_integration/red.log": "c57180e93d9c8bd07ef53b39afdbdc6ae621b41c57343f95f243efc2815d96a7",
+    "reports/week8/phase4_pipeline_score_integration/green.log": "78eba96c8c3e36260c0cb8b802e34aec7d4eeb95bf92bb88a1545fca729f8c46",
+    "reports/week8/phase4_pipeline_score_integration/empty_model_red.log": "35a266cf31e629761855a082810466a07e42c3e079eb762b813cd4a228bd85c5",
+    "reports/week8/phase4_pipeline_score_integration/source_unchanged.json": "0334b14eef9210137d6345066c8fc9043a3e158105e628d58cad49bc09652d1f",
+    "reports/week8/phase4_pipeline_score_integration/final_offline_all/score_recovery.json": "5ed43c987a3d440f4615c5786f8420319783286d97ec193d8e41c818b03edc47",
+    "reports/week8/phase4_pipeline_score_integration/offline_all/score_recovery.json": "5ed43c987a3d440f4615c5786f8420319783286d97ec193d8e41c818b03edc47",
+    "reports/week8/phase4_pipeline_score_integration/completed_execute/score_recovery.json": "0c4d83651e8af7162cb3cd925fc5b1743c21a2360d06dc1cc34d7074623d26a3"
+  }
+}

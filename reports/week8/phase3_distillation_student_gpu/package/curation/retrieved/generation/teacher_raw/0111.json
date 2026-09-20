@@ -1,0 +1,14 @@
+{
+  "sample_id": "d0c8546573dcb0748eab5137391f86cb37ba95bac7bd7319cf43be20b3c30b6a",
+  "prompt": "根据输入诗词内容，输出续写诗词\n\n别酒记春深，秋来少信音",
+  "messages": [
+    {
+      "role": "user",
+      "content": "根据输入诗词内容，输出续写诗词\n\n别酒记春深，秋来少信音"
+    }
+  ],
+  "answer": "出门谁共语，策杖暂登临",
+  "truncated": false,
+  "input_tokens": 50,
+  "output_tokens": 11
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "status": "PASS",
+  "knowledge_base_sha256": "48eee10d15e1ed6f0b87536a0707c5b9af0ce325c8ec48b663a59373ccbcdcae",
+  "checks": [
+    {
+      "name": "knowledge_base",
+      "status": "PASS",
+      "actual": {
+        "schema_version": "1.0",
+        "product_count": 4,
+        "declared_products_sha256": "48eee10d15e1ed6f0b87536a0707c5b9af0ce325c8ec48b663a59373ccbcdcae",
+        "recomputed_products_sha256": "48eee10d15e1ed6f0b87536a0707c5b9af0ce325c8ec48b663a59373ccbcdcae"
+      }
+    },
+    {
+      "name": "imports",
+      "status": "PASS",
+      "actual": [
+        "CalculatorTool",
+        "KnowledgeRetrievalTool"
+      ]
+    },
+    {
+      "name": "calculator_safe_case",
+      "status": "PASS",
+      "actual": true
+    },
+    {
+      "name": "calculator_unsafe_case",
+      "status": "PASS",
+      "actual": true
+    },
+    {
+      "name": "calculator_limit_case",
+      "status": "PASS",
+      "actual": true
+    },
+    {
+      "name": "retrieval_alias_case",
+      "status": "PASS",
+      "actual": true
+    },
+    {
+      "name": "retrieval_not_found_case",
+      "status": "PASS",
+      "actual": true
+    }
+  ]
+}

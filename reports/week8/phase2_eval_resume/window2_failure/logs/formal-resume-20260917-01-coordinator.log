@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/root/autodl-tmp/week8-judge-runtime-20260916/reports/week8/phase2_eval_resume/run_resume_session_window2.py", line 81, in <module>
+    assert code == 0, f'{name} exit={code}; preserve evidence, no automatic retry'
+AssertionError: original_base exit=1; preserve evidence, no automatic retry

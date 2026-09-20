@@ -1,0 +1,14 @@
+{
+  "sample_id": "14381b57fb7d2702ce2323724eacf812f927ab21172a1a2b3ea6632bcb967b98",
+  "prompt": "找出给定句子的主语：The dog chased the cat.",
+  "messages": [
+    {
+      "role": "user",
+      "content": "找出给定句子的主语：The dog chased the cat."
+    }
+  ],
+  "answer": "这句话的主语是 \"The dog\"。",
+  "truncated": false,
+  "input_tokens": 43,
+  "output_tokens": 11
+}

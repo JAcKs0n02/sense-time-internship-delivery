@@ -1,0 +1,1783 @@
+[
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "总结这篇关于机器学习领域的最新发展的文章，突出其主要观点。"
+      },
+      {
+        "from": "gpt",
+        "value": "抱歉，您没有给我文章的链接或提供相关文本内容，因此我无法为您总结。如果您提供了相关内容，我将很乐意帮助您总结并理解文章中的主要观点。"
+      }
+    ],
+    "sample_id": "source-000066"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "找出给定句子的主语：The dog chased the cat."
+      },
+      {
+        "from": "gpt",
+        "value": "这句话的主语是 \"The dog\"。"
+      }
+    ],
+    "sample_id": "source-000139"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请判断以下文本的语言类型\n\nઝડપથી કૂદી પડ્યું ભૂરા શિયાળ. (અક્ષરશઃ શબ્દક્રમ બદલાયો છે)"
+      },
+      {
+        "from": "gpt",
+        "value": "古吉拉特语"
+      }
+    ],
+    "sample_id": "source-000088"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请用一个词描述以下新闻的题材类型\n\n走向世界中国文学多少“密码”待解"
+      },
+      {
+        "from": "gpt",
+        "value": "文化"
+      }
+    ],
+    "sample_id": "source-000120"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "组织学习是一种强调通过积累知识并利用它来创造持续改进和增长环境的组织适应过程。"
+      },
+      {
+        "from": "gpt",
+        "value": "是的，您说得没错。组织学习旨在帮助组织从内部和外部环境中获取、分享、整合信息，并将其转化为新的知识和技能。这种持续的学习过程有助于提高组织的效率、灵活性和创新能力，促进更好的决策和问题解决能力。此外，组织学习还能增强员工的工作满意度和忠诚度，从而为组织创造一个积极、健康的发展氛围。"
+      }
+    ],
+    "sample_id": "source-000062"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "为什么我们决定某些词语是“糟糕的”，不能在社交场合使用？"
+      },
+      {
+        "from": "gpt",
+        "value": "有许多原因可能导致某些词汇或语言风格在某些社交场合中被认为是不合适的。其中一个原因是这些词汇可能被视为冒犯或歧视性的，可能会伤害到他人。另一个原因是，某些词汇或表达方式在特定的文化、社区或社交环境中被认为不适当或过时。\n此外，在某些情况下，使用粗俗或冒犯性的语言可能被解读为缺乏礼貌或尊重，这可能会破坏专业或个人品牌。最后，人们对于什么是适当的语言可能存在不同的看法和规范，因此某些词汇或语言风格在某些社交场合中可能被认为是不合适的，而在其他场合则可以接受。\n总的来说，考虑你的话语的影响并努力使用尊重和包容的语言可以帮助创造积极和支持性的交流环境。"
+      }
+    ],
+    "sample_id": "source-000057"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请复述输入文本，并在结尾输出“<END>”\n\n井底死寂，她只听见自己粗重的呼吸声，井外也一片岑寂。"
+      },
+      {
+        "from": "gpt",
+        "value": "井底死寂，她只听见自己粗重的呼吸声，井外也一片岑寂。<END>"
+      }
+    ],
+    "sample_id": "source-000108"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "提供一个需要具备优秀解决问题能力的工作示例。"
+      },
+      {
+        "from": "gpt",
+        "value": "一名优秀的工程师或项目经理往往需要具备出色的解决问题能力。例如，在软件开发过程中，经常会遇到各种各样的问题，如代码错误、性能瓶颈、功能缺陷等。这些问题需要工程师们迅速找到解决方案并加以实施，以确保项目能够按时按质完成。\n\n优秀的工程师或项目经理在面对这些问题时，会运用他们的逻辑思维能力和创造性思维能力，快速分析问题产生的原因，寻找有效的解决方案。他们还需要善于沟通和协调，与团队成员以及其他相关部门密切合作，确保问题能够得到及时解决。\n\n总之，优秀的问题解决能力对于工程师或项目经理来说至关重要，它将直接影响到项目的成败。"
+      }
+    ],
+    "sample_id": "source-000045"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "添加两个形容词来描述“美丽”这个词。"
+      },
+      {
+        "from": "gpt",
+        "value": "迷人的，动人的。"
+      }
+    ],
+    "sample_id": "source-000087"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请判断以下内容的语言类型\n\nThe core question of New York 2140 is thus the core question of the city itself."
+      },
+      {
+        "from": "gpt",
+        "value": "英语"
+      }
+    ],
+    "sample_id": "source-000019"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "提出一个有助于改善环境的解决方案。"
+      },
+      {
+        "from": "gpt",
+        "value": "一种有助于改善环境的解决方案是推行绿色能源计划，鼓励使用太阳能、风能、水能等可再生能源，减少对化石燃料的依赖。政府可以采取补贴、税收优惠等政策激励企业和个人使用绿色能源，并投资建设更多的可再生能源设施。同时，推广节能技术和产品，提高能源利用效率，减少浪费。通过这些措施，可以有效降低温室气体排放，减缓气候变化的影响，保护我们的环境。"
+      }
+    ],
+    "sample_id": "source-000130"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "根据以下句子，请找出其中所提及的\"医学检验项目\"，并以序列格式返回（如果有多个\"医学检验项目\"，则全部列出；如果没有提及\"医学检验项目\"，则输出空序列）\n\n尽管在尿道下裂的手术治疗上已经有了非常大的进步，但无论从医生的角度还是患儿或其父母的角度，尿道下裂的治疗结果远不如人意。"
+      },
+      {
+        "from": "gpt",
+        "value": "[]"
+      }
+    ],
+    "sample_id": "source-000078"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "举例说明两种情况，其中中止任务是合适的。"
+      },
+      {
+        "from": "gpt",
+        "value": "1. 安全风险：假设你在野外进行一次徒步旅行，突然天气变坏，能见度降低，路面湿滑。这时，继续前行可能会给团队成员带来严重的安全风险。在这种情况下，中止任务并寻找安全的避难所或返回出发点是合适的。\n\n2. 项目进度超支：假设你正在领导一个项目的实施，但是发现当前的进度已经严重超出了预算和时间安排。继续执行该项目将会导致更大的损失。在这种情况下，中止任务并对项目进行重新评估或调整计划是合适的。"
+      }
+    ],
+    "sample_id": "source-000110"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "将这句话改为将来时态：“宝宝正在睡觉”。"
+      },
+      {
+        "from": "gpt",
+        "value": "宝宝将会睡觉。"
+      }
+    ],
+    "sample_id": "source-000033"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请将以下简体中文文本翻译成另一种语言，目标语言简称为fr\n\n更多信息：芬兰的文化与宗教"
+      },
+      {
+        "from": "gpt",
+        "value": "En savoir plus : Culture et religions en Finlande"
+      }
+    ],
+    "sample_id": "source-000100"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "设前提和假设之间是蕴含关系（即根据前提可以推断出假设），则根据以下前提，给出一个合理的假设：\n\n前提：看你信上说,生了个女儿.\n假设："
+      },
+      {
+        "from": "gpt",
+        "value": "有人生了女儿。"
+      }
+    ],
+    "sample_id": "source-000050"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请将下列德语翻译成中文\n\nWann hat Tom Brady seinen ersten Ring gewonnen"
+      },
+      {
+        "from": "gpt",
+        "value": "汤姆·布雷迪什么时候赢得他的第一枚戒指"
+      }
+    ],
+    "sample_id": "source-000064"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "接下来我会给你一篇网上的文章，包括标题和正文，然后我会问一个问题。        请判断，根据文章的信息，能不能找到这个答案？\n\n维A酸乳膏治扁平疣效果-有来医生维A酸乳膏可以治疗扁平疣,通常一些扁平疣比较密集或者是比较散在的,不是突出在皮面太明显的扁平疣,可以使用微A酸乳膏进行外涂。这主要是基于微A酸乳膏具有一定的抗增生的作用,也就是具有表皮角质层溶解的作用,或者是叫做角质溶解剂。由于扁平疣是扁平状的角化性的皮肤病,所以这样就比较对症,维A酸乳膏对扁平疣表面或者是表层的皮损具有一定的溶解以及修复的作用,这时候可以使用维A酸治疗扁平疣。但是它的效果到底怎么样,目前还很难说,只能是治疗扁平疣的方法之一。问题：维a酸乳膏治扁平疣"
+      },
+      {
+        "from": "gpt",
+        "value": "能找到答案。答案是：可以治疗"
+      }
+    ],
+    "sample_id": "source-000016"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "如果你是一名老师，根据下文内容，提出一个问题\n\n女：爬山虽然累，但运动运动还挺舒服的。\n男：是啊，已经好长时间没这样运动过了。\n女：上楼坐电梯，出门坐车，没机会啊!\n男：看来生活太舒服了，也会出问题的。"
+      },
+      {
+        "from": "gpt",
+        "value": "问题是：根据对话，可以知道什么?"
+      }
+    ],
+    "sample_id": "source-000091"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请指出以下内容的语言类型\n\nDas Unternehmen erwarb dann die St. Louis and Cairo Railroad, die Schmalspur."
+      },
+      {
+        "from": "gpt",
+        "value": "德语"
+      }
+    ],
+    "sample_id": "source-000093"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "分类以下物品：苹果，香蕉，牛，飞机。"
+      },
+      {
+        "from": "gpt",
+        "value": "苹果和香蕉属于水果类；\n牛属于动物类；\n飞机属于交通工具类。"
+      }
+    ],
+    "sample_id": "source-000044"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据描述猜出对应的中文文字。\n\n左邻有衣无食，右舍有食无衣，两家团结互助，马上足食丰衣。"
+      },
+      {
+        "from": "gpt",
+        "value": "裕"
+      }
+    ],
+    "sample_id": "source-000117"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请将下文翻译成中文\n\nColiseum 의 Lust Hmv Remix"
+      },
+      {
+        "from": "gpt",
+        "value": "Coliseum 的 Lust Hmv Remix"
+      }
+    ],
+    "sample_id": "source-000001"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "根据以下句子，请给出其所提及的\"科室\"数量\n\n由于尿道远端的形成处于最后阶段，所以尿道口位于阴茎体远端的尿道下裂占比例最大。"
+      },
+      {
+        "from": "gpt",
+        "value": "0"
+      }
+    ],
+    "sample_id": "source-000020"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请告诉我“我们的青年是我们未来的展示”的主要关键点"
+      },
+      {
+        "from": "gpt",
+        "value": "“我们的年轻人是我们未来的表现”这句话强调了年轻一代在塑造社会、文化和经济未来方面的重要性。以下是这个短语的一些主要要点：\n1. 年轻人具有巨大的潜力：这句话暗示年轻人充满活力、富有创造力和好奇心，能够为社会带来新的想法和创新。\n2. 投资于年轻人：这句话还强调了投资年轻人发展、教育和福祉的重要性，以充分发挥他们的潜力。\n3. 年轻人的声音很重要：这句话也暗示年轻人的声音很重要，应该被倾听和重视。\n4. 青年是未来的领导者：这句话表明年轻人有能力成为未来的领导者，能够在商业、政治和其他领域产生影响。\n5. 珍视年轻人的独特性：这句话还强调年轻人的独特性和多样性，提醒我们每个人都有自己独特的贡献可以做出。\n总的来说，“我们的年轻人是我们未来的表现”这句话强调了年轻人对塑造未来的重要性，并鼓励我们重视年轻人的潜力、声音和独特性。"
+      }
+    ],
+    "sample_id": "source-000052"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "讲一个有寓意的故事。"
+      },
+      {
+        "from": "gpt",
+        "value": "从前，有一个国家，这个国家的国王非常聪明，他下令全国所有的臣民都要参加一次智力竞赛。\n\n比赛开始了，国王提出了一个问题：“如果一棵树倒在森林里，但是没有人在场，那么它是否会发出声音？”\n\n这个问题难住了很多人，因为他们都在思考“声音”这个词的定义。但是，有一位普通的农民却回答说：“如果没有人听到，那它就不会发出声音。”\n\n国王听后，非常赞赏这位农民的智慧和直觉，于是他决定授予农民官职，并提拔他为宰相。\n\n这个故事告诉我们，有时候，我们的直觉和判断力比知识和理论更为重要。生活中的许多事情并不需要复杂的解释，只需简单的判断即可。同时，这个故事也告诉我们，每个人都有可能成为领导者，关键在于我们是否拥有智慧和勇气。"
+      }
+    ],
+    "sample_id": "source-000081"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "用中文回复以下给定的'指令'和'输入'，各段用换行符分隔：\n\n指令：स्की करने के लिए पहाड़ चुनते समय किन 3 बातों का ध्यान रखना चाहिए?\n输入："
+      },
+      {
+        "from": "gpt",
+        "value": "1.雪况：选择雪山时要考虑到当地的气候条件，包括气温、降雪量、风速等因素，以确保雪的质量和安全性。\n\n2.难度：不同的雪山难度不同，初学者应该选择适合自己的难度级别，不要盲目挑战高难度雪山。\n\n3.设施和服务：选择雪山时要考虑当地的设施和服务质量，如缆车、滑雪教练、救护站等，以确保安全和舒适。"
+      }
+    ],
+    "sample_id": "source-000148"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "根据该公司类型和人数，给出该公司招聘岗位的可能名称\n\n民营公司 | 50-150人"
+      },
+      {
+        "from": "gpt",
+        "value": "产品经理（智能装备）"
+      }
+    ],
+    "sample_id": "source-000041"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "用古吉拉特语回复以下给定的'指令'和'输入'，各段用换行符分隔：\n\n指令：将以下陈述分类为正确或错误。\n输入：最高法院是美国的最高法院。"
+      },
+      {
+        "from": "gpt",
+        "value": "સાચું."
+      }
+    ],
+    "sample_id": "source-000008"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请判断下面句子是否为中文,请以{\"PREDICTION\": 0_1}的格式作答\n\nしかし預言者は騙されなかった。"
+      },
+      {
+        "from": "gpt",
+        "value": "{\"PREDICTION\": 0}"
+      }
+    ],
+    "sample_id": "source-000097"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "计算销售20个该物品的利润。\n\n输入：\n物品成本：$100\n销售价格：$200"
+      },
+      {
+        "from": "gpt",
+        "value": "如果物品的成本是 $100，而销售价格是 $200，那么每个物品的利润就是销售价格减去成本，即 $200 - $100 = $100。\n\n所以销售 20 个该物品的总利润就是 20 乘以单个物品的利润，即 20 * $100 = $2000。"
+      }
+    ],
+    "sample_id": "source-000147"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "分类给定的句子 \"The blue cat meowed\""
+      },
+      {
+        "from": "gpt",
+        "value": "这句话是一个简单的陈述句，它描述了一个事实，即一只蓝色的猫在喵喵叫。其中，“the blue cat”是主语，表示执行动作的主体；“meowed”是谓语，表示主语所执行的动作。"
+      }
+    ],
+    "sample_id": "source-000015"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "生成一个5个字符长的假用户名。"
+      },
+      {
+        "from": "gpt",
+        "value": "j4k3t"
+      }
+    ],
+    "sample_id": "source-000037"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "根据所提供的前提和条件，创建一个陈述句：所有的狗都是哺乳动物，所有的猫也都是哺乳动物。"
+      },
+      {
+        "from": "gpt",
+        "value": "\"根据所提供的信息，所有的狗和所有的猫都属于哺乳动物这一类别。\""
+      }
+    ],
+    "sample_id": "source-000047"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "描述虚拟助手的概念，重点介绍它在工作场所中的应用。"
+      },
+      {
+        "from": "gpt",
+        "value": "虚拟助手（Virtual Assistant，简称VA）是一种人工智能软件程序，它能够通过语音识别和自然语言处理技术，模拟人类智能与用户进行交互。虚拟助手可以执行各种任务，从安排日程、发送电子邮件、提醒重要日期，到查询天气、预订机票等。\n\n在工作场所，虚拟助手有着广泛的应用。它可以协助员工处理日常琐碎的工作，为员工节省时间和精力，使他们能够将更多的时间和精力投入到更重要的工作中。例如，虚拟助手可以帮助员工安排会议、预订会议室、发送电子邮件、查询信息等。此外，虚拟助手还能帮助员工管理日程，提醒即将来临的重要日期，确保员工不会错过任何重要的会议或活动。\n\n总之，在工作场所，虚拟助手能够为员工提供便捷、高效、智能的服务，提高工作效率，提升员工的工作体验。"
+      }
+    ],
+    "sample_id": "source-000123"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "这句话用到了动词隐喻吗？请回答“是”或“否”。\n\n水果和树叶的花环缠绕在低矮的拱门上。"
+      },
+      {
+        "from": "gpt",
+        "value": "否"
+      }
+    ],
+    "sample_id": "source-000063"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请判断以下文本的语言类型\n\nព័ត៌មាននេះបង្ហាញអំពីការរើសអើងជាតិសាសន៍ក្នុងប្រទេសប៉ាលីស។ វាបង្ហាញថាស្នាដៃសិល្បៈជាទម្រង់ទូទៅថ្មីដែលប្រើដើម្បីជ្រើសអើងជាតិសាសន៍។ នៅអាស៊ីនធ័រ ការជ្រើសរើសអើងជាតិសាសន៍កើនឡើងដូចជា៖ ក្រុមដែលមានការជិះជាន់ពីរ ឬអ្នកគាំទ្របំរើសអើងជាតិសាសន៍។ អំពីទីតាំង ស្នាដៃសិល្បៈ។ ការស្រមើលស្ត្រីសំរាប់ការជ្រើសអើងជាតិសាសន៍។ លេចធ្លោះដែលបានងារក្នុងការយកស្ត្រីដែលជាកម្សាន្តនៃចំណោមបំផុតលេចធ្លោ។ ឧទាហរណ៍មួយគឺជាស្នាដៃរបស់អ្នកសិល្បៈ Eugène Delacroix ដែលបានប្រើស្ត្រីសំរាប់ការរើសអើង។ នៅអ្នកភាគយន្តក្រុមកំពុងលេងវីដេអូនេះ សារជនជាតិអាហ្វ្រិកខាងជើងនៅស្លៀកពាក់ជ្រើសរើសអើងជាតិសាសន៍ដែលពុំត្រូវបានគេចាត់ទុកស្មើៗគ្នាឡើយ។"
+      },
+      {
+        "from": "gpt",
+        "value": "柬埔寨语"
+      }
+    ],
+    "sample_id": "source-000132"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "根据给定的编辑，编辑给定的句子。输出编辑后的句子。\n\n输入：\n要编辑的句子：这部电影以一首令人兴奋的歌曲开始。\n编辑：将“开始”改为“开头”，在“令人兴奋”的后面添加“酷”。"
+      },
+      {
+        "from": "gpt",
+        "value": "输出：\n这部电影以一首令人兴奋且酷的歌曲开头。"
+      }
+    ],
+    "sample_id": "source-000128"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请将下列俄语翻译成中文\n\nпел ли Том Круз в rock of ages"
+      },
+      {
+        "from": "gpt",
+        "value": "汤姆·克鲁斯在《Rock of Ages》中唱歌了吗"
+      }
+    ],
+    "sample_id": "source-000040"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "根据输入诗词内容，输出续写诗词\n\n别酒记春深，秋来少信音"
+      },
+      {
+        "from": "gpt",
+        "value": "出门谁共语，策杖暂登临"
+      }
+    ],
+    "sample_id": "source-000082"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请从以下犯罪事实中识别出搭载人的姓名。\n\n公诉机关指控，2016年4月27日晚，被告人姚某军饮酒后驾驶赣AT8848号小型客车从市区沿无专南路往萍安大道方向行驶。21时20分许行至凤凰天城小区门口路段时，所驾驶车辆将前方同向骑自行车的张某钰、余某琪带挂倒地，之后车辆失控碰撞到道路中心护栏，导致护栏撞到对面车道行驶的赣J65676小车，造成张某钰、余某琪受伤，赣AT8848车、赣J65676车及道路中心护栏受损的道路交通事故。经检验，被告人姚某军血液酒精含量为136.32mg/100ml，系醉酒驾驶。2016年5月6日，萍乡市交警支队安源大队认定姚某军违反《中华人民共和国道路交通安全法》第二十二条第二款之规定，负事故全部责任。另查明，案发后，被告人姚某军明知糜某慰报警仍在现场等候，后积极配合民警调查取证。归案后，姚某军及其单位华美立家赔偿被害人张某钰、余某琪医疗费及赣J65676小车维修费用，且分别赔偿被害人张某钰、余某琪人民币3500元。上述事实有证人糜某某慰证言、被告人姚某军当庭供述、归案说明、收条、协议书、医药费收据、车辆维修清单等证据证实。"
+      },
+      {
+        "from": "gpt",
+        "value": "抱歉，没能在这段文本中找到对应的搭载人姓名。"
+      }
+    ],
+    "sample_id": "source-000059"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请将下列瑞典语翻译成中文\n\nvem var den onda personen i guardians of the galaxy"
+      },
+      {
+        "from": "gpt",
+        "value": "谁是《银河护卫队》里的坏人"
+      }
+    ],
+    "sample_id": "source-000023"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "将以下物品归类为动物、植物或矿物：石头。"
+      },
+      {
+        "from": "gpt",
+        "value": "石头属于矿物。"
+      }
+    ],
+    "sample_id": "source-000005"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "若以下两段不同语言的文字对应相同含义，请回答”相同“，否则回答”不同“\n\n文本1：决定要在哪里进行足浴，然后调暗那里的灯光。播放让你放松的音乐。如果你喜欢，还可以点一些蜡烛，备齐所有用具，放在触手可及的地方。你需要毛巾、磨砂膏、身体乳液、袜子或拖鞋。  你可以在卧室、浴室、客厅等任何地方进行足浴。 禅宗音乐、古典音乐和大自然的声音都能让人放松下来。不过，每个人对音乐的品味都不一样。如果重金属音乐最能让你放松，那就选择它吧！ 如果你想要通过足浴振奋精神，选择有窗户的房间，打开窗帘，让自然光照射进来。 塑料盆的大小必须足够让双脚轻松地泡在里面。想要打造更奢华的体验，可以使用高度达到你小腿一半的盆。如果你真的很讲究，也可以使用专门的足浴盆。 考虑在盆底放一些弹珠或光滑的石头。把双脚放在上面滚来滚去，好好地按摩一番！ 先用干净柔软的毛巾拍干双脚。然后将一些身体乳液涂抹在脚上。要是没有身体乳液，可以用润肤霜、身体油或荷荷芭油代替。穿上一双棉袜锁住保湿霜，最好穿一整夜。 如果你想要给双脚做美甲，那就不需要穿袜子。 用搓脚刷清洁脚趾甲底下的皮肤，然后用指甲剪修剪脚趾甲。用干净的毛巾擦干双脚，用洗甲水擦拭脚趾甲，清除残留在上面的油。接着涂上底油，然后是你喜欢的指甲油，最后涂上透明亮油。等上一层干了再涂下一层。  涂指甲油之前，可以先用角质推棒将角质推回去。 涂了指甲油后，建议等待至少45分钟才可以穿包鞋。\n文本2：Decide where you want to have your foot spa, then dim the lights. Put on some music that you find relaxing. Light some candles, if desired, and make sure that all of your supplies are close by and ready to use. This includes your towels, scrubs, lotions, and socks or slippers.  You can have your foot spa anywhere you want: bedroom, bathroom, living room, etc. Zen music, classical music, and nature sounds are all very relaxing. Everyone is different, however; if you find heavy metal to be the most relaxing, then go for it! If you want an invigorating foot spa instead, choose a room with windows, then open the curtains to let in the natural light. Any plastic container that is big enough to fit both of your feet will do just fine. For a more luxurious experience, make sure that the tub is tall enough to reach halfway up your calves. You can also use one of those tubs made specifically for foot spas if you really want to get fancy. Consider adding some marbles or smooth stones into the bottom of the tub. This way, you can roll your feet over them and give yourself a foot massage! Pat your feet dry with a soft, clean towel first. Next, massage some body lotion to your feet. If you don’t have any lotion, you can use body butter, body oil, or even jojoba oil instead. Seal the moisturizer in by putting on a pair of cotton socks. It would be best to leave these socks on overnight. Skip the socks if you will be giving yourself a pedicure. , if desired. Clean under your toenails with a manicure brush, then trim them with nail clippers. Dry your feet with a clean towel, then wipe your toenails with nail polish remover to get rid of any oils. Apply a base coat, follow up with your desired nail polish color, then seal it with a clear topcoat. Let everything dry before moving on.  If you need to push back your cuticles, do so with a cuticle pusher or orange stick before you apply the nail polish. It's recommended that you wait at least 45 minutes before wearing any closed-toe shoes after polish application."
+      },
+      {
+        "from": "gpt",
+        "value": "相同"
+      }
+    ],
+    "sample_id": "source-000122"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请判断以下文本的语言类型\n\nसोशल मीडिया वापरणे संबंधित जोखमी म्हणजे आपल्या अकाउंट चोरी केले जाणे, आपल्या निजी माहितीचा वापर करून माहिती चोरी करणे, सोशल मीडिया मध्ये आहेतात समाजसेवा जनांवर प्रमोट करण्यासाठी अनुकूलित नसणे आणि सोशल मीडियाचा वापर करणाऱ्यांना फिशिंग, मलवरदाट अथवा वॉलेट खाली केले जाणे यांची शक्यता आहे. सोशल मीडिया वापरण्याच्या वेळी आपण सध्याच्या माहितीच्या जागेवर खात्री करावा लागतात."
+      },
+      {
+        "from": "gpt",
+        "value": "马拉地语"
+      }
+    ],
+    "sample_id": "source-000013"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "根据以下句子，请给出其所提及的\"身体\"数量\n\n麻痹期可用呼吸循环兴奋剂、给氧或人工辅助呼吸。"
+      },
+      {
+        "from": "gpt",
+        "value": "0"
+      }
+    ],
+    "sample_id": "source-000017"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "列出日本的四个主要岛屿。"
+      },
+      {
+        "from": "gpt",
+        "value": "日本的四个主要岛屿是：本州、北海道、四国和九州。"
+      }
+    ],
+    "sample_id": "source-000060"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "区分好的和不好的酒店服务。"
+      },
+      {
+        "from": "gpt",
+        "value": "好的酒店服务通常包括以下几点：\n\n1. 周到热情：工作人员态度友好，主动询问客人需求，并及时给予帮助。\n2. 清洁卫生：客房、公共区域以及设施设备干净整洁，无异味。\n3. 通讯便利：酒店内网络通畅，前台可以为客人提供电话、传真等服务。\n4. 餐饮优质：酒店餐厅食物美味可口，服务人员礼貌周到。\n5. 设施齐全：酒店内设施完善，如健身房、游泳池、会议室等，能够满足客人的需求。\n\n而不好的酒店服务则表现为：\n1. 工作人员态度冷淡，缺乏热情。\n2. 房间卫生不干净，有异味。\n3. 网络不通畅，电话、传真等服务无法正常使用。\n4. 餐饮质量差，食物不新鲜，口味不佳。\n5. 设施陈旧，损坏未修，不能正常使用。\n\n总之，好的酒店服务应该让客人感到舒适、方便、安心，而不仅仅是满足基本住宿需求。"
+      }
+    ],
+    "sample_id": "source-000089"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请将下列中文翻译成马来语\n\nguzman的姓氏从何而来"
+      },
+      {
+        "from": "gpt",
+        "value": "nama terakhir guzman berasal dari mana?"
+      }
+    ],
+    "sample_id": "source-000079"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "他迟到了会议，被大声斥责了。"
+      },
+      {
+        "from": "gpt",
+        "value": "这种情况可能会让他感到尴尬和不安。作为旁观者，您可以在他身边默默地给予支持，并在适当的时候与他交流，了解他迟到的原因，给予帮助和安慰。同时，也可以提醒他在未来的会议中注意时间安排，以免再次发生类似的情况。"
+      }
+    ],
+    "sample_id": "source-000071"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "给定两个数字，创建一个函数，返回它们的和。"
+      },
+      {
+        "from": "gpt",
+        "value": "可以使用以下 Python 代码来实现这一功能：\n\n```python\ndef sum(a, b):\n    \"\"\"\n    返回两个数a和b的和\n\n    参数:\n    a (int or float): 第一个加数\n    b (int or float): 第二个加数\n\n    返回:\n    int or float: a和b的和\n    \"\"\"\n    return a + b\n```\n\n这个函数接受两个参数 `a` 和 `b`，并返回它们的和。你可以通过调用此函数并传入两个数字来计算它们的总和。例如:\n\n```python\nresult = sum(3, 5)\nprint(result)  # 输出8\n```"
+      }
+    ],
+    "sample_id": "source-000055"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请提取下列句子的实体。\n\n优衣库事件涉案人均被抓获全国将严打不雅视频"
+      },
+      {
+        "from": "gpt",
+        "value": "优衣库"
+      }
+    ],
+    "sample_id": "source-000034"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "建议一些策略帮助运动员克服挫折。"
+      },
+      {
+        "from": "gpt",
+        "value": "1. 认识并接受挫折：首先，运动员需要认识到挫折是成功之路上不可避免的一部分。接受挫折，并将其视为成长的机会，而不是打击。\n\n2. 设定现实目标：确保运动员设定的目标是实际可行的，并且能够激励他/她不断前进。这将有助于减少失败的可能性，并帮助运动员在实现目标的过程中感到满足。\n\n3. 保持积极心态：鼓励运动员保持积极的态度，通过冥想、呼吸练习或其他放松技巧来减轻压力。积极的心态有助于运动员更好地应对挫折。\n\n4. 寻求支持：鼓励运动员寻求家人、朋友或教练的支持，与他们分享自己的感受和经历。社交支持可以帮助运动员渡过难关，并为他/她提供额外的动力和鼓励。\n\n5. 反思与调整：鼓励运动员在遭遇挫折后进行反思，找出失败的原因，并制定改进计划。这将帮助运动员在未来避免同样的错误，并更好地应对挫折。\n\n6. 奖励自己：鼓励运动员在取得任何进步时奖励自己，无论多小的进步都值得庆祝。这将有助于增强运动员的信心，并激励他/她在未来继续努力。"
+      }
+    ],
+    "sample_id": "source-000141"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "阅读以下文章后，描述主角应该如何处理这种情况。\n\n约翰面临着一个困难的两难选择。他的父母意见不合，他需要选择一方。"
+      },
+      {
+        "from": "gpt",
+        "value": "在这种情况下，约翰应该尝试了解双方的观点并做出一个公正的决定。他可以和父母进行沟通，倾听他们的想法和理由，并试图找到一个双方都能接受的解决方案。如果无法达成一致，那么约翰应该根据自己的实际情况和需求来做出决定。例如，他可以考虑自己目前的需求和优先事项，以及父母各自的立场和能力，来决定更有利于自己的选择。此外，约翰也可以寻求其他信任的家人或朋友的意见，以便更好地帮助他做出决定。无论选择哪一方，约翰都应该尽量保持与另一方的关系良好，并尽力解决他们之间的分歧。"
+      }
+    ],
+    "sample_id": "source-000146"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请判断以下内容的语言类型\n\nפתרונות זולים באמת עדיין להישאר לוחות אם A320, ו B450 הוא די סוג של חציון זהב."
+      },
+      {
+        "from": "gpt",
+        "value": "希伯来语"
+      }
+    ],
+    "sample_id": "source-000118"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "用罗马尼亚语和丹麦语打招呼"
+      },
+      {
+        "from": "gpt",
+        "value": "In română: \"Bună ziua!\"\nIn dansk: \"Hej der!\""
+      }
+    ],
+    "sample_id": "source-000026"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请将以下简体中文文本翻译成另一种语言，目标语言简称为tr\n\n步行及骑车"
+      },
+      {
+        "from": "gpt",
+        "value": "Yürüyüş ve bisiklete binme"
+      }
+    ],
+    "sample_id": "source-000006"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "用中文回复以下给定的'指令'和'输入'，各段用换行符分隔：\n\n指令：დაასახელეთ შემდეგი წინადადების ტიპი: „კატა კარიდან გაიქცა“.\n输入：კატა კარიდან გაიქცა"
+      },
+      {
+        "from": "gpt",
+        "value": "陈述句。"
+      }
+    ],
+    "sample_id": "source-000140"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "如何创建有效的电子邮件广告活动？"
+      },
+      {
+        "from": "gpt",
+        "value": "要创建一个有效的电子邮件广告活动，可以考虑以下几点：\n\n1. 目标受众：确定您的目标受众是谁，并针对他们的需求和兴趣来制定您的电子邮件广告内容。\n\n2. 内容质量：创建高质量、吸引人的内容。这包括使用引人入胜的标题和正文，以及精美的图片或视频等多媒体元素。\n\n3. 邮箱列表管理：确保您的邮箱列表是最新且有效的，删除任何不再活跃的邮箱地址，并定期清理陈旧的数据。\n\n4. 发送时间：选择最佳的发送时间，以便您的电子邮件能够最大程度地接触到目标受众。\n\n5. 跟踪效果：跟踪您的电子邮件广告活动的效果，了解哪些邮件获得了最高打开率和点击率，并据此调整您的策略。\n\n6. 互动性：鼓励读者与您的电子邮件进行互动，例如通过设置优惠券或促销码，或者邀请读者在社交媒体上评论或分享。\n\n7. 遵守法规：确保您的电子邮件广告活动遵守当地的法律法规，例如美国的CAN-SPAM法案。\n\n通过遵循上述建议，您可以创建一个更加有效、更具吸引力的电子邮件广告活动。"
+      }
+    ],
+    "sample_id": "source-000072"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请判断下面文本的主题是什么，可选的主题包括: Art, Literature, Economy, Mine, Sports, History, Computer, Transport, Energy, Politics, Space, Communication, Agriculture, Education, Military, Electronics, Medical, Philosophy, Law, Enviornment。\n请直接输出主题名称，不要额外输出多余内容。\n\n【 文献号 】1-4999\n【原文出处】光明日报\n【原刊地名】京\n【原刊期号】19960111\n【原刊页号】⑺\n【分 类 号】J8\n【分 类 名】电影、电视艺术研究\n【 作  者 】贾磊磊\n【复印期号】199602\n【 标  题 】电影艺术理论研究的现状\n【 正  文 】\n    在纪念中国电影诞生九十周年的日子里，我们不仅应当看到中国电影那条流光溢彩的银色之河，我们还应该看到与电影艺术创作相伴而行的\n电影艺术理论的研究成果，这两者都是构成中国电影艺术史不可分割的重要组成部分。特别是从1978年至今，中国的电影理论研究取得了丰硕的\n研究成果，它对推动中国电影艺术创作的繁荣发展，促进社会主义精神文明事业的建设，起到了至关重要的作用。作为艺术理论二级学科的自身\n建设，电影理论研究在电影本体论、电影批评方法、电影史学等方面都取得了前所未有的进展，并且形成了一支由老、中、青三代人组成的理论\n梯队。应当说，这是中国电影艺术发展史上理论批评极为活跃、研究成果颇为丰硕的一个时期。\n            一\n    中国电影艺术理论的研究工作自1978年以来，主要形成了三种不同的发展态势：\n        一、从传统的文学性电影批评向电影美学批评的转向\n    由于中国电影批评的主流属于文艺社会学的范畴，所以电影批评长期以来主要是在文学与社会两个层面上展开的。新时期以后，电影理论界\n提出了“电影要与戏剧离婚”的主张，寻求电影自身的艺术规律的呼声日益强烈。在1978到1988年间，电影界出现了几次重要的理论论争，其中\n包括“电影与戏剧”、“电影与文学”、“电影的民族性”、“雅俗共赏论”的讨论。有关这些讨论的学术论文集已经出版。在电影史学领域，\n1986年钟大丰、陈犀禾提出了“影戏美学”的概念，他们以中国电影诞生、发展的历史为依据，认为中国的电影美学是一种以戏剧观念为核心的\n美学理论，并以此来概括整个中国电影的美学特征，从而成为中国电影史学研究中的“一家之言”。\n    1988年，处于经济改革浪潮中的电影业，越来越感到一种前所未有的生存与竞争的境遇。电影制片厂面临严峻的市场挑战，纷纷涌进娱乐片\n的创作热潮之中。有的电影创作者慌不择路，以致于出现了一批粗制滥造的所谓“娱乐片”。在这种情况下，电影理论界展开了有关娱乐片的讨\n论，特别是对国产影片创作中的诸多问题提出了批评。而且这种批评与以往最大的不同在于：作者不仅仅是从一种社会道德的角度，更多的则是\n从电影美学、影像语言的角度切入论题。尽管各家的观点不尽一致，但这种立足中国电影创作实践的理论风格，构成了这一时期电影理论的重要\n特征。\n        二、现代电影理论的译介与应用\n    自80年代中期以来，国内电影理论界陆续开始较为系统地翻译介绍现代西方电影理论。到1988年，一批青年电影理论工作者开始尝试运用现\n代理论的研究方法，从事电影理论、电影史、电影批评的研究活动。最集中的是在电影批评领域内对一批经典影片的重新阐释，其中包括用叙事\n学的方法分析影片《红高粱》、《鸳鸯楼》，用精神分析的方法评述影片《末代皇帝》和《芙蓉镇》，从女权主义的角度审度女性电影，从电影\n语言学的视野重写电影史。这些研究的真正意义并不在于对某种电影观念、对某部具体影片的评述，而在于理论视野的拓展和研究方法的探索。\n        三、多种电影理论形态的兼容并存\n    目前，国内的电影研究主要呈现为“三位一体”的总体格局，即以电影批评、电影理论、中外电影史为主干的分部形态。电影批评的主体除\n了电影界从事当代影片研究的专业人员外，"
+      },
+      {
+        "from": "gpt",
+        "value": "Art"
+      }
+    ],
+    "sample_id": "source-000095"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "判断下面两个句子是否相似，请返回相似或者不相似\n\n句子1：每天限额多少，最顿一天转多少\n句子2：请问一下，微众转到银行卡有没有限额？"
+      },
+      {
+        "from": "gpt",
+        "value": "相似"
+      }
+    ],
+    "sample_id": "source-000101"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "修改以下句子以使其更准确：吸烟对健康有害。"
+      },
+      {
+        "from": "gpt",
+        "value": "吸烟严重危害人们的健康。"
+      }
+    ],
+    "sample_id": "source-000028"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "对于以下数学应用题，列出方程或表达式，以解决问题：\n\n苹果的单价是12元每千克，学校打算买60千克苹果．请问：学校买这些苹果要付多少钱？（提示：单价dānjià*数量shùliàng﹦总价zǒngjià）"
+      },
+      {
+        "from": "gpt",
+        "value": "x=12*60"
+      }
+    ],
+    "sample_id": "source-000149"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据给出的上下文、目标词和词性，预测目标词的意义。\n\n{\"context\": [\"吉林\", \"代表团\", \"王\", \"云坤\", \"、\", \"李\", \"述\", \"、\", \"王\", \"国发\", \"、\", \"刘\", \"淑莹\", \"、\", \"李\", \"树\", \"、\", \"谢\", \"铁骊\", \"代表\", \"分别\", \"就\", \"振兴\", \"老\", \"工业\", \"基地\", \"、\", \"农业\", \"与\", \"农村\", \"工作\", \"、\", \"科教\", \"兴\", \"省\", \"、\", \"国企\", \"改革\", \"、\", \"电影\", \"事业\", \"的\", \"发展\", \"等\", \"问题\", \"<target>\", \"了\", \"言\", \"。\"], \"target_word\": \"发\", \"target_position\": 45, \"target_word_pos\": \"v\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "[\"发表\"]"
+      }
+    ],
+    "sample_id": "source-000145"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请判断以下文本的语言类型\n\nEs probable que la persona esté nerviosa pero bien preparada para el examen. El resultado más probable sería una buena calificación."
+      },
+      {
+        "from": "gpt",
+        "value": "西班牙语"
+      }
+    ],
+    "sample_id": "source-000061"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "找出以下数字中最大的数字：5、10、3、7"
+      },
+      {
+        "from": "gpt",
+        "value": "在这些数字中，最大的数字是10。"
+      }
+    ],
+    "sample_id": "source-000113"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "创建一个算法，从句子中删除元音字母。\n\n输入：The quick brown fox jumped over the lazy dog."
+      },
+      {
+        "from": "gpt",
+        "value": "输出: Th qck brwn fx jmpd vr th lzy dg.\n\n下面是一个简单的Python实现：\n\n```python\ndef remove_vowels(sentence):\n    vowels = 'aeiouAEIOU'\n    result = ''.join([char for char in sentence if char not in vowels])\n    return result\n\ninput_sentence = \"The quick brown fox jumped over the lazy dog.\"\noutput_sentence = remove_vowels(input_sentence)\nprint(output_sentence)\n```"
+      }
+    ],
+    "sample_id": "source-000115"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请从下面的描述中提取出主要的症状:\n\n患者四天前无明显诱因出现大便发黑，成形，1-2次/天，无粘液脓血，伴里急后重，排气正常，食欲欠佳，进食量减退，恶心间作，无呕吐、反酸，夜寐欠佳，今为求进一步诊疗，门诊遂拟上消化道出血收入我科进一步诊治。发病来，患者解黑便，成形，无发热、黄疸，无吞咽困难，无胸闷、咳痰、咯血，无尿少、尿血，食纳、睡眠欠佳，小便正常，近期无明显消瘦。"
+      },
+      {
+        "from": "gpt",
+        "value": "黑便四天"
+      }
+    ],
+    "sample_id": "source-000058"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "用中文回复以下给定的'指令'和'输入'，各段用换行符分隔：\n\n指令：S obzirom na referentni tekst o \"The New Dealu\", na koja se \"3 R\" povjesničari pozivaju o programu.\n输入：New Deal je bio niz programa, projekata javnih radova, financijskih reformi i propisa koje je donio predsjednik Franklin D. Roosevelt u Sjedinjenim Državama između 1933. i 1939. Glavni federalni programi i agencije uključivali su Civilian Conservation Corps (CCC), Works Progress Administration (WPA), Civil Works Administration (CWA), Farm Security Administration (FSA), National Industrial Recovery Act of 1933 (NIRA) i Social Security Administration (SSA). Pružali su potporu poljoprivrednicima, nezaposlenima, mladima i starijima. New Deal je uključivao nova ograničenja i zaštitne mjere za bankarsku industriju i napore da se ponovno napuha gospodarstvo nakon što su cijene oštro pale. Programi New Deala uključivali su i zakone koje je usvojio Kongres kao i predsjedničke izvršne naredbe tijekom prvog mandata predsjedništva Franklina D. Roosevelta.\n\nProgrami su bili usredotočeni na ono što povjesničari nazivaju \"3 R\": pomoć nezaposlenima i siromašnima, oporavak gospodarstva na normalne razine i reforma financijskog sustava kako bi se spriječila ponovna depresija.[1] New Deal je proizveo političko prestrojavanje, čineći Demokratsku stranku većinom (kao i stranku koja je držala Bijelu kuću sedam od devet predsjedničkih mandata od 1933. do 1969.) sa svojom bazom u progresivnim idejama, jugu, velikom gradu strojeva i novoosnaženih radničkih sindikata te raznih etničkih skupina. Republikanci su bili podijeljeni, uz podršku progresivnih republikanaca, ali konzervativaca koji su se protivili cijelom New Dealu kao neprijateljskom prema poslovanju i gospodarskom rastu. Prestrojavanje se iskristaliziralo u koaliciju New Deal koja je dominirala predsjedničkim izborima u 1960-ima, dok je suprotna konzervativna koalicija uglavnom kontrolirala Kongres u unutarnjim poslovima od 1937. do 1964."
+      },
+      {
+        "from": "gpt",
+        "value": "“3 R”历史学家指的是新政计划的核心目标：救济失业者和穷人、经济复苏到正常水平以及改革金融体系以防止另一场大萧条。"
+      }
+    ],
+    "sample_id": "source-000084"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请将下句翻译成葡萄牙语\n\n但是，主要的区别在于Tokens也赋予持有人参与网络的权利。"
+      },
+      {
+        "from": "gpt",
+        "value": "Mas o principal diferencial é que os tokens também dão ao detentor o direito de participar da rede."
+      }
+    ],
+    "sample_id": "source-000129"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请对以下一对句子的相似程度打分（相似等级范围为 0-5，5表示语义一致，0表示语义不相关）\n\n                        1. 两个女人在摔跤。\n                        2. 两个女人在地板上摔跤。"
+      },
+      {
+        "from": "gpt",
+        "value": "4"
+      }
+    ],
+    "sample_id": "source-000092"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请判断下面两句话在语义上是否相似。\n请直接输出“是”或“否”，不要额外输出多余内容。\n\n句子1：百令胶囊需要注意什么？\n句子2：百令胶囊如何服用？"
+      },
+      {
+        "from": "gpt",
+        "value": "否"
+      }
+    ],
+    "sample_id": "source-000151"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请判断以下文本的语言类型\n\nLa frase 'ser sensato y tonto' puede ser contradictoria, ya que lo sensato implica prudencia, raciocinio y juicio sólido, mientras que lo tonto se refiere a la falta de inteligencia o discernimiento. En general, la frase suele utilizarse para referirse a alguien que muestra comportamientos incoherentes o inconsistentes en diferentes situaciones."
+      },
+      {
+        "from": "gpt",
+        "value": "西班牙语"
+      }
+    ],
+    "sample_id": "source-000004"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "编辑下面的故事，使其更加描述性。\n\n输入：Sarah在一个寒冷的冬天早晨上了公交车。"
+      },
+      {
+        "from": "gpt",
+        "value": "编辑后：在寒冷冬日的清晨，寒风凛冽，街道上弥漫着白茫茫的晨雾。Sarah匆匆赶到车站，冒着寒意挤上了挤满了乘客的公交车。她蜷缩着身子，紧紧裹着厚厚的毛衣和围巾，希望能抵挡住刺骨的寒意。"
+      }
+    ],
+    "sample_id": "source-000150"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请判断以下内容的语言类型\n\nMít silné morální zásady je náš způsob života."
+      },
+      {
+        "from": "gpt",
+        "value": "捷克语"
+      }
+    ],
+    "sample_id": "source-000127"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请分析下面两句话的语义是否相同。第一行为第一句话，第二行为第二句话。\n\nr15梦镜版充电提示异常\n欧跑ace二的充电显示在哪里看"
+      },
+      {
+        "from": "gpt",
+        "value": "这两句话的语义不相同。"
+      }
+    ],
+    "sample_id": "source-000096"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "在编程中使用while循环的主要目的是什么？"
+      },
+      {
+        "from": "gpt",
+        "value": "While 循环的主要目的是重复执行一段代码，只要指定的条件为真。它允许程序员指定一个表达式，每当循环开始时都会被评估，只要表达式的值为真，循环就会继续执行。\n\nwhile 循环通常用于不确定需要执行循环多少次的情况下。例如，您可以使用 while 循环从文件中读取数据，直到文件结束。或者，您可以使用 while 循环来验证用户输入，直到用户提供有效输入为止。\n\n总之，while 循环在编程中非常有用，它可以用来处理不确定次数的循环，并且能够灵活地控制循环的执行。"
+      }
+    ],
+    "sample_id": "source-000112"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "用五个词描述河流。"
+      },
+      {
+        "from": "gpt",
+        "value": "流动，清澈，自然，生命，宁静。"
+      }
+    ],
+    "sample_id": "source-000125"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请判断以下两段话是否表示相同的意思，输出“0”表示不同，“1” 表示相同。\n\n第一句：梦见自己与别人打架，第二句：梦见我和别人打架。"
+      },
+      {
+        "from": "gpt",
+        "value": "1"
+      }
+    ],
+    "sample_id": "source-000054"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据下面的文本和触发词,判断事件的宏观类别。文本内容以text:<>给出,触发词以trigger:<>给出。输出结果以{'CLASS': class}的形式给出，可选的类别有'财经/交易','产品行为','交往','竞赛行为','人生','司法行为','灾害/意外','组织关系','组织行为'.\n\ntext:<7月22日消息，据外媒报道，福特汽车公司宣布，将于今年9月份在其位于加拿大安大略省奥克维尔的制造工厂裁员约200人，并可能于明年1月份进一步扩大裁员规模。福特奥克维尔工厂目前大约雇佣了4,600名员工。福特将此次裁员归咎于奥克维尔工厂生产的福特Flex以及林肯MKT两款车型的销量下滑；此外，奥克维尔工厂产量最高的福特Edge车型不再在一些欧洲市场出售，也是的另一个原因。>, trigger:<裁员>"
+      },
+      {
+        "from": "gpt",
+        "value": "{'CLASS': '组织关系'}"
+      }
+    ],
+    "sample_id": "source-000042"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "编写一个伪代码来计算三个数字的平均值。"
+      },
+      {
+        "from": "gpt",
+        "value": "下面是一份简单的计算三个数字平均值的伪代码：\n\n```\n// 定义一个函数，用于计算三个数的平均值\nfunction average(a, b, c)\n    // 将三个数相加\n    sum = a + b + c\n\n    // 计算平均值\n    avg = sum / 3\n\n    // 返回结果\n    return avg\n\n// 在主程序中调用该函数\nnum1 = 5\nnum2 = 7\nnum3 = 9\nresult = average(num1, num2, num3)\n\n// 输出结果\nprint(\"三个数的平均值是：\", result)\n```"
+      }
+    ],
+    "sample_id": "source-000134"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "制定一个规则，将 x > 4 且 x < 6 的输入分类为真。"
+      },
+      {
+        "from": "gpt",
+        "value": "根据您的要求，我建议以下规则来分类输入：\n\n如果输入值 x 满足以下条件，则分类为真：\nx > 4 且 x < 6\n\n换句话说，如果输入值大于4且小于6（不包括4和6），则该输入应被分类为真。\n\n希望这个规则能满足您的需求。如果您有其他问题，请随时提问。"
+      }
+    ],
+    "sample_id": "source-000011"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "橙子是什么颜色？"
+      },
+      {
+        "from": "gpt",
+        "value": "橙子的颜色是橙色。"
+      }
+    ],
+    "sample_id": "source-000073"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "找出-3的模数"
+      },
+      {
+        "from": "gpt",
+        "value": "|-3| = 3"
+      }
+    ],
+    "sample_id": "source-000046"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "生成以下3个按钮的HTML代码：\n\n按钮1：\"减少数量\"\n按钮2：\"加入购物车\"\n按钮3：\"结账\""
+      },
+      {
+        "from": "gpt",
+        "value": "下面是这三个按钮的 HTML 代码:\n\n```\n<button>减少数量</button>\n<button>加入购物车</button>\n<button>结账</button>\n```\n\n你可以使用 `button` 元素来创建按钮，并在其中添加按钮的文本。如果你想让按钮看起来更好看，可以为 `button` 元素添加类名或 id 属性，并使用 CSS 来设置按钮的样式。"
+      }
+    ],
+    "sample_id": "source-000080"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "用中文回复以下给定的'指令'和'输入'，各段用换行符分隔：\n\n指令：Napište SQL dotaz, abyste vypsali jedinečná jména oddělení v databázi\n输入："
+      },
+      {
+        "from": "gpt",
+        "value": "SELECT DISTINCT department_name FROM table_name;\n\n其中，table_name为包含部门名称的表名。"
+      }
+    ],
+    "sample_id": "source-000012"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "将科学计数法数值7.123e-2转换为标准数值。\n\n输入：7.123e-2"
+      },
+      {
+        "from": "gpt",
+        "value": "输出：0.07123\n\n解释：在科学计数法中，e代表十进制的指数。所以 7.123e-2 等于 7.123 * 10^(-2) ，即 0.07123 。"
+      }
+    ],
+    "sample_id": "source-000114"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "选择以下选项中的正确答案。\n\n输入：\n天空是什么颜色？\nA）蓝色\nB）黄色\nC）红色"
+      },
+      {
+        "from": "gpt",
+        "value": "答案：A）蓝色。"
+      }
+    ],
+    "sample_id": "source-000000"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "先将以下的'指令'和'输入'翻译成中文，再用中文给出恰当的'输出'，各段用换行符分隔：\n\n指令：في جملتين ، أعد كتابتهما بطريقة تشبه الصوت النشط.\n输入：قرأت الكتاب من قبلها.\nتم كتابة المسودة بواسطته."
+      },
+      {
+        "from": "gpt",
+        "value": "指令：用两句话，以类似于主动语态的方式重写它们。\n输入：这本书是她读的。\n草稿是他写的。\n输出：她读了这本书。\n他写了草稿。"
+      }
+    ],
+    "sample_id": "source-000085"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请判断以下文本的语言类型\n\nБұл 1/4-ке тең екені түсіндіретіндей келеді."
+      },
+      {
+        "from": "gpt",
+        "value": "哈萨克语"
+      }
+    ],
+    "sample_id": "source-000094"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "分类以下短语所传达的情绪：\n\n输入：“我受不了这个！”"
+      },
+      {
+        "from": "gpt",
+        "value": "此短语表达的情绪为沮丧、愤怒或烦躁。"
+      }
+    ],
+    "sample_id": "source-000083"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "根据给定的输入，构建一个关于问题的因果科学假设。\n\n输入：某个地区降水量减少。"
+      },
+      {
+        "from": "gpt",
+        "value": "假设：由于该地区的气候变化，导致降雨模式改变，从而造成该地区降水量减少。另外一种可能的假设是，由于人类活动排放大量温室气体，导致全球气候变暖，改变了降雨模式，使得该地区的降水量减少。还有一种假设可能是，该地区的水资源管理不当，如过度放牧、滥伐森林等，导致土地退化，影响降雨量。"
+      }
+    ],
+    "sample_id": "source-000024"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "根据以下句子，请找出其中所提及的\"临床表现\"，并以序列格式返回（如果有多个\"临床表现\"，则全部列出；如果没有提及\"临床表现\"，则输出空序列）\n\n【手术治疗】手术行尿道成形是尿道下裂唯一的治疗方法。"
+      },
+      {
+        "from": "gpt",
+        "value": "[]"
+      }
+    ],
+    "sample_id": "source-000027"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "计算以下列表的平均值：1、7、4、8、10。"
+      },
+      {
+        "from": "gpt",
+        "value": "这个列表的平均值是 (1 + 7 + 4 + 8 + 10) / 5 = 30 / 5 = 6。所以这个列表的平均值是 6。"
+      }
+    ],
+    "sample_id": "source-000043"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "作为写作专家。根据以下信息提供3个文章的主题或课题： [“ [www.thaiprintshop.com 作为网站] + [印刷和包装作为产品]+ [专门生产定制盒子且响应快速的网络印刷公司。]+ [SOAP BOX PRINTING 作为我在文章中要关注的关键词]+ [写作风格：友好的语调]+[使用标题格式排版]+ [撰写3篇不同的文章]”。\\ * 只需提供主题或课题即可。不需要描述。"
+      },
+      {
+        "from": "gpt",
+        "value": "1. 制皂盒印刷对制皂品牌的重要性\n2. 如何为你的肥皂品牌设计完美的定制包装\n3. 网络印刷在获得快速、专业的包装解决方案方面的体验"
+      }
+    ],
+    "sample_id": "source-000142"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请判断下列文本是否冒犯他人，用是或否回答\n\n我就是觉得男主太可怜[大哭]"
+      },
+      {
+        "from": "gpt",
+        "value": "否"
+      }
+    ],
+    "sample_id": "source-000136"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "对下面句子进行释义，生成一个含义相同，但表达不同的句子\n\n句子：你好，我现在还款你们可以开结清证明么"
+      },
+      {
+        "from": "gpt",
+        "value": "释义后的句子为：还款后是否有结清证明"
+      }
+    ],
+    "sample_id": "source-000074"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "生成一个句子中除连词外的所有单词列表。\n\n输入：John and I were having lunch together."
+      },
+      {
+        "from": "gpt",
+        "value": "输出: ['John', 'I', 'were', 'having', 'lunch', 'together']"
+      }
+    ],
+    "sample_id": "source-000119"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "我会给你几句非常接近的诗，以及我想表达的意思，请你选出真正表达我意思的那句诗\n\n闲依农圃邻，偶似山林客。。 未办山林居，聊依佛僧住。。 少日同门客，山居晚共依。。 客来惟杖屦，吏散似山林。 我想表达这个意思：闲静无事，与农人的菜圃为邻，有的时候就像个山林中的隐士。"
+      },
+      {
+        "from": "gpt",
+        "value": "这句诗表达了您的意思：闲依农圃邻，偶似山林客。"
+      }
+    ],
+    "sample_id": "source-000056"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请将下列中文翻译成韩语\n\ni want to be with you everywhere是谁唱的"
+      },
+      {
+        "from": "gpt",
+        "value": "누가 i want to be with you everywhere를 불렀나요"
+      }
+    ],
+    "sample_id": "source-000018"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "我需要帮助开始进行重量训练计划。我一直开始然后失去动力，然后停止。"
+      },
+      {
+        "from": "gpt",
+        "value": "当然，我可以帮你制定一个为你的特定需求和目标量身定制的重量训练计划。但在我们开始之前，我想了解一下你的健身水平、目标和时间安排。你目前每周能锻炼几次？你的目标是增加力量、塑形或提高体能？你有没有任何健康问题或伤害需要在计划中加以考虑？确定这些因素后，我们可以制定一个既挑战又可实现的计划，帮助你在达到目标的过程中保持动力。"
+      }
+    ],
+    "sample_id": "source-000021"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "写一个关于一个女孩发现一个有奇怪力量的魔法物品的短故事。"
+      },
+      {
+        "from": "gpt",
+        "value": "在一个阳光明媚的早晨，小女孩艾莉安娜在森林里散步。她喜欢探险，探索未知的世界。突然，她发现了一件闪闪发光的东西，它躺在一棵树旁的草地上。\n\n艾莉安娜走过去，捡起了那个东西。它是一个小小的水晶球，表面有着奇异的图案。当艾莉安娜把水晶球拿在手里的时候，它突然散发出一股温暖的气息，她的身体也感到一阵轻松。\n\n艾莉安娜觉得这个水晶球非常神奇，于是她决定把它带回家。每天，她都会拿出那个水晶球，仔细地观察它。有一天，当她在睡觉的时候，她突然感觉身体轻盈起来，仿佛有一股神秘的力量托着她。\n\n艾莉安娜醒来，发现自己的床飘浮在空中。她兴奋极了，试着控制那股力量。她让床上下浮动，左右摇晃，感觉自己好像获得了超能力。\n\n艾莉安娜意识到，那个看似普通的水晶球其实拥有神奇的力量。她决定要好好保护它，利用它的力量去帮助别人。"
+      }
+    ],
+    "sample_id": "source-000131"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "找出给定加速度、初始速度和经过的时间后车辆的最大速度。\n\n输入：加速度=4 m/s^2，初始速度=10 m/s，经过的时间=5秒。"
+      },
+      {
+        "from": "gpt",
+        "value": "根据牛顿运动定律中的速度方程，v = u + at，其中v是最终速度，u是初始速度，a是加速度，t是经过的时间。代入给定的数据，可以得到最大速度v = 10 + 4 * 5 = 30 (m/s)。所以，当加速度为4 m/s²，初始速度为10 m/s，经过5秒后，车辆的最大速度为30 m/s。"
+      }
+    ],
+    "sample_id": "source-000138"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "先将以下的'指令'和'输入'翻译成中文，再用中文给出恰当的'输出'，各段用换行符分隔：\n\n指令：একজন ব্লকচেইন ইঞ্জিনিয়ার কি করেন?\n输入："
+      },
+      {
+        "from": "gpt",
+        "value": "指令：区块链工程师做什么的？\n输入：\n输出：区块链工程师是负责设计、开发和维护区块链系统的技术人员。他们的工作内容包括但不限于以下几个方面：\n\n1. 设计和实现区块链协议：区块链协议定义了区块链系统的运行规则，包括数据结构、交易处理、共识算法等方面。区块链工程师需要运用自己的专业知识和技术能力，设计并实现符合业务需求的区块链协议。\n\n2. 开发智能合约：智能合约是在区块链上运行的自动执行的程序，它们能够实现合同条款的自动执行。区块链工程师需要编写智能合约代码，并进行测试和调试。\n\n3. 系统运维和优化：区块链系统需要持续的运维和优化，以确保其稳定性和性能。区块链工程师需要负责系统的日常运维，并对系统性能进行监控和优化。\n\n4. 安全防护：区块链系统由于其分布式、去中心化的特点，具有较高的安全性。但是，仍然存在被攻击和破坏的风险。因此，区块链工程师需要负责系统的安全防护，包括防范DDoS攻击、防止黑客入侵等。\n\n总之，区块链工程师的工作内容涵盖了区块链系统的各个方面，需要具备深厚的专业知识和良好的技术能力。"
+      }
+    ],
+    "sample_id": "source-000109"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "写一个脚本创建一个名为“cats”的目录，并打印出消息“猫万岁！”"
+      },
+      {
+        "from": "gpt",
+        "value": "下面是一个使用 Bash 的脚本，它会创建一个名为“cats”的目录，并打印一条消息：\n\n```\n#!/bin/bash\n\n# 创建名为 \"cats\" 的目录\nmkdir cats\n\n# 打印消息 \"猫万岁！\"\necho \"猫万岁！\"\n```"
+      }
+    ],
+    "sample_id": "source-000116"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请将下列中文翻译成挪威语\n\n玩具熊的五夜后宫是何时制作的"
+      },
+      {
+        "from": "gpt",
+        "value": "når ble five nights at freddy's laget"
+      }
+    ],
+    "sample_id": "source-000143"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "说出一种常见的宠物动物。"
+      },
+      {
+        "from": "gpt",
+        "value": "一种常见的宠物动物是狗。"
+      }
+    ],
+    "sample_id": "source-000121"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请判断这句评论中体现的对照相机的评价是正面的还是负面的，请直接回答正面的或者负面的。\n\n处理速度和拍摄响应上非常迅速"
+      },
+      {
+        "from": "gpt",
+        "value": "正面的"
+      }
+    ],
+    "sample_id": "source-000051"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "在以下故事中，找出一个人使用说服的例子。\n\n山姆和杰西卡正在决定他们是否应该在下个周末去跳伞。山姆感到担忧，说：“我真的不认为这是个好主意。如果出了什么问题怎么办？”另一方面，杰西卡更加热情，回答道：“没事的。我以前跳过伞，很有趣！”"
+      },
+      {
+        "from": "gpt",
+        "value": "杰西卡对山姆使用了说服，她通过表达自己的经验来试图让山姆相信跳伞是一件有趣的事情。她说“我以前跳过伞”，表明她有亲身经历，并且这是一次愉快的经历；她还说“很有趣！”，直接表达了她对跳伞的看法，希望借此说服山姆。"
+      }
+    ],
+    "sample_id": "source-000010"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "创建一个故事的新设置。"
+      },
+      {
+        "from": "gpt",
+        "value": "在遥远的未来，地球已经不再是人类唯一的家园。人类终于踏上了探索宇宙的征程，寻找新的居住星球。在浩瀚的太空中，人类探险队乘坐着飞船，穿梭于星辰之间，探寻着未知的领域。他们遇到了许多奇妙的生物和文明，每一次探险都充满了惊喜和挑战。这就是人类探索宇宙的新征程，充满希望、勇气和未知。"
+      }
+    ],
+    "sample_id": "source-000106"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请用一个词描述以下新闻的题材类型\n\n股票成交量很低，但是价格降的快说明什么？"
+      },
+      {
+        "from": "gpt",
+        "value": "股票"
+      }
+    ],
+    "sample_id": "source-000069"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "我今天买了书，想读它们。"
+      },
+      {
+        "from": "gpt",
+        "value": "那真是太棒了！读书可以让我们获得新知识、开阔眼界、提高思维能力。你打算读哪些书呢？有什么特定的主题或类型的书籍是你喜欢的吗？我可以为你提供一些建议。"
+      }
+    ],
+    "sample_id": "source-000036"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据下面的问题，给出解答问题的数学方程\n\n18位同学合影留念，拍照需要26.4元，可以有3张照片，如果现在每人要1张照片，就需要加印，加印一张照片要0.64元，平均每人应付多少元？"
+      },
+      {
+        "from": "gpt",
+        "value": "x=[(18-3)*0.64+26.4]/18"
+      }
+    ],
+    "sample_id": "source-000035"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "建议一个浪漫的晚餐地点"
+      },
+      {
+        "from": "gpt",
+        "value": "如果您所在的城市靠海，我建议您选择一个可以欣赏海景的餐厅，享受柔和的灯光和轻柔的海浪声。在那里，您可以品尝着美食，品着香醇的葡萄酒，与您的心爱之人共度一个浪漫的夜晚。\n\n如果城市里没有海景餐厅，可以选择一家有露台的餐厅，周围是绿意盎然的花园，空气中弥漫着花香，晚上星空璀璨，是一个非常浪漫的地方。\n\n另外，如果您想在室内度过这个晚上，可以选择一间装饰典雅的餐厅，墙上挂着油画，桌上摆着鲜花，服务员礼貌周到，为您提供最好的服务。\n\n总之，选择一个适合您的地方，与您心爱的人共度一个难忘的夜晚，这就是浪漫的晚餐。"
+      }
+    ],
+    "sample_id": "source-000090"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "为一家设计可持续能源的公司创作一个吸引人的口号。"
+      },
+      {
+        "from": "gpt",
+        "value": "\"向着绿色未来迈进 - 用我们的设计为地球充电!\""
+      }
+    ],
+    "sample_id": "source-000014"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "根据输入摘要内容，输出对应标题\n\n针对Deep Web环境中存在的失败查询,提出了一种有效的查询松弛策略.所有Deep Web资源按查询接口属性分组,组成全局数据源关系图(DRG);针对特定查询将DRG转换为对应该查询请求的数据源关系图;利用该DRG,按照特定的规则进行查询松弛和执行处理.针对查询松弛导致的部分结果可能与用户查询请求的相似度较低的问题,提出先通过Skyline方法对结果进行筛选,然后再根据各个结果实例与用户查询的相似度进行Top-k排序,最后将最接近用户要求的结果集返回给用户.通过实验验证了提出的查询松弛策略的有效性."
+      },
+      {
+        "from": "gpt",
+        "value": "一种基于数据源关系图的Deep Web查询松弛策略"
+      }
+    ],
+    "sample_id": "source-000075"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请判断以下文本的语言类型\n\n1- توفير تجربة تعليمية مخصصة لكل طالب: يمكن للذكاء الاصطناعي تحليل البيانات والمعلومات حول أداء الطلاب واحتياجاتهم التعليمية، وبناء على ذلك يمكن إنشاء خطط تعليمية مخصصة لكل طالب تتناسب مع مستوى تعلمه وقدراته واهتماماته.\n\n2- تقديم ردود فعل فورية وتدخلات تصحيحية: يمكن للذكاء الاصطناعي تحديد أخطاء الطلاب والمشاكل التي يواجهونها في التعلم وتقديم ردود فعل فورية وتدخلات تصحيحية لمساعدتهم على تحسين أدائهم، كما يمكنه أيضاً متابعة الطلاب وتحديد احتياجاتهم الفردية على المدى الطويل واقتراح التدابير اللازمة لتحقيقها."
+      },
+      {
+        "from": "gpt",
+        "value": "阿拉伯语"
+      }
+    ],
+    "sample_id": "source-000065"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "构建一个表格来组织给定的信息。\n\n输入：\n动物：猫，狗，兔子\n腿的数量：4，4，4"
+      },
+      {
+        "from": "gpt",
+        "value": "| 动物   | 腿的数量 |\n|-------|--------|\n| 猫    | 4      |\n| 狗    | 4      |\n| 兔子  | 4      |"
+      }
+    ],
+    "sample_id": "source-000086"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请判断下面的新闻标题属于哪种类型，类型包括: 科技、股票、财经、体育、社会、教育、娱乐、游戏、星座、时尚、彩票、时政、房产、家居。\n请直接输出类型名称，不要额外输出多余内容。\n\n王仪涵欧陆三冠堪称完美 国羽新人王势头无人能挡"
+      },
+      {
+        "from": "gpt",
+        "value": "体育"
+      }
+    ],
+    "sample_id": "source-000025"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "接下来我会给你一篇网上的文章，以及问题，请给出答案\n\n头型是一个汉语词汇，拼音是tóu xíng，指人类头部的形状；尤指根据头指数而确定的形状。也指发型。人的头型大至可以分为大、小、长、尖、圆等几种型状。问题：头型有哪些类型"
+      },
+      {
+        "from": "gpt",
+        "value": "答案是：大、小、长、尖、圆等"
+      }
+    ],
+    "sample_id": "source-000104"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "选择文本中最能反映文本主题的句子。"
+      },
+      {
+        "from": "gpt",
+        "value": "如果您提供了文本，我可以为您选择出最能反映文本主题的句子。"
+      }
+    ],
+    "sample_id": "source-000002"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请将下列丹麦语翻译成中文\n\nhvem er værten i america has talent"
+      },
+      {
+        "from": "gpt",
+        "value": "美国达人秀的主持人是谁"
+      }
+    ],
+    "sample_id": "source-000022"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "根据以下句子，请找出其中所提及的\"临床表现\"，并以序列格式返回（如果有多个\"临床表现\"，则全部列出；如果没有提及\"临床表现\"，则输出空序列）\n\n医院内感染是相对于社区感染而言的概念，也属感染性疾病范畴。"
+      },
+      {
+        "from": "gpt",
+        "value": "[]"
+      }
+    ],
+    "sample_id": "source-000076"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "构建一个SQL查询来从表中返回数据。\n\n输入：[表]"
+      },
+      {
+        "from": "gpt",
+        "value": "为了更好地构建 SQL 查询，需要知道一些额外的信息，例如表的名称、表中列的名称和数据类型，以及您希望根据什么条件过滤或排序数据。 但是，我可以给出一个基本的示例，它从表“employees”中选择所有列和行：\n\n```\nSELECT *\nFROM employees;\n```"
+      }
+    ],
+    "sample_id": "source-000053"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "判断给定的陈述是否是语法正确的。\n\n输入：太阳从西方升起。"
+      },
+      {
+        "from": "gpt",
+        "value": "对不起，这句话语法是正确的，但是事实不正确。太阳从东方升起，它西落。"
+      }
+    ],
+    "sample_id": "source-000068"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "你需要为一部科幻电影想出一个标题。"
+      },
+      {
+        "from": "gpt",
+        "value": "\"星际归途：探索未知的旅程\""
+      }
+    ],
+    "sample_id": "source-000126"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "保护敏感数据的最佳实践是什么？"
+      },
+      {
+        "from": "gpt",
+        "value": "为了保护敏感数据，以下是一些最佳实践：\n\n1. 加密：使用强大的加密算法对敏感数据进行加密，以确保即使数据被窃取或非法访问，也无法读取其内容。\n\n2. 访问控制：建立严格的访问控制机制，仅允许经过身份验证和授权的用户访问敏感数据。\n\n3. 定期备份：定期备份敏感数据，并将备份存储在安全的位置，以防主存储区域受到损害。\n\n4. 物理安全：确保存储和处理敏感数据的物理位置安全，防止未经授权的访问。\n\n5. 网络安全：使用防火墙、入侵检测系统和反病毒软件来保护网络基础设施，防止恶意攻击和数据泄露。\n\n6. 培训员工：对员工进行培训，使他们了解保护敏感数据的重要性，并指导他们如何避免泄露敏感信息。\n\n7. 遵守法律法规：遵守当地法律法规，确保敏感数据得到妥善保护。\n\n以上是一些通用的最佳实践，但具体措施可能因组织的实际情况而异。"
+      }
+    ],
+    "sample_id": "source-000098"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请判断以下一对句子是否具有相同的含义（输出\"是\"或\"不是\"）\n\n                    1. 系统要求用户首先将准语音拼写编码为默认渲染。\n                    2. 系统要求用户首先将默认拼写编码为准语音渲染。"
+      },
+      {
+        "from": "gpt",
+        "value": "不是"
+      }
+    ],
+    "sample_id": "source-000067"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "判断以下由'指令-输入-输出'构成的样本是否完整且合理：\n\n指令：使用给定的单词构造一个短语\n输入：大流行，挑战，行动\n输出：应对大流行挑战的行动"
+      },
+      {
+        "from": "gpt",
+        "value": "合理"
+      }
+    ],
+    "sample_id": "source-000003"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请指出以下问题主要涉及哪个医学学科领域\n\n两侧输卵管粘连能治好吗..两侧输卵管粘连能治好吗"
+      },
+      {
+        "from": "gpt",
+        "value": "妇产科"
+      }
+    ],
+    "sample_id": "source-000032"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "升级以下对话示例。\n\nA：我不确定该怎么做。\nB：我们好好想一想。"
+      },
+      {
+        "from": "gpt",
+        "value": "A: 我有点不确定该怎么处理这个问题。\nB: 没问题，让我们一起坐下来，仔细思考一下，一步一步来，一定能找到解决办法的。"
+      }
+    ],
+    "sample_id": "source-000099"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "对句子进行情感打分，分数为1-5的连续实数，1为最消极，5为最积极\n\n离住的地方很近，在屈臣氏边上的胡同进去，回宾馆路上来一碗。听说在西门町的店人很多，多到没有作为，这里就不错，有座位，可以从容的吃。\\\\n\\\\n店内环境干净，需要自己分类处理自己吃过的面线。先交钱再拿面。50新台币一小碗，65新台币大碗。\\\\n\\\\n刚刚拿到的时候，看着糊涂一团，有点诧异会不会好吃，吃过之后真是打开了新的人生观，对于面线口味的领域又拓展了一大步。这家面线是用勺子吃的，加了芝麻酱之后看着稀烂，其实吃到嘴里有根根分明的感觉，汤的味道也是特别，可以自己添加辣椒蒜醋等各种调料。把一碗面吃的干干净净，好吃。"
+      },
+      {
+        "from": "gpt",
+        "value": "5"
+      }
+    ],
+    "sample_id": "source-000049"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "根据以下'指令'和'输入'，请用波斯语回复，各段用换行符分隔：\n\n指令：美国的北面是哪个国家？\n输入："
+      },
+      {
+        "from": "gpt",
+        "value": "کانادا در شمال ایالات متحده قرار دارد."
+      }
+    ],
+    "sample_id": "source-000038"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "根据以下句子，请给出其所提及的\"微生物类\"数量\n\n国内已采用B超对小儿厌食、胃炎及功能性消化不良分别检测。"
+      },
+      {
+        "from": "gpt",
+        "value": "0"
+      }
+    ],
+    "sample_id": "source-000102"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "根据输入摘要内容，输出对应标题\n\n学生模型是智能计算机辅导教学（ICAI）系统选择教学内容和数学策略的依据，因此其表达能力至关重要。目前大多数ICAI系统是针对微机设计的，能否用有限的空间合理地表示众多的学生学习情况信息是设计学生模型所考虑的主要问题。该文提出的学生学习情况信息表示较好地克服了空间问题，且表达合理、易于计算。（本刊录）"
+      },
+      {
+        "from": "gpt",
+        "value": "一种智能计算机辅导教学系统中学生模型的研究"
+      }
+    ],
+    "sample_id": "source-000030"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "你能帮我写编程吗？"
+      },
+      {
+        "from": "gpt",
+        "value": "当然，我可以帮助你学习编程。首先，你需要决定要使用哪种编程语言。有多种流行的编程语言可供选择，包括Python、Java和C ++。一旦你选择了编程语言，我们可以一起开始编写代码。请告诉我你正在尝试解决的问题或完成的项目，我们可以从那里开始。"
+      }
+    ],
+    "sample_id": "source-000048"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "在家工作并不总是比在办公室工作更好。"
+      },
+      {
+        "from": "gpt",
+        "value": "是的，您说得对。在家工作有许多优点，例如可以节省通勤时间和费用，更加灵活地安排工作时间，不需要穿戴正式服装等。但是，它也有一些缺点，例如容易分心，缺乏与同事之间的交流，难以划分工作和生活的时间，可能会感到孤独和压力等。每个人对于在家工作的感觉可能会有所不同，取决于个人的性格、家庭环境和工作类型等因素。"
+      }
+    ],
+    "sample_id": "source-000133"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "selected_run": "reward-corrective-40step/attempt_001",
+  "adapter": {
+    "path": "/root/autodl-tmp/qwen25-week4/day20-remediation/runs/reward-corrective-40step/attempt_001/trainer_output/adapter_model.safetensors",
+    "bytes": 80792096,
+    "sha256": "d7a932ee4f28c8950db289126381f5d4dd30a037b238852e87ad8e5a241f9e52"
+  },
+  "trainer_state_sha256": "055aaf94d5c455672e1fb2010ede9e8b8895ab4c2d853135a961d65144b91736",
+  "weights_in_submission": false
+}

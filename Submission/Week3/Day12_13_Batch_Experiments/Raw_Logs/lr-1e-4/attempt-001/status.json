@@ -1,0 +1,22 @@
+{
+  "run_id": "lr-1e-4",
+  "attempt_id": "attempt-001",
+  "source_config_path": "runs/lr-1e-4/attempt-001/source_config.yaml",
+  "source_config_sha256": "060b08f4d790f2506ed5fc0c160807e6e8fec356180000ee486a180fe3667d1f",
+  "runtime_config_path": "runs/lr-1e-4/attempt-001/runtime_config.yaml",
+  "runtime_config_sha256": "26d3e19c545772d0a168ae75175aef449e62c7923fb3853fc05869a2d6b432df",
+  "started_at": "2026-08-04T13:28:46.590907+00:00",
+  "status": "completed",
+  "pid": 25279,
+  "sampler_pid": 25278,
+  "command": [
+    "llamafactory-cli",
+    "train",
+    "runs/lr-1e-4/attempt-001/runtime_config.yaml"
+  ],
+  "exit_code": 0,
+  "failure_reason": null,
+  "ended_at": "2026-08-04T16:40:12.183870+00:00",
+  "wall_clock_runtime_seconds": 11484.801687737927,
+  "adapter_path": "runs/lr-1e-4/attempt-001/adapter"
+}

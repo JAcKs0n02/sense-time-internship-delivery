@@ -1,0 +1,10 @@
+{
+  "output_dir": {
+    "source": "/root/autodl-tmp/qwen25-week3/runs/rank-r8/adapter",
+    "runtime": "runs/rank-r8/attempt-001/adapter"
+  },
+  "run_name": {
+    "source": "qwen25-7b-week3-rank-r8",
+    "runtime": "qwen25-7b-week3-rank-r8-attempt-001"
+  }
+}

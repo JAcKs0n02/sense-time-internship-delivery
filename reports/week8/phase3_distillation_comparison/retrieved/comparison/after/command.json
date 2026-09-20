@@ -1,0 +1,9 @@
+[
+  "opencompass",
+  "/root/autodl-tmp/week8-distillation-comparison-20260918/run-01/comparison/after/ceval_explicit.py",
+  "--work-dir",
+  "/root/autodl-tmp/week8-distillation-comparison-20260918/run-01/comparison/after/opencompass",
+  "--max-num-workers",
+  "1",
+  "--dump-eval-details"
+]

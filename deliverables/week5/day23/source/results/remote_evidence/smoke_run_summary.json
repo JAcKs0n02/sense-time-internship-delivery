@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "status": "PASS",
+  "run_id": "day23-smoke-20260818",
+  "completed_at": "2026-08-18T15:29:32.535096+00:00",
+  "requested_record_count": 1,
+  "total_output_record_count": 1,
+  "pass_count_this_invocation": 1,
+  "fail_count_this_invocation": 0,
+  "model_load_seconds": 7.47,
+  "cuda_memory_after_load_mib": 15814.559,
+  "processor_effective_size": {
+    "shortest_edge": 200704,
+    "longest_edge": 301056
+  },
+  "generation_config_sha256": "e43b7959964102c85d8fd0a7607d41d71f6a4c3644283a227098684f1ee88fe8",
+  "matrix_sha256": "611be8a03b33992cb4542691399399b4054b8e0a84118da64e90b17cc8deef1a"
+}

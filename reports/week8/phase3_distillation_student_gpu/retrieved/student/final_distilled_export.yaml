@@ -1,0 +1,8 @@
+model_name_or_path: /root/autodl-tmp/week8-distillation-preflight-20260918/student-Qwen2.5-0.5B-Instruct
+adapter_name_or_path: /root/autodl-tmp/week8-distillation-student-20260918/run-01/student/training/attempt-01/adapter
+template: qwen
+finetuning_type: lora
+export_dir: /root/autodl-tmp/week8-distillation-student-20260918/run-01/student/final_distilled
+export_size: 5
+export_device: cpu
+export_legacy_format: false

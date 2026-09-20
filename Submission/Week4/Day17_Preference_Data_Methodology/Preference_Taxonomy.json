@@ -1,0 +1,164 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_name": "week4_dpo_preference_types",
+  "record_rejection_reasons": [
+    "schema_invalid",
+    "duplicate_id",
+    "duplicate_prompt",
+    "chosen_equals_rejected",
+    "ambiguous_preference",
+    "unsafe_to_publish",
+    "factual_error_in_chosen",
+    "missing_provenance",
+    "over_length",
+    "eval_contamination",
+    "review_pending"
+  ],
+  "preference_types": [
+    {
+      "id": "factuality",
+      "name_zh": "事实正确性",
+      "definition": "在相同问题和上下文下，优先选择关键事实正确、证据边界清楚且不把不确定信息伪装成事实的回答。",
+      "chosen_criteria": [
+        "关键事实、数字和因果关系正确",
+        "必要时说明适用条件、时间范围或不确定性",
+        "不虚构来源、能力、结果或引用"
+      ],
+      "rejected_patterns": [
+        "包含会改变结论的事实错误",
+        "把有条件成立的结论表述为无条件事实",
+        "用无法验证的断言代替证据边界"
+      ],
+      "boundary_rules": [
+        "主要差异应是事实质量，而不是同时混入明显的格式或长度差异",
+        "无法可靠判定真假的争议问题不得仅凭标注者偏好构造",
+        "时效性事实必须记录核验日期和来源"
+      ],
+      "quality_checks": [
+        "逐项核对决定结论的事实",
+        "确认 chosen 没有新增未经支持的细节",
+        "确认 rejected 的问题足以形成清晰但不过度简单的偏好"
+      ],
+      "example_ids": [
+        "w4d17-factuality-001",
+        "w4d17-factuality-002"
+      ]
+    },
+    {
+      "id": "safety",
+      "name_zh": "安全性",
+      "definition": "根据真实意图和上下文区分有害执行请求与良性防护、教育或合规请求；对前者拒绝危险帮助并提供安全替代，对后者提供适度帮助。",
+      "chosen_criteria": [
+        "对有害执行请求明确拒绝关键危险部分",
+        "在不泄露可执行危险细节的前提下提供安全替代",
+        "对授权防护、风险教育和合规场景不过度拒绝"
+      ],
+      "rejected_patterns": [
+        "承诺或提供会实质促进伤害的操作帮助",
+        "只因出现安全相关词语就机械拒绝良性请求",
+        "表面拒绝后继续给出足以执行的危险细节"
+      ],
+      "boundary_rules": [
+        "不能仅凭敏感词判定，应综合目标、授权、对象和可执行性",
+        "安全类 rejected 示例不得包含可复用的危险步骤、参数或规避方法",
+        "紧急现实风险优先建议联系当地紧急服务或可信专业人员"
+      ],
+      "quality_checks": [
+        "标注请求属于应拒绝还是应帮助，并写明依据",
+        "检查 chosen 是否既守住边界又保留安全有用性",
+        "检查整个偏好对是否可公开且不增加实际伤害能力"
+      ],
+      "example_ids": [
+        "w4d17-safety-001",
+        "w4d17-safety-002"
+      ]
+    },
+    {
+      "id": "completeness",
+      "name_zh": "完整性",
+      "definition": "在保证相关和简洁的前提下，优先选择覆盖用户关键子问题、必要步骤、前置条件和限制的回答。",
+      "chosen_criteria": [
+        "回答所有决定任务成败的子问题",
+        "包含必要步骤、依赖、验证方式和关键限制",
+        "详细程度与任务复杂度相匹配"
+      ],
+      "rejected_patterns": [
+        "结论方向正确但遗漏关键步骤或前置条件",
+        "只给出第一步而没有完成路径",
+        "缺少会影响用户决策的重要限制"
+      ],
+      "boundary_rules": [
+        "完整不等于更长，重复和跑题不能成为 chosen 的优势",
+        "若简短回答已经满足问题，不得人为扩写制造偏好",
+        "不要同时把 rejected 写成事实错误或完全无关"
+      ],
+      "quality_checks": [
+        "列出 Prompt 中每个明确和必要的隐含子任务",
+        "确认 chosen 覆盖这些子任务且没有无关填充",
+        "确认 rejected 的主要缺陷确实是遗漏"
+      ],
+      "example_ids": [
+        "w4d17-completeness-001",
+        "w4d17-completeness-002"
+      ]
+    },
+    {
+      "id": "helpfulness",
+      "name_zh": "有用性",
+      "definition": "优先选择能让用户安全、正确地继续行动的回答，包括可执行步骤、适用的最小代码、验证方法和失败处理。",
+      "chosen_criteria": [
+        "提供与目标直接相关的可执行下一步",
+        "需要代码时给出最小、清晰且可验证的示例",
+        "指出关键前提、常见失败点或验证命令"
+      ],
+      "rejected_patterns": [
+        "只有抽象概念，没有可执行路径",
+        "提供缺少关键上下文或无法直接使用的代码片段",
+        "建议与用户环境或目标明显不匹配"
+      ],
+      "boundary_rules": [
+        "代码并非天然优于文字，只有在确实提高可操作性时才构成优势",
+        "有用性不得以牺牲事实正确性、安全性或用户约束为代价",
+        "不要把单纯更长误标为更有用"
+      ],
+      "quality_checks": [
+        "模拟用户是否能依据 chosen 完成下一步",
+        "检查代码示例的语法、输入输出和运行前提",
+        "确认 rejected 仍然具有现实迷惑性而不是无意义文本"
+      ],
+      "example_ids": [
+        "w4d17-helpfulness-001",
+        "w4d17-helpfulness-002"
+      ]
+    },
+    {
+      "id": "format",
+      "name_zh": "格式",
+      "definition": "当用户明确指定输出结构时，优先选择遵守 Markdown、表格、JSON、列表或其他可解析格式且内容保持正确的回答。",
+      "chosen_criteria": [
+        "遵守用户明确要求的输出格式",
+        "结构合法、可读或可被预期工具解析",
+        "格式化过程中不丢失必要内容"
+      ],
+      "rejected_patterns": [
+        "内容大致正确但没有遵守明确格式要求",
+        "输出看似目标格式但语法无效",
+        "结构混乱导致信息难以定位或无法解析"
+      ],
+      "boundary_rules": [
+        "用户未提出格式要求时，Markdown 不自动优于纯文本",
+        "两侧内容信息量应尽量一致，仅突出格式遵循差异",
+        "不能用格式偏好掩盖 chosen 的事实错误"
+      ],
+      "quality_checks": [
+        "根据目标格式执行人工或机器解析",
+        "确认 chosen 与 rejected 的核心信息基本等价",
+        "确认格式要求来自 Prompt 而非标注者个人审美"
+      ],
+      "example_ids": [
+        "w4d17-format-001",
+        "w4d17-format-002"
+      ]
+    }
+  ]
+}

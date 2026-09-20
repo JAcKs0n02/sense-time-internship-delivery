@@ -1,0 +1,14 @@
+{
+  "sample_id": "1eec81ec1cbd75d254939f374e1b0a848eacaf0276034f45a069de2676284d5b",
+  "prompt": "这句话用到了动词隐喻吗？请回答“是”或“否”。\n\n水果和树叶的花环缠绕在低矮的拱门上。",
+  "messages": [
+    {
+      "role": "user",
+      "content": "这句话用到了动词隐喻吗？请回答“是”或“否”。\n\n水果和树叶的花环缠绕在低矮的拱门上。"
+    }
+  ],
+  "answer": "否",
+  "truncated": false,
+  "input_tokens": 63,
+  "output_tokens": 2
+}

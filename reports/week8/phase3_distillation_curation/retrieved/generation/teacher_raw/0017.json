@@ -1,0 +1,14 @@
+{
+  "sample_id": "0fb35604f3a2a676d4d18b0e780563745ea2aa031aa3d21314c01c23c2acceb1",
+  "prompt": "为一家设计可持续能源的公司创作一个吸引人的口号。",
+  "messages": [
+    {
+      "role": "user",
+      "content": "为一家设计可持续能源的公司创作一个吸引人的口号。"
+    }
+  ],
+  "answer": "\"向着绿色未来迈进 - 用我们的设计为地球充电!\"",
+  "truncated": false,
+  "input_tokens": 42,
+  "output_tokens": 15
+}

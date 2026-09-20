@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "files": [
+    {
+      "submission_path": "Code/day32_analysis.py",
+      "formal_source": "deliverables/week6/source/week6_agent/day32_analysis.py",
+      "bytes": 9161,
+      "sha256": "c62d8f715babe5a467c0254f2de28a3882f851df8c42ab8f9ba52f62d16cf680"
+    },
+    {
+      "submission_path": "Config/prompt_manifest_v2.json",
+      "formal_source": "deliverables/week6/day32/source/configs/prompt_manifest_v2.json",
+      "bytes": 891,
+      "sha256": "9d815d12889eb103fd3bd6607754486239e758688ac6b2a53a57c00eb3f148ac"
+    },
+    {
+      "submission_path": "Config/system_prompt_ablation_input_fidelity.txt",
+      "formal_source": "deliverables/week6/day32/source/configs/system_prompt_ablation_input_fidelity.txt",
+      "bytes": 1093,
+      "sha256": "1df4f0cbba21ad12babb1d347e4ec8db8f167126cfcf86eba50ace24665e8f8c"
+    },
+    {
+      "submission_path": "Config/system_prompt_main.txt",
+      "formal_source": "deliverables/week6/day32/source/configs/system_prompt_main.txt",
+      "bytes": 900,
+      "sha256": "c16614bb753cd8c5226efde24a5ab1acfc55900023eb6f69679ec047d25f5735"
+    },
+    {
+      "submission_path": "Data/tool_sft_dev_v2.json",
+      "formal_source": "deliverables/week6/day31/source/data/tool_sft_dev_v2.json",
+      "bytes": 144907,
+      "sha256": "406b01115967c865cc1d38915e59810e7e260a2e09417722a55d734803043b84"
+    },
+    {
+      "submission_path": "Results/Agent_Error_Mode_Analysis_Report.md",
+      "formal_source": "deliverables/week6/day32/source/results/AGENT_ERROR_ANALYSIS.md",
+      "bytes": 4235,
+      "sha256": "207b7e565eeb408aca85724392ec67d5fa0e70a0e80ea6d00c1501c6e56a653e"
+    },
+    {
+      "submission_path": "Results/ablation_error_analysis.json",
+      "formal_source": "deliverables/week6/day32/source/results/v2_analysis/optimized_error_analysis.json",
+      "bytes": 22082,
+      "sha256": "08aea037d964fbb99a9fcb3d1f0837b2e52becc12f54c702cb87d8276f13b539"
+    },
+    {
+      "submission_path": "Results/ablation_error_cases.csv",
+      "formal_source": "deliverables/week6/day32/source/results/v2_analysis/optimized_error_cases.csv",
+      "bytes": 5848,
+      "sha256": "e6dbb3b1685de7f74742562ef5dfd4f2862c782a7272f56c3ccb68d19e9b7e2e"
+    },
+    {
+      "submission_path": "Results/day32_validation.json",
+      "formal_source": "deliverables/week6/day32/source/results/day32_validation.json",
+      "bytes": 732,
+      "sha256": "15744fad9527c2181b699f4acc8499d6b661075bb651489840035d72829b9809"
+    },
+    {
+      "submission_path": "Results/main_error_analysis.json",
+      "formal_source": "deliverables/week6/day32/source/results/v2_analysis/baseline_error_analysis.json",
+      "bytes": 21767,
+      "sha256": "b54fdde43e307a627d4ecf3fa0f6e3550f187e4e6facd755a7b1e705c854516b"
+    },
+    {
+      "submission_path": "Results/main_error_cases.csv",
+      "formal_source": "deliverables/week6/day32/source/results/v2_analysis/baseline_error_cases.csv",
+      "bytes": 5701,
+      "sha256": "f6ceb593f0e79e985c5867e42e66014ed9664818c562ea973d058bf1a2ada5b9"
+    },
+    {
+      "submission_path": "Results/prompt_ablation_eval_v2.json",
+      "formal_source": "deliverables/week6/day32/source/results/v2_dev_prompt_ablation.json",
+      "bytes": 174844,
+      "sha256": "9f5ec668132dd396367e924bd38556f6d344568fbd8d3a8d2e756764a3ada564"
+    },
+    {
+      "submission_path": "Results/prompt_comparison.json",
+      "formal_source": "deliverables/week6/day32/source/results/v2_analysis/prompt_comparison.json",
+      "bytes": 1884,
+      "sha256": "0e0730b58ab39bba9348c5dcd30dc1badb043621d6cf87f6544429a64de38dd7"
+    },
+    {
+      "submission_path": "Results/prompt_main_eval_v2.json",
+      "formal_source": "deliverables/week6/day32/source/results/v2_dev_prompt_main.json",
+      "bytes": 175622,
+      "sha256": "f5df3932e06c3f377e05dc5f183b5cb974d29914de29af81a5eab510e9bf738d"
+    },
+    {
+      "submission_path": "Results/prompt_selection_v2.json",
+      "formal_source": "deliverables/week6/day32/source/results/v2_prompt_selection.json",
+      "bytes": 1385,
+      "sha256": "6739a53b23f3195f22f23bef58ba96f74ee56aeb5a8cb2b36b7e9af46a21c9cd"
+    },
+    {
+      "submission_path": "Scripts/analyze_failures.py",
+      "formal_source": "deliverables/week6/day32/source/scripts/analyze_failures.py",
+      "bytes": 3285,
+      "sha256": "06b5182298962fb2dcef4b423586c0f6af60a944a61726157e6ab405e72f3e2c"
+    },
+    {
+      "submission_path": "Scripts/validate_day32.py",
+      "formal_source": "deliverables/week6/day32/source/scripts/validate_day32.py",
+      "bytes": 5009,
+      "sha256": "7e83a28145ee07f7ccdc8fcbac1068db753de441280923c6949d46094e5dcdbd"
+    }
+  ]
+}

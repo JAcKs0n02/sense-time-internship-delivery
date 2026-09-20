@@ -1,0 +1,73 @@
+timestamp=2026-07-17T18:34:19.522916+08:00
+model_dir=/root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct
+torch=2.5.1+cu121
+cuda_available=True
+gpu=NVIDIA GeForce RTX 3090
+config_sha256=7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c
+config_model_type=qwen2
+config_vocab_size=152064
+config_hidden_size=3584
+config_intermediate_size=18944
+config_num_hidden_layers=28
+config_num_attention_heads=28
+config_num_key_value_heads=4
+config_rope_theta=1000000.0
+config_max_position_embeddings=32768
+config_verification=PASS
+loading_weights=True
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.19it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.37it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.40it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.50it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.44it/s]
+loading_weights=COMPLETE
+model_class=Qwen2ForCausalLM
+model_dtype=torch.bfloat16
+model_device=cuda:0
+parameters_token_embeddings=544997376
+parameters_layer_00=233057792
+parameters_layer_01=233057792
+parameters_layer_02=233057792
+parameters_layer_03=233057792
+parameters_layer_04=233057792
+parameters_layer_05=233057792
+parameters_layer_06=233057792
+parameters_layer_07=233057792
+parameters_layer_08=233057792
+parameters_layer_09=233057792
+parameters_layer_10=233057792
+parameters_layer_11=233057792
+parameters_layer_12=233057792
+parameters_layer_13=233057792
+parameters_layer_14=233057792
+parameters_layer_15=233057792
+parameters_layer_16=233057792
+parameters_layer_17=233057792
+parameters_layer_18=233057792
+parameters_layer_19=233057792
+parameters_layer_20=233057792
+parameters_layer_21=233057792
+parameters_layer_22=233057792
+parameters_layer_23=233057792
+parameters_layer_24=233057792
+parameters_layer_25=233057792
+parameters_layer_26=233057792
+parameters_layer_27=233057792
+parameters_final_norm=3584
+parameters_lm_head=544997376
+layer_count=28
+unique_layer_parameter_counts=[233057792]
+body_parameters=7070619136
+total_parameters=7615616512
+row_sum=7615616512
+shape_q_proj_weight=(3584, 3584)
+shape_q_proj_bias=(3584,)
+shape_k_proj_weight=(512, 3584)
+shape_k_proj_bias=(512,)
+shape_v_proj_weight=(512, 3584)
+shape_v_proj_bias=(512,)
+shape_o_proj_weight=(3584, 3584)
+shape_lm_head_weight=(152064, 3584)
+weight_shape_verification=PASS
+csv_path=/root/autodl-tmp/qwen25-week1/week1/logs/day3_weight_parameter_counts.csv
+forward_logits_shape=(1, 1, 152064)
+peak_gpu_memory_gib=14.195
+forward_verification=PASS
+verification=PASS

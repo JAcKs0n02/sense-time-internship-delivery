@@ -1,0 +1,302 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请提取图表中的关键信息，并概括最重要的结论。"
+      },
+      {
+        "role": "assistant",
+        "content": "图中显示表格 OCR 处理流程图。左侧输入表格经过文本检测和表格结构预测；右侧通过 Cell 坐标聚合与文本聚合生成表格 Excel。"
+      }
+    ],
+    "images": [
+      "images/dev/chart_table-11.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“所有单元格都为空白”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "该说法不符合图像。图中显示表格 OCR 处理流程图。左侧输入表格经过文本检测和表格结构预测；右侧通过 Cell 坐标聚合与文本聚合生成表格 Excel。"
+      }
+    ],
+    "images": [
+      "images/dev/chart_table-11.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请提取图表中的关键信息，并概括最重要的结论。"
+      },
+      {
+        "role": "assistant",
+        "content": "图中显示按国家或地区统计奖牌数的排名表。列包含名次、国家/地区、金牌、银牌、铜牌和奖牌总数；前几行可见中国、美国、俄罗斯等。"
+      }
+    ],
+    "images": [
+      "images/dev/chart_table-12.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图中没有任何结构化数据区域”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "该说法不符合图像。图中显示按国家或地区统计奖牌数的排名表。列包含名次、国家/地区、金牌、银牌、铜牌和奖牌总数；前几行可见中国、美国、俄罗斯等。"
+      }
+    ],
+    "images": [
+      "images/dev/chart_table-12.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中的公式，并解释各部分表达的含义。"
+      },
+      {
+        "role": "assistant",
+        "content": "图中是一条印刷体的复积分表达式。可转写为：\\zeta_0(\\nu)=-\\frac{\\nu e^{-2\\nu}}{\\pi}\\int_{\\mu}^{\\infty}d\\omega\\int_{C_+}dz\\,\\frac{2z^2}{(z^2+\\omega^2)^{\\nu+1}}\\widetilde{\\Psi}(\\omega,z)e^{i\\epsilon z}。左端以 \\zeta_0(\\nu) 开头；右端含无穷积分、C_+ 路径积分、指数项和波函数符号。"
+      }
+    ],
+    "images": [
+      "images/dev/formula-11.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“公式的结果明确等于零”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "该说法不符合图像。图中是一条印刷体的复积分表达式。可转写为：\\zeta_0(\\nu)=-\\frac{\\nu e^{-2\\nu}}{\\pi}\\int_{\\mu}^{\\infty}d\\omega\\int_{C_+}dz\\,\\frac{2z^2}{(z^2+\\omega^2)^{\\nu+1}}\\widetilde{\\Psi}(\\omega,z)e^{i\\epsilon z}。左端以 \\zeta_0(\\nu) 开头；右端含无穷积分、C_+ 路径积分、指数项和波函数符号。"
+      }
+    ],
+    "images": [
+      "images/dev/formula-11.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中的公式，并解释各部分表达的含义。"
+      },
+      {
+        "role": "assistant",
+        "content": "图中是一条白色手写字的代数项。可转写为：x_k x_{2k}+y_k y_{2k}。黑色背景上有两个乘积项；两个乘积之间是加号。"
+      }
+    ],
+    "images": [
+      "images/dev/formula-12.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图片是一张统计数据表而不是公式”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "该说法不符合图像。图中是一条白色手写字的代数项。可转写为：x_k x_{2k}+y_k y_{2k}。黑色背景上有两个乘积项；两个乘积之间是加号。"
+      }
+    ],
+    "images": [
+      "images/dev/formula-12.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请客观描述图中的主体、环境和重要细节。"
+      },
+      {
+        "role": "assistant",
+        "content": "图中显示布满撞击坑和阴影的月球表面。图像为灰度；不同大小的圆形凹坑分布在崎岖地表。"
+      }
+    ],
+    "images": [
+      "images/dev/natural_scene-11.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图中至少有三个人正在交谈”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "该说法不符合图像。图中显示布满撞击坑和阴影的月球表面。图像为灰度；不同大小的圆形凹坑分布在崎岖地表。"
+      }
+    ],
+    "images": [
+      "images/dev/natural_scene-11.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请客观描述图中的主体、环境和重要细节。"
+      },
+      {
+        "role": "assistant",
+        "content": "图中显示车库内停放的一辆红色摩托车。摩托车侧面朝向右侧；背景可见木架、纸箱和工具等杂物。"
+      }
+    ],
+    "images": [
+      "images/dev/natural_scene-12.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“画面是室内会议室”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "该说法不符合图像。图中显示车库内停放的一辆红色摩托车。摩托车侧面朝向右侧；背景可见木架、纸箱和工具等杂物。"
+      }
+    ],
+    "images": [
+      "images/dev/natural_scene-12.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中清晰可见的文字；无法确认的部分不要猜测。"
+      },
+      {
+        "role": "assistant",
+        "content": "图中是白色发光中文店招。文字位于灰色背景上；字间距较大。可辨认文字包括：母婴用品连锁。"
+      }
+    ],
+    "images": [
+      "images/dev/ocr-11.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图中的数字只有 2024”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "该说法不符合图像。图中是白色发光中文店招。文字位于灰色背景上；字间距较大。可辨认文字包括：母婴用品连锁。"
+      }
+    ],
+    "images": [
+      "images/dev/ocr-11.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中清晰可见的文字；无法确认的部分不要猜测。"
+      },
+      {
+        "role": "assistant",
+        "content": "图中是放在地面上的招商银行联名银行卡。卡片为橙黄色并带卡通图案；右下角可见银联标识。可辨认文字包括：招商银行；MICHAEL；UnionPay 银联。"
+      }
+    ],
+    "images": [
+      "images/dev/ocr-12.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图片完全不含可读文字”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "该说法不符合图像。图中是放在地面上的招商银行联名银行卡。卡片为橙黄色并带卡通图案；右下角可见银联标识。可辨认文字包括：招商银行；MICHAEL；UnionPay 银联。"
+      }
+    ],
+    "images": [
+      "images/dev/ocr-12.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请说明当前界面的用途、主要区域以及用户可以执行的操作。"
+      },
+      {
+        "role": "assistant",
+        "content": "图中显示Windows 上并排打开的任务管理器和 Google 浏览器窗口。左侧任务管理器显示进程与资源占用；右侧浏览器停留在 Google 搜索主页。"
+      }
+    ],
+    "images": [
+      "images/dev/ui-11.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“用户正在视频通话且摄像头已打开”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "该说法不符合图像。图中显示Windows 上并排打开的任务管理器和 Google 浏览器窗口。左侧任务管理器显示进程与资源占用；右侧浏览器停留在 Google 搜索主页。"
+      }
+    ],
+    "images": [
+      "images/dev/ui-11.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请说明当前界面的用途、主要区域以及用户可以执行的操作。"
+      },
+      {
+        "role": "assistant",
+        "content": "图中显示Windows 11 桌面及左侧快捷方式。背景为蓝色 Windows 11 图案；底部任务栏可见，桌面左侧排列应用图标。"
+      }
+    ],
+    "images": [
+      "images/dev/ui-12.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“当前应用是一个全屏游戏”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "该说法不符合图像。图中显示Windows 11 桌面及左侧快捷方式。背景为蓝色 Windows 11 图案；底部任务栏可见，桌面左侧排列应用图标。"
+      }
+    ],
+    "images": [
+      "images/dev/ui-12.png"
+    ]
+  }
+]

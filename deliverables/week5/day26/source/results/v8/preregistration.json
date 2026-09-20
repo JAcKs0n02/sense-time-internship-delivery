@@ -1,0 +1,40 @@
+{
+  "schema_version": "day26-v8-preregistration-1",
+  "status": "PRE_REGISTERED",
+  "created_date": "2026-08-24",
+  "purpose": "bounded corrective run before the Day27 Week5 report",
+  "max_candidates": 2,
+  "stop_rule": "stop-after-first-dev-pass-or-two-dev-fails",
+  "dev_source": "unopened-v7-final-promoted-to-v8-dev",
+  "final_status": "NOT_ACQUIRED_UNTIL_DEV_PASS",
+  "lora_scale": 1.0,
+  "dev_gate": {
+    "mean_gain_min": 0.35,
+    "direct_gain_min": 0.0,
+    "opportunity_win_rate_min": 0.5,
+    "hallucination_rate_not_worse": true
+  },
+  "frozen_inputs": {
+    "data_manifest_sha256": "a11e7f21b5cb540f024ab2ea6442ce13b41b8685990677e1dc655afa29f4fd22",
+    "train_sha256": "1bc5eb667f24cc9324dbeb1aa09dca042764da76688563b4bfcd33fba9dc04eb",
+    "dev_internal_sha256": "b7129fe14aafd34e68cf5a044bd57eeb86bd6d6fbf70ba323f6bd45a53968312",
+    "generation_config_sha256": "fe63978dbe52e0a2efac646d03bcdf444b1ab5ac9eddcfcb3137b834ec9ae9d7",
+    "scoring_config_sha256": "367a4e997ec17b445b661aab3c64aa2e285acde0bc2ac871cce6b382fbf30f3e"
+  },
+  "candidates": [
+    {
+      "candidate_id": "v8-e",
+      "role": "main",
+      "config": "configs/qwen2vl_lora_v8_e_balanced_continue.yaml",
+      "parent_adapter_sha256": "759b1d4d856368a8b6b69c43f42ac95984a5714fa0e5bfca7e09af9599c41e2d",
+      "allowed_only_if": "always-first"
+    },
+    {
+      "candidate_id": "v8-f",
+      "role": "fallback",
+      "config": "configs/qwen2vl_lora_v8_f_balanced_restart.yaml",
+      "parent_adapter_sha256": null,
+      "allowed_only_if": "v8-e-dev-fails"
+    }
+  ]
+}

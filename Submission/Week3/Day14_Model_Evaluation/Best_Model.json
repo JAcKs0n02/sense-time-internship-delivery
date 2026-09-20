@@ -1,0 +1,25 @@
+{
+  "status": "selected_from_two_human_raters",
+  "model_id": "epoch-e5",
+  "weighted_total": 3.78875,
+  "accuracy": 3.35,
+  "tie_breaker": "weighted_total",
+  "adapter_path": "runs/epoch-e5/attempt-001/adapter",
+  "automatic_metrics_used_for_ranking": false,
+  "base_comparison": {
+    "base_weighted_total": 4.205,
+    "best_sft_weighted_total": 3.78875,
+    "best_sft_exceeds_base": false
+  },
+  "ranking": [
+    "epoch-e5",
+    "epoch-e3",
+    "rank-r64",
+    "lr-1e-4",
+    "rank-r32",
+    "rank-r8",
+    "lr-5e-5",
+    "epoch-e2",
+    "lr-2e-4"
+  ]
+}

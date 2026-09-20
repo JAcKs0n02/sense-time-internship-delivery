@@ -1,0 +1,82 @@
+{
+  "run_spec": {
+    "schema_version": "1.0",
+    "model_id": "reward_corrective_40step_merged",
+    "runtime_load_mode": "base_plus_peft_merge",
+    "preflight_manifest_sha256": "d9be5c285591d7fcf0a8e91d5ec351ecefabe241d0372e1aa21d067e400d28ef",
+    "source_manifest_sha256": "f8c41f8096b61453aa6cce8c72c8a594682d80531c756ddb7b35cf2d880cf7e9",
+    "config_file_sha256": "acf0792bcc86b814f7fd21bf9fff5290288ccdcef10cf41bd1d3ea4b0deb0d1b",
+    "cases_sha256": "5850ecf8d87e493ec9d825167e2007eab21554576e59448734ea9e714912dbbf",
+    "tools_sha256": "aebcb9c278c38197672737c0674199c7e98f6358d6f7e39b92d8ae927fd329a5",
+    "system_prompt_sha256": "b9132d22ab2154b7f36eabe49c281dcfb4c005d67c604ae3e19ce3545654623e",
+    "system_prompt_version": "week6-day30-three-tool-react-v1",
+    "code_files": [
+      {
+        "path": "deliverables/week6/source/week6_agent/day30_agent.py",
+        "sha256": "2a0f5531f97e5e576c828d0c059bb28350449d948e6adbd7adbec4bdbd5a8bb0"
+      },
+      {
+        "path": "deliverables/week6/source/week6_agent/day30_validation.py",
+        "sha256": "31264aaae09e99143966e894e3c5f30a8f23b707713b5ecebb1a0a30b514ae35"
+      },
+      {
+        "path": "deliverables/week6/source/week6_agent/tools/calculator.py",
+        "sha256": "6f60a42fde9f9d1506225f4033cb41572972ea6a12caa34fdc1d896dadd4e886"
+      },
+      {
+        "path": "deliverables/week6/source/week6_agent/tools/knowledge_retrieval.py",
+        "sha256": "c9a76c2826ce217753b03ebff0552e065e08731b30f742203a664330cd76cd3b"
+      },
+      {
+        "path": "deliverables/week6/source/week6_agent/tools/code_executor.py",
+        "sha256": "2bb03a5aead3af7a9d6a57a4744150b9515a269f5beafe61391b1d2dc98a261e"
+      },
+      {
+        "path": "deliverables/week6/day30/source/scripts/initialize_day30.py",
+        "sha256": "1278050aac8fa17afa93eeebf7baebe93c63b0f4996645ab837605aab617f2a5"
+      },
+      {
+        "path": "deliverables/week6/day30/source/scripts/run_multistep.py",
+        "sha256": "e9987e7088b87164575fb5da3c3f5db51392591c3b15919a95c285d15524df7c"
+      },
+      {
+        "path": "deliverables/week6/day30/source/scripts/validate_day30.py",
+        "sha256": "3807407f1d08fb2644baa8ddfe35867dbd5ab3fa6cbd61e7255c9dde0e944c4a"
+      }
+    ],
+    "effective_config": {
+      "schema_version": "1.0",
+      "model_id": "reward_corrective_40step_merged",
+      "runtime_load_mode": "base_plus_peft_merge",
+      "expected_remote_model_path": "/root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged",
+      "base_archive_manifest_sha256": "e4512f7dd0f85b2f1d8154d123aec176295f557046142aab406a030c8e76e971",
+      "expected_remote_adapter_path": "/root/autodl-tmp/qwen25-week4/day20-remediation/runs/reward-corrective-40step/attempt_001/trainer_output",
+      "expected_adapter_run": "reward-corrective-40step/attempt_001",
+      "expected_adapter_bytes": 80792096,
+      "expected_adapter_sha256": "d7a932ee4f28c8950db289126381f5d4dd30a037b238852e87ad8e5a241f9e52",
+      "archived_merged_model_path": "/root/autodl-tmp/qwen25-week4/best_model/qwen25-7b-week4-dpo-corrective-merged",
+      "archived_merged_manifest_sha256": "aca9a2932ed427f8fc6e9962e70274eb286a09c446d177af2bc00f6df1675e4c",
+      "tool_names": [
+        "calculator",
+        "knowledge_retrieval",
+        "code_executor"
+      ],
+      "system_prompt_version": "week6-day30-three-tool-react-v1",
+      "max_steps": 6,
+      "runtime_limit_seconds": 60,
+      "generation": {
+        "do_sample": false,
+        "max_new_tokens": 384,
+        "repetition_penalty": 1.0,
+        "seed": 42
+      },
+      "remote_model_path": "/root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged",
+      "remote_adapter_path": "/root/autodl-tmp/qwen25-week4/day20-remediation/runs/reward-corrective-40step/attempt_001/trainer_output",
+      "recursion_limit": 16,
+      "config_file_sha256": "acf0792bcc86b814f7fd21bf9fff5290288ccdcef10cf41bd1d3ea4b0deb0d1b",
+      "source_manifest_sha256": "f8c41f8096b61453aa6cce8c72c8a594682d80531c756ddb7b35cf2d880cf7e9"
+    },
+    "environment_api_evidence_sha256": "9056e74646c20db22f731508fa96cdbde6ad884a72ead307f0067ac19d5b7bd4"
+  },
+  "run_spec_sha256": "6abbf0b14c7bdde998b28f327a94568fa87f0663ed49cab78fc572431437dc19"
+}

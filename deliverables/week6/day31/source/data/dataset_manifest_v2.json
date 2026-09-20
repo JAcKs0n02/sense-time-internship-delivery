@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.0",
+  "profile": "week6_agent_formal_v2",
+  "generator": {
+    "path": "deliverables/week6/day31/source/scripts/build_tool_sft_dataset.py",
+    "sha256": "5121e51e151f5224a4d820284b06ed615262d9e62ed4260045cdae0d8ee0d28a"
+  },
+  "knowledge_base": {
+    "path": "deliverables/week6/day31/source/data/knowledge_base_v2.json",
+    "sha256": "21a72d361880750760b2277e9e8e64699934822a5cb464f99bc6cb97fc697600",
+    "products_sha256": "62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a"
+  },
+  "tool_names": [
+    "calculator",
+    "knowledge_retrieval",
+    "code_executor"
+  ],
+  "splits": {
+    "train_core_100": {
+      "file_name": "tool_sft_train_core_100.json",
+      "row_count": 100,
+      "file_sha256": "c28ba5e24ca2bdbdb08d75349c6867f29017c0356041e0835b857f595acb9984",
+      "canonical_content_sha256": "f92c8d5340cb1b6c1a6a96ccd55fd5740b0967c2b50c8e16fadd3a932432f027",
+      "category_counts": {
+        "calculator": 20,
+        "code_executor": 20,
+        "knowledge_plus_calculator": 25,
+        "knowledge_retrieval": 20,
+        "recovery_or_termination": 15
+      }
+    },
+    "train_expanded": {
+      "file_name": "tool_sft_train_expanded.json",
+      "row_count": 200,
+      "file_sha256": "2517f85b2f26d0ee350ea4b04a9ea990e6615c41a9aa9efa309972937ccc17ec",
+      "canonical_content_sha256": "a6bf2c2fe05ddbf535ab919ca51ebae97f900251442c16683db395bec65233f4",
+      "category_counts": {
+        "calculator": 40,
+        "code_executor": 40,
+        "knowledge_plus_calculator": 50,
+        "knowledge_retrieval": 40,
+        "recovery_or_termination": 30
+      }
+    },
+    "train_v2": {
+      "file_name": "tool_sft_train_v2.json",
+      "row_count": 300,
+      "file_sha256": "85c4840b3105a1be894e5c508afcd3df337db0626aa0fd0a1fcb432bd19e29c7",
+      "canonical_content_sha256": "b213a075e36266760bb54e30a705fe5266d257e85417ea8c76cd7f9895edb653",
+      "category_counts": {
+        "calculator": 60,
+        "code_executor": 60,
+        "knowledge_plus_calculator": 75,
+        "knowledge_retrieval": 60,
+        "recovery_or_termination": 45
+      }
+    },
+    "dev_v2": {
+      "file_name": "tool_sft_dev_v2.json",
+      "row_count": 40,
+      "file_sha256": "406b01115967c865cc1d38915e59810e7e260a2e09417722a55d734803043b84",
+      "canonical_content_sha256": "d90e49c54c69d52361aa0bb90dcdcddcf1b46575d0229fbb1252b5df134421ef",
+      "category_counts": {
+        "calculator": 8,
+        "code_executor": 8,
+        "knowledge_plus_calculator": 10,
+        "knowledge_retrieval": 8,
+        "recovery_or_termination": 6
+      }
+    },
+    "test_v2": {
+      "file_name": "tool_sft_test_v2.json",
+      "row_count": 100,
+      "file_sha256": "ca74e32574bd7282f1a12428ec9559e2cf6abec58007fc3d7212c5160742b050",
+      "canonical_content_sha256": "38d398b454bf512a165ec02660e7e023dfaba0364dc4f5cd9c87cfa749a7cace",
+      "category_counts": {
+        "calculator": 20,
+        "code_executor": 20,
+        "knowledge_plus_calculator": 25,
+        "knowledge_retrieval": 20,
+        "recovery_or_termination": 15
+      }
+    }
+  },
+  "selection_policy": {
+    "dev_only_for_checkpoint_and_prompt_selection": true,
+    "test_v2_reserved_for_final_evaluation": true,
+    "raw_and_guarded_modes_reported_separately": true
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "schema_version": "2.0",
+  "final_adapter_sha256": "0800773f2f7df0add00c45c685fcd484be3ce296084f0f79e60e20e16ed8dd7b",
+  "checkpoint_76_sha256": "0800773f2f7df0add00c45c685fcd484be3ce296084f0f79e60e20e16ed8dd7b",
+  "byte_identical": true,
+  "evaluation_reuse": "checkpoint-76 development result represents the byte-identical final adapter"
+}

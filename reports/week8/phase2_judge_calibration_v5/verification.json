@@ -1,0 +1,63 @@
+{
+  "status": "CALIBRATION_FAILED_NOT_RELEASED",
+  "reviewed_utc": "2026-09-17T12:47:55.032254+00:00",
+  "calls": 5,
+  "retries": 0,
+  "accepted_cases": [
+    "PILOT-MATH-05",
+    "PILOT-REASON-06",
+    "V3-01",
+    "V3-02"
+  ],
+  "failures": [
+    {
+      "id": "V3-03",
+      "error": "judge returned invalid JSON",
+      "finish_reason": "stop"
+    }
+  ],
+  "unattempted_cases": [
+    "V3-04",
+    "V3-05",
+    "V3-06"
+  ],
+  "usage": {
+    "prompt_tokens": 8533,
+    "completion_tokens": 10621,
+    "total_tokens": 19154
+  },
+  "formal_scoring_approved": false,
+  "gpu_started": false,
+  "quality_findings": [
+    "REASON-06 prompt does not explicitly constrain decision value/type; reference and automatic check do. Current judge penalizes boolean false; review necessary before attributing deduction to model.",
+    "MATH-05 ambiguity in Chinese discount wording remains frozen; do not edit question after seeing answers."
+  ],
+  "files": {
+    "PILOT-MATH-05-checks.json": "ae5b6135bf7c6964584ef9945db21fc58724ffb90a2a93638cdffbb85cf91d92",
+    "PILOT-MATH-05-raw.json": "e0ed12c066ea27b9273bd1dd15323b26c5e91848c48bcaf5071e2b6656269285",
+    "PILOT-MATH-05.started": "3cd603f8713509ec8459ba420322988a76cc2c6f1f7dbc2993ef3d1c08cc537e",
+    "PILOT-REASON-06-checks.json": "9806eae893c7ecd6ede84a27aac9f55c72e7f7ca8435c0bb125b0eb091c626e0",
+    "PILOT-REASON-06-raw.json": "943d18f739901286e493f0fa9ab7a719b3ef712de67a2e266c077015f4f82457",
+    "PILOT-REASON-06.started": "3cd603f8713509ec8459ba420322988a76cc2c6f1f7dbc2993ef3d1c08cc537e",
+    "V3-01-checks.json": "b65f3795a04d26b434d7cdcda14e94e170e792a3a540e5a2004375d59b2942d8",
+    "V3-01-raw.json": "87fadb5b48db21b5f8a00be41168697e26efd1e35c65b5052748801ead6f79fc",
+    "V3-01.started": "3cd603f8713509ec8459ba420322988a76cc2c6f1f7dbc2993ef3d1c08cc537e",
+    "V3-02-checks.json": "e4ec0decef9f5c26fed99046fa59a1516fc27777ff59ef38516b56b6841998d4",
+    "V3-02-raw.json": "175e771df053126cbe351e0526842074a9d2ad160752604b375d3b6a1d9c3565",
+    "V3-02.started": "3cd603f8713509ec8459ba420322988a76cc2c6f1f7dbc2993ef3d1c08cc537e",
+    "V3-03-raw.json": "fc65572f52d2613b405b63f335171ada6da257b4674407e8ca07b55a7e6fb260",
+    "V3-03.started": "3cd603f8713509ec8459ba420322988a76cc2c6f1f7dbc2993ef3d1c08cc537e",
+    "balance-before-01.json": "59592d6f402435f69776da5b4ffe80604a65fe1d806c2048a3dd9ca96549acd6",
+    "balance-before-02.json": "59592d6f402435f69776da5b4ffe80604a65fe1d806c2048a3dd9ca96549acd6",
+    "balance-before-03.json": "59592d6f402435f69776da5b4ffe80604a65fe1d806c2048a3dd9ca96549acd6",
+    "balance-before-04.json": "59592d6f402435f69776da5b4ffe80604a65fe1d806c2048a3dd9ca96549acd6",
+    "balance-before-05.json": "59592d6f402435f69776da5b4ffe80604a65fe1d806c2048a3dd9ca96549acd6",
+    "latest_balance.json": "0fa895b91981af420f470c934f65916f1fbe2ee0e135213c108385fad395ad52",
+    "plan.json": "66cb1e1dde817cd8c608137f3c872dabf50e4213a4b1c1f5a2f457eca1dc7ea4",
+    "request_parity.json": "9d02e22d10909f91f86d98dc7e89747864b15ee0528adaf50b3cea6f57a667f7",
+    "run_calibration.py": "606a1fac2f4273cb014a1f67a660ab519b0cf78d6596d502c77e8fc15e53fb90",
+    "started.json": "6221d257cd21e269feccbc11ae73cd29698987934659920f907e1cfa170199c2",
+    "starting_balance.json": "0fa895b91981af420f470c934f65916f1fbe2ee0e135213c108385fad395ad52",
+    "status.json": "88a27f7c182ff1998b767a8cc97b8adad0467490598911782e2e85459463f358"
+  }
+}

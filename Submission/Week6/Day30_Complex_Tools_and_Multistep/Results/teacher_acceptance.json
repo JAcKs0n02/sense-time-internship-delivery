@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "scope": "Day30 teacher requirements",
+  "status": "PASS",
+  "checks": {
+    "code_executor_ast_only_implemented": true,
+    "code_executor_side_effect_marker_absent": true,
+    "three_complete_tool_sources_present": true,
+    "teacher_multistep_case_pass": true,
+    "teacher_trace_has_retrieval_calculation_and_final_answer": true,
+    "price_shipping_total_and_budget_recomputable": true,
+    "model_and_core_run_spec_evidence_bound": true,
+    "transitive_dependency_post_run_audit_present": true
+  },
+  "teacher_case": {
+    "case_id": "teacher_nebula_budget",
+    "tool_sequence": [
+      "knowledge_retrieval",
+      "calculator"
+    ],
+    "auditable_stages": 3,
+    "price_cny": 699,
+    "shipping_cny": 20,
+    "total_cny": 719,
+    "budget_cny": 1000,
+    "over_budget": false,
+    "trace_status": "PASS"
+  },
+  "code_executor_safety_case": {
+    "case_id": "code_side_effect_rejected",
+    "tool_status": "rejected",
+    "error_code": "risk_nodes_detected",
+    "risk_nodes": [
+      "Attribute",
+      "Call"
+    ],
+    "side_effect_marker_absent": true,
+    "trace_status": "PASS"
+  },
+  "source_sha256": {
+    "calculator.py": "6f60a42fde9f9d1506225f4033cb41572972ea6a12caa34fdc1d896dadd4e886",
+    "knowledge_retrieval.py": "c9a76c2826ce217753b03ebff0552e065e08731b30f742203a664330cd76cd3b",
+    "code_executor.py": "2bb03a5aead3af7a9d6a57a4744150b9515a269f5beafe61391b1d2dc98a261e"
+  },
+  "integrity_scope": {
+    "original_run_spec": "Binds model identity, tool sources and schemas, Day30 prompt, frozen cases, and Day30 scripts.",
+    "post_run_audit": "Adds hashes for shared runtime dependencies and the knowledge-base file without claiming they were fields in the original run_spec.",
+    "audit_file": "transitive_integrity_audit.json"
+  },
+  "supplemental_evaluation": {
+    "status": "PARTIAL",
+    "passed": 3,
+    "total": 5,
+    "pass_rate": 0.6,
+    "failed_case_ids": [
+      "orbit_within_budget",
+      "code_ast_valid"
+    ],
+    "interpretation": "The required teacher case and safety side-effect case passed. Two extra stress cases exposed routing inefficiency and remain visible in the internal raw results."
+  }
+}

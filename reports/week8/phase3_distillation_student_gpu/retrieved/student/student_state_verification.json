@@ -1,0 +1,25 @@
+{
+  "global_step": 36,
+  "epochs": 2,
+  "first_loss": 1.6044,
+  "last_loss": 0.6115,
+  "validation": [
+    {
+      "epoch": 1.0,
+      "eval_loss": 1.7604635953903198,
+      "eval_runtime": 0.1976,
+      "eval_samples_per_second": 75.913,
+      "eval_steps_per_second": 10.122,
+      "step": 18
+    },
+    {
+      "epoch": 2.0,
+      "eval_loss": 1.753207802772522,
+      "eval_runtime": 0.1787,
+      "eval_samples_per_second": 83.957,
+      "eval_steps_per_second": 11.194,
+      "step": 36
+    }
+  ],
+  "trainer_state_sha256": "217a027e0d0555465bd8587a69a0913feeb451dab45cae0953c7a0cfa42f1ad4"
+}

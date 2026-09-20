@@ -1,0 +1,21 @@
+[
+  {
+    "name": "config",
+    "returncode": 0
+  },
+  {
+    "name": "candidate",
+    "returncode": 0
+  },
+  {
+    "name": "reject_unreleased",
+    "returncode": 1,
+    "expected_rejection": true,
+    "output_created": false
+  },
+  {
+    "name": "supervised_child_isolation",
+    "returncode": 0,
+    "child_output": "CHILD_SOURCE_AND_NETWORK_GUARD_PASS"
+  }
+]

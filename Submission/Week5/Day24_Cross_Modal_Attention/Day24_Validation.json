@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "status": "PASS",
+  "minimum_cases": 3,
+  "configured_case_count": 4,
+  "validated_case_count": 4,
+  "checks": [
+    {
+      "name": "configs_identity",
+      "status": "PASS",
+      "detail": "model/config identity and fixed normalization match"
+    },
+    {
+      "name": "case_contract",
+      "status": "PASS",
+      "detail": "4 preregistered cases use distinct images and targets"
+    },
+    {
+      "name": "metadata_coverage",
+      "status": "PASS",
+      "detail": "metadata covers all 4 cases exactly once"
+    },
+    {
+      "name": "model_layer_and_hooks",
+      "status": "PASS",
+      "detail": "all cases use eager attention and Hook model.model.layers.19.self_attn"
+    },
+    {
+      "name": "target_alignment",
+      "status": "PASS",
+      "detail": "hash-verified Day23 targets use their preceding causal prediction rows"
+    },
+    {
+      "name": "visual_grid_mapping",
+      "status": "PASS",
+      "detail": "visual token intervals exactly match merger-derived 2D grids"
+    },
+    {
+      "name": "raw_attention_arrays",
+      "status": "PASS",
+      "detail": "all per-token, per-head, and mean arrays are finite and hash-verified"
+    },
+    {
+      "name": "heatmap_files",
+      "status": "PASS",
+      "detail": "4 traceable triptych PNG files are readable and hash-verified"
+    },
+    {
+      "name": "run_summaries",
+      "status": "PASS",
+      "detail": "extraction and rendering summaries pass with complete counts and current hashes"
+    }
+  ],
+  "errors": []
+}

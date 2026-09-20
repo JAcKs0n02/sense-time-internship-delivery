@@ -1,0 +1,22 @@
+[
+  {
+    "id": "STRICT-BOOL",
+    "question": {
+      "instruction": "只输出一行合法JSON，字段为decision、reasons、uncertainty。一次实验只有4个样本，平均提升10%，但没有方差、置信区间或对照组。判断能否宣布方法有效；reasons必须恰好3个字符串，uncertainty为high、medium、low之一。 decision必须为字符串insufficient_evidence或effective之一。",
+      "reference": {
+        "decision": "insufficient_evidence",
+        "reasons": [
+          "样本太小",
+          "缺少不确定性估计",
+          "无对照组"
+        ],
+        "uncertainty": "high"
+      }
+    },
+    "answer": "{\"decision\":false,\"reasons\":[\"样本太小\",\"缺少不确定性估计\",\"无对照组\"],\"uncertainty\":\"high\"}",
+    "checks": {
+      "accuracy_min": 4,
+      "format_max": 3
+    }
+  }
+]

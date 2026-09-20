@@ -1,0 +1,13 @@
+{
+  "model_name_or_path": "/root/autodl-tmp/qwen25-week4/best_model/qwen25-7b-week4-dpo-corrective-merged",
+  "template": "qwen",
+  "trust_remote_code": true,
+  "export_dir": "/root/autodl-tmp/qwen25-week7/models/week4-dpo-gptq-int4",
+  "export_size": 4,
+  "export_device": "cuda",
+  "export_legacy_format": false,
+  "export_quantization_bit": 4,
+  "export_quantization_dataset": "deliverables/week7/day34/source/data/calibration_128.jsonl",
+  "export_quantization_maxlen": 1024,
+  "export_quantization_nsamples": 128
+}

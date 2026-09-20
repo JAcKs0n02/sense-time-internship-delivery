@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "question_file": "/root/autodl-tmp/qwen25-week3/day14/source/data/evaluation_questions.json",
+  "question_file_sha256": "4967eb0ca0a64937446dff1412bb78878d3e744c4699b43cd4265aec09c2e85e",
+  "question_count": 20,
+  "generation_config": {
+    "do_sample": false,
+    "max_new_tokens": 512,
+    "repetition_penalty": 1.0,
+    "seed": 42
+  },
+  "candidate_count": 1,
+  "candidates": [
+    {
+      "candidate_id": "base",
+      "adapter_path": null,
+      "kind": "base"
+    }
+  ],
+  "started_at_utc": "2026-08-06T03:38:09.384187+00:00",
+  "terminal_record_count": 20,
+  "failed_record_count": 0,
+  "completed_at_utc": "2026-08-06T03:42:41.786363+00:00"
+}

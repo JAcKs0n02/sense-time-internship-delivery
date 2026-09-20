@@ -1,0 +1,14 @@
+{
+  "sample_id": "cfe542a277862ea9630a7f6cde575a89c67d5005ae491f3b92b7c77113bac2cc",
+  "prompt": "写一个八个字的俳句。",
+  "messages": [
+    {
+      "role": "user",
+      "content": "写一个八个字的俳句。"
+    }
+  ],
+  "answer": "秋风吹叶落，枝头寂无声。",
+  "truncated": false,
+  "input_tokens": 37,
+  "output_tokens": 11
+}

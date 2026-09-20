@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "evaluation_name": "week4_day20_sft_vs_dpo",
+  "source_file": "Evaluation_Prompts.json",
+  "source_sha256": "841aeb528f3613c789b14f13b1e550e17f5acdd6fb62f71ab30fd7576be11ca8",
+  "system_message": null,
+  "models": {
+    "sft_only": "/root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged",
+    "sft_dpo": "/root/autodl-tmp/qwen25-week4/best_model/qwen25-7b-week4-dpo-corrective-merged"
+  },
+  "generation_config": {
+    "do_sample": false,
+    "max_new_tokens": 512,
+    "repetition_penalty": 1.0,
+    "seed": 42,
+    "dtype": "bfloat16",
+    "device": "cuda:0"
+  },
+  "expected_counts": {
+    "safety": 10,
+    "business": 5,
+    "per_model": 15,
+    "total_responses": 30
+  }
+}

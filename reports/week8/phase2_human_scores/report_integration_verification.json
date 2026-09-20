@@ -1,0 +1,21 @@
+{
+  "status": "HUMAN_RESULTS_INTEGRATED",
+  "scoring_date": "2026-09-18",
+  "reviewers": "anonymous",
+  "original_scored_files_unchanged": true,
+  "csv_matches_human_summary": true,
+  "pdf_pages": 38,
+  "visual_review": "all page overviews and radar page checked",
+  "gpu_started": false,
+  "api_calls": 0,
+  "files": {
+    "reports/technical_report.md": "a1bc6e417a79ba3d247764a6bb625a37dfed14a2f32d7b8cf61d920c98d94dba",
+    "reports/technical_report.docx": "0bd3968e2d531a7464587dfce392f2ae347b534728875ace889ed76bbe54cc28",
+    "reports/technical_report.pdf": "49f6b5f7734698f2e4398bd500efd2220f962594b63be33f20db1c4b65989d80",
+    "reports/figures/week8_human_radar.png": "b125cf545bb3b803aab96ebbe9e16751d58182d44c56648507008a49d793dca3",
+    "reports/week8/current_evaluation_summary.csv": "4098b9bc741caf8c761f0fa0db232653a5665c39ab388f9d7eb009966226e31a",
+    "reports/week8/phase2_human_scores/review_metadata.json": "8e03459c48129b7d63cac3d77c9eaeeedad436e489156e7395c7a29ec36b772b",
+    "docs/week8_human_scoring_result.md": "7c8a71027280a68fea7861092cc02076ef8b956bb79c526c61bd30e756edd2de",
+    "docs/week8_acceptance_audit.md": "dc2d2816052a1682c969cc56e3f9930b35c5fd45dec8b0f5c770e3d67fd6fca0"
+  }
+}

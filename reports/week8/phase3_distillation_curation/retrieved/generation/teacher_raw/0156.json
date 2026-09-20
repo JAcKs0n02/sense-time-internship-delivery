@@ -1,0 +1,14 @@
+{
+  "sample_id": "1564281234bd4c986935846642995ab85994c9b6cadb42ed10bfa4923d6a49bc",
+  "prompt": "生成一个句子中除连词外的所有单词列表。\n\n输入：John and I were having lunch together.",
+  "messages": [
+    {
+      "role": "user",
+      "content": "生成一个句子中除连词外的所有单词列表。\n\n输入：John and I were having lunch together."
+    }
+  ],
+  "answer": "输出: ['John', 'I', 'were', 'having', 'lunch', 'together']",
+  "truncated": false,
+  "input_tokens": 51,
+  "output_tokens": 23
+}

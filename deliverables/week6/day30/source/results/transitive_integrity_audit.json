@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "status": "PASS_WITH_SCOPE",
+  "audit_timing": "post_run",
+  "formal_source_commit": "b7b24f2",
+  "scope_note": "The original run_spec directly binds the model identity, three tool implementations and schemas, Day30 prompt, frozen cases, and Day30 scripts. This post-run audit additionally records transitive shared runtime modules and the knowledge-base file; it does not retroactively claim they were fields in the original run_spec.",
+  "run_spec_binding": {
+    "run_spec_sha256": "6abbf0b14c7bdde998b28f327a94568fa87f0663ed49cab78fc572431437dc19",
+    "teacher_trace_run_spec_sha256": "6abbf0b14c7bdde998b28f327a94568fa87f0663ed49cab78fc572431437dc19",
+    "matches": true
+  },
+  "knowledge_base": {
+    "path": "deliverables/week6/day28/source/data/knowledge_base.json",
+    "file_sha256": "27f94bf18e50043532f71ebc68edbe2ea8af2c772a567ef81d949a71d583b39a",
+    "products_sha256": "48eee10d15e1ed6f0b87536a0707c5b9af0ce325c8ec48b663a59373ccbcdcae",
+    "teacher_observation_products_sha256": "48eee10d15e1ed6f0b87536a0707c5b9af0ce325c8ec48b663a59373ccbcdcae",
+    "observation_matches_current_products": true
+  },
+  "files": [
+    {"path": "deliverables/week6/source/week6_agent/agent_factory.py", "sha256": "9b930bdb286ff4552a828b4793131b659fddf043da5a05d375ce0f4097e12ac4"},
+    {"path": "deliverables/week6/source/week6_agent/model_adapter.py", "sha256": "6086831c7ad589f5e942f3f4579f5106501c2c40185bafdc94dc7b72bbb6e5cc"},
+    {"path": "deliverables/week6/source/week6_agent/trace_schema.py", "sha256": "c6285272263cfc7b2a637cff1ab62640e96167ac9bcfd9aeb4f559ad4cadcb3b"},
+    {"path": "deliverables/week6/source/week6_agent/limits.py", "sha256": "a1fca1a119e84a7684e4c35df5c9effed80377e68ed78f28260d15dc62fb8028"},
+    {"path": "deliverables/week6/source/week6_agent/tool_result.py", "sha256": "8fc6e664858a0450f4c9a068cbb40a70a5b0e2e84bdb3e9bede2e0d3f9d19773"},
+    {"path": "deliverables/week6/source/week6_agent/day30_agent.py", "sha256": "67efd464625d64852a2082da4f3022b9d96fa66f3e58c36664e91d6b18187a40"},
+    {"path": "deliverables/week6/source/week6_agent/day30_validation.py", "sha256": "31264aaae09e99143966e894e3c5f30a8f23b707713b5ecebb1a0a30b514ae35"},
+    {"path": "deliverables/week6/source/week6_agent/tools/calculator.py", "sha256": "6f60a42fde9f9d1506225f4033cb41572972ea6a12caa34fdc1d896dadd4e886"},
+    {"path": "deliverables/week6/source/week6_agent/tools/knowledge_retrieval.py", "sha256": "c9a76c2826ce217753b03ebff0552e065e08731b30f742203a664330cd76cd3b"},
+    {"path": "deliverables/week6/source/week6_agent/tools/code_executor.py", "sha256": "2bb03a5aead3af7a9d6a57a4744150b9515a269f5beafe61391b1d2dc98a261e"},
+    {"path": "deliverables/week6/day30/source/configs/agent_config.json", "sha256": "acf0792bcc86b814f7fd21bf9fff5290288ccdcef10cf41bd1d3ea4b0deb0d1b"},
+    {"path": "deliverables/week6/day30/source/data/multistep_cases.json", "sha256": "5850ecf8d87e493ec9d825167e2007eab21554576e59448734ea9e714912dbbf"},
+    {"path": "deliverables/week6/day30/source/scripts/initialize_day30.py", "sha256": "1278050aac8fa17afa93eeebf7baebe93c63b0f4996645ab837605aab617f2a5"},
+    {"path": "deliverables/week6/day30/source/scripts/run_multistep.py", "sha256": "e9987e7088b87164575fb5da3c3f5db51392591c3b15919a95c285d15524df7c"},
+    {"path": "deliverables/week6/day30/source/scripts/validate_day30.py", "sha256": "3807407f1d08fb2644baa8ddfe35867dbd5ab3fa6cbd61e7255c9dde0e944c4a"}
+  ]
+}

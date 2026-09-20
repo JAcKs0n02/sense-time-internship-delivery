@@ -1,0 +1,5 @@
+{
+  "type": "AssertionError",
+  "message": "('week8_final_sft', 'model-00001-of-00004.safetensors', 'size')",
+  "status": "INCOMPLETE_KEEP_PARTIAL_FILES"
+}

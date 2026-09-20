@@ -1,0 +1,63 @@
+{
+  "status": "PASS_UPDATED_INDEPENDENT_CANDIDATE_NOT_GPU_RELEASE",
+  "date": "2026-09-19",
+  "candidate": "outputs/week8-clean-eval-release-20260919/repository",
+  "source_allowlist_files": 5958,
+  "tests": {
+    "passed": 196,
+    "warnings": 1,
+    "excluded": 0,
+    "source_repository_read_access": "blocked",
+    "external_network": "blocked"
+  },
+  "new_entry_checks": [
+    {
+      "name": "config",
+      "returncode": 0
+    },
+    {
+      "name": "candidate",
+      "returncode": 0
+    },
+    {
+      "name": "reject_unreleased",
+      "returncode": 1,
+      "expected_rejection": true,
+      "output_created": false
+    },
+    {
+      "name": "supervised_child_isolation",
+      "returncode": 0,
+      "child_output": "CHILD_SOURCE_AND_NETWORK_GUARD_PASS"
+    }
+  ],
+  "formal_outputs_byte_identical": 15,
+  "formal_data": {
+    "train": 1422,
+    "validation": 158,
+    "protected_hits": 0,
+    "cross_split_groups": 0
+  },
+  "legacy_scores": "VERIFIED_EXISTING_SCORES",
+  "new_api_calls": 0,
+  "gpu_started": false,
+  "initial_failure": "Two new tests reused historical absolute config paths; fixed fixtures and preserved child PYTHONPATH guard; failed first export retained as repository-initial",
+  "review": "Independent read-only review approved both scoped fixes; no additional issue found",
+  "environment": "Previously isolated CPU Python3.11 environment reused; dependencies checked and full freeze recorded",
+  "redaction": {
+    "files": 9,
+    "occurrences": 18,
+    "source_unchanged": true
+  },
+  "fresh_model_evaluation_completed": false,
+  "target_runtime_release_created": false,
+  "final_public_release_allowed": false,
+  "autodl_observation": "320 stopped, GPU available, data disk 92.86% used at observation; no instance mutation",
+  "remaining": [
+    "Target320 disk/dependency/model/prompt audit and fresh bounded release",
+    "Actual single-model inference then retrieval and shutdown",
+    "New Gemini scoring after current availability/pricing review",
+    "Final public/history/attachment scope review and Git release"
+  ],
+  "manifest": "release_metadata/export_manifest.json"
+}

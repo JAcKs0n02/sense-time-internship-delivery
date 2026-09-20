@@ -1,0 +1,14 @@
+{
+  "valid": true,
+  "model_dir": "/root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct",
+  "adapter_dir": "/root/autodl-tmp/qwen25-week2/day8/saves/qwen25-7b-week2-qlora-sft-run1",
+  "export_dir": "/root/autodl-tmp/qwen25-week2/merged/qwen25-7b-week2-sft-merged",
+  "model_type": "qwen2",
+  "template": "qwen",
+  "export_device": "cpu",
+  "export_size": 4,
+  "adapter_peft_type": "LORA",
+  "adapter_rank": 8,
+  "adapter_alpha": 16,
+  "quantization_keys_present": []
+}

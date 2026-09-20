@@ -1,0 +1,8 @@
+{
+  "command": [
+    "llamafactory-cli",
+    "train",
+    "/root/autodl-tmp/qwen25-week4/day19/runs/formal/attempt_002/runtime.yaml"
+  ],
+  "source_config": "/root/autodl-tmp/qwen25-week4/day19/deliverables/week4/day19/configs/qwen25_7b_week4_dpo_qlora_implicit_ref.yaml"
+}

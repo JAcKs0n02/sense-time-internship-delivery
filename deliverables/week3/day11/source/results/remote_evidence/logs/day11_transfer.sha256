@@ -1,0 +1,4 @@
+968c7ad51ad833caf3b3f3df7b81d24e59fe13147deb2057e44c76552121a3e1  /root/autodl-tmp/qwen25-week3/configs/qwen25_7b_week3_smoke.yaml
+611d9a1a24fcbc4340c58ae43b4d099cabade3e9533e14aca188cbdb520ac88e  /root/autodl-tmp/qwen25-week3/scripts/run_day11_smoke.sh
+600c01cb1d2ca41bb1fbe7fca3973336568062ead29ee0e6b6033733a86b2743  /root/autodl-tmp/qwen25-week3/data/week2_clean_alpaca.jsonl
+00b02ac6130c63ca5ba68bf34a21fa84c72a6549de3577e3ec649bf0e312ac72  /root/autodl-tmp/qwen25-week3/data/dataset_info.json

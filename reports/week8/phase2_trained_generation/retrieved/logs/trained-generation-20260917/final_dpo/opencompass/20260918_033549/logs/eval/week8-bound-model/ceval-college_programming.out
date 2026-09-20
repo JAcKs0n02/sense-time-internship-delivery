@@ -1,0 +1,6 @@
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]Map: 100%|██████████| 5/5 [00:00<00:00, 1433.07 examples/s]
+Map:   0%|          | 0/37 [00:00<?, ? examples/s]Map: 100%|██████████| 37/37 [00:00<00:00, 7366.11 examples/s]
+Map:   0%|          | 0/342 [00:00<?, ? examples/s]Map: 100%|██████████| 342/342 [00:00<00:00, 14081.75 examples/s]
+09/18 04:28:12 - OpenCompass - INFO - Running 0-th replica of evaluation
+09/18 04:28:12 - OpenCompass - INFO - Details is not give by evaluator, try to format it
+09/18 04:28:12 - OpenCompass - INFO - time elapsed:  0.09s

@@ -1,0 +1,20 @@
+{
+  "method": "all13multiturn_then8longest6shortest6code6math_then_source_split_coverage_then_hash_fill",
+  "sample_count": 50,
+  "pool": 1580,
+  "representative_random_sample": false,
+  "input_hashes": {
+    "lineage.json": "5e3249a17081b422711a70096c6e949379ccb70f9353128a6517caca21ec9a08",
+    "train_sharegpt.json": "a3be525413c27aa80af0048dbf0100a70068917439f58b6070012f4af9b44d09",
+    "validation_sharegpt.json": "0b53889a290df308a478d8bca6cdca9f26aacdbad34f7d4010e2c6a30900fec3"
+  },
+  "counts": {
+    "multiturn": 13,
+    "code_candidate": 8,
+    "math_candidate": 15
+  },
+  "split_counts": {
+    "train": 39,
+    "validation": 11
+  }
+}

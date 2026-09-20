@@ -1,0 +1,15 @@
+{
+  "status": "STUDENT_TRAINING_VERIFIED_COMPARISON_PENDING",
+  "training_state_verified": true,
+  "training_verified": true,
+  "epochs": 2,
+  "method": "sequence_level_teacher_generation_then_student_sft",
+  "artifact_verification": {
+    "status": "STUDENT_ARTIFACTS_VERIFIED_COMPARISON_PENDING",
+    "model_dir": "/root/autodl-tmp/week8-distillation-student-20260918/run-01/student/final_distilled",
+    "tensor_receipt_sha256": "834184ee342d5c3680a54782165882059c59d300bd63250cd5f73c91b781c506",
+    "cold_load_receipt_sha256": "16c9f8802fb7764f784e51fc12d9ab3a47df8d1403f6ab4bb221d70bee6c6f1c",
+    "quality_comparison": "pending"
+  },
+  "quality_comparison": "pending"
+}

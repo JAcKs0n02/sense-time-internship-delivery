@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "source": "deliverables/week3/day15/source/results/best_merged_model_inventory.csv",
+  "manifest_sha256": "e4512f7dd0f85b2f1d8154d123aec176295f557046142aab406a030c8e76e971",
+  "file_count": 14,
+  "regular_file_bytes": 15247180180,
+  "files": {
+    "Modelfile": 464,
+    "added_tokens.json": 605,
+    "config.json": 687,
+    "generation_config.json": 243,
+    "merges.txt": 1671853,
+    "model-00001-of-00004.safetensors": 3945426872,
+    "model-00002-of-00004.safetensors": 3864726352,
+    "model-00003-of-00004.safetensors": 3864726408,
+    "model-00004-of-00004.safetensors": 3556392240,
+    "model.safetensors.index.json": 27752,
+    "special_tokens_map.json": 613,
+    "tokenizer.json": 11421896,
+    "tokenizer_config.json": 7362,
+    "vocab.json": 2776833
+  }
+}

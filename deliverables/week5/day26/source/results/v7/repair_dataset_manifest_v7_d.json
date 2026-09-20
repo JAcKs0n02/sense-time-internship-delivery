@@ -1,0 +1,18 @@
+{
+  "schema_version": "day26-v7-repair-dataset-1",
+  "status": "PRE_REGISTERED",
+  "purpose": "repair natural-scene and UI regressions without held-out reuse",
+  "seed": 2608,
+  "parent_public_sha256": "cb2e58e65ad21c204bad958cd30e12e98a49ccdbbeb424a9a353507fa31be542",
+  "parent_internal_sha256": "115719d66d7e992edb1cb7a43340e39dafb5f3fe3bab516c4d514ab76e7c16e8",
+  "row_count": 280,
+  "category_counts": {
+    "natural_scene": 120,
+    "ocr": 40,
+    "ui": 120
+  },
+  "source_splits": [
+    "train"
+  ],
+  "output_sha256": "f93fb68a441c633ae6fd0bcc791782dbf10e9bf8b3701f042660aeb0ce6d213c"
+}

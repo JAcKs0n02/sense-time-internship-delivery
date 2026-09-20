@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "title": "Week 3 Day 11 single-variable QLoRA experiment matrix",
+  "teacher_requirement": {
+    "rank_values": [8, 32, 64],
+    "learning_rate_values": [0.0001, 0.0002, 0.00005],
+    "epoch_values": [2.0, 3.0, 5.0],
+    "formal_run_count": 9
+  },
+  "baseline": {
+    "lora_rank": 8,
+    "lora_alpha": 16,
+    "learning_rate": 0.0001,
+    "num_train_epochs": 3.0,
+    "seed": 42,
+    "source": "Week 2 Day 8 completed formal SFT"
+  },
+  "fixed_controls": {
+    "model_name_or_path": "/root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct",
+    "dataset": "week2_clean_alpaca",
+    "dataset_dir": "/root/autodl-tmp/qwen25-week3/data",
+    "training_records": 4999,
+    "template": "qwen",
+    "cutoff_len": 2048,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05,
+    "lora_target": "all",
+    "quantization_bit": 4,
+    "quantization_type": "nf4",
+    "per_device_train_batch_size": 1,
+    "gradient_accumulation_steps": 4,
+    "gradient_checkpointing": true,
+    "lr_scheduler_type": "cosine",
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "bf16": true,
+    "fp16": false,
+    "seed": 42
+  },
+  "interpretation_limits": [
+    "Rank runs change only lora_rank while lora_alpha remains 16, so alpha/rank also changes.",
+    "The rank group measures overall behavior of each rank configuration, not a pure capacity effect at constant LoRA scaling.",
+    "The three repeated baseline runs measure realized runtime variability and are not new hyperparameter comparisons."
+  ],
+  "runs": [
+    {
+      "run_id": "rank-r8",
+      "group": "rank",
+      "lora_rank": 8,
+      "learning_rate": 0.0001,
+      "num_train_epochs": 3.0,
+      "repeated_baseline": true,
+      "hypothesis": "Rank 8 has the lowest adapter capacity and resource cost; it may underfit but should have lower overfitting risk."
+    },
+    {
+      "run_id": "rank-r32",
+      "group": "rank",
+      "lora_rank": 32,
+      "learning_rate": 0.0001,
+      "num_train_epochs": 3.0,
+      "repeated_baseline": false,
+      "hypothesis": "Rank 32 may provide a better balance between adapter capacity, memory use, runtime, and generalization."
+    },
+    {
+      "run_id": "rank-r64",
+      "group": "rank",
+      "lora_rank": 64,
+      "learning_rate": 0.0001,
+      "num_train_epochs": 3.0,
+      "repeated_baseline": false,
+      "hypothesis": "Rank 64 offers the most capacity but may increase memory, runtime, and overfitting risk."
+    },
+    {
+      "run_id": "lr-1e-4",
+      "group": "learning_rate",
+      "lora_rank": 8,
+      "learning_rate": 0.0001,
+      "num_train_epochs": 3.0,
+      "repeated_baseline": true,
+      "hypothesis": "Learning rate 1e-4 is the completed Week 2 stability baseline."
+    },
+    {
+      "run_id": "lr-2e-4",
+      "group": "learning_rate",
+      "lora_rank": 8,
+      "learning_rate": 0.0002,
+      "num_train_epochs": 3.0,
+      "repeated_baseline": false,
+      "hypothesis": "Learning rate 2e-4 may converge faster but has higher oscillation and capability-regression risk."
+    },
+    {
+      "run_id": "lr-5e-5",
+      "group": "learning_rate",
+      "lora_rank": 8,
+      "learning_rate": 0.00005,
+      "num_train_epochs": 3.0,
+      "repeated_baseline": false,
+      "hypothesis": "Learning rate 5e-5 may preserve base capabilities but can underfit within three epochs."
+    },
+    {
+      "run_id": "epoch-e2",
+      "group": "epoch",
+      "lora_rank": 8,
+      "learning_rate": 0.0001,
+      "num_train_epochs": 2.0,
+      "repeated_baseline": false,
+      "hypothesis": "Two epochs reduce runtime and overfitting exposure but may stop before the adapter learns enough."
+    },
+    {
+      "run_id": "epoch-e3",
+      "group": "epoch",
+      "lora_rank": 8,
+      "learning_rate": 0.0001,
+      "num_train_epochs": 3.0,
+      "repeated_baseline": true,
+      "hypothesis": "Three epochs reproduce the completed Week 2 baseline under a new isolated run ID."
+    },
+    {
+      "run_id": "epoch-e5",
+      "group": "epoch",
+      "lora_rank": 8,
+      "learning_rate": 0.0001,
+      "num_train_epochs": 5.0,
+      "repeated_baseline": false,
+      "hypothesis": "Five epochs may improve training fit but can increase overfitting and general-capability drift."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+debconf: delaying package configuration, since apt-utils is not installed
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 48223 files and directories currently installed.)
+Preparing to unpack .../libpython3.10_3.10.12-1~22.04.16_amd64.deb ...
+Unpacking libpython3.10:amd64 (3.10.12-1~22.04.16) over (3.10.12-1~22.04.3) ...
+Preparing to unpack .../libpython3.10-stdlib_3.10.12-1~22.04.16_amd64.deb ...
+find: ‘/usr/lib/python3’: No such file or directory
+Unpacking libpython3.10-stdlib:amd64 (3.10.12-1~22.04.16) over (3.10.12-1~22.04.3) ...
+Preparing to unpack .../libpython3.10-minimal_3.10.12-1~22.04.16_amd64.deb ...
+find: ‘/usr/lib/python3’: No such file or directory
+Unpacking libpython3.10-minimal:amd64 (3.10.12-1~22.04.16) over (3.10.12-1~22.04.3) ...
+Selecting previously unselected package python3.10-minimal.
+Preparing to unpack .../python3.10-minimal_3.10.12-1~22.04.16_amd64.deb ...
+Unpacking python3.10-minimal (3.10.12-1~22.04.16) ...
+Setting up libpython3.10-minimal:amd64 (3.10.12-1~22.04.16) ...
+Setting up python3.10-minimal (3.10.12-1~22.04.16) ...
+Selecting previously unselected package python3-minimal.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 48233 files and directories currently installed.)
+Preparing to unpack .../python3-minimal_3.10.6-1~22.04.1_amd64.deb ...
+Unpacking python3-minimal (3.10.6-1~22.04.1) ...
+Selecting previously unselected package python3.10.
+Preparing to unpack .../python3.10_3.10.12-1~22.04.16_amd64.deb ...
+Unpacking python3.10 (3.10.12-1~22.04.16) ...
+Selecting previously unselected package bubblewrap.
+Preparing to unpack .../bubblewrap_0.6.1-1ubuntu0.1_amd64.deb ...
+Unpacking bubblewrap (0.6.1-1ubuntu0.1) ...
+Setting up bubblewrap (0.6.1-1ubuntu0.1) ...
+sysctl: permission denied on key "kernel.unprivileged_userns_clone", ignoring
+Setting up libpython3.10-stdlib:amd64 (3.10.12-1~22.04.16) ...
+Setting up python3-minimal (3.10.6-1~22.04.1) ...
+Setting up libpython3.10:amd64 (3.10.12-1~22.04.16) ...
+Setting up python3.10 (3.10.12-1~22.04.16) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.4) ...
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libEGL_nvidia.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-nvvm.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libGLESv1_CM_nvidia.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-ngx.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libGLESv2_nvidia.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libGLX_nvidia.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libcuda.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libcudadebugger.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvcuvid.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-opencl.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-allocator.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-cfg.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-opticalflow.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-vksc-core.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-eglcore.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-tls.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-encode.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-fbc.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-glcore.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-glsi.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-wayland-client.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-glvkspirv.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvoptix.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-gpucomp.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-gtk2.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-gtk3.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-ml.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-rtcore.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11-openssl3.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-present.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-sandboxutils.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-tileiras.so.595.71.05 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libcuda.so.530.30.02 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libcuda.so.535.98 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libcudadebugger.so.530.30.02 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libcudadebugger.so.535.98 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-allocator.so.535.98 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-cfg.so.535.98 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-ml.so.535.98 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-opencl.so.535.98 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11.so.535.98 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.530.30.02 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.535.98 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/vdpau/libvdpau_nvidia.so.595.71.05 is empty, not checked.

@@ -1,0 +1,542 @@
+[
+  {
+    "case_id": "chart_table-v7-dev-01--direct",
+    "category": "chart_table",
+    "mode": "direct",
+    "response_a": {
+      "scores": {
+        "factual": 2,
+        "instruction": 2,
+        "completeness": 2,
+        "usefulness": 2,
+        "format": 3
+      },
+      "hallucination": true,
+      "notes": "A 发明数据源与通胀口径且未给出两项具体关系；B 至少给出两类图内关系，但仍有未充分核实的国家举例。"
+    },
+    "response_b": {
+      "scores": {
+        "factual": 3,
+        "instruction": 3,
+        "completeness": 3,
+        "usefulness": 3,
+        "format": 3
+      },
+      "hallucination": true,
+      "notes": "A 发明数据源与通胀口径且未给出两项具体关系；B 至少给出两类图内关系，但仍有未充分核实的国家举例。"
+    }
+  },
+  {
+    "case_id": "chart_table-v7-dev-01--verification",
+    "category": "chart_table",
+    "mode": "verification",
+    "response_a": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "两者均正确判断并指出美国位于横轴最右端。"
+    },
+    "response_b": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "两者均正确判断并指出美国位于横轴最右端。"
+    }
+  },
+  {
+    "case_id": "chart_table-v7-dev-02--direct",
+    "category": "chart_table",
+    "mode": "direct",
+    "response_a": {
+      "scores": {
+        "factual": 2,
+        "instruction": 3,
+        "completeness": 2,
+        "usefulness": 2,
+        "format": 3
+      },
+      "hallucination": true,
+      "notes": "两者均有截断和趋势臆测；B 对全球长期趋势的描述相对更接近图示。"
+    },
+    "response_b": {
+      "scores": {
+        "factual": 3,
+        "instruction": 3,
+        "completeness": 2,
+        "usefulness": 3,
+        "format": 3
+      },
+      "hallucination": true,
+      "notes": "两者均有截断和趋势臆测；B 对全球长期趋势的描述相对更接近图示。"
+    }
+  },
+  {
+    "case_id": "chart_table-v7-dev-02--verification",
+    "category": "chart_table",
+    "mode": "verification",
+    "response_a": {
+      "scores": {
+        "factual": 1,
+        "instruction": 2,
+        "completeness": 2,
+        "usefulness": 1,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "两者均把明显高于 1 吨的中国曲线误判为约 0.5 吨。"
+    },
+    "response_b": {
+      "scores": {
+        "factual": 1,
+        "instruction": 2,
+        "completeness": 2,
+        "usefulness": 1,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "两者均把明显高于 1 吨的中国曲线误判为约 0.5 吨。"
+    }
+  },
+  {
+    "case_id": "formula-v7-dev-01--direct",
+    "category": "formula",
+    "mode": "direct",
+    "response_a": {
+      "scores": {
+        "factual": 1,
+        "instruction": 1,
+        "completeness": 1,
+        "usefulness": 1,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "两者都未转写指定的式 (4)，而是生成了无关方程。"
+    },
+    "response_b": {
+      "scores": {
+        "factual": 1,
+        "instruction": 1,
+        "completeness": 1,
+        "usefulness": 1,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "两者都未转写指定的式 (4)，而是生成了无关方程。"
+    }
+  },
+  {
+    "case_id": "formula-v7-dev-01--verification",
+    "category": "formula",
+    "mode": "verification",
+    "response_a": {
+      "scores": {
+        "factual": 3,
+        "instruction": 3,
+        "completeness": 4,
+        "usefulness": 3,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "A 先正确指出可见项但追加无依据黑体辐射解释；B 错误拆分左右两侧并虚构时间导数。"
+    },
+    "response_b": {
+      "scores": {
+        "factual": 2,
+        "instruction": 3,
+        "completeness": 3,
+        "usefulness": 2,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "A 先正确指出可见项但追加无依据黑体辐射解释；B 错误拆分左右两侧并虚构时间导数。"
+    }
+  },
+  {
+    "case_id": "formula-v7-dev-02--direct",
+    "category": "formula",
+    "mode": "direct",
+    "response_a": {
+      "scores": {
+        "factual": 5,
+        "instruction": 4,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "A 保留了 mathbb E 等关键符号；B 将期望符号简化为普通 E。"
+    },
+    "response_b": {
+      "scores": {
+        "factual": 4,
+        "instruction": 4,
+        "completeness": 4,
+        "usefulness": 4,
+        "format": 4
+      },
+      "hallucination": false,
+      "notes": "A 保留了 mathbb E 等关键符号；B 将期望符号简化为普通 E。"
+    }
+  },
+  {
+    "case_id": "formula-v7-dev-02--verification",
+    "category": "formula",
+    "mode": "verification",
+    "response_a": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 4,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "两者结论正确；B 展示完整损失式，依据更完整。"
+    },
+    "response_b": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "两者结论正确；B 展示完整损失式，依据更完整。"
+    }
+  },
+  {
+    "case_id": "natural_scene-v7-dev-03--direct",
+    "category": "natural_scene",
+    "mode": "direct",
+    "response_a": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "A 覆盖雪山左右位置、倒影、岩石和枯木；B 对相对位置描述较少。"
+    },
+    "response_b": {
+      "scores": {
+        "factual": 4,
+        "instruction": 4,
+        "completeness": 4,
+        "usefulness": 4,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "A 覆盖雪山左右位置、倒影、岩石和枯木；B 对相对位置描述较少。"
+    }
+  },
+  {
+    "case_id": "natural_scene-v7-dev-03--verification",
+    "category": "natural_scene",
+    "mode": "verification",
+    "response_a": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "两者均依据湖面倒影正确核验。"
+    },
+    "response_b": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "两者均依据湖面倒影正确核验。"
+    }
+  },
+  {
+    "case_id": "natural_scene-v7-dev-04--direct",
+    "category": "natural_scene",
+    "mode": "direct",
+    "response_a": {
+      "scores": {
+        "factual": 4,
+        "instruction": 4,
+        "completeness": 4,
+        "usefulness": 4,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "两者均正确描述林间小路和左侧黄叶，细节基本一致。"
+    },
+    "response_b": {
+      "scores": {
+        "factual": 4,
+        "instruction": 4,
+        "completeness": 4,
+        "usefulness": 4,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "两者均正确描述林间小路和左侧黄叶，细节基本一致。"
+    }
+  },
+  {
+    "case_id": "natural_scene-v7-dev-04--verification",
+    "category": "natural_scene",
+    "mode": "verification",
+    "response_a": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "两者均正确指出落叶土路不是柏油路。"
+    },
+    "response_b": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "两者均正确指出落叶土路不是柏油路。"
+    }
+  },
+  {
+    "case_id": "ocr-v7-dev-01--direct",
+    "category": "ocr",
+    "mode": "direct",
+    "response_a": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "两者均精确转写指定粗体小标题。"
+    },
+    "response_b": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "两者均精确转写指定粗体小标题。"
+    }
+  },
+  {
+    "case_id": "ocr-v7-dev-01--verification",
+    "category": "ocr",
+    "mode": "verification",
+    "response_a": {
+      "scores": {
+        "factual": 4,
+        "instruction": 4,
+        "completeness": 5,
+        "usefulness": 4,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "B 直接核验目标文本；A 添加了题目未要求的页码信息。"
+    },
+    "response_b": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "B 直接核验目标文本；A 添加了题目未要求的页码信息。"
+    }
+  },
+  {
+    "case_id": "ocr-v7-dev-02--direct",
+    "category": "ocr",
+    "mode": "direct",
+    "response_a": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "两者均精确转写四个大字。"
+    },
+    "response_b": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "两者均精确转写四个大字。"
+    }
+  },
+  {
+    "case_id": "ocr-v7-dev-02--verification",
+    "category": "ocr",
+    "mode": "verification",
+    "response_a": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "两者均正确区分发票专用章与合同专用章。"
+    },
+    "response_b": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "两者均正确区分发票专用章与合同专用章。"
+    }
+  },
+  {
+    "case_id": "ui-v7-dev-01--direct",
+    "category": "ui",
+    "mode": "direct",
+    "response_a": {
+      "scores": {
+        "factual": 3,
+        "instruction": 3,
+        "completeness": 3,
+        "usefulness": 3,
+        "format": 3
+      },
+      "hallucination": true,
+      "notes": "A 读到主要粘贴选项和连接状态，但未识别 Advanced Paste；B 进一步虚构工具栏与代码编辑内容。"
+    },
+    "response_b": {
+      "scores": {
+        "factual": 2,
+        "instruction": 2,
+        "completeness": 2,
+        "usefulness": 2,
+        "format": 3
+      },
+      "hallucination": true,
+      "notes": "A 读到主要粘贴选项和连接状态，但未识别 Advanced Paste；B 进一步虚构工具栏与代码编辑内容。"
+    }
+  },
+  {
+    "case_id": "ui-v7-dev-01--verification",
+    "category": "ui",
+    "mode": "verification",
+    "response_a": {
+      "scores": {
+        "factual": 4,
+        "instruction": 4,
+        "completeness": 4,
+        "usefulness": 4,
+        "format": 5
+      },
+      "hallucination": true,
+      "notes": "两者均正确核验选项，但分别添加未充分支持的快捷键或菜单结构描述。"
+    },
+    "response_b": {
+      "scores": {
+        "factual": 4,
+        "instruction": 4,
+        "completeness": 4,
+        "usefulness": 4,
+        "format": 5
+      },
+      "hallucination": true,
+      "notes": "两者均正确核验选项，但分别添加未充分支持的快捷键或菜单结构描述。"
+    }
+  },
+  {
+    "case_id": "ui-v7-dev-02--direct",
+    "category": "ui",
+    "mode": "direct",
+    "response_a": {
+      "scores": {
+        "factual": 4,
+        "instruction": 4,
+        "completeness": 4,
+        "usefulness": 4,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "A 基本覆盖模板、自定义区域和创建按钮；B 错误命名界面并遗漏关键区域。"
+    },
+    "response_b": {
+      "scores": {
+        "factual": 2,
+        "instruction": 2,
+        "completeness": 2,
+        "usefulness": 2,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "A 基本覆盖模板、自定义区域和创建按钮；B 错误命名界面并遗漏关键区域。"
+    }
+  },
+  {
+    "case_id": "ui-v7-dev-02--verification",
+    "category": "ui",
+    "mode": "verification",
+    "response_a": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "两者均正确列举多个模板并否定单一模板陈述。"
+    },
+    "response_b": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "两者均正确列举多个模板并否定单一模板陈述。"
+    }
+  }
+]

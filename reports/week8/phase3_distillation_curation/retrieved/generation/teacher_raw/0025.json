@@ -1,0 +1,14 @@
+{
+  "sample_id": "f3fea8088366471889de4f11615edde16eb3b3f25e5e22830c8bb5cb6b7a3a62",
+  "prompt": "请判断以下内容的语言类型\n\nThe core question of New York 2140 is thus the core question of the city itself.",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请判断以下内容的语言类型\n\nThe core question of New York 2140 is thus the core question of the city itself."
+    }
+  ],
+  "answer": "英语",
+  "truncated": false,
+  "input_tokens": 57,
+  "output_tokens": 2
+}

@@ -1,0 +1,18 @@
+{
+  "status": "ENDED_TARGET_LOADER_PASS_OC_PROMPT_BLOCKED",
+  "started_at": "2026-09-15T12:43:54.020500+00:00",
+  "instance_id": "be044ebe99-be706b14",
+  "hourly_cny": 1.48,
+  "max_minutes": 60,
+  "training_allowed": false,
+  "auto_shutdown_server_time": "2026-09-15 14:35:00",
+  "auto_shutdown_utc": "2026-09-15T13:35:00Z",
+  "loader_exit_code": 0,
+  "loader_token_hashes_match": true,
+  "oc_attempts_01_02": "failed: independent reconstruction missed default SYSTEM-to-HUMAN empty role newline",
+  "final_power_state": "已关机",
+  "off_verified_at": "2026-09-15T12:59:48.630050+00:00",
+  "automation_status": "PAUSED",
+  "full_raw_archive_downloaded": false,
+  "actual_bill_queried": false
+}

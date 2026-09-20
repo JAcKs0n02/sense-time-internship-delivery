@@ -1,0 +1,24 @@
+{
+  "checked_at_utc": "2026-08-11T03:41:58.975689+00:00",
+  "data_files": {
+    "dataset_info.json": {
+      "sha256": "27a968799a68eec5500fd7729067e7d091399c23776cacc419dd7f08bb9ec2a8"
+    },
+    "week4_dpo_train.json": {
+      "count": 639,
+      "sha256": "88c6a176eda7df50f5ffb0e01e78610c99178e71e14518d82b6c0bd20a50c320"
+    },
+    "week4_dpo_validation.json": {
+      "count": 71,
+      "sha256": "5626226d8d0aff49cec6119de63720692cb3f3f27091bf94332524cd83a53372"
+    }
+  },
+  "hostname": "autodl-container-78fb4ea487-e700080a",
+  "instance_id": "78fb4ea487-e700080a",
+  "model_path": "/root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged",
+  "model_path_exists": true,
+  "nvidia_smi": "NVIDIA GeForce RTX 3090, 24576 MiB, 595.58.03",
+  "python": "3.10.20",
+  "structural_failure_count": 0,
+  "structural_failures": []
+}

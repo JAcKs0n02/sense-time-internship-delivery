@@ -1,0 +1,26 @@
+{
+  "status": "FORMAL_INFERENCE_FAILED_PRESERVED_INSTANCE_OFF",
+  "instance_id": "be044ebe99-be706b14",
+  "target_root": "/root/autodl-tmp/week8-judge-runtime-20260916",
+  "run_dir": "logs/formal-eval-20260916-01",
+  "coordinator_pid": 1497,
+  "started_utc": "2026-09-16T22:15:38.961662+00:00",
+  "observed_utc": "2026-09-16T23:50:33.871422+00:00",
+  "current_model": "original_base",
+  "prediction_files_observed": 6,
+  "gpu_observed": "NVIDIA GeForce RTX 3090, 15648 MiB, 94 %\n",
+  "deadline_utc": "2026-09-17T10:10:00+00:00",
+  "platform_shutdown_utc": "2026-09-17T10:15:00+00:00",
+  "hourly_cny": "1.48",
+  "start_receipt": {
+    "path": "reports/week8/phase2_formal_inference/formal_inference_start.json",
+    "sha256": "3c7c36862f9fa13c17d45cb800cefbd9b7c1c2824d417b6914a82cb809ecd374"
+  },
+  "monitor_id": "week8-320",
+  "monitor_status": "PAUSED",
+  "formal_inference_completed": false,
+  "instance_state": "OFF",
+  "scheduled_shutdown_cleared": true,
+  "failure_review": "reports/week8/phase2_formal_inference/failure_review.json",
+  "error": "CMMLU list detail schema unsupported by validator"
+}

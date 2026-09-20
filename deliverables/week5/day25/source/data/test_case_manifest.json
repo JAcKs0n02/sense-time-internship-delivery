@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "status": "FROZEN_BEFORE_INFERENCE",
+  "freeze_date": "2026-08-20",
+  "record_count": 10,
+  "image_count": 5,
+  "cases_sha256": "e8181c24707b226d997f4b275ebd459a7781db1b839a538cdfc257cb90437130",
+  "generation_config_sha256": "0d1f0f59fce9b688f9445b0b4fee4c0c38d1bec4c4e3e4910efb34b3d7bb513d",
+  "image_manifest_sha256": "c80863ad391c708eb50cd2861c876f9d01c79cfcd75863f1e001c4d048ccd790",
+  "ground_truth_sha256": "43aa0bdc29c796869c351a374748c3cee1574348be5898859cfe4625d5331b0a",
+  "model_repository": "Qwen/Qwen2-VL-7B-Instruct",
+  "model_revision": "eed13092ef92e448dd6875b2a00151bd3f7db0ac",
+  "scoring_rule": "hallucination_rate = hallucination_count / 10",
+  "post_inference_case_edits_allowed": false
+}

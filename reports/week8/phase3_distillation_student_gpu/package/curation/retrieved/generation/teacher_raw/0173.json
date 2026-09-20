@@ -1,0 +1,14 @@
+{
+  "sample_id": "5536f7b3ed71252b390047ac3d42288a504cac50cc599003acb378aff6ed0262",
+  "prompt": "请将下列中文句子翻译成日文\n\n所以就用恐怖游戏来做为延长战吧…😨",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请将下列中文句子翻译成日文\n\n所以就用恐怖游戏来做为延长战吧…😨"
+    }
+  ],
+  "answer": "延長戦はホラゲでしょ…😨",
+  "truncated": false,
+  "input_tokens": 51,
+  "output_tokens": 14
+}

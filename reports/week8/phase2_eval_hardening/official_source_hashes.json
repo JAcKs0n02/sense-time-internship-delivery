@@ -1,0 +1,6 @@
+{
+  "opencompass/tasks/openicl_eval.py": "d16cdfca4d95b86bdd6df0045835363864e5099788c659ec3e8847c1b1e832e9",
+  "opencompass/openicl/icl_evaluator/icl_hf_evaluator.py": "4e237537e0fbe2aed18f4f262e22c1da356c8ddc55cb17eb9316383bee5bd3fc",
+  "opencompass/openicl/icl_inferencer/icl_gen_inferencer.py": "05be1ae9b08f6c91ac4dc06cf85b2cf7e9d1f7f6fe2d2661ceac8186f198020e",
+  "opencompass/models/huggingface_above_v4_33.py": "7b9f15644d0fd3e0682f1cada3da3ae1b57193e517f547b3e959e3ad1cb434ae"
+}

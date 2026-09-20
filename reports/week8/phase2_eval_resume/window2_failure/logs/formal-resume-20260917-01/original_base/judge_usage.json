@@ -1,0 +1,10 @@
+{
+  "attempts": 6,
+  "usage": {
+    "prompt_tokens": 12114,
+    "completion_tokens": 15808,
+    "total_tokens": 27922
+  },
+  "usage_complete": true,
+  "completed_questions": 4
+}

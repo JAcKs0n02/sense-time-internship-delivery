@@ -1,0 +1,3 @@
+stage,model,ceval_correct,ceval_questions,ceval_accuracy_percent,tokens_per_second,median_seconds
+before,Qwen2.5-0.5B-Instruct original,723,1346,53.7147102526003,55.53029982850359,2.3003657376393676
+after,Qwen2.5-0.5B-Instruct distilled 2 epochs,715,1346,53.12035661218425,55.62629874377599,2.30139128677547

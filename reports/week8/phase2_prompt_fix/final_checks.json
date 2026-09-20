@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "unchanged_csv_files": 290,
+  "runtime_receipt_hashes_match": true,
+  "training_allowed": false,
+  "files": {
+    "reports/week8/phase2_prompt_fix/all_tests.log": "814e66d76271aa49f4966240ec04e6d9f51347b6db4ddf48dccc608778c51c89",
+    "reports/week8/phase2_prompt_fix/environment.txt": "3ea1adbbfa913bc0ae5adb29c9603c847832ed5b1e5784b886dac78300c761ca",
+    "reports/week8/phase2_prompt_fix/ice_regression_before.log": "83ee583268ec1e8fd0a10997cfeecc2fd7f048ad40b6f40007e84ba623b9cbac",
+    "reports/week8/phase2_prompt_fix/regression_after.log": "aaa8f56ce86a1542b94ff4cd27fa92fcba2ac243d06ce54bd753c01a46481f96",
+    "reports/week8/phase2_prompt_fix/regression_before.log": "a6cf9b45f477e2fed11883642c46f77ded0e89213f039de5a1b52cd1be92a79d",
+    "reports/week8/phase2_prompt_fix/runtime-01.log": "73d447e622e91c47c534e9952786cb3463348cca23277ffdd7180ab1dea377f3",
+    "reports/week8/phase2_prompt_fix/runtime-02/expanded_audit_config.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "reports/week8/phase2_prompt_fix/runtime-02.log": "51e1b37b453a7fa8af86ab8cb8918d1077b88266f334218cb4cd69d22c58ce8e",
+    "reports/week8/phase2_prompt_fix/runtime-03/expanded_audit_config.py": "7b729cbb7706d404fa9b63a689f5c71a5710c5dbdb9fba44356ffbaeb25110d6",
+    "reports/week8/phase2_prompt_fix/runtime-03/prompt_rows.json": "1cb1c25c2a80e1b407c7947840e94d913cfe2193c179be41acde33058f310bc5",
+    "reports/week8/phase2_prompt_fix/runtime-03/verification.json": "44eaaf84459d81ef43a88bb6e065d4199e090d3e990b113b6843492e4af42879",
+    "reports/week8/phase2_prompt_fix/runtime-03.log": "ddbaa14cae8e384bc3f08a5b6e60edfbb0590bbc3bc7e50acb3eec31294a9c12"
+  }
+}

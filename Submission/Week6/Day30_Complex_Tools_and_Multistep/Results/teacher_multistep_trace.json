@@ -1,0 +1,151 @@
+{
+  "schema_version": "1.0",
+  "case_id": "teacher_nebula_budget",
+  "category": "product_budget",
+  "prompt": "请查询星云机械键盘的价格，加上运费后计算总价，并告诉我是否超过预算 1000 元。",
+  "model_id": "reward_corrective_40step_merged",
+  "model_manifest_sha256": "d9be5c285591d7fcf0a8e91d5ec351ecefabe241d0372e1aa21d067e400d28ef",
+  "run_spec_sha256": "6abbf0b14c7bdde998b28f327a94568fa87f0663ed49cab78fc572431437dc19",
+  "messages": [
+    {
+      "type": "human",
+      "content": "请查询星云机械键盘的价格，加上运费后计算总价，并告诉我是否超过预算 1000 元。"
+    },
+    {
+      "type": "ai",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "knowledge_retrieval",
+          "args": {
+            "query": "星云机械键盘"
+          },
+          "id": "model-turn-0-tool-call-0",
+          "type": "tool_call"
+        }
+      ],
+      "response_metadata": {
+        "raw_generated_text": "<tool_call>\n{\"name\": \"knowledge_retrieval\", \"arguments\": {\"query\": \"星云机械键盘\"}}\n</tool_call>"
+      }
+    },
+    {
+      "type": "tool",
+      "content": "{\"status\": \"success\", \"data\": {\"product_id\": \"nebula-keyboard\", \"name\": \"星云机械键盘\", \"aliases\": [\"星云键盘\", \"Nebula Keyboard\"], \"price_cny\": 699, \"shipping_cny\": 20, \"stock\": 12, \"description\": \"75% 配列的无线机械键盘，支持蓝牙连接。\", \"match_type\": \"exact_name\", \"knowledge_base_sha256\": \"48eee10d15e1ed6f0b87536a0707c5b9af0ce325c8ec48b663a59373ccbcdcae\"}, \"error_code\": null}",
+      "tool_call_id": "model-turn-0-tool-call-0",
+      "name": "knowledge_retrieval"
+    },
+    {
+      "type": "ai",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "calculator",
+          "args": {
+            "expression": "699 + 20"
+          },
+          "id": "model-turn-1-tool-call-0",
+          "type": "tool_call"
+        }
+      ],
+      "response_metadata": {
+        "raw_generated_text": "<tool_call>\n{\"name\": \"calculator\", \"arguments\": {\"expression\": \"699 + 20\"}}\n</tool_call>"
+      }
+    },
+    {
+      "type": "tool",
+      "content": "{\"status\": \"success\", \"data\": {\"value\": 719}, \"error_code\": null}",
+      "tool_call_id": "model-turn-1-tool-call-0",
+      "name": "calculator"
+    },
+    {
+      "type": "ai",
+      "content": "星云机械键盘的价格为 699 元，运费为 20 元，总价为 719 元，没有超过您 1000 元的预算。",
+      "tool_calls": [],
+      "response_metadata": {
+        "raw_generated_text": "星云机械键盘的价格为 699 元，运费为 20 元，总价为 719 元，没有超过您 1000 元的预算。"
+      }
+    }
+  ],
+  "side_effect_marker_exists_after": false,
+  "status": "success",
+  "error_code": null,
+  "trace": [
+    {
+      "step_index": 1,
+      "action": "knowledge_retrieval",
+      "action_input": {
+        "query": "星云机械键盘"
+      },
+      "tool_call_id": "model-turn-0-tool-call-0",
+      "raw_generated_text": "<tool_call>\n{\"name\": \"knowledge_retrieval\", \"arguments\": {\"query\": \"星云机械键盘\"}}\n</tool_call>",
+      "observation": {
+        "status": "success",
+        "data": {
+          "product_id": "nebula-keyboard",
+          "name": "星云机械键盘",
+          "aliases": [
+            "星云键盘",
+            "Nebula Keyboard"
+          ],
+          "price_cny": 699,
+          "shipping_cny": 20,
+          "stock": 12,
+          "description": "75% 配列的无线机械键盘，支持蓝牙连接。",
+          "match_type": "exact_name",
+          "knowledge_base_sha256": "48eee10d15e1ed6f0b87536a0707c5b9af0ce325c8ec48b663a59373ccbcdcae"
+        },
+        "error_code": null
+      }
+    },
+    {
+      "step_index": 2,
+      "action": "calculator",
+      "action_input": {
+        "expression": "699 + 20"
+      },
+      "tool_call_id": "model-turn-1-tool-call-0",
+      "raw_generated_text": "<tool_call>\n{\"name\": \"calculator\", \"arguments\": {\"expression\": \"699 + 20\"}}\n</tool_call>",
+      "observation": {
+        "status": "success",
+        "data": {
+          "value": 719
+        },
+        "error_code": null
+      }
+    }
+  ],
+  "final_answer": "星云机械键盘的价格为 699 元，运费为 20 元，总价为 719 元，没有超过您 1000 元的预算。",
+  "tool_names": [
+    "calculator",
+    "knowledge_retrieval",
+    "code_executor"
+  ],
+  "max_steps": 6,
+  "recursion_limit": 16,
+  "runtime_limit_seconds": 60,
+  "latency_seconds": 3.2098891651257873,
+  "validation": {
+    "case_id": "teacher_nebula_budget",
+    "status": "PASS",
+    "checks": {
+      "agent_completed": true,
+      "three_tools_bound": true,
+      "expected_tool_sequence": true,
+      "no_repeated_action_input": true,
+      "bounded_step_count": true,
+      "final_answer_present": true,
+      "retrieval_success": true,
+      "retrieved_product": true,
+      "retrieved_price": true,
+      "retrieved_shipping": true,
+      "calculator_success": true,
+      "calculator_expression": true,
+      "calculator_value": true,
+      "final_total": true,
+      "final_budget": true,
+      "final_conclusion": true
+    },
+    "failed_checks": [],
+    "auditable_stage_count": 3
+  }
+}

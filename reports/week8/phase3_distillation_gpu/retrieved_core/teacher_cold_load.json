@@ -1,0 +1,15 @@
+{
+  "status": "COLD_LOAD_PASS",
+  "model_path": "/root/autodl-tmp/qwen25-week4/best_model/qwen25-7b-week4-dpo-corrective-merged",
+  "finite_logits": true,
+  "generated_tokens": 2,
+  "generated_token_ids": [
+    108386,
+    6313
+  ],
+  "text": "你好！",
+  "dtype": "torch.bfloat16",
+  "device": "cuda:0",
+  "peak_memory_allocated_bytes": 15272736256,
+  "benchmark_scored": false
+}

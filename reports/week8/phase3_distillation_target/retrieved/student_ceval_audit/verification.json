@@ -1,0 +1,25 @@
+{
+  "status": "ACTUAL_OC_PROMPT_RUNTIME_PASS_NO_INFERENCE",
+  "host": "autodl-container-be044ebe99-be706b14",
+  "platform": "linux",
+  "custom_template_sha256": "50c989d1291f7806b07ff11cd95a8ffb1064cf693f080ac3e6e7d434657efcb9",
+  "audit_script_sha256": "cd9ec07287a57df203b06e7252a877eb855501418275f76b610d5e3236108521",
+  "expected_rows_sha256": "2d1278548ff9958e0e8a8631bd133cdb3a73645900adb70873df0a867d291542",
+  "expanded_config_reloaded": true,
+  "opencompass_version": "0.5.3",
+  "subjects": 52,
+  "questions": 1346,
+  "max_input_tokens": 1361,
+  "all_token_hashes_match_independent": true,
+  "all_five_shot": true,
+  "truncation_changes": 0,
+  "source_config_hashes": {
+    "/root/autodl-tmp/conda/envs/llm_exp/lib/python3.10/site-packages/opencompass/configs/datasets/ceval/ceval_gen_5f30c7.py": "98388fc58c9d88dc993411ff668705932aa9470fd27a9e489bda149dd7ccfde3"
+  },
+  "model_weights_loaded": false,
+  "model_inference_run": false,
+  "training_started": false,
+  "full_evaluation_lock_ready": false,
+  "expanded_config_sha256": "c554093771d1683c8ab491731af6c2db3fa475ee3af2ae922e6c632b776212de",
+  "prompt_rows_sha256": "1962f7c8d7065aa3ce6112d19b0a6c085f12025927651d28931dca24577f685d"
+}

@@ -1,0 +1,10 @@
+name: internship-pipeline
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - PyYAML==6.0.2
+# --quick needs only Python stdlib. GPU training/evaluation and serving use
+# separately pinned environments documented in configs/README.md.

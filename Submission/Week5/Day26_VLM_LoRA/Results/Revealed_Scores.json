@@ -1,0 +1,502 @@
+[
+  {
+    "case_id": "chart_table-13--direct",
+    "base": {
+      "scores": {
+        "factual": 2,
+        "instruction": 4,
+        "completeness": 3,
+        "usefulness": 2,
+        "format": 4
+      },
+      "hallucination": true,
+      "reason": "识别表名和部分字段，但错置列关系并臆测连续工作、抽象和包容性等业务含义。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 3,
+        "instruction": 4,
+        "completeness": 4,
+        "usefulness": 3,
+        "format": 4
+      },
+      "hallucination": true,
+      "reason": "覆盖表名、数值及多行文字，较接近图像，但仍有行列对应和字符误读。"
+    }
+  },
+  {
+    "case_id": "chart_table-13--correction",
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 4,
+        "usefulness": 4,
+        "format": 5
+      },
+      "hallucination": false,
+      "reason": "明确否定折线图说法，并用表名、列和无红色折线作为可见依据。"
+    },
+    "base": {
+      "scores": {
+        "factual": 4,
+        "instruction": 5,
+        "completeness": 4,
+        "usefulness": 4,
+        "format": 5
+      },
+      "hallucination": false,
+      "reason": "判断正确且列举表内文字；把表名也并入列名，结构解释略有偏差。"
+    }
+  },
+  {
+    "case_id": "chart_table-14--direct",
+    "lora": {
+      "scores": {
+        "factual": 2,
+        "instruction": 4,
+        "completeness": 3,
+        "usefulness": 2,
+        "format": 4
+      },
+      "hallucination": true,
+      "reason": "识别到 RNAP 和转录主题，但遗漏三幅小图及双栏版式，并臆测热启动概率和因果结论。"
+    },
+    "base": {
+      "scores": {
+        "factual": 1,
+        "instruction": 4,
+        "completeness": 4,
+        "usefulness": 1,
+        "format": 4
+      },
+      "hallucination": true,
+      "reason": "给出大量图号、强度、热稳定性和转录过程细节，绝大多数没有可见依据。"
+    }
+  },
+  {
+    "case_id": "chart_table-14--correction",
+    "base": {
+      "scores": {
+        "factual": 1,
+        "instruction": 5,
+        "completeness": 4,
+        "usefulness": 1,
+        "format": 4
+      },
+      "hallucination": true,
+      "reason": "否定结论正确，但虚构三行三列表格及具体单元格内容。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 2,
+        "instruction": 5,
+        "completeness": 3,
+        "usefulness": 2,
+        "format": 5
+      },
+      "hallucination": true,
+      "reason": "否定结论正确，但仍把文档页面和图组误称为多行多列表格。"
+    }
+  },
+  {
+    "case_id": "formula-13--direct",
+    "lora": {
+      "scores": {
+        "factual": 1,
+        "instruction": 4,
+        "completeness": 3,
+        "usefulness": 2,
+        "format": 4
+      },
+      "hallucination": true,
+      "reason": "漏掉左端函数，误写等号位置，并把负无穷下限写成 0。"
+    },
+    "base": {
+      "scores": {
+        "factual": 3,
+        "instruction": 5,
+        "completeness": 4,
+        "usefulness": 4,
+        "format": 5
+      },
+      "hallucination": true,
+      "reason": "主体幂级数结构较完整，但把负无穷下限写成 0，并额外称为 Taylor 级数。"
+    }
+  },
+  {
+    "case_id": "formula-13--correction",
+    "lora": {
+      "scores": {
+        "factual": 4,
+        "instruction": 5,
+        "completeness": 4,
+        "usefulness": 4,
+        "format": 5
+      },
+      "hallucination": true,
+      "reason": "判断和主要数学符号正确，证据较完整；公式片段仍误写下限和等号。"
+    },
+    "base": {
+      "scores": {
+        "factual": 4,
+        "instruction": 5,
+        "completeness": 3,
+        "usefulness": 4,
+        "format": 5
+      },
+      "hallucination": true,
+      "reason": "正确指出等号与数学符号，但加入图中没有可靠依据的 q_n，证据略少。"
+    }
+  },
+  {
+    "case_id": "formula-14--direct",
+    "lora": {
+      "scores": {
+        "factual": 1,
+        "instruction": 3,
+        "completeness": 3,
+        "usefulness": 1,
+        "format": 4
+      },
+      "hallucination": true,
+      "reason": "把复数模平方误读为复数平方根，并把右端错误解释为模长。"
+    },
+    "base": {
+      "scores": {
+        "factual": 1,
+        "instruction": 3,
+        "completeness": 4,
+        "usefulness": 2,
+        "format": 4
+      },
+      "hallucination": true,
+      "reason": "同样误读可见公式；虽质疑等式并展开解释，但讨论的是错误的平方根问题。"
+    }
+  },
+  {
+    "case_id": "formula-14--correction",
+    "base": {
+      "scores": {
+        "factual": 2,
+        "instruction": 5,
+        "completeness": 4,
+        "usefulness": 3,
+        "format": 4
+      },
+      "hallucination": true,
+      "reason": "正确判断图中是数学公式，但把模平方误写为平方根并据此解释。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 2,
+        "instruction": 5,
+        "completeness": 3,
+        "usefulness": 3,
+        "format": 5
+      },
+      "hallucination": true,
+      "reason": "结论正确且简洁，但作为依据给出的公式仍把模平方误写为平方根。"
+    }
+  },
+  {
+    "case_id": "natural_scene-13--direct",
+    "lora": {
+      "scores": {
+        "factual": 3,
+        "instruction": 5,
+        "completeness": 3,
+        "usefulness": 3,
+        "format": 5
+      },
+      "hallucination": false,
+      "reason": "客观描述红色圆形图和血管，但没有明确识别眼底、视网膜或视盘。"
+    },
+    "base": {
+      "scores": {
+        "factual": 4,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 4,
+        "format": 3
+      },
+      "hallucination": true,
+      "reason": "正确识别眼底和主要结构，但黄斑颜色、视盘位置及边缘描述有偏差，末尾被截断。"
+    }
+  },
+  {
+    "case_id": "natural_scene-13--correction",
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 4,
+        "usefulness": 4,
+        "format": 5
+      },
+      "hallucination": false,
+      "reason": "正确否定公交车，并明确以视网膜、血管和视神经结构作为依据。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 3,
+        "usefulness": 3,
+        "format": 5
+      },
+      "hallucination": false,
+      "reason": "判断正确并提到血管和视网膜，但证据较概括。"
+    }
+  },
+  {
+    "case_id": "natural_scene-14--direct",
+    "base": {
+      "scores": {
+        "factual": 4,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 4,
+        "format": 5
+      },
+      "hallucination": true,
+      "reason": "主体、夜空、塔架和底部灯光正确，但银色尾部及塔架数量/位置含不可靠细节。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 4,
+        "instruction": 5,
+        "completeness": 3,
+        "usefulness": 3,
+        "format": 5
+      },
+      "hallucination": true,
+      "reason": "识别火箭和夜间塔架，但内容较少，黑色圆圈和三座结构不够可靠。"
+    }
+  },
+  {
+    "case_id": "natural_scene-14--correction",
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 2,
+        "usefulness": 3,
+        "format": 5
+      },
+      "hallucination": false,
+      "reason": "正确否定红色文字，但未提供火箭场景等积极可见依据。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "reason": "判断正确，并用火箭、塔架、灯光、天空和无红色文字构成完整证据。"
+    }
+  },
+  {
+    "case_id": "ocr-13--direct",
+    "lora": {
+      "scores": {
+        "factual": 1,
+        "instruction": 3,
+        "completeness": 2,
+        "usefulness": 1,
+        "format": 3
+      },
+      "hallucination": true,
+      "reason": "把同一个 2.33 元重复二十余次，无法对应多图拼图且明显猜测。"
+    },
+    "base": {
+      "scores": {
+        "factual": 4,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 4,
+        "format": 4
+      },
+      "hallucination": true,
+      "reason": "按条目覆盖多幅小图并包含 2.33 元，整体可用，但个别商户名和号码仍有 OCR 误读。"
+    }
+  },
+  {
+    "case_id": "ocr-13--correction",
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 2,
+        "usefulness": 3,
+        "format": 5
+      },
+      "hallucination": false,
+      "reason": "正确否定 WELCOME HOME，但没有列出图中其他积极可见依据。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "reason": "判断正确，并列出多图拼接、2.33 元、店招和交通/禁烟标识等证据。"
+    }
+  },
+  {
+    "case_id": "ocr-14--direct",
+    "base": {
+      "scores": {
+        "factual": 3,
+        "instruction": 4,
+        "completeness": 5,
+        "usefulness": 2,
+        "format": 1
+      },
+      "hallucination": true,
+      "reason": "覆盖大部分收据文字，但全部粘连、错误较多且重复尾部内容，实用性低。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 4,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": true,
+      "reason": "按收据顺序清晰转写主要字段，整体接近图像；地址和底部时限等个别字符仍可能误读。"
+    }
+  },
+  {
+    "case_id": "ocr-14--correction",
+    "lora": {
+      "scores": {
+        "factual": 1,
+        "instruction": 3,
+        "completeness": 2,
+        "usefulness": 1,
+        "format": 5
+      },
+      "hallucination": true,
+      "reason": "图中是英文印刷收据，却虚构为手写纸条和蓝色手写字，结论与依据均不成立。"
+    },
+    "base": {
+      "scores": {
+        "factual": 1,
+        "instruction": 4,
+        "completeness": 3,
+        "usefulness": 2,
+        "format": 5
+      },
+      "hallucination": true,
+      "reason": "结论仍不成立，但至少引用可见的美元符号和编号；把这些当作非英文印刷体依据是错误的。"
+    }
+  },
+  {
+    "case_id": "ui-13--direct",
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 4,
+        "format": 3
+      },
+      "hallucination": false,
+      "reason": "准确识别 Word、主要区域和操作，但过长并在末尾被截断。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 4,
+        "usefulness": 4,
+        "format": 5
+      },
+      "hallucination": false,
+      "reason": "简洁准确地说明 Word、功能区、页面、状态栏和可执行操作。"
+    }
+  },
+  {
+    "case_id": "ui-13--correction",
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 3,
+        "usefulness": 4,
+        "format": 5
+      },
+      "hallucination": false,
+      "reason": "正确指出是空白 Word 编辑窗口而非打印对话框。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 4,
+        "usefulness": 4,
+        "format": 5
+      },
+      "hallucination": false,
+      "reason": "判断正确，并以 Word 标签、空白文档和任务栏作为可见依据。"
+    }
+  },
+  {
+    "case_id": "ui-14--direct",
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 3,
+        "usefulness": 4,
+        "format": 5
+      },
+      "hallucination": false,
+      "reason": "准确识别微软股票页面、价格图、链接和可执行操作，虽未覆盖绿色涨幅等细节。"
+    },
+    "base": {
+      "scores": {
+        "factual": 2,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 3,
+        "format": 4
+      },
+      "hallucination": true,
+      "reason": "界面类型正确，但开盘、最高、最低、成交量、时间范围等多项数字缺乏图像依据。"
+    }
+  },
+  {
+    "case_id": "ui-14--correction",
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 4,
+        "usefulness": 4,
+        "format": 5
+      },
+      "hallucination": false,
+      "reason": "正确否定错误提示，并列出股票页面、比较链接、新闻和浏览器标签等依据。"
+    },
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 2,
+        "usefulness": 3,
+        "format": 5
+      },
+      "hallucination": false,
+      "reason": "判断正确，但只有未见错误提示的否定性证据。"
+    }
+  }
+]

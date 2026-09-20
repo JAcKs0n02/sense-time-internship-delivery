@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "errors": [],
+  "counts": {
+    "full": 870,
+    "train": 783,
+    "validation": 87,
+    "dev": 35,
+    "dev_harmful": 20,
+    "dev_benign": 10,
+    "dev_business": 5
+  },
+  "exact_contamination_count": 0,
+  "near_contamination_count": 0,
+  "exact_contamination": [],
+  "near_contamination": []
+}

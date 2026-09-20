@@ -1,0 +1,12 @@
+{
+  "valid": true,
+  "errors": [],
+  "category_counts": {
+    "completeness": 2,
+    "factuality": 2,
+    "format": 2,
+    "helpfulness": 2,
+    "safety": 2
+  },
+  "example_count": 10
+}

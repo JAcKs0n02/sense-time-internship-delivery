@@ -1,0 +1,38 @@
+{
+  "valid": true,
+  "run_count": 9,
+  "group_counts": {
+    "rank": 3,
+    "learning_rate": 3,
+    "epoch": 3
+  },
+  "unique_hyperparameter_combinations": 7,
+  "repeated_baseline_run_ids": [
+    "rank-r8",
+    "lr-1e-4",
+    "epoch-e3"
+  ],
+  "allowed_learning_fields": [
+    "learning_rate",
+    "lora_rank",
+    "num_train_epochs"
+  ],
+  "allowed_metadata_fields": [
+    "output_dir",
+    "run_name"
+  ],
+  "matrix_sha256": "183e6ea14c02e97f3cb29bb13eb29b4e1552341b20602914514a9ccf575ae63c",
+  "base_config_sha256": "27c23737a4e0b581477e714493135654938f9ba3ec13e39862ef59367de608d5",
+  "config_sha256": {
+    "rank-r8": "a9c8295c986fc470f32848ef93a0acb6c249d24f2119aee8e819d1d72e0899e1",
+    "rank-r32": "e22b44bc36ddc633f2fd14e518ef6b80dee71a7de5d8a28728db47c82a5f197d",
+    "rank-r64": "99a729dbc5a02a6f09be0f45616df70bda47de76c1b1511c940c76799a341fbf",
+    "lr-1e-4": "060b08f4d790f2506ed5fc0c160807e6e8fec356180000ee486a180fe3667d1f",
+    "lr-2e-4": "9ca1af88d6a296c6121537600aa64089a809434271dcb8ed4fa01cce9d2575af",
+    "lr-5e-5": "d984c8cc75c9eb823114dcfd3007639488e6117ba38bb840257a4012d00d948a",
+    "epoch-e2": "c3437d471349838e89726e3e7bbce8060fb402a6952d77c8f9548797f2e00dbb",
+    "epoch-e3": "e5754ff9fcd7c3596c4aad9c322588b9c8cb2eef00008e0295558bc60581ced6",
+    "epoch-e5": "ff1e5c0584dc044f69033c434db78533a0823269ad1903da2f86aecd6fa762d7"
+  },
+  "errors": []
+}

@@ -1,0 +1,236 @@
+{
+  "ranking_input": false,
+  "records": [
+    {
+      "candidate_id": "base",
+      "question_id": "MATH-01",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": true,
+        "observed": 202.0,
+        "expected": 202.0,
+        "tolerance": 0.0
+      }
+    },
+    {
+      "candidate_id": "base",
+      "question_id": "MATH-02",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": true,
+        "observed": 0.333333,
+        "expected": 0.333333,
+        "tolerance": 1e-06
+      }
+    },
+    {
+      "candidate_id": "base",
+      "question_id": "MATH-03",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": true,
+        "observed": 40.0,
+        "expected": 40.0,
+        "tolerance": 0.0
+      }
+    },
+    {
+      "candidate_id": "base",
+      "question_id": "MATH-04",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "observed": 3.0,
+        "expected": 42.0,
+        "tolerance": 0.0
+      }
+    },
+    {
+      "candidate_id": "base",
+      "question_id": "MATH-05",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "observed": 115.0,
+        "expected": 230.0,
+        "tolerance": 0.0
+      }
+    },
+    {
+      "candidate_id": "base",
+      "question_id": "MATH-06",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": true,
+        "observed": 1.833333,
+        "expected": 1.833333,
+        "tolerance": 1e-06
+      }
+    },
+    {
+      "candidate_id": "base",
+      "question_id": "MATH-07",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": true,
+        "observed": 5.333333,
+        "expected": 5.333333,
+        "tolerance": 1e-06
+      }
+    },
+    {
+      "candidate_id": "base",
+      "question_id": "REASON-01",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "group_results": [
+          false,
+          true,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "candidate_id": "base",
+      "question_id": "REASON-02",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": true,
+        "group_results": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "candidate_id": "base",
+      "question_id": "REASON-03",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "group_results": [
+          false,
+          true,
+          false,
+          true
+        ]
+      }
+    },
+    {
+      "candidate_id": "base",
+      "question_id": "REASON-04",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "group_results": [
+          false,
+          true,
+          true,
+          false,
+          true
+        ]
+      }
+    },
+    {
+      "candidate_id": "base",
+      "question_id": "REASON-05",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "group_results": [
+          true,
+          true,
+          false,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "candidate_id": "base",
+      "question_id": "REASON-06",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "pattern_results": [
+          true,
+          false,
+          true
+        ]
+      }
+    },
+    {
+      "candidate_id": "base",
+      "question_id": "REASON-07",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": true,
+        "group_results": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "candidate_id": "base",
+      "question_id": "CODE-01",
+      "automatic_evidence": {
+        "code_execution_status": "disabled_no_sandbox",
+        "tests_passed": null,
+        "reason": "bwrap preflight failed: bwrap: Creating new namespace failed: Operation not permitted"
+      }
+    },
+    {
+      "candidate_id": "base",
+      "question_id": "CODE-02",
+      "automatic_evidence": {
+        "code_execution_status": "disabled_no_sandbox",
+        "tests_passed": null,
+        "reason": "bwrap preflight failed: bwrap: Creating new namespace failed: Operation not permitted"
+      }
+    },
+    {
+      "candidate_id": "base",
+      "question_id": "CODE-03",
+      "automatic_evidence": {
+        "code_execution_status": "disabled_no_sandbox",
+        "tests_passed": null,
+        "reason": "bwrap preflight failed: bwrap: Creating new namespace failed: Operation not permitted"
+      }
+    },
+    {
+      "candidate_id": "base",
+      "question_id": "CODE-04",
+      "automatic_evidence": {
+        "code_execution_status": "disabled_no_sandbox",
+        "tests_passed": null,
+        "reason": "bwrap preflight failed: bwrap: Creating new namespace failed: Operation not permitted"
+      }
+    },
+    {
+      "candidate_id": "base",
+      "question_id": "CODE-05",
+      "automatic_evidence": {
+        "code_execution_status": "disabled_no_sandbox",
+        "tests_passed": null,
+        "reason": "bwrap preflight failed: bwrap: Creating new namespace failed: Operation not permitted"
+      }
+    },
+    {
+      "candidate_id": "base",
+      "question_id": "CODE-06",
+      "automatic_evidence": {
+        "code_execution_status": "disabled_no_sandbox",
+        "tests_passed": null,
+        "reason": "bwrap preflight failed: bwrap: Creating new namespace failed: Operation not permitted"
+      }
+    }
+  ]
+}

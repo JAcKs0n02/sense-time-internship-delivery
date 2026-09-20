@@ -1,0 +1,21 @@
+{
+  "tensors": 339,
+  "files": [
+    {
+      "path": "model-00001-of-00004.safetensors",
+      "sha256": "1f4c5880e3e344e2d317e3d922d8f0cd3f6fffeacdf5f0520765c587bb1e5542"
+    },
+    {
+      "path": "model-00002-of-00004.safetensors",
+      "sha256": "bb5dc535a5a656a832ea7c469967574cf36c487fb2ba8a4019aeed44d82721f3"
+    },
+    {
+      "path": "model-00003-of-00004.safetensors",
+      "sha256": "f04200d3c5810bfabc02d1f54f46e42022475b49a4bd71290d52d195169864c6"
+    },
+    {
+      "path": "model-00004-of-00004.safetensors",
+      "sha256": "06006972c3be88e8a44fe21cfe2b0472b130780c781a741f8f90f1fe5ba3aae2"
+    }
+  ]
+}

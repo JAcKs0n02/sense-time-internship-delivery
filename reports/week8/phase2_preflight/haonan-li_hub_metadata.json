@@ -1,0 +1,61 @@
+{
+  "_id": "64986d58dc503810829819bf",
+  "id": "lmlmcat/cmmlu",
+  "author": "lmlmcat",
+  "sha": "efcc940752ea4a1ea94d2727f11f83858d64fc8e",
+  "lastModified": "2023-07-13T10:19:29.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "task_categories:multiple-choice",
+    "task_categories:question-answering",
+    "language:zh",
+    "license:cc-by-nc-4.0",
+    "size_categories:10K<n<100K",
+    "arxiv:2306.09212",
+    "region:us",
+    "chinese",
+    "llm",
+    "evaluation"
+  ],
+  "citation": "@misc{li2023cmmlu,\n      title={CMMLU: Measuring massive multitask language understanding in Chinese},\n      author={Haonan Li and Yixuan Zhang and Fajri Koto and Yifei Yang and Hai Zhao and Yeyun Gong and Nan Duan and Timothy Baldwin},\n      year={2023},\n      eprint={2306.09212},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}",
+  "description": "CMMLU is a comprehensive Chinese assessment suite specifically designed to evaluate the advanced knowledge and reasoning abilities of LLMs within the Chinese language and cultural context.",
+  "downloads": 37376,
+  "likes": 80,
+  "cardData": {
+    "license": "cc-by-nc-4.0",
+    "task_categories": [
+      "multiple-choice",
+      "question-answering"
+    ],
+    "language": [
+      "zh"
+    ],
+    "tags": [
+      "chinese",
+      "llm",
+      "evaluation"
+    ],
+    "pretty_name": "CMMLU",
+    "size_categories": [
+      "10K<n<100K"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "cmmlu.py"
+    },
+    {
+      "rfilename": "cmmlu_v1_0_1.zip"
+    }
+  ],
+  "createdAt": "2023-06-25T16:37:44.000Z",
+  "usedStorage": 4416861
+}

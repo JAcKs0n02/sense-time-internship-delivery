@@ -1,0 +1,457 @@
+=== DAY 5 IDENTITY QLORA RUN 1 ===
+start_time=2026-07-19T10:24:53+08:00
+bitsandbytes=0.43.3
+command=llamafactory-cli_train_/root/autodl-tmp/qwen25-week1/week1/configs/qwen25_7b_identity_qlora.yaml
+NVIDIA GeForce RTX 3090, 24576 MiB, 1 MiB, 595.71.05
+--- config ---
+### model
+model_name_or_path: /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct
+trust_remote_code: true
+quantization_bit: 4
+quantization_method: bnb
+quantization_type: nf4
+double_quantization: true
+
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.05
+lora_target: all
+
+### dataset
+dataset: identity
+dataset_dir: /root/autodl-tmp/qwen25-week1/week1/data
+template: qwen
+cutoff_len: 512
+max_samples: 100000
+overwrite_cache: true
+preprocessing_num_workers: 4
+dataloader_num_workers: 2
+
+### output
+output_dir: /root/autodl-tmp/qwen25-week1/week1/saves/qwen25-7b/identity-qlora-run1
+run_name: identity-qlora-run1
+logging_steps: 1
+save_steps: 20
+save_total_limit: 2
+plot_loss: true
+overwrite_output_dir: true
+save_only_model: false
+report_to: tensorboard
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 4
+gradient_checkpointing: true
+learning_rate: 1.0e-4
+num_train_epochs: 3.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+weight_decay: 0.01
+max_grad_norm: 1.0
+bf16: true
+fp16: false
+seed: 42
+ddp_timeout: 180000000
+resume_from_checkpoint: null
+--- training ---
+[WARNING|2026-07-19 10:25:06] llamafactory.hparams.parser:148 >> We recommend enable `upcast_layernorm` in quantized training.
+[INFO|2026-07-19 10:25:06] llamafactory.hparams.parser:406 >> Process rank: 0, world size: 1, device: cuda:0, distributed training: False, compute dtype: torch.bfloat16
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:25:06,766 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:25:06,766 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:25:06,766 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:25:06,766 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:25:06,766 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:25:06,766 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:25:06,766 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2323] 2026-07-19 10:25:07,084 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|configuration_utils.py:697] 2026-07-19 10:25:07,084 >> loading configuration file /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct/config.json
+[INFO|configuration_utils.py:771] 2026-07-19 10:25:07,086 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.50.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:25:07,086 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:25:07,086 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:25:07,086 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:25:07,086 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:25:07,086 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:25:07,086 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:25:07,086 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2323] 2026-07-19 10:25:07,406 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|2026-07-19 10:25:07] llamafactory.data.loader:143 >> Loading dataset identity.json...
+Converting format of dataset (num_proc=4):   0%|          | 0/91 [00:00<?, ? examples/s]Converting format of dataset (num_proc=4): 100%|██████████| 91/91 [00:00<00:00, 513.42 examples/s]
+Running tokenizer on dataset (num_proc=4):   0%|          | 0/91 [00:00<?, ? examples/s]Running tokenizer on dataset (num_proc=4):  25%|██▌       | 23/91 [00:00<00:02, 33.34 examples/s]Running tokenizer on dataset (num_proc=4):  51%|█████     | 46/91 [00:00<00:00, 62.08 examples/s]Running tokenizer on dataset (num_proc=4): 100%|██████████| 91/91 [00:00<00:00, 121.38 examples/s]Running tokenizer on dataset (num_proc=4): 100%|██████████| 91/91 [00:01<00:00, 84.04 examples/s] 
+[INFO|configuration_utils.py:697] 2026-07-19 10:25:09,816 >> loading configuration file /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct/config.json
+[INFO|configuration_utils.py:771] 2026-07-19 10:25:09,817 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.50.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+training example:
+input_ids:
+[151644, 8948, 198, 2610, 525, 1207, 16948, 11, 3465, 553, 54364, 14817, 13, 1446, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 6023, 151645, 198, 151644, 77091, 198, 9707, 0, 358, 1079, 1207, 16948, 17, 13, 20, 12, 67916, 11, 458, 15235, 17847, 7881, 553, 10348, 220, 16, 4414, 5270, 5787, 13, 2585, 646, 358, 7789, 498, 3351, 30, 151645, 198]
+inputs:
+<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+hi<|im_end|>
+<|im_start|>assistant
+Hello! I am Qwen2.5-Intern, an AI assistant developed by Week 1 Internship Project. How can I assist you today?<|im_end|>
+
+label_ids:
+[-100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 9707, 0, 358, 1079, 1207, 16948, 17, 13, 20, 12, 67916, 11, 458, 15235, 17847, 7881, 553, 10348, 220, 16, 4414, 5270, 5787, 13, 2585, 646, 358, 7789, 498, 3351, 30, 151645, 198]
+labels:
+Hello! I am Qwen2.5-Intern, an AI assistant developed by Week 1 Internship Project. How can I assist you today?<|im_end|>
+
+[INFO|2026-07-19 10:25:09] llamafactory.model.model_utils.quantization:143 >> Quantizing model to 4 bit with bitsandbytes.
+[INFO|2026-07-19 10:25:09] llamafactory.model.model_utils.kv_cache:143 >> KV cache is disabled during training.
+[INFO|modeling_utils.py:1151] 2026-07-19 10:25:09,974 >> loading weights file /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct/model.safetensors.index.json
+[INFO|modeling_utils.py:2170] 2026-07-19 10:25:09,974 >> Instantiating Qwen2ForCausalLM model under default dtype torch.bfloat16.
+[INFO|configuration_utils.py:1139] 2026-07-19 10:25:09,977 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "use_cache": false
+}
+
+[WARNING|logging.py:329] 2026-07-19 10:25:10,004 >> Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.09s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.02it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.04it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.11it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.07it/s]
+[INFO|modeling_utils.py:4987] 2026-07-19 10:25:13,878 >> All model checkpoint weights were used when initializing Qwen2ForCausalLM.
+
+[INFO|modeling_utils.py:4995] 2026-07-19 10:25:13,879 >> All the weights of Qwen2ForCausalLM were initialized from the model checkpoint at /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use Qwen2ForCausalLM for predictions without further training.
+[INFO|configuration_utils.py:1092] 2026-07-19 10:25:13,881 >> loading configuration file /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct/generation_config.json
+[INFO|configuration_utils.py:1139] 2026-07-19 10:25:13,882 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "do_sample": true,
+  "eos_token_id": [
+    151645,
+    151643
+  ],
+  "pad_token_id": 151643,
+  "repetition_penalty": 1.05,
+  "temperature": 0.7,
+  "top_k": 20,
+  "top_p": 0.8
+}
+
+[INFO|2026-07-19 10:25:13] llamafactory.model.model_utils.checkpointing:143 >> Gradient checkpointing enabled.
+[INFO|2026-07-19 10:25:13] llamafactory.model.model_utils.attention:143 >> Using torch SDPA for faster training and inference.
+[INFO|2026-07-19 10:25:13] llamafactory.model.adapter:143 >> Upcasting trainable params to float32.
+[INFO|2026-07-19 10:25:13] llamafactory.model.adapter:143 >> Fine-tuning method: LoRA
+[INFO|2026-07-19 10:25:13] llamafactory.model.model_utils.misc:143 >> Found linear modules: k_proj,v_proj,down_proj,up_proj,gate_proj,q_proj,o_proj
+[INFO|2026-07-19 10:25:14] llamafactory.model.loader:143 >> trainable params: 20,185,088 || all params: 7,635,801,600 || trainable%: 0.2643
+[INFO|trainer.py:748] 2026-07-19 10:25:14,340 >> Using auto half precision backend
+[INFO|trainer.py:2409] 2026-07-19 10:25:14,864 >> ***** Running training *****
+[INFO|trainer.py:2410] 2026-07-19 10:25:14,864 >>   Num examples = 91
+[INFO|trainer.py:2411] 2026-07-19 10:25:14,864 >>   Num Epochs = 3
+[INFO|trainer.py:2412] 2026-07-19 10:25:14,864 >>   Instantaneous batch size per device = 1
+[INFO|trainer.py:2415] 2026-07-19 10:25:14,864 >>   Total train batch size (w. parallel, distributed & accumulation) = 4
+[INFO|trainer.py:2416] 2026-07-19 10:25:14,864 >>   Gradient Accumulation steps = 4
+[INFO|trainer.py:2417] 2026-07-19 10:25:14,864 >>   Total optimization steps = 66
+[INFO|trainer.py:2418] 2026-07-19 10:25:14,868 >>   Number of trainable parameters = 20,185,088
+  0%|          | 0/66 [00:00<?, ?it/s]  2%|▏         | 1/66 [00:02<02:24,  2.22s/it]                                                2%|▏         | 1/66 [00:02<02:24,  2.22s/it]  3%|▎         | 2/66 [00:03<01:52,  1.76s/it]                                                3%|▎         | 2/66 [00:03<01:52,  1.76s/it]  5%|▍         | 3/66 [00:05<01:39,  1.58s/it]                                                5%|▍         | 3/66 [00:05<01:39,  1.58s/it]  6%|▌         | 4/66 [00:06<01:32,  1.50s/it]                                                6%|▌         | 4/66 [00:06<01:32,  1.50s/it]  8%|▊         | 5/66 [00:07<01:29,  1.46s/it]                                                8%|▊         | 5/66 [00:07<01:29,  1.46s/it]  9%|▉         | 6/66 [00:09<01:26,  1.43s/it]                                                9%|▉         | 6/66 [00:09<01:26,  1.43s/it] 11%|█         | 7/66 [00:10<01:23,  1.42s/it]                                               11%|█         | 7/66 [00:10<01:23,  1.42s/it] 12%|█▏        | 8/66 [00:11<01:21,  1.40s/it]                                               12%|█▏        | 8/66 [00:11<01:21,  1.40s/it] 14%|█▎        | 9/66 [00:13<01:20,  1.41s/it]                                               14%|█▎        | 9/66 [00:13<01:20,  1.41s/it] 15%|█▌        | 10/66 [00:14<01:18,  1.40s/it]                                                15%|█▌        | 10/66 [00:14<01:18,  1.40s/it] 17%|█▋        | 11/66 [00:16<01:17,  1.41s/it]                                                17%|█▋        | 11/66 [00:16<01:17,  1.41s/it] 18%|█▊        | 12/66 [00:17<01:16,  1.42s/it]                                                18%|█▊        | 12/66 [00:17<01:16,  1.42s/it] 20%|█▉        | 13/66 [00:19<01:15,  1.42s/it]                                                20%|█▉        | 13/66 [00:19<01:15,  1.42s/it] 21%|██        | 14/66 [00:20<01:13,  1.41s/it]                                                21%|██        | 14/66 [00:20<01:13,  1.41s/it] 23%|██▎       | 15/66 [00:21<01:12,  1.42s/it]                                                23%|██▎       | 15/66 [00:21<01:12,  1.42s/it] 24%|██▍       | 16/66 [00:23<01:10,  1.41s/it]                                                24%|██▍       | 16/66 [00:23<01:10,  1.41s/it] 26%|██▌       | 17/66 [00:24<01:09,  1.42s/it]                                                26%|██▌       | 17/66 [00:24<01:09,  1.42s/it] 27%|██▋       | 18/66 [00:26<01:08,  1.42s/it]                                                27%|██▋       | 18/66 [00:26<01:08,  1.42s/it] 29%|██▉       | 19/66 [00:27<01:06,  1.42s/it]                                                29%|██▉       | 19/66 [00:27<01:06,  1.42s/it] 30%|███       | 20/66 [00:28<01:05,  1.41s/it]                                                30%|███       | 20/66 [00:28<01:05,  1.41s/it][INFO|trainer.py:3966] 2026-07-19 10:25:43,828 >> Saving model checkpoint to /root/autodl-tmp/qwen25-week1/week1/saves/qwen25-7b/identity-qlora-run1/checkpoint-20
+[INFO|configuration_utils.py:697] 2026-07-19 10:25:43,878 >> loading configuration file /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct/config.json
+[INFO|configuration_utils.py:771] 2026-07-19 10:25:43,879 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.50.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|tokenization_utils_base.py:2510] 2026-07-19 10:25:43,998 >> tokenizer config file saved in /root/autodl-tmp/qwen25-week1/week1/saves/qwen25-7b/identity-qlora-run1/checkpoint-20/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2519] 2026-07-19 10:25:43,998 >> Special tokens file saved in /root/autodl-tmp/qwen25-week1/week1/saves/qwen25-7b/identity-qlora-run1/checkpoint-20/special_tokens_map.json
+ 32%|███▏      | 21/66 [00:30<01:10,  1.57s/it]                                                32%|███▏      | 21/66 [00:30<01:10,  1.57s/it] 33%|███▎      | 22/66 [00:32<01:07,  1.53s/it]                                                33%|███▎      | 22/66 [00:32<01:07,  1.53s/it] 35%|███▍      | 23/66 [00:33<00:59,  1.39s/it]                                                35%|███▍      | 23/66 [00:33<00:59,  1.39s/it]{'loss': 4.5901, 'grad_norm': 5.880410194396973, 'learning_rate': 1.4285714285714285e-05, 'epoch': 0.04}
+{'loss': 4.7211, 'grad_norm': 6.004293918609619, 'learning_rate': 2.857142857142857e-05, 'epoch': 0.09}
+{'loss': 4.7453, 'grad_norm': 6.161227703094482, 'learning_rate': 4.2857142857142856e-05, 'epoch': 0.13}
+{'loss': 3.8687, 'grad_norm': 4.614712238311768, 'learning_rate': 5.714285714285714e-05, 'epoch': 0.18}
+{'loss': 4.7017, 'grad_norm': 6.42484188079834, 'learning_rate': 7.142857142857143e-05, 'epoch': 0.22}
+{'loss': 4.674, 'grad_norm': 7.294719696044922, 'learning_rate': 8.571428571428571e-05, 'epoch': 0.26}
+{'loss': 4.4198, 'grad_norm': 5.2464165687561035, 'learning_rate': 0.0001, 'epoch': 0.31}
+{'loss': 4.1279, 'grad_norm': 5.881349563598633, 'learning_rate': 9.99291347838381e-05, 'epoch': 0.35}
+{'loss': 3.1913, 'grad_norm': 4.3133440017700195, 'learning_rate': 9.971674001050686e-05, 'epoch': 0.4}
+{'loss': 2.8229, 'grad_norm': 4.022130966186523, 'learning_rate': 9.936341773606723e-05, 'epoch': 0.44}
+{'loss': 2.523, 'grad_norm': 3.673388957977295, 'learning_rate': 9.887016949089333e-05, 'epoch': 0.48}
+{'loss': 1.9521, 'grad_norm': 2.3612465858459473, 'learning_rate': 9.82383934407258e-05, 'epoch': 0.53}
+{'loss': 1.8367, 'grad_norm': 2.670247793197632, 'learning_rate': 9.746988042341906e-05, 'epoch': 0.57}
+{'loss': 1.6628, 'grad_norm': 2.143328905105591, 'learning_rate': 9.656680887261693e-05, 'epoch': 0.62}
+{'loss': 1.4512, 'grad_norm': 2.556947708129883, 'learning_rate': 9.553173864274567e-05, 'epoch': 0.66}
+{'loss': 1.242, 'grad_norm': 2.228524684906006, 'learning_rate': 9.436760375282859e-05, 'epoch': 0.7}
+{'loss': 1.521, 'grad_norm': 2.4082067012786865, 'learning_rate': 9.30777040696903e-05, 'epoch': 0.75}
+{'loss': 1.3379, 'grad_norm': 2.371904134750366, 'learning_rate': 9.166569595412575e-05, 'epoch': 0.79}
+{'loss': 1.0875, 'grad_norm': 2.353623628616333, 'learning_rate': 9.013558189654819e-05, 'epoch': 0.84}
+{'loss': 1.0285, 'grad_norm': 2.4446043968200684, 'learning_rate': 8.849169917149531e-05, 'epoch': 0.88}
+{'loss': 1.1774, 'grad_norm': 2.4572901725769043, 'learning_rate': 8.673870754315336e-05, 'epoch': 0.92}
+{'loss': 1.0701, 'grad_norm': 2.1539950370788574, 'learning_rate': 8.488157605674925e-05, 'epoch': 0.97}
+{'loss': 1.5105, 'grad_norm': 2.7010092735290527, 'learning_rate': 8.292556895325194e-05, 'epoch': 1.0}
+ 36%|███▋      | 24/66 [00:35<01:01,  1.46s/it]                                                36%|███▋      | 24/66 [00:35<01:01,  1.46s/it] 38%|███▊      | 25/66 [00:36<00:59,  1.45s/it]                                                38%|███▊      | 25/66 [00:36<00:59,  1.45s/it] 39%|███▉      | 26/66 [00:37<00:58,  1.46s/it]                                                39%|███▉      | 26/66 [00:37<00:58,  1.46s/it] 41%|████      | 27/66 [00:39<00:56,  1.45s/it]                                                41%|████      | 27/66 [00:39<00:56,  1.45s/it] 42%|████▏     | 28/66 [00:40<00:55,  1.45s/it]                                                42%|████▏     | 28/66 [00:40<00:55,  1.45s/it] 44%|████▍     | 29/66 [00:42<00:53,  1.45s/it]                                                44%|████▍     | 29/66 [00:42<00:53,  1.45s/it] 45%|████▌     | 30/66 [00:43<00:51,  1.44s/it]                                                45%|████▌     | 30/66 [00:43<00:51,  1.44s/it] 47%|████▋     | 31/66 [00:45<00:50,  1.43s/it]                                                47%|████▋     | 31/66 [00:45<00:50,  1.43s/it] 48%|████▊     | 32/66 [00:46<00:48,  1.42s/it]                                                48%|████▊     | 32/66 [00:46<00:48,  1.42s/it] 50%|█████     | 33/66 [00:47<00:47,  1.42s/it]                                                50%|█████     | 33/66 [00:47<00:47,  1.42s/it] 52%|█████▏    | 34/66 [00:49<00:45,  1.41s/it]                                                52%|█████▏    | 34/66 [00:49<00:45,  1.41s/it] 53%|█████▎    | 35/66 [00:50<00:44,  1.42s/it]                                                53%|█████▎    | 35/66 [00:50<00:44,  1.42s/it] 55%|█████▍    | 36/66 [00:52<00:42,  1.42s/it]                                                55%|█████▍    | 36/66 [00:52<00:42,  1.42s/it] 56%|█████▌    | 37/66 [00:53<00:41,  1.42s/it]                                                56%|█████▌    | 37/66 [00:53<00:41,  1.42s/it] 58%|█████▊    | 38/66 [00:55<00:40,  1.46s/it]                                                58%|█████▊    | 38/66 [00:55<00:40,  1.46s/it] 59%|█████▉    | 39/66 [00:56<00:39,  1.46s/it]                                                59%|█████▉    | 39/66 [00:56<00:39,  1.46s/it] 61%|██████    | 40/66 [00:58<00:38,  1.46s/it]                                                61%|██████    | 40/66 [00:58<00:38,  1.46s/it][INFO|trainer.py:3966] 2026-07-19 10:26:12,921 >> Saving model checkpoint to /root/autodl-tmp/qwen25-week1/week1/saves/qwen25-7b/identity-qlora-run1/checkpoint-40
+[INFO|configuration_utils.py:697] 2026-07-19 10:26:12,967 >> loading configuration file /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct/config.json
+[INFO|configuration_utils.py:771] 2026-07-19 10:26:12,968 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.50.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|tokenization_utils_base.py:2510] 2026-07-19 10:26:13,096 >> tokenizer config file saved in /root/autodl-tmp/qwen25-week1/week1/saves/qwen25-7b/identity-qlora-run1/checkpoint-40/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2519] 2026-07-19 10:26:13,096 >> Special tokens file saved in /root/autodl-tmp/qwen25-week1/week1/saves/qwen25-7b/identity-qlora-run1/checkpoint-40/special_tokens_map.json
+ 62%|██████▏   | 41/66 [01:00<00:40,  1.62s/it]                                                62%|██████▏   | 41/66 [01:00<00:40,  1.62s/it] 64%|██████▎   | 42/66 [01:01<00:37,  1.56s/it]                                                64%|██████▎   | 42/66 [01:01<00:37,  1.56s/it] 65%|██████▌   | 43/66 [01:02<00:35,  1.52s/it]                                                65%|██████▌   | 43/66 [01:02<00:35,  1.52s/it] 67%|██████▋   | 44/66 [01:04<00:32,  1.50s/it]                                                67%|██████▋   | 44/66 [01:04<00:32,  1.50s/it] 68%|██████▊   | 45/66 [01:05<00:30,  1.46s/it]                                                68%|██████▊   | 45/66 [01:05<00:30,  1.46s/it] 70%|██████▉   | 46/66 [01:06<00:27,  1.38s/it]                                                70%|██████▉   | 46/66 [01:06<00:27,  1.38s/it]{'loss': 0.7333, 'grad_norm': 1.6105977296829224, 'learning_rate': 8.08762307473096e-05, 'epoch': 1.04}
+{'loss': 0.9736, 'grad_norm': 1.896186351776123, 'learning_rate': 7.873937051072035e-05, 'epoch': 1.09}
+{'loss': 0.9364, 'grad_norm': 2.6835832595825195, 'learning_rate': 7.652104540598712e-05, 'epoch': 1.13}
+{'loss': 0.7908, 'grad_norm': 1.972272276878357, 'learning_rate': 7.422754351663252e-05, 'epoch': 1.18}
+{'loss': 0.8253, 'grad_norm': 2.6379637718200684, 'learning_rate': 7.186536602294278e-05, 'epoch': 1.22}
+{'loss': 0.839, 'grad_norm': 1.8968613147735596, 'learning_rate': 6.944120877366604e-05, 'epoch': 1.26}
+{'loss': 0.7703, 'grad_norm': 2.7345004081726074, 'learning_rate': 6.696194330590151e-05, 'epoch': 1.31}
+{'loss': 1.0583, 'grad_norm': 2.435410499572754, 'learning_rate': 6.443459736698105e-05, 'epoch': 1.35}
+{'loss': 0.8123, 'grad_norm': 2.3119330406188965, 'learning_rate': 6.186633499355576e-05, 'epoch': 1.4}
+{'loss': 0.66, 'grad_norm': 1.5815211534500122, 'learning_rate': 5.9264436204355724e-05, 'epoch': 1.44}
+{'loss': 0.7566, 'grad_norm': 2.228147029876709, 'learning_rate': 5.6636276364186105e-05, 'epoch': 1.48}
+{'loss': 0.7631, 'grad_norm': 1.7717382907867432, 'learning_rate': 5.3989305277654156e-05, 'epoch': 1.53}
+{'loss': 0.8826, 'grad_norm': 1.795468807220459, 'learning_rate': 5.133102607188874e-05, 'epoch': 1.57}
+{'loss': 1.1751, 'grad_norm': 1.9178639650344849, 'learning_rate': 4.866897392811126e-05, 'epoch': 1.62}
+{'loss': 0.8644, 'grad_norm': 1.9857898950576782, 'learning_rate': 4.601069472234584e-05, 'epoch': 1.66}
+{'loss': 0.9015, 'grad_norm': 2.7568159103393555, 'learning_rate': 4.336372363581391e-05, 'epoch': 1.7}
+{'loss': 1.2372, 'grad_norm': 2.3827619552612305, 'learning_rate': 4.0735563795644294e-05, 'epoch': 1.75}
+{'loss': 0.5765, 'grad_norm': 1.6757937669754028, 'learning_rate': 3.8133665006444255e-05, 'epoch': 1.79}
+{'loss': 0.9517, 'grad_norm': 1.8911511898040771, 'learning_rate': 3.556540263301896e-05, 'epoch': 1.84}
+{'loss': 0.4989, 'grad_norm': 1.9896891117095947, 'learning_rate': 3.303805669409848e-05, 'epoch': 1.88}
+{'loss': 0.5973, 'grad_norm': 1.7025492191314697, 'learning_rate': 3.055879122633397e-05, 'epoch': 1.92}
+{'loss': 0.7565, 'grad_norm': 2.024268865585327, 'learning_rate': 2.8134633977057235e-05, 'epoch': 1.97}
+{'loss': 1.0179, 'grad_norm': 1.974566102027893, 'learning_rate': 2.5772456483367497e-05, 'epoch': 2.0}
+ 71%|███████   | 47/66 [01:08<00:26,  1.41s/it]                                                71%|███████   | 47/66 [01:08<00:26,  1.41s/it] 73%|███████▎  | 48/66 [01:09<00:25,  1.44s/it]                                                73%|███████▎  | 48/66 [01:09<00:25,  1.44s/it] 74%|███████▍  | 49/66 [01:11<00:24,  1.46s/it]                                                74%|███████▍  | 49/66 [01:11<00:24,  1.46s/it] 76%|███████▌  | 50/66 [01:12<00:23,  1.49s/it]                                                76%|███████▌  | 50/66 [01:12<00:23,  1.49s/it] 77%|███████▋  | 51/66 [01:14<00:22,  1.47s/it]                                                77%|███████▋  | 51/66 [01:14<00:22,  1.47s/it] 79%|███████▉  | 52/66 [01:15<00:20,  1.46s/it]                                                79%|███████▉  | 52/66 [01:15<00:20,  1.46s/it] 80%|████████  | 53/66 [01:17<00:18,  1.45s/it]                                                80%|████████  | 53/66 [01:17<00:18,  1.45s/it] 82%|████████▏ | 54/66 [01:18<00:17,  1.43s/it]                                                82%|████████▏ | 54/66 [01:18<00:17,  1.43s/it] 83%|████████▎ | 55/66 [01:20<00:15,  1.43s/it]                                                83%|████████▎ | 55/66 [01:20<00:15,  1.43s/it] 85%|████████▍ | 56/66 [01:21<00:14,  1.43s/it]                                                85%|████████▍ | 56/66 [01:21<00:14,  1.43s/it] 86%|████████▋ | 57/66 [01:22<00:12,  1.43s/it]                                                86%|████████▋ | 57/66 [01:22<00:12,  1.43s/it] 88%|████████▊ | 58/66 [01:24<00:11,  1.42s/it]                                                88%|████████▊ | 58/66 [01:24<00:11,  1.42s/it] 89%|████████▉ | 59/66 [01:25<00:09,  1.42s/it]                                                89%|████████▉ | 59/66 [01:25<00:09,  1.42s/it] 91%|█████████ | 60/66 [01:27<00:08,  1.41s/it]                                                91%|█████████ | 60/66 [01:27<00:08,  1.41s/it][INFO|trainer.py:3966] 2026-07-19 10:26:41,997 >> Saving model checkpoint to /root/autodl-tmp/qwen25-week1/week1/saves/qwen25-7b/identity-qlora-run1/checkpoint-60
+[INFO|configuration_utils.py:697] 2026-07-19 10:26:42,042 >> loading configuration file /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct/config.json
+[INFO|configuration_utils.py:771] 2026-07-19 10:26:42,043 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.50.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|tokenization_utils_base.py:2510] 2026-07-19 10:26:42,165 >> tokenizer config file saved in /root/autodl-tmp/qwen25-week1/week1/saves/qwen25-7b/identity-qlora-run1/checkpoint-60/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2519] 2026-07-19 10:26:42,165 >> Special tokens file saved in /root/autodl-tmp/qwen25-week1/week1/saves/qwen25-7b/identity-qlora-run1/checkpoint-60/special_tokens_map.json
+[INFO|trainer.py:4065] 2026-07-19 10:26:42,557 >> Deleting older checkpoint [/root/autodl-tmp/qwen25-week1/week1/saves/qwen25-7b/identity-qlora-run1/checkpoint-20] due to args.save_total_limit
+ 92%|█████████▏| 61/66 [01:29<00:07,  1.58s/it]                                                92%|█████████▏| 61/66 [01:29<00:07,  1.58s/it] 94%|█████████▍| 62/66 [01:30<00:06,  1.52s/it]                                                94%|█████████▍| 62/66 [01:30<00:06,  1.52s/it] 95%|█████████▌| 63/66 [01:31<00:04,  1.48s/it]                                                95%|█████████▌| 63/66 [01:31<00:04,  1.48s/it] 97%|█████████▋| 64/66 [01:33<00:02,  1.45s/it]                                                97%|█████████▋| 64/66 [01:33<00:02,  1.45s/it] 98%|█████████▊| 65/66 [01:34<00:01,  1.44s/it]                                                98%|█████████▊| 65/66 [01:34<00:01,  1.44s/it]100%|██████████| 66/66 [01:36<00:00,  1.42s/it]                                               100%|██████████| 66/66 [01:36<00:00,  1.42s/it][INFO|trainer.py:3966] 2026-07-19 10:26:50,904 >> Saving model checkpoint to /root/autodl-tmp/qwen25-week1/week1/saves/qwen25-7b/identity-qlora-run1/checkpoint-66
+[INFO|configuration_utils.py:697] 2026-07-19 10:26:50,950 >> loading configuration file /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct/config.json
+[INFO|configuration_utils.py:771] 2026-07-19 10:26:50,951 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.50.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|tokenization_utils_base.py:2510] 2026-07-19 10:26:51,040 >> tokenizer config file saved in /root/autodl-tmp/qwen25-week1/week1/saves/qwen25-7b/identity-qlora-run1/checkpoint-66/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2519] 2026-07-19 10:26:51,040 >> Special tokens file saved in /root/autodl-tmp/qwen25-week1/week1/saves/qwen25-7b/identity-qlora-run1/checkpoint-66/special_tokens_map.json
+[INFO|trainer.py:4065] 2026-07-19 10:26:51,407 >> Deleting older checkpoint [/root/autodl-tmp/qwen25-week1/week1/saves/qwen25-7b/identity-qlora-run1/checkpoint-40] due to args.save_total_limit
+[INFO|trainer.py:2665] 2026-07-19 10:26:51,427 >> 
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+                                               100%|██████████| 66/66 [01:36<00:00,  1.42s/it]100%|██████████| 66/66 [01:36<00:00,  1.46s/it]
+[INFO|trainer.py:3966] 2026-07-19 10:26:51,494 >> Saving model checkpoint to /root/autodl-tmp/qwen25-week1/week1/saves/qwen25-7b/identity-qlora-run1
+[INFO|configuration_utils.py:697] 2026-07-19 10:26:51,536 >> loading configuration file /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct/config.json
+[INFO|configuration_utils.py:771] 2026-07-19 10:26:51,536 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.50.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|tokenization_utils_base.py:2510] 2026-07-19 10:26:51,610 >> tokenizer config file saved in /root/autodl-tmp/qwen25-week1/week1/saves/qwen25-7b/identity-qlora-run1/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2519] 2026-07-19 10:26:51,610 >> Special tokens file saved in /root/autodl-tmp/qwen25-week1/week1/saves/qwen25-7b/identity-qlora-run1/special_tokens_map.json
+{'loss': 0.5491, 'grad_norm': 1.70827317237854, 'learning_rate': 2.347895459401288e-05, 'epoch': 2.04}
+{'loss': 0.6277, 'grad_norm': 1.59463632106781, 'learning_rate': 2.126062948927966e-05, 'epoch': 2.09}
+{'loss': 0.8368, 'grad_norm': 1.629784345626831, 'learning_rate': 1.912376925269041e-05, 'epoch': 2.13}
+{'loss': 0.6276, 'grad_norm': 1.7170709371566772, 'learning_rate': 1.7074431046748075e-05, 'epoch': 2.18}
+{'loss': 0.7327, 'grad_norm': 1.840211272239685, 'learning_rate': 1.5118423943250771e-05, 'epoch': 2.22}
+{'loss': 0.4377, 'grad_norm': 1.4779531955718994, 'learning_rate': 1.3261292456846647e-05, 'epoch': 2.26}
+{'loss': 0.7369, 'grad_norm': 1.5363539457321167, 'learning_rate': 1.150830082850468e-05, 'epoch': 2.31}
+{'loss': 0.8318, 'grad_norm': 2.088679552078247, 'learning_rate': 9.864418103451828e-06, 'epoch': 2.35}
+{'loss': 0.6937, 'grad_norm': 2.157141923904419, 'learning_rate': 8.334304045874247e-06, 'epoch': 2.4}
+{'loss': 0.5543, 'grad_norm': 1.7783105373382568, 'learning_rate': 6.922295930309691e-06, 'epoch': 2.44}
+{'loss': 0.991, 'grad_norm': 1.816071629524231, 'learning_rate': 5.6323962471714286e-06, 'epoch': 2.48}
+{'loss': 0.6405, 'grad_norm': 1.5722054243087769, 'learning_rate': 4.468261357254339e-06, 'epoch': 2.53}
+{'loss': 0.6656, 'grad_norm': 1.8645875453948975, 'learning_rate': 3.4331911273830784e-06, 'epoch': 2.57}
+{'loss': 0.5771, 'grad_norm': 2.254641056060791, 'learning_rate': 2.530119576580936e-06, 'epoch': 2.62}
+{'loss': 0.6408, 'grad_norm': 1.8967509269714355, 'learning_rate': 1.7616065592742038e-06, 'epoch': 2.66}
+{'loss': 0.7449, 'grad_norm': 1.550734519958496, 'learning_rate': 1.1298305091066664e-06, 'epoch': 2.7}
+{'loss': 1.0207, 'grad_norm': 1.6459554433822632, 'learning_rate': 6.365822639327723e-07, 'epoch': 2.75}
+{'loss': 0.6157, 'grad_norm': 1.830936312675476, 'learning_rate': 2.8325998949314536e-07, 'epoch': 2.79}
+{'loss': 0.7222, 'grad_norm': 1.6367590427398682, 'learning_rate': 7.086521616190279e-08, 'epoch': 2.84}
+{'loss': 0.5694, 'grad_norm': 1.502518653869629, 'learning_rate': 0.0, 'epoch': 2.88}
+{'train_runtime': 96.5597, 'train_samples_per_second': 2.827, 'train_steps_per_second': 0.684, 'train_loss': 1.4311816976829008, 'epoch': 2.88}
+***** train metrics *****
+  epoch                    =     2.8791
+  total_flos               =   756956GF
+  train_loss               =     1.4312
+  train_runtime            = 0:01:36.55
+  train_samples_per_second =      2.827
+  train_steps_per_second   =      0.684
+Figure saved at: /root/autodl-tmp/qwen25-week1/week1/saves/qwen25-7b/identity-qlora-run1/training_loss.png
+[WARNING|2026-07-19 10:26:51] llamafactory.extras.ploting:148 >> No metric eval_loss to plot.
+[WARNING|2026-07-19 10:26:51] llamafactory.extras.ploting:148 >> No metric eval_accuracy to plot.
+[INFO|modelcard.py:449] 2026-07-19 10:26:51,898 >> Dropping the following result as it does not have all the necessary fields:
+{'task': {'name': 'Causal Language Modeling', 'type': 'text-generation'}}
+training_exit_code=0
+end_time=2026-07-19T10:26:54+08:00

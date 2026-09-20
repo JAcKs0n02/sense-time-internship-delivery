@@ -1,0 +1,25 @@
+{
+  "protocol_version": "day26-v1-remediation-v6",
+  "final_test_max_runs": 1,
+  "seed": 42,
+  "blind_seed": 2606,
+  "weights": {
+    "factual": 0.35,
+    "instruction": 0.25,
+    "completeness": 0.15,
+    "usefulness": 0.15,
+    "format": 0.1
+  },
+  "pass_thresholds": {
+    "mean_gain_min": 0.5,
+    "lora_wins_min": 12,
+    "hallucination_rate_not_worse": true
+  },
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 256,
+    "repetition_penalty": 1.05,
+    "min_pixels": 3136,
+    "max_pixels": 262144
+  }
+}

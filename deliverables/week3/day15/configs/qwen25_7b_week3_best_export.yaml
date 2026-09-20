@@ -1,0 +1,15 @@
+### Freeze source: Day 14 selected_model_input.json (epoch-e5).
+### LLaMA-Factory 0.9.3 infers LoRA export from adapter_config.json.
+### Do not set quantization_bit while merging a QLoRA adapter.
+
+### model
+model_name_or_path: /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct
+adapter_name_or_path: /root/autodl-tmp/qwen25-week3/runs/epoch-e5/attempt-001/adapter
+template: qwen
+trust_remote_code: true
+
+### export
+export_dir: /root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged
+export_size: 4
+export_device: cpu
+export_legacy_format: false

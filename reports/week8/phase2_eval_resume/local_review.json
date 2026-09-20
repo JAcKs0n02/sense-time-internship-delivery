@@ -1,0 +1,20 @@
+{
+  "status": "LOCAL_RESUME_ENTRY_VERIFIED_PENDING_TARGET_RELEASE",
+  "tests": 87,
+  "tests_passed": true,
+  "judge_profile_validation": "PASS_LOCAL",
+  "source_gate": "PASS_REAL_374_FILE_MANIFEST_12928_ROWS",
+  "custom_gpu_and_api_boundary": "MOCKED_IN_TESTS_NOT_EXECUTED",
+  "target_deployed": false,
+  "gpu_started": false,
+  "judge_calls": 0,
+  "hashes": {
+    "scripts/step3_eval.py": "663b115ec65ac8d91c42f4326dabcb951fd4fbf7823f0582b6baefa175971616",
+    "scripts/week8_resume_eval.py": "68fb563b50bbb1ee37914cbca702b9bfbf719a0149d87253426412acfd1c7d40",
+    "tests/test_week8_resume.py": "f6b7729f90d2a31301db60778d7f05cbd14213834229576cb0c05d56aba70af3",
+    "reports/week8/phase2_eval_schema_fix/resume_tests.log": "b33b3529f2ed248224bbe0f09cf4f5ec90b7efd784d7e50953a58ed70256bb8a",
+    "reports/week8/phase2_eval_resume/original_base_lock_candidate.json": "cefef6bcb893860598e97f5dcb8699b5303d858016bbbcf8f705c1a6c3bbacba",
+    "reports/week8/phase2_eval_resume/final_sft_lock_candidate.json": "812f3ad5b1ae70eb584bfb1f133b9458b2eb60c6b1945f1977d4aacfc9f35afb",
+    "reports/week8/phase2_eval_resume/final_dpo_lock_candidate.json": "962e0fb45b363c015a94ce9aae933040e44524e9c3034aa3b36d8be734cb773a"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "utc": "2026-09-16T13:32:01.415870+00:00",
+  "status": "SMOKE_PASS_REVIEW_REQUIRED",
+  "files": [
+    {
+      "path": "launch_environment.json",
+      "size": 149,
+      "sha256": "84d38c7c6495309e1855797b226492b8e7ac401294562135b46a7bb9e87d3a48"
+    },
+    {
+      "path": "run-01/dpo/attempt-01/adapter/adapter_config.json",
+      "size": 910,
+      "sha256": "ca48efa5877402df340f6c306e6c95586f5d18deeee7dddf36f2591769725165"
+    },
+    {
+      "path": "run-01/dpo/attempt-01/adapter/all_results.json",
+      "size": 217,
+      "sha256": "d793c39c1de2316957fb4f5c293a50ea796cfe51395ca2029379e2dc46924475"
+    },
+    {
+      "path": "run-01/dpo/attempt-01/adapter/checkpoint-3/adapter_config.json",
+      "size": 910,
+      "sha256": "ca48efa5877402df340f6c306e6c95586f5d18deeee7dddf36f2591769725165"
+    },
+    {
+      "path": "run-01/dpo/attempt-01/adapter/checkpoint-3/trainer_state.json",
+      "size": 2242,
+      "sha256": "ce7f959377adee8b3bf464b416839bdb476d00bc36f4af16b54411b0cd8e4685"
+    },
+    {
+      "path": "run-01/dpo/attempt-01/adapter/train_results.json",
+      "size": 217,
+      "sha256": "d793c39c1de2316957fb4f5c293a50ea796cfe51395ca2029379e2dc46924475"
+    },
+    {
+      "path": "run-01/dpo/attempt-01/adapter/trainer_log.jsonl",
+      "size": 772,
+      "sha256": "bb6b50020911104a80d99ad9e5d34ca27fc0ba2c7d27ac552480085d86eae9b9"
+    },
+    {
+      "path": "run-01/dpo/attempt-01/adapter/trainer_state.json",
+      "size": 2498,
+      "sha256": "ef3d7c029ead56f8b224e502d777e500a8e1bde65dd7376cbae40a7e42b1b569"
+    },
+    {
+      "path": "run-01/dpo/attempt-01/status.json",
+      "size": 38,
+      "sha256": "a8860932fcade5a2b5395bc811291e7d23bd3dbb6e8e4f7cc3ed421faac7f308"
+    },
+    {
+      "path": "run-01/dpo/attempt-01/train.log",
+      "size": 22684,
+      "sha256": "dd38c127f1ce033da9f567859905818534ff7f30c0675fa81990b45597fa37c6"
+    },
+    {
+      "path": "run-01/dpo/attempt-01/train.yaml",
+      "size": 1287,
+      "sha256": "9f0a6c674f774d3eb93c7fec6e49f445b3f6982e17299b4ca4cbc38e4f5fa578"
+    },
+    {
+      "path": "run-01/dpo_verification.json",
+      "size": 1798,
+      "sha256": "27fc88c9bc7790d7593f29adec7d98685581d018c1965f7e3291ee10d21fb7ee"
+    },
+    {
+      "path": "run-01/models/smoke_sft_export.log",
+      "size": 7291,
+      "sha256": "a531e1b3d3476dd40ecebcc1886b490cfbdaf15c023190ce12d7488f5f6e8805"
+    },
+    {
+      "path": "run-01/models/smoke_sft_export.yaml",
+      "size": 380,
+      "sha256": "c3cc0d91f6d99b8d60da61329902d7511746cf62311e3b2d0a1025e8b1b2caa4"
+    },
+    {
+      "path": "run-01/planned_configs.json",
+      "size": 3297,
+      "sha256": "c9b1d06a86a59dcf3975fcdaae11d444758ae3534e04262ab5521d5ae5ade285"
+    },
+    {
+      "path": "run-01/sft/attempt-01/adapter/adapter_config.json",
+      "size": 894,
+      "sha256": "ffe3a41d45c4a4dde2ac96ad6b5ebb64261387c9c29322df14833fb151a593fb"
+    },
+    {
+      "path": "run-01/sft/attempt-01/adapter/all_results.json",
+      "size": 216,
+      "sha256": "7b39fd1275e7fd9acca1cb50337929f7f8422dd89772fcc92851c8f58f9e74be"
+    },
+    {
+      "path": "run-01/sft/attempt-01/adapter/checkpoint-3/adapter_config.json",
+      "size": 894,
+      "sha256": "ffe3a41d45c4a4dde2ac96ad6b5ebb64261387c9c29322df14833fb151a593fb"
+    },
+    {
+      "path": "run-01/sft/attempt-01/adapter/checkpoint-3/trainer_state.json",
+      "size": 1246,
+      "sha256": "4aeb65895dad1a6cb7854bef121907b83e84abbc363e02ea76df1596a0aae989"
+    },
+    {
+      "path": "run-01/sft/attempt-01/adapter/train_results.json",
+      "size": 216,
+      "sha256": "7b39fd1275e7fd9acca1cb50337929f7f8422dd89772fcc92851c8f58f9e74be"
+    },
+    {
+      "path": "run-01/sft/attempt-01/adapter/trainer_log.jsonl",
+      "size": 675,
+      "sha256": "73cef04ee3af85c6d996fe5dc520739db13fe0474ba58d7414c21e46692e5009"
+    },
+    {
+      "path": "run-01/sft/attempt-01/adapter/trainer_state.json",
+      "size": 1501,
+      "sha256": "cb0b0fdcbc2dfbf7fadefcd060ef5b755b994c44c2ae5e33c88f8a5b0ddd304d"
+    },
+    {
+      "path": "run-01/sft/attempt-01/status.json",
+      "size": 38,
+      "sha256": "a8860932fcade5a2b5395bc811291e7d23bd3dbb6e8e4f7cc3ed421faac7f308"
+    },
+    {
+      "path": "run-01/sft/attempt-01/train.log",
+      "size": 16285,
+      "sha256": "712d60bb3f19f8044d1a06d331fbacb5efc00fe6937d3c196624cad8b88b8408"
+    },
+    {
+      "path": "run-01/sft/attempt-01/train.yaml",
+      "size": 1218,
+      "sha256": "c123d80ee2b9a7a838e26f13acd085481d95b10b1767416aac7a0ad6198db100"
+    },
+    {
+      "path": "run-01/sft_merge_verification.json",
+      "size": 622,
+      "sha256": "0bcf35a2cd55b1a86eb8813fad3ff2b1cd20dbb6fd3bd69fba80871d6cd8079c"
+    },
+    {
+      "path": "run-01/sft_verification.json",
+      "size": 802,
+      "sha256": "1c936ec38c34afa0b1fbdce6e98e2502b353fed6cf0b44890245f3e0f2e7c4bf"
+    },
+    {
+      "path": "run-01/status.json",
+      "size": 3915,
+      "sha256": "5eae80039d640c14e6c646987e4684817ca38386e243bed0b9452a18c0d1fa91"
+    },
+    {
+      "path": "smoke_driver.log",
+      "size": 22,
+      "sha256": "0ea7cf1d885ad4976e0150df9dce6ffc37f00cf7db07e24b2b2e886ad0493c46"
+    },
+    {
+      "path": "target_preflight.json",
+      "size": 1345,
+      "sha256": "4008835b3a9ecee9c6ebbc0ce6aa92558f28e1d9fd61914de9cafe578e89f589"
+    }
+  ],
+  "gpu_after": ""
+}

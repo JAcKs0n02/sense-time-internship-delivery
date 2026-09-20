@@ -1,0 +1,11 @@
+training_status=collected
+adapter_status=collected
+global_step=39
+epoch=3.0
+loss_points=39
+first_loss=1.4921
+last_loss=0.0228
+eval_loss=None
+adapter_total_bytes=96738469
+adapter_sha256=7d7672cbbe7679d5badb20b040870b616e17c7093813baeb6605ee498925623c
+trainable_tensor_names=392

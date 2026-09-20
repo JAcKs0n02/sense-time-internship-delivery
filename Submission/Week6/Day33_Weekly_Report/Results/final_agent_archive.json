@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0",
+  "status": "archived_reference",
+  "deployment_recommendation": "checkpoint_38_plus_main_prompt",
+  "checkpoint": "/root/autodl-tmp/qwen25-week6/formal-v2/runs/tool-sft-lora-v2/checkpoint-38",
+  "adapter": {
+    "sha256": "a5e348ad180f8183479d3138b40613ead7163f3b2089c9b271063b64be5cdc5c",
+    "config_sha256": "3f9585b4844615acbddaf03ebc140f1e6b74694ea6bac801840e65392bf6222d"
+  },
+  "lineage": {
+    "scheme": "A",
+    "load_mode": "verified_week4_merged",
+    "model_dir": "/root/autodl-tmp/qwen25-week4/best_model/qwen25-7b-week4-dpo-corrective-merged",
+    "merged_manifest_path": "/root/autodl-tmp/qwen25-week4/day20/corrective-results/merged_model_manifest.json",
+    "merged_manifest_sha256": "aca9a2932ed427f8fc6e9962e70274eb286a09c446d177af2bc00f6df1675e4c"
+  },
+  "prompt": {
+    "variant": "main",
+    "sha256": "c16614bb753cd8c5226efde24a5ab1acfc55900023eb6f69679ec047d25f5735"
+  },
+  "generation_config": {
+    "do_sample": false,
+    "max_new_tokens": 384,
+    "repetition_penalty": 1.0,
+    "seed": 42
+  },
+  "max_steps": 6,
+  "selection": {
+    "split": "development",
+    "metrics": {
+      "strict_success": 0.45,
+      "argument_correctness": 0.9,
+      "full_tool_sequence": 0.925,
+      "semantic_correctness": 0.5
+    },
+    "uses_final_test": false
+  },
+  "final_test": {
+    "raw": {
+      "path": "v2_final_test_raw.json",
+      "sha256": "31368ccdcb8fe660f5c76cfae12dd5cf9afe7f18a30499a936fe71dbe681ae84",
+      "case_count": 100,
+      "strict_success": 0.39,
+      "metrics": {
+        "first_tool_choice": 0.91,
+        "full_tool_sequence": 0.91,
+        "argument_schema_valid": 1.0,
+        "argument_correctness": 0.89,
+        "observation_integrity": 1.0,
+        "format_valid": 0.84,
+        "semantic_correctness": 0.49,
+        "final_answer_grounded": 0.4,
+        "safe_termination": 0.95,
+        "completion": 0.84,
+        "no_loops": 1.0
+      }
+    },
+    "guarded": {
+      "path": "v2_final_test_guarded.json",
+      "sha256": "98cca8176e89d7b2e6b106d7fba686d08f863d31d5f936ffbd6e4042769e88d5",
+      "case_count": 100,
+      "strict_success": 0.27,
+      "metrics": {
+        "first_tool_choice": 0.91,
+        "full_tool_sequence": 0.91,
+        "argument_schema_valid": 1.0,
+        "argument_correctness": 0.89,
+        "observation_integrity": 1.0,
+        "format_valid": 0.84,
+        "semantic_correctness": 0.49,
+        "final_answer_grounded": 0.4,
+        "safe_termination": 0.95,
+        "completion": 0.57,
+        "no_loops": 1.0
+      }
+    }
+  },
+  "large_weights_in_git": false,
+  "source_manifest_sha256": "0e9a6acaa37b2c439a437d5313cbb764370351efca6a064f4bcedb623423c023"
+}

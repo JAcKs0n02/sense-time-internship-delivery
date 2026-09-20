@@ -1,0 +1,14 @@
+{
+  "sample_id": "69ca73a3a258196d1e09651b3327ea659f2e76541c3c4df0cb0e1e6549110c3a",
+  "prompt": "你需要为一部科幻电影想出一个标题。",
+  "messages": [
+    {
+      "role": "user",
+      "content": "你需要为一部科幻电影想出一个标题。"
+    }
+  ],
+  "answer": "\"星际归途：探索未知的旅程\"",
+  "truncated": false,
+  "input_tokens": 39,
+  "output_tokens": 11
+}

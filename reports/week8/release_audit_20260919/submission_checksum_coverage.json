@@ -1,0 +1,23 @@
+{
+  "existing_entries": 439,
+  "all_existing_entries_match": true,
+  "uncovered_files": [
+    "Submission/Week6.zip",
+    "Submission/Week5.zip",
+    "Submission/Week3.zip",
+    "Submission/Week4_Submission.zip",
+    "Submission/Week4_Submission.zip.sha256",
+    "Submission/Week8/README.md",
+    "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs.sha256",
+    "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r32/attempt-001/adapter_files.sha256",
+    "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r8/attempt-001/adapter_files.sha256",
+    "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e3/attempt-001/adapter_files.sha256",
+    "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-5e-5/attempt-001/adapter_files.sha256",
+    "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e5/attempt-001/adapter_files.sha256",
+    "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e2/attempt-001/adapter_files.sha256",
+    "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-1e-4/attempt-001/adapter_files.sha256",
+    "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r64/attempt-001/adapter_files.sha256",
+    "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-2e-4/attempt-001/adapter_files.sha256"
+  ],
+  "note": "Legacy checksum list is not a complete current release manifest."
+}

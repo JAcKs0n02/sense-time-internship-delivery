@@ -1,0 +1,14 @@
+{
+  "sample_id": "aefb3a1ff7d36284430dbcd6fc326c339e62625ce911def10f3cc58979c4ffaf",
+  "prompt": "请对以下一对句子的相似程度打分（相似等级范围为 0-5，5表示语义一致，0表示语义不相关）\n\n                        1. 两个女人在摔跤。\n                        2. 两个女人在地板上摔跤。",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请对以下一对句子的相似程度打分（相似等级范围为 0-5，5表示语义一致，0表示语义不相关）\n\n                        1. 两个女人在摔跤。\n                        2. 两个女人在地板上摔跤。"
+    }
+  ],
+  "answer": "4",
+  "truncated": false,
+  "input_tokens": 86,
+  "output_tokens": 2
+}

@@ -1,0 +1,377 @@
+09/18 02:19:42 - OpenCompass - INFO - Current exp folder: /root/autodl-tmp/week8-judge-runtime-20260916/logs/trained-generation-20260917/final_sft/opencompass/20260918_021942
+09/18 02:19:48 - OpenCompass - WARNING - SlurmRunner is not used, so the partition argument is ignored.
+09/18 02:19:48 - OpenCompass - INFO - Partitioned into 1 tasks.
+09/18 02:19:48 - OpenCompass - WARNING - Default to dump eval details, it might take extraspace to save all the evaluation details. Set --dump-eval-details False to skip the details dump
+09/18 02:19:48 - OpenCompass - INFO - Partitioned into 119 tasks.
+  0%|          | 0/1 [00:00<?, ?it/s]                                       0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [51:03<00:00, 3063.37s/it]100%|██████████| 1/1 [51:03<00:00, 3063.37s/it]
+launch OpenICLInfer[week8-bound-model/ceval-computer_network,week8-bound-model/ceval-operating_system,week8-bound-model/ceval-computer_architecture,week8-bound-model/ceval-college_programming,week8-bound-model/ceval-college_physics,week8-bound-model/ceval-college_chemistry,week8-bound-model/ceval-advanced_mathematics,week8-bound-model/ceval-probability_and_statistics,week8-bound-model/ceval-discrete_mathematics,week8-bound-model/ceval-electrical_engineer,week8-bound-model/ceval-metrology_engineer,week8-bound-model/ceval-high_school_mathematics,week8-bound-model/ceval-high_school_physics,week8-bound-model/ceval-high_school_chemistry,week8-bound-model/ceval-high_school_biology,week8-bound-model/ceval-middle_school_mathematics,week8-bound-model/ceval-middle_school_biology,week8-bound-model/ceval-middle_school_physics,week8-bound-model/ceval-middle_school_chemistry,week8-bound-model/ceval-veterinary_medicine,week8-bound-model/ceval-college_economics,week8-bound-model/ceval-business_administration,week8-bound-model/ceval-marxism,week8-bound-model/ceval-mao_zedong_thought,week8-bound-model/ceval-education_science,week8-bound-model/ceval-teacher_qualification,week8-bound-model/ceval-high_school_politics,week8-bound-model/ceval-high_school_geography,week8-bound-model/ceval-middle_school_politics,week8-bound-model/ceval-middle_school_geography,week8-bound-model/ceval-modern_chinese_history,week8-bound-model/ceval-ideological_and_moral_cultivation,week8-bound-model/ceval-logic,week8-bound-model/ceval-law,week8-bound-model/ceval-chinese_language_and_literature,week8-bound-model/ceval-art_studies,week8-bound-model/ceval-professional_tour_guide,week8-bound-model/ceval-legal_professional,week8-bound-model/ceval-high_school_chinese,week8-bound-model/ceval-high_school_history,week8-bound-model/ceval-middle_school_history,week8-bound-model/ceval-civil_servant,week8-bound-model/ceval-sports_science,week8-bound-model/ceval-plant_protection,week8-bound-model/ceval-basic_medicine,week8-bound-model/ceval-clinical_medicine,week8-bound-model/ceval-urban_and_rural_planner,week8-bound-model/ceval-accountant,week8-bound-model/ceval-fire_engineer,week8-bound-model/ceval-environmental_impact_assessment_engineer,week8-bound-model/ceval-tax_accountant,week8-bound-model/ceval-physician,week8-bound-model/cmmlu-agronomy,week8-bound-model/cmmlu-anatomy,week8-bound-model/cmmlu-ancient_chinese,week8-bound-model/cmmlu-arts,week8-bound-model/cmmlu-astronomy,week8-bound-model/cmmlu-business_ethics,week8-bound-model/cmmlu-chinese_civil_service_exam,week8-bound-model/cmmlu-chinese_driving_rule,week8-bound-model/cmmlu-chinese_food_culture,week8-bound-model/cmmlu-chinese_foreign_policy,week8-bound-model/cmmlu-chinese_history,week8-bound-model/cmmlu-chinese_literature,week8-bound-model/cmmlu-chinese_teacher_qualification,week8-bound-model/cmmlu-clinical_knowledge,week8-bound-model/cmmlu-college_actuarial_science,week8-bound-model/cmmlu-college_education,week8-bound-model/cmmlu-college_engineering_hydrology,week8-bound-model/cmmlu-college_law,week8-bound-model/cmmlu-college_mathematics,week8-bound-model/cmmlu-college_medical_statistics,week8-bound-model/cmmlu-college_medicine,week8-bound-model/cmmlu-computer_science,week8-bound-model/cmmlu-computer_security,week8-bound-model/cmmlu-conceptual_physics,week8-bound-model/cmmlu-construction_project_management,week8-bound-model/cmmlu-economics,week8-bound-model/cmmlu-education,week8-bound-model/cmmlu-electrical_engineering,week8-bound-model/cmmlu-elementary_chinese,week8-bound-model/cmmlu-elementary_commonsense,week8-bound-model/cmmlu-elementary_information_and_technology,week8-bound-model/cmmlu-elementary_mathematics,week8-bound-model/cmmlu-ethnology,week8-bound-model/cmmlu-food_science,week8-bound-model/cmmlu-genetics,week8-bound-model/cmmlu-global_facts,week8-bound-model/cmmlu-high_school_biology,week8-bound-model/cmmlu-high_school_chemistry,week8-bound-model/cmmlu-high_school_geography,week8-bound-model/cmmlu-high_school_mathematics,week8-bound-model/cmmlu-high_school_physics,week8-bound-model/cmmlu-high_school_politics,week8-bound-model/cmmlu-human_sexuality,week8-bound-model/cmmlu-international_law,week8-bound-model/cmmlu-journalism,week8-bound-model/cmmlu-jurisprudence,week8-bound-model/cmmlu-legal_and_moral_basis,week8-bound-model/cmmlu-logical,week8-bound-model/cmmlu-machine_learning,week8-bound-model/cmmlu-management,week8-bound-model/cmmlu-marketing,week8-bound-model/cmmlu-marxist_theory,week8-bound-model/cmmlu-modern_chinese,week8-bound-model/cmmlu-nutrition,week8-bound-model/cmmlu-philosophy,week8-bound-model/cmmlu-professional_accounting,week8-bound-model/cmmlu-professional_law,week8-bound-model/cmmlu-professional_medicine,week8-bound-model/cmmlu-professional_psychology,week8-bound-model/cmmlu-public_relations,week8-bound-model/cmmlu-security_study,week8-bound-model/cmmlu-sociology,week8-bound-model/cmmlu-sports_science,week8-bound-model/cmmlu-traditional_chinese_medicine,week8-bound-model/cmmlu-virology,week8-bound-model/cmmlu-world_history,week8-bound-model/cmmlu-world_religions] on GPU 0
+  0%|          | 0/119 [00:00<?, ?it/s]                                         0%|          | 0/119 [00:00<?, ?it/s]  1%|          | 1/119 [00:11<21:41, 11.03s/it]                                                 1%|          | 1/119 [00:11<21:41, 11.03s/it]  2%|▏         | 2/119 [00:22<21:49, 11.19s/it]                                                 2%|▏         | 2/119 [00:22<21:49, 11.19s/it]  3%|▎         | 3/119 [00:33<21:38, 11.19s/it]                                                 3%|▎         | 3/119 [00:33<21:38, 11.19s/it]  3%|▎         | 4/119 [00:45<21:45, 11.36s/it]                                                 3%|▎         | 4/119 [00:45<21:45, 11.36s/it]  4%|▍         | 5/119 [00:56<21:34, 11.36s/it]                                                 4%|▍         | 5/119 [00:56<21:34, 11.36s/it]  5%|▌         | 6/119 [01:08<21:44, 11.54s/it]                                                 5%|▌         | 6/119 [01:08<21:44, 11.54s/it]  6%|▌         | 7/119 [01:19<21:29, 11.51s/it]                                                 6%|▌         | 7/119 [01:19<21:29, 11.51s/it]  7%|▋         | 8/119 [01:31<21:22, 11.56s/it]                                                 7%|▋         | 8/119 [01:31<21:22, 11.56s/it]  8%|▊         | 9/119 [01:43<21:35, 11.78s/it]                                                 8%|▊         | 9/119 [01:43<21:35, 11.78s/it]  8%|▊         | 10/119 [01:55<21:12, 11.68s/it]                                                  8%|▊         | 10/119 [01:55<21:12, 11.68s/it]  9%|▉         | 11/119 [02:06<20:52, 11.60s/it]                                                  9%|▉         | 11/119 [02:06<20:52, 11.60s/it] 10%|█         | 12/119 [02:17<20:30, 11.50s/it]                                                 10%|█         | 12/119 [02:17<20:30, 11.50s/it] 11%|█         | 13/119 [02:29<20:09, 11.41s/it]                                                 11%|█         | 13/119 [02:29<20:09, 11.41s/it] 12%|█▏        | 14/119 [02:40<19:57, 11.41s/it]                                                 12%|█▏        | 14/119 [02:40<19:57, 11.41s/it] 13%|█▎        | 15/119 [02:51<19:34, 11.30s/it]                                                 13%|█▎        | 15/119 [02:51<19:34, 11.30s/it] 13%|█▎        | 16/119 [03:03<19:33, 11.40s/it]                                                 13%|█▎        | 16/119 [03:03<19:33, 11.40s/it] 14%|█▍        | 17/119 [03:14<19:20, 11.37s/it]                                                 14%|█▍        | 17/119 [03:14<19:20, 11.37s/it] 15%|█▌        | 18/119 [03:26<19:16, 11.45s/it]                                                 15%|█▌        | 18/119 [03:26<19:16, 11.45s/it] 16%|█▌        | 19/119 [03:37<19:12, 11.52s/it]                                                 16%|█▌        | 19/119 [03:37<19:12, 11.52s/it] 17%|█▋        | 20/119 [03:49<19:09, 11.61s/it]                                                 17%|█▋        | 20/119 [03:49<19:09, 11.61s/it] 18%|█▊        | 21/119 [04:00<18:49, 11.52s/it]                                                 18%|█▊        | 21/119 [04:00<18:49, 11.52s/it] 18%|█▊        | 22/119 [04:12<18:29, 11.44s/it]                                                 18%|█▊        | 22/119 [04:12<18:29, 11.44s/it] 19%|█▉        | 23/119 [04:23<18:07, 11.33s/it]                                                 19%|█▉        | 23/119 [04:23<18:07, 11.33s/it] 20%|██        | 24/119 [04:34<18:03, 11.41s/it]                                                 20%|██        | 24/119 [04:34<18:03, 11.41s/it] 21%|██        | 25/119 [04:46<17:45, 11.33s/it]                                                 21%|██        | 25/119 [04:46<17:45, 11.33s/it] 22%|██▏       | 26/119 [04:57<17:35, 11.35s/it]                                                 22%|██▏       | 26/119 [04:57<17:35, 11.35s/it] 23%|██▎       | 27/119 [05:08<17:27, 11.38s/it]                                                 23%|██▎       | 27/119 [05:08<17:27, 11.38s/it] 24%|██▎       | 28/119 [05:20<17:12, 11.35s/it]                                                 24%|██▎       | 28/119 [05:20<17:12, 11.35s/it] 24%|██▍       | 29/119 [05:31<16:59, 11.33s/it]                                                 24%|██▍       | 29/119 [05:31<16:59, 11.33s/it] 25%|██▌       | 30/119 [05:42<16:47, 11.32s/it]                                                 25%|██▌       | 30/119 [05:42<16:47, 11.32s/it] 26%|██▌       | 31/119 [05:53<16:29, 11.25s/it]                                                 26%|██▌       | 31/119 [05:53<16:29, 11.25s/it] 27%|██▋       | 32/119 [06:05<16:26, 11.34s/it]                                                 27%|██▋       | 32/119 [06:05<16:26, 11.34s/it] 28%|██▊       | 33/119 [06:16<16:12, 11.31s/it]                                                 28%|██▊       | 33/119 [06:16<16:12, 11.31s/it] 29%|██▊       | 34/119 [06:28<16:13, 11.45s/it]                                                 29%|██▊       | 34/119 [06:28<16:13, 11.45s/it] 29%|██▉       | 35/119 [06:39<15:59, 11.42s/it]                                                 29%|██▉       | 35/119 [06:39<15:59, 11.42s/it] 30%|███       | 36/119 [06:51<15:54, 11.50s/it]                                                 30%|███       | 36/119 [06:51<15:54, 11.50s/it] 31%|███       | 37/119 [07:02<15:40, 11.47s/it]                                                 31%|███       | 37/119 [07:02<15:40, 11.47s/it] 32%|███▏      | 38/119 [07:14<15:29, 11.48s/it]                                                 32%|███▏      | 38/119 [07:14<15:29, 11.48s/it] 33%|███▎      | 39/119 [07:25<15:07, 11.34s/it]                                                 33%|███▎      | 39/119 [07:25<15:07, 11.34s/it] 34%|███▎      | 40/119 [07:36<15:00, 11.41s/it]                                                 34%|███▎      | 40/119 [07:36<15:00, 11.41s/it] 34%|███▍      | 41/119 [07:48<14:54, 11.47s/it]                                                 34%|███▍      | 41/119 [07:48<14:54, 11.47s/it] 35%|███▌      | 42/119 [07:59<14:40, 11.44s/it]                                                 35%|███▌      | 42/119 [07:59<14:40, 11.44s/it] 36%|███▌      | 43/119 [08:11<14:26, 11.40s/it]                                                 36%|███▌      | 43/119 [08:11<14:26, 11.40s/it] 37%|███▋      | 44/119 [08:22<14:11, 11.35s/it]                                                 37%|███▋      | 44/119 [08:22<14:11, 11.35s/it] 38%|███▊      | 45/119 [08:33<13:58, 11.33s/it]                                                 38%|███▊      | 45/119 [08:33<13:58, 11.33s/it] 39%|███▊      | 46/119 [08:44<13:45, 11.31s/it]                                                 39%|███▊      | 46/119 [08:44<13:45, 11.31s/it] 39%|███▉      | 47/119 [08:56<13:30, 11.26s/it]                                                 39%|███▉      | 47/119 [08:56<13:30, 11.26s/it] 40%|████      | 48/119 [09:07<13:25, 11.34s/it]                                                 40%|████      | 48/119 [09:07<13:25, 11.34s/it] 41%|████      | 49/119 [09:19<13:15, 11.36s/it]                                                 41%|████      | 49/119 [09:19<13:15, 11.36s/it] 42%|████▏     | 50/119 [09:30<13:02, 11.34s/it]                                                 42%|████▏     | 50/119 [09:30<13:02, 11.34s/it] 43%|████▎     | 51/119 [09:41<12:49, 11.32s/it]                                                 43%|████▎     | 51/119 [09:41<12:49, 11.32s/it] 44%|████▎     | 52/119 [09:52<12:38, 11.32s/it]                                                 44%|████▎     | 52/119 [09:52<12:38, 11.32s/it] 45%|████▍     | 53/119 [10:04<12:25, 11.30s/it]                                                 45%|████▍     | 53/119 [10:04<12:25, 11.30s/it] 45%|████▌     | 54/119 [10:15<12:13, 11.28s/it]                                                 45%|████▌     | 54/119 [10:15<12:13, 11.28s/it] 46%|████▌     | 55/119 [10:26<12:01, 11.27s/it]                                                 46%|████▌     | 55/119 [10:26<12:01, 11.27s/it] 47%|████▋     | 56/119 [10:37<11:49, 11.26s/it]                                                 47%|████▋     | 56/119 [10:37<11:49, 11.26s/it] 48%|████▊     | 57/119 [10:49<11:41, 11.31s/it]                                                 48%|████▊     | 57/119 [10:49<11:41, 11.31s/it] 49%|████▊     | 58/119 [11:00<11:32, 11.35s/it]                                                 49%|████▊     | 58/119 [11:00<11:32, 11.35s/it] 50%|████▉     | 59/119 [11:12<11:19, 11.32s/it]                                                 50%|████▉     | 59/119 [11:12<11:19, 11.32s/it] 50%|█████     | 60/119 [11:23<11:10, 11.37s/it]                                                 50%|█████     | 60/119 [11:23<11:10, 11.37s/it] 51%|█████▏    | 61/119 [11:34<11:00, 11.39s/it]                                                 51%|█████▏    | 61/119 [11:34<11:00, 11.39s/it] 52%|█████▏    | 62/119 [11:46<10:47, 11.37s/it]                                                 52%|█████▏    | 62/119 [11:46<10:47, 11.37s/it] 53%|█████▎    | 63/119 [11:57<10:36, 11.37s/it]                                                 53%|█████▎    | 63/119 [11:57<10:36, 11.37s/it] 54%|█████▍    | 64/119 [12:09<10:27, 11.41s/it]                                                 54%|█████▍    | 64/119 [12:09<10:27, 11.41s/it] 55%|█████▍    | 65/119 [12:20<10:19, 11.47s/it]                                                 55%|█████▍    | 65/119 [12:20<10:19, 11.47s/it] 55%|█████▌    | 66/119 [12:31<10:03, 11.39s/it]                                                 55%|█████▌    | 66/119 [12:31<10:03, 11.39s/it] 56%|█████▋    | 67/119 [12:43<09:49, 11.34s/it]                                                 56%|█████▋    | 67/119 [12:43<09:49, 11.34s/it] 57%|█████▋    | 68/119 [12:54<09:38, 11.34s/it]                                                 57%|█████▋    | 68/119 [12:54<09:38, 11.34s/it] 58%|█████▊    | 69/119 [13:06<09:32, 11.45s/it]                                                 58%|█████▊    | 69/119 [13:06<09:32, 11.45s/it] 59%|█████▉    | 70/119 [13:17<09:24, 11.51s/it]                                                 59%|█████▉    | 70/119 [13:17<09:24, 11.51s/it] 60%|█████▉    | 71/119 [13:29<09:09, 11.45s/it]                                                 60%|█████▉    | 71/119 [13:29<09:09, 11.45s/it] 61%|██████    | 72/119 [13:40<08:54, 11.38s/it]                                                 61%|██████    | 72/119 [13:40<08:54, 11.38s/it] 61%|██████▏   | 73/119 [13:51<08:43, 11.39s/it]                                                 61%|██████▏   | 73/119 [13:51<08:43, 11.39s/it] 62%|██████▏   | 74/119 [14:03<08:31, 11.37s/it]                                                 62%|██████▏   | 74/119 [14:03<08:31, 11.37s/it] 63%|██████▎   | 75/119 [14:14<08:22, 11.41s/it]                                                 63%|██████▎   | 75/119 [14:14<08:22, 11.41s/it] 64%|██████▍   | 76/119 [14:25<08:08, 11.35s/it]                                                 64%|██████▍   | 76/119 [14:25<08:08, 11.35s/it] 65%|██████▍   | 77/119 [14:37<07:59, 11.43s/it]                                                 65%|██████▍   | 77/119 [14:37<07:59, 11.43s/it] 66%|██████▌   | 78/119 [14:48<07:48, 11.43s/it]                                                 66%|██████▌   | 78/119 [14:48<07:48, 11.43s/it] 66%|██████▋   | 79/119 [15:00<07:34, 11.37s/it]                                                 66%|██████▋   | 79/119 [15:00<07:34, 11.37s/it] 67%|██████▋   | 80/119 [15:11<07:21, 11.33s/it]                                                 67%|██████▋   | 80/119 [15:11<07:21, 11.33s/it] 68%|██████▊   | 81/119 [15:22<07:09, 11.30s/it]                                                 68%|██████▊   | 81/119 [15:22<07:09, 11.30s/it] 69%|██████▉   | 82/119 [15:34<07:00, 11.35s/it]                                                 69%|██████▉   | 82/119 [15:34<07:00, 11.35s/it] 70%|██████▉   | 83/119 [15:45<06:49, 11.36s/it]                                                 70%|██████▉   | 83/119 [15:45<06:49, 11.36s/it] 71%|███████   | 84/119 [15:56<06:37, 11.35s/it]                                                 71%|███████   | 84/119 [15:56<06:37, 11.35s/it] 71%|███████▏  | 85/119 [16:08<06:25, 11.35s/it]                                                 71%|███████▏  | 85/119 [16:08<06:25, 11.35s/it] 72%|███████▏  | 86/119 [16:19<06:13, 11.32s/it]                                                 72%|███████▏  | 86/119 [16:19<06:13, 11.32s/it] 73%|███████▎  | 87/119 [16:30<06:01, 11.30s/it]                                                 73%|███████▎  | 87/119 [16:30<06:01, 11.30s/it] 74%|███████▍  | 88/119 [16:42<05:52, 11.38s/it]                                                 74%|███████▍  | 88/119 [16:42<05:52, 11.38s/it] 75%|███████▍  | 89/119 [16:53<05:40, 11.34s/it]                                                 75%|███████▍  | 89/119 [16:53<05:40, 11.34s/it] 76%|███████▌  | 90/119 [17:04<05:27, 11.30s/it]                                                 76%|███████▌  | 90/119 [17:04<05:27, 11.30s/it] 76%|███████▋  | 91/119 [17:15<05:14, 11.25s/it]                                                 76%|███████▋  | 91/119 [17:15<05:14, 11.25s/it] 77%|███████▋  | 92/119 [17:27<05:07, 11.39s/it]                                                 77%|███████▋  | 92/119 [17:27<05:07, 11.39s/it] 78%|███████▊  | 93/119 [17:38<04:56, 11.40s/it]                                                 78%|███████▊  | 93/119 [17:38<04:56, 11.40s/it] 79%|███████▉  | 94/119 [17:50<04:44, 11.36s/it]                                                 79%|███████▉  | 94/119 [17:50<04:44, 11.36s/it] 80%|███████▉  | 95/119 [18:01<04:32, 11.37s/it]                                                 80%|███████▉  | 95/119 [18:01<04:32, 11.37s/it] 81%|████████  | 96/119 [18:13<04:26, 11.59s/it]                                                 81%|████████  | 96/119 [18:13<04:26, 11.59s/it] 82%|████████▏ | 97/119 [18:25<04:13, 11.53s/it]                                                 82%|████████▏ | 97/119 [18:25<04:13, 11.53s/it] 82%|████████▏ | 98/119 [18:36<04:01, 11.52s/it]                                                 82%|████████▏ | 98/119 [18:36<04:01, 11.52s/it] 83%|████████▎ | 99/119 [18:48<03:51, 11.59s/it]                                                 83%|████████▎ | 99/119 [18:48<03:51, 11.59s/it] 84%|████████▍ | 100/119 [18:59<03:37, 11.47s/it]                                                  84%|████████▍ | 100/119 [18:59<03:37, 11.47s/it] 85%|████████▍ | 101/119 [19:10<03:24, 11.38s/it]                                                  85%|████████▍ | 101/119 [19:10<03:24, 11.38s/it] 86%|████████▌ | 102/119 [19:21<03:13, 11.36s/it]                                                  86%|████████▌ | 102/119 [19:21<03:13, 11.36s/it] 87%|████████▋ | 103/119 [19:33<03:01, 11.33s/it]                                                  87%|████████▋ | 103/119 [19:33<03:01, 11.33s/it] 87%|████████▋ | 104/119 [19:44<02:50, 11.36s/it]                                                  87%|████████▋ | 104/119 [19:44<02:50, 11.36s/it] 88%|████████▊ | 105/119 [19:56<02:39, 11.40s/it]                                                  88%|████████▊ | 105/119 [19:56<02:39, 11.40s/it] 89%|████████▉ | 106/119 [20:07<02:28, 11.44s/it]                                                  89%|████████▉ | 106/119 [20:07<02:28, 11.44s/it] 90%|████████▉ | 107/119 [20:19<02:17, 11.49s/it]                                                  90%|████████▉ | 107/119 [20:19<02:17, 11.49s/it] 91%|█████████ | 108/119 [20:30<02:06, 11.49s/it]                                                  91%|█████████ | 108/119 [20:30<02:06, 11.49s/it] 92%|█████████▏| 109/119 [20:42<01:56, 11.67s/it]                                                  92%|█████████▏| 109/119 [20:42<01:56, 11.67s/it] 92%|█████████▏| 110/119 [20:54<01:44, 11.64s/it]                                                  92%|█████████▏| 110/119 [20:54<01:44, 11.64s/it] 93%|█████████▎| 111/119 [21:05<01:32, 11.59s/it]                                                  93%|█████████▎| 111/119 [21:05<01:32, 11.59s/it] 94%|█████████▍| 112/119 [21:17<01:21, 11.62s/it]                                                  94%|█████████▍| 112/119 [21:17<01:21, 11.62s/it] 95%|█████████▍| 113/119 [21:28<01:08, 11.49s/it]                                                  95%|█████████▍| 113/119 [21:28<01:08, 11.49s/it] 96%|█████████▌| 114/119 [21:40<00:57, 11.43s/it]                                                  96%|█████████▌| 114/119 [21:40<00:57, 11.43s/it] 97%|█████████▋| 115/119 [21:51<00:45, 11.48s/it]                                                 launch OpenICLEval[week8-bound-model/ceval-computer_network] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-operating_system] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-computer_architecture] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-college_programming] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-college_physics] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-college_chemistry] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-advanced_mathematics] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-probability_and_statistics] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-discrete_mathematics] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-electrical_engineer] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-metrology_engineer] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-high_school_mathematics] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-high_school_physics] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-high_school_chemistry] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-high_school_biology] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-middle_school_mathematics] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-middle_school_biology] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-middle_school_physics] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-middle_school_chemistry] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-veterinary_medicine] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-college_economics] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-business_administration] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-marxism] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-mao_zedong_thought] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-education_science] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-teacher_qualification] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-high_school_politics] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-high_school_geography] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-middle_school_politics] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-middle_school_geography] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-modern_chinese_history] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-ideological_and_moral_cultivation] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-logic] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-law] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-chinese_language_and_literature] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-art_studies] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-professional_tour_guide] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-legal_professional] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-high_school_chinese] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-high_school_history] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-middle_school_history] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-civil_servant] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-sports_science] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-plant_protection] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-basic_medicine] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-clinical_medicine] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-urban_and_rural_planner] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-accountant] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-fire_engineer] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-environmental_impact_assessment_engineer] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-tax_accountant] on CPU 
+launch OpenICLEval[week8-bound-model/ceval-physician] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-agronomy] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-anatomy] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-ancient_chinese] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-arts] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-astronomy] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-business_ethics] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-chinese_civil_service_exam] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-chinese_driving_rule] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-chinese_food_culture] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-chinese_foreign_policy] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-chinese_history] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-chinese_literature] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-chinese_teacher_qualification] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-clinical_knowledge] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-college_actuarial_science] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-college_education] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-college_engineering_hydrology] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-college_law] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-college_mathematics] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-college_medical_statistics] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-college_medicine] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-computer_science] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-computer_security] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-conceptual_physics] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-construction_project_management] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-economics] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-education] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-electrical_engineering] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-elementary_chinese] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-elementary_commonsense] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-elementary_information_and_technology] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-elementary_mathematics] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-ethnology] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-food_science] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-genetics] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-global_facts] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-high_school_biology] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-high_school_chemistry] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-high_school_geography] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-high_school_mathematics] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-high_school_physics] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-high_school_politics] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-human_sexuality] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-international_law] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-journalism] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-jurisprudence] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-legal_and_moral_basis] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-logical] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-machine_learning] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-management] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-marketing] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-marxist_theory] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-modern_chinese] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-nutrition] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-philosophy] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-professional_accounting] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-professional_law] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-professional_medicine] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-professional_psychology] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-public_relations] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-security_study] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-sociology] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-sports_science] on CPU 
+ 97%|█████████▋| 115/119 [21:51<00:45, 11.48s/it] 97%|█████████▋| 116/119 [22:03<00:34, 11.47s/it]                                                  97%|█████████▋| 116/119 [22:03<00:34, 11.47s/it] 98%|█████████▊| 117/119 [22:14<00:22, 11.42s/it]                                                  98%|█████████▊| 117/119 [22:14<00:22, 11.42s/it] 99%|█████████▉| 118/119 [22:25<00:11, 11.43s/it]                                                  99%|█████████▉| 118/119 [22:25<00:11, 11.43s/it]100%|██████████| 119/119 [22:37<00:00, 11.44s/it]100%|██████████| 119/119 [22:37<00:00, 11.41s/it]
+launch OpenICLEval[week8-bound-model/cmmlu-traditional_chinese_medicine] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-virology] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-world_history] on CPU 
+launch OpenICLEval[week8-bound-model/cmmlu-world_religions] on CPU 
+dataset                                         version    metric    mode      week8-bound-model
+----------------------------------------------  ---------  --------  ------  -------------------
+ceval-computer_network                          3ca950     accuracy  gen                   68.42
+ceval-operating_system                          9cc183     accuracy  gen                   68.42
+ceval-computer_architecture                     b06b51     accuracy  gen                   76.19
+ceval-college_programming                       2d37f8     accuracy  gen                   83.78
+ceval-college_physics                           fab095     accuracy  gen                   68.42
+ceval-college_chemistry                         0a1175     accuracy  gen                   70.83
+ceval-advanced_mathematics                      9ec2a0     accuracy  gen                   36.84
+ceval-probability_and_statistics                316ceb     accuracy  gen                   55.56
+ceval-discrete_mathematics                      4b43b1     accuracy  gen                   31.25
+ceval-electrical_engineer                       a077f4     accuracy  gen                   64.86
+ceval-metrology_engineer                        169df2     accuracy  gen                   79.17
+ceval-high_school_mathematics                   c78c4c     accuracy  gen                   61.11
+ceval-high_school_physics                       c1864b     accuracy  gen                   78.95
+ceval-high_school_chemistry                     bab9b6     accuracy  gen                   84.21
+ceval-high_school_biology                       d51f0f     accuracy  gen                   89.47
+ceval-middle_school_mathematics                 912110     accuracy  gen                   89.47
+ceval-middle_school_biology                     0d5293     accuracy  gen                   95.24
+ceval-middle_school_physics                     b3dc34     accuracy  gen                   94.74
+ceval-middle_school_chemistry                   a444c1     accuracy  gen                  100.00
+ceval-veterinary_medicine                       c2ad8c     accuracy  gen                   78.26
+ceval-college_economics                         bccb3f     accuracy  gen                   72.73
+ceval-business_administration                   d0e662     accuracy  gen                   87.88
+ceval-marxism                                   1999c8     accuracy  gen                   94.74
+ceval-mao_zedong_thought                        2f502f     accuracy  gen                   91.67
+ceval-education_science                         b8df44     accuracy  gen                   89.66
+ceval-teacher_qualification                     7a8a3f     accuracy  gen                   84.09
+ceval-high_school_politics                      7fe902     accuracy  gen                   89.47
+ceval-high_school_geography                     50a3b1     accuracy  gen                   89.47
+ceval-middle_school_politics                    3d3b2d     accuracy  gen                  100.00
+ceval-middle_school_geography                   571a34     accuracy  gen                  100.00
+ceval-modern_chinese_history                    8977b9     accuracy  gen                   91.30
+ceval-ideological_and_moral_cultivation         0b5835     accuracy  gen                  100.00
+ceval-logic                                     0a9c44     accuracy  gen                   72.73
+ceval-law                                       954bae     accuracy  gen                   66.67
+ceval-chinese_language_and_literature           964dd8     accuracy  gen                   69.57
+ceval-art_studies                               8ce5e6     accuracy  gen                   75.76
+ceval-professional_tour_guide                   2e789b     accuracy  gen                   89.66
+ceval-legal_professional                        ac1a4a     accuracy  gen                   65.22
+ceval-high_school_chinese                       f433fc     accuracy  gen                   63.16
+ceval-high_school_history                       a01043     accuracy  gen                   95.00
+ceval-middle_school_history                     f5d227     accuracy  gen                   90.91
+ceval-civil_servant                             d95065     accuracy  gen                   76.60
+ceval-sports_science                            2abd10     accuracy  gen                   89.47
+ceval-plant_protection                          04c7b8     accuracy  gen                   81.82
+ceval-basic_medicine                            4e8300     accuracy  gen                   89.47
+ceval-clinical_medicine                         f915ca     accuracy  gen                   77.27
+ceval-urban_and_rural_planner                   2fff81     accuracy  gen                   76.09
+ceval-accountant                                a1e403     accuracy  gen                   83.67
+ceval-fire_engineer                             b0839f     accuracy  gen                   74.19
+ceval-environmental_impact_assessment_engineer  52bd17     accuracy  gen                   74.19
+ceval-tax_accountant                            c6dfc8     accuracy  gen                   81.63
+ceval-physician                                 01a1df     accuracy  gen                   83.67
+cmmlu-agronomy                                  a45bb7     accuracy  gen                   71.60
+cmmlu-anatomy                                   87a348     accuracy  gen                   85.81
+cmmlu-ancient_chinese                           848c10     accuracy  gen                   45.73
+cmmlu-arts                                      c22186     accuracy  gen                   94.38
+cmmlu-astronomy                                 c85dc3     accuracy  gen                   52.73
+cmmlu-business_ethics                           bc9840     accuracy  gen                   71.29
+cmmlu-chinese_civil_service_exam                85c44a     accuracy  gen                   81.88
+cmmlu-chinese_driving_rule                      e5a226     accuracy  gen                   97.71
+cmmlu-chinese_food_culture                      bc720c     accuracy  gen                   77.94
+cmmlu-chinese_foreign_policy                    c20436     accuracy  gen                   80.37
+cmmlu-chinese_history                           409a66     accuracy  gen                   86.38
+cmmlu-chinese_literature                        8d6b02     accuracy  gen                   71.08
+cmmlu-chinese_teacher_qualification             96ab80     accuracy  gen                   91.06
+cmmlu-clinical_knowledge                        28da7e     accuracy  gen                   79.75
+cmmlu-college_actuarial_science                 11dbc5     accuracy  gen                   40.57
+cmmlu-college_education                         92dc42     accuracy  gen                   88.79
+cmmlu-college_engineering_hydrology             092a1f     accuracy  gen                   79.25
+cmmlu-college_law                               6a7223     accuracy  gen                   73.15
+cmmlu-college_mathematics                       75bb3b     accuracy  gen                   50.48
+cmmlu-college_medical_statistics                6ee0ac     accuracy  gen                   75.47
+cmmlu-college_medicine                          411c09     accuracy  gen                   86.45
+cmmlu-computer_science                          82e0cb     accuracy  gen                   88.73
+cmmlu-computer_security                         cd7932     accuracy  gen                   92.40
+cmmlu-conceptual_physics                        bf10e3     accuracy  gen                   89.80
+cmmlu-construction_project_management           3a9c5f     accuracy  gen                   78.42
+cmmlu-economics                                 4568ee     accuracy  gen                   87.42
+cmmlu-education                                 07c43c     accuracy  gen                   79.75
+cmmlu-electrical_engineering                    88268e     accuracy  gen                   87.21
+cmmlu-elementary_chinese                        c0f162     accuracy  gen                   76.98
+cmmlu-elementary_commonsense                    485571     accuracy  gen                   79.29
+cmmlu-elementary_information_and_technology     d0c55c     accuracy  gen                   92.86
+cmmlu-elementary_mathematics                    2e19c6     accuracy  gen                   64.35
+cmmlu-ethnology                                 8579f2     accuracy  gen                   75.56
+cmmlu-food_science                              2acf20     accuracy  gen                   72.73
+cmmlu-genetics                                  3a7688     accuracy  gen                   64.77
+cmmlu-global_facts                              2a852f     accuracy  gen                   79.87
+cmmlu-high_school_biology                       df4561     accuracy  gen                   84.02
+cmmlu-high_school_chemistry                     2cf370     accuracy  gen                   75.76
+cmmlu-high_school_geography                     996a96     accuracy  gen                   83.05
+cmmlu-high_school_mathematics                   2d3d94     accuracy  gen                   57.93
+cmmlu-high_school_physics                       fd22de     accuracy  gen                   76.36
+cmmlu-high_school_politics                      0180b2     accuracy  gen                   88.11
+cmmlu-human_sexuality                           88bfeb     accuracy  gen                   71.43
+cmmlu-international_law                         45dfd5     accuracy  gen                   72.43
+cmmlu-journalism                                3aed47     accuracy  gen                   77.33
+cmmlu-jurisprudence                             0cb520     accuracy  gen                   85.16
+cmmlu-legal_and_moral_basis                     4000a0     accuracy  gen                   97.66
+cmmlu-logical                                   3674e8     accuracy  gen                   78.86
+cmmlu-machine_learning                          da46c2     accuracy  gen                   71.31
+cmmlu-management                                fe63e0     accuracy  gen                   87.14
+cmmlu-marketing                                 b13677     accuracy  gen                   88.89
+cmmlu-marxist_theory                            ac3d2a     accuracy  gen                   95.77
+cmmlu-modern_chinese                            b68c63     accuracy  gen                   59.48
+cmmlu-nutrition                                 7945f4     accuracy  gen                   82.07
+cmmlu-philosophy                                22a2c8     accuracy  gen                   79.05
+cmmlu-professional_accounting                   e08020     accuracy  gen                   90.86
+cmmlu-professional_law                          f1fe9e     accuracy  gen                   76.78
+cmmlu-professional_medicine                     d2a911     accuracy  gen                   79.26
+cmmlu-professional_psychology                   4aa31f     accuracy  gen                   88.36
+cmmlu-public_relations                          9ac815     accuracy  gen                   75.86
+cmmlu-security_study                            2d5893     accuracy  gen                   88.89
+cmmlu-sociology                                 3f4d91     accuracy  gen                   80.09
+cmmlu-sports_science                            db6565     accuracy  gen                   75.15
+cmmlu-traditional_chinese_medicine              19da0d     accuracy  gen                   85.41
+cmmlu-virology                                  0f2d2f     accuracy  gen                   85.80
+cmmlu-world_history                             d331be     accuracy  gen                   87.58
+cmmlu-world_religions                           f7e0de     accuracy  gen                   81.25
+09/18 03:33:29 - OpenCompass - INFO - write summary to /root/autodl-tmp/week8-judge-runtime-20260916/logs/trained-generation-20260917/final_sft/opencompass/20260918_021942/summary/summary_20260918_021942.txt
+09/18 03:33:29 - OpenCompass - INFO - write csv to /root/autodl-tmp/week8-judge-runtime-20260916/logs/trained-generation-20260917/final_sft/opencompass/20260918_021942/summary/summary_20260918_021942.csv
+
+
+The markdown format results is as below:
+
+| dataset | version | metric | mode | week8-bound-model |
+|----- | ----- | ----- | ----- | -----|
+| ceval-computer_network | 3ca950 | accuracy | gen | 68.42 |
+| ceval-operating_system | 9cc183 | accuracy | gen | 68.42 |
+| ceval-computer_architecture | b06b51 | accuracy | gen | 76.19 |
+| ceval-college_programming | 2d37f8 | accuracy | gen | 83.78 |
+| ceval-college_physics | fab095 | accuracy | gen | 68.42 |
+| ceval-college_chemistry | 0a1175 | accuracy | gen | 70.83 |
+| ceval-advanced_mathematics | 9ec2a0 | accuracy | gen | 36.84 |
+| ceval-probability_and_statistics | 316ceb | accuracy | gen | 55.56 |
+| ceval-discrete_mathematics | 4b43b1 | accuracy | gen | 31.25 |
+| ceval-electrical_engineer | a077f4 | accuracy | gen | 64.86 |
+| ceval-metrology_engineer | 169df2 | accuracy | gen | 79.17 |
+| ceval-high_school_mathematics | c78c4c | accuracy | gen | 61.11 |
+| ceval-high_school_physics | c1864b | accuracy | gen | 78.95 |
+| ceval-high_school_chemistry | bab9b6 | accuracy | gen | 84.21 |
+| ceval-high_school_biology | d51f0f | accuracy | gen | 89.47 |
+| ceval-middle_school_mathematics | 912110 | accuracy | gen | 89.47 |
+| ceval-middle_school_biology | 0d5293 | accuracy | gen | 95.24 |
+| ceval-middle_school_physics | b3dc34 | accuracy | gen | 94.74 |
+| ceval-middle_school_chemistry | a444c1 | accuracy | gen | 100.00 |
+| ceval-veterinary_medicine | c2ad8c | accuracy | gen | 78.26 |
+| ceval-college_economics | bccb3f | accuracy | gen | 72.73 |
+| ceval-business_administration | d0e662 | accuracy | gen | 87.88 |
+| ceval-marxism | 1999c8 | accuracy | gen | 94.74 |
+| ceval-mao_zedong_thought | 2f502f | accuracy | gen | 91.67 |
+| ceval-education_science | b8df44 | accuracy | gen | 89.66 |
+| ceval-teacher_qualification | 7a8a3f | accuracy | gen | 84.09 |
+| ceval-high_school_politics | 7fe902 | accuracy | gen | 89.47 |
+| ceval-high_school_geography | 50a3b1 | accuracy | gen | 89.47 |
+| ceval-middle_school_politics | 3d3b2d | accuracy | gen | 100.00 |
+| ceval-middle_school_geography | 571a34 | accuracy | gen | 100.00 |
+| ceval-modern_chinese_history | 8977b9 | accuracy | gen | 91.30 |
+| ceval-ideological_and_moral_cultivation | 0b5835 | accuracy | gen | 100.00 |
+| ceval-logic | 0a9c44 | accuracy | gen | 72.73 |
+| ceval-law | 954bae | accuracy | gen | 66.67 |
+| ceval-chinese_language_and_literature | 964dd8 | accuracy | gen | 69.57 |
+| ceval-art_studies | 8ce5e6 | accuracy | gen | 75.76 |
+| ceval-professional_tour_guide | 2e789b | accuracy | gen | 89.66 |
+| ceval-legal_professional | ac1a4a | accuracy | gen | 65.22 |
+| ceval-high_school_chinese | f433fc | accuracy | gen | 63.16 |
+| ceval-high_school_history | a01043 | accuracy | gen | 95.00 |
+| ceval-middle_school_history | f5d227 | accuracy | gen | 90.91 |
+| ceval-civil_servant | d95065 | accuracy | gen | 76.60 |
+| ceval-sports_science | 2abd10 | accuracy | gen | 89.47 |
+| ceval-plant_protection | 04c7b8 | accuracy | gen | 81.82 |
+| ceval-basic_medicine | 4e8300 | accuracy | gen | 89.47 |
+| ceval-clinical_medicine | f915ca | accuracy | gen | 77.27 |
+| ceval-urban_and_rural_planner | 2fff81 | accuracy | gen | 76.09 |
+| ceval-accountant | a1e403 | accuracy | gen | 83.67 |
+| ceval-fire_engineer | b0839f | accuracy | gen | 74.19 |
+| ceval-environmental_impact_assessment_engineer | 52bd17 | accuracy | gen | 74.19 |
+| ceval-tax_accountant | c6dfc8 | accuracy | gen | 81.63 |
+| ceval-physician | 01a1df | accuracy | gen | 83.67 |
+| cmmlu-agronomy | a45bb7 | accuracy | gen | 71.60 |
+| cmmlu-anatomy | 87a348 | accuracy | gen | 85.81 |
+| cmmlu-ancient_chinese | 848c10 | accuracy | gen | 45.73 |
+| cmmlu-arts | c22186 | accuracy | gen | 94.38 |
+| cmmlu-astronomy | c85dc3 | accuracy | gen | 52.73 |
+| cmmlu-business_ethics | bc9840 | accuracy | gen | 71.29 |
+| cmmlu-chinese_civil_service_exam | 85c44a | accuracy | gen | 81.88 |
+| cmmlu-chinese_driving_rule | e5a226 | accuracy | gen | 97.71 |
+| cmmlu-chinese_food_culture | bc720c | accuracy | gen | 77.94 |
+| cmmlu-chinese_foreign_policy | c20436 | accuracy | gen | 80.37 |
+| cmmlu-chinese_history | 409a66 | accuracy | gen | 86.38 |
+| cmmlu-chinese_literature | 8d6b02 | accuracy | gen | 71.08 |
+| cmmlu-chinese_teacher_qualification | 96ab80 | accuracy | gen | 91.06 |
+| cmmlu-clinical_knowledge | 28da7e | accuracy | gen | 79.75 |
+| cmmlu-college_actuarial_science | 11dbc5 | accuracy | gen | 40.57 |
+| cmmlu-college_education | 92dc42 | accuracy | gen | 88.79 |
+| cmmlu-college_engineering_hydrology | 092a1f | accuracy | gen | 79.25 |
+| cmmlu-college_law | 6a7223 | accuracy | gen | 73.15 |
+| cmmlu-college_mathematics | 75bb3b | accuracy | gen | 50.48 |
+| cmmlu-college_medical_statistics | 6ee0ac | accuracy | gen | 75.47 |
+| cmmlu-college_medicine | 411c09 | accuracy | gen | 86.45 |
+| cmmlu-computer_science | 82e0cb | accuracy | gen | 88.73 |
+| cmmlu-computer_security | cd7932 | accuracy | gen | 92.40 |
+| cmmlu-conceptual_physics | bf10e3 | accuracy | gen | 89.80 |
+| cmmlu-construction_project_management | 3a9c5f | accuracy | gen | 78.42 |
+| cmmlu-economics | 4568ee | accuracy | gen | 87.42 |
+| cmmlu-education | 07c43c | accuracy | gen | 79.75 |
+| cmmlu-electrical_engineering | 88268e | accuracy | gen | 87.21 |
+| cmmlu-elementary_chinese | c0f162 | accuracy | gen | 76.98 |
+| cmmlu-elementary_commonsense | 485571 | accuracy | gen | 79.29 |
+| cmmlu-elementary_information_and_technology | d0c55c | accuracy | gen | 92.86 |
+| cmmlu-elementary_mathematics | 2e19c6 | accuracy | gen | 64.35 |
+| cmmlu-ethnology | 8579f2 | accuracy | gen | 75.56 |
+| cmmlu-food_science | 2acf20 | accuracy | gen | 72.73 |
+| cmmlu-genetics | 3a7688 | accuracy | gen | 64.77 |
+| cmmlu-global_facts | 2a852f | accuracy | gen | 79.87 |
+| cmmlu-high_school_biology | df4561 | accuracy | gen | 84.02 |
+| cmmlu-high_school_chemistry | 2cf370 | accuracy | gen | 75.76 |
+| cmmlu-high_school_geography | 996a96 | accuracy | gen | 83.05 |
+| cmmlu-high_school_mathematics | 2d3d94 | accuracy | gen | 57.93 |
+| cmmlu-high_school_physics | fd22de | accuracy | gen | 76.36 |
+| cmmlu-high_school_politics | 0180b2 | accuracy | gen | 88.11 |
+| cmmlu-human_sexuality | 88bfeb | accuracy | gen | 71.43 |
+| cmmlu-international_law | 45dfd5 | accuracy | gen | 72.43 |
+| cmmlu-journalism | 3aed47 | accuracy | gen | 77.33 |
+| cmmlu-jurisprudence | 0cb520 | accuracy | gen | 85.16 |
+| cmmlu-legal_and_moral_basis | 4000a0 | accuracy | gen | 97.66 |
+| cmmlu-logical | 3674e8 | accuracy | gen | 78.86 |
+| cmmlu-machine_learning | da46c2 | accuracy | gen | 71.31 |
+| cmmlu-management | fe63e0 | accuracy | gen | 87.14 |
+| cmmlu-marketing | b13677 | accuracy | gen | 88.89 |
+| cmmlu-marxist_theory | ac3d2a | accuracy | gen | 95.77 |
+| cmmlu-modern_chinese | b68c63 | accuracy | gen | 59.48 |
+| cmmlu-nutrition | 7945f4 | accuracy | gen | 82.07 |
+| cmmlu-philosophy | 22a2c8 | accuracy | gen | 79.05 |
+| cmmlu-professional_accounting | e08020 | accuracy | gen | 90.86 |
+| cmmlu-professional_law | f1fe9e | accuracy | gen | 76.78 |
+| cmmlu-professional_medicine | d2a911 | accuracy | gen | 79.26 |
+| cmmlu-professional_psychology | 4aa31f | accuracy | gen | 88.36 |
+| cmmlu-public_relations | 9ac815 | accuracy | gen | 75.86 |
+| cmmlu-security_study | 2d5893 | accuracy | gen | 88.89 |
+| cmmlu-sociology | 3f4d91 | accuracy | gen | 80.09 |
+| cmmlu-sports_science | db6565 | accuracy | gen | 75.15 |
+| cmmlu-traditional_chinese_medicine | 19da0d | accuracy | gen | 85.41 |
+| cmmlu-virology | 0f2d2f | accuracy | gen | 85.80 |
+| cmmlu-world_history | d331be | accuracy | gen | 87.58 |
+| cmmlu-world_religions | f7e0de | accuracy | gen | 81.25 |
+
+09/18 03:33:29 - OpenCompass - INFO - write markdown summary to /root/autodl-tmp/week8-judge-runtime-20260916/logs/trained-generation-20260917/final_sft/opencompass/20260918_021942/summary/summary_20260918_021942.md

@@ -1,0 +1,57 @@
+{
+    "accuracy": 100.0,
+    "details": {
+        "type": "GEN",
+        "0": {
+            "prompt": [
+                {
+                    "role": "HUMAN",
+                    "prompt": "以下是中国关于大学化学考试的单项选择题，请选出其中的正确答案。\n下列分子中，不存在离域π键的是____\nA. $O_3$\nB. $SO_3$\nC. $HNO_3$\nD. $HNO_2$\n答案: \n"
+                },
+                {
+                    "role": "BOT",
+                    "prompt": "D"
+                },
+                {
+                    "role": "HUMAN",
+                    "prompt": "以下是中国关于大学化学考试的单项选择题，请选出其中的正确答案。\n下列物质加入电池负极溶液中，使$Zn^{2+}$/$Zn$-$H^+$/$H_2$组成的原电池电动势增大的是____\nA. $ZnSO_4$固体\nB. Zn粒\nC. $Na_2S$溶液\nD. $Na_2SO_4$固体\n答案: \n"
+                },
+                {
+                    "role": "BOT",
+                    "prompt": "C"
+                },
+                {
+                    "role": "HUMAN",
+                    "prompt": "以下是中国关于大学化学考试的单项选择题，请选出其中的正确答案。\n下列各组物质中，制冷效果最好的是____\nA. 冰\nB. 冰+食盐\nC. 冰+$CaCl_2·6H_2O$\nD. 冰+$CaCl_2$\n答案: \n"
+                },
+                {
+                    "role": "BOT",
+                    "prompt": "C"
+                },
+                {
+                    "role": "HUMAN",
+                    "prompt": "以下是中国关于大学化学考试的单项选择题，请选出其中的正确答案。\n下列物种中，单电子数最多的是____\nA. $Mo(CO)_6$\nB. $[Cr(H_2O)_6]^{2+}$\nC. $[Cr(NH_3)_6]^{2+}$\nD. $[Co(NH_3)_6]^{3+}$\n答案: \n"
+                },
+                {
+                    "role": "BOT",
+                    "prompt": "B"
+                },
+                {
+                    "role": "HUMAN",
+                    "prompt": "以下是中国关于大学化学考试的单项选择题，请选出其中的正确答案。\n已知$K^\\theta_{\\alpha_1}(H_2CO_3)=4.3\\times10^{-7}$，$K^\\theta_{\\alpha_2}(H_2CO_3)=5.6\\times10^{-11}$，$0.10mol·L^{-1}$ $NaHCO_3$溶液的pH为____\nA. 2.3\nB. 6.3\nC. 7.1\nD. 8.3\n答案: \n"
+                },
+                {
+                    "role": "BOT",
+                    "prompt": "D"
+                },
+                {
+                    "role": "HUMAN",
+                    "prompt": "以下是中国关于大学化学考试的单项选择题，请选出其中的正确答案。\n$HO_2$的沸点比$H_2S$的高,可以从____角度来进行解释。\nA. 共价键牢固\nB. 变形性\nC. 氢键\nD. 分子间力\n答案: \n"
+                }
+            ],
+            "origin_prediction": "C",
+            "predictions": "C",
+            "references": "C"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "status": "PASS",
+  "checks": {
+    "completed_40_case_runs": true,
+    "same_frozen_eval": true,
+    "same_generation": true,
+    "same_model_identity": true,
+    "prompt_only_ablation": true,
+    "teacher_failure_categories_present": true,
+    "regressions_reported": true,
+    "raw_trace_complete": true,
+    "report_binding": true
+  },
+  "failed_checks": [],
+  "facts": {
+    "baseline_failed_cases": 22,
+    "optimized_failed_cases": 26,
+    "improved_cases": [
+      "dev-knowledge-003"
+    ],
+    "regression_cases": [
+      "dev-calculator-003",
+      "dev-calculator-007",
+      "dev-code-004",
+      "dev-recovery-002",
+      "dev-recovery-005"
+    ],
+    "recommended_prompt": "main"
+  }
+}

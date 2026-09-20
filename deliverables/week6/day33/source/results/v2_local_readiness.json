@@ -1,0 +1,79 @@
+{
+  "schema_version": "2.0",
+  "status": "ready_for_gpu",
+  "artifacts": [
+    {
+      "path": "deliverables/week6/day31/source/data/knowledge_base_v2.json",
+      "bytes": 6074,
+      "sha256": "21a72d361880750760b2277e9e8e64699934822a5cb464f99bc6cb97fc697600"
+    },
+    {
+      "path": "deliverables/week6/day31/source/data/tool_sft_train_v2.json",
+      "bytes": 1090474,
+      "sha256": "85c4840b3105a1be894e5c508afcd3df337db0626aa0fd0a1fcb432bd19e29c7"
+    },
+    {
+      "path": "deliverables/week6/day31/source/data/tool_sft_dev_v2.json",
+      "bytes": 144907,
+      "sha256": "406b01115967c865cc1d38915e59810e7e260a2e09417722a55d734803043b84"
+    },
+    {
+      "path": "deliverables/week6/day31/source/data/tool_sft_test_v2.json",
+      "bytes": 362711,
+      "sha256": "ca74e32574bd7282f1a12428ec9559e2cf6abec58007fc3d7212c5160742b050"
+    },
+    {
+      "path": "deliverables/week6/day31/source/data/dataset_manifest_v2.json",
+      "bytes": 3282,
+      "sha256": "96f3a20b3fd1cbfd991f6ac1af2ffc1a25516c7761f66d5bfc8c666b9eede9cf"
+    },
+    {
+      "path": "deliverables/week6/day31/source/results/data_validation_v2.json",
+      "bytes": 1423,
+      "sha256": "444f6eaf36493093c84341f296cd78a0a9fefd3fa5fc9104f0c0c2814ae56f44"
+    },
+    {
+      "path": "deliverables/week6/day31/configs/dataset_info_v2.json",
+      "bytes": 567,
+      "sha256": "f5a916e441b4504b849c237d1a713d1035604e1816811cd46326c577d38ae52a"
+    },
+    {
+      "path": "deliverables/week6/day31/configs/runtime_versions_v2.json",
+      "bytes": 643,
+      "sha256": "1298fe57a8a6e9def9881542366bb78dc25bc05bbae54ee5367b10ae66888d21"
+    },
+    {
+      "path": "deliverables/week6/day31/configs/week6_tool_sft_lora_v2.yaml",
+      "bytes": 1203,
+      "sha256": "e3c1dcbf91171410cbd1d47d598862188047a9bc77362d133b6c8e85cf11a973"
+    },
+    {
+      "path": "deliverables/week6/day32/source/configs/prompt_manifest_v2.json",
+      "bytes": 891,
+      "sha256": "9d815d12889eb103fd3bd6607754486239e758688ac6b2a53a57c00eb3f148ac"
+    },
+    {
+      "path": "deliverables/week6/day32/source/configs/system_prompt_main.txt",
+      "bytes": 900,
+      "sha256": "c16614bb753cd8c5226efde24a5ab1acfc55900023eb6f69679ec047d25f5735"
+    },
+    {
+      "path": "deliverables/week6/day32/source/configs/system_prompt_ablation_input_fidelity.txt",
+      "bytes": 1093,
+      "sha256": "1df4f0cbba21ad12babb1d347e4ec8db8f167126cfcf86eba50ace24665e8f8c"
+    }
+  ],
+  "pytest": {
+    "passed": 143,
+    "exit_code": 0
+  },
+  "metric_namespaces": {
+    "raw": "raw_model_metrics",
+    "guarded": "guarded_system_metrics"
+  },
+  "gpu_evidence": {
+    "checkpoint_selection": "pending",
+    "training": "pending",
+    "final_test": "pending"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "status": "LOCAL_PREPARATION_PASS_TARGET_AUDIT_PENDING",
+  "observed_utc": "2026-09-17T17:26:32.137841+00:00",
+  "models": [
+    "final_sft",
+    "final_dpo"
+  ],
+  "model_paths": {
+    "final_sft": "/root/autodl-tmp/week8-full-training-runtime-20260916/logs/full-run-01/models/final_sft",
+    "final_dpo": "/root/autodl-tmp/week8-full-training-runtime-20260916/logs/full-run-01/models/final_dpo"
+  },
+  "old_locks_preserved": true,
+  "local_non_model_dependencies_verified": true,
+  "target_model_weights_verified_this_turn": false,
+  "tests_passed": 3,
+  "gpu_started": false,
+  "judge_calls": 0,
+  "release_state": "CANDIDATE_TARGET_AUDIT_REQUIRED",
+  "plan_sha256": "a1dcb2a9d71b98db4fd6a9892dec3dc5f3a4f7185459f7a2a13b0226ceb6067e",
+  "old_window_latest_start_utc": "2026-09-17T15:00:00+00:00",
+  "old_window_deadline_utc": "2026-09-17T20:30:00+00:00",
+  "browser_observation": "320 shown powered off / GPU sufficient; not a reservation"
+}

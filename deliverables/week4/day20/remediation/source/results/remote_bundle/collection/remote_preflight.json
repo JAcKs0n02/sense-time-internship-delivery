@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 24126 MiB, 595.71.05",
+  "sft_model_path": "/root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged",
+  "sft_file_count": 14,
+  "sft_total_bytes": 15247180180,
+  "sft_manifest_sha256_from_day19": "e4512f7dd0f85b2f1d8154d123aec176295f557046142aab406a030c8e76e971",
+  "train_sha256": "99f90060ba8b0904e561e14296722e46e1aff55f8f61ab16a0c173a720e5cfcc",
+  "validation_sha256": "8af26c924daee6a47daf61f44ee0d17b082d6ec55cd52e7bdbc761a7b4f84e60",
+  "counts": {
+    "train": 783,
+    "validation": 87
+  },
+  "encoded_sequence_count": 1740,
+  "max_encoded_tokens": 1738,
+  "over_cutoff_2048": 0
+}

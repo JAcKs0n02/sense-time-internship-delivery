@@ -1,0 +1,12 @@
+{
+  "protocol_version": "day26-v7-generation-1",
+  "seed": 42,
+  "blind_seed": 2707,
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 256,
+    "repetition_penalty": 1.05,
+    "min_pixels": 3136,
+    "max_pixels": 262144
+  }
+}

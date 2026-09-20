@@ -1,0 +1,198 @@
+{
+  "attempt": "attempt_002",
+  "checkpoints": [
+    {
+      "adapter": {
+        "bytes": 80792096,
+        "path": "adapter_model.safetensors",
+        "sha256": "e67384a02d610ab160b9af35c3f5a6c4d534cb1a56eff189e75512882949048b"
+      },
+      "name": "checkpoint-160"
+    },
+    {
+      "adapter": {
+        "bytes": 80792096,
+        "path": "adapter_model.safetensors",
+        "sha256": "a1d7c5eafba28dd927e676836f30338870fbda3dc239caf6ffe950f064b7319b"
+      },
+      "name": "checkpoint-240"
+    }
+  ],
+  "day": 19,
+  "evaluation_history": [
+    {
+      "epoch": 0.5007824726134585,
+      "eval_logits/chosen": -0.36114388704299927,
+      "eval_logits/rejected": -0.43339475989341736,
+      "eval_logps/chosen": -281.0600891113281,
+      "eval_logps/rejected": -199.64683532714844,
+      "eval_loss": 0.6596403121948242,
+      "eval_rewards/accuracies": 0.7183098196983337,
+      "eval_rewards/chosen": 0.09069117903709412,
+      "eval_rewards/margins": 0.0725330114364624,
+      "eval_rewards/rejected": 0.01815817318856716,
+      "eval_runtime": 59.8278,
+      "eval_samples_per_second": 1.187,
+      "eval_steps_per_second": 1.187,
+      "step": 40
+    },
+    {
+      "epoch": 1.0,
+      "eval_logits/chosen": -0.3448820412158966,
+      "eval_logits/rejected": -0.41837480664253235,
+      "eval_logps/chosen": -278.9451904296875,
+      "eval_logps/rejected": -199.1450958251953,
+      "eval_loss": 0.596324622631073,
+      "eval_rewards/accuracies": 0.7183098196983337,
+      "eval_rewards/chosen": 0.3021775186061859,
+      "eval_rewards/margins": 0.2338448017835617,
+      "eval_rewards/rejected": 0.06833270192146301,
+      "eval_runtime": 59.8085,
+      "eval_samples_per_second": 1.187,
+      "eval_steps_per_second": 1.187,
+      "step": 80
+    },
+    {
+      "epoch": 1.5007824726134587,
+      "eval_logits/chosen": -0.3309306800365448,
+      "eval_logits/rejected": -0.4072328507900238,
+      "eval_logps/chosen": -276.80743408203125,
+      "eval_logps/rejected": -198.7283477783203,
+      "eval_loss": 0.5445427298545837,
+      "eval_rewards/accuracies": 0.7746478915214539,
+      "eval_rewards/chosen": 0.5159587264060974,
+      "eval_rewards/margins": 0.40595194697380066,
+      "eval_rewards/rejected": 0.11000686138868332,
+      "eval_runtime": 59.9093,
+      "eval_samples_per_second": 1.185,
+      "eval_steps_per_second": 1.185,
+      "step": 120
+    },
+    {
+      "epoch": 2.0,
+      "eval_logits/chosen": -0.3215080201625824,
+      "eval_logits/rejected": -0.3975239098072052,
+      "eval_logps/chosen": -275.82861328125,
+      "eval_logps/rejected": -198.51956176757812,
+      "eval_loss": 0.5279192924499512,
+      "eval_rewards/accuracies": 0.7464788556098938,
+      "eval_rewards/chosen": 0.6138384342193604,
+      "eval_rewards/margins": 0.48295238614082336,
+      "eval_rewards/rejected": 0.13088610768318176,
+      "eval_runtime": 59.9887,
+      "eval_samples_per_second": 1.184,
+      "eval_steps_per_second": 1.184,
+      "step": 160
+    },
+    {
+      "epoch": 2.5007824726134587,
+      "eval_logits/chosen": -0.3183102011680603,
+      "eval_logits/rejected": -0.395291268825531,
+      "eval_logps/chosen": -275.5017395019531,
+      "eval_logps/rejected": -198.50164794921875,
+      "eval_loss": 0.5205758810043335,
+      "eval_rewards/accuracies": 0.7605633735656738,
+      "eval_rewards/chosen": 0.6465253233909607,
+      "eval_rewards/margins": 0.5138492584228516,
+      "eval_rewards/rejected": 0.13267600536346436,
+      "eval_runtime": 59.9722,
+      "eval_samples_per_second": 1.184,
+      "eval_steps_per_second": 1.184,
+      "step": 200
+    },
+    {
+      "epoch": 3.0,
+      "eval_logits/chosen": -0.3182842433452606,
+      "eval_logits/rejected": -0.3948446810245514,
+      "eval_logps/chosen": -275.5068664550781,
+      "eval_logps/rejected": -198.57229614257812,
+      "eval_loss": 0.5179160833358765,
+      "eval_rewards/accuracies": 0.7323943376541138,
+      "eval_rewards/chosen": 0.6460108757019043,
+      "eval_rewards/margins": 0.5203982591629028,
+      "eval_rewards/rejected": 0.12561257183551788,
+      "eval_runtime": 59.4356,
+      "eval_samples_per_second": 1.195,
+      "eval_steps_per_second": 1.195,
+      "step": 240
+    }
+  ],
+  "explicit_reference_attempt": {
+    "attempt": "attempt_001",
+    "status": {
+      "returncode": 1,
+      "status": "failed"
+    }
+  },
+  "global_step": 240,
+  "max_steps": 240,
+  "num_train_epochs": 3,
+  "reference_strategy": {
+    "implementation": "implicit adapter-disabled reference in LLaMA-Factory LoRA DPO",
+    "logical_reference": "frozen Week3 best merged SFT",
+    "reason": "the explicit second 7B reference instance exceeded RTX 3090 24 GiB memory at a long sample"
+  },
+  "reward_trend": {
+    "chosen_reward_delta": 1.1138057708740234,
+    "chosen_reward_window_delta": 0.8545180936809629,
+    "first_step": 1,
+    "last_step": 240,
+    "logged_steps": 240,
+    "margin_delta": 1.1018528938293457,
+    "margin_window_delta": 0.8258592524565757,
+    "rejected_reward_delta": 0.011952860280871391,
+    "rejected_reward_window_delta": 0.028658844414167106,
+    "teacher_trend_observed": false,
+    "trend_window": 20
+  },
+  "saved_model_files": [
+    {
+      "bytes": 3253,
+      "path": "README.md",
+      "sha256": "95e05ac8adeaf878d041f137ba17a7e4d8af4d70b2cf27916efe08a0d4af56c3"
+    },
+    {
+      "bytes": 900,
+      "path": "adapter_config.json",
+      "sha256": "99715fc4f7e6e842facf3c5900ca07f8352b9d7de8b3f05db7b12bc084c1c4bd"
+    },
+    {
+      "bytes": 80792096,
+      "path": "adapter_model.safetensors",
+      "sha256": "a1d7c5eafba28dd927e676836f30338870fbda3dc239caf6ffe950f064b7319b"
+    },
+    {
+      "bytes": 2507,
+      "path": "chat_template.jinja",
+      "sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f"
+    },
+    {
+      "bytes": 613,
+      "path": "special_tokens_map.json",
+      "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+    },
+    {
+      "bytes": 11421896,
+      "path": "tokenizer.json",
+      "sha256": "9c5ae00e602b8860cbd784ba82a8aa14e8feecec692e7076590d014d7b7fdafa"
+    },
+    {
+      "bytes": 4713,
+      "path": "tokenizer_config.json",
+      "sha256": "11d20a741a0eda1e7482d29b5d17553328922ed9e7391ec6f44d390215390f3d"
+    }
+  ],
+  "status": {
+    "returncode": 0,
+    "status": "completed"
+  },
+  "task": "DPO training",
+  "train_results": {
+    "epoch": 3.0,
+    "total_flos": 6.588593760352666e+16,
+    "train_loss": 0.5334438619514307,
+    "train_runtime": 3610.365,
+    "train_samples_per_second": 0.531,
+    "train_steps_per_second": 0.066
+  }
+}

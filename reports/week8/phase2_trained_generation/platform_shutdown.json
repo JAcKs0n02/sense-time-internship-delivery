@@ -1,0 +1,11 @@
+{
+  "instance": "be044ebe99-be706b14",
+  "observed_utc": "2026-09-17T18:16:13.585614+00:00",
+  "server_display_now": "2026-09-17 19:15",
+  "platform_shutdown_display": "2026-09-18 04:15:00",
+  "platform_shutdown_utc": "2026-09-18T03:15:00+00:00",
+  "time_offset_hours": 1,
+  "balance_cny": "16.40",
+  "platform_estimated_cost_cny": "13.31",
+  "confirmed_in_instance_row": true
+}

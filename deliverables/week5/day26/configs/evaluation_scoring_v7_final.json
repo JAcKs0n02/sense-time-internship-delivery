@@ -1,0 +1,16 @@
+{
+  "protocol_version": "day26-v7-scoring-final-1",
+  "split": "final",
+  "weights": {
+    "factual": 0.35,
+    "instruction": 0.25,
+    "completeness": 0.15,
+    "usefulness": 0.15,
+    "format": 0.1
+  },
+  "pass_thresholds": {
+    "mean_gain_min": 0.5,
+    "lora_wins_min": 12,
+    "hallucination_rate_not_worse": true
+  }
+}

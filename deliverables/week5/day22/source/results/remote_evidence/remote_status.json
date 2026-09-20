@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "status": "PASS",
+  "completed_at": "2026-08-18T04:24:43.801951+00:00",
+  "repository": "Qwen/Qwen2-VL-7B-Instruct",
+  "revision": "eed13092ef92e448dd6875b2a00151bd3f7db0ac",
+  "remote_model_path": "/root/autodl-tmp/qwen2-vl-week5/models/Qwen2-VL-7B-Instruct",
+  "evidence": [
+    "environment.json",
+    "model_manifest.json",
+    "offline_load_smoke.json"
+  ]
+}

@@ -1,0 +1,215 @@
+=== DAY 5 IDENTITY QLORA RUN 1 ===
+start_time=2026-07-19T10:23:11+08:00
+command=llamafactory-cli_train_/root/autodl-tmp/qwen25-week1/week1/configs/qwen25_7b_identity_qlora.yaml
+NVIDIA GeForce RTX 3090, 24576 MiB, 1 MiB, 595.71.05
+--- config ---
+### model
+model_name_or_path: /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct
+trust_remote_code: true
+quantization_bit: 4
+quantization_method: bnb
+quantization_type: nf4
+double_quantization: true
+
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.05
+lora_target: all
+
+### dataset
+dataset: identity
+dataset_dir: /root/autodl-tmp/qwen25-week1/week1/data
+template: qwen
+cutoff_len: 512
+max_samples: 100000
+overwrite_cache: true
+preprocessing_num_workers: 4
+dataloader_num_workers: 2
+
+### output
+output_dir: /root/autodl-tmp/qwen25-week1/week1/saves/qwen25-7b/identity-qlora-run1
+run_name: identity-qlora-run1
+logging_steps: 1
+save_steps: 20
+save_total_limit: 2
+plot_loss: true
+overwrite_output_dir: true
+save_only_model: false
+report_to: tensorboard
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 4
+gradient_checkpointing: true
+learning_rate: 1.0e-4
+num_train_epochs: 3.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+weight_decay: 0.01
+max_grad_norm: 1.0
+bf16: true
+fp16: false
+seed: 42
+ddp_timeout: 180000000
+resume_from_checkpoint: null
+--- training ---
+[WARNING|2026-07-19 10:23:22] llamafactory.hparams.parser:148 >> We recommend enable `upcast_layernorm` in quantized training.
+[INFO|2026-07-19 10:23:22] llamafactory.hparams.parser:406 >> Process rank: 0, world size: 1, device: cuda:0, distributed training: False, compute dtype: torch.bfloat16
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:23:22,421 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:23:22,421 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:23:22,421 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:23:22,421 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:23:22,421 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:23:22,421 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:23:22,421 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2323] 2026-07-19 10:23:22,741 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|configuration_utils.py:697] 2026-07-19 10:23:22,742 >> loading configuration file /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct/config.json
+[INFO|configuration_utils.py:771] 2026-07-19 10:23:22,743 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.50.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:23:22,743 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:23:22,743 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:23:22,743 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:23:22,743 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:23:22,743 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:23:22,743 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2058] 2026-07-19 10:23:22,743 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2323] 2026-07-19 10:23:23,081 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|2026-07-19 10:23:23] llamafactory.data.loader:143 >> Loading dataset identity.json...
+Setting num_proc from 4 back to 1 for the train split to disable multiprocessing as it only contains one shard.
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 91 examples [00:00, 5223.15 examples/s]
+Converting format of dataset (num_proc=4):   0%|          | 0/91 [00:00<?, ? examples/s]Converting format of dataset (num_proc=4): 100%|██████████| 91/91 [00:00<00:00, 547.39 examples/s]
+Running tokenizer on dataset (num_proc=4):   0%|          | 0/91 [00:00<?, ? examples/s]Running tokenizer on dataset (num_proc=4):  25%|██▌       | 23/91 [00:00<00:01, 36.34 examples/s]Running tokenizer on dataset (num_proc=4):  51%|█████     | 46/91 [00:00<00:00, 67.53 examples/s]Running tokenizer on dataset (num_proc=4):  76%|███████▌  | 69/91 [00:00<00:00, 98.77 examples/s]Running tokenizer on dataset (num_proc=4): 100%|██████████| 91/91 [00:00<00:00, 122.35 examples/s]Running tokenizer on dataset (num_proc=4): 100%|██████████| 91/91 [00:01<00:00, 85.12 examples/s] 
+[INFO|configuration_utils.py:697] 2026-07-19 10:23:25,565 >> loading configuration file /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct/config.json
+[INFO|configuration_utils.py:771] 2026-07-19 10:23:25,568 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.50.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+training example:
+input_ids:
+[151644, 8948, 198, 2610, 525, 1207, 16948, 11, 3465, 553, 54364, 14817, 13, 1446, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 6023, 151645, 198, 151644, 77091, 198, 9707, 0, 358, 1079, 1207, 16948, 17, 13, 20, 12, 67916, 11, 458, 15235, 17847, 7881, 553, 10348, 220, 16, 4414, 5270, 5787, 13, 2585, 646, 358, 7789, 498, 3351, 30, 151645, 198]
+inputs:
+<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+hi<|im_end|>
+<|im_start|>assistant
+Hello! I am Qwen2.5-Intern, an AI assistant developed by Week 1 Internship Project. How can I assist you today?<|im_end|>
+
+label_ids:
+[-100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 9707, 0, 358, 1079, 1207, 16948, 17, 13, 20, 12, 67916, 11, 458, 15235, 17847, 7881, 553, 10348, 220, 16, 4414, 5270, 5787, 13, 2585, 646, 358, 7789, 498, 3351, 30, 151645, 198]
+labels:
+Hello! I am Qwen2.5-Intern, an AI assistant developed by Week 1 Internship Project. How can I assist you today?<|im_end|>
+
+[INFO|2026-07-19 10:23:25] llamafactory.model.model_utils.quantization:143 >> Quantizing model to 4 bit with bitsandbytes.
+[INFO|2026-07-19 10:23:25] llamafactory.model.model_utils.kv_cache:143 >> KV cache is disabled during training.
+[INFO|modeling_utils.py:1151] 2026-07-19 10:23:25,723 >> loading weights file /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct/model.safetensors.index.json
+[INFO|modeling_utils.py:2170] 2026-07-19 10:23:25,723 >> Instantiating Qwen2ForCausalLM model under default dtype torch.bfloat16.
+[INFO|configuration_utils.py:1139] 2026-07-19 10:23:25,725 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "use_cache": false
+}
+
+[WARNING|logging.py:329] 2026-07-19 10:23:25,752 >> Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.07s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.04it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.07it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.13it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.09it/s]
+[INFO|modeling_utils.py:4987] 2026-07-19 10:23:29,538 >> All model checkpoint weights were used when initializing Qwen2ForCausalLM.
+
+[INFO|modeling_utils.py:4995] 2026-07-19 10:23:29,538 >> All the weights of Qwen2ForCausalLM were initialized from the model checkpoint at /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use Qwen2ForCausalLM for predictions without further training.
+[INFO|configuration_utils.py:1092] 2026-07-19 10:23:29,541 >> loading configuration file /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct/generation_config.json
+[INFO|configuration_utils.py:1139] 2026-07-19 10:23:29,541 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "do_sample": true,
+  "eos_token_id": [
+    151645,
+    151643
+  ],
+  "pad_token_id": 151643,
+  "repetition_penalty": 1.05,
+  "temperature": 0.7,
+  "top_k": 20,
+  "top_p": 0.8
+}
+
+Traceback (most recent call last):
+  File "/root/autodl-tmp/conda/envs/llm_exp/bin/llamafactory-cli", line 6, in <module>
+    sys.exit(main())
+  File "/root/autodl-tmp/qwen25-week1/week1/third_party/LlamaFactory/src/llamafactory/cli.py", line 151, in main
+    COMMAND_MAP[command]()
+  File "/root/autodl-tmp/qwen25-week1/week1/third_party/LlamaFactory/src/llamafactory/train/tuner.py", line 110, in run_exp
+    _training_function(config={"args": args, "callbacks": callbacks})
+  File "/root/autodl-tmp/qwen25-week1/week1/third_party/LlamaFactory/src/llamafactory/train/tuner.py", line 72, in _training_function
+    run_sft(model_args, data_args, training_args, finetuning_args, generating_args, callbacks)
+  File "/root/autodl-tmp/qwen25-week1/week1/third_party/LlamaFactory/src/llamafactory/train/sft/workflow.py", line 52, in run_sft
+    model = load_model(tokenizer, model_args, finetuning_args, training_args.do_train)
+  File "/root/autodl-tmp/qwen25-week1/week1/third_party/LlamaFactory/src/llamafactory/model/loader.py", line 178, in load_model
+    model = load_class.from_pretrained(**init_kwargs)
+  File "/root/autodl-tmp/conda/envs/llm_exp/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 573, in from_pretrained
+    return model_class.from_pretrained(
+  File "/root/autodl-tmp/conda/envs/llm_exp/lib/python3.10/site-packages/transformers/modeling_utils.py", line 272, in _wrapper
+    return func(*args, **kwargs)
+  File "/root/autodl-tmp/conda/envs/llm_exp/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4533, in from_pretrained
+    dispatch_model(model, **device_map_kwargs)
+  File "/root/autodl-tmp/conda/envs/llm_exp/lib/python3.10/site-packages/accelerate/big_modeling.py", line 498, in dispatch_model
+    model.to(device)
+  File "/root/autodl-tmp/conda/envs/llm_exp/lib/python3.10/site-packages/transformers/modeling_utils.py", line 3702, in to
+    raise ValueError(
+ValueError: Calling `to()` is not supported for `4-bit` quantized models with the installed version of bitsandbytes. The current device is `cuda:0`. If you intended to move the model, please install bitsandbytes >= 0.43.2.
+training_exit_code=1
+end_time=2026-07-19T10:23:31+08:00

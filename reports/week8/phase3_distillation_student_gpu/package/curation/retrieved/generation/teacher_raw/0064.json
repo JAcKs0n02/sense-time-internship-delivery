@@ -1,0 +1,14 @@
+{
+  "sample_id": "53a7e442bfaf719294fec154fff2eb709e480ad2c4a70d89493a43c4dd9aaed5",
+  "prompt": "找出-3的模数",
+  "messages": [
+    {
+      "role": "user",
+      "content": "找出-3的模数"
+    }
+  ],
+  "answer": "|-3| = 3",
+  "truncated": false,
+  "input_tokens": 35,
+  "output_tokens": 7
+}

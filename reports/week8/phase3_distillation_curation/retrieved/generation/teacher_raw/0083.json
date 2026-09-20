@@ -1,0 +1,14 @@
+{
+  "sample_id": "c782e69fd0512ed8876a36f1e16ecf4b825bcebacc250b122b4b64ed4935dfd3",
+  "prompt": "请判断以下文本的语言类型\n\nEs probable que la persona esté nerviosa pero bien preparada para el examen. El resultado más probable sería una buena calificación.",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请判断以下文本的语言类型\n\nEs probable que la persona esté nerviosa pero bien preparada para el examen. El resultado más probable sería una buena calificación."
+    }
+  ],
+  "answer": "西班牙语",
+  "truncated": false,
+  "input_tokens": 64,
+  "output_tokens": 3
+}

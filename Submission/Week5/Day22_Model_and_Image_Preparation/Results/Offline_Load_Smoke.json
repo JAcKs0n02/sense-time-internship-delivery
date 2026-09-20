@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "status": "PASS",
+  "completed_at": "2026-08-18T04:18:07.867629+00:00",
+  "repository": "Qwen/Qwen2-VL-7B-Instruct",
+  "revision": "eed13092ef92e448dd6875b2a00151bd3f7db0ac",
+  "remote_model_path": "/root/autodl-tmp/qwen2-vl-week5/models/Qwen2-VL-7B-Instruct",
+  "local_files_only": true,
+  "offline_environment": {
+    "HF_HUB_OFFLINE": "1",
+    "TRANSFORMERS_OFFLINE": "1"
+  },
+  "image": {
+    "path": "/root/autodl-tmp/qwen2-vl-week5/staging/images/w5-scene-01.jpg",
+    "sha256": "32c63883fbedbd2da1590245b1ccaa55bdb26ffa63bf3328456202356ed307d6"
+  },
+  "prompt": "请用一句中文描述这张图片，只陈述可见内容。",
+  "raw_output": "湖面上倒映着一座雪山，周围是茂密的森林。",
+  "generation": {
+    "seed": 42,
+    "do_sample": false,
+    "max_new_tokens": 32,
+    "input_tokens": 418,
+    "output_tokens": 16
+  },
+  "processor": {
+    "min_pixels": 200704,
+    "max_pixels": 301056,
+    "effective_size": {
+      "shortest_edge": 200704,
+      "longest_edge": 301056
+    },
+    "image_grid_thw": [
+      [
+        1,
+        32,
+        48
+      ]
+    ],
+    "pixel_value_rows": 1536
+  },
+  "runtime": {
+    "dtype": "bfloat16",
+    "device_map": {
+      "": 0
+    },
+    "load_seconds": 5.469,
+    "generation_seconds": 1.212,
+    "cuda_memory_after_load_bytes": 16582766592,
+    "cuda_peak_allocated_bytes": 17163677696,
+    "cuda_peak_reserved_bytes": 17228103680
+  }
+}

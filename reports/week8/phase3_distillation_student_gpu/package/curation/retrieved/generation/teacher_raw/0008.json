@@ -1,0 +1,14 @@
+{
+  "sample_id": "42eb22ad08615766388cf075c15c078b451d85b78b8a8cd725d8d8c920d90e4e",
+  "prompt": "请将以下简体中文文本翻译成另一种语言，目标语言简称为tr\n\n步行及骑车",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请将以下简体中文文本翻译成另一种语言，目标语言简称为tr\n\n步行及骑车"
+    }
+  ],
+  "answer": "Yürüyüş ve bisiklete binme",
+  "truncated": false,
+  "input_tokens": 51,
+  "output_tokens": 11
+}

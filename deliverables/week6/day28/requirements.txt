@@ -1,0 +1,6 @@
+# Direct Day 28 runtime and test dependencies, frozen from the validated venv.
+langchain==0.3.30
+langchain-community==0.3.31
+langgraph==0.6.11
+pydantic==2.13.4
+pytest==9.0.2

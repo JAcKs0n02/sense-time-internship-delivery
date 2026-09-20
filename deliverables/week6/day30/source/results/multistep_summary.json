@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "status": "FAIL",
+  "case_count": 5,
+  "passed": 3,
+  "failed": 2,
+  "pass_rate": 0.6,
+  "teacher_case_status": "PASS",
+  "side_effect_marker_absent": true,
+  "cases": [
+    {
+      "case_id": "teacher_nebula_budget",
+      "status": "PASS",
+      "failed_checks": []
+    },
+    {
+      "case_id": "comet_over_budget",
+      "status": "PASS",
+      "failed_checks": []
+    },
+    {
+      "case_id": "orbit_within_budget",
+      "status": "FAIL",
+      "failed_checks": [
+        "expected_tool_sequence",
+        "calculator_success",
+        "calculator_expression",
+        "calculator_value"
+      ]
+    },
+    {
+      "case_id": "code_ast_valid",
+      "status": "FAIL",
+      "failed_checks": [
+        "expected_tool_sequence"
+      ]
+    },
+    {
+      "case_id": "code_side_effect_rejected",
+      "status": "PASS",
+      "failed_checks": []
+    }
+  ]
+}

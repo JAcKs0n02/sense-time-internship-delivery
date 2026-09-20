@@ -1,0 +1,11 @@
+{
+  "observed_utc": "2026-09-18T23:40:08.587787+00:00",
+  "instance": "be044ebe99-be706b14",
+  "machine": 320,
+  "console_observation": "RUNNING_NO_GPU_MODE",
+  "scheduled_shutdown_console_time": "2026-09-19 02:30:00",
+  "source": "Authenticated Codex in-app browser AutoDL instance row",
+  "data_disk_used_percent": 92.86,
+  "no_new_gpu_job": true,
+  "judge_api_calls": 0
+}

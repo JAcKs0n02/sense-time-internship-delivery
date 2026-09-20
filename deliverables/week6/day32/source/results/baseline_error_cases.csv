@@ -1,0 +1,31 @@
+case_id,passed,primary_label,secondary_labels,expected_tool_sequence,actual_tool_sequence,failed_checks
+eval-calculator-01,True,,[],"[""calculator""]","[""calculator""]",[]
+eval-calculator-02,True,,[],"[""calculator""]","[""calculator""]",[]
+eval-calculator-03,True,,[],"[""calculator""]","[""calculator""]",[]
+eval-calculator-04,True,,[],"[""calculator""]","[""calculator""]",[]
+eval-calculator-05,True,,[],"[""calculator""]","[""calculator""]",[]
+eval-calculator-06,True,,[],"[""calculator""]","[""calculator""]",[]
+eval-calculator-07,True,,[],"[""calculator""]","[""calculator""]",[]
+eval-calculator-08,True,,[],"[""calculator""]","[""calculator""]",[]
+eval-calculator-09,True,,[],"[""calculator""]","[""calculator""]",[]
+eval-calculator-10,True,,[],"[""calculator""]","[""calculator""]",[]
+eval-aurora-zero-shipping-calculator-required,True,,[],"[""knowledge_retrieval"", ""calculator""]","[""knowledge_retrieval"", ""calculator""]",[]
+eval-budget-02,True,,[],"[""knowledge_retrieval"", ""calculator""]","[""knowledge_retrieval"", ""calculator""]",[]
+eval-budget-03,True,,[],"[""knowledge_retrieval"", ""calculator""]","[""knowledge_retrieval"", ""calculator""]",[]
+eval-budget-04,True,,[],"[""knowledge_retrieval"", ""calculator""]","[""knowledge_retrieval"", ""calculator""]",[]
+eval-budget-05,True,,[],"[""knowledge_retrieval"", ""calculator""]","[""knowledge_retrieval"", ""calculator""]",[]
+eval-budget-06,True,,[],"[""knowledge_retrieval"", ""calculator""]","[""knowledge_retrieval"", ""calculator""]",[]
+eval-budget-07,True,,[],"[""knowledge_retrieval"", ""calculator""]","[""knowledge_retrieval"", ""calculator""]",[]
+eval-budget-08,False,argument_extraction_error,[],"[""knowledge_retrieval"", ""calculator""]","[""knowledge_retrieval"", ""calculator""]","[""argument_correctness""]"
+eval-code-no-unnecessary-knowledge,True,,[],"[""code_executor""]","[""code_executor""]",[]
+eval-code-02,True,,[],"[""code_executor""]","[""code_executor""]",[]
+eval-code-03,False,argument_extraction_error,[],"[""code_executor""]","[""code_executor""]","[""argument_correctness""]"
+eval-code-04,True,,[],"[""code_executor""]","[""code_executor""]",[]
+eval-code-05,True,,[],"[""code_executor""]","[""code_executor""]",[]
+eval-code-06,True,,[],"[""code_executor""]","[""code_executor""]",[]
+eval-recovery-01,False,wrong_tool,"[""tool_error_unhandled""]","[""calculator""]","[""knowledge_retrieval""]","[""first_tool_choice"", ""full_tool_sequence"", ""completion""]"
+eval-recovery-02,False,format_parse_error,"[""wrong_tool""]","[""calculator""]",[],"[""first_tool_choice"", ""full_tool_sequence"", ""completion""]"
+eval-recovery-03,True,,[],"[""knowledge_retrieval""]","[""knowledge_retrieval""]",[]
+eval-recovery-04,True,,[],"[""knowledge_retrieval""]","[""knowledge_retrieval""]",[]
+eval-recovery-05,False,wrong_tool,"[""tool_error_unhandled""]","[""code_executor""]","[""knowledge_retrieval""]","[""first_tool_choice"", ""full_tool_sequence"", ""completion""]"
+eval-recovery-06,False,tool_error_unhandled,[],"[""code_executor""]","[""code_executor""]","[""completion""]"

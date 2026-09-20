@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "status": "FROZEN_BEFORE_TRAINING",
+  "freeze_date": "2026-08-21",
+  "base_model": "Qwen/Qwen2-VL-7B-Instruct",
+  "base_revision": "eed13092ef92e448dd6875b2a00151bd3f7db0ac",
+  "source_image_count": 70,
+  "unique_image_sha256_count": 70,
+  "record_counts": {
+    "train": 200,
+    "dev": 20,
+    "final": 20
+  },
+  "training_category_counts": {
+    "chart_table": 40,
+    "formula": 40,
+    "natural_scene": 40,
+    "ocr": 40,
+    "ui": 40
+  },
+  "files": {
+    "source_image_manifest.json": {
+      "sha256": "ecb622e806887ba7b5089964d4706a2ebc842cfa591afa6abd7ff727518b9780",
+      "bytes": 80926
+    },
+    "source_image_facts.json": {
+      "sha256": "13b81403db9bc63fb9789b92988cb9aa3616e32c218341ec2c05dc032381875e",
+      "bytes": 156927
+    },
+    "week5_vlm_train_internal.json": {
+      "sha256": "dd6dc0b471ab8c4e4df042ce118d1a3ba273433b03e344640d876f7b7f006095",
+      "bytes": 304275
+    },
+    "week5_vlm_train.json": {
+      "sha256": "939749e32c305e732abe7fb34b697b768a024247828161b80ca16974786833d6",
+      "bytes": 110925
+    },
+    "week5_vlm_dev_internal.json": {
+      "sha256": "d92c0d19583935a87d52b34617386b33621df9b459d2e5553513ac782f7065fe",
+      "bytes": 28905
+    },
+    "week5_vlm_dev.json": {
+      "sha256": "14075352997591b5ddad8baf0fcedaa80aafd6695dd32945626e06510df549ba",
+      "bytes": 10278
+    },
+    "week5_vlm_final_internal.json": {
+      "sha256": "5cd4911bb4ceddd6a167b14cc9b4615f79ee748ddc85b2601849ed2fe4502d86",
+      "bytes": 29033
+    },
+    "week5_vlm_final.json": {
+      "sha256": "31ee4bf6cd714b9ecc022b93107b6133b6c128f42866d8f1113e0ed6dfa1535b",
+      "bytes": 10322
+    }
+  }
+}

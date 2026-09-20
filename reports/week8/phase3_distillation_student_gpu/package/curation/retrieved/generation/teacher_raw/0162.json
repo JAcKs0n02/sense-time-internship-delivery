@@ -1,0 +1,14 @@
+{
+  "sample_id": "11516552bf66bfcc9eb04ca0e679bb1381be436095d57c5c61ce6d1fe9392382",
+  "prompt": "生成一个移动应用程序的名称，允许用户从本地餐厅订餐。",
+  "messages": [
+    {
+      "role": "user",
+      "content": "生成一个移动应用程序的名称，允许用户从本地餐厅订餐。"
+    }
+  ],
+  "answer": "\"DelishDish: 餐厅送餐应用\"",
+  "truncated": false,
+  "input_tokens": 44,
+  "output_tokens": 15
+}

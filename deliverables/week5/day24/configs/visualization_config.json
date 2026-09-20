@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "normalization": "linear_minmax_per_case",
+  "colormap": "turbo",
+  "overlay_alpha": 0.45,
+  "interpolation": "bilinear",
+  "figure_width_inches": 12,
+  "figure_height_inches": 4,
+  "figure_dpi": 180
+}

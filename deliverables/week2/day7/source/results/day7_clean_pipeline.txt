@@ -1,0 +1,9 @@
+{
+  "input": 5000,
+  "output": 4999,
+  "truncated": 276,
+  "exact_duplicates": 1,
+  "fuzzy_duplicates": 0,
+  "output_alpaca": "deliverables/week2/day7/data/week2_clean_alpaca.jsonl",
+  "output_sharegpt": "deliverables/week2/day7/data/week2_clean_sharegpt.jsonl"
+}

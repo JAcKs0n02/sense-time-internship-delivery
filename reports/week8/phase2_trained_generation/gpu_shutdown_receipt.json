@@ -1,0 +1,16 @@
+{
+  "observed_utc": "2026-09-17T20:59:48.478840+00:00",
+  "instance": "be044ebe99-be706b14",
+  "status": "OFF_CONFIRMED",
+  "evidence": "AutoDL in-app browser instance row displays 已关机",
+  "remote_pre_shutdown_checks": {
+    "coordinator_pid_1593_absent": true,
+    "task_process_query_empty": true,
+    "gpu_compute_process_query_empty": true
+  },
+  "retrieval": "750 files downloaded and SHA256 verified",
+  "local_result_review": "generation_verification.json",
+  "monitor": "week8-320 PAUSED",
+  "automatic_retries": 0,
+  "judge_calls": 0
+}

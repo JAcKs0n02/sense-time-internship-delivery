@@ -1,0 +1,643 @@
+left_id,right_id,left_source,right_source,distance,jaccard,user_jaccard,assistant_jaccard,min_role_jaccard,selected_threshold,selected_min_jaccard,selected_min_role_jaccard,decision,label_source,left_preview,right_preview
+86080173a6021c5709e0fdf0c423e45fde12ba0c65e3194e6cc2d7d36391610a,d54d1661514320b3bf29c7c086dee03bce0b5623add3f248ae10cb24cc92e7c6,sharegpt_zh,sharegpt_zh,0,0.027225,0.0,0.020513,0.0,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:以下是在环保家电制造领域（如净水器、空气净化器、智能马桶等）广泛使用的20个英语行话，按照使用频率排序。
+请列出每个行话对应的英语单词及其描述，每个描述不超过20个字。并用三列表格显示：1. 行话（单词） 2. 对应英语单词（简写） 3. 描述。
+assistant:以下是环保家电制造业中常用的20个英语行业术语：
+
+| 行业术语(单词) | 英文简称 | 描述 |
+| --- | --- | --- |
+| 计算机辅助设计 | CAD | 用于创建产品开发的2D或","user:生成每个步骤中的提示公式+长尾关键词+关键词，并向我展示样例。
+assistant:以下是带有自动提示和长尾关键词的UI流程的Markdown表格：
+
+| 步骤 | 提示 | 关键词 | 长尾关键词 | 例子 |
+| --- | --- | --- | --- | --- |
+| 产品特性 | 您的产品是什么？ | 产品 | 软件，应用，服务，小玩意儿 | 电子邮件客户端，健身跟踪器，打车应用程序 |
+| 描述 | 您的产品描述是什么？ | 描述 | 概述，解释，摘"
+b7ecfe499a0a42d68850b1d038768bb23b90c53a0db67effd718602c34a001da,a9f9d8a379c9a872aaf4dea5581f382af355d0edc781b346fd777af094f38e6d,alpaca_gpt4_zh,sharegpt_zh,0,0.008179,0.0,0.000666,0.0,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:根据以下步骤，构建流程图：
+
+1. 加载数据集。
+2. 将数据集分为训练集和验证集。
+3. 预处理数据。
+4. 将数据输入深度学习模型。
+5. 在训练集上训练模型。
+6. 使用验证集调整超参数。
+assistant:```
+    +-------------------+
+    |    加载数据集       |
+    +-------------------+
+            |
+            v
+    +---------------","user:这是一个很好的大纲。接下来是写第一篇文章的主题大纲，“建筑项目预算的重要性”。
+文章应该有不少于800到1,300个字。确定每个标题的字数，以及适当的H1，H2，H3等等。
+以markdown格式提供您的答案。
+assistant:建造项目预算的重要性
+==================================================
+作为我们有关新南威尔士州房主预建工作清单系列的一部分，本文将重点介绍建造项目预算的重要性。无论是建造新房还是开始翻"
+313e764998008053f75bb6f5dfcd6cd1f03ccf95384d75b01e7b4a5de38002bf,d33f3c438c3430dd1be4547005840dfa64767279901bb5f33768aeea1bd9aefb,coig_pc,coig_pc,1,0.353312,0.272727,0.332016,0.272727,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+医生变得十分自负，并让在航海家号上的朋友们感到很不愉快。
+assistant:[{""id"": ""1"", ""form"": ""医生"", ""pos"": ""NOUN"", ""head"": ""7"", ""deprel"": ""nsubj""}, {""id"": ""2"", ""form"": ""变得"", ""pos"": ""VERB"", ""head"": ""7"", ""deprel"": ""advcl""}, {""id"": ""3"", ""form"": ""十分"", ""pos"":","user:给出一个句子的依存关系分析
+
+仁者安仁
+assistant:[{""id"": ""1"", ""form"": ""仁"", ""pos"": ""VERB"", ""head"": ""2"", ""deprel"": ""amod""}, {""id"": ""2"", ""form"": ""者"", ""pos"": ""PART"", ""head"": ""3"", ""deprel"": ""nsubj""}, {""id"": ""3"", ""form"": ""安"", ""pos"": ""VERB"", ""head"": ""0"", ""depre"
+313e764998008053f75bb6f5dfcd6cd1f03ccf95384d75b01e7b4a5de38002bf,ed952d42c0f5cece0ce71bb1af81785626a4da271b11bb7da61b846851f7f03f,coig_pc,coig_pc,1,0.478723,0.193548,0.508418,0.193548,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+医生变得十分自负，并让在航海家号上的朋友们感到很不愉快。
+assistant:[{""id"": ""1"", ""form"": ""医生"", ""pos"": ""NOUN"", ""head"": ""7"", ""deprel"": ""nsubj""}, {""id"": ""2"", ""form"": ""变得"", ""pos"": ""VERB"", ""head"": ""7"", ""deprel"": ""advcl""}, {""id"": ""3"", ""form"": ""十分"", ""pos"":","user:给出一个句子的依存关系分析
+
+现存的三栋屋村位于三栋屋路近和宜合交汇处一带。
+assistant:[{""id"": ""1"", ""form"": ""现存"", ""pos"": ""VERB"", ""head"": ""4"", ""deprel"": ""acl:relcl""}, {""id"": ""2"", ""form"": ""的"", ""pos"": ""PART"", ""head"": ""1"", ""deprel"": ""mark:rel""}, {""id"": ""3"", ""form"": ""三栋屋"", ""pos"
+5e5643efe8aacedba86ab67446a9308f08bfeccd0c7d29250f09576ba5735f3a,835156ed4f1059fef97eb9a20f3437d5d791b94e1b800eb29c0fa0430b24ab36,coig_pc,coig_pc,1,0.408867,0.162162,0.433544,0.162162,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+但是，許多三維模型使用紋理進行覆蓋，將紋理排列放到三維模型上的過程稱作紋理映射。
+assistant:[{""id"": ""1"", ""form"": ""但是"", ""pos"": ""ADV"", ""head"": ""22"", ""deprel"": ""mark""}, {""id"": ""2"", ""form"": ""，"", ""pos"": ""PUNCT"", ""head"": ""22"", ""deprel"": ""punct""}, {""id"": ""3"", ""form"": ","user:给出一个句子的依存关系分析
+
+1985年，以色列內閣專門召開會議研究對華政策。
+assistant:[{""id"": ""1"", ""form"": ""1985"", ""pos"": ""NUM"", ""head"": ""2"", ""deprel"": ""nummod""}, {""id"": ""2"", ""form"": ""年"", ""pos"": ""NOUN"", ""head"": ""9"", ""deprel"": ""nmod:tmod""}, {""id"": ""3"", ""form"": ""，"", ""pos"":"
+7ac592abc7537def125642b618481ed7b3dea0b7e57a3ce292261f640c468258,5e5643efe8aacedba86ab67446a9308f08bfeccd0c7d29250f09576ba5735f3a,coig_pc,coig_pc,1,0.452153,0.162162,0.492308,0.162162,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+同时他也有兼修柔道，并且在17岁时拿到黑带一段。
+assistant:[{""id"": ""1"", ""form"": ""同时"", ""pos"": ""NOUN"", ""head"": ""4"", ""deprel"": ""nmod:tmod""}, {""id"": ""2"", ""form"": ""他"", ""pos"": ""PRON"", ""head"": ""4"", ""deprel"": ""nsubj""}, {""id"": ""3"", ""form"": ""也"", ""pos"": ""","user:给出一个句子的依存关系分析
+
+但是，許多三維模型使用紋理進行覆蓋，將紋理排列放到三維模型上的過程稱作紋理映射。
+assistant:[{""id"": ""1"", ""form"": ""但是"", ""pos"": ""ADV"", ""head"": ""22"", ""deprel"": ""mark""}, {""id"": ""2"", ""form"": ""，"", ""pos"": ""PUNCT"", ""head"": ""22"", ""deprel"": ""punct""}, {""id"": ""3"", ""form"": "
+7ac592abc7537def125642b618481ed7b3dea0b7e57a3ce292261f640c468258,a3c6258265ee6bdc9c1f634c7eaf7a53e2d81ce8017a6545452d2dd6f2611610,coig_pc,coig_pc,1,0.337705,0.307692,0.304878,0.304878,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+同时他也有兼修柔道，并且在17岁时拿到黑带一段。
+assistant:[{""id"": ""1"", ""form"": ""同时"", ""pos"": ""NOUN"", ""head"": ""4"", ""deprel"": ""nmod:tmod""}, {""id"": ""2"", ""form"": ""他"", ""pos"": ""PRON"", ""head"": ""4"", ""deprel"": ""nsubj""}, {""id"": ""3"", ""form"": ""也"", ""pos"": ""","user:给出一个句子的依存关系分析
+
+不處也
+assistant:[{""id"": ""1"", ""form"": ""不"", ""pos"": ""ADV"", ""head"": ""2"", ""deprel"": ""advmod""}, {""id"": ""2"", ""form"": ""處"", ""pos"": ""VERB"", ""head"": ""0"", ""deprel"": ""root""}, {""id"": ""3"", ""form"": ""也"", ""pos"": ""PART"", ""head"": ""2"", ""deprel"
+7ac592abc7537def125642b618481ed7b3dea0b7e57a3ce292261f640c468258,d33f3c438c3430dd1be4547005840dfa64767279901bb5f33768aeea1bd9aefb,coig_pc,coig_pc,1,0.363636,0.3,0.337553,0.3,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+同时他也有兼修柔道，并且在17岁时拿到黑带一段。
+assistant:[{""id"": ""1"", ""form"": ""同时"", ""pos"": ""NOUN"", ""head"": ""4"", ""deprel"": ""nmod:tmod""}, {""id"": ""2"", ""form"": ""他"", ""pos"": ""PRON"", ""head"": ""4"", ""deprel"": ""nsubj""}, {""id"": ""3"", ""form"": ""也"", ""pos"": ""","user:给出一个句子的依存关系分析
+
+仁者安仁
+assistant:[{""id"": ""1"", ""form"": ""仁"", ""pos"": ""VERB"", ""head"": ""2"", ""deprel"": ""amod""}, {""id"": ""2"", ""form"": ""者"", ""pos"": ""PART"", ""head"": ""3"", ""deprel"": ""nsubj""}, {""id"": ""3"", ""form"": ""安"", ""pos"": ""VERB"", ""head"": ""0"", ""depre"
+86080173a6021c5709e0fdf0c423e45fde12ba0c65e3194e6cc2d7d36391610a,a14e03372bc49a1ecd75b6d331811cc460b03da9fd4b9d5cfc40511d3b5d07f6,sharegpt_zh,sharegpt_zh,1,0.016872,0.0,0.009972,0.0,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:以下是在环保家电制造领域（如净水器、空气净化器、智能马桶等）广泛使用的20个英语行话，按照使用频率排序。
+请列出每个行话对应的英语单词及其描述，每个描述不超过20个字。并用三列表格显示：1. 行话（单词） 2. 对应英语单词（简写） 3. 描述。
+assistant:以下是环保家电制造业中常用的20个英语行业术语：
+
+| 行业术语(单词) | 英文简称 | 描述 |
+| --- | --- | --- |
+| 计算机辅助设计 | CAD | 用于创建产品开发的2D或","user:创建包含所有非洲国家及其首都、货币、人口和面积的表格
+assistant:抱歉，我是一款基于文本的AI语言模型，没有创建表格的能力。但是，我可以提供您一个非洲国家、首都、货币、人口和面积的列表：
+| 国家 | 首都 | 货币 | 人口 | 面积（平方公里） |
+| --- | --- | --- | --- | --- |
+| 阿尔及利亚 | 阿尔及尔 | 阿尔及利亚第纳尔 | 43,851,044 | 2,381,741 |
+| 安哥拉 |  万卢达| 安哥拉宽扎"
+a14e03372bc49a1ecd75b6d331811cc460b03da9fd4b9d5cfc40511d3b5d07f6,d54d1661514320b3bf29c7c086dee03bce0b5623add3f248ae10cb24cc92e7c6,sharegpt_zh,sharegpt_zh,1,0.013605,0.0,0.007058,0.0,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:创建包含所有非洲国家及其首都、货币、人口和面积的表格
+assistant:抱歉，我是一款基于文本的AI语言模型，没有创建表格的能力。但是，我可以提供您一个非洲国家、首都、货币、人口和面积的列表：
+| 国家 | 首都 | 货币 | 人口 | 面积（平方公里） |
+| --- | --- | --- | --- | --- |
+| 阿尔及利亚 | 阿尔及尔 | 阿尔及利亚第纳尔 | 43,851,044 | 2,381,741 |
+| 安哥拉 |  万卢达| 安哥拉宽扎","user:生成每个步骤中的提示公式+长尾关键词+关键词，并向我展示样例。
+assistant:以下是带有自动提示和长尾关键词的UI流程的Markdown表格：
+
+| 步骤 | 提示 | 关键词 | 长尾关键词 | 例子 |
+| --- | --- | --- | --- | --- |
+| 产品特性 | 您的产品是什么？ | 产品 | 软件，应用，服务，小玩意儿 | 电子邮件客户端，健身跟踪器，打车应用程序 |
+| 描述 | 您的产品描述是什么？ | 描述 | 概述，解释，摘"
+b314a909df9ae061fe7d1ba9370d2ac7f85df537681f6277fcd9f1951eb927c3,e6d67907113b8a0d29d5423c867d5271ac3cca90d900f3496c0391b2b20fc811,alpaca_gpt4_zh,alpaca_gpt4_zh,1,0.028531,0.029412,0.006051,0.006051,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:创建一份婚礼祝酒词模板。
+assistant:亲爱的 _______ 和 _______ ，
+
+首先，我想代表所有在座的亲朋好友，向你们二人表达最真挚的祝福和祝贺。
+
+________, 我记得在很久以前，你就向我提起过 ________ ，你满脸的欢喜，让我们都能强烈地感受到你对_______的热爱。而_______，我也从未见过你如此快乐，如此坚定地选择一个人。
+
+你们在一起的每一刻都充满了爱与温暖。你们分享彼此甜美的爱情，这不仅是你们的幸运，也是我们所有人的幸","user:创建一个包含10个字段的表单，用于收集客户的订单信息。
+assistant:以下是一个可能的表单，包含10个字段，旨在收集客户的订单信息:
+
+1. 姓名 (Name): _______________
+2. 联系电话 (Contact Number): _______________
+3. 电子邮件 (Email): _______________
+4. 邮寄地址 (Shipping Address): _______________
+5. 商品名称 (Produc"
+c29afa385490fabd13ebf57f1240fe4a32a06708cc4c436cf3f9c15bceeb9309,5e5643efe8aacedba86ab67446a9308f08bfeccd0c7d29250f09576ba5735f3a,coig_pc,coig_pc,1,0.413366,0.181818,0.432602,0.181818,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+我已经提到我是安静的，内向的人。
+assistant:[{""id"": ""1"", ""form"": ""我"", ""pos"": ""PRON"", ""head"": ""3"", ""deprel"": ""nsubj""}, {""id"": ""2"", ""form"": ""已经"", ""pos"": ""ADV"", ""head"": ""3"", ""deprel"": ""advmod""}, {""id"": ""3"", ""form"": ""提"", ""pos"": ""VERB"", ""head","user:给出一个句子的依存关系分析
+
+但是，許多三維模型使用紋理進行覆蓋，將紋理排列放到三維模型上的過程稱作紋理映射。
+assistant:[{""id"": ""1"", ""form"": ""但是"", ""pos"": ""ADV"", ""head"": ""22"", ""deprel"": ""mark""}, {""id"": ""2"", ""form"": ""，"", ""pos"": ""PUNCT"", ""head"": ""22"", ""deprel"": ""punct""}, {""id"": ""3"", ""form"": "
+ed952d42c0f5cece0ce71bb1af81785626a4da271b11bb7da61b846851f7f03f,7ac592abc7537def125642b618481ed7b3dea0b7e57a3ce292261f640c468258,coig_pc,coig_pc,1,0.481894,0.206897,0.507042,0.206897,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+现存的三栋屋村位于三栋屋路近和宜合交汇处一带。
+assistant:[{""id"": ""1"", ""form"": ""现存"", ""pos"": ""VERB"", ""head"": ""4"", ""deprel"": ""acl:relcl""}, {""id"": ""2"", ""form"": ""的"", ""pos"": ""PART"", ""head"": ""1"", ""deprel"": ""mark:rel""}, {""id"": ""3"", ""form"": ""三栋屋"", ""pos","user:给出一个句子的依存关系分析
+
+同时他也有兼修柔道，并且在17岁时拿到黑带一段。
+assistant:[{""id"": ""1"", ""form"": ""同时"", ""pos"": ""NOUN"", ""head"": ""4"", ""deprel"": ""nmod:tmod""}, {""id"": ""2"", ""form"": ""他"", ""pos"": ""PRON"", ""head"": ""4"", ""deprel"": ""nsubj""}, {""id"": ""3"", ""form"": ""也"", ""pos"": """
+ed952d42c0f5cece0ce71bb1af81785626a4da271b11bb7da61b846851f7f03f,835156ed4f1059fef97eb9a20f3437d5d791b94e1b800eb29c0fa0430b24ab36,coig_pc,coig_pc,1,0.453216,0.206897,0.466667,0.206897,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+现存的三栋屋村位于三栋屋路近和宜合交汇处一带。
+assistant:[{""id"": ""1"", ""form"": ""现存"", ""pos"": ""VERB"", ""head"": ""4"", ""deprel"": ""acl:relcl""}, {""id"": ""2"", ""form"": ""的"", ""pos"": ""PART"", ""head"": ""1"", ""deprel"": ""mark:rel""}, {""id"": ""3"", ""form"": ""三栋屋"", ""pos","user:给出一个句子的依存关系分析
+
+1985年，以色列內閣專門召開會議研究對華政策。
+assistant:[{""id"": ""1"", ""form"": ""1985"", ""pos"": ""NUM"", ""head"": ""2"", ""deprel"": ""nummod""}, {""id"": ""2"", ""form"": ""年"", ""pos"": ""NOUN"", ""head"": ""9"", ""deprel"": ""nmod:tmod""}, {""id"": ""3"", ""form"": ""，"", ""pos"":"
+313e764998008053f75bb6f5dfcd6cd1f03ccf95384d75b01e7b4a5de38002bf,7ac592abc7537def125642b618481ed7b3dea0b7e57a3ce292261f640c468258,coig_pc,coig_pc,2,0.465649,0.1875,0.496774,0.1875,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+医生变得十分自负，并让在航海家号上的朋友们感到很不愉快。
+assistant:[{""id"": ""1"", ""form"": ""医生"", ""pos"": ""NOUN"", ""head"": ""7"", ""deprel"": ""nsubj""}, {""id"": ""2"", ""form"": ""变得"", ""pos"": ""VERB"", ""head"": ""7"", ""deprel"": ""advcl""}, {""id"": ""3"", ""form"": ""十分"", ""pos"":","user:给出一个句子的依存关系分析
+
+同时他也有兼修柔道，并且在17岁时拿到黑带一段。
+assistant:[{""id"": ""1"", ""form"": ""同时"", ""pos"": ""NOUN"", ""head"": ""4"", ""deprel"": ""nmod:tmod""}, {""id"": ""2"", ""form"": ""他"", ""pos"": ""PRON"", ""head"": ""4"", ""deprel"": ""nsubj""}, {""id"": ""3"", ""form"": ""也"", ""pos"": """
+313e764998008053f75bb6f5dfcd6cd1f03ccf95384d75b01e7b4a5de38002bf,835156ed4f1059fef97eb9a20f3437d5d791b94e1b800eb29c0fa0430b24ab36,coig_pc,coig_pc,2,0.41623,0.1875,0.430464,0.1875,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+医生变得十分自负，并让在航海家号上的朋友们感到很不愉快。
+assistant:[{""id"": ""1"", ""form"": ""医生"", ""pos"": ""NOUN"", ""head"": ""7"", ""deprel"": ""nsubj""}, {""id"": ""2"", ""form"": ""变得"", ""pos"": ""VERB"", ""head"": ""7"", ""deprel"": ""advcl""}, {""id"": ""3"", ""form"": ""十分"", ""pos"":","user:给出一个句子的依存关系分析
+
+1985年，以色列內閣專門召開會議研究對華政策。
+assistant:[{""id"": ""1"", ""form"": ""1985"", ""pos"": ""NUM"", ""head"": ""2"", ""deprel"": ""nummod""}, {""id"": ""2"", ""form"": ""年"", ""pos"": ""NOUN"", ""head"": ""9"", ""deprel"": ""nmod:tmod""}, {""id"": ""3"", ""form"": ""，"", ""pos"":"
+313e764998008053f75bb6f5dfcd6cd1f03ccf95384d75b01e7b4a5de38002bf,dcaeb8159efc3d521481bf8944aa90f0a4fa00f2a635fe6df287548b15799e1f,coig_pc,coig_pc,2,0.446237,0.210526,0.459732,0.210526,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+医生变得十分自负，并让在航海家号上的朋友们感到很不愉快。
+assistant:[{""id"": ""1"", ""form"": ""医生"", ""pos"": ""NOUN"", ""head"": ""7"", ""deprel"": ""nsubj""}, {""id"": ""2"", ""form"": ""变得"", ""pos"": ""VERB"", ""head"": ""7"", ""deprel"": ""advcl""}, {""id"": ""3"", ""form"": ""十分"", ""pos"":","user:给出一个句子的依存关系分析
+
+不过，我已经约好了无可奈何去机场。
+assistant:[{""id"": ""1"", ""form"": ""不过"", ""pos"": ""ADV"", ""head"": ""5"", ""deprel"": ""advmod""}, {""id"": ""2"", ""form"": ""，"", ""pos"": ""PUNCT"", ""head"": ""1"", ""deprel"": ""punct""}, {""id"": ""3"", ""form"": ""我"", ""pos"": ""PRON"", ""he"
+5e5643efe8aacedba86ab67446a9308f08bfeccd0c7d29250f09576ba5735f3a,a3c6258265ee6bdc9c1f634c7eaf7a53e2d81ce8017a6545452d2dd6f2611610,coig_pc,coig_pc,2,0.286111,0.226415,0.261324,0.226415,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+但是，許多三維模型使用紋理進行覆蓋，將紋理排列放到三維模型上的過程稱作紋理映射。
+assistant:[{""id"": ""1"", ""form"": ""但是"", ""pos"": ""ADV"", ""head"": ""22"", ""deprel"": ""mark""}, {""id"": ""2"", ""form"": ""，"", ""pos"": ""PUNCT"", ""head"": ""22"", ""deprel"": ""punct""}, {""id"": ""3"", ""form"": ","user:给出一个句子的依存关系分析
+
+不處也
+assistant:[{""id"": ""1"", ""form"": ""不"", ""pos"": ""ADV"", ""head"": ""2"", ""deprel"": ""advmod""}, {""id"": ""2"", ""form"": ""處"", ""pos"": ""VERB"", ""head"": ""0"", ""deprel"": ""root""}, {""id"": ""3"", ""form"": ""也"", ""pos"": ""PART"", ""head"": ""2"", ""deprel"
+5e5643efe8aacedba86ab67446a9308f08bfeccd0c7d29250f09576ba5735f3a,d33f3c438c3430dd1be4547005840dfa64767279901bb5f33768aeea1bd9aefb,coig_pc,coig_pc,2,0.321839,0.222222,0.306569,0.222222,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+但是，許多三維模型使用紋理進行覆蓋，將紋理排列放到三維模型上的過程稱作紋理映射。
+assistant:[{""id"": ""1"", ""form"": ""但是"", ""pos"": ""ADV"", ""head"": ""22"", ""deprel"": ""mark""}, {""id"": ""2"", ""form"": ""，"", ""pos"": ""PUNCT"", ""head"": ""22"", ""deprel"": ""punct""}, {""id"": ""3"", ""form"": ","user:给出一个句子的依存关系分析
+
+仁者安仁
+assistant:[{""id"": ""1"", ""form"": ""仁"", ""pos"": ""VERB"", ""head"": ""2"", ""deprel"": ""amod""}, {""id"": ""2"", ""form"": ""者"", ""pos"": ""PART"", ""head"": ""3"", ""deprel"": ""nsubj""}, {""id"": ""3"", ""form"": ""安"", ""pos"": ""VERB"", ""head"": ""0"", ""depre"
+5f42ee5575cdd85538c71c850462be0f99021b54ccdb0c85b1800633bd8bc8db,86080173a6021c5709e0fdf0c423e45fde12ba0c65e3194e6cc2d7d36391610a,sharegpt_zh,sharegpt_zh,2,0.025825,0.003704,0.022043,0.003704,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:迈克·斯科特在电视剧《实习医生格蕾》中说过多少次“就像她说的那样”？
+assistant:很难确定一个确切的数量，因为由演员史蒂夫·卡瑞尔扮演的迈克尔·斯科特在电视剧《办公室》中多次说出“她说的就是这个”这句口头禅。然而，据估计，他在整个系列中说了60多次。
+user:你没有访问所有集的剧本吗？
+assistant:作为一种AI语言模型，我确实可以访问《办公室》电视剧的许多剧本。然而，我的训练数据只涵盖到2021年9月，而且我不能同时搜索所有可用的剧本。尽管如此，如","user:以下是在环保家电制造领域（如净水器、空气净化器、智能马桶等）广泛使用的20个英语行话，按照使用频率排序。
+请列出每个行话对应的英语单词及其描述，每个描述不超过20个字。并用三列表格显示：1. 行话（单词） 2. 对应英语单词（简写） 3. 描述。
+assistant:以下是环保家电制造业中常用的20个英语行业术语：
+
+| 行业术语(单词) | 英文简称 | 描述 |
+| --- | --- | --- |
+| 计算机辅助设计 | CAD | 用于创建产品开发的2D或"
+5f42ee5575cdd85538c71c850462be0f99021b54ccdb0c85b1800633bd8bc8db,d54d1661514320b3bf29c7c086dee03bce0b5623add3f248ae10cb24cc92e7c6,sharegpt_zh,sharegpt_zh,2,0.021112,0.0,0.015198,0.0,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:迈克·斯科特在电视剧《实习医生格蕾》中说过多少次“就像她说的那样”？
+assistant:很难确定一个确切的数量，因为由演员史蒂夫·卡瑞尔扮演的迈克尔·斯科特在电视剧《办公室》中多次说出“她说的就是这个”这句口头禅。然而，据估计，他在整个系列中说了60多次。
+user:你没有访问所有集的剧本吗？
+assistant:作为一种AI语言模型，我确实可以访问《办公室》电视剧的许多剧本。然而，我的训练数据只涵盖到2021年9月，而且我不能同时搜索所有可用的剧本。尽管如此，如","user:生成每个步骤中的提示公式+长尾关键词+关键词，并向我展示样例。
+assistant:以下是带有自动提示和长尾关键词的UI流程的Markdown表格：
+
+| 步骤 | 提示 | 关键词 | 长尾关键词 | 例子 |
+| --- | --- | --- | --- | --- |
+| 产品特性 | 您的产品是什么？ | 产品 | 软件，应用，服务，小玩意儿 | 电子邮件客户端，健身跟踪器，打车应用程序 |
+| 描述 | 您的产品描述是什么？ | 描述 | 概述，解释，摘"
+7ac592abc7537def125642b618481ed7b3dea0b7e57a3ce292261f640c468258,835156ed4f1059fef97eb9a20f3437d5d791b94e1b800eb29c0fa0430b24ab36,coig_pc,coig_pc,2,0.489914,0.2,0.520295,0.2,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+同时他也有兼修柔道，并且在17岁时拿到黑带一段。
+assistant:[{""id"": ""1"", ""form"": ""同时"", ""pos"": ""NOUN"", ""head"": ""4"", ""deprel"": ""nmod:tmod""}, {""id"": ""2"", ""form"": ""他"", ""pos"": ""PRON"", ""head"": ""4"", ""deprel"": ""nsubj""}, {""id"": ""3"", ""form"": ""也"", ""pos"": ""","user:给出一个句子的依存关系分析
+
+1985年，以色列內閣專門召開會議研究對華政策。
+assistant:[{""id"": ""1"", ""form"": ""1985"", ""pos"": ""NUM"", ""head"": ""2"", ""deprel"": ""nummod""}, {""id"": ""2"", ""form"": ""年"", ""pos"": ""NOUN"", ""head"": ""9"", ""deprel"": ""nmod:tmod""}, {""id"": ""3"", ""form"": ""，"", ""pos"":"
+7ac592abc7537def125642b618481ed7b3dea0b7e57a3ce292261f640c468258,c29afa385490fabd13ebf57f1240fe4a32a06708cc4c436cf3f9c15bceeb9309,coig_pc,coig_pc,2,0.465909,0.230769,0.480427,0.230769,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+同时他也有兼修柔道，并且在17岁时拿到黑带一段。
+assistant:[{""id"": ""1"", ""form"": ""同时"", ""pos"": ""NOUN"", ""head"": ""4"", ""deprel"": ""nmod:tmod""}, {""id"": ""2"", ""form"": ""他"", ""pos"": ""PRON"", ""head"": ""4"", ""deprel"": ""nsubj""}, {""id"": ""3"", ""form"": ""也"", ""pos"": ""","user:给出一个句子的依存关系分析
+
+我已经提到我是安静的，内向的人。
+assistant:[{""id"": ""1"", ""form"": ""我"", ""pos"": ""PRON"", ""head"": ""3"", ""deprel"": ""nsubj""}, {""id"": ""2"", ""form"": ""已经"", ""pos"": ""ADV"", ""head"": ""3"", ""deprel"": ""advmod""}, {""id"": ""3"", ""form"": ""提"", ""pos"": ""VERB"", ""head"
+ad5afe4b7ec9293644c77ec9981b85323cf887b59207dff86c9544f3030e1a5a,dcf3c6b98f4af992ded4cc70e6a53dfadfd32dc9597826cac33e32bec44f8cad,coig_pc,coig_pc,2,0.695,0.751592,0.297297,0.297297,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:请判断下面文本中是否包含省级行政区划、地级行政区划、县级行政区划、乡级行政区划、社区/自然村、兴趣点、路名、路号、子兴趣点、广义的上的开发区、楼栋号、道路口、普通辅助定位词、单元号、楼层号、距离辅助定位词、村组等词汇，如果存在，返回包含词汇对应的标签，如果不存在，返回No
+
+文本：浙江省绍兴市诸暨市草塔镇横畈塘000号舒工坊_蕉内仓库
+assistant:省级行政区划
+地级行政区划
+县级行政区划
+乡级行政区划
+社区/自然村
+楼栋号
+兴趣点
+子兴趣点","user:请判断下面文本中是否包含省级行政区划、地级行政区划、县级行政区划、乡级行政区划、社区/自然村、兴趣点、路名、路号、子兴趣点、广义的上的开发区、楼栋号、道路口、普通辅助定位词、单元号、楼层号、距离辅助定位词、村组等词汇，如果存在，返回包含词汇对应的标签，如果不存在，返回No
+
+文本：四川省成都市温江区黄金路0000号
+assistant:省级行政区划
+地级行政区划
+县级行政区划
+路名
+路号"
+c29afa385490fabd13ebf57f1240fe4a32a06708cc4c436cf3f9c15bceeb9309,835156ed4f1059fef97eb9a20f3437d5d791b94e1b800eb29c0fa0430b24ab36,coig_pc,coig_pc,2,0.48,0.230769,0.494163,0.230769,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+我已经提到我是安静的，内向的人。
+assistant:[{""id"": ""1"", ""form"": ""我"", ""pos"": ""PRON"", ""head"": ""3"", ""deprel"": ""nsubj""}, {""id"": ""2"", ""form"": ""已经"", ""pos"": ""ADV"", ""head"": ""3"", ""deprel"": ""advmod""}, {""id"": ""3"", ""form"": ""提"", ""pos"": ""VERB"", ""head","user:给出一个句子的依存关系分析
+
+1985年，以色列內閣專門召開會議研究對華政策。
+assistant:[{""id"": ""1"", ""form"": ""1985"", ""pos"": ""NUM"", ""head"": ""2"", ""deprel"": ""nummod""}, {""id"": ""2"", ""form"": ""年"", ""pos"": ""NOUN"", ""head"": ""9"", ""deprel"": ""nmod:tmod""}, {""id"": ""3"", ""form"": ""，"", ""pos"":"
+d33f3c438c3430dd1be4547005840dfa64767279901bb5f33768aeea1bd9aefb,a3c6258265ee6bdc9c1f634c7eaf7a53e2d81ce8017a6545452d2dd6f2611610,coig_pc,coig_pc,2,0.611111,0.631579,0.577236,0.577236,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+仁者安仁
+assistant:[{""id"": ""1"", ""form"": ""仁"", ""pos"": ""VERB"", ""head"": ""2"", ""deprel"": ""amod""}, {""id"": ""2"", ""form"": ""者"", ""pos"": ""PART"", ""head"": ""3"", ""deprel"": ""nsubj""}, {""id"": ""3"", ""form"": ""安"", ""pos"": ""VERB"", ""head"": ""0"", ""depre","user:给出一个句子的依存关系分析
+
+不處也
+assistant:[{""id"": ""1"", ""form"": ""不"", ""pos"": ""ADV"", ""head"": ""2"", ""deprel"": ""advmod""}, {""id"": ""2"", ""form"": ""處"", ""pos"": ""VERB"", ""head"": ""0"", ""deprel"": ""root""}, {""id"": ""3"", ""form"": ""也"", ""pos"": ""PART"", ""head"": ""2"", ""deprel"
+dcaeb8159efc3d521481bf8944aa90f0a4fa00f2a635fe6df287548b15799e1f,835156ed4f1059fef97eb9a20f3437d5d791b94e1b800eb29c0fa0430b24ab36,coig_pc,coig_pc,2,0.464832,0.226415,0.473077,0.226415,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+不过，我已经约好了无可奈何去机场。
+assistant:[{""id"": ""1"", ""form"": ""不过"", ""pos"": ""ADV"", ""head"": ""5"", ""deprel"": ""advmod""}, {""id"": ""2"", ""form"": ""，"", ""pos"": ""PUNCT"", ""head"": ""1"", ""deprel"": ""punct""}, {""id"": ""3"", ""form"": ""我"", ""pos"": ""PRON"", ""he","user:给出一个句子的依存关系分析
+
+1985年，以色列內閣專門召開會議研究對華政策。
+assistant:[{""id"": ""1"", ""form"": ""1985"", ""pos"": ""NUM"", ""head"": ""2"", ""deprel"": ""nummod""}, {""id"": ""2"", ""form"": ""年"", ""pos"": ""NOUN"", ""head"": ""9"", ""deprel"": ""nmod:tmod""}, {""id"": ""3"", ""form"": ""，"", ""pos"":"
+ed952d42c0f5cece0ce71bb1af81785626a4da271b11bb7da61b846851f7f03f,5e5643efe8aacedba86ab67446a9308f08bfeccd0c7d29250f09576ba5735f3a,coig_pc,coig_pc,2,0.456576,0.166667,0.493631,0.166667,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+现存的三栋屋村位于三栋屋路近和宜合交汇处一带。
+assistant:[{""id"": ""1"", ""form"": ""现存"", ""pos"": ""VERB"", ""head"": ""4"", ""deprel"": ""acl:relcl""}, {""id"": ""2"", ""form"": ""的"", ""pos"": ""PART"", ""head"": ""1"", ""deprel"": ""mark:rel""}, {""id"": ""3"", ""form"": ""三栋屋"", ""pos","user:给出一个句子的依存关系分析
+
+但是，許多三維模型使用紋理進行覆蓋，將紋理排列放到三維模型上的過程稱作紋理映射。
+assistant:[{""id"": ""1"", ""form"": ""但是"", ""pos"": ""ADV"", ""head"": ""22"", ""deprel"": ""mark""}, {""id"": ""2"", ""form"": ""，"", ""pos"": ""PUNCT"", ""head"": ""22"", ""deprel"": ""punct""}, {""id"": ""3"", ""form"": "
+ed952d42c0f5cece0ce71bb1af81785626a4da271b11bb7da61b846851f7f03f,a3c6258265ee6bdc9c1f634c7eaf7a53e2d81ce8017a6545452d2dd6f2611610,coig_pc,coig_pc,2,0.347222,0.324324,0.309013,0.309013,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+现存的三栋屋村位于三栋屋路近和宜合交汇处一带。
+assistant:[{""id"": ""1"", ""form"": ""现存"", ""pos"": ""VERB"", ""head"": ""4"", ""deprel"": ""acl:relcl""}, {""id"": ""2"", ""form"": ""的"", ""pos"": ""PART"", ""head"": ""1"", ""deprel"": ""mark:rel""}, {""id"": ""3"", ""form"": ""三栋屋"", ""pos","user:给出一个句子的依存关系分析
+
+不處也
+assistant:[{""id"": ""1"", ""form"": ""不"", ""pos"": ""ADV"", ""head"": ""2"", ""deprel"": ""advmod""}, {""id"": ""2"", ""form"": ""處"", ""pos"": ""VERB"", ""head"": ""0"", ""deprel"": ""root""}, {""id"": ""3"", ""form"": ""也"", ""pos"": ""PART"", ""head"": ""2"", ""deprel"
+ed952d42c0f5cece0ce71bb1af81785626a4da271b11bb7da61b846851f7f03f,d33f3c438c3430dd1be4547005840dfa64767279901bb5f33768aeea1bd9aefb,coig_pc,coig_pc,2,0.410256,0.315789,0.387097,0.315789,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+现存的三栋屋村位于三栋屋路近和宜合交汇处一带。
+assistant:[{""id"": ""1"", ""form"": ""现存"", ""pos"": ""VERB"", ""head"": ""4"", ""deprel"": ""acl:relcl""}, {""id"": ""2"", ""form"": ""的"", ""pos"": ""PART"", ""head"": ""1"", ""deprel"": ""mark:rel""}, {""id"": ""3"", ""form"": ""三栋屋"", ""pos","user:给出一个句子的依存关系分析
+
+仁者安仁
+assistant:[{""id"": ""1"", ""form"": ""仁"", ""pos"": ""VERB"", ""head"": ""2"", ""deprel"": ""amod""}, {""id"": ""2"", ""form"": ""者"", ""pos"": ""PART"", ""head"": ""3"", ""deprel"": ""nsubj""}, {""id"": ""3"", ""form"": ""安"", ""pos"": ""VERB"", ""head"": ""0"", ""depre"
+fb7f8efd98958cf1ad599cf076018aaf955b7ad45d5ea21af1f7f925f5d5e487,6f8a8c351e383cdf360898505f7f8c7d511c4a1d98496e734f5a7544a1b92968,coig_pc,coig_pc,2,0.743902,0.829545,0.272727,0.272727,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:请根据以下表格信息和查询的SQL语句，推断需要解决的问题
+
+表格信息：表格名称：['奢侈品牌', '奢侈品消费国家', '奢侈品购买人群', '奢侈品渠道', '奢侈品用户在意维度分布']
+表格列名：['*', '词条id', '名称', '国家', '熟识度', '购买力排名', '奢侈品id', '国家', '年份', '消费额', '消费额占比', '奢侈品id', '年龄段', '购买人数', '人数占比', '消费额', '消费额占比', '奢侈品id',","user:请根据以下表格信息和查询的SQL语句，推断需要解决的问题
+
+表格信息：表格名称：['奢侈品牌', '奢侈品消费国家', '奢侈品购买人群', '奢侈品渠道', '奢侈品用户在意维度分布']
+表格列名：['*', '词条id', '名称', '国家', '熟识度', '购买力排名', '奢侈品id', '国家', '年份', '消费额', '消费额占比', '奢侈品id', '年龄段', '购买人数', '人数占比', '消费额', '消费额占比', '奢侈品id',"
+09b8f97c78f852cb4a41ecabbf09fe9e411c8c5e747650e3277288e5286cc446,672112cf80e435bb8de5843cb396eae114056bb42f748b31db9f21602a3c6f9e,coig_pc,coig_pc,3,0.620137,0.507937,0.0,0.0,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:请根据给出的表格信息，生成SQL语句从数据库中查询答案，回答问题。
+
+表格信息：表格名称：['author', 'conference', 'domain', 'domain author', 'domain conference', 'journal', 'domain journal', 'keyword', 'domain keyword', 'publication', 'domain publication', 'organization', 'publi","user:请根据以下表格信息和查询的SQL语句，推断需要解决的问题
+
+表格信息：表格名称：['author', 'conference', 'domain', 'domain author', 'domain conference', 'journal', 'domain journal', 'keyword', 'domain keyword', 'publication', 'domain publication', 'organization', 'publicatio"
+313e764998008053f75bb6f5dfcd6cd1f03ccf95384d75b01e7b4a5de38002bf,5e5643efe8aacedba86ab67446a9308f08bfeccd0c7d29250f09576ba5735f3a,coig_pc,coig_pc,3,0.453917,0.153846,0.498516,0.153846,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+医生变得十分自负，并让在航海家号上的朋友们感到很不愉快。
+assistant:[{""id"": ""1"", ""form"": ""医生"", ""pos"": ""NOUN"", ""head"": ""7"", ""deprel"": ""nsubj""}, {""id"": ""2"", ""form"": ""变得"", ""pos"": ""VERB"", ""head"": ""7"", ""deprel"": ""advcl""}, {""id"": ""3"", ""form"": ""十分"", ""pos"":","user:给出一个句子的依存关系分析
+
+但是，許多三維模型使用紋理進行覆蓋，將紋理排列放到三維模型上的過程稱作紋理映射。
+assistant:[{""id"": ""1"", ""form"": ""但是"", ""pos"": ""ADV"", ""head"": ""22"", ""deprel"": ""mark""}, {""id"": ""2"", ""form"": ""，"", ""pos"": ""PUNCT"", ""head"": ""22"", ""deprel"": ""punct""}, {""id"": ""3"", ""form"": "
+313e764998008053f75bb6f5dfcd6cd1f03ccf95384d75b01e7b4a5de38002bf,a3c6258265ee6bdc9c1f634c7eaf7a53e2d81ce8017a6545452d2dd6f2611610,coig_pc,coig_pc,3,0.337461,0.27907,0.311538,0.27907,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+医生变得十分自负，并让在航海家号上的朋友们感到很不愉快。
+assistant:[{""id"": ""1"", ""form"": ""医生"", ""pos"": ""NOUN"", ""head"": ""7"", ""deprel"": ""nsubj""}, {""id"": ""2"", ""form"": ""变得"", ""pos"": ""VERB"", ""head"": ""7"", ""deprel"": ""advcl""}, {""id"": ""3"", ""form"": ""十分"", ""pos"":","user:给出一个句子的依存关系分析
+
+不處也
+assistant:[{""id"": ""1"", ""form"": ""不"", ""pos"": ""ADV"", ""head"": ""2"", ""deprel"": ""advmod""}, {""id"": ""2"", ""form"": ""處"", ""pos"": ""VERB"", ""head"": ""0"", ""deprel"": ""root""}, {""id"": ""3"", ""form"": ""也"", ""pos"": ""PART"", ""head"": ""2"", ""deprel"
+5f42ee5575cdd85538c71c850462be0f99021b54ccdb0c85b1800633bd8bc8db,a14e03372bc49a1ecd75b6d331811cc460b03da9fd4b9d5cfc40511d3b5d07f6,sharegpt_zh,sharegpt_zh,3,0.026634,0.0,0.021841,0.0,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:迈克·斯科特在电视剧《实习医生格蕾》中说过多少次“就像她说的那样”？
+assistant:很难确定一个确切的数量，因为由演员史蒂夫·卡瑞尔扮演的迈克尔·斯科特在电视剧《办公室》中多次说出“她说的就是这个”这句口头禅。然而，据估计，他在整个系列中说了60多次。
+user:你没有访问所有集的剧本吗？
+assistant:作为一种AI语言模型，我确实可以访问《办公室》电视剧的许多剧本。然而，我的训练数据只涵盖到2021年9月，而且我不能同时搜索所有可用的剧本。尽管如此，如","user:创建包含所有非洲国家及其首都、货币、人口和面积的表格
+assistant:抱歉，我是一款基于文本的AI语言模型，没有创建表格的能力。但是，我可以提供您一个非洲国家、首都、货币、人口和面积的列表：
+| 国家 | 首都 | 货币 | 人口 | 面积（平方公里） |
+| --- | --- | --- | --- | --- |
+| 阿尔及利亚 | 阿尔及尔 | 阿尔及利亚第纳尔 | 43,851,044 | 2,381,741 |
+| 安哥拉 |  万卢达| 安哥拉宽扎"
+835156ed4f1059fef97eb9a20f3437d5d791b94e1b800eb29c0fa0430b24ab36,a3c6258265ee6bdc9c1f634c7eaf7a53e2d81ce8017a6545452d2dd6f2611610,coig_pc,coig_pc,3,0.371324,0.307692,0.337963,0.307692,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+1985年，以色列內閣專門召開會議研究對華政策。
+assistant:[{""id"": ""1"", ""form"": ""1985"", ""pos"": ""NUM"", ""head"": ""2"", ""deprel"": ""nummod""}, {""id"": ""2"", ""form"": ""年"", ""pos"": ""NOUN"", ""head"": ""9"", ""deprel"": ""nmod:tmod""}, {""id"": ""3"", ""form"": ""，"", ""pos"":","user:给出一个句子的依存关系分析
+
+不處也
+assistant:[{""id"": ""1"", ""form"": ""不"", ""pos"": ""ADV"", ""head"": ""2"", ""deprel"": ""advmod""}, {""id"": ""2"", ""form"": ""處"", ""pos"": ""VERB"", ""head"": ""0"", ""deprel"": ""root""}, {""id"": ""3"", ""form"": ""也"", ""pos"": ""PART"", ""head"": ""2"", ""deprel"
+835156ed4f1059fef97eb9a20f3437d5d791b94e1b800eb29c0fa0430b24ab36,d33f3c438c3430dd1be4547005840dfa64767279901bb5f33768aeea1bd9aefb,coig_pc,coig_pc,3,0.423077,0.3,0.403941,0.3,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+1985年，以色列內閣專門召開會議研究對華政策。
+assistant:[{""id"": ""1"", ""form"": ""1985"", ""pos"": ""NUM"", ""head"": ""2"", ""deprel"": ""nummod""}, {""id"": ""2"", ""form"": ""年"", ""pos"": ""NOUN"", ""head"": ""9"", ""deprel"": ""nmod:tmod""}, {""id"": ""3"", ""form"": ""，"", ""pos"":","user:给出一个句子的依存关系分析
+
+仁者安仁
+assistant:[{""id"": ""1"", ""form"": ""仁"", ""pos"": ""VERB"", ""head"": ""2"", ""deprel"": ""amod""}, {""id"": ""2"", ""form"": ""者"", ""pos"": ""PART"", ""head"": ""3"", ""deprel"": ""nsubj""}, {""id"": ""3"", ""form"": ""安"", ""pos"": ""VERB"", ""head"": ""0"", ""depre"
+8c7f41d5c35f1318d7413f3b08f1638efa1397c0383aa0e36fb19da03c75a4bf,38cffd4528c1e1309b66b77b948cf429cd453e5764ef2ff81d0d4b2eba52d116,coig_pc,coig_pc,3,0.904255,0.006696,0.0,0.0,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:基于以下案件受理省份的中文名，给出可能的案件信息
+
+广西
+assistant:阳朔县人民检察院指控被告人潘XX于2012年7月28日、2012年8月6日，分别盗走失主王XX、宋XX包一个。  其中王XX被盗包内有现金人民币500元及驾驶证、行驶证等物；宋XX被盗包内有现金人民币900元、价值人民币1050元的一部数码相机及银行卡、驾驶证、行驶证等物。  公诉机关认为，被告人潘XX以秘密手段窃取他人财物数额较大的行为已触犯《中华人民共和国刑法》第二百六十四条，构成盗窃","user:基于以下文本，给出下列案件被告人的性别
+
+阳朔县人民检察院指控被告人潘XX于2012年7月28日、2012年8月6日，分别盗走失主王XX、宋XX包一个。  其中王XX被盗包内有现金人民币500元及驾驶证、行驶证等物；宋XX被盗包内有现金人民币900元、价值人民币1050元的一部数码相机及银行卡、驾驶证、行驶证等物。  公诉机关认为，被告人潘XX以秘密手段窃取他人财物数额较大的行为已触犯《中华人民共和国刑法》第二百六十四条，构成盗窃罪。  被告人系累犯，应从重处罚。 "
+a9f9d8a379c9a872aaf4dea5581f382af355d0edc781b346fd777af094f38e6d,ca562aadbaf52c81065d2e99fb3cc4f09bb1adda01680671aac94087222db1fd,sharegpt_zh,sharegpt_zh,3,0.011923,0.0,0.005694,0.0,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:这是一个很好的大纲。接下来是写第一篇文章的主题大纲，“建筑项目预算的重要性”。
+文章应该有不少于800到1,300个字。确定每个标题的字数，以及适当的H1，H2，H3等等。
+以markdown格式提供您的答案。
+assistant:建造项目预算的重要性
+==================================================
+作为我们有关新南威尔士州房主预建工作清单系列的一部分，本文将重点介绍建造项目预算的重要性。无论是建造新房还是开始翻","user:设计一个使用7400系列逻辑门和7段显示器播放FizzBuzz的电路。
+assistant:FizzBuzz是一个著名的编码挑战，你需要打印出从1到100的数字，但是对于3的倍数，你打印“Fizz”而不是数字，对于5的倍数，你打印“Buzz”。对于既是3的倍数又是5的倍数的数字，你打印“FizzBuzz”。
+为了设计一个使用7400系列逻辑门和7段数码管播放FizzBuzz的电路，你需要将问题分解为较小的组件。这里是一个可能的方法：
+1. 创建一个从1到100计数的"
+b7ecfe499a0a42d68850b1d038768bb23b90c53a0db67effd718602c34a001da,ca562aadbaf52c81065d2e99fb3cc4f09bb1adda01680671aac94087222db1fd,alpaca_gpt4_zh,sharegpt_zh,3,0.039062,0.0,0.013043,0.0,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:根据以下步骤，构建流程图：
+
+1. 加载数据集。
+2. 将数据集分为训练集和验证集。
+3. 预处理数据。
+4. 将数据输入深度学习模型。
+5. 在训练集上训练模型。
+6. 使用验证集调整超参数。
+assistant:```
+    +-------------------+
+    |    加载数据集       |
+    +-------------------+
+            |
+            v
+    +---------------","user:设计一个使用7400系列逻辑门和7段显示器播放FizzBuzz的电路。
+assistant:FizzBuzz是一个著名的编码挑战，你需要打印出从1到100的数字，但是对于3的倍数，你打印“Fizz”而不是数字，对于5的倍数，你打印“Buzz”。对于既是3的倍数又是5的倍数的数字，你打印“FizzBuzz”。
+为了设计一个使用7400系列逻辑门和7段数码管播放FizzBuzz的电路，你需要将问题分解为较小的组件。这里是一个可能的方法：
+1. 创建一个从1到100计数的"
+c29afa385490fabd13ebf57f1240fe4a32a06708cc4c436cf3f9c15bceeb9309,a3c6258265ee6bdc9c1f634c7eaf7a53e2d81ce8017a6545452d2dd6f2611610,coig_pc,coig_pc,3,0.398496,0.387097,0.362791,0.362791,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+我已经提到我是安静的，内向的人。
+assistant:[{""id"": ""1"", ""form"": ""我"", ""pos"": ""PRON"", ""head"": ""3"", ""deprel"": ""nsubj""}, {""id"": ""2"", ""form"": ""已经"", ""pos"": ""ADV"", ""head"": ""3"", ""deprel"": ""advmod""}, {""id"": ""3"", ""form"": ""提"", ""pos"": ""VERB"", ""head","user:给出一个句子的依存关系分析
+
+不處也
+assistant:[{""id"": ""1"", ""form"": ""不"", ""pos"": ""ADV"", ""head"": ""2"", ""deprel"": ""advmod""}, {""id"": ""2"", ""form"": ""處"", ""pos"": ""VERB"", ""head"": ""0"", ""deprel"": ""root""}, {""id"": ""3"", ""form"": ""也"", ""pos"": ""PART"", ""head"": ""2"", ""deprel"
+c29afa385490fabd13ebf57f1240fe4a32a06708cc4c436cf3f9c15bceeb9309,d33f3c438c3430dd1be4547005840dfa64767279901bb5f33768aeea1bd9aefb,coig_pc,coig_pc,3,0.435798,0.375,0.409756,0.375,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+我已经提到我是安静的，内向的人。
+assistant:[{""id"": ""1"", ""form"": ""我"", ""pos"": ""PRON"", ""head"": ""3"", ""deprel"": ""nsubj""}, {""id"": ""2"", ""form"": ""已经"", ""pos"": ""ADV"", ""head"": ""3"", ""deprel"": ""advmod""}, {""id"": ""3"", ""form"": ""提"", ""pos"": ""VERB"", ""head","user:给出一个句子的依存关系分析
+
+仁者安仁
+assistant:[{""id"": ""1"", ""form"": ""仁"", ""pos"": ""VERB"", ""head"": ""2"", ""deprel"": ""amod""}, {""id"": ""2"", ""form"": ""者"", ""pos"": ""PART"", ""head"": ""3"", ""deprel"": ""nsubj""}, {""id"": ""3"", ""form"": ""安"", ""pos"": ""VERB"", ""head"": ""0"", ""depre"
+dcaeb8159efc3d521481bf8944aa90f0a4fa00f2a635fe6df287548b15799e1f,5e5643efe8aacedba86ab67446a9308f08bfeccd0c7d29250f09576ba5735f3a,coig_pc,coig_pc,3,0.367788,0.179104,0.373494,0.179104,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+不过，我已经约好了无可奈何去机场。
+assistant:[{""id"": ""1"", ""form"": ""不过"", ""pos"": ""ADV"", ""head"": ""5"", ""deprel"": ""advmod""}, {""id"": ""2"", ""form"": ""，"", ""pos"": ""PUNCT"", ""head"": ""1"", ""deprel"": ""punct""}, {""id"": ""3"", ""form"": ""我"", ""pos"": ""PRON"", ""he","user:给出一个句子的依存关系分析
+
+但是，許多三維模型使用紋理進行覆蓋，將紋理排列放到三維模型上的過程稱作紋理映射。
+assistant:[{""id"": ""1"", ""form"": ""但是"", ""pos"": ""ADV"", ""head"": ""22"", ""deprel"": ""mark""}, {""id"": ""2"", ""form"": ""，"", ""pos"": ""PUNCT"", ""head"": ""22"", ""deprel"": ""punct""}, {""id"": ""3"", ""form"": "
+dcaeb8159efc3d521481bf8944aa90f0a4fa00f2a635fe6df287548b15799e1f,d33f3c438c3430dd1be4547005840dfa64767279901bb5f33768aeea1bd9aefb,coig_pc,coig_pc,3,0.439216,0.363636,0.411765,0.363636,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+不过，我已经约好了无可奈何去机场。
+assistant:[{""id"": ""1"", ""form"": ""不过"", ""pos"": ""ADV"", ""head"": ""5"", ""deprel"": ""advmod""}, {""id"": ""2"", ""form"": ""，"", ""pos"": ""PUNCT"", ""head"": ""1"", ""deprel"": ""punct""}, {""id"": ""3"", ""form"": ""我"", ""pos"": ""PRON"", ""he","user:给出一个句子的依存关系分析
+
+仁者安仁
+assistant:[{""id"": ""1"", ""form"": ""仁"", ""pos"": ""VERB"", ""head"": ""2"", ""deprel"": ""amod""}, {""id"": ""2"", ""form"": ""者"", ""pos"": ""PART"", ""head"": ""3"", ""deprel"": ""nsubj""}, {""id"": ""3"", ""form"": ""安"", ""pos"": ""VERB"", ""head"": ""0"", ""depre"
+dfd54137f749cc88827fe2f6e7ebb742ccb9091dab70a91043eb8447bac21c2e,f0750da62db740263115b7639ac16805594acddd4e407caef75f8e2aac5f09c1,coig_pc,coig_pc,3,0.794872,0.661017,0.794872,0.661017,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:请将下列简体字转换成繁体字
+
+谁创作的ain't no sunshine when she's gone
+assistant:誰創作了ain't no sunshine when she's gone","user:请将下列繁体字转换成简体字
+
+誰創作了ain't no sunshine when she's gone
+assistant:谁创作的ain't no sunshine when she's gone"
+dfffa577d0398537ed30dde788f0312d52482eaf669df2e0ad98658b267cdd2a,672112cf80e435bb8de5843cb396eae114056bb42f748b31db9f21602a3c6f9e,coig_pc,coig_pc,3,0.662132,0.506527,0.011696,0.011696,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:请根据给出的表格信息，生成SQL语句从数据库中查询答案，回答问题。
+
+表格信息：表格名称：['author', 'conference', 'domain', 'domain author', 'domain conference', 'journal', 'domain journal', 'keyword', 'domain keyword', 'publication', 'domain publication', 'organization', 'publi","user:请根据以下表格信息和查询的SQL语句，推断需要解决的问题
+
+表格信息：表格名称：['author', 'conference', 'domain', 'domain author', 'domain conference', 'journal', 'domain journal', 'keyword', 'domain keyword', 'publication', 'domain publication', 'organization', 'publicatio"
+ed952d42c0f5cece0ce71bb1af81785626a4da271b11bb7da61b846851f7f03f,c29afa385490fabd13ebf57f1240fe4a32a06708cc4c436cf3f9c15bceeb9309,coig_pc,coig_pc,3,0.507599,0.24,0.526718,0.24,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+现存的三栋屋村位于三栋屋路近和宜合交汇处一带。
+assistant:[{""id"": ""1"", ""form"": ""现存"", ""pos"": ""VERB"", ""head"": ""4"", ""deprel"": ""acl:relcl""}, {""id"": ""2"", ""form"": ""的"", ""pos"": ""PART"", ""head"": ""1"", ""deprel"": ""mark:rel""}, {""id"": ""3"", ""form"": ""三栋屋"", ""pos","user:给出一个句子的依存关系分析
+
+我已经提到我是安静的，内向的人。
+assistant:[{""id"": ""1"", ""form"": ""我"", ""pos"": ""PRON"", ""head"": ""3"", ""deprel"": ""nsubj""}, {""id"": ""2"", ""form"": ""已经"", ""pos"": ""ADV"", ""head"": ""3"", ""deprel"": ""advmod""}, {""id"": ""3"", ""form"": ""提"", ""pos"": ""VERB"", ""head"
+ed952d42c0f5cece0ce71bb1af81785626a4da271b11bb7da61b846851f7f03f,dcaeb8159efc3d521481bf8944aa90f0a4fa00f2a635fe6df287548b15799e1f,coig_pc,coig_pc,3,0.457227,0.235294,0.461538,0.235294,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+现存的三栋屋村位于三栋屋路近和宜合交汇处一带。
+assistant:[{""id"": ""1"", ""form"": ""现存"", ""pos"": ""VERB"", ""head"": ""4"", ""deprel"": ""acl:relcl""}, {""id"": ""2"", ""form"": ""的"", ""pos"": ""PART"", ""head"": ""1"", ""deprel"": ""mark:rel""}, {""id"": ""3"", ""form"": ""三栋屋"", ""pos","user:给出一个句子的依存关系分析
+
+不过，我已经约好了无可奈何去机场。
+assistant:[{""id"": ""1"", ""form"": ""不过"", ""pos"": ""ADV"", ""head"": ""5"", ""deprel"": ""advmod""}, {""id"": ""2"", ""form"": ""，"", ""pos"": ""PUNCT"", ""head"": ""1"", ""deprel"": ""punct""}, {""id"": ""3"", ""form"": ""我"", ""pos"": ""PRON"", ""he"
+f494e404f2fc705844239ccfd919742f59fa659febe706693a9e5946e9ae3ceb,dad7ef7f473969a8128e5fe7dcbde70cee9530d273f9b9784d62585946264af8,coig_pc,coig_pc,3,0.789474,0.805405,0.0,0.0,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:请对下面的文本进行分类。类别包括'抽奖'、'明星'、'财经'、'心灵鸡汤'、'情感两性'、'旅行'、'母婴'、'汽车'、'无意义'、'美妆时尚'、'广告'、'教育'、'健康'、'职场'、'音乐'、'艺术'、'美食'、'体育'、'摄影'、'萌宠'、'动漫游戏'、'家居'、'影视'、'新闻'、'IT科技'、'星座'等。可能包括多个类别，请以序列形式输出。
+
+雪胖子合集。美食。雪胖子。
+assistant:['美食']","user:请对下面的文本进行分类。类别包括'抽奖'、'明星'、'财经'、'心灵鸡汤'、'情感两性'、'旅行'、'母婴'、'汽车'、'无意义'、'美妆时尚'、'广告'、'教育'、'健康'、'职场'、'音乐'、'艺术'、'美食'、'体育'、'摄影'、'萌宠'、'动漫游戏'、'家居'、'影视'、'新闻'、'IT科技'、'星座'等。可能包括多个类别，请以序列形式输出。
+
+微博渔场。的渔场捞到了3鱼币。运气爆棚。嘘。微博渔场
+assistant:['无意义']"
+14ab4cff8ff64d6697356a81c99af063b9e503782b1d13be5df6df3bdeec9ae4,7b46eac7465e6a8b7998ec794a83cfe7e21c68091972494a8c72dab400c3eba4,coig_pc,coig_pc,4,0.91623,0.931889,0.811321,0.811321,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:请根据以下表格信息，生成SQL查询数据以解决后续提出的问题：
+
+表格信息：
+表格名：FundTable
+表格列名：基金代码, 基金名称, 成立时间, 基金类型, 基金规模, 销售状态, 是否可销售, 风险等级, 基金公司名称, 分红方式, 赎回状态, 是否支持定投, 净值同步日期, 净值, 成立以来涨跌幅, 昨日涨跌幅, 近一周涨跌幅, 近一个月涨跌幅, 近三个月涨跌幅, 近六个月涨跌幅, 近一年涨跌幅, 基金经理, 主题/概念, 一个月夏普率, 一年夏普率, 三个","user:请根据以下表格信息，生成SQL查询数据以解决后续提出的问题：
+
+表格信息：
+表格名：FundTable
+表格列名：基金代码, 基金名称, 成立时间, 基金类型, 基金规模, 销售状态, 是否可销售, 风险等级, 基金公司名称, 分红方式, 赎回状态, 是否支持定投, 净值同步日期, 净值, 成立以来涨跌幅, 昨日涨跌幅, 近一周涨跌幅, 近一个月涨跌幅, 近三个月涨跌幅, 近六个月涨跌幅, 近一年涨跌幅, 基金经理, 主题/概念, 一个月夏普率, 一年夏普率, 三个"
+4391d8f1267c15e7d5c4d67794ebbfbfdc789dd4e8c049b70b0b5379b03a8b52,5176d52e454551dba8c124a8c54bcbada59d7e052f61cd0bdf627690bb12bbfe,coig_pc,coig_pc,4,0.896034,0.95427,0.316279,0.316279,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:我会给你一段财经讨论，你能帮我预测几段高光时刻最结束的时间吗？
+
+00:00:00.000-00:00:02.520: speak0, 欢迎大家来到直播间啊，欢迎大家。 00:00:42.340-00:00:53.010: speak0, 再回答一下前面关于这个医疗险提问的小伙伴们啊，我们医疗险在直播间的五号链接，我们的好医保住院医疗啊，大家可以点进去看一下它的产品条款。 00:00:53.010-00:01:17.902: speak0, 好，医保住院医疗啊，大家","user:我会给你一段财经讨论，你能帮我预测几段高光时刻最结束的时间吗？
+
+00:00:00.000-00:00:02.520: speak0, 欢迎大家来到直播间啊，欢迎大家。 00:00:42.340-00:00:53.010: speak0, 再回答一下前面关于这个医疗险提问的小伙伴们啊，我们医疗险在直播间的五号链接，我们的好医保住院医疗啊，大家可以点进去看一下它的产品条款。 00:00:53.010-00:01:17.902: speak0, 好，医保住院医疗啊，大家"
+4988cf3e4ddba0cce7ee96683b2def8c0156b61bdf6232fe3d40910d2eb356ff,86080173a6021c5709e0fdf0c423e45fde12ba0c65e3194e6cc2d7d36391610a,sharegpt_zh,sharegpt_zh,4,0.034602,0.0,0.033195,0.0,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:我希望您能作为测试Biziverse的随机潜在客户生成器。以表格格式生成给定标题的随机信息。按照我写的标题顺序严格排列。以在Excel中优化的表格格式向我展示结果。使用印度姓名并使信息与印度相关。生成15列信息。
+""公司""，""职称""，""名字""，""姓氏""，""职位""，""手机号码""，""电子邮件""，""城市""，""州""，""国家""，""来源""，""产品""，""需求""，""备注""，""负责人""，""引领时间""，""下次交谈""，""下次交谈注释""
+assistant:当然，这是一个包含随机信息用于测","user:以下是在环保家电制造领域（如净水器、空气净化器、智能马桶等）广泛使用的20个英语行话，按照使用频率排序。
+请列出每个行话对应的英语单词及其描述，每个描述不超过20个字。并用三列表格显示：1. 行话（单词） 2. 对应英语单词（简写） 3. 描述。
+assistant:以下是环保家电制造业中常用的20个英语行业术语：
+
+| 行业术语(单词) | 英文简称 | 描述 |
+| --- | --- | --- |
+| 计算机辅助设计 | CAD | 用于创建产品开发的2D或"
+4988cf3e4ddba0cce7ee96683b2def8c0156b61bdf6232fe3d40910d2eb356ff,d54d1661514320b3bf29c7c086dee03bce0b5623add3f248ae10cb24cc92e7c6,sharegpt_zh,sharegpt_zh,4,0.020755,0.009217,0.014714,0.009217,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:我希望您能作为测试Biziverse的随机潜在客户生成器。以表格格式生成给定标题的随机信息。按照我写的标题顺序严格排列。以在Excel中优化的表格格式向我展示结果。使用印度姓名并使信息与印度相关。生成15列信息。
+""公司""，""职称""，""名字""，""姓氏""，""职位""，""手机号码""，""电子邮件""，""城市""，""州""，""国家""，""来源""，""产品""，""需求""，""备注""，""负责人""，""引领时间""，""下次交谈""，""下次交谈注释""
+assistant:当然，这是一个包含随机信息用于测","user:生成每个步骤中的提示公式+长尾关键词+关键词，并向我展示样例。
+assistant:以下是带有自动提示和长尾关键词的UI流程的Markdown表格：
+
+| 步骤 | 提示 | 关键词 | 长尾关键词 | 例子 |
+| --- | --- | --- | --- | --- |
+| 产品特性 | 您的产品是什么？ | 产品 | 软件，应用，服务，小玩意儿 | 电子邮件客户端，健身跟踪器，打车应用程序 |
+| 描述 | 您的产品描述是什么？ | 描述 | 概述，解释，摘"
+4ea28e040e085734853ca24a7bfc186604db4ed8defecc5a8f2148e6894f56f2,3798680d4334abed58df18bb245b6c774ad3f2b75969bf4ccb2ce52f5750439c,coig_pc,coig_pc,4,0.959137,1.0,0.0,0.0,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:请根据下面文字与标题，生成评论
+
+文字：最近在微博上看到许多人都在夸一个妹子，不仅有人说她“秒杀娜扎”，还说“吊打热巴”、“赶超热巴的存在”、“杨玉环也就这样了吧”、甚至是说“笑的那一瞬间，真的只有巅峰期张柏芝可以比”，除此之外还有更让人惊讶的评论。比如说她千万不要被王思聪看到，节目中鞠婧炜有几个瞬间没怎么笑被误以为是黑脸，有位网友也是直言：“漂亮的让鞠婧炜都露出了一副要被抢饭碗的臭脸样子”，鞠婧炜的颜大家也是知道的吧，更是被日媒评为四千年一遇美女，怎么会被说的这么","user:请根据下面文字与标题，生成评论
+
+文字：最近在微博上看到许多人都在夸一个妹子，不仅有人说她“秒杀娜扎”，还说“吊打热巴”、“赶超热巴的存在”、“杨玉环也就这样了吧”、甚至是说“笑的那一瞬间，真的只有巅峰期张柏芝可以比”，除此之外还有更让人惊讶的评论。比如说她千万不要被王思聪看到，节目中鞠婧炜有几个瞬间没怎么笑被误以为是黑脸，有位网友也是直言：“漂亮的让鞠婧炜都露出了一副要被抢饭碗的臭脸样子”，鞠婧炜的颜大家也是知道的吧，更是被日媒评为四千年一遇美女，怎么会被说的这么"
+632fa5f396981985272af5b62227610667c13432bfa2121b35ad827c4c1b1efb,5176d52e454551dba8c124a8c54bcbada59d7e052f61cd0bdf627690bb12bbfe,coig_pc,coig_pc,4,0.914715,0.987257,0.25,0.25,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:我会给你一段财经讨论，你能帮我预测几段高光时刻最开始的时间吗？
+
+00:00:00.000-00:00:02.520: speak0, 欢迎大家来到直播间啊，欢迎大家。 00:00:42.340-00:00:53.010: speak0, 再回答一下前面关于这个医疗险提问的小伙伴们啊，我们医疗险在直播间的五号链接，我们的好医保住院医疗啊，大家可以点进去看一下它的产品条款。 00:00:53.010-00:01:17.902: speak0, 好，医保住院医疗啊，大家","user:我会给你一段财经讨论，你能帮我预测几段高光时刻最结束的时间吗？
+
+00:00:00.000-00:00:02.520: speak0, 欢迎大家来到直播间啊，欢迎大家。 00:00:42.340-00:00:53.010: speak0, 再回答一下前面关于这个医疗险提问的小伙伴们啊，我们医疗险在直播间的五号链接，我们的好医保住院医疗啊，大家可以点进去看一下它的产品条款。 00:00:53.010-00:01:17.902: speak0, 好，医保住院医疗啊，大家"
+86080173a6021c5709e0fdf0c423e45fde12ba0c65e3194e6cc2d7d36391610a,4d7ac8321343ba645ff79a0ecb233ef1329bea998f5f0025e57aced71bd52e7a,sharegpt_zh,sharegpt_zh,4,0.036304,0.0,0.026743,0.0,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:以下是在环保家电制造领域（如净水器、空气净化器、智能马桶等）广泛使用的20个英语行话，按照使用频率排序。
+请列出每个行话对应的英语单词及其描述，每个描述不超过20个字。并用三列表格显示：1. 行话（单词） 2. 对应英语单词（简写） 3. 描述。
+assistant:以下是环保家电制造业中常用的20个英语行业术语：
+
+| 行业术语(单词) | 英文简称 | 描述 |
+| --- | --- | --- |
+| 计算机辅助设计 | CAD | 用于创建产品开发的2D或","user:请给我制作一张私募股权基金表，包括过去两年里投资医疗行业的基金。表内需要包含他们投资的交易名称、交易规模、时间和加入指标。
+assistant:这是近两年投资医疗行业的一些私募股权基金列表。请注意，此列表不是详尽无遗的，可能并未包括所有投资医疗行业的私募股权基金。该表按私募股权公司的名称按字母顺序排序。 |
+| 私募股权公司 | 交易名称 | 交易规模 | 投资日期 | 索引 |
+| --- | --- | --- | --- | --- |
+| 意念国际 | Ze"
+a7899ac99f3312d0341db8321cd5fc9828ed10010ade569c9832a502bed8cc05,8da75f9469e2c828aece9e2e49e31dc22d3c539d37f5adc43972f925bd783703,coig_pc,coig_pc,4,0.666667,0.851852,0.59434,0.59434,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:请根据日期给出当天的天气指数
+
+日期:2010年1月5日
+assistant:18时，第4季度，草堂寺PM值:nan，沙河铺PM值：nan,US的PM值：nan，露点：3.0，湿度：61.76，压力：1019.0，温度：10.0，组合风向：NE，累计风速：2.0，降水量：0.0，累计降水量：0.0","user:请根据日期给出当天的天气指数
+
+日期:2010年1月8日
+assistant:14时，第4季度，草堂寺PM值:nan，沙河铺PM值：nan,US的PM值：nan，露点：5.0，湿度：87.09，压力：1015.9，温度：7.0，组合风向：NW，累计风速：2.0，降水量：0.0，累计降水量：0.0"
+a9f9d8a379c9a872aaf4dea5581f382af355d0edc781b346fd777af094f38e6d,246b92cc119ded88b676ce4c73611c615775a7c0c550fd303fcf0f9aaa8e1b42,sharegpt_zh,sharegpt_zh,4,0.02842,0.0,0.024005,0.0,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:这是一个很好的大纲。接下来是写第一篇文章的主题大纲，“建筑项目预算的重要性”。
+文章应该有不少于800到1,300个字。确定每个标题的字数，以及适当的H1，H2，H3等等。
+以markdown格式提供您的答案。
+assistant:建造项目预算的重要性
+==================================================
+作为我们有关新南威尔士州房主预建工作清单系列的一部分，本文将重点介绍建造项目预算的重要性。无论是建造新房还是开始翻","user:继续第1步
+assistant:好的，让我们从第一步开始吧。
+一、介绍
+---------------
+怀孕期间，女性的身体会发生显著的变化，以支持胎儿的生长和发育。其中一种特别重要的营养素是蛋白质。蛋白质在形成新组织方面发挥着至关重要的作用，包括胎儿的组织，同时帮助支持胎盘和其他重要器官的发育。
+不幸的是，许多妇女在怀孕期间摄入的蛋白质不足，这可能导致各种负面的健康后果。在本文中，我们将讨论孕期蛋白质缺乏的症状，以及类似症状的其他可能原因。我们还将涵盖蛋白质缺乏的"
+b7ecfe499a0a42d68850b1d038768bb23b90c53a0db67effd718602c34a001da,246b92cc119ded88b676ce4c73611c615775a7c0c550fd303fcf0f9aaa8e1b42,alpaca_gpt4_zh,sharegpt_zh,4,0.007112,0.0,0.000499,0.0,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:根据以下步骤，构建流程图：
+
+1. 加载数据集。
+2. 将数据集分为训练集和验证集。
+3. 预处理数据。
+4. 将数据输入深度学习模型。
+5. 在训练集上训练模型。
+6. 使用验证集调整超参数。
+assistant:```
+    +-------------------+
+    |    加载数据集       |
+    +-------------------+
+            |
+            v
+    +---------------","user:继续第1步
+assistant:好的，让我们从第一步开始吧。
+一、介绍
+---------------
+怀孕期间，女性的身体会发生显著的变化，以支持胎儿的生长和发育。其中一种特别重要的营养素是蛋白质。蛋白质在形成新组织方面发挥着至关重要的作用，包括胎儿的组织，同时帮助支持胎盘和其他重要器官的发育。
+不幸的是，许多妇女在怀孕期间摄入的蛋白质不足，这可能导致各种负面的健康后果。在本文中，我们将讨论孕期蛋白质缺乏的症状，以及类似症状的其他可能原因。我们还将涵盖蛋白质缺乏的"
+d506fe8a7505e9edba6fd2a6020aabbd668d438a14e778b2e314d0bf87bc8fd5,3b6dbd15defbf5bccfa11f0d7796219fc8f33705fc9fb85ad55caed6456ecdc6,coig_pc,coig_pc,4,0.971034,0.978723,0.0,0.0,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:根据给定上下文回答问题。
+
+上下文：
+《无双大蛇Z》（）是光荣旗下ω-force开发的动作游戏，于2009年3月12日登陆索尼PlayStation 3，并于2009年11月27日推出Windows版。《无双大蛇Z》是真·三国无双系列和战国无双系列的融合作品——无双大蛇系列的第三作，将《无双大蛇》和《无双大蛇：魔王再临》的所有内容合并移植到最新的游戏及平台上，并添加了新的角色和关卡。得益于次世代游戏机的强大机能，该游戏在当时为无双系列中同屏幕人数最多的一款。该作的P","user:根据给定上下文回答问题。
+
+上下文：
+《无双大蛇Z》（）是光荣旗下ω-force开发的动作游戏，于2009年3月12日登陆索尼PlayStation 3，并于2009年11月27日推出Windows版。《无双大蛇Z》是真·三国无双系列和战国无双系列的融合作品——无双大蛇系列的第三作，将《无双大蛇》和《无双大蛇：魔王再临》的所有内容合并移植到最新的游戏及平台上，并添加了新的角色和关卡。得益于次世代游戏机的强大机能，该游戏在当时为无双系列中同屏幕人数最多的一款。该作的P"
+d54d1661514320b3bf29c7c086dee03bce0b5623add3f248ae10cb24cc92e7c6,4d7ac8321343ba645ff79a0ecb233ef1329bea998f5f0025e57aced71bd52e7a,sharegpt_zh,sharegpt_zh,4,0.016886,0.0,0.009346,0.0,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:生成每个步骤中的提示公式+长尾关键词+关键词，并向我展示样例。
+assistant:以下是带有自动提示和长尾关键词的UI流程的Markdown表格：
+
+| 步骤 | 提示 | 关键词 | 长尾关键词 | 例子 |
+| --- | --- | --- | --- | --- |
+| 产品特性 | 您的产品是什么？ | 产品 | 软件，应用，服务，小玩意儿 | 电子邮件客户端，健身跟踪器，打车应用程序 |
+| 描述 | 您的产品描述是什么？ | 描述 | 概述，解释，摘","user:请给我制作一张私募股权基金表，包括过去两年里投资医疗行业的基金。表内需要包含他们投资的交易名称、交易规模、时间和加入指标。
+assistant:这是近两年投资医疗行业的一些私募股权基金列表。请注意，此列表不是详尽无遗的，可能并未包括所有投资医疗行业的私募股权基金。该表按私募股权公司的名称按字母顺序排序。 |
+| 私募股权公司 | 交易名称 | 交易规模 | 投资日期 | 索引 |
+| --- | --- | --- | --- | --- |
+| 意念国际 | Ze"
+dcaeb8159efc3d521481bf8944aa90f0a4fa00f2a635fe6df287548b15799e1f,c29afa385490fabd13ebf57f1240fe4a32a06708cc4c436cf3f9c15bceeb9309,coig_pc,coig_pc,4,0.614865,0.295455,0.646809,0.295455,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给出一个句子的依存关系分析
+
+不过，我已经约好了无可奈何去机场。
+assistant:[{""id"": ""1"", ""form"": ""不过"", ""pos"": ""ADV"", ""head"": ""5"", ""deprel"": ""advmod""}, {""id"": ""2"", ""form"": ""，"", ""pos"": ""PUNCT"", ""head"": ""1"", ""deprel"": ""punct""}, {""id"": ""3"", ""form"": ""我"", ""pos"": ""PRON"", ""he","user:给出一个句子的依存关系分析
+
+我已经提到我是安静的，内向的人。
+assistant:[{""id"": ""1"", ""form"": ""我"", ""pos"": ""PRON"", ""head"": ""3"", ""deprel"": ""nsubj""}, {""id"": ""2"", ""form"": ""已经"", ""pos"": ""ADV"", ""head"": ""3"", ""deprel"": ""advmod""}, {""id"": ""3"", ""form"": ""提"", ""pos"": ""VERB"", ""head"
+fe0e54d7af81cc40a5f5307f38dea3dd23d20a53794959de7ddc14598eb45da5,ad5afe4b7ec9293644c77ec9981b85323cf887b59207dff86c9544f3030e1a5a,coig_pc,coig_pc,4,0.691542,0.75,0.486486,0.486486,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:请判断下面文本中是否包含省级行政区划、地级行政区划、县级行政区划、乡级行政区划、社区/自然村、兴趣点、路名、路号、子兴趣点、广义的上的开发区、楼栋号、道路口、普通辅助定位词、单元号、楼层号、距离辅助定位词、村组等词汇，如果存在，返回包含词汇对应的标签，如果不存在，返回No
+
+文本：宁波北仑小港衙前纬三路00号
+assistant:地级行政区划
+县级行政区划
+乡级行政区划
+社区/自然村
+路名
+路号","user:请判断下面文本中是否包含省级行政区划、地级行政区划、县级行政区划、乡级行政区划、社区/自然村、兴趣点、路名、路号、子兴趣点、广义的上的开发区、楼栋号、道路口、普通辅助定位词、单元号、楼层号、距离辅助定位词、村组等词汇，如果存在，返回包含词汇对应的标签，如果不存在，返回No
+
+文本：浙江省绍兴市诸暨市草塔镇横畈塘000号舒工坊_蕉内仓库
+assistant:省级行政区划
+地级行政区划
+县级行政区划
+乡级行政区划
+社区/自然村
+楼栋号
+兴趣点
+子兴趣点"
+4988cf3e4ddba0cce7ee96683b2def8c0156b61bdf6232fe3d40910d2eb356ff,a14e03372bc49a1ecd75b6d331811cc460b03da9fd4b9d5cfc40511d3b5d07f6,sharegpt_zh,sharegpt_zh,5,0.026698,0.004902,0.021639,0.004902,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:我希望您能作为测试Biziverse的随机潜在客户生成器。以表格格式生成给定标题的随机信息。按照我写的标题顺序严格排列。以在Excel中优化的表格格式向我展示结果。使用印度姓名并使信息与印度相关。生成15列信息。
+""公司""，""职称""，""名字""，""姓氏""，""职位""，""手机号码""，""电子邮件""，""城市""，""州""，""国家""，""来源""，""产品""，""需求""，""备注""，""负责人""，""引领时间""，""下次交谈""，""下次交谈注释""
+assistant:当然，这是一个包含随机信息用于测","user:创建包含所有非洲国家及其首都、货币、人口和面积的表格
+assistant:抱歉，我是一款基于文本的AI语言模型，没有创建表格的能力。但是，我可以提供您一个非洲国家、首都、货币、人口和面积的列表：
+| 国家 | 首都 | 货币 | 人口 | 面积（平方公里） |
+| --- | --- | --- | --- | --- |
+| 阿尔及利亚 | 阿尔及尔 | 阿尔及利亚第纳尔 | 43,851,044 | 2,381,741 |
+| 安哥拉 |  万卢达| 安哥拉宽扎"
+53c986d7f011a8c60889c56a2abd2822e4019b51d1739f9f7b19525939dc9735,4b1ddb5edafd31c17bd10d143ee4a5084faf4e1557c09307e051aac2ce7ca09a,coig_pc,coig_pc,5,0.835067,0.022364,0.008818,0.008818,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:给定中文'输出'，用捷克语提出一组恰当合理的'指令'和'输入'，其中'输入'可以为空：
+
+输出：1. 利用人工智能和机器学习实现智能垃圾桶，可查找和分类垃圾，并能自动垃圾分拣和回收。
+2. 开发一种基于区块链技术的电子商务平台，将交易记录安全地记录在区块链上，确保交易的可靠性和透明度。
+3. 利用无人机技术开发智能巡检系统，用于城市和农业区域的巡查与监测，可检测和分析土壤、水质和植被等数据。
+4. 利用虚拟现实和增强现实技术开发一款旅游应用程序，为游客提供虚拟导游体","user:先判断以下内容的语言类型，再将以下的'指令'和'输入'翻译成中文，最后用中文遵循指令给出合理的'输出'，各段用换行符分隔：
+
+指令：Vygenerujte seznam 10 nápadů pro technologický startup.
+输入：
+assistant:语言类型：捷克语
+指令：为技术初创公司生成 10 个想法的列表。
+输入：
+输出：1. 利用人工智能和机器学习实现智能垃圾桶，可查找和分类垃圾，并能自动垃圾分拣和回收。
+2. 开发一种基于区块链技术的"
+a14e03372bc49a1ecd75b6d331811cc460b03da9fd4b9d5cfc40511d3b5d07f6,4d7ac8321343ba645ff79a0ecb233ef1329bea998f5f0025e57aced71bd52e7a,sharegpt_zh,sharegpt_zh,5,0.024126,0.0,0.015152,0.0,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:创建包含所有非洲国家及其首都、货币、人口和面积的表格
+assistant:抱歉，我是一款基于文本的AI语言模型，没有创建表格的能力。但是，我可以提供您一个非洲国家、首都、货币、人口和面积的列表：
+| 国家 | 首都 | 货币 | 人口 | 面积（平方公里） |
+| --- | --- | --- | --- | --- |
+| 阿尔及利亚 | 阿尔及尔 | 阿尔及利亚第纳尔 | 43,851,044 | 2,381,741 |
+| 安哥拉 |  万卢达| 安哥拉宽扎","user:请给我制作一张私募股权基金表，包括过去两年里投资医疗行业的基金。表内需要包含他们投资的交易名称、交易规模、时间和加入指标。
+assistant:这是近两年投资医疗行业的一些私募股权基金列表。请注意，此列表不是详尽无遗的，可能并未包括所有投资医疗行业的私募股权基金。该表按私募股权公司的名称按字母顺序排序。 |
+| 私募股权公司 | 交易名称 | 交易规模 | 投资日期 | 索引 |
+| --- | --- | --- | --- | --- |
+| 意念国际 | Ze"
+213c904052a7ad402c2a6c62508d310d338bebd8b6a1ec1f61dc03dcbf872348,f1338221b3c608b4247e83db9bc4bea52581c3eb28e6f543d4bdb88a09e1de62,coig_pc,coig_pc,6,0.833333,1.0,0.142857,0.142857,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:根据该公司业务类型，给出公司招聘岗位的可能名称
+
+电子技术/半导体/集成电路
+assistant:产品经理","user:根据该公司业务类型，给出公司招聘岗位的可能名称
+
+电子技术/半导体/集成电路
+assistant:产品经理（芯片方向）-极海半导体"
+4902ee8daef887103adbf722a4a5041b74b98f0173decfa5b6f151c5e9a5ce83,317fd26c567893930b3bc0e8c2e3bdc0deb8b3ea01129c8b2d843c15fd7e0696,coig_pc,coig_pc,6,0.78934,0.850877,0.133333,0.133333,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,user:请从下面的句子中识别出所有的命名实体，并以json格式返回结果。实体的类别包括：地址（address）、书名（book）、公司（company）、游戏（game）、政府（government）、电影（movie）、姓名（name）、组织机构（organization）、职位（position）和景点（scene）。返回的json格式应该是一个字典，其中每个键是实体的类别，值是一个字典，其中每个键是实体的文本，值是一个列表，包含实体在文本中的起始和结束位置。例如，如果,user:请从下面的句子中识别出所有的命名实体，并以json格式返回结果。实体的类别包括：地址（address）、书名（book）、公司（company）、游戏（game）、政府（government）、电影（movie）、姓名（name）、组织机构（organization）、职位（position）和景点（scene）。返回的json格式应该是一个字典，其中每个键是实体的类别，值是一个字典，其中每个键是实体的文本，值是一个列表，包含实体在文本中的起始和结束位置。例如，如果
+4902ee8daef887103adbf722a4a5041b74b98f0173decfa5b6f151c5e9a5ce83,4bdfc7a50b29d5ae9394de0fc06a0c2b679fb4e6b4237ef95462196cf4d892fc,coig_pc,coig_pc,6,0.756158,0.815126,0.09589,0.09589,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,user:请从下面的句子中识别出所有的命名实体，并以json格式返回结果。实体的类别包括：地址（address）、书名（book）、公司（company）、游戏（game）、政府（government）、电影（movie）、姓名（name）、组织机构（organization）、职位（position）和景点（scene）。返回的json格式应该是一个字典，其中每个键是实体的类别，值是一个字典，其中每个键是实体的文本，值是一个列表，包含实体在文本中的起始和结束位置。例如，如果,user:请从下面的句子中识别出所有的命名实体，并以json格式返回结果。实体的类别包括：地址（address）、书名（book）、公司（company）、游戏（game）、政府（government）、电影（movie）、姓名（name）、组织机构（organization）、职位（position）和景点（scene）。返回的json格式应该是一个字典，其中每个键是实体的类别，值是一个字典，其中每个键是实体的文本，值是一个列表，包含实体在文本中的起始和结束位置。例如，如果
+4bdfc7a50b29d5ae9394de0fc06a0c2b679fb4e6b4237ef95462196cf4d892fc,317fd26c567893930b3bc0e8c2e3bdc0deb8b3ea01129c8b2d843c15fd7e0696,coig_pc,coig_pc,6,0.740385,0.782258,0.294118,0.294118,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,user:请从下面的句子中识别出所有的命名实体，并以json格式返回结果。实体的类别包括：地址（address）、书名（book）、公司（company）、游戏（game）、政府（government）、电影（movie）、姓名（name）、组织机构（organization）、职位（position）和景点（scene）。返回的json格式应该是一个字典，其中每个键是实体的类别，值是一个字典，其中每个键是实体的文本，值是一个列表，包含实体在文本中的起始和结束位置。例如，如果,user:请从下面的句子中识别出所有的命名实体，并以json格式返回结果。实体的类别包括：地址（address）、书名（book）、公司（company）、游戏（game）、政府（government）、电影（movie）、姓名（name）、组织机构（organization）、职位（position）和景点（scene）。返回的json格式应该是一个字典，其中每个键是实体的类别，值是一个字典，其中每个键是实体的文本，值是一个列表，包含实体在文本中的起始和结束位置。例如，如果
+50817bb7b10051b3c25ca6cc8d472f4a0b75b07bc8445d56b346ed9fc080d089,614ce6000c9434b1c6108d39cbc9a1cbe6a74d1ef0e9929c950643ef9add4dfc,coig_pc,coig_pc,6,0.151203,0.288462,0.059361,0.059361,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:请根据对话内容，做出合适的回答。
+
+嗯呢，金泰梨还演过啥啊，没看过别的
+assistant:response: 没关系是爱情啊，这是我看过的唯一一部她的剧, response: 她演过挺多的，我只看过她演的想你, response: 我只看过她的秘密花园，其他的我也不知道呢, response: 主君的太阳女主啊, response: 我也没有看过，我是看了她演的想你, response: 我也不知道了，你去微博搜搜看, response: 金泰熙，说错了,","user:请根据对话内容，做出合适的回答。
+
+哈哈，我也是。不过照顾小猫还是很辛苦的。
+assistant:response: 我也很喜欢猫，不过家里不让养, response: 是啊，小猫很难照顾的，不过长大了就好了，, response: 辛苦并快乐着, response: 是啊，要照顾，还要铲屎，不过真的很可爱呢, response: 我喜欢猫，不过我妈妈不喜欢，所以一直没有养过, response: 我是羡慕它可以抱着玩儿，我家猫都不给抱, response: 我想照"
+5f42ee5575cdd85538c71c850462be0f99021b54ccdb0c85b1800633bd8bc8db,4988cf3e4ddba0cce7ee96683b2def8c0156b61bdf6232fe3d40910d2eb356ff,sharegpt_zh,sharegpt_zh,6,0.065365,0.0,0.069146,0.0,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:迈克·斯科特在电视剧《实习医生格蕾》中说过多少次“就像她说的那样”？
+assistant:很难确定一个确切的数量，因为由演员史蒂夫·卡瑞尔扮演的迈克尔·斯科特在电视剧《办公室》中多次说出“她说的就是这个”这句口头禅。然而，据估计，他在整个系列中说了60多次。
+user:你没有访问所有集的剧本吗？
+assistant:作为一种AI语言模型，我确实可以访问《办公室》电视剧的许多剧本。然而，我的训练数据只涵盖到2021年9月，而且我不能同时搜索所有可用的剧本。尽管如此，如","user:我希望您能作为测试Biziverse的随机潜在客户生成器。以表格格式生成给定标题的随机信息。按照我写的标题顺序严格排列。以在Excel中优化的表格格式向我展示结果。使用印度姓名并使信息与印度相关。生成15列信息。
+""公司""，""职称""，""名字""，""姓氏""，""职位""，""手机号码""，""电子邮件""，""城市""，""州""，""国家""，""来源""，""产品""，""需求""，""备注""，""负责人""，""引领时间""，""下次交谈""，""下次交谈注释""
+assistant:当然，这是一个包含随机信息用于测"
+5f42ee5575cdd85538c71c850462be0f99021b54ccdb0c85b1800633bd8bc8db,4d7ac8321343ba645ff79a0ecb233ef1329bea998f5f0025e57aced71bd52e7a,sharegpt_zh,sharegpt_zh,6,0.049913,0.0,0.047127,0.0,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:迈克·斯科特在电视剧《实习医生格蕾》中说过多少次“就像她说的那样”？
+assistant:很难确定一个确切的数量，因为由演员史蒂夫·卡瑞尔扮演的迈克尔·斯科特在电视剧《办公室》中多次说出“她说的就是这个”这句口头禅。然而，据估计，他在整个系列中说了60多次。
+user:你没有访问所有集的剧本吗？
+assistant:作为一种AI语言模型，我确实可以访问《办公室》电视剧的许多剧本。然而，我的训练数据只涵盖到2021年9月，而且我不能同时搜索所有可用的剧本。尽管如此，如","user:请给我制作一张私募股权基金表，包括过去两年里投资医疗行业的基金。表内需要包含他们投资的交易名称、交易规模、时间和加入指标。
+assistant:这是近两年投资医疗行业的一些私募股权基金列表。请注意，此列表不是详尽无遗的，可能并未包括所有投资医疗行业的私募股权基金。该表按私募股权公司的名称按字母顺序排序。 |
+| 私募股权公司 | 交易名称 | 交易规模 | 投资日期 | 索引 |
+| --- | --- | --- | --- | --- |
+| 意念国际 | Ze"
+8da75f9469e2c828aece9e2e49e31dc22d3c539d37f5adc43972f925bd783703,cb1145ae2b63839bd3eaf19359fdc38ade93d77e895d46a4d66633867bf7da34,coig_pc,coig_pc,6,0.783217,0.851852,0.778947,0.778947,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:请根据日期给出当天的天气指数
+
+日期:2010年1月8日
+assistant:14时，第4季度，草堂寺PM值:nan，沙河铺PM值：nan,US的PM值：nan，露点：5.0，湿度：87.09，压力：1015.9，温度：7.0，组合风向：NW，累计风速：2.0，降水量：0.0，累计降水量：0.0","user:请根据日期给出当天的天气指数
+
+日期:2010年1月9日
+assistant:7时，第4季度，草堂寺PM值:nan，沙河铺PM值：nan,US的PM值：nan，露点：5.0，湿度：87.09，压力：1014.9，温度：7.0，组合风向：SW，累计风速：3.0，降水量：0.0，累计降水量：0.0"
+a7899ac99f3312d0341db8321cd5fc9828ed10010ade569c9832a502bed8cc05,cb1145ae2b63839bd3eaf19359fdc38ade93d77e895d46a4d66633867bf7da34,coig_pc,coig_pc,6,0.63871,0.851852,0.570093,0.570093,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:请根据日期给出当天的天气指数
+
+日期:2010年1月5日
+assistant:18时，第4季度，草堂寺PM值:nan，沙河铺PM值：nan,US的PM值：nan，露点：3.0，湿度：61.76，压力：1019.0，温度：10.0，组合风向：NE，累计风速：2.0，降水量：0.0，累计降水量：0.0","user:请根据日期给出当天的天气指数
+
+日期:2010年1月9日
+assistant:7时，第4季度，草堂寺PM值:nan，沙河铺PM值：nan,US的PM值：nan，露点：5.0，湿度：87.09，压力：1014.9，温度：7.0，组合风向：SW，累计风速：3.0，降水量：0.0，累计降水量：0.0"
+c8a8191124d89b25017357039c0eafd1b60d3b73dc0e320e0d001dc924f02074,a58c20526cf7c3807d8577a92584b85e1cf8826deb2cda06971a94af8339fe66,coig_pc,coig_pc,6,0.69555,0.713311,0.633987,0.633987,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:请根据给出的表格信息，生成SQL语句从数据库中查询答案，回答问题。
+
+表格信息：表格名称：['城市', '全国交通枢纽', '旅游景点', '全国热门景点', '热门出境游城市']
+表格列名：['*', '词条id', '城市', '所属省份', '城市人口', '城市面积', '汽车保有量级别(辆)', '通勤高峰拥堵指数', '通勤高峰实际速度(千米/时)', '拥堵排名', '词条id', '交通枢纽站', '所属城市id', '所属省份', '平均拥堵指数'","user:请根据给出的表格信息，生成SQL语句从数据库中查询答案，回答问题。
+
+表格信息：表格名称：['城市', '全国交通枢纽', '旅游景点', '全国热门景点', '热门出境游城市']
+表格列名：['*', '词条id', '城市', '所属省份', '城市人口', '城市面积', '汽车保有量级别(辆)', '通勤高峰拥堵指数', '通勤高峰实际速度(千米/时)', '拥堵排名', '词条id', '交通枢纽站', '所属城市id', '所属省份', '平均拥堵指数'"
+fe0e54d7af81cc40a5f5307f38dea3dd23d20a53794959de7ddc14598eb45da5,dcf3c6b98f4af992ded4cc70e6a53dfadfd32dc9597826cac33e32bec44f8cad,coig_pc,coig_pc,6,0.783333,0.819444,0.444444,0.444444,3,0.85,0.9,review_nonduplicate,threshold_candidate_review,"user:请判断下面文本中是否包含省级行政区划、地级行政区划、县级行政区划、乡级行政区划、社区/自然村、兴趣点、路名、路号、子兴趣点、广义的上的开发区、楼栋号、道路口、普通辅助定位词、单元号、楼层号、距离辅助定位词、村组等词汇，如果存在，返回包含词汇对应的标签，如果不存在，返回No
+
+文本：宁波北仑小港衙前纬三路00号
+assistant:地级行政区划
+县级行政区划
+乡级行政区划
+社区/自然村
+路名
+路号","user:请判断下面文本中是否包含省级行政区划、地级行政区划、县级行政区划、乡级行政区划、社区/自然村、兴趣点、路名、路号、子兴趣点、广义的上的开发区、楼栋号、道路口、普通辅助定位词、单元号、楼层号、距离辅助定位词、村组等词汇，如果存在，返回包含词汇对应的标签，如果不存在，返回No
+
+文本：四川省成都市温江区黄金路0000号
+assistant:省级行政区划
+地级行政区划
+县级行政区划
+路名
+路号"

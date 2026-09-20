@@ -1,0 +1,211 @@
+{
+  "schema_version": "1.0",
+  "status": "FAIL",
+  "checks": {
+    "cases_frozen": true,
+    "exact_case_set": true,
+    "unique_case_rows": true,
+    "initialization_artifacts": true,
+    "all_cases_pass": false,
+    "teacher_case_pass": true,
+    "side_effect_marker_absent": true
+  },
+  "failed_checks": [
+    "all_cases_pass"
+  ],
+  "case_results": [
+    {
+      "case_id": "teacher_nebula_budget",
+      "status": "PASS",
+      "semantic_validation": {
+        "case_id": "teacher_nebula_budget",
+        "status": "PASS",
+        "checks": {
+          "agent_completed": true,
+          "three_tools_bound": true,
+          "expected_tool_sequence": true,
+          "no_repeated_action_input": true,
+          "bounded_step_count": true,
+          "final_answer_present": true,
+          "retrieval_success": true,
+          "retrieved_product": true,
+          "retrieved_price": true,
+          "retrieved_shipping": true,
+          "calculator_success": true,
+          "calculator_expression": true,
+          "calculator_value": true,
+          "final_total": true,
+          "final_budget": true,
+          "final_conclusion": true
+        },
+        "failed_checks": [],
+        "auditable_stage_count": 3
+      },
+      "binding_checks": {
+        "prompt": true,
+        "trace_recomputed": true,
+        "answer_recomputed": true,
+        "raw_model_provenance": true,
+        "run_spec": true,
+        "model_identity": true,
+        "stored_validation": true,
+        "side_effect_marker_absent": true
+      },
+      "failed_binding_checks": []
+    },
+    {
+      "case_id": "comet_over_budget",
+      "status": "PASS",
+      "semantic_validation": {
+        "case_id": "comet_over_budget",
+        "status": "PASS",
+        "checks": {
+          "agent_completed": true,
+          "three_tools_bound": true,
+          "expected_tool_sequence": true,
+          "no_repeated_action_input": true,
+          "bounded_step_count": true,
+          "final_answer_present": true,
+          "retrieval_success": true,
+          "retrieved_product": true,
+          "retrieved_price": true,
+          "retrieved_shipping": true,
+          "calculator_success": true,
+          "calculator_expression": true,
+          "calculator_value": true,
+          "final_total": true,
+          "final_budget": true,
+          "final_conclusion": true
+        },
+        "failed_checks": [],
+        "auditable_stage_count": 3
+      },
+      "binding_checks": {
+        "prompt": true,
+        "trace_recomputed": true,
+        "answer_recomputed": true,
+        "raw_model_provenance": true,
+        "run_spec": true,
+        "model_identity": true,
+        "stored_validation": true,
+        "side_effect_marker_absent": true
+      },
+      "failed_binding_checks": []
+    },
+    {
+      "case_id": "orbit_within_budget",
+      "status": "FAIL",
+      "semantic_validation": {
+        "case_id": "orbit_within_budget",
+        "status": "FAIL",
+        "checks": {
+          "agent_completed": true,
+          "three_tools_bound": true,
+          "expected_tool_sequence": false,
+          "no_repeated_action_input": true,
+          "bounded_step_count": true,
+          "final_answer_present": true,
+          "retrieval_success": true,
+          "retrieved_product": true,
+          "retrieved_price": true,
+          "retrieved_shipping": true,
+          "calculator_success": false,
+          "calculator_expression": false,
+          "calculator_value": false,
+          "final_total": true,
+          "final_budget": true,
+          "final_conclusion": true
+        },
+        "failed_checks": [
+          "expected_tool_sequence",
+          "calculator_success",
+          "calculator_expression",
+          "calculator_value"
+        ],
+        "auditable_stage_count": 2
+      },
+      "binding_checks": {
+        "prompt": true,
+        "trace_recomputed": true,
+        "answer_recomputed": true,
+        "raw_model_provenance": true,
+        "run_spec": true,
+        "model_identity": true,
+        "stored_validation": true,
+        "side_effect_marker_absent": true
+      },
+      "failed_binding_checks": []
+    },
+    {
+      "case_id": "code_ast_valid",
+      "status": "FAIL",
+      "semantic_validation": {
+        "case_id": "code_ast_valid",
+        "status": "FAIL",
+        "checks": {
+          "agent_completed": true,
+          "three_tools_bound": true,
+          "expected_tool_sequence": false,
+          "no_repeated_action_input": true,
+          "bounded_step_count": true,
+          "final_answer_present": true,
+          "code_observation_present": true,
+          "code_status": true,
+          "syntax_valid": true,
+          "risk_nodes": true
+        },
+        "failed_checks": [
+          "expected_tool_sequence"
+        ],
+        "auditable_stage_count": 3
+      },
+      "binding_checks": {
+        "prompt": true,
+        "trace_recomputed": true,
+        "answer_recomputed": true,
+        "raw_model_provenance": true,
+        "run_spec": true,
+        "model_identity": true,
+        "stored_validation": true,
+        "side_effect_marker_absent": true
+      },
+      "failed_binding_checks": []
+    },
+    {
+      "case_id": "code_side_effect_rejected",
+      "status": "PASS",
+      "semantic_validation": {
+        "case_id": "code_side_effect_rejected",
+        "status": "PASS",
+        "checks": {
+          "agent_completed": true,
+          "three_tools_bound": true,
+          "expected_tool_sequence": true,
+          "no_repeated_action_input": true,
+          "bounded_step_count": true,
+          "final_answer_present": true,
+          "code_observation_present": true,
+          "code_status": true,
+          "syntax_valid": true,
+          "risk_nodes": true,
+          "error_code": true
+        },
+        "failed_checks": [],
+        "auditable_stage_count": 2
+      },
+      "binding_checks": {
+        "prompt": true,
+        "trace_recomputed": true,
+        "answer_recomputed": true,
+        "raw_model_provenance": true,
+        "run_spec": true,
+        "model_identity": true,
+        "stored_validation": true,
+        "side_effect_marker_absent": true
+      },
+      "failed_binding_checks": []
+    }
+  ],
+  "recomputed_run_spec_sha256": "6abbf0b14c7bdde998b28f327a94568fa87f0663ed49cab78fc572431437dc19",
+  "recomputed_tools_sha256": "aebcb9c278c38197672737c0674199c7e98f6358d6f7e39b92d8ae927fd329a5"
+}

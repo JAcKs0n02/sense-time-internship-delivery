@@ -1,0 +1,14 @@
+{
+  "valid": true,
+  "model_alias": "safety-v2-lr5e6-e2",
+  "prompt_count": 35,
+  "output_sha256": "092a4f5c528f43e669a7ab17976409a7ba2039495618c52cb11e183de9adba1d",
+  "generation_config": {
+    "do_sample": false,
+    "max_new_tokens": 512,
+    "repetition_penalty": 1.0,
+    "seed": 42,
+    "dtype": "bfloat16",
+    "device": "cuda:0"
+  }
+}

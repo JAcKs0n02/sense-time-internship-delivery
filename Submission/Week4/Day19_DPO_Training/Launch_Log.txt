@@ -1,0 +1,535 @@
+[INFO|2026-08-14 11:57:11] llamafactory.hparams.parser:406 >> Process rank: 0, world size: 1, device: cuda:0, distributed training: False, compute dtype: torch.bfloat16
+[INFO|tokenization_utils_base.py:2058] 2026-08-14 11:57:11,968 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2058] 2026-08-14 11:57:11,968 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2058] 2026-08-14 11:57:11,968 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2058] 2026-08-14 11:57:11,968 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2058] 2026-08-14 11:57:11,968 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2058] 2026-08-14 11:57:11,968 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2058] 2026-08-14 11:57:11,968 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2323] 2026-08-14 11:57:12,335 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|configuration_utils.py:697] 2026-08-14 11:57:12,336 >> loading configuration file /root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged/config.json
+[INFO|configuration_utils.py:771] 2026-08-14 11:57:12,337 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.50.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|tokenization_utils_base.py:2058] 2026-08-14 11:57:12,338 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2058] 2026-08-14 11:57:12,338 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2058] 2026-08-14 11:57:12,338 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2058] 2026-08-14 11:57:12,338 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2058] 2026-08-14 11:57:12,338 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2058] 2026-08-14 11:57:12,338 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2058] 2026-08-14 11:57:12,338 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2323] 2026-08-14 11:57:12,710 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|2026-08-14 11:57:12] llamafactory.data.loader:143 >> Loading dataset week4_dpo_train_v2.json...
+Converting format of dataset (num_proc=4):   0%|          | 0/783 [00:00<?, ? examples/s]Converting format of dataset (num_proc=4):  75%|███████▌  | 588/783 [00:00<00:00, 5691.01 examples/s]Converting format of dataset (num_proc=4): 100%|██████████| 783/783 [00:00<00:00, 4162.21 examples/s]
+[INFO|2026-08-14 11:57:13] llamafactory.data.loader:143 >> Loading dataset week4_dpo_validation_v2.json...
+Converting format of dataset (num_proc=4):   0%|          | 0/87 [00:00<?, ? examples/s]Converting format of dataset (num_proc=4): 100%|██████████| 87/87 [00:00<00:00, 534.39 examples/s]
+Running tokenizer on dataset (num_proc=4):   0%|          | 0/783 [00:00<?, ? examples/s]Running tokenizer on dataset (num_proc=4):  25%|██▌       | 196/783 [00:00<00:02, 255.17 examples/s]Running tokenizer on dataset (num_proc=4):  50%|█████     | 392/783 [00:00<00:00, 446.89 examples/s]Running tokenizer on dataset (num_proc=4):  75%|███████▌  | 588/783 [00:01<00:00, 432.32 examples/s]Running tokenizer on dataset (num_proc=4): 100%|██████████| 783/783 [00:01<00:00, 489.27 examples/s]
+training example:
+chosen_input_ids:
+[151644, 8948, 198, 2610, 525, 1207, 16948, 11, 3465, 553, 54364, 14817, 13, 1446, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 14880, 102074, 2073, 74393, 118198, 854, 61443, 104191, 98237, 99534, 66394, 3837, 100645, 102298, 115489, 76095, 5373, 75117, 105652, 33108, 18397, 100301, 39907, 1773, 151645, 198, 151644, 77091, 198, 16, 13, 4891, 231, 235, 21596, 76095, 5122, 100692, 66394, 74393, 118198, 30534, 100638, 103936, 8997, 17, 13, 46750, 58522, 105652, 5122, 118198, 19108, 8903, 77128, 53153, 105598, 102005, 109713, 3837, 101043, 99912, 102005, 48927, 101901, 104022, 118198, 107769, 90395, 46485, 30440, 71137, 32664, 9370, 65577, 8997, 18, 13, 49602, 252, 100301, 39907, 5122, 67071, 102024, 101071, 81167, 106073, 57218, 105966, 104918, 101266, 1773, 151645, 198]
+chosen_inputs:
+<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+请围绕“数据库备份”写一份简短说明，必须包含前置条件、执行步骤和回滚方法。<|im_end|>
+<|im_start|>assistant
+1. 前置条件：明确说明数据库备份要解决的问题。
+2. 执行步骤：备份成功日志不能替代恢复演练，只有实际恢复验证才能证明备份可用，并保存可核对的记录。
+3. 回滚方法：由独立检查确认结论与原始证据一致。<|im_end|>
+
+chosen_label_ids:
+[-100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 16, 13, 4891, 231, 235, 21596, 76095, 5122, 100692, 66394, 74393, 118198, 30534, 100638, 103936, 8997, 17, 13, 46750, 58522, 105652, 5122, 118198, 19108, 8903, 77128, 53153, 105598, 102005, 109713, 3837, 101043, 99912, 102005, 48927, 101901, 104022, 118198, 107769, 90395, 46485, 30440, 71137, 32664, 9370, 65577, 8997, 18, 13, 49602, 252, 100301, 39907, 5122, 67071, 102024, 101071, 81167, 106073, 57218, 105966, 104918, 101266, 1773, 151645, 198]
+chosen_labels:
+1. 前置条件：明确说明数据库备份要解决的问题。
+2. 执行步骤：备份成功日志不能替代恢复演练，只有实际恢复验证才能证明备份可用，并保存可核对的记录。
+3. 回滚方法：由独立检查确认结论与原始证据一致。<|im_end|>
+
+rejected_input_ids:
+[151644, 8948, 198, 2610, 525, 1207, 16948, 11, 3465, 553, 54364, 14817, 13, 1446, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 14880, 102074, 2073, 74393, 118198, 854, 61443, 104191, 98237, 99534, 66394, 3837, 100645, 102298, 115489, 76095, 5373, 75117, 105652, 33108, 18397, 100301, 39907, 1773, 151645, 198, 151644, 77091, 198, 115489, 76095, 5122, 54542, 74393, 118198, 62926, 65577, 59151, 1773, 151645, 198]
+rejected_inputs:
+<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+请围绕“数据库备份”写一份简短说明，必须包含前置条件、执行步骤和回滚方法。<|im_end|>
+<|im_start|>assistant
+前置条件：处理数据库备份并记录结果。<|im_end|>
+
+rejected_label_ids:
+[-100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 115489, 76095, 5122, 54542, 74393, 118198, 62926, 65577, 59151, 1773, 151645, 198]
+rejected_labels:
+前置条件：处理数据库备份并记录结果。<|im_end|>
+
+Running tokenizer on dataset (num_proc=4):   0%|          | 0/87 [00:00<?, ? examples/s]Running tokenizer on dataset (num_proc=4):  25%|██▌       | 22/87 [00:00<00:01, 35.01 examples/s]Running tokenizer on dataset (num_proc=4):  51%|█████     | 44/87 [00:00<00:00, 63.47 examples/s]Running tokenizer on dataset (num_proc=4):  76%|███████▌  | 66/87 [00:00<00:00, 82.95 examples/s]Running tokenizer on dataset (num_proc=4): 100%|██████████| 87/87 [00:01<00:00, 105.32 examples/s]Running tokenizer on dataset (num_proc=4): 100%|██████████| 87/87 [00:01<00:00, 75.69 examples/s] 
+[INFO|configuration_utils.py:697] 2026-08-14 11:57:17,565 >> loading configuration file /root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged/config.json
+[INFO|configuration_utils.py:771] 2026-08-14 11:57:17,567 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.50.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+eval example:
+chosen_input_ids:
+[151644, 8948, 198, 2610, 525, 1207, 16948, 11, 3465, 553, 54364, 14817, 13, 1446, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 14880, 102074, 2073, 7082, 64388, 230, 21894, 100359, 854, 61443, 104191, 98237, 99534, 66394, 3837, 100645, 102298, 100160, 5373, 31196, 33108, 106186, 100142, 1773, 151645, 198, 151644, 77091, 198, 16, 13, 74866, 106, 30844, 5122, 100692, 66394, 7082, 64388, 230, 21894, 100359, 30534, 100638, 103936, 8997, 17, 13, 69058, 5122, 100101, 11622, 100052, 107736, 50511, 99553, 113274, 105271, 5373, 105308, 66394, 33108, 30440, 48927, 9370, 105598, 76837, 3837, 104610, 104078, 28606, 90395, 46485, 30440, 71137, 32664, 9370, 65577, 8997, 18, 13, 18137, 36677, 50009, 100142, 5122, 67071, 102024, 101071, 81167, 106073, 57218, 105966, 104918, 101266, 1773, 151645, 198]
+chosen_inputs:
+<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+请围绕“API 版本控制”写一份简短说明，必须包含目标、输入和验收标准。<|im_end|>
+<|im_start|>assistant
+1. 目标：明确说明API 版本控制要解决的问题。
+2. 输入：弃用旧接口应提供迁移窗口、变更说明和可验证的替代路径，而不是立即删除，并保存可核对的记录。
+3. 验收标准：由独立检查确认结论与原始证据一致。<|im_end|>
+
+chosen_label_ids:
+[-100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 16, 13, 74866, 106, 30844, 5122, 100692, 66394, 7082, 64388, 230, 21894, 100359, 30534, 100638, 103936, 8997, 17, 13, 69058, 5122, 100101, 11622, 100052, 107736, 50511, 99553, 113274, 105271, 5373, 105308, 66394, 33108, 30440, 48927, 9370, 105598, 76837, 3837, 104610, 104078, 28606, 90395, 46485, 30440, 71137, 32664, 9370, 65577, 8997, 18, 13, 18137, 36677, 50009, 100142, 5122, 67071, 102024, 101071, 81167, 106073, 57218, 105966, 104918, 101266, 1773, 151645, 198]
+chosen_labels:
+1. 目标：明确说明API 版本控制要解决的问题。
+2. 输入：弃用旧接口应提供迁移窗口、变更说明和可验证的替代路径，而不是立即删除，并保存可核对的记录。
+3. 验收标准：由独立检查确认结论与原始证据一致。<|im_end|>
+
+rejected_input_ids:
+[151644, 8948, 198, 2610, 525, 1207, 16948, 11, 3465, 553, 54364, 14817, 13, 1446, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 14880, 102074, 2073, 7082, 64388, 230, 21894, 100359, 854, 61443, 104191, 98237, 99534, 66394, 3837, 100645, 102298, 100160, 5373, 31196, 33108, 106186, 100142, 1773, 151645, 198, 151644, 77091, 198, 100160, 5122, 54542, 7082, 64388, 230, 21894, 100359, 62926, 65577, 59151, 1773, 151645, 198]
+rejected_inputs:
+<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+请围绕“API 版本控制”写一份简短说明，必须包含目标、输入和验收标准。<|im_end|>
+<|im_start|>assistant
+目标：处理API 版本控制并记录结果。<|im_end|>
+
+rejected_label_ids:
+[-100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 100160, 5122, 54542, 7082, 64388, 230, 21894, 100359, 62926, 65577, 59151, 1773, 151645, 198]
+rejected_labels:
+目标：处理API 版本控制并记录结果。<|im_end|>
+
+[INFO|2026-08-14 11:57:17] llamafactory.model.model_utils.quantization:143 >> Quantizing model to 4 bit with bitsandbytes.
+[INFO|2026-08-14 11:57:17] llamafactory.model.model_utils.kv_cache:143 >> KV cache is disabled during training.
+[INFO|modeling_utils.py:1151] 2026-08-14 11:57:17,765 >> loading weights file /root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged/model.safetensors.index.json
+[INFO|modeling_utils.py:2170] 2026-08-14 11:57:17,765 >> Instantiating Qwen2ForCausalLM model under default dtype torch.bfloat16.
+[INFO|configuration_utils.py:1139] 2026-08-14 11:57:17,768 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "use_cache": false
+}
+
+[WARNING|logging.py:329] 2026-08-14 11:57:17,798 >> Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:06,  2.10s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.91s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:05<00:01,  1.86s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:07<00:00,  1.76s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:07<00:00,  1.82s/it]
+[INFO|modeling_utils.py:4987] 2026-08-14 11:57:25,212 >> All model checkpoint weights were used when initializing Qwen2ForCausalLM.
+
+[INFO|modeling_utils.py:4995] 2026-08-14 11:57:25,212 >> All the weights of Qwen2ForCausalLM were initialized from the model checkpoint at /root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use Qwen2ForCausalLM for predictions without further training.
+[INFO|configuration_utils.py:1092] 2026-08-14 11:57:25,215 >> loading configuration file /root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged/generation_config.json
+[INFO|configuration_utils.py:1139] 2026-08-14 11:57:25,215 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "do_sample": true,
+  "eos_token_id": [
+    151645,
+    151643
+  ],
+  "pad_token_id": 151643,
+  "repetition_penalty": 1.05,
+  "temperature": 0.7,
+  "top_k": 20,
+  "top_p": 0.8
+}
+
+[INFO|2026-08-14 11:57:25] llamafactory.model.model_utils.checkpointing:143 >> Upcasting layernorm weights in float32.
+[INFO|2026-08-14 11:57:25] llamafactory.model.model_utils.checkpointing:143 >> Gradient checkpointing enabled.
+[INFO|2026-08-14 11:57:25] llamafactory.model.model_utils.attention:143 >> Using torch SDPA for faster training and inference.
+[INFO|2026-08-14 11:57:25] llamafactory.model.adapter:143 >> Upcasting trainable params to float32.
+[INFO|2026-08-14 11:57:25] llamafactory.model.adapter:143 >> Fine-tuning method: LoRA
+[INFO|2026-08-14 11:57:25] llamafactory.model.model_utils.misc:143 >> Found linear modules: v_proj,up_proj,down_proj,k_proj,q_proj,o_proj,gate_proj
+[INFO|2026-08-14 11:57:25] llamafactory.model.loader:143 >> trainable params: 20,185,088 || all params: 7,635,801,600 || trainable%: 0.2643
+[INFO|trainer.py:698] 2026-08-14 11:57:25,662 >> max_steps is given, it will override any value given in num_train_epochs
+[INFO|trainer.py:748] 2026-08-14 11:57:25,663 >> Using auto half precision backend
+[INFO|trainer.py:2409] 2026-08-14 11:57:26,078 >> ***** Running training *****
+[INFO|trainer.py:2410] 2026-08-14 11:57:26,079 >>   Num examples = 783
+[INFO|trainer.py:2411] 2026-08-14 11:57:26,079 >>   Num Epochs = 1
+[INFO|trainer.py:2412] 2026-08-14 11:57:26,079 >>   Instantaneous batch size per device = 1
+[INFO|trainer.py:2415] 2026-08-14 11:57:26,079 >>   Total train batch size (w. parallel, distributed & accumulation) = 8
+[INFO|trainer.py:2416] 2026-08-14 11:57:26,079 >>   Gradient Accumulation steps = 8
+[INFO|trainer.py:2417] 2026-08-14 11:57:26,079 >>   Total optimization steps = 40
+[INFO|trainer.py:2418] 2026-08-14 11:57:26,082 >>   Number of trainable parameters = 20,185,088
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [00:09<06:29,  9.98s/it]                                                2%|▎         | 1/40 [00:09<06:29,  9.98s/it]  5%|▌         | 2/40 [00:23<07:29, 11.82s/it]                                                5%|▌         | 2/40 [00:23<07:29, 11.82s/it]  8%|▊         | 3/40 [00:32<06:34, 10.67s/it]                                                8%|▊         | 3/40 [00:32<06:34, 10.67s/it] 10%|█         | 4/40 [00:43<06:26, 10.73s/it]                                               10%|█         | 4/40 [00:43<06:26, 10.73s/it] 12%|█▎        | 5/40 [00:55<06:38, 11.39s/it]                                               12%|█▎        | 5/40 [00:55<06:38, 11.39s/it] 15%|█▌        | 6/40 [01:10<07:06, 12.53s/it]                                               15%|█▌        | 6/40 [01:10<07:06, 12.53s/it] 18%|█▊        | 7/40 [01:21<06:36, 12.02s/it]                                               18%|█▊        | 7/40 [01:21<06:36, 12.02s/it] 20%|██        | 8/40 [01:29<05:46, 10.84s/it]                                               20%|██        | 8/40 [01:29<05:46, 10.84s/it] 22%|██▎       | 9/40 [01:43<06:06, 11.82s/it]                                               22%|██▎       | 9/40 [01:43<06:06, 11.82s/it] 25%|██▌       | 10/40 [01:54<05:43, 11.45s/it]                                                25%|██▌       | 10/40 [01:54<05:43, 11.45s/it] 28%|██▊       | 11/40 [02:10<06:10, 12.76s/it]                                                28%|██▊       | 11/40 [02:10<06:10, 12.76s/it] 30%|███       | 12/40 [02:22<05:51, 12.54s/it]                                                30%|███       | 12/40 [02:22<05:51, 12.54s/it] 32%|███▎      | 13/40 [02:35<05:44, 12.74s/it]                                                32%|███▎      | 13/40 [02:35<05:44, 12.74s/it] 35%|███▌      | 14/40 [02:50<05:53, 13.58s/it]                                                35%|███▌      | 14/40 [02:50<05:53, 13.58s/it] 38%|███▊      | 15/40 [03:03<05:29, 13.19s/it]                                                38%|███▊      | 15/40 [03:03<05:29, 13.19s/it] 40%|████      | 16/40 [03:21<05:56, 14.84s/it]                                                40%|████      | 16/40 [03:21<05:56, 14.84s/it] 42%|████▎     | 17/40 [03:33<05:22, 14.03s/it]                                                42%|████▎     | 17/40 [03:33<05:22, 14.03s/it] 45%|████▌     | 18/40 [03:45<04:54, 13.40s/it]                                                45%|████▌     | 18/40 [03:45<04:54, 13.40s/it] 48%|████▊     | 19/40 [03:54<04:09, 11.88s/it]                                                48%|████▊     | 19/40 [03:54<04:09, 11.88s/it] 50%|█████     | 20/40 [04:01<03:29, 10.48s/it]                                                50%|█████     | 20/40 [04:01<03:29, 10.48s/it][INFO|trainer.py:4289] 2026-08-14 12:01:27,567 >> 
+***** Running Evaluation *****
+[INFO|trainer.py:4291] 2026-08-14 12:01:27,567 >>   Num examples = 87
+[INFO|trainer.py:4294] 2026-08-14 12:01:27,567 >>   Batch size = 1
+{'loss': 0.6931, 'grad_norm': 6.72093391418457, 'learning_rate': 6.89655172413793e-08, 'rewards/chosen': 0.0, 'rewards/rejected': 0.0, 'rewards/accuracies': 0.0, 'rewards/margins': 0.0, 'logps/chosen': -234.68368530273438, 'logps/rejected': -181.952880859375, 'logits/chosen': -0.6281479597091675, 'logits/rejected': -0.3768042325973511, 'epoch': 0.01}
+{'loss': 0.6931, 'grad_norm': 6.7546706199646, 'learning_rate': 1.379310344827586e-07, 'rewards/chosen': 0.0, 'rewards/rejected': 0.0, 'rewards/accuracies': 0.0, 'rewards/margins': 0.0, 'logps/chosen': -354.7425537109375, 'logps/rejected': -220.68411254882812, 'logits/chosen': -0.10568277537822723, 'logits/rejected': -0.18313215672969818, 'epoch': 0.02}
+{'loss': 0.6973, 'grad_norm': 6.484799861907959, 'learning_rate': 2.0689655172413793e-07, 'rewards/chosen': -0.005585098639130592, 'rewards/rejected': 0.002296304330229759, 'rewards/accuracies': 0.625, 'rewards/margins': -0.007881403900682926, 'logps/chosen': -246.92494201660156, 'logps/rejected': -125.18406677246094, 'logits/chosen': -0.18875394761562347, 'logits/rejected': -0.678709089756012, 'epoch': 0.03}
+{'loss': 0.6827, 'grad_norm': 5.931182861328125, 'learning_rate': 2.758620689655172e-07, 'rewards/chosen': 0.03257637098431587, 'rewards/rejected': 0.010158729739487171, 'rewards/accuracies': 0.5, 'rewards/margins': 0.022417640313506126, 'logps/chosen': -324.9390869140625, 'logps/rejected': -89.48966979980469, 'logits/chosen': -0.32386091351509094, 'logits/rejected': -0.40232908725738525, 'epoch': 0.04}
+{'loss': 0.7253, 'grad_norm': 6.920321941375732, 'learning_rate': 3.4482758620689656e-07, 'rewards/chosen': -0.02052154392004013, 'rewards/rejected': 0.04182925075292587, 'rewards/accuracies': 0.125, 'rewards/margins': -0.0623508021235466, 'logps/chosen': -293.99285888671875, 'logps/rejected': -181.07635498046875, 'logits/chosen': 0.1419171690940857, 'logits/rejected': -0.5269153714179993, 'epoch': 0.05}
+{'loss': 0.7123, 'grad_norm': 9.088229179382324, 'learning_rate': 4.1379310344827586e-07, 'rewards/chosen': -0.015613937750458717, 'rewards/rejected': 0.02116689644753933, 'rewards/accuracies': 0.375, 'rewards/margins': -0.03678083419799805, 'logps/chosen': -521.578857421875, 'logps/rejected': -323.4231872558594, 'logits/chosen': 0.04091072082519531, 'logits/rejected': -0.05986404046416283, 'epoch': 0.06}
+{'loss': 0.6884, 'grad_norm': 6.819831371307373, 'learning_rate': 4.827586206896552e-07, 'rewards/chosen': 0.005138135515153408, 'rewards/rejected': -0.005080033093690872, 'rewards/accuracies': 0.375, 'rewards/margins': 0.010218167677521706, 'logps/chosen': -161.88766479492188, 'logps/rejected': -248.26498413085938, 'logits/chosen': -0.623159646987915, 'logits/rejected': -0.41802269220352173, 'epoch': 0.07}
+{'loss': 0.694, 'grad_norm': 5.088776588439941, 'learning_rate': 5.517241379310344e-07, 'rewards/chosen': -0.005998039618134499, 'rewards/rejected': -0.004473233595490456, 'rewards/accuracies': 0.625, 'rewards/margins': -0.0015248057898133993, 'logps/chosen': -291.91510009765625, 'logps/rejected': -97.07596588134766, 'logits/chosen': -0.3252594470977783, 'logits/rejected': -0.20102597773075104, 'epoch': 0.08}
+{'loss': 0.6949, 'grad_norm': 7.094335556030273, 'learning_rate': 6.206896551724138e-07, 'rewards/chosen': 0.0038356799632310867, 'rewards/rejected': 0.005975902080535889, 'rewards/accuracies': 0.5, 'rewards/margins': -0.002140222117304802, 'logps/chosen': -347.9385986328125, 'logps/rejected': -177.07760620117188, 'logits/chosen': -0.3188612461090088, 'logits/rejected': -0.684808611869812, 'epoch': 0.09}
+{'loss': 0.7172, 'grad_norm': 7.309721946716309, 'learning_rate': 6.896551724137931e-07, 'rewards/chosen': -0.036536216735839844, 'rewards/rejected': 0.008899496868252754, 'rewards/accuracies': 0.375, 'rewards/margins': -0.04543571174144745, 'logps/chosen': -359.854736328125, 'logps/rejected': -165.9676513671875, 'logits/chosen': -0.30433470010757446, 'logits/rejected': -0.737280011177063, 'epoch': 0.1}
+{'loss': 0.6742, 'grad_norm': 7.0850830078125, 'learning_rate': 7.586206896551724e-07, 'rewards/chosen': 0.023697473108768463, 'rewards/rejected': -0.01587367057800293, 'rewards/accuracies': 0.75, 'rewards/margins': 0.03957114368677139, 'logps/chosen': -397.6221008300781, 'logps/rejected': -238.53115844726562, 'logits/chosen': -0.43718230724334717, 'logits/rejected': -0.42104363441467285, 'epoch': 0.11}
+{'loss': 0.7125, 'grad_norm': 7.228180885314941, 'learning_rate': 8.275862068965517e-07, 'rewards/chosen': 0.0010755546391010284, 'rewards/rejected': 0.032529257237911224, 'rewards/accuracies': 0.5, 'rewards/margins': -0.031453702598810196, 'logps/chosen': -381.63348388671875, 'logps/rejected': -251.44151306152344, 'logits/chosen': 0.01949840784072876, 'logits/rejected': -0.07387019693851471, 'epoch': 0.12}
+{'loss': 0.6876, 'grad_norm': 6.659418106079102, 'learning_rate': 8.96551724137931e-07, 'rewards/chosen': -9.307835716754198e-05, 'rewards/rejected': -0.01424424722790718, 'rewards/accuracies': 0.625, 'rewards/margins': 0.01415116898715496, 'logps/chosen': -434.09222412109375, 'logps/rejected': -212.39207458496094, 'logits/chosen': -0.21993422508239746, 'logits/rejected': -0.5291381478309631, 'epoch': 0.13}
+{'loss': 0.7115, 'grad_norm': 7.586688041687012, 'learning_rate': 9.655172413793103e-07, 'rewards/chosen': 0.01153576374053955, 'rewards/rejected': 0.04603151977062225, 'rewards/accuracies': 0.25, 'rewards/margins': -0.0344957560300827, 'logps/chosen': -293.1296691894531, 'logps/rejected': -262.8487548828125, 'logits/chosen': -0.22782321274280548, 'logits/rejected': -0.3471287488937378, 'epoch': 0.14}
+{'loss': 0.6814, 'grad_norm': 6.518434047698975, 'learning_rate': 1.0344827586206896e-06, 'rewards/chosen': 0.0372508279979229, 'rewards/rejected': 0.011282920837402344, 'rewards/accuracies': 0.625, 'rewards/margins': 0.025967910885810852, 'logps/chosen': -375.6364440917969, 'logps/rejected': -183.87477111816406, 'logits/chosen': 0.025556117296218872, 'logits/rejected': -0.2676180303096771, 'epoch': 0.15}
+{'loss': 0.7053, 'grad_norm': 7.283636569976807, 'learning_rate': 1.1034482758620688e-06, 'rewards/chosen': -0.017683077603578568, 'rewards/rejected': 0.005710840690881014, 'rewards/accuracies': 0.25, 'rewards/margins': -0.023393917828798294, 'logps/chosen': -332.10650634765625, 'logps/rejected': -302.5307312011719, 'logits/chosen': -0.2342977225780487, 'logits/rejected': -0.2866779565811157, 'epoch': 0.16}
+{'loss': 0.7065, 'grad_norm': 6.961119651794434, 'learning_rate': 1.172413793103448e-06, 'rewards/chosen': -0.021834660321474075, 'rewards/rejected': 0.0033892150968313217, 'rewards/accuracies': 0.375, 'rewards/margins': -0.025223877280950546, 'logps/chosen': -410.78155517578125, 'logps/rejected': -168.24966430664062, 'logits/chosen': -0.1786321997642517, 'logits/rejected': -0.5516476631164551, 'epoch': 0.17}
+{'loss': 0.6924, 'grad_norm': 4.607003688812256, 'learning_rate': 1.2413793103448275e-06, 'rewards/chosen': 0.00971180573105812, 'rewards/rejected': 0.008011102676391602, 'rewards/accuracies': 0.625, 'rewards/margins': 0.0017007025890052319, 'logps/chosen': -112.28688049316406, 'logps/rejected': -90.68035125732422, 'logits/chosen': -0.3664392828941345, 'logits/rejected': -0.3502747416496277, 'epoch': 0.18}
+{'loss': 0.6748, 'grad_norm': 5.6220197677612305, 'learning_rate': 1.3103448275862068e-06, 'rewards/chosen': 0.041667841374874115, 'rewards/rejected': 0.002704429905861616, 'rewards/accuracies': 0.75, 'rewards/margins': 0.03896341472864151, 'logps/chosen': -226.95703125, 'logps/rejected': -149.84326171875, 'logits/chosen': -0.15911133587360382, 'logits/rejected': -0.2792454659938812, 'epoch': 0.19}
+{'loss': 0.6992, 'grad_norm': 5.420444011688232, 'learning_rate': 1.3793103448275862e-06, 'rewards/chosen': 0.00032286718487739563, 'rewards/rejected': 0.010739755816757679, 'rewards/accuracies': 0.5, 'rewards/margins': -0.010416886769235134, 'logps/chosen': -264.1214599609375, 'logps/rejected': -84.16310119628906, 'logits/chosen': -0.4144245982170105, 'logits/rejected': -0.4461502134799957, 'epoch': 0.2}
+
+  0%|          | 0/87 [00:00<?, ?it/s][A
+  2%|▏         | 2/87 [00:00<00:18,  4.50it/s][A
+  3%|▎         | 3/87 [00:00<00:26,  3.17it/s][A
+  5%|▍         | 4/87 [00:01<00:30,  2.76it/s][A
+  6%|▌         | 5/87 [00:01<00:32,  2.50it/s][A
+  7%|▋         | 6/87 [00:02<00:32,  2.46it/s][A
+  8%|▊         | 7/87 [00:02<00:32,  2.46it/s][A
+  9%|▉         | 8/87 [00:03<00:32,  2.42it/s][A
+ 10%|█         | 9/87 [00:03<00:32,  2.41it/s][A
+ 11%|█▏        | 10/87 [00:03<00:32,  2.39it/s][A
+ 13%|█▎        | 11/87 [00:04<00:31,  2.38it/s][A
+ 14%|█▍        | 12/87 [00:04<00:32,  2.34it/s][A
+ 15%|█▍        | 13/87 [00:05<00:32,  2.28it/s][A
+ 16%|█▌        | 14/87 [00:05<00:32,  2.24it/s][A
+ 17%|█▋        | 15/87 [00:06<00:32,  2.24it/s][A
+ 18%|█▊        | 16/87 [00:06<00:32,  2.21it/s][A
+ 20%|█▉        | 17/87 [00:07<00:31,  2.22it/s][A
+ 21%|██        | 18/87 [00:07<00:30,  2.29it/s][A
+ 22%|██▏       | 19/87 [00:07<00:29,  2.31it/s][A
+ 23%|██▎       | 20/87 [00:08<00:28,  2.36it/s][A
+ 24%|██▍       | 21/87 [00:08<00:27,  2.36it/s][A
+ 25%|██▌       | 22/87 [00:09<00:27,  2.33it/s][A
+ 26%|██▋       | 23/87 [00:09<00:27,  2.30it/s][A
+ 28%|██▊       | 24/87 [00:10<00:27,  2.29it/s][A
+ 29%|██▊       | 25/87 [00:10<00:27,  2.27it/s][A
+ 30%|██▉       | 26/87 [00:10<00:26,  2.27it/s][A
+ 31%|███       | 27/87 [00:11<00:26,  2.26it/s][A
+ 32%|███▏      | 28/87 [00:11<00:26,  2.26it/s][A
+ 33%|███▎      | 29/87 [00:12<00:25,  2.25it/s][A
+ 34%|███▍      | 30/87 [00:12<00:24,  2.28it/s][A
+ 36%|███▌      | 31/87 [00:13<00:24,  2.30it/s][A
+ 37%|███▋      | 32/87 [00:13<00:23,  2.31it/s][A
+ 38%|███▊      | 33/87 [00:13<00:23,  2.32it/s][A
+ 39%|███▉      | 34/87 [00:14<00:23,  2.30it/s][A
+ 40%|████      | 35/87 [00:14<00:22,  2.31it/s][A
+ 41%|████▏     | 36/87 [00:15<00:22,  2.32it/s][A
+ 43%|████▎     | 37/87 [00:15<00:21,  2.30it/s][A
+ 44%|████▎     | 38/87 [00:16<00:24,  2.00it/s][A
+ 45%|████▍     | 39/87 [00:17<00:27,  1.74it/s][A
+ 46%|████▌     | 40/87 [00:18<00:33,  1.40it/s][A
+ 47%|████▋     | 41/87 [00:19<00:37,  1.22it/s][A
+ 48%|████▊     | 42/87 [00:20<00:39,  1.15it/s][A
+ 49%|████▉     | 43/87 [00:21<00:39,  1.10it/s][A
+ 51%|█████     | 44/87 [00:21<00:35,  1.21it/s][A
+ 52%|█████▏    | 45/87 [00:22<00:36,  1.14it/s][A
+ 53%|█████▎    | 46/87 [00:24<00:41,  1.01s/it][A
+ 54%|█████▍    | 47/87 [00:25<00:40,  1.00s/it][A
+ 55%|█████▌    | 48/87 [00:26<00:42,  1.08s/it][A
+ 56%|█████▋    | 49/87 [00:27<00:36,  1.05it/s][A
+ 57%|█████▋    | 50/87 [00:28<00:41,  1.11s/it][A
+ 59%|█████▊    | 51/87 [00:29<00:37,  1.04s/it][A
+ 60%|█████▉    | 52/87 [00:29<00:31,  1.12it/s][A
+ 61%|██████    | 53/87 [00:31<00:33,  1.01it/s][A
+ 62%|██████▏   | 54/87 [00:31<00:30,  1.09it/s][A
+ 63%|██████▎   | 55/87 [00:32<00:27,  1.16it/s][A
+ 64%|██████▍   | 56/87 [00:33<00:26,  1.18it/s][A
+ 66%|██████▌   | 57/87 [00:34<00:23,  1.28it/s][A
+ 67%|██████▋   | 58/87 [00:35<00:25,  1.15it/s][A
+ 68%|██████▊   | 59/87 [00:35<00:20,  1.36it/s][A
+ 69%|██████▉   | 60/87 [00:36<00:21,  1.28it/s][A
+ 70%|███████   | 61/87 [00:37<00:24,  1.06it/s][A
+ 71%|███████▏  | 62/87 [00:39<00:29,  1.19s/it][A
+ 72%|███████▏  | 63/87 [00:40<00:24,  1.03s/it][A
+ 74%|███████▎  | 64/87 [00:40<00:20,  1.11it/s][A
+ 75%|███████▍  | 65/87 [00:41<00:16,  1.31it/s][A
+ 76%|███████▌  | 66/87 [00:42<00:17,  1.18it/s][A
+ 77%|███████▋  | 67/87 [00:43<00:17,  1.12it/s][A
+ 78%|███████▊  | 68/87 [00:44<00:16,  1.12it/s][A
+ 79%|███████▉  | 69/87 [00:45<00:17,  1.05it/s][A
+ 80%|████████  | 70/87 [00:46<00:17,  1.03s/it][A
+ 82%|████████▏ | 71/87 [00:47<00:16,  1.05s/it][A
+ 83%|████████▎ | 72/87 [00:48<00:13,  1.09it/s][A
+ 84%|████████▍ | 73/87 [00:49<00:12,  1.13it/s][A
+ 85%|████████▌ | 74/87 [00:49<00:11,  1.12it/s][A
+ 86%|████████▌ | 75/87 [00:51<00:12,  1.02s/it][A
+ 87%|████████▋ | 76/87 [00:52<00:10,  1.02it/s][A
+ 89%|████████▊ | 77/87 [00:52<00:08,  1.16it/s][A
+ 90%|████████▉ | 78/87 [00:53<00:07,  1.25it/s][A
+ 91%|█████████ | 79/87 [00:54<00:06,  1.24it/s][A
+ 92%|█████████▏| 80/87 [00:54<00:04,  1.40it/s][A
+ 93%|█████████▎| 81/87 [00:55<00:04,  1.26it/s][A
+ 94%|█████████▍| 82/87 [00:56<00:04,  1.13it/s][A
+ 95%|█████████▌| 83/87 [00:57<00:03,  1.13it/s][A
+ 97%|█████████▋| 84/87 [00:59<00:03,  1.15s/it][A
+ 98%|█████████▊| 85/87 [01:00<00:02,  1.03s/it][A
+ 99%|█████████▉| 86/87 [01:01<00:01,  1.08s/it][A
+100%|██████████| 87/87 [01:02<00:00,  1.01s/it][A                                               
+                                               [A 50%|█████     | 20/40 [05:04<03:29, 10.48s/it]
+100%|██████████| 87/87 [01:02<00:00,  1.01s/it][A
+                                               [A 52%|█████▎    | 21/40 [05:15<09:21, 29.55s/it]                                                52%|█████▎    | 21/40 [05:15<09:21, 29.55s/it] 55%|█████▌    | 22/40 [05:23<06:57, 23.22s/it]                                                55%|█████▌    | 22/40 [05:23<06:57, 23.22s/it] 57%|█████▊    | 23/40 [05:37<05:46, 20.41s/it]                                                57%|█████▊    | 23/40 [05:37<05:46, 20.41s/it] 60%|██████    | 24/40 [05:49<04:46, 17.93s/it]                                                60%|██████    | 24/40 [05:49<04:46, 17.93s/it] 62%|██████▎   | 25/40 [06:01<04:02, 16.17s/it]                                                62%|██████▎   | 25/40 [06:01<04:02, 16.17s/it] 65%|██████▌   | 26/40 [06:12<03:21, 14.37s/it]                                                65%|██████▌   | 26/40 [06:12<03:21, 14.37s/it] 68%|██████▊   | 27/40 [06:28<03:15, 15.01s/it]                                                68%|██████▊   | 27/40 [06:28<03:15, 15.01s/it] 70%|███████   | 28/40 [06:38<02:41, 13.48s/it]                                                70%|███████   | 28/40 [06:38<02:41, 13.48s/it] 72%|███████▎  | 29/40 [06:49<02:21, 12.83s/it]                                                72%|███████▎  | 29/40 [06:49<02:21, 12.83s/it] 75%|███████▌  | 30/40 [07:00<02:01, 12.11s/it]                                                75%|███████▌  | 30/40 [07:00<02:01, 12.11s/it] 78%|███████▊  | 31/40 [07:10<01:44, 11.61s/it]                                                78%|███████▊  | 31/40 [07:10<01:44, 11.61s/it] 80%|████████  | 32/40 [07:18<01:24, 10.52s/it]                                                80%|████████  | 32/40 [07:18<01:24, 10.52s/it] 82%|████████▎ | 33/40 [07:27<01:09, 10.00s/it]                                                82%|████████▎ | 33/40 [07:27<01:09, 10.00s/it] 85%|████████▌ | 34/40 [07:36<00:58,  9.74s/it]                                                85%|████████▌ | 34/40 [07:36<00:58,  9.74s/it] 88%|████████▊ | 35/40 [07:49<00:53, 10.65s/it]                                                88%|████████▊ | 35/40 [07:49<00:53, 10.65s/it] 90%|█████████ | 36/40 [08:02<00:45, 11.44s/it]                                                90%|█████████ | 36/40 [08:02<00:45, 11.44s/it] 92%|█████████▎| 37/40 [08:19<00:38, 12.99s/it]                                                92%|█████████▎| 37/40 [08:19<00:38, 12.99s/it] 95%|█████████▌| 38/40 [08:33<00:26, 13.34s/it]                                                95%|█████████▌| 38/40 [08:33<00:26, 13.34s/it] 98%|█████████▊| 39/40 [08:42<00:12, 12.08s/it]                                                98%|█████████▊| 39/40 [08:42<00:12, 12.08s/it]100%|██████████| 40/40 [08:53<00:00, 11.81s/it]                                               {'eval_loss': 0.6938768029212952, 'eval_runtime': 62.784, 'eval_samples_per_second': 1.386, 'eval_steps_per_second': 1.386, 'eval_rewards/chosen': 0.009744574315845966, 'eval_rewards/rejected': 0.009077606722712517, 'eval_rewards/accuracies': 0.517241358757019, 'eval_rewards/margins': 0.0006669650319963694, 'eval_logps/chosen': -323.178466796875, 'eval_logps/rejected': -214.9921875, 'eval_logits/chosen': -0.19297084212303162, 'eval_logits/rejected': -0.35300877690315247, 'epoch': 0.2}
+{'loss': 0.6864, 'grad_norm': 7.136401176452637, 'learning_rate': 1.4482758620689655e-06, 'rewards/chosen': 0.04702654108405113, 'rewards/rejected': 0.03185019642114639, 'rewards/accuracies': 0.625, 'rewards/margins': 0.01517634280025959, 'logps/chosen': -339.0358581542969, 'logps/rejected': -114.81948852539062, 'logits/chosen': -0.08009809255599976, 'logits/rejected': -0.5284541845321655, 'epoch': 0.21}
+{'loss': 0.6901, 'grad_norm': 6.517086982727051, 'learning_rate': 1.5172413793103447e-06, 'rewards/chosen': -0.019544031471014023, 'rewards/rejected': -0.02610640600323677, 'rewards/accuracies': 0.5, 'rewards/margins': 0.006562376394867897, 'logps/chosen': -283.424072265625, 'logps/rejected': -118.54039001464844, 'logits/chosen': -0.07014261186122894, 'logits/rejected': -0.35006964206695557, 'epoch': 0.22}
+{'loss': 0.7008, 'grad_norm': 8.286558151245117, 'learning_rate': 1.5862068965517242e-06, 'rewards/chosen': 0.018852997571229935, 'rewards/rejected': 0.033321939408779144, 'rewards/accuracies': 0.5, 'rewards/margins': -0.014468942768871784, 'logps/chosen': -424.7281494140625, 'logps/rejected': -244.83572387695312, 'logits/chosen': -0.19864681363105774, 'logits/rejected': -0.7276028394699097, 'epoch': 0.23}
+{'loss': 0.6634, 'grad_norm': 6.898522853851318, 'learning_rate': 1.6551724137931035e-06, 'rewards/chosen': 0.020513437688350677, 'rewards/rejected': -0.041248515248298645, 'rewards/accuracies': 0.75, 'rewards/margins': 0.06176195293664932, 'logps/chosen': -388.23272705078125, 'logps/rejected': -259.23187255859375, 'logits/chosen': -0.03206454962491989, 'logits/rejected': -0.3353675305843353, 'epoch': 0.25}
+{'loss': 0.6875, 'grad_norm': 6.674953937530518, 'learning_rate': 1.7241379310344825e-06, 'rewards/chosen': 0.027591515332460403, 'rewards/rejected': 0.01353473775088787, 'rewards/accuracies': 0.625, 'rewards/margins': 0.014056779444217682, 'logps/chosen': -331.0373229980469, 'logps/rejected': -284.27703857421875, 'logits/chosen': 0.05688668042421341, 'logits/rejected': -0.03091101348400116, 'epoch': 0.26}
+{'loss': 0.7016, 'grad_norm': 6.509829044342041, 'learning_rate': 1.793103448275862e-06, 'rewards/chosen': 0.0026607532054185867, 'rewards/rejected': 0.018700743094086647, 'rewards/accuracies': 0.375, 'rewards/margins': -0.01603998988866806, 'logps/chosen': -95.79078674316406, 'logps/rejected': -133.62548828125, 'logits/chosen': -0.6147998571395874, 'logits/rejected': -0.32877469062805176, 'epoch': 0.27}
+{'loss': 0.6972, 'grad_norm': 9.379752159118652, 'learning_rate': 1.8620689655172412e-06, 'rewards/chosen': 0.007606889121234417, 'rewards/rejected': 0.013128233142197132, 'rewards/accuracies': 0.5, 'rewards/margins': -0.005521349608898163, 'logps/chosen': -481.39495849609375, 'logps/rejected': -316.04736328125, 'logits/chosen': -0.15676811337471008, 'logits/rejected': -0.5076525211334229, 'epoch': 0.28}
+{'loss': 0.6784, 'grad_norm': 5.799335479736328, 'learning_rate': 1.9310344827586207e-06, 'rewards/chosen': 0.032296083867549896, 'rewards/rejected': 0.0021390914916992188, 'rewards/accuracies': 0.625, 'rewards/margins': 0.030156994238495827, 'logps/chosen': -187.8197479248047, 'logps/rejected': -141.05738830566406, 'logits/chosen': -0.4341356158256531, 'logits/rejected': -0.4725935459136963, 'epoch': 0.29}
+{'loss': 0.6656, 'grad_norm': 6.803658485412598, 'learning_rate': 2e-06, 'rewards/chosen': 0.029291532933712006, 'rewards/rejected': -0.02801971510052681, 'rewards/accuracies': 0.875, 'rewards/margins': 0.057311251759529114, 'logps/chosen': -302.832275390625, 'logps/rejected': -292.4902038574219, 'logits/chosen': -0.26337772607803345, 'logits/rejected': -0.26176124811172485, 'epoch': 0.3}
+{'loss': 0.6773, 'grad_norm': 5.404820442199707, 'learning_rate': 2e-06, 'rewards/chosen': 0.031530190259218216, 'rewards/rejected': -0.0012372005730867386, 'rewards/accuracies': 0.5, 'rewards/margins': 0.032767392694950104, 'logps/chosen': -270.55450439453125, 'logps/rejected': -226.77301025390625, 'logits/chosen': -0.3997931480407715, 'logits/rejected': -0.34768402576446533, 'epoch': 0.31}
+{'loss': 0.6825, 'grad_norm': 6.191116809844971, 'learning_rate': 2e-06, 'rewards/chosen': 0.046303749084472656, 'rewards/rejected': 0.022194480523467064, 'rewards/accuracies': 0.75, 'rewards/margins': 0.024109266698360443, 'logps/chosen': -263.28277587890625, 'logps/rejected': -221.0109405517578, 'logits/chosen': -0.5613631010055542, 'logits/rejected': -0.04243391752243042, 'epoch': 0.32}
+{'loss': 0.6422, 'grad_norm': 6.75496768951416, 'learning_rate': 2e-06, 'rewards/chosen': 0.12268257141113281, 'rewards/rejected': 0.01674508862197399, 'rewards/accuracies': 1.0, 'rewards/margins': 0.10593748092651367, 'logps/chosen': -313.845947265625, 'logps/rejected': -164.51345825195312, 'logits/chosen': -0.3189268112182617, 'logits/rejected': -0.3669426441192627, 'epoch': 0.33}
+{'loss': 0.6972, 'grad_norm': 5.990468978881836, 'learning_rate': 2e-06, 'rewards/chosen': -0.01804490014910698, 'rewards/rejected': -0.010416030883789062, 'rewards/accuracies': 0.25, 'rewards/margins': -0.007628869265317917, 'logps/chosen': -198.676025390625, 'logps/rejected': -137.4428253173828, 'logits/chosen': -0.38475340604782104, 'logits/rejected': -0.26851052045822144, 'epoch': 0.34}
+{'loss': 0.7262, 'grad_norm': 6.20060396194458, 'learning_rate': 2e-06, 'rewards/chosen': -0.02307281643152237, 'rewards/rejected': 0.03834838420152664, 'rewards/accuracies': 0.375, 'rewards/margins': -0.06142120063304901, 'logps/chosen': -297.0338134765625, 'logps/rejected': -193.865966796875, 'logits/chosen': -0.4948243200778961, 'logits/rejected': -0.2656421661376953, 'epoch': 0.35}
+{'loss': 0.6996, 'grad_norm': 6.633520603179932, 'learning_rate': 2e-06, 'rewards/chosen': -0.027208520099520683, 'rewards/rejected': -0.01563558727502823, 'rewards/accuracies': 0.5, 'rewards/margins': -0.011572932824492455, 'logps/chosen': -328.506591796875, 'logps/rejected': -197.38104248046875, 'logits/chosen': 0.06390084326267242, 'logits/rejected': -0.14351211488246918, 'epoch': 0.36}
+{'loss': 0.6772, 'grad_norm': 7.208662509918213, 'learning_rate': 2e-06, 'rewards/chosen': 0.021957779303193092, 'rewards/rejected': -0.011251329444348812, 'rewards/accuracies': 0.625, 'rewards/margins': 0.03320910781621933, 'logps/chosen': -479.6127624511719, 'logps/rejected': -214.15261840820312, 'logits/chosen': -0.22122646868228912, 'logits/rejected': -0.754014790058136, 'epoch': 0.37}
+{'loss': 0.6598, 'grad_norm': 6.382209300994873, 'learning_rate': 2e-06, 'rewards/chosen': 0.10605983436107635, 'rewards/rejected': 0.03624582290649414, 'rewards/accuracies': 0.75, 'rewards/margins': 0.06981401890516281, 'logps/chosen': -352.99530029296875, 'logps/rejected': -285.11981201171875, 'logits/chosen': -0.37272197008132935, 'logits/rejected': -0.2807101011276245, 'epoch': 0.38}
+{'loss': 0.6598, 'grad_norm': 6.073537826538086, 'learning_rate': 2e-06, 'rewards/chosen': 0.06268391758203506, 'rewards/rejected': -0.006867075338959694, 'rewards/accuracies': 0.625, 'rewards/margins': 0.0695509985089302, 'logps/chosen': -301.2853698730469, 'logps/rejected': -203.47640991210938, 'logits/chosen': -0.3438884913921356, 'logits/rejected': -0.25960177183151245, 'epoch': 0.39}
+{'loss': 0.6492, 'grad_norm': 6.826165676116943, 'learning_rate': 2e-06, 'rewards/chosen': 0.07315655052661896, 'rewards/rejected': -0.01933305338025093, 'rewards/accuracies': 0.75, 'rewards/margins': 0.09248960018157959, 'logps/chosen': -282.5883483886719, 'logps/rejected': -134.23606872558594, 'logits/chosen': -0.13740721344947815, 'logits/rejected': -0.33595770597457886, 'epoch': 0.4}
+100%|██████████| 40/40 [08:53<00:00, 11.81s/it][INFO|trainer.py:4289] 2026-08-14 12:06:19,895 >> 
+***** Running Evaluation *****
+[INFO|trainer.py:4291] 2026-08-14 12:06:19,896 >>   Num examples = 87
+[INFO|trainer.py:4294] 2026-08-14 12:06:19,896 >>   Batch size = 1
+{'loss': 0.6474, 'grad_norm': 6.629616737365723, 'learning_rate': 2e-06, 'rewards/chosen': 0.11778431385755539, 'rewards/rejected': 0.02223672904074192, 'rewards/accuracies': 0.75, 'rewards/margins': 0.09554757922887802, 'logps/chosen': -282.653076171875, 'logps/rejected': -276.5338439941406, 'logits/chosen': -0.38888025283813477, 'logits/rejected': -0.328755646944046, 'epoch': 0.41}
+
+  0%|          | 0/87 [00:00<?, ?it/s][A
+  2%|▏         | 2/87 [00:00<00:18,  4.50it/s][A
+  3%|▎         | 3/87 [00:00<00:26,  3.18it/s][A
+  5%|▍         | 4/87 [00:01<00:30,  2.76it/s][A
+  6%|▌         | 5/87 [00:01<00:32,  2.51it/s][A
+  7%|▋         | 6/87 [00:02<00:32,  2.46it/s][A
+  8%|▊         | 7/87 [00:02<00:32,  2.46it/s][A
+  9%|▉         | 8/87 [00:03<00:32,  2.43it/s][A
+ 10%|█         | 9/87 [00:03<00:32,  2.41it/s][A
+ 11%|█▏        | 10/87 [00:03<00:32,  2.40it/s][A
+ 13%|█▎        | 11/87 [00:04<00:31,  2.38it/s][A
+ 14%|█▍        | 12/87 [00:04<00:32,  2.34it/s][A
+ 15%|█▍        | 13/87 [00:05<00:32,  2.28it/s][A
+ 16%|█▌        | 14/87 [00:05<00:32,  2.24it/s][A
+ 17%|█▋        | 15/87 [00:06<00:32,  2.24it/s][A
+ 18%|█▊        | 16/87 [00:06<00:32,  2.21it/s][A
+ 20%|█▉        | 17/87 [00:07<00:31,  2.22it/s][A
+ 21%|██        | 18/87 [00:07<00:30,  2.29it/s][A
+ 22%|██▏       | 19/87 [00:07<00:29,  2.31it/s][A
+ 23%|██▎       | 20/87 [00:08<00:28,  2.36it/s][A
+ 24%|██▍       | 21/87 [00:08<00:27,  2.36it/s][A
+ 25%|██▌       | 22/87 [00:09<00:27,  2.33it/s][A
+ 26%|██▋       | 23/87 [00:09<00:27,  2.31it/s][A
+ 28%|██▊       | 24/87 [00:10<00:27,  2.29it/s][A
+ 29%|██▊       | 25/87 [00:10<00:27,  2.27it/s][A
+ 30%|██▉       | 26/87 [00:10<00:26,  2.27it/s][A
+ 31%|███       | 27/87 [00:11<00:26,  2.26it/s][A
+ 32%|███▏      | 28/87 [00:11<00:26,  2.26it/s][A
+ 33%|███▎      | 29/87 [00:12<00:25,  2.25it/s][A
+ 34%|███▍      | 30/87 [00:12<00:24,  2.28it/s][A
+ 36%|███▌      | 31/87 [00:13<00:24,  2.30it/s][A
+ 37%|███▋      | 32/87 [00:13<00:23,  2.31it/s][A
+ 38%|███▊      | 33/87 [00:13<00:23,  2.32it/s][A
+ 39%|███▉      | 34/87 [00:14<00:23,  2.30it/s][A
+ 40%|████      | 35/87 [00:14<00:22,  2.31it/s][A
+ 41%|████▏     | 36/87 [00:15<00:22,  2.32it/s][A
+ 43%|████▎     | 37/87 [00:15<00:21,  2.30it/s][A
+ 44%|████▎     | 38/87 [00:16<00:24,  2.00it/s][A
+ 45%|████▍     | 39/87 [00:17<00:27,  1.74it/s][A
+ 46%|████▌     | 40/87 [00:18<00:33,  1.39it/s][A
+ 47%|████▋     | 41/87 [00:19<00:37,  1.21it/s][A
+ 48%|████▊     | 42/87 [00:20<00:39,  1.14it/s][A
+ 49%|████▉     | 43/87 [00:21<00:40,  1.09it/s][A
+ 51%|█████     | 44/87 [00:21<00:35,  1.20it/s][A
+ 52%|█████▏    | 45/87 [00:22<00:37,  1.13it/s][A
+ 53%|█████▎    | 46/87 [00:24<00:41,  1.02s/it][A
+ 54%|█████▍    | 47/87 [00:25<00:40,  1.01s/it][A
+ 55%|█████▌    | 48/87 [00:26<00:42,  1.09s/it][A
+ 56%|█████▋    | 49/87 [00:27<00:36,  1.04it/s][A
+ 57%|█████▋    | 50/87 [00:28<00:41,  1.12s/it][A
+ 59%|█████▊    | 51/87 [00:29<00:37,  1.04s/it][A
+ 60%|█████▉    | 52/87 [00:30<00:31,  1.12it/s][A
+ 61%|██████    | 53/87 [00:31<00:33,  1.01it/s][A
+ 62%|██████▏   | 54/87 [00:32<00:30,  1.08it/s][A
+ 63%|██████▎   | 55/87 [00:32<00:27,  1.15it/s][A
+ 64%|██████▍   | 56/87 [00:33<00:26,  1.18it/s][A
+ 66%|██████▌   | 57/87 [00:34<00:23,  1.27it/s][A
+ 67%|██████▋   | 58/87 [00:35<00:25,  1.15it/s][A
+ 68%|██████▊   | 59/87 [00:35<00:20,  1.36it/s][A
+ 69%|██████▉   | 60/87 [00:36<00:21,  1.28it/s][A
+ 70%|███████   | 61/87 [00:37<00:24,  1.06it/s][A
+ 71%|███████▏  | 62/87 [00:39<00:29,  1.20s/it][A
+ 72%|███████▏  | 63/87 [00:40<00:24,  1.03s/it][A
+ 74%|███████▎  | 64/87 [00:40<00:20,  1.11it/s][A
+ 75%|███████▍  | 65/87 [00:41<00:16,  1.31it/s][A
+ 76%|███████▌  | 66/87 [00:42<00:17,  1.18it/s][A
+ 77%|███████▋  | 67/87 [00:43<00:17,  1.12it/s][A
+ 78%|███████▊  | 68/87 [00:44<00:16,  1.12it/s][A
+ 79%|███████▉  | 69/87 [00:45<00:17,  1.05it/s][A
+ 80%|████████  | 70/87 [00:46<00:17,  1.03s/it][A
+ 82%|████████▏ | 71/87 [00:47<00:16,  1.06s/it][A
+ 83%|████████▎ | 72/87 [00:48<00:13,  1.09it/s][A
+ 84%|████████▍ | 73/87 [00:49<00:12,  1.14it/s][A
+ 85%|████████▌ | 74/87 [00:50<00:11,  1.13it/s][A
+ 86%|████████▌ | 75/87 [00:51<00:12,  1.00s/it][A
+ 87%|████████▋ | 76/87 [00:52<00:10,  1.04it/s][A
+ 89%|████████▊ | 77/87 [00:52<00:08,  1.18it/s][A
+ 90%|████████▉ | 78/87 [00:53<00:07,  1.27it/s][A
+ 91%|█████████ | 79/87 [00:54<00:06,  1.26it/s][A
+ 92%|█████████▏| 80/87 [00:54<00:04,  1.43it/s][A
+ 93%|█████████▎| 81/87 [00:55<00:04,  1.27it/s][A
+ 94%|█████████▍| 82/87 [00:56<00:04,  1.14it/s][A
+ 95%|█████████▌| 83/87 [00:57<00:03,  1.14it/s][A
+ 97%|█████████▋| 84/87 [00:59<00:03,  1.13s/it][A
+ 98%|█████████▊| 85/87 [01:00<00:02,  1.02s/it][A
+ 99%|█████████▉| 86/87 [01:01<00:01,  1.07s/it][A
+100%|██████████| 87/87 [01:02<00:00,  1.00s/it][A                                               
+                                               [A100%|██████████| 40/40 [09:56<00:00, 11.81s/it]
+100%|██████████| 87/87 [01:02<00:00,  1.00s/it][A
+                                               [A[INFO|trainer.py:3966] 2026-08-14 12:07:22,576 >> Saving model checkpoint to /root/autodl-tmp/qwen25-week4/day20-remediation/runs/reward-corrective-40step/attempt_001/trainer_output/checkpoint-40
+[INFO|configuration_utils.py:697] 2026-08-14 12:07:22,619 >> loading configuration file /root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged/config.json
+[INFO|configuration_utils.py:771] 2026-08-14 12:07:22,620 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.50.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|tokenization_utils_base.py:2510] 2026-08-14 12:07:22,728 >> tokenizer config file saved in /root/autodl-tmp/qwen25-week4/day20-remediation/runs/reward-corrective-40step/attempt_001/trainer_output/checkpoint-40/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2519] 2026-08-14 12:07:22,728 >> Special tokens file saved in /root/autodl-tmp/qwen25-week4/day20-remediation/runs/reward-corrective-40step/attempt_001/trainer_output/checkpoint-40/special_tokens_map.json
+[INFO|trainer.py:2665] 2026-08-14 12:07:23,069 >> 
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+                                               100%|██████████| 40/40 [09:56<00:00, 11.81s/it]100%|██████████| 40/40 [09:56<00:00, 14.92s/it]
+[INFO|trainer.py:3966] 2026-08-14 12:07:23,123 >> Saving model checkpoint to /root/autodl-tmp/qwen25-week4/day20-remediation/runs/reward-corrective-40step/attempt_001/trainer_output
+[INFO|configuration_utils.py:697] 2026-08-14 12:07:23,163 >> loading configuration file /root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged/config.json
+[INFO|configuration_utils.py:771] 2026-08-14 12:07:23,163 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.50.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|tokenization_utils_base.py:2510] 2026-08-14 12:07:23,261 >> tokenizer config file saved in /root/autodl-tmp/qwen25-week4/day20-remediation/runs/reward-corrective-40step/attempt_001/trainer_output/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2519] 2026-08-14 12:07:23,262 >> Special tokens file saved in /root/autodl-tmp/qwen25-week4/day20-remediation/runs/reward-corrective-40step/attempt_001/trainer_output/special_tokens_map.json
+[INFO|trainer.py:4289] 2026-08-14 12:07:23,730 >> 
+***** Running Evaluation *****
+[INFO|trainer.py:4291] 2026-08-14 12:07:23,730 >>   Num examples = 87
+[INFO|trainer.py:4294] 2026-08-14 12:07:23,730 >>   Batch size = 1
+{'eval_loss': 0.6694687008857727, 'eval_runtime': 62.6771, 'eval_samples_per_second': 1.388, 'eval_steps_per_second': 1.388, 'eval_rewards/chosen': 0.055808912962675095, 'eval_rewards/rejected': 0.0053641414269804955, 'eval_rewards/accuracies': 0.7011494040489197, 'eval_rewards/margins': 0.050444766879081726, 'eval_logps/chosen': -322.7178649902344, 'eval_logps/rejected': -215.02931213378906, 'eval_logits/chosen': -0.19109730422496796, 'eval_logits/rejected': -0.35115480422973633, 'epoch': 0.41}
+{'train_runtime': 596.9872, 'train_samples_per_second': 0.536, 'train_steps_per_second': 0.067, 'train_loss': 0.6883303463459015, 'epoch': 0.41}
+***** train metrics *****
+  epoch                    =     0.4087
+  total_flos               =  9053053GF
+  train_loss               =     0.6883
+  train_runtime            = 0:09:56.98
+  train_samples_per_second =      0.536
+  train_steps_per_second   =      0.067
+Figure saved at: /root/autodl-tmp/qwen25-week4/day20-remediation/runs/reward-corrective-40step/attempt_001/trainer_output/training_loss.png
+Figure saved at: /root/autodl-tmp/qwen25-week4/day20-remediation/runs/reward-corrective-40step/attempt_001/trainer_output/training_rewards_accuracies.png
+Figure saved at: /root/autodl-tmp/qwen25-week4/day20-remediation/runs/reward-corrective-40step/attempt_001/trainer_output/training_eval_loss.png
+  0%|          | 0/87 [00:00<?, ?it/s]  2%|▏         | 2/87 [00:00<00:18,  4.50it/s]  3%|▎         | 3/87 [00:00<00:26,  3.18it/s]  5%|▍         | 4/87 [00:01<00:30,  2.76it/s]  6%|▌         | 5/87 [00:01<00:32,  2.51it/s]  7%|▋         | 6/87 [00:02<00:32,  2.47it/s]  8%|▊         | 7/87 [00:02<00:32,  2.47it/s]  9%|▉         | 8/87 [00:03<00:32,  2.43it/s] 10%|█         | 9/87 [00:03<00:32,  2.41it/s] 11%|█▏        | 10/87 [00:03<00:32,  2.40it/s] 13%|█▎        | 11/87 [00:04<00:31,  2.39it/s] 14%|█▍        | 12/87 [00:04<00:31,  2.35it/s] 15%|█▍        | 13/87 [00:05<00:32,  2.29it/s] 16%|█▌        | 14/87 [00:05<00:32,  2.24it/s] 17%|█▋        | 15/87 [00:06<00:32,  2.24it/s] 18%|█▊        | 16/87 [00:06<00:32,  2.22it/s] 20%|█▉        | 17/87 [00:07<00:31,  2.22it/s] 21%|██        | 18/87 [00:07<00:30,  2.29it/s] 22%|██▏       | 19/87 [00:07<00:29,  2.32it/s] 23%|██▎       | 20/87 [00:08<00:28,  2.37it/s] 24%|██▍       | 21/87 [00:08<00:27,  2.37it/s] 25%|██▌       | 22/87 [00:09<00:27,  2.34it/s] 26%|██▋       | 23/87 [00:09<00:27,  2.31it/s] 28%|██▊       | 24/87 [00:10<00:27,  2.30it/s] 29%|██▊       | 25/87 [00:10<00:27,  2.28it/s] 30%|██▉       | 26/87 [00:10<00:26,  2.27it/s] 31%|███       | 27/87 [00:11<00:26,  2.26it/s] 32%|███▏      | 28/87 [00:11<00:26,  2.26it/s] 33%|███▎      | 29/87 [00:12<00:25,  2.25it/s] 34%|███▍      | 30/87 [00:12<00:24,  2.28it/s] 36%|███▌      | 31/87 [00:13<00:24,  2.30it/s] 37%|███▋      | 32/87 [00:13<00:23,  2.31it/s] 38%|███▊      | 33/87 [00:13<00:23,  2.32it/s] 39%|███▉      | 34/87 [00:14<00:23,  2.30it/s] 40%|████      | 35/87 [00:14<00:22,  2.31it/s] 41%|████▏     | 36/87 [00:15<00:21,  2.32it/s] 43%|████▎     | 37/87 [00:15<00:21,  2.30it/s] 44%|████▎     | 38/87 [00:16<00:24,  2.00it/s] 45%|████▍     | 39/87 [00:17<00:27,  1.74it/s] 46%|████▌     | 40/87 [00:18<00:33,  1.40it/s] 47%|████▋     | 41/87 [00:19<00:37,  1.22it/s] 48%|████▊     | 42/87 [00:20<00:39,  1.15it/s] 49%|████▉     | 43/87 [00:21<00:39,  1.10it/s] 51%|█████     | 44/87 [00:21<00:35,  1.21it/s] 52%|█████▏    | 45/87 [00:22<00:36,  1.15it/s] 53%|█████▎    | 46/87 [00:24<00:41,  1.01s/it] 54%|█████▍    | 47/87 [00:25<00:40,  1.00s/it] 55%|█████▌    | 48/87 [00:26<00:42,  1.08s/it] 56%|█████▋    | 49/87 [00:27<00:36,  1.05it/s] 57%|█████▋    | 50/87 [00:28<00:41,  1.11s/it] 59%|█████▊    | 51/87 [00:29<00:37,  1.04s/it] 60%|█████▉    | 52/87 [00:29<00:31,  1.12it/s] 61%|██████    | 53/87 [00:31<00:33,  1.01it/s] 62%|██████▏   | 54/87 [00:31<00:30,  1.09it/s] 63%|██████▎   | 55/87 [00:32<00:27,  1.16it/s] 64%|██████▍   | 56/87 [00:33<00:26,  1.18it/s] 66%|██████▌   | 57/87 [00:34<00:23,  1.28it/s] 67%|██████▋   | 58/87 [00:35<00:25,  1.15it/s] 68%|██████▊   | 59/87 [00:35<00:20,  1.36it/s] 69%|██████▉   | 60/87 [00:36<00:21,  1.28it/s] 70%|███████   | 61/87 [00:37<00:24,  1.06it/s] 71%|███████▏  | 62/87 [00:39<00:29,  1.19s/it] 72%|███████▏  | 63/87 [00:40<00:24,  1.03s/it] 74%|███████▎  | 64/87 [00:40<00:20,  1.11it/s] 75%|███████▍  | 65/87 [00:41<00:16,  1.31it/s] 76%|███████▌  | 66/87 [00:42<00:17,  1.18it/s] 77%|███████▋  | 67/87 [00:43<00:17,  1.12it/s] 78%|███████▊  | 68/87 [00:44<00:16,  1.12it/s] 79%|███████▉  | 69/87 [00:45<00:17,  1.05it/s] 80%|████████  | 70/87 [00:46<00:17,  1.03s/it] 82%|████████▏ | 71/87 [00:47<00:16,  1.05s/it] 83%|████████▎ | 72/87 [00:48<00:13,  1.09it/s] 84%|████████▍ | 73/87 [00:48<00:12,  1.14it/s] 85%|████████▌ | 74/87 [00:49<00:11,  1.13it/s] 86%|████████▌ | 75/87 [00:51<00:11,  1.00it/s] 87%|████████▋ | 76/87 [00:52<00:10,  1.04it/s] 89%|████████▊ | 77/87 [00:52<00:08,  1.17it/s] 90%|████████▉ | 78/87 [00:53<00:07,  1.27it/s] 91%|█████████ | 79/87 [00:54<00:06,  1.25it/s] 92%|█████████▏| 80/87 [00:54<00:04,  1.42it/s] 93%|█████████▎| 81/87 [00:55<00:04,  1.27it/s] 94%|█████████▍| 82/87 [00:56<00:04,  1.13it/s] 95%|█████████▌| 83/87 [00:57<00:03,  1.13it/s] 97%|█████████▋| 84/87 [00:59<00:03,  1.14s/it] 98%|█████████▊| 85/87 [00:59<00:02,  1.02s/it] 99%|█████████▉| 86/87 [01:01<00:01,  1.07s/it]100%|██████████| 87/87 [01:02<00:00,  1.01s/it]100%|██████████| 87/87 [01:02<00:00,  1.40it/s]
+[INFO|modelcard.py:449] 2026-08-14 12:08:26,332 >> Dropping the following result as it does not have all the necessary fields:
+{'task': {'name': 'Causal Language Modeling', 'type': 'text-generation'}}
+***** eval metrics *****
+  epoch                   =     0.4087
+  eval_logits/chosen      =    -0.1911
+  eval_logits/rejected    =    -0.3512
+  eval_logps/chosen       =  -322.7179
+  eval_logps/rejected     =  -215.0293
+  eval_loss               =     0.6695
+  eval_rewards/accuracies =     0.7011
+  eval_rewards/chosen     =     0.0558
+  eval_rewards/margins    =     0.0504
+  eval_rewards/rejected   =     0.0054
+  eval_runtime            = 0:01:02.59
+  eval_samples_per_second =       1.39
+  eval_steps_per_second   =       1.39

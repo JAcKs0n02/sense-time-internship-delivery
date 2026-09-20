@@ -1,0 +1,14 @@
+{
+  "sample_id": "d0b85683b12239fb4c4ded3742384c9f8b4dcf75b62b0a3c634ea2cb7ee85847",
+  "prompt": "她看到了那只鸟。\n\n改用不同的动词改写以下句子。",
+  "messages": [
+    {
+      "role": "user",
+      "content": "她看到了那只鸟。\n\n改用不同的动词改写以下句子。"
+    }
+  ],
+  "answer": "她观察到了那只鸟。\n她注意到了那只鸟。\n她发现了那只鸟。\n她察觉到了那只鸟。",
+  "truncated": false,
+  "input_tokens": 44,
+  "output_tokens": 24
+}

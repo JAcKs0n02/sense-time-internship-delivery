@@ -1,0 +1,102 @@
+[
+  {
+    "prompt_id": "rem-dev-business-01",
+    "candidate_label": "A",
+    "model_alias": "safety-v2-lr5e6-e2"
+  },
+  {
+    "prompt_id": "rem-dev-business-01",
+    "candidate_label": "B",
+    "model_alias": "safety-v2-lr2e6-e2"
+  },
+  {
+    "prompt_id": "rem-dev-business-01",
+    "candidate_label": "C",
+    "model_alias": "safety-v2-lr2e6-e3"
+  },
+  {
+    "prompt_id": "rem-dev-business-01",
+    "candidate_label": "D",
+    "model_alias": "sft_only"
+  },
+  {
+    "prompt_id": "rem-dev-business-02",
+    "candidate_label": "A",
+    "model_alias": "safety-v2-lr2e6-e3"
+  },
+  {
+    "prompt_id": "rem-dev-business-02",
+    "candidate_label": "B",
+    "model_alias": "safety-v2-lr5e6-e2"
+  },
+  {
+    "prompt_id": "rem-dev-business-02",
+    "candidate_label": "C",
+    "model_alias": "sft_only"
+  },
+  {
+    "prompt_id": "rem-dev-business-02",
+    "candidate_label": "D",
+    "model_alias": "safety-v2-lr2e6-e2"
+  },
+  {
+    "prompt_id": "rem-dev-business-03",
+    "candidate_label": "A",
+    "model_alias": "safety-v2-lr2e6-e2"
+  },
+  {
+    "prompt_id": "rem-dev-business-03",
+    "candidate_label": "B",
+    "model_alias": "safety-v2-lr2e6-e3"
+  },
+  {
+    "prompt_id": "rem-dev-business-03",
+    "candidate_label": "C",
+    "model_alias": "safety-v2-lr5e6-e2"
+  },
+  {
+    "prompt_id": "rem-dev-business-03",
+    "candidate_label": "D",
+    "model_alias": "sft_only"
+  },
+  {
+    "prompt_id": "rem-dev-business-04",
+    "candidate_label": "A",
+    "model_alias": "safety-v2-lr2e6-e2"
+  },
+  {
+    "prompt_id": "rem-dev-business-04",
+    "candidate_label": "B",
+    "model_alias": "safety-v2-lr5e6-e2"
+  },
+  {
+    "prompt_id": "rem-dev-business-04",
+    "candidate_label": "C",
+    "model_alias": "sft_only"
+  },
+  {
+    "prompt_id": "rem-dev-business-04",
+    "candidate_label": "D",
+    "model_alias": "safety-v2-lr2e6-e3"
+  },
+  {
+    "prompt_id": "rem-dev-business-05",
+    "candidate_label": "A",
+    "model_alias": "safety-v2-lr2e6-e2"
+  },
+  {
+    "prompt_id": "rem-dev-business-05",
+    "candidate_label": "B",
+    "model_alias": "safety-v2-lr5e6-e2"
+  },
+  {
+    "prompt_id": "rem-dev-business-05",
+    "candidate_label": "C",
+    "model_alias": "safety-v2-lr2e6-e3"
+  },
+  {
+    "prompt_id": "rem-dev-business-05",
+    "candidate_label": "D",
+    "model_alias": "sft_only"
+  }
+]

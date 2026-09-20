@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "day": 19,
+  "task": "DPO reward-trend corrective training",
+  "attempt": "reward-corrective-40step/attempt_001",
+  "status": {
+    "status": "completed",
+    "returncode": 0
+  },
+  "global_step": 40,
+  "max_steps": 40,
+  "completed_epoch_fraction": 0.4086845466155811,
+  "train_results": {
+    "epoch": 0.4086845466155811,
+    "total_flos": 9720641694597120.0,
+    "train_loss": 0.6883303463459015,
+    "train_runtime": 596.9872,
+    "train_samples_per_second": 0.536,
+    "train_steps_per_second": 0.067
+  },
+  "evaluation_history": [
+    {
+      "epoch": 0.20434227330779056,
+      "eval_loss": 0.6938768029212952,
+      "eval_rewards/chosen": 0.009744574315845966,
+      "eval_rewards/rejected": 0.009077606722712517,
+      "eval_rewards/margins": 0.0006669650319963694,
+      "eval_rewards/accuracies": 0.517241358757019,
+      "step": 20
+    },
+    {
+      "epoch": 0.4086845466155811,
+      "eval_loss": 0.6694687008857727,
+      "eval_rewards/chosen": 0.055808912962675095,
+      "eval_rewards/rejected": 0.0053641414269804955,
+      "eval_rewards/margins": 0.050444766879081726,
+      "eval_rewards/accuracies": 0.7011494040489197,
+      "step": 40
+    }
+  ],
+  "reward_trend": {
+    "logged_steps": 40,
+    "first_step": 1,
+    "last_step": 40,
+    "trend_window": 20,
+    "chosen_reward_delta": 0.11778431385755539,
+    "rejected_reward_delta": 0.02223672904074192,
+    "margin_delta": 0.09554757922887802,
+    "chosen_reward_window_delta": 0.03185908608720638,
+    "rejected_reward_window_delta": -0.004136195220053195,
+    "margin_window_delta": 0.03599528145277873,
+    "first_window_chosen_mean": 0.0021473333647008984,
+    "final_window_chosen_mean": 0.03400641945190728,
+    "first_window_rejected_mean": 0.008552721887826919,
+    "final_window_rejected_mean": 0.004416526667773724,
+    "teacher_trend_observed": true
+  },
+  "reference_strategy": {
+    "implementation": "implicit adapter-disabled reference in LLaMA-Factory LoRA DPO",
+    "logical_reference": "frozen Week3 best merged SFT",
+    "reason": "the explicit second 7B reference instance exceeded RTX 3090 24 GiB memory at a long sample"
+  },
+  "data": {
+    "train_count": 783,
+    "validation_count": 87,
+    "train_sha256": "99f90060ba8b0904e561e14296722e46e1aff55f8f61ab16a0c173a720e5cfcc",
+    "validation_sha256": "8af26c924daee6a47daf61f44ee0d17b082d6ec55cd52e7bdbc761a7b4f84e60",
+    "teacher_prompt_contamination": 0
+  },
+  "adapter": {
+    "path": "/root/autodl-tmp/qwen25-week4/day20-remediation/runs/reward-corrective-40step/attempt_001/trainer_output",
+    "bytes": 80792096,
+    "sha256": "d7a932ee4f28c8950db289126381f5d4dd30a037b238852e87ad8e5a241f9e52"
+  },
+  "development_selection": {
+    "response_sha256": "8dd131fc4c2c0a2e88b64ba00507612abdf908b9227cb707b8cf420c6ff6de85",
+    "harmful_refusal_rate": 0.9,
+    "benign_help_rate": 1.0,
+    "business_mean": 3.555,
+    "sft_business_mean": 3.58,
+    "teacher_prompts_used_for_selection": false,
+    "passes_all_promotion_gates": true
+  }
+}

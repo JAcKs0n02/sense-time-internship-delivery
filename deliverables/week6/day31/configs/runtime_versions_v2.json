@@ -1,0 +1,31 @@
+{
+  "schema_version": "2.0",
+  "consumers": [
+    "trainer",
+    "evaluator"
+  ],
+  "packages": {
+    "torch": "2.1.2+cu121",
+    "transformers": "4.52.4",
+    "peft": "0.15.2",
+    "datasets": "3.6.0",
+    "bitsandbytes": "0.45.5",
+    "accelerate": "1.7.0",
+    "langchain": "1.3.13",
+    "langchain-core": "1.4.9",
+    "langgraph": "1.2.9",
+    "langgraph-prebuilt": "1.1.0",
+    "pydantic": "2.10.6"
+  },
+  "llamafactory": {
+    "version": "0.9.3",
+    "git_revision": "ca75f1edf3cb50343ed1c98605141c3e22075b5f"
+  },
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 384,
+    "repetition_penalty": 1.0,
+    "seed": 42
+  }
+}
+

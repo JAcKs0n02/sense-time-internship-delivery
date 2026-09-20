@@ -1,0 +1,14 @@
+{
+  "sample_id": "7f14e57f7f339e0e1a1c8bc2e358d23d5596ba18bdb9b3912b8f2f01efc7b59a",
+  "prompt": "请将下列日文句子翻译成中文\n\nあと途中のハウリングごめんな🥲",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请将下列日文句子翻译成中文\n\nあと途中のハウリングごめんな🥲"
+    }
+  ],
+  "answer": "还有中途的回声抱歉啊",
+  "truncated": false,
+  "input_tokens": 49,
+  "output_tokens": 8
+}

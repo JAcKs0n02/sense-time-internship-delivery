@@ -1,0 +1,14 @@
+{
+  "sample_id": "acfe6bfa05dc5ed8050581ac24a600c23f28da59f61c5a9649f4196271a0288b",
+  "prompt": "请根据下联给出下上联\n\n下联：天 马 行 空 挺 费 神",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请根据下联给出下上联\n\n下联：天 马 行 空 挺 费 神"
+    }
+  ],
+  "answer": "上联：'人 驼 列 队 何 等 冷 '",
+  "truncated": false,
+  "input_tokens": 59,
+  "output_tokens": 22
+}

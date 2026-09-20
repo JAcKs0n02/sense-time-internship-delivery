@@ -1,0 +1,17 @@
+{
+  "status": "PASS_PENDING_REVIEW",
+  "error": null,
+  "attempts": 2,
+  "accepted_cases": [
+    "EQ-TEXT",
+    "STRICT-BOOL"
+  ],
+  "usage": {
+    "promptTokenCount": 3935,
+    "candidatesTokenCount": 491,
+    "thoughtsTokenCount": 1109,
+    "totalTokenCount": 5535
+  },
+  "usage_complete": true,
+  "formal_release": false
+}

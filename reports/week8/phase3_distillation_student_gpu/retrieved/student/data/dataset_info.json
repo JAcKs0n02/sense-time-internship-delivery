@@ -1,0 +1,18 @@
+{
+  "week8_train": {
+    "file_name": "train_alpaca.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "week8_validation": {
+    "file_name": "validation_alpaca.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+}

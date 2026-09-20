@@ -1,0 +1,30 @@
+{
+  "status": "COMPATIBILITY_PROBE_PASS",
+  "scores": {
+    "accuracy": 5,
+    "completeness": 1,
+    "logic": 5,
+    "safety": 5,
+    "format": 5,
+    "weighted_score": 4.0
+  },
+  "checks": {
+    "completeness_max": true,
+    "accuracy_min": true,
+    "logic_min": true,
+    "format_min": true
+  },
+  "usage": {
+    "input_tokens": 2134,
+    "input_tokens_details": {
+      "cached_tokens": 768
+    },
+    "output_tokens": 1128,
+    "output_tokens_details": {
+      "reasoning_tokens": 937
+    },
+    "total_tokens": 3262
+  },
+  "formal_release": false,
+  "raw_sha256": "1120308e50d5e71ce0bd335121b94d6853046028fcb4f0182d812c5331f604e7"
+}

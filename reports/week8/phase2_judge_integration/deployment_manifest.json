@@ -1,0 +1,15 @@
+{
+  "status": "PREPARED_NOT_DEPLOYED",
+  "files": {
+    "scripts/step3_eval.py": "6cfb6f4569aac8b46476f2f9c2f4f928319d4e77150235c8c22781232b88eec3",
+    "scripts/week8_deepseek_judge.py": "5b8ad8ac4cb93578293a8d58aea0960ddd1dbacf93e02713e91cfe751cb5be7b",
+    "scripts/setup_week8_judge_key.py": "27a27f7cd7fba05794268e9a4e844a6264fa90526b2f4daecf6b5a46f3f63786",
+    "configs/week8_judge_profile.json": "dc39f54e2b8de3324baec87535102ec90f2fc2c31cae91b741e746b2cd329512",
+    "reports/week8/phase2_judge_calibration_v3/judge_profile_candidate.json": "b52ff875b87f6955680f286f982eb47c60e3cfad8a894f5bf4506475d9ce8a3f",
+    "reports/week8/phase2_judge_calibration_v3/verification.json": "002271cf6d981367b6bc18794493a83701dfe8a25737b7c13a60e534f525f245",
+    "deliverables/week3/day14/source/data/evaluation_questions.json": "4967eb0ca0a64937446dff1412bb78878d3e744c4699b43cd4265aec09c2e85e",
+    "deliverables/week3/day14/source/data/evaluation_rubric.json": "f7ef335da29e13b9128230287181f9305251cf5de99746b97a6554335680693d"
+  },
+  "contains_credentials": false,
+  "target_config_must_be_rebuilt": true
+}

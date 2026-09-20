@@ -1,0 +1,10 @@
+{
+  "status": "WINDOW2_TARGET_PREFLIGHT_PASS",
+  "utc": "2026-09-17T11:09:44.904233+00:00",
+  "coordinator_sha256": "308dabb2fd65c66f49b3daca8e51f4591b90090a384769e36eb9c5c2d15bd4b9",
+  "platform_shutdown_utc": "2026-09-17T20:35:00+00:00",
+  "gpu_price_cny_per_hour": 1.48,
+  "balance_before_start_cny": 18.33,
+  "gpu": "RTX 3090",
+  "free_disk_gib": 20.06
+}

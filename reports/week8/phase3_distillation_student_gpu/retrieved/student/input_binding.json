@@ -1,0 +1,107 @@
+{
+  "generation_receipt_sha256": "2ad4c1fccc01ea807f89452a4e29a02d56fb4444aecdf58a164461a87a83cd35",
+  "quality_review_sha256": "40cf91e9b8ef2050b717cd8dce91a66ff8357ad76375fdfc69a39cb4933d9278",
+  "teacher_targets_sha256": "8f0bed57299c4e088782ec53703e78d6a2fdffc82e8cdef0f53b6f2a353bcccf",
+  "student_identity": {
+    "status": "OFFICIAL_REVISION_CONTENT_MATCHED",
+    "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "download_source": "ModelScope Qwen official repository; content checked against Hugging Face revision",
+    "model_dir": "/root/autodl-tmp/week8-distillation-preflight-20260918/student-Qwen2.5-0.5B-Instruct",
+    "files": [
+      {
+        "path": "LICENSE",
+        "bytes": 11343,
+        "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+        "official_blob_or_lfs_hash": "6634c8cc3133b3848ec74b9f275acaaa1ea618ab"
+      },
+      {
+        "path": "config.json",
+        "bytes": 659,
+        "sha256": "18e18afcaccafade98daf13a54092927904649e1dd4eba8299ab717d5d94ff45",
+        "official_blob_or_lfs_hash": "0dbb161213629a23f0fc00ef286e6b1e366d180f"
+      },
+      {
+        "path": "generation_config.json",
+        "bytes": 242,
+        "sha256": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6",
+        "official_blob_or_lfs_hash": "dfc11073787daf1b0f9c0f1499487ab5f4c93738"
+      },
+      {
+        "path": "merges.txt",
+        "bytes": 1671839,
+        "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+        "official_blob_or_lfs_hash": "20024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0"
+      },
+      {
+        "path": "model.safetensors",
+        "bytes": 988097824,
+        "sha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+        "official_blob_or_lfs_hash": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe"
+      },
+      {
+        "path": "tokenizer.json",
+        "bytes": 7031645,
+        "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+        "official_blob_or_lfs_hash": "443909a61d429dff23010e5bddd28ff530edda00"
+      },
+      {
+        "path": "tokenizer_config.json",
+        "bytes": 7305,
+        "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+        "official_blob_or_lfs_hash": "07bfe0640cb5a0037f9322287fbfc682806cf672"
+      },
+      {
+        "path": "vocab.json",
+        "bytes": 2776833,
+        "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+        "official_blob_or_lfs_hash": "4783fe10ac3adce15ac8f358ef5462739852c569"
+      }
+    ]
+  },
+  "config": {
+    "method": "sequence_level_teacher_generation_then_student_sft",
+    "teacher_lineage": "Week4 reward_corrective_40step_merged; local path supplied explicitly",
+    "student_model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+    "student_model_note": "0.5B instruction checkpoint selected explicitly; not the 7B teacher",
+    "epochs": 2,
+    "max_samples": 200,
+    "max_new_tokens": 256,
+    "cutoff_len": 1024,
+    "temperature": 0.7,
+    "seed": 42,
+    "learning_rate": 5e-05,
+    "lora_rank": 8,
+    "lora_alpha": 16,
+    "soft_label_kl_implemented": false,
+    "acceptance": "GPU teacher generation, two student epochs, before/after CEval and identical-protocol throughput; pending until receipts exist"
+  },
+  "accepted_teacher_answers": 191,
+  "curated_teacher_answers": 152,
+  "curation_manifest_sha256": "6c212f094162a9c2990197c390e74382fd5c129ec39d4a48db45af8e0571f6d1",
+  "data_statistics": {
+    "mode": "formal_tokenizer",
+    "tokenizer": "/root/autodl-tmp/week8-distillation-preflight-20260918/student-Qwen2.5-0.5B-Instruct",
+    "source": "/root/autodl-tmp/week8-distillation-student-20260918/curation/curated_targets.json",
+    "source_sha256": "8f0bed57299c4e088782ec53703e78d6a2fdffc82e8cdef0f53b6f2a353bcccf",
+    "seed": 42,
+    "raw_count": 152,
+    "clean_count": 152,
+    "rejected": 0,
+    "exact_duplicates": 0,
+    "fuzzy_duplicates": 0,
+    "train_count": 137,
+    "validation_count": 15,
+    "split_policy": "90:10 shuffled prompt groups; integer rounding; same prompt stays together",
+    "prompt_overlap": 0,
+    "max_length": 1024,
+    "length_unit": "model_chat_template_tokens",
+    "outputs": {
+      "dataset_info.json": "31e506e1ef7460b8b390a1bbf25c193f7b2fd14ddb90278d2f04e7c1522727d4",
+      "train_alpaca.json": "986f5dda095bbeae0f3c5c239b8141124cec3836bd16e40eefbbaff61870be32",
+      "train_sharegpt.json": "4703bc0a2f71af2caaef500f4c633673df78202ac6fe8b8a30e2b2359dce4ed1",
+      "validation_alpaca.json": "02b33b5d12b9c17b65acd1caf90e520a1f6641529cc0e655aa97aad4439e0e21",
+      "validation_sharegpt.json": "4f4ee46a1db52ef606c66e65b7d6f1a9f6c30e5e484a69e0713a1fb68d656623"
+    }
+  }
+}

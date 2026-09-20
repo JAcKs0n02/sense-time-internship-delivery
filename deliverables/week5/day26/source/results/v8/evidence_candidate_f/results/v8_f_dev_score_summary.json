@@ -1,0 +1,75 @@
+{
+  "schema_version": "day26-v7-score-summary-1",
+  "split": "dev",
+  "case_count": 20,
+  "mean_base": 3.9775,
+  "mean_lora": 3.525,
+  "mean_gain": -0.4525000000000001,
+  "direct_base": 3.5450000000000004,
+  "direct_lora": 3.5200000000000005,
+  "direct_gain": -0.02499999999999991,
+  "lora_wins": 4,
+  "opportunity_count": 12,
+  "opportunity_wins": 4,
+  "opportunity_win_rate": 0.3333333333333333,
+  "base_hallucination_count": 8,
+  "lora_hallucination_count": 11,
+  "base_hallucination_rate": 0.4,
+  "lora_hallucination_rate": 0.55,
+  "category_metrics": {
+    "natural_scene": {
+      "mean_base": 3.9125,
+      "mean_lora": 3.4625000000000004,
+      "mean_gain": -0.44999999999999973,
+      "lora_wins": 1
+    },
+    "ocr": {
+      "mean_base": 4.5875,
+      "mean_lora": 4.05,
+      "mean_gain": -0.5375000000000005,
+      "lora_wins": 1
+    },
+    "chart_table": {
+      "mean_base": 3.825,
+      "mean_lora": 4.0125,
+      "mean_gain": 0.1875,
+      "lora_wins": 1
+    },
+    "ui": {
+      "mean_base": 3.7875,
+      "mean_lora": 3.125,
+      "mean_gain": -0.6625000000000001,
+      "lora_wins": 0
+    },
+    "formula": {
+      "mean_base": 3.775,
+      "mean_lora": 2.975,
+      "mean_gain": -0.7999999999999998,
+      "lora_wins": 1
+    }
+  },
+  "thresholds": {
+    "mean_gain_min": 0.35,
+    "direct_gain_min": 0.0,
+    "opportunity_win_rate_min": 0.5,
+    "hallucination_rate_not_worse": true
+  },
+  "checks": {
+    "mean_gain": false,
+    "hallucination_rate": false,
+    "opportunity_win_rate": false,
+    "direct_gain": false
+  },
+  "passed": false,
+  "run_id": "day26-v8-f-dev-s100",
+  "run_spec_sha256": "54741df3695c8539f73660229c75e651985b2e36e7dd1ec62d81f4c57106ce15",
+  "generation_config_sha256": "fe63978dbe52e0a2efac646d03bcdf444b1ab5ac9eddcfcb3137b834ec9ae9d7",
+  "scoring_config_sha256": "367a4e997ec17b445b661aab3c64aa2e285acde0bc2ac871cce6b382fbf30f3e",
+  "cases_sha256": "b7129fe14aafd34e68cf5a044bd57eeb86bd6d6fbf70ba323f6bd45a53968312",
+  "base_model_revision": "eed13092ef92e448dd6875b2a00151bd3f7db0ac",
+  "base_model_files_digest_sha256": "575d62b8abe01fda09b28a02ff8e6cd04e8df0d15fd03e1642d3a22bbe7eb812",
+  "base_model_manifest_sha256": "d81b269bdb13194e4bd431518cba6e3d6d4cc36f7215138514d60f6d4e4f530e",
+  "adapter_config_sha256": "03f4a62f33d8ac598d3788f636db23327200756cb87c84c1a013f99d310afe6f",
+  "adapter_model_sha256": "d1e003c0852827646df752741cdc4b7e78309d67f362c571201f513b5230a505",
+  "lora_scale": 1.0
+}

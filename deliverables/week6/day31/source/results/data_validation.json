@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "valid": true,
+  "errors": [],
+  "checks": {
+    "train_exactly_100": true,
+    "eval_exactly_30": true,
+    "unique_train_ids": true,
+    "unique_eval_ids": true,
+    "split_ids_disjoint": true,
+    "split_membership": true,
+    "category_counts": true,
+    "role_alternation": true,
+    "valid_json_arguments": true,
+    "registered_tool_names": true,
+    "tools_schema_valid": true,
+    "reproducible_observations": true,
+    "audit_one_to_one": true,
+    "audit_content_projection": true,
+    "exact_prompt_overlap_zero": true,
+    "near_prompt_overlap_zero": true,
+    "semantic_case_overlap_zero": true,
+    "finite_token_proxy_lengths": true,
+    "deterministic_rebuild": true,
+    "manifest_file_sha256s": true,
+    "manifest_metadata_frozen": true,
+    "recovery_termination_semantics": true,
+    "zero_shipping_calculator_required": true,
+    "code_only_no_unnecessary_retrieval": true,
+    "formal_llamafactory_runtime": "pending_autodl_preflight"
+  },
+  "counts": {
+    "train": 100,
+    "eval_frozen": 30,
+    "exact_prompt_overlap": 0,
+    "near_prompt_overlap": 0,
+    "semantic_case_overlap": 0
+  },
+  "note": "Local ShareGPT schema smoke passed structurally; formal LLaMA-Factory version/revision and parser execution remain an AutoDL preflight fact."
+}

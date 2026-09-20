@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "day4_root": "/Users/yifanren/Documents/商汤科技实习/deliverables/week1/day4",
+  "notebook": "/Users/yifanren/Documents/商汤科技实习/deliverables/week1/day4/tokenizer_experiments.executed.ipynb",
+  "results_dir": "/Users/yifanren/Documents/商汤科技实习/deliverables/week1/day4/source/results",
+  "checks": [
+    "executed notebook exists",
+    "notebook contains code cells",
+    "all code cells have execution counts",
+    "notebook contains no error output",
+    "extreme case CSV exists",
+    "extreme case CSV has exactly 15 rows",
+    "extreme case IDs match fixed specification",
+    "special token JSON exists",
+    "three required Qwen special tokens are recorded",
+    "both add_generation_prompt settings are recorded",
+    "truncation JSON exists",
+    "truncation max_length is 64",
+    "left and right truncation are recorded",
+    "both truncation runs contain 64 tokens",
+    "tokenizer comparison CSV exists",
+    "comparison includes both declared tokenizer algorithms",
+    "all comparison rows use target vocab size 800",
+    "both trained tokenizers have actual vocab size 800",
+    "environment version log exists",
+    "environment log contains all required package versions"
+  ],
+  "errors": []
+}

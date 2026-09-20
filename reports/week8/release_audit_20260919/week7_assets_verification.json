@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "files": 16,
+  "checks": [
+    {
+      "path": "outputs/Week7_正式提交_20260912/01_提交附件/演示视频/01_文字多轮.mov",
+      "pass": true
+    },
+    {
+      "path": "outputs/Week7_正式提交_20260912/01_提交附件/演示视频/02_图片问答.mov",
+      "pass": true
+    },
+    {
+      "path": "outputs/Week7_正式提交_20260912/01_提交附件/演示视频/03_停止与重试.mov",
+      "pass": true
+    },
+    {
+      "path": "outputs/Week7_正式提交_20260912/01_提交附件/演示视频/04_更换图片.mov",
+      "pass": true
+    },
+    {
+      "path": "outputs/Week7_正式提交_20260912/02_AWQ模型单独交付/added_tokens.json",
+      "pass": true
+    },
+    {
+      "path": "outputs/Week7_正式提交_20260912/02_AWQ模型单独交付/config.json",
+      "pass": true
+    },
+    {
+      "path": "outputs/Week7_正式提交_20260912/02_AWQ模型单独交付/generation_config.json",
+      "pass": true
+    },
+    {
+      "path": "outputs/Week7_正式提交_20260912/02_AWQ模型单独交付/manifest.json",
+      "pass": true
+    },
+    {
+      "path": "outputs/Week7_正式提交_20260912/02_AWQ模型单独交付/merges.txt",
+      "pass": true
+    },
+    {
+      "path": "outputs/Week7_正式提交_20260912/02_AWQ模型单独交付/model-00001-of-00002.safetensors",
+      "pass": true
+    },
+    {
+      "path": "outputs/Week7_正式提交_20260912/02_AWQ模型单独交付/model-00002-of-00002.safetensors",
+      "pass": true
+    },
+    {
+      "path": "outputs/Week7_正式提交_20260912/02_AWQ模型单独交付/model.safetensors.index.json",
+      "pass": true
+    },
+    {
+      "path": "outputs/Week7_正式提交_20260912/02_AWQ模型单独交付/special_tokens_map.json",
+      "pass": true
+    },
+    {
+      "path": "outputs/Week7_正式提交_20260912/02_AWQ模型单独交付/tokenizer.json",
+      "pass": true
+    },
+    {
+      "path": "outputs/Week7_正式提交_20260912/02_AWQ模型单独交付/tokenizer_config.json",
+      "pass": true
+    },
+    {
+      "path": "outputs/Week7_正式提交_20260912/02_AWQ模型单独交付/vocab.json",
+      "pass": true
+    }
+  ],
+  "scope": "Fresh local byte/hash verification; no model load"
+}

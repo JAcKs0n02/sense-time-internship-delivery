@@ -1,0 +1,78 @@
+{
+  "run_spec": {
+    "schema_version": "1.0",
+    "model_id": "reward_corrective_40step_merged",
+    "runtime_load_mode": "base_plus_peft_merge",
+    "expected_remote_model_path": "/root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged",
+    "expected_remote_adapter_path": "/root/autodl-tmp/qwen25-week4/day20-remediation/runs/reward-corrective-40step/attempt_001/trainer_output",
+    "expected_adapter_sha256": "d7a932ee4f28c8950db289126381f5d4dd30a037b238852e87ad8e5a241f9e52",
+    "archived_merged_manifest_sha256": "aca9a2932ed427f8fc6e9962e70274eb286a09c446d177af2bc00f6df1675e4c",
+    "preflight_manifest_sha256": "d9be5c285591d7fcf0a8e91d5ec351ecefabe241d0372e1aa21d067e400d28ef",
+    "source_manifest_sha256": "f8c41f8096b61453aa6cce8c72c8a594682d80531c756ddb7b35cf2d880cf7e9",
+    "config_file_sha256": "abf6b09fa7d9cacca82da04a0306a95814dda68e89c11693bee0e7309dcae25c",
+    "effective_config": {
+      "schema_version": "1.0",
+      "model_id": "reward_corrective_40step_merged",
+      "runtime_load_mode": "base_plus_peft_merge",
+      "expected_remote_model_path": "/root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged",
+      "base_archive_manifest_sha256": "e4512f7dd0f85b2f1d8154d123aec176295f557046142aab406a030c8e76e971",
+      "expected_remote_adapter_path": "/root/autodl-tmp/qwen25-week4/day20-remediation/runs/reward-corrective-40step/attempt_001/trainer_output",
+      "expected_adapter_run": "reward-corrective-40step/attempt_001",
+      "expected_adapter_bytes": 80792096,
+      "expected_adapter_sha256": "d7a932ee4f28c8950db289126381f5d4dd30a037b238852e87ad8e5a241f9e52",
+      "archived_merged_model_path": "/root/autodl-tmp/qwen25-week4/best_model/qwen25-7b-week4-dpo-corrective-merged",
+      "archived_merged_manifest_sha256": "aca9a2932ed427f8fc6e9962e70274eb286a09c446d177af2bc00f6df1675e4c",
+      "formal_prompt": "计算 123 * 456",
+      "tool_names": [
+        "calculator",
+        "knowledge_retrieval"
+      ],
+      "system_prompt_version": "week6-day29-react-v1",
+      "max_steps": 4,
+      "runtime_limit_seconds": 60,
+      "generation": {
+        "do_sample": false,
+        "max_new_tokens": 256,
+        "repetition_penalty": 1.0,
+        "seed": 42
+      },
+      "remote_model_path": "/root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged",
+      "remote_adapter_path": "/root/autodl-tmp/qwen25-week4/day20-remediation/runs/reward-corrective-40step/attempt_001/trainer_output",
+      "recursion_limit": 12,
+      "config_file_sha256": "abf6b09fa7d9cacca82da04a0306a95814dda68e89c11693bee0e7309dcae25c",
+      "source_manifest_sha256": "f8c41f8096b61453aa6cce8c72c8a594682d80531c756ddb7b35cf2d880cf7e9"
+    },
+    "code_files": [
+      {
+        "path": "deliverables/week6/source/week6_agent/model_adapter.py",
+        "sha256": "6086831c7ad589f5e942f3f4579f5106501c2c40185bafdc94dc7b72bbb6e5cc"
+      },
+      {
+        "path": "deliverables/week6/source/week6_agent/agent_factory.py",
+        "sha256": "6ad46fd536099fb40f0be8f44fcbd125939f3fe6263ed1b864d820dfaa0004df"
+      },
+      {
+        "path": "deliverables/week6/source/week6_agent/trace_schema.py",
+        "sha256": "c6285272263cfc7b2a637cff1ab62640e96167ac9bcfd9aeb4f559ad4cadcb3b"
+      },
+      {
+        "path": "deliverables/week6/day29/source/scripts/initialize_agent.py",
+        "sha256": "0a95d7bee0f82beadda468140a586e0a841e3db054316d48df843a0e7810af29"
+      },
+      {
+        "path": "deliverables/week6/day29/source/scripts/run_single_turn.py",
+        "sha256": "83d27b3ef42c5cc80399ab85a281f977b02b394d33ee942b3076112f4e983b8d"
+      },
+      {
+        "path": "deliverables/week6/day29/source/scripts/validate_day29.py",
+        "sha256": "dcd9697733e503b58732120525e1d60cef845006abe1cb9b9092a95428c1d124"
+      }
+    ],
+    "tools_sha256": "5f062a3b9c2b6ae02e0ea67066415f6ea94c609375e99dba2d892e3aa8148840",
+    "system_prompt_sha256": "9730572628873a847359068e6e494ab196806dc72cbe12b34f96cd8a8f6c48fd",
+    "system_prompt_version": "week6-day29-react-v1",
+    "formal_prompt": "计算 123 * 456",
+    "environment_api_evidence_sha256": "b1bafa7d5484a4e5c637a9addb2f8263f9f1d53337bab20d40e90fdebdcf16cb"
+  },
+  "run_spec_sha256": "05b465941d1051eba123b9a0f677e5e922b28d765c138e9f31b8ce16029db354"
+}

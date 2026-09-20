@@ -1,0 +1,14 @@
+{
+  "status": "ready_for_week4_dpo",
+  "selected_run_id": "epoch-e5",
+  "base_model_path": "/root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct",
+  "adapter_path": "/root/autodl-tmp/qwen25-week3/runs/epoch-e5/attempt-001/adapter",
+  "adapter_model_sha256": "cd2822fc5b160095524aa0203b1e2bab8e71e7897535cf093f4e8807c540a75a",
+  "merged_model_path": "/root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged",
+  "merged_model_manifest_sha256": "e4512f7dd0f85b2f1d8154d123aec176295f557046142aab406a030c8e76e971",
+  "merged_model_load": "PASS",
+  "dpo_input_form": "merged_model",
+  "selection_source": "Day 14 two-rater weighted human score",
+  "human_weighted_total": 3.78875,
+  "opencompass_used_for_selection": false
+}

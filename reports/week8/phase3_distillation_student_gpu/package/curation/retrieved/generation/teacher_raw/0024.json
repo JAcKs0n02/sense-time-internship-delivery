@@ -1,0 +1,14 @@
+{
+  "sample_id": "c7a904eacf79ad1099d740b25ebf4d18ae671e4232c941e5a0b59b8aa52afcb3",
+  "prompt": "请将下列中文翻译成韩语\n\ni want to be with you everywhere是谁唱的",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请将下列中文翻译成韩语\n\ni want to be with you everywhere是谁唱的"
+    }
+  ],
+  "answer": "누가 i want to be with you everywhere를 불렀나요",
+  "truncated": false,
+  "input_tokens": 48,
+  "output_tokens": 15
+}

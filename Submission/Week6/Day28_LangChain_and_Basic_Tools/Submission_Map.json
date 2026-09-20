@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Map flat teacher-facing files to the byte-identical formal experiment artifacts.",
+  "files": [
+    {
+      "formal_source": "deliverables/week6/source/week6_agent/__init__.py",
+      "submission_path": "Code/week6_agent/__init__.py",
+      "sha256": "6783056b217c87af19cb8e3e39a29e81c84f50b48244541e4a2f657f7b5ce8aa",
+      "bytes": 33
+    },
+    {
+      "formal_source": "deliverables/week6/source/week6_agent/limits.py",
+      "submission_path": "Code/week6_agent/limits.py",
+      "sha256": "a1fca1a119e84a7684e4c35df5c9effed80377e68ed78f28260d15dc62fb8028",
+      "bytes": 203
+    },
+    {
+      "formal_source": "deliverables/week6/source/week6_agent/tool_result.py",
+      "submission_path": "Code/week6_agent/tool_result.py",
+      "sha256": "8fc6e664858a0450f4c9a068cbb40a70a5b0e2e84bdb3e9bede2e0d3f9d19773",
+      "bytes": 791
+    },
+    {
+      "formal_source": "deliverables/week6/source/week6_agent/tools/__init__.py",
+      "submission_path": "Code/week6_agent/tools/__init__.py",
+      "sha256": "0be114ce6b11b148c33a0d311f8308c9d9519f31a1e8fa3bcf1bd1d5e3213523",
+      "bytes": 50
+    },
+    {
+      "formal_source": "deliverables/week6/source/week6_agent/tools/calculator.py",
+      "submission_path": "Code/week6_agent/tools/calculator.py",
+      "sha256": "6f60a42fde9f9d1506225f4033cb41572972ea6a12caa34fdc1d896dadd4e886",
+      "bytes": 5462
+    },
+    {
+      "formal_source": "deliverables/week6/source/week6_agent/tools/knowledge_retrieval.py",
+      "submission_path": "Code/week6_agent/tools/knowledge_retrieval.py",
+      "sha256": "c9a76c2826ce217753b03ebff0552e065e08731b30f742203a664330cd76cd3b",
+      "bytes": 7414
+    },
+    {
+      "formal_source": "deliverables/week6/day28/source/data/knowledge_base.json",
+      "submission_path": "Data/knowledge_base.json",
+      "sha256": "27f94bf18e50043532f71ebc68edbe2ea8af2c772a567ef81d949a71d583b39a",
+      "bytes": 1426
+    },
+    {
+      "formal_source": "deliverables/week6/day28/source/results/day28_validation.json",
+      "submission_path": "Results/day28_validation.json",
+      "sha256": "8985ad3ed8e0a714893fbde0976c73152c1787cdf99afd126f9ffb7971910cc8",
+      "bytes": 1162
+    },
+    {
+      "formal_source": "deliverables/week6/day28/source/results/environment.json",
+      "submission_path": "Results/environment.json",
+      "sha256": "c517f4fd250176450e540cb45449a77be1f5224d6973f80e804335909a680ffd",
+      "bytes": 540
+    }
+  ]
+}

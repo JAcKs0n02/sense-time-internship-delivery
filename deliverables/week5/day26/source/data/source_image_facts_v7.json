@@ -1,0 +1,3380 @@
+[
+  {
+    "image_id": "chart_table-v7-dev-01",
+    "split": "dev",
+    "category": "chart_table",
+    "image_relative_path": "images_v7/dev/chart_table-v7-dev-01.png",
+    "source_page_url": "https://ourworldindata.org/grapher/life-expectancy-vs-health-expenditure",
+    "download_url": "https://ourworldindata.org/grapher/life-expectancy-vs-health-expenditure.png",
+    "source_revision": "2026-08-21",
+    "source_revision_kind": "retrieval_date",
+    "author": "Our World in Data / Global Change Data Lab",
+    "license": "CC-BY-4.0",
+    "license_url": "https://ourworldindata.org/faqs#can-i-reuse-or-republish-your-charts",
+    "sha256": "9e5ea0df0d658382c6fcc7605a3bfe19e982cd89f9b0cebb21d84532b5f1951c",
+    "subject": "2023 年预期寿命与人均卫生支出的散点图",
+    "observable_facts": [
+      "横轴是人均卫生支出，纵轴是预期寿命",
+      "美国数据点位于最右侧，支出超过 12000 美元",
+      "日本数据点位于约 84 年附近，颜色表示洲别"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "只依据当前分辨率下可见的内容；未显示的信息不作推断。"
+    ],
+    "verification_claim": "美国的数据点位于所有标注国家的最右侧。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请客观读取这张开发集图片：概括图表主题、编码方式和两项可直接核对的数据关系。",
+      "verification": "请核对下列开发集陈述；给出结论并说明图中依据，不使用外部知识。"
+    },
+    "answers": {
+      "direct": "2023 年预期寿命与人均卫生支出的散点图。横轴是人均卫生支出，纵轴是预期寿命；美国数据点位于最右侧，支出超过 12000 美元；日本数据点位于约 84 年附近，颜色表示洲别。",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "标注为 United States 的点在横轴最右端，明显超过其他国家。"
+      }
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "chart_table-v7-dev-02",
+    "split": "dev",
+    "category": "chart_table",
+    "image_relative_path": "images_v7/dev/chart_table-v7-dev-02.png",
+    "source_page_url": "https://ourworldindata.org/grapher/co-emissions-per-capita",
+    "download_url": "https://ourworldindata.org/grapher/co-emissions-per-capita.png",
+    "source_revision": "2026-08-21",
+    "source_revision_kind": "retrieval_date",
+    "author": "Our World in Data / Global Change Data Lab",
+    "license": "CC-BY-4.0",
+    "license_url": "https://ourworldindata.org/faqs#can-i-reuse-or-republish-your-charts",
+    "sha256": "b536b762301314f02087cd6fc42696cafd66a2c0d3a5de12cdcfa957f024fa73",
+    "subject": "多国人均二氧化碳排放的历史折线图",
+    "observable_facts": [
+      "横轴覆盖约 1750 年至 2024 年",
+      "纵轴单位为每人吨数，图中有多条国家或地区曲线",
+      "美国紫色曲线在二十世纪后期曾高于 20 吨"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "只依据当前分辨率下可见的内容；未显示的信息不作推断。"
+    ],
+    "verification_claim": "中国曲线在 2024 年末低于每人 1 吨。",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请客观读取这张开发集图片：概括图表主题、编码方式和两项可直接核对的数据关系。",
+      "verification": "请核对下列开发集陈述；给出结论并说明图中依据，不使用外部知识。"
+    },
+    "answers": {
+      "direct": "多国人均二氧化碳排放的历史折线图。横轴覆盖约 1750 年至 2024 年；纵轴单位为每人吨数，图中有多条国家或地区曲线；美国紫色曲线在二十世纪后期曾高于 20 吨。",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "2024 年末中国曲线约在 8 至 9 吨附近，明显高于 1 吨。"
+      }
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "formula-v7-dev-01",
+    "split": "dev",
+    "category": "formula",
+    "image_relative_path": "images_v7/dev/formula-v7-dev-01.png",
+    "source_page_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/tests/test_files/doc_with_formula.png",
+    "download_url": "https://cdn.jsdelivr.net/gh/PaddlePaddle/PaddleOCR@2661c7c0ef5c613e8f93c6e93b2e052399f0f854/tests/test_files/doc_with_formula.png",
+    "source_revision": "2661c7c0ef5c613e8f93c6e93b2e052399f0f854",
+    "source_revision_kind": "git_commit",
+    "author": "PaddleOCR contributors",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/LICENSE",
+    "sha256": "6b07d28527dc9e930804fa73df562f1a81599c6b8a1a8bbc2a80742fa9f26e80",
+    "subject": "含多条编号公式的双栏英文学术论文页面",
+    "observable_facts": [
+      "页面分为左右两栏，公式编号从 (4) 延伸到 (14)",
+      "左栏上部的式 (4) 含有 phi、delta 和 psi",
+      "右栏中部的式 (11) 含 log10 M 与 log10 X"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "左栏编号 (4) 的公式",
+      "value": "\\phi(L,t)d\\log_{10}L=\\delta(M,t)\\psi(M,t)dM",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "只依据当前分辨率下可见的内容；未显示的信息不作推断。",
+      "金标仅覆盖题目指定且经两次核对的清晰区域。"
+    ],
+    "verification_claim": "编号 (4) 的公式左侧含有 phi(L,t) 与 d log10 L。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请客观读取这张开发集图片：用 LaTeX 转写左栏编号 (4) 的公式，保留可见的符号、上下标和正负号。",
+      "verification": "请核对下列开发集陈述；给出结论并说明图中依据，不使用外部知识。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：\\phi(L,t)d\\log_{10}L=\\delta(M,t)\\psi(M,t)dM",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "式 (4) 左侧清楚写有 phi(L,t)d log10 L。"
+      }
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "formula-v7-dev-02",
+    "split": "dev",
+    "category": "formula",
+    "image_relative_path": "images_v7/dev/formula-v7-dev-02.jpg",
+    "source_page_url": "https://github.com/breezedeus/Pix2Text/blob/f881e9df93d1ee6e90e823a66776ae0bb501f810/docs/examples/mixed.jpg",
+    "download_url": "https://cdn.jsdelivr.net/gh/breezedeus/Pix2Text@f881e9df93d1ee6e90e823a66776ae0bb501f810/docs/examples/mixed.jpg",
+    "source_revision": "f881e9df93d1ee6e90e823a66776ae0bb501f810",
+    "source_revision_kind": "git_commit",
+    "author": "BreezeDeus and Pix2Text contributors",
+    "license": "MIT",
+    "license_url": "https://github.com/breezedeus/Pix2Text/blob/f881e9df93d1ee6e90e823a66776ae0bb501f810/LICENSE",
+    "sha256": "95bebef9d42664677b061f8dbea91c68c14c4bd5334cb451287883a32793283e",
+    "subject": "介绍 dVAE 训练损失的中文说明与居中公式",
+    "observable_facts": [
+      "顶部中文说明提到 dVAE、VQ-VAE 和 KL 距离",
+      "居中公式由负对数似然项与 KL 项相加",
+      "底部文字提到 Gumbel-Softmax 与 p(z)"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "居中的完整损失公式",
+      "value": "-\\mathbb{E}_{z\\sim q(z\\mid x)}[\\log(p(x\\mid z))]+KL(q(z\\mid x)\\Vert p(z))",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "只依据当前分辨率下可见的内容；未显示的信息不作推断。",
+      "金标仅覆盖题目指定且经两次核对的清晰区域。"
+    ],
+    "verification_claim": "居中的损失公式完全不包含 KL 项。",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请客观读取这张开发集图片：用 LaTeX 转写居中的完整损失公式，保留可见的符号、上下标和正负号。",
+      "verification": "请核对下列开发集陈述；给出结论并说明图中依据，不使用外部知识。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：-\\mathbb{E}_{z\\sim q(z\\mid x)}[\\log(p(x\\mid z))]+KL(q(z\\mid x)\\Vert p(z))",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "公式右半部分明确包含 KL(q(z|x)||p(z))。"
+      }
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "natural_scene-v7-dev-03",
+    "split": "dev",
+    "category": "natural_scene",
+    "image_relative_path": "images_v7/dev/natural_scene-v7-dev-03.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Lake%20Mountain%20Landscape.jpg",
+    "download_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lake%20Mountain%20Landscape.jpg?width=1280",
+    "source_revision": "2026-08-21",
+    "source_revision_kind": "retrieval_date",
+    "author": "Bonnie Moreland",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sha256": "dbe83e658703e8eeb9d16367ad4676d11f3e038b1ff6d42d1e4552f17c5caf3c",
+    "subject": "雪山、针叶林与湖泊构成的自然风景",
+    "observable_facts": [
+      "远处雪山位于画面左侧",
+      "湖面映出雪山和树木的倒影",
+      "右侧近岸可见岩石、枯木和茂密针叶树"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "只依据当前分辨率下可见的内容；未显示的信息不作推断。"
+    ],
+    "verification_claim": "湖面可以看到雪山的倒影。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请客观读取这张开发集图片：描述主体、背景与相对位置，不猜测地点、身份或拍摄信息。",
+      "verification": "请核对下列开发集陈述；给出结论并说明图中依据，不使用外部知识。"
+    },
+    "answers": {
+      "direct": "雪山、针叶林与湖泊构成的自然风景。远处雪山位于画面左侧；湖面映出雪山和树木的倒影；右侧近岸可见岩石、枯木和茂密针叶树。",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "雪山轮廓在湖面左下区域形成清晰倒影。"
+      }
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "natural_scene-v7-dev-04",
+    "split": "dev",
+    "category": "natural_scene",
+    "image_relative_path": "images_v7/dev/natural_scene-v7-dev-04.jpeg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Forest%20Path%20%28179749337%29.jpeg",
+    "download_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Forest%20Path%20%28179749337%29.jpeg?width=960",
+    "source_revision": "2026-08-21",
+    "source_revision_kind": "retrieval_date",
+    "author": "Vtx",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sha256": "fcdbe3430333dd2da8ee0a182e8fa8ccc817aa2b89c328e65b15577c297dfa2d",
+    "subject": "秋季林木间的一条狭窄土路",
+    "observable_facts": [
+      "土路从画面底部向树林深处延伸",
+      "左侧一棵树的叶片呈明显黄色",
+      "周围分布多棵高大树木和绿色灌木"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "只依据当前分辨率下可见的内容；未显示的信息不作推断。"
+    ],
+    "verification_claim": "林间小路铺有平整的黑色柏油。",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请客观读取这张开发集图片：描述主体、背景与相对位置，不猜测地点、身份或拍摄信息。",
+      "verification": "请核对下列开发集陈述；给出结论并说明图中依据，不使用外部知识。"
+    },
+    "answers": {
+      "direct": "秋季林木间的一条狭窄土路。土路从画面底部向树林深处延伸；左侧一棵树的叶片呈明显黄色；周围分布多棵高大树木和绿色灌木。",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "路面是覆有落叶的土路，没有可见的黑色柏油铺装。"
+      }
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ocr-v7-dev-01",
+    "split": "dev",
+    "category": "ocr",
+    "image_relative_path": "images_v7/dev/ocr-v7-dev-01.jpg",
+    "source_page_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/tests/test_files/book.jpg",
+    "download_url": "https://cdn.jsdelivr.net/gh/PaddlePaddle/PaddleOCR@2661c7c0ef5c613e8f93c6e93b2e052399f0f854/tests/test_files/book.jpg",
+    "source_revision": "2661c7c0ef5c613e8f93c6e93b2e052399f0f854",
+    "source_revision_kind": "git_commit",
+    "author": "PaddleOCR contributors",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/LICENSE",
+    "sha256": "782cc71a2730020ea8da815de3e40a964b7f150c183d1f8c01dd211de9dcbcc4",
+    "subject": "摊开在地图上的英文书籍第 94 和 95 页",
+    "observable_facts": [
+      "左右两页均排有多段英文正文",
+      "左页中部有一幅黑白漫画插图",
+      "右页包含多行分式与乘法算式"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "左页正文的粗体小标题",
+      "value": "The disappearing sum",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "只依据当前分辨率下可见的内容；未显示的信息不作推断。",
+      "金标仅覆盖题目指定且经两次核对的清晰区域。"
+    ],
+    "verification_claim": "左页粗体小标题写着“The disappearing sum”。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请客观读取这张开发集图片：只转写左页正文的粗体小标题，不要补写模糊或被裁切的其他文字。",
+      "verification": "请核对下列开发集陈述；给出结论并说明图中依据，不使用外部知识。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：The disappearing sum",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "左页正文上方可直接读到粗体标题“The disappearing sum”。"
+      }
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ocr-v7-dev-02",
+    "split": "dev",
+    "category": "ocr",
+    "image_relative_path": "images_v7/dev/ocr-v7-dev-02.png",
+    "source_page_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/tests/test_files/seal.png",
+    "download_url": "https://cdn.jsdelivr.net/gh/PaddlePaddle/PaddleOCR@2661c7c0ef5c613e8f93c6e93b2e052399f0f854/tests/test_files/seal.png",
+    "source_revision": "2661c7c0ef5c613e8f93c6e93b2e052399f0f854",
+    "source_revision_kind": "git_commit",
+    "author": "PaddleOCR contributors",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/LICENSE",
+    "sha256": "be29cb91999450742958c62ead08f93825b92e5fa4290c063cc7991259da6c24",
+    "subject": "带有五角星和镰刀锤头图案的红色圆形印章",
+    "observable_facts": [
+      "印章外圈排列红色环形文字",
+      "中央是红色镰刀锤头图案",
+      "图案下方有四个较大的红色汉字"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "印章中央图案下方的四个大字",
+      "value": "发票专用章",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "只依据当前分辨率下可见的内容；未显示的信息不作推断。",
+      "金标仅覆盖题目指定且经两次核对的清晰区域。"
+    ],
+    "verification_claim": "印章中央图案下方写着“合同专用章”。",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请客观读取这张开发集图片：只转写印章中央图案下方的四个大字，不要补写模糊或被裁切的其他文字。",
+      "verification": "请核对下列开发集陈述；给出结论并说明图中依据，不使用外部知识。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：发票专用章",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "该位置清楚写的是“发票专用章”，不是“合同专用章”。"
+      }
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ui-v7-dev-01",
+    "split": "dev",
+    "category": "ui",
+    "image_relative_path": "images_v7/dev/ui-v7-dev-01.png",
+    "source_page_url": "https://github.com/MicrosoftDocs/windows-dev-docs/blob/9a712a52ab5ccb1fbe24e97e582a9f884388a3cc/hub/powertoys/images/advanced-paste/advanced-paste.png",
+    "download_url": "https://cdn.jsdelivr.net/gh/MicrosoftDocs/windows-dev-docs@9a712a52ab5ccb1fbe24e97e582a9f884388a3cc/hub/powertoys/images/advanced-paste/advanced-paste.png",
+    "source_revision": "9a712a52ab5ccb1fbe24e97e582a9f884388a3cc",
+    "source_revision_kind": "git_commit",
+    "author": "Microsoft and Windows documentation contributors",
+    "license": "CC-BY-4.0",
+    "license_url": "https://github.com/MicrosoftDocs/windows-dev-docs/blob/9a712a52ab5ccb1fbe24e97e582a9f884388a3cc/LICENSE",
+    "sha256": "2959886d25be1d6f707de4f1b3b54618ff4225b13ebb8419f79737606eba81fc",
+    "subject": "PowerToys Advanced Paste 的弹出操作面板",
+    "observable_facts": [
+      "顶部输入框提示可格式化为 C# 字符串定义",
+      "面板列出 Paste as plain text、Paste as markdown 和 Paste as JSON",
+      "底部还有 Clipboard history 入口"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "只依据当前分辨率下可见的内容；未显示的信息不作推断。"
+    ],
+    "verification_claim": "面板提供“Paste as plain text”选项。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请客观读取这张开发集图片：说明界面名称、主要区域以及当前可见状态。",
+      "verification": "请核对下列开发集陈述；给出结论并说明图中依据，不使用外部知识。"
+    },
+    "answers": {
+      "direct": "PowerToys Advanced Paste 的弹出操作面板。顶部输入框提示可格式化为 C# 字符串定义；面板列出 Paste as plain text、Paste as markdown 和 Paste as JSON；底部还有 Clipboard history 入口。",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "选项列表第一项清楚显示“Paste as plain text”。"
+      }
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ui-v7-dev-02",
+    "split": "dev",
+    "category": "ui",
+    "image_relative_path": "images_v7/dev/ui-v7-dev-02.png",
+    "source_page_url": "https://github.com/MicrosoftDocs/windows-dev-docs/blob/9a712a52ab5ccb1fbe24e97e582a9f884388a3cc/hub/powertoys/images/fancyzones/fancy-zones.png",
+    "download_url": "https://cdn.jsdelivr.net/gh/MicrosoftDocs/windows-dev-docs@9a712a52ab5ccb1fbe24e97e582a9f884388a3cc/hub/powertoys/images/fancyzones/fancy-zones.png",
+    "source_revision": "9a712a52ab5ccb1fbe24e97e582a9f884388a3cc",
+    "source_revision_kind": "git_commit",
+    "author": "Microsoft and Windows documentation contributors",
+    "license": "CC-BY-4.0",
+    "license_url": "https://github.com/MicrosoftDocs/windows-dev-docs/blob/9a712a52ab5ccb1fbe24e97e582a9f884388a3cc/LICENSE",
+    "sha256": "4985ae0f3f611f21e1afb0799774889d5e65568970301f0847642b09d565f5dc",
+    "subject": "PowerToys FancyZones 的布局模板选择窗口",
+    "observable_facts": [
+      "Templates 区域展示 Focus、Columns、Rows 等多个模板",
+      "Custom 区域展示三个自定义布局缩略图",
+      "右下角有 Create new layout 按钮"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "只依据当前分辨率下可见的内容；未显示的信息不作推断。"
+    ],
+    "verification_claim": "窗口中只显示一个可选布局模板。",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请客观读取这张开发集图片：说明界面名称、主要区域以及当前可见状态。",
+      "verification": "请核对下列开发集陈述；给出结论并说明图中依据，不使用外部知识。"
+    },
+    "answers": {
+      "direct": "PowerToys FancyZones 的布局模板选择窗口。Templates 区域展示 Focus、Columns、Rows 等多个模板；Custom 区域展示三个自定义布局缩略图；右下角有 Create new layout 按钮。",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "Templates 与 Custom 区域合计显示多种布局，远不止一个。"
+      }
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "chart_table-v7-final-01",
+    "split": "final",
+    "category": "chart_table",
+    "image_relative_path": "images_v7/final/chart_table-v7-final-01.png",
+    "source_page_url": "https://ourworldindata.org/grapher/renewable-share-energy",
+    "download_url": "https://ourworldindata.org/grapher/renewable-share-energy.png",
+    "source_revision": "2026-08-21",
+    "source_revision_kind": "retrieval_date",
+    "author": "Our World in Data / Global Change Data Lab",
+    "license": "CC-BY-4.0",
+    "license_url": "https://ourworldindata.org/faqs#can-i-reuse-or-republish-your-charts",
+    "sha256": "6946ae2775961a2c0b9597533b420014010f7070eb738afaee21af5ab0d95455",
+    "subject": "2025 年各国一次能源中可再生能源占比的世界地图",
+    "observable_facts": [
+      "地图以由浅至深的绿色表示占比区间",
+      "图例范围从 0% 延伸至 70% 以上",
+      "斜线填充区域在图例中标注为 No data"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "只依据当前分辨率下可见的内容；未显示的信息不作推断。"
+    ],
+    "verification_claim": "斜线填充区域代表没有数据。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请独立分析这张最终测试图片：概括图表主题、编码方式和两项可直接核对的数据关系。",
+      "verification": "请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。"
+    },
+    "answers": {
+      "direct": "2025 年各国一次能源中可再生能源占比的世界地图。地图以由浅至深的绿色表示占比区间；图例范围从 0% 延伸至 70% 以上；斜线填充区域在图例中标注为 No data。",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "地图下方图例把斜线填充样式明确标为“No data”。"
+      }
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "chart_table-v7-final-02",
+    "split": "final",
+    "category": "chart_table",
+    "image_relative_path": "images_v7/final/chart_table-v7-final-02.png",
+    "source_page_url": "https://ourworldindata.org/grapher/population-by-age-group",
+    "download_url": "https://ourworldindata.org/grapher/population-by-age-group.png",
+    "source_revision": "2026-08-21",
+    "source_revision_kind": "retrieval_date",
+    "author": "Our World in Data / Global Change Data Lab",
+    "license": "CC-BY-4.0",
+    "license_url": "https://ourworldindata.org/faqs#can-i-reuse-or-republish-your-charts",
+    "sha256": "f6a0e3ebed76d9a7d43824ac31a88b900ac912a2a859f825384957393def61bd",
+    "subject": "1950 至 2023 年世界人口年龄组堆叠面积图",
+    "observable_facts": [
+      "横轴从 1950 年延伸到 2023 年",
+      "右侧依次标注五个年龄组",
+      "蓝色的 25–64 岁区域在末端最宽"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "只依据当前分辨率下可见的内容；未显示的信息不作推断。"
+    ],
+    "verification_claim": "2023 年时 25–64 岁年龄组是图中最小的区域。",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请独立分析这张最终测试图片：概括图表主题、编码方式和两项可直接核对的数据关系。",
+      "verification": "请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。"
+    },
+    "answers": {
+      "direct": "1950 至 2023 年世界人口年龄组堆叠面积图。横轴从 1950 年延伸到 2023 年；右侧依次标注五个年龄组；蓝色的 25–64 岁区域在末端最宽。",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "2023 年末蓝色 25–64 岁区域最宽，并非最小。"
+      }
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "formula-v7-final-02",
+    "split": "final",
+    "category": "formula",
+    "image_relative_path": "images_v7/final/formula-v7-final-02.png",
+    "source_page_url": "https://github.com/breezedeus/Pix2Text/blob/f881e9df93d1ee6e90e823a66776ae0bb501f810/docs/examples/page2.png",
+    "download_url": "https://cdn.jsdelivr.net/gh/breezedeus/Pix2Text@f881e9df93d1ee6e90e823a66776ae0bb501f810/docs/examples/page2.png",
+    "source_revision": "f881e9df93d1ee6e90e823a66776ae0bb501f810",
+    "source_revision_kind": "git_commit",
+    "author": "BreezeDeus and Pix2Text contributors",
+    "license": "MIT",
+    "license_url": "https://github.com/breezedeus/Pix2Text/blob/f881e9df93d1ee6e90e823a66776ae0bb501f810/LICENSE",
+    "sha256": "accadcf9828951dc8b4fcf6e172e7d54f86f2c6702766c6b071269b33ab8e14e",
+    "subject": "介绍普通卷积与空洞卷积的双栏论文页面",
+    "observable_facts": [
+      "左上角有输入图、密度图和预测图三幅示例",
+      "右栏上部列出编号 (1) 和 (2) 的两个求和公式",
+      "编号 (1) 的求和条件写在求和号下方"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "右栏编号 (1) 的公式",
+      "value": "(F*k)(\\mathbf{p})=\\sum_{\\mathbf{s}+\\mathbf{t}=\\mathbf{p}}F(\\mathbf{s})k(\\mathbf{t})",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "只依据当前分辨率下可见的内容；未显示的信息不作推断。",
+      "金标仅覆盖题目指定且经两次核对的清晰区域。"
+    ],
+    "verification_claim": "编号 (1) 的求和条件写作 s+t=p。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请独立分析这张最终测试图片：用 LaTeX 转写右栏编号 (1) 的公式，保留可见的符号、上下标和正负号。",
+      "verification": "请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：(F*k)(\\mathbf{p})=\\sum_{\\mathbf{s}+\\mathbf{t}=\\mathbf{p}}F(\\mathbf{s})k(\\mathbf{t})",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "式 (1) 的求和号下方清楚标出 s+t=p。"
+      }
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "formula-v7-final-03",
+    "split": "final",
+    "category": "formula",
+    "image_relative_path": "images_v7/final/formula-v7-final-03.png",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Quadratic%20formula%20via%20completing%20the%20square.png",
+    "download_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Quadratic%20formula%20via%20completing%20the%20square.png?width=1280",
+    "source_revision": "2026-08-21",
+    "source_revision_kind": "retrieval_date",
+    "author": "Jacob Rus",
+    "license": "CC-BY-SA-4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sha256": "4229237ee2b36ce926a206aca8a19cc434d9822003c1639075f077f19d2edd71",
+    "subject": "用彩色面积块展示配方法的二次方程示意图",
+    "observable_facts": [
+      "左侧蓝色正方形标记为 x²",
+      "两个橙色长方形均标有 b/(2a) 与 x",
+      "右侧红色区域标记为 -c/a，绿色小正方形标记为 (b/(2a))²"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "图中四类数学标签",
+      "value": "x^2;\\ \\frac{b}{2a}x;\\ -\\frac{c}{a};\\ \\left(\\frac{b}{2a}\\right)^2",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "只依据当前分辨率下可见的内容；未显示的信息不作推断。",
+      "金标仅覆盖题目指定且经两次核对的清晰区域。"
+    ],
+    "verification_claim": "右侧红色区域中的标签是正的 c/a。",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请独立分析这张最终测试图片：用 LaTeX 转写图中四类数学标签，保留可见的符号、上下标和正负号。",
+      "verification": "请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：x^2;\\ \\frac{b}{2a}x;\\ -\\frac{c}{a};\\ \\left(\\frac{b}{2a}\\right)^2",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "红色区域标签前有清晰负号，写作 -c/a。"
+      }
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "natural_scene-v7-final-03",
+    "split": "final",
+    "category": "natural_scene",
+    "image_relative_path": "images_v7/final/natural_scene-v7-final-03.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Palm%20trees%20on%20a%20beach.jpg",
+    "download_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Palm%20trees%20on%20a%20beach.jpg?width=1280",
+    "source_revision": "2026-08-21",
+    "source_revision_kind": "retrieval_date",
+    "author": "www.Pixel.la Free Stock Photos",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sha256": "54f49c977f3f0f829663db7ca86bf2d58af467b34d26613bca97df3ded63ba92",
+    "subject": "有多棵高大棕榈树的沙滩海景",
+    "observable_facts": [
+      "多棵棕榈树集中在画面右半部",
+      "前景是浅色沙滩，左后方可见海面",
+      "远处有低矮山体轮廓，天空整体明亮"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "只依据当前分辨率下可见的内容；未显示的信息不作推断。"
+    ],
+    "verification_claim": "沙滩右侧可以看到多棵高大的棕榈树。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请独立分析这张最终测试图片：描述主体、背景与相对位置，不猜测地点、身份或拍摄信息。",
+      "verification": "请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。"
+    },
+    "answers": {
+      "direct": "有多棵高大棕榈树的沙滩海景。多棵棕榈树集中在画面右半部；前景是浅色沙滩，左后方可见海面；远处有低矮山体轮廓，天空整体明亮。",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "画面右侧有数棵树干细长、树冠呈扇形的棕榈树。"
+      }
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "natural_scene-v7-final-04",
+    "split": "final",
+    "category": "natural_scene",
+    "image_relative_path": "images_v7/final/natural_scene-v7-final-04.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Dog%20park%21.jpg",
+    "download_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Dog%20park%21.jpg?width=1280",
+    "source_revision": "2026-08-21",
+    "source_revision_kind": "retrieval_date",
+    "author": "Sarah Naegels",
+    "license": "CC-BY-2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "sha256": "0e76eb9bcc730e5978aa89bfaf2664cef36c94bad8089a9299488c74629c18ec",
+    "subject": "两只在雪地上朝镜头跑来的犬",
+    "observable_facts": [
+      "前后各有一只犬，均面向镜头",
+      "两只犬的四肢处于奔跑姿态",
+      "地面覆盖白雪，背景可见树木和灌丛"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "只依据当前分辨率下可见的内容；未显示的信息不作推断。"
+    ],
+    "verification_claim": "两只犬都坐在雪地上。",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请独立分析这张最终测试图片：描述主体、背景与相对位置，不猜测地点、身份或拍摄信息。",
+      "verification": "请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。"
+    },
+    "answers": {
+      "direct": "两只在雪地上朝镜头跑来的犬。前后各有一只犬，均面向镜头；两只犬的四肢处于奔跑姿态；地面覆盖白雪，背景可见树木和灌丛。",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "两只犬的腿部均处于运动姿态，正在朝镜头跑来，并未坐下。"
+      }
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ocr-v7-final-01",
+    "split": "final",
+    "category": "ocr",
+    "image_relative_path": "images_v7/final/ocr-v7-final-01.png",
+    "source_page_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/tests/test_files/textline.png",
+    "download_url": "https://cdn.jsdelivr.net/gh/PaddlePaddle/PaddleOCR@2661c7c0ef5c613e8f93c6e93b2e052399f0f854/tests/test_files/textline.png",
+    "source_revision": "2661c7c0ef5c613e8f93c6e93b2e052399f0f854",
+    "source_revision_kind": "git_commit",
+    "author": "PaddleOCR contributors",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/LICENSE",
+    "sha256": "5362ba97741413494c507237b5096ef09ed575a501c4d9e68bfeffe17528a6ad",
+    "subject": "深色底上的一行浅色中文招牌文字",
+    "observable_facts": [
+      "文字横向排列且占据几乎整个画面宽度",
+      "背景为深绿黑色，字形为灰金色",
+      "末尾两个字为“公寓”"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "整行招牌文字",
+      "value": "绿洲仕格维花园公寓",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "只依据当前分辨率下可见的内容；未显示的信息不作推断。",
+      "金标仅覆盖题目指定且经两次核对的清晰区域。"
+    ],
+    "verification_claim": "招牌末尾两个字是“公寓”。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请独立分析这张最终测试图片：只转写整行招牌文字，不要补写模糊或被裁切的其他文字。",
+      "verification": "请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：绿洲仕格维花园公寓",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "整行文字可转写为“绿洲仕格维花园公寓”，末尾确为“公寓”。"
+      }
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ocr-v7-final-02",
+    "split": "final",
+    "category": "ocr",
+    "image_relative_path": "images_v7/final/ocr-v7-final-02.jpg",
+    "source_page_url": "https://github.com/breezedeus/Pix2Text/blob/f881e9df93d1ee6e90e823a66776ae0bb501f810/docs/examples/english.jpg",
+    "download_url": "https://cdn.jsdelivr.net/gh/breezedeus/Pix2Text@f881e9df93d1ee6e90e823a66776ae0bb501f810/docs/examples/english.jpg",
+    "source_revision": "f881e9df93d1ee6e90e823a66776ae0bb501f810",
+    "source_revision_kind": "git_commit",
+    "author": "BreezeDeus and Pix2Text contributors",
+    "license": "MIT",
+    "license_url": "https://github.com/breezedeus/Pix2Text/blob/f881e9df93d1ee6e90e823a66776ae0bb501f810/LICENSE",
+    "sha256": "602e79f95ea2d4cc18e0df94d241170b0c196486a4cf67b28cc04db8f9aa54ea",
+    "subject": "深色终端界面的三行等宽字体命令与日志文本",
+    "observable_facts": [
+      "第一行以 python 开头并包含 scripts 路径",
+      "第二行包含 use model 和用户目录路径",
+      "第三行包含 senet_lite_136 与 epoch=039"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "第一行清晰可见的命令",
+      "value": "python scripts/screenshot_daemon_with_server",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "只依据当前分辨率下可见的内容；未显示的信息不作推断。",
+      "金标仅覆盖题目指定且经两次核对的清晰区域。"
+    ],
+    "verification_claim": "第一行命令以“pip install”开头。",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请独立分析这张最终测试图片：只转写第一行清晰可见的命令，不要补写模糊或被裁切的其他文字。",
+      "verification": "请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：python scripts/screenshot_daemon_with_server",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "第一行清楚以“python”开头，后接 scripts/screenshot_daemon_with_server。"
+      }
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ui-v7-final-01",
+    "split": "final",
+    "category": "ui",
+    "image_relative_path": "images_v7/final/ui-v7-final-01.png",
+    "source_page_url": "https://github.com/MicrosoftDocs/windows-dev-docs/blob/9a712a52ab5ccb1fbe24e97e582a9f884388a3cc/hub/powertoys/images/color-picker/settings.png",
+    "download_url": "https://cdn.jsdelivr.net/gh/MicrosoftDocs/windows-dev-docs@9a712a52ab5ccb1fbe24e97e582a9f884388a3cc/hub/powertoys/images/color-picker/settings.png",
+    "source_revision": "9a712a52ab5ccb1fbe24e97e582a9f884388a3cc",
+    "source_revision_kind": "git_commit",
+    "author": "Microsoft and Windows documentation contributors",
+    "license": "CC-BY-4.0",
+    "license_url": "https://github.com/MicrosoftDocs/windows-dev-docs/blob/9a712a52ab5ccb1fbe24e97e582a9f884388a3cc/LICENSE",
+    "sha256": "caa9fc39ef7f73a0dce3406772f6645a16e60f7d4b9c37e9655278f0ae223ee2",
+    "subject": "PowerToys Settings 中的 Color Picker 设置页",
+    "observable_facts": [
+      "Enable Color Picker 开关显示为 On",
+      "激活快捷键显示为 Windows、Shift 和 C",
+      "下方列出 HEX、RGB、HSL、HSV 和 CMYK 格式"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "只依据当前分辨率下可见的内容；未显示的信息不作推断。"
+    ],
+    "verification_claim": "Color Picker 当前处于启用状态。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请独立分析这张最终测试图片：说明界面名称、主要区域以及当前可见状态。",
+      "verification": "请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。"
+    },
+    "answers": {
+      "direct": "PowerToys Settings 中的 Color Picker 设置页。Enable Color Picker 开关显示为 On；激活快捷键显示为 Windows、Shift 和 C；下方列出 HEX、RGB、HSL、HSV 和 CMYK 格式。",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "Enable Color Picker 一行右侧显示 On，开关呈蓝色启用状态。"
+      }
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ui-v7-final-02",
+    "split": "final",
+    "category": "ui",
+    "image_relative_path": "images_v7/final/ui-v7-final-02.png",
+    "source_page_url": "https://github.com/MicrosoftDocs/windows-dev-docs/blob/9a712a52ab5ccb1fbe24e97e582a9f884388a3cc/hub/powertoys/images/general/settings-home.png",
+    "download_url": "https://cdn.jsdelivr.net/gh/MicrosoftDocs/windows-dev-docs@9a712a52ab5ccb1fbe24e97e582a9f884388a3cc/hub/powertoys/images/general/settings-home.png",
+    "source_revision": "9a712a52ab5ccb1fbe24e97e582a9f884388a3cc",
+    "source_revision_kind": "git_commit",
+    "author": "Microsoft and Windows documentation contributors",
+    "license": "CC-BY-4.0",
+    "license_url": "https://github.com/MicrosoftDocs/windows-dev-docs/blob/9a712a52ab5ccb1fbe24e97e582a9f884388a3cc/LICENSE",
+    "sha256": "ba351be0aeea107beccdc7bac1a10b9e8f034754dfae196318a81d618cad8ead",
+    "subject": "PowerToys Settings 的 Home 总览页",
+    "observable_facts": [
+      "左侧导航含 Home、General 和多个工具分类",
+      "中间 Quick access 区域提供多个快捷入口",
+      "右侧 Modules 列表中多项开关处于开启状态"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "只依据当前分辨率下可见的内容；未显示的信息不作推断。"
+    ],
+    "verification_claim": "Modules 列表中的所有模块开关都处于关闭状态。",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请独立分析这张最终测试图片：说明界面名称、主要区域以及当前可见状态。",
+      "verification": "请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。"
+    },
+    "answers": {
+      "direct": "PowerToys Settings 的 Home 总览页。左侧导航含 Home、General 和多个工具分类；中间 Quick access 区域提供多个快捷入口；右侧 Modules 列表中多项开关处于开启状态。",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "Advanced Paste、Always On Top、Awake、Color Picker 等多项开关明显处于开启状态。"
+      }
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "chart_table-01",
+    "split": "train",
+    "category": "chart_table",
+    "image_relative_path": "images_v7/train/chart_table-01.png",
+    "source_page_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/table_PubTabNet_demo/PMC524509_007_00.png",
+    "download_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/table_PubTabNet_demo/PMC524509_007_00.png",
+    "source_revision": "2661c7c0ef5c613e8f93c6e93b2e052399f0f854",
+    "source_revision_kind": "git_commit",
+    "author": "PaddleOCR contributors",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/LICENSE",
+    "sha256": "8ac6eb772c45be3f17f28ce565489b5895ab47002fdf5b34590d57f047041130",
+    "subject": "一张比较不同组别指标的科研数据表",
+    "observable_facts": [
+      "画面主体或版面为：一张比较不同组别指标的科研数据表",
+      "左侧列出 Group 和 N",
+      "表头分为 fHjDA uptake 与 DAT density，并各有 Vmax、Km、SD 等子列"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "图中显示的是一张比较不同组别指标的科研数据表。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：概括图表主题、编码方式和两项可直接核对的数据关系。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "一张比较不同组别指标的科研数据表。画面主体或版面为：一张比较不同组别指标的科研数据表；左侧列出 Group 和 N；表头分为 fHjDA uptake 与 DAT density，并各有 Vmax、Km、SD 等子列。",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "画面主体或版面确为一张比较不同组别指标的科研数据表，且左侧列出 Group 和 N。"
+      },
+      "evidence": "证据 1：画面主体或版面为：一张比较不同组别指标的科研数据表；证据 2：左侧列出 Group 和 N；证据 3：表头分为 fHjDA uptake 与 DAT density，并各有 Vmax、Km、SD 等子列。",
+      "grounding": "能够确认：一张比较不同组别指标的科研数据表，并且左侧列出 Group 和 N。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "chart_table-02",
+    "split": "train",
+    "category": "chart_table",
+    "image_relative_path": "images_v7/train/chart_table-02.png",
+    "source_page_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/table_PubTabNet_demo/PMC535543_007_01.png",
+    "download_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/table_PubTabNet_demo/PMC535543_007_01.png",
+    "source_revision": "2661c7c0ef5c613e8f93c6e93b2e052399f0f854",
+    "source_revision_kind": "git_commit",
+    "author": "PaddleOCR contributors",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/LICENSE",
+    "sha256": "9a92582a81a93937da737ef4b8d6980feede20b1acc4cc4db862bb16638c80ab",
+    "subject": "一张行为量表相关系数表",
+    "observable_facts": [
+      "画面主体或版面为：一张行为量表相关系数表",
+      "行列均列出多种量表或行为维度",
+      "部分数值带星号表示统计标记"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "表格只有两行两列",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：概括图表主题、编码方式和两项可直接核对的数据关系。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "一张行为量表相关系数表。画面主体或版面为：一张行为量表相关系数表；行列均列出多种量表或行为维度；部分数值带星号表示统计标记。",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "图中实际显示的是一张行为量表相关系数表，与待核验陈述不一致。"
+      },
+      "evidence": "证据 1：画面主体或版面为：一张行为量表相关系数表；证据 2：行列均列出多种量表或行为维度；证据 3：部分数值带星号表示统计标记。",
+      "grounding": "能够确认：一张行为量表相关系数表，并且行列均列出多种量表或行为维度。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "chart_table-03",
+    "split": "train",
+    "category": "chart_table",
+    "image_relative_path": "images_v7/train/chart_table-03.jpg",
+    "source_page_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/table_tal_demo/1.jpg",
+    "download_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/table_tal_demo/1.jpg",
+    "source_revision": "2661c7c0ef5c613e8f93c6e93b2e052399f0f854",
+    "source_revision_kind": "git_commit",
+    "author": "PaddleOCR contributors",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/LICENSE",
+    "sha256": "c474365f54eea113d941550e31e00d6a9b524224fa0ba9bbb8833792d9bf784f",
+    "subject": "一道带手写计算痕迹的分组频数表题目",
+    "observable_facts": [
+      "画面主体或版面为：一道带手写计算痕迹的分组频数表题目",
+      "表格按数值区间分组",
+      "右侧是频数或百分比，表格旁有手写算式"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "图中显示的是一道带手写计算痕迹的分组频数表题目。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：概括图表主题、编码方式和两项可直接核对的数据关系。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "一道带手写计算痕迹的分组频数表题目。画面主体或版面为：一道带手写计算痕迹的分组频数表题目；表格按数值区间分组；右侧是频数或百分比，表格旁有手写算式。",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "画面主体或版面确为一道带手写计算痕迹的分组频数表题目，且表格按数值区间分组。"
+      },
+      "evidence": "证据 1：画面主体或版面为：一道带手写计算痕迹的分组频数表题目；证据 2：表格按数值区间分组；证据 3：右侧是频数或百分比，表格旁有手写算式。",
+      "grounding": "能够确认：一道带手写计算痕迹的分组频数表题目，并且表格按数值区间分组。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "chart_table-04",
+    "split": "train",
+    "category": "chart_table",
+    "image_relative_path": "images_v7/train/chart_table-04.jpg",
+    "source_page_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/publaynet_demo/gt_PMC5086060_00002.jpg",
+    "download_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/publaynet_demo/gt_PMC5086060_00002.jpg",
+    "source_revision": "2661c7c0ef5c613e8f93c6e93b2e052399f0f854",
+    "source_revision_kind": "git_commit",
+    "author": "PaddleOCR contributors",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/LICENSE",
+    "sha256": "34f04a2a1cc004f71f44c69fe668c040577bff91204f5606bc79a135fbdefed6",
+    "subject": "一页带彩色版面框标注的双栏学术文档",
+    "observable_facts": [
+      "画面主体或版面为：一页带彩色版面框标注的双栏学术文档",
+      "页面上方有标题与作者信息",
+      "正文为双栏排版，并包含被框出的表格或文本区域"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "图中没有任何结构化数据区域",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：概括图表主题、编码方式和两项可直接核对的数据关系。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "一页带彩色版面框标注的双栏学术文档。画面主体或版面为：一页带彩色版面框标注的双栏学术文档；页面上方有标题与作者信息；正文为双栏排版，并包含被框出的表格或文本区域。",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "图中实际显示的是一页带彩色版面框标注的双栏学术文档，与待核验陈述不一致。"
+      },
+      "evidence": "证据 1：画面主体或版面为：一页带彩色版面框标注的双栏学术文档；证据 2：页面上方有标题与作者信息；证据 3：正文为双栏排版，并包含被框出的表格或文本区域。",
+      "grounding": "能够确认：一页带彩色版面框标注的双栏学术文档，并且页面上方有标题与作者信息。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "chart_table-05",
+    "split": "train",
+    "category": "chart_table",
+    "image_relative_path": "images_v7/train/chart_table-05.png",
+    "source_page_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/tablebank_demo/004.png",
+    "download_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/tablebank_demo/004.png",
+    "source_revision": "2661c7c0ef5c613e8f93c6e93b2e052399f0f854",
+    "source_revision_kind": "git_commit",
+    "author": "PaddleOCR contributors",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/LICENSE",
+    "sha256": "84e504204db82ff320e200b03f353c70700b0e24a83026f70ddca3b6af7e7137",
+    "subject": "一页包含大量人脸缩略图和对照表的学术文章",
+    "observable_facts": [
+      "画面主体或版面为：一页包含大量人脸缩略图和对照表的学术文章",
+      "上方是多行图像样本",
+      "中部及下方有表格和双栏正文"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "图中显示的是一页包含大量人脸缩略图和对照表的学术文章。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：概括图表主题、编码方式和两项可直接核对的数据关系。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "一页包含大量人脸缩略图和对照表的学术文章。画面主体或版面为：一页包含大量人脸缩略图和对照表的学术文章；上方是多行图像样本；中部及下方有表格和双栏正文。",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "画面主体或版面确为一页包含大量人脸缩略图和对照表的学术文章，且上方是多行图像样本。"
+      },
+      "evidence": "证据 1：画面主体或版面为：一页包含大量人脸缩略图和对照表的学术文章；证据 2：上方是多行图像样本；证据 3：中部及下方有表格和双栏正文。",
+      "grounding": "能够确认：一页包含大量人脸缩略图和对照表的学术文章，并且上方是多行图像样本。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "chart_table-06",
+    "split": "train",
+    "category": "chart_table",
+    "image_relative_path": "images_v7/train/chart_table-06.png",
+    "source_page_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/tablebank_demo/005.png",
+    "download_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/tablebank_demo/005.png",
+    "source_revision": "2661c7c0ef5c613e8f93c6e93b2e052399f0f854",
+    "source_revision_kind": "git_commit",
+    "author": "PaddleOCR contributors",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/LICENSE",
+    "sha256": "f0938cf98a784f8277d8a5dfc4242be437135263ec7bec871c477b931cb7830e",
+    "subject": "一张按紫、绿、红色区块分组的结构化表格",
+    "observable_facts": [
+      "画面主体或版面为：一张按紫、绿、红色区块分组的结构化表格",
+      "不同颜色区块包含多行记录",
+      "右侧列中有数值或短文本"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "表格只有两行两列",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：概括图表主题、编码方式和两项可直接核对的数据关系。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "一张按紫、绿、红色区块分组的结构化表格。画面主体或版面为：一张按紫、绿、红色区块分组的结构化表格；不同颜色区块包含多行记录；右侧列中有数值或短文本。",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "图中实际显示的是一张按紫、绿、红色区块分组的结构化表格，与待核验陈述不一致。"
+      },
+      "evidence": "证据 1：画面主体或版面为：一张按紫、绿、红色区块分组的结构化表格；证据 2：不同颜色区块包含多行记录；证据 3：右侧列中有数值或短文本。",
+      "grounding": "能够确认：一张按紫、绿、红色区块分组的结构化表格，并且不同颜色区块包含多行记录。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "chart_table-07",
+    "split": "train",
+    "category": "chart_table",
+    "image_relative_path": "images_v7/train/chart_table-07.png",
+    "source_page_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/version2.x/ppstructure/images/table_1.png",
+    "download_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/version2.x/ppstructure/images/table_1.png",
+    "source_revision": "2661c7c0ef5c613e8f93c6e93b2e052399f0f854",
+    "source_revision_kind": "git_commit",
+    "author": "PaddleOCR contributors",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/LICENSE",
+    "sha256": "4b6e3d1aef64cd90c92d5be3bed628f486affd4e4b2ce85f8da2695edb9069fc",
+    "subject": "包含商品招牌图片和多个比较表的报告页",
+    "observable_facts": [
+      "画面主体或版面为：包含商品招牌图片和多个比较表的报告页",
+      "上半部分是多张圆形或矩形店招图片",
+      "下半部分是密集的数值表与说明文字"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "图中显示的是包含商品招牌图片和多个比较表的报告页。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：概括图表主题、编码方式和两项可直接核对的数据关系。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "包含商品招牌图片和多个比较表的报告页。画面主体或版面为：包含商品招牌图片和多个比较表的报告页；上半部分是多张圆形或矩形店招图片；下半部分是密集的数值表与说明文字。",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "画面主体或版面确为包含商品招牌图片和多个比较表的报告页，且上半部分是多张圆形或矩形店招图片。"
+      },
+      "evidence": "证据 1：画面主体或版面为：包含商品招牌图片和多个比较表的报告页；证据 2：上半部分是多张圆形或矩形店招图片；证据 3：下半部分是密集的数值表与说明文字。",
+      "grounding": "能够确认：包含商品招牌图片和多个比较表的报告页，并且上半部分是多张圆形或矩形店招图片。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "chart_table-08",
+    "split": "train",
+    "category": "chart_table",
+    "image_relative_path": "images_v7/train/chart_table-08.jpg",
+    "source_page_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/version2.x/ppstructure/model_train/images/table_ch_result1.jpg",
+    "download_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/version2.x/ppstructure/model_train/images/table_ch_result1.jpg",
+    "source_revision": "2661c7c0ef5c613e8f93c6e93b2e052399f0f854",
+    "source_revision_kind": "git_commit",
+    "author": "PaddleOCR contributors",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/LICENSE",
+    "sha256": "a42deab68c85c7521fa2ec79aaf914ed3ce8741c0a3ba59679c337f317ca446e",
+    "subject": "两张并排的中文年度数据表",
+    "observable_facts": [
+      "画面主体或版面为：两张并排的中文年度数据表",
+      "左表为灰色浅网格",
+      "右表有更明显的黑色边框，列头包含多个年份"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "图中没有任何结构化数据区域",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：概括图表主题、编码方式和两项可直接核对的数据关系。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "两张并排的中文年度数据表。画面主体或版面为：两张并排的中文年度数据表；左表为灰色浅网格；右表有更明显的黑色边框，列头包含多个年份。",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "图中实际显示的是两张并排的中文年度数据表，与待核验陈述不一致。"
+      },
+      "evidence": "证据 1：画面主体或版面为：两张并排的中文年度数据表；证据 2：左表为灰色浅网格；证据 3：右表有更明显的黑色边框，列头包含多个年份。",
+      "grounding": "能够确认：两张并排的中文年度数据表，并且左表为灰色浅网格。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "chart_table-09",
+    "split": "train",
+    "category": "chart_table",
+    "image_relative_path": "images_v7/train/chart_table-09.jpg",
+    "source_page_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/version2.x/ppstructure/model_train/images/table_ch_result2.jpg",
+    "download_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/version2.x/ppstructure/model_train/images/table_ch_result2.jpg",
+    "source_revision": "2661c7c0ef5c613e8f93c6e93b2e052399f0f854",
+    "source_revision_kind": "git_commit",
+    "author": "PaddleOCR contributors",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/LICENSE",
+    "sha256": "60cec3deb68735faab25d51225153f80df97647210330874b42c4a1946d7d6e3",
+    "subject": "蓝色表头的中文业务表与右侧明细表拼图",
+    "observable_facts": [
+      "画面主体或版面为：蓝色表头的中文业务表与右侧明细表拼图",
+      "左侧是多列记录表",
+      "右侧按行列展示较长中文说明"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "图中显示的是蓝色表头的中文业务表与右侧明细表拼图。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：概括图表主题、编码方式和两项可直接核对的数据关系。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "蓝色表头的中文业务表与右侧明细表拼图。画面主体或版面为：蓝色表头的中文业务表与右侧明细表拼图；左侧是多列记录表；右侧按行列展示较长中文说明。",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "画面主体或版面确为蓝色表头的中文业务表与右侧明细表拼图，且左侧是多列记录表。"
+      },
+      "evidence": "证据 1：画面主体或版面为：蓝色表头的中文业务表与右侧明细表拼图；证据 2：左侧是多列记录表；证据 3：右侧按行列展示较长中文说明。",
+      "grounding": "能够确认：蓝色表头的中文业务表与右侧明细表拼图，并且左侧是多列记录表。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "chart_table-10",
+    "split": "train",
+    "category": "chart_table",
+    "image_relative_path": "images_v7/train/chart_table-10.jpg",
+    "source_page_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/version2.x/ppstructure/model_train/images/table_ch_result3.jpg",
+    "download_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/version2.x/ppstructure/model_train/images/table_ch_result3.jpg",
+    "source_revision": "2661c7c0ef5c613e8f93c6e93b2e052399f0f854",
+    "source_revision_kind": "git_commit",
+    "author": "PaddleOCR contributors",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/LICENSE",
+    "sha256": "80df150becb744471d8278261d4e08f619577cd5516d595a5e977b4eeef72fbd",
+    "subject": "两份并排展示的检验结果表",
+    "observable_facts": [
+      "画面主体或版面为：两份并排展示的检验结果表",
+      "左侧表格含检验名称、结果、单位和参考范围",
+      "右侧表格对同类项目给出结果与参考区间"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "表格只有两行两列",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：概括图表主题、编码方式和两项可直接核对的数据关系。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "两份并排展示的检验结果表。画面主体或版面为：两份并排展示的检验结果表；左侧表格含检验名称、结果、单位和参考范围；右侧表格对同类项目给出结果与参考区间。",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "图中实际显示的是两份并排展示的检验结果表，与待核验陈述不一致。"
+      },
+      "evidence": "证据 1：画面主体或版面为：两份并排展示的检验结果表；证据 2：左侧表格含检验名称、结果、单位和参考范围；证据 3：右侧表格对同类项目给出结果与参考区间。",
+      "grounding": "能够确认：两份并排展示的检验结果表，并且左侧表格含检验名称、结果、单位和参考范围。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "formula-01",
+    "split": "train",
+    "category": "formula",
+    "image_relative_path": "images_v7/train/formula-01.jpg",
+    "source_page_url": "https://github.com/breezedeus/Pix2Text/blob/f881e9df93d1ee6e90e823a66776ae0bb501f810/docs/examples/formula.jpg",
+    "download_url": "https://raw.githubusercontent.com/breezedeus/Pix2Text/f881e9df93d1ee6e90e823a66776ae0bb501f810/docs/examples/formula.jpg",
+    "source_revision": "f881e9df93d1ee6e90e823a66776ae0bb501f810",
+    "source_revision_kind": "git_commit",
+    "author": "BreezeDeus and Pix2Text contributors",
+    "license": "MIT",
+    "license_url": "https://github.com/breezedeus/Pix2Text/blob/f881e9df93d1ee6e90e823a66776ae0bb501f810/LICENSE",
+    "sha256": "9f98b2fd339417fe1a4c83182c6af20631eed489e746bc901682beca4e034cff",
+    "subject": "一条白字黑底的眼睑损失函数",
+    "observable_facts": [
+      "画面主体或版面为：一条白字黑底的眼睑损失函数",
+      "含对 t 和 v 的双重求和",
+      "末项是预测量与目标量之差的平方范数"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "整条公式",
+      "value": "\\mathcal{L}_{eyelid}=\\sum_{t=1}^{T}\\sum_{v=1}^{V}\\mathcal{M}_{v}^{(eyelid)}\\left(\\lVert\\hat{h}_{t,v}-x_{t,v}\\rVert^2\\right)",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。",
+      "精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    ],
+    "verification_claim": "图中显示的是一条白字黑底的眼睑损失函数。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：用 LaTeX 转写整条公式，保留可见的符号、上下标和正负号。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：\\mathcal{L}_{eyelid}=\\sum_{t=1}^{T}\\sum_{v=1}^{V}\\mathcal{M}_{v}^{(eyelid)}\\left(\\lVert\\hat{h}_{t,v}-x_{t,v}\\rVert^2\\right)",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "画面主体或版面确为一条白字黑底的眼睑损失函数，且含对 t 和 v 的双重求和。"
+      },
+      "evidence": "证据 1：画面主体或版面为：一条白字黑底的眼睑损失函数；证据 2：含对 t 和 v 的双重求和；证据 3：末项是预测量与目标量之差的平方范数。",
+      "grounding": "能够确认：一条白字黑底的眼睑损失函数，并且含对 t 和 v 的双重求和。不能确认：未显示的地点、时间、作者或画外信息不作推断。；精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "formula-02",
+    "split": "train",
+    "category": "formula",
+    "image_relative_path": "images_v7/train/formula-02.png",
+    "source_page_url": "https://github.com/breezedeus/Pix2Text/blob/f881e9df93d1ee6e90e823a66776ae0bb501f810/docs/examples/formula2.png",
+    "download_url": "https://raw.githubusercontent.com/breezedeus/Pix2Text/f881e9df93d1ee6e90e823a66776ae0bb501f810/docs/examples/formula2.png",
+    "source_revision": "f881e9df93d1ee6e90e823a66776ae0bb501f810",
+    "source_revision_kind": "git_commit",
+    "author": "BreezeDeus and Pix2Text contributors",
+    "license": "MIT",
+    "license_url": "https://github.com/breezedeus/Pix2Text/blob/f881e9df93d1ee6e90e823a66776ae0bb501f810/LICENSE",
+    "sha256": "f7caabcca22e1d79c5af00adf941ea9bc6f5e2fa3558f22ef5cf4bccaaef8c73",
+    "subject": "一条蓝灰色的有理式分解等式",
+    "observable_facts": [
+      "画面主体或版面为：一条蓝灰色的有理式分解等式",
+      "左端分子近似 7x^2-x+1，分母是三次多项式",
+      "右端把表达式拆为三个分式项"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "整条有理式分解等式",
+      "value": "\\frac{7x^2-x+1}{x^3+1}=\\frac{7x^2-x+1}{(x+1)(x^2-x+1)}=\\frac{A}{x+1}+\\frac{Bx+C}{x^2-x+1}",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。",
+      "精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    ],
+    "verification_claim": "表达式只包含普通中文段落",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：用 LaTeX 转写整条有理式分解等式，保留可见的符号、上下标和正负号。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：\\frac{7x^2-x+1}{x^3+1}=\\frac{7x^2-x+1}{(x+1)(x^2-x+1)}=\\frac{A}{x+1}+\\frac{Bx+C}{x^2-x+1}",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "图中实际显示的是一条蓝灰色的有理式分解等式，与待核验陈述不一致。"
+      },
+      "evidence": "证据 1：画面主体或版面为：一条蓝灰色的有理式分解等式；证据 2：左端分子近似 7x^2-x+1，分母是三次多项式；证据 3：右端把表达式拆为三个分式项。",
+      "grounding": "能够确认：一条蓝灰色的有理式分解等式，并且左端分子近似 7x^2-x+1，分母是三次多项式。不能确认：未显示的地点、时间、作者或画外信息不作推断。；精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "formula-03",
+    "split": "train",
+    "category": "formula",
+    "image_relative_path": "images_v7/train/formula-03.png",
+    "source_page_url": "https://github.com/breezedeus/Pix2Text/blob/f881e9df93d1ee6e90e823a66776ae0bb501f810/docs/examples/formula3.png",
+    "download_url": "https://raw.githubusercontent.com/breezedeus/Pix2Text/f881e9df93d1ee6e90e823a66776ae0bb501f810/docs/examples/formula3.png",
+    "source_revision": "f881e9df93d1ee6e90e823a66776ae0bb501f810",
+    "source_revision_kind": "git_commit",
+    "author": "BreezeDeus and Pix2Text contributors",
+    "license": "MIT",
+    "license_url": "https://github.com/breezedeus/Pix2Text/blob/f881e9df93d1ee6e90e823a66776ae0bb501f810/LICENSE",
+    "sha256": "302a93b057a904c5cb2af727ecdf1236fe07e446572198237d2f2487f025ab57",
+    "subject": "一条包含两个无穷级数的复变函数展开式",
+    "observable_facts": [
+      "画面主体或版面为：一条包含两个无穷级数的复变函数展开式",
+      "等式以 F(z)=F(0) 开头",
+      "后续两组求和的分母含 z-a_m 或 z-a_{-m}"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "整条复变函数展开式",
+      "value": "F(z)=F(0)+\\sum_{m=1}^{\\infty}\\left\\{\\frac{b_m}{z-a_m}+\\frac{b_m}{a_m}\\right\\}+\\sum_{m=1}^{\\infty}\\left\\{\\frac{b_{-m}}{z-a_{-m}}+\\frac{b_{-m}}{a_{-m}}\\right\\}",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。",
+      "精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    ],
+    "verification_claim": "图中显示的是一条包含两个无穷级数的复变函数展开式。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：用 LaTeX 转写整条复变函数展开式，保留可见的符号、上下标和正负号。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：F(z)=F(0)+\\sum_{m=1}^{\\infty}\\left\\{\\frac{b_m}{z-a_m}+\\frac{b_m}{a_m}\\right\\}+\\sum_{m=1}^{\\infty}\\left\\{\\frac{b_{-m}}{z-a_{-m}}+\\frac{b_{-m}}{a_{-m}}\\right\\}",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "画面主体或版面确为一条包含两个无穷级数的复变函数展开式，且等式以 F(z)=F(0) 开头。"
+      },
+      "evidence": "证据 1：画面主体或版面为：一条包含两个无穷级数的复变函数展开式；证据 2：等式以 F(z)=F(0) 开头；证据 3：后续两组求和的分母含 z-a_m 或 z-a_{-m}。",
+      "grounding": "能够确认：一条包含两个无穷级数的复变函数展开式，并且等式以 F(z)=F(0) 开头。不能确认：未显示的地点、时间、作者或画外信息不作推断。；精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "formula-04",
+    "split": "train",
+    "category": "formula",
+    "image_relative_path": "images_v7/train/formula-04.jpg",
+    "source_page_url": "https://github.com/breezedeus/Pix2Text/blob/f881e9df93d1ee6e90e823a66776ae0bb501f810/docs/examples/formula4.jpg",
+    "download_url": "https://raw.githubusercontent.com/breezedeus/Pix2Text/f881e9df93d1ee6e90e823a66776ae0bb501f810/docs/examples/formula4.jpg",
+    "source_revision": "f881e9df93d1ee6e90e823a66776ae0bb501f810",
+    "source_revision_kind": "git_commit",
+    "author": "BreezeDeus and Pix2Text contributors",
+    "license": "MIT",
+    "license_url": "https://github.com/breezedeus/Pix2Text/blob/f881e9df93d1ee6e90e823a66776ae0bb501f810/LICENSE",
+    "sha256": "9e8f9b1840a7ee47564ee2282d5da6b52f206db6a57d822fbf83ec8779719df3",
+    "subject": "一条红字黑底的组合损失函数",
+    "observable_facts": [
+      "画面主体或版面为：一条红字黑底的组合损失函数",
+      "左端为 L_t",
+      "右端包含 L_{rec}、分式项以及带根号的 e_t 项"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "整条红色损失函数",
+      "value": "\\mathcal{L}_t=\\mathbb{E}_{\\mathbf{x}_0,\\epsilon}\\left[\\frac{(1-\\alpha_t)^2}{2\\alpha_t(1-\\bar{\\alpha}_t)\\lVert\\Sigma_\\theta\\rVert_2^2}\\left\\lVert\\epsilon_t-\\epsilon_\\theta(\\sqrt{\\bar{\\alpha}_t}\\mathbf{x}_0+\\sqrt{1-\\bar{\\alpha}_t}\\epsilon_t,t)\\right\\rVert^2\\right]",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。",
+      "精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    ],
+    "verification_claim": "图片是一张统计数据表而不是公式",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：用 LaTeX 转写整条红色损失函数，保留可见的符号、上下标和正负号。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：\\mathcal{L}_t=\\mathbb{E}_{\\mathbf{x}_0,\\epsilon}\\left[\\frac{(1-\\alpha_t)^2}{2\\alpha_t(1-\\bar{\\alpha}_t)\\lVert\\Sigma_\\theta\\rVert_2^2}\\left\\lVert\\epsilon_t-\\epsilon_\\theta(\\sqrt{\\bar{\\alpha}_t}\\mathbf{x}_0+\\sqrt{1-\\bar{\\alpha}_t}\\epsilon_t,t)\\right\\rVert^2\\right]",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "图中实际显示的是一条红字黑底的组合损失函数，与待核验陈述不一致。"
+      },
+      "evidence": "证据 1：画面主体或版面为：一条红字黑底的组合损失函数；证据 2：左端为 L_t；证据 3：右端包含 L_{rec}、分式项以及带根号的 e_t 项。",
+      "grounding": "能够确认：一条红字黑底的组合损失函数，并且左端为 L_t。不能确认：未显示的地点、时间、作者或画外信息不作推断。；精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "formula-05",
+    "split": "train",
+    "category": "formula",
+    "image_relative_path": "images_v7/train/formula-05.jpg",
+    "source_page_url": "https://github.com/breezedeus/Pix2Text/blob/f881e9df93d1ee6e90e823a66776ae0bb501f810/docs/examples/formula5.jpg",
+    "download_url": "https://raw.githubusercontent.com/breezedeus/Pix2Text/f881e9df93d1ee6e90e823a66776ae0bb501f810/docs/examples/formula5.jpg",
+    "source_revision": "f881e9df93d1ee6e90e823a66776ae0bb501f810",
+    "source_revision_kind": "git_commit",
+    "author": "BreezeDeus and Pix2Text contributors",
+    "license": "MIT",
+    "license_url": "https://github.com/breezedeus/Pix2Text/blob/f881e9df93d1ee6e90e823a66776ae0bb501f810/LICENSE",
+    "sha256": "cff70adabdecdc2fe999d78634aa8cd05efaded3579562e964e86df77e75a0e7",
+    "subject": "一个包含三条线性方程的方程组",
+    "observable_facts": [
+      "画面主体或版面为：一个包含三条线性方程的方程组",
+      "左侧用大括号连接三行",
+      "未知量为 a、b、c"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "三行方程组",
+      "value": "\\begin{cases}25a-5b+c=1\\\\a-b+c=1\\\\9a-3b+c=0\\end{cases}",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。",
+      "精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    ],
+    "verification_claim": "图中显示的是一个包含三条线性方程的方程组。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：用 LaTeX 转写三行方程组，保留可见的符号、上下标和正负号。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：\\begin{cases}25a-5b+c=1\\\\a-b+c=1\\\\9a-3b+c=0\\end{cases}",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "画面主体或版面确为一个包含三条线性方程的方程组，且左侧用大括号连接三行。"
+      },
+      "evidence": "证据 1：画面主体或版面为：一个包含三条线性方程的方程组；证据 2：左侧用大括号连接三行；证据 3：未知量为 a、b、c。",
+      "grounding": "能够确认：一个包含三条线性方程的方程组，并且左侧用大括号连接三行。不能确认：未显示的地点、时间、作者或画外信息不作推断。；精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "formula-06",
+    "split": "train",
+    "category": "formula",
+    "image_relative_path": "images_v7/train/formula-06.jpg",
+    "source_page_url": "https://github.com/breezedeus/Pix2Text/blob/f881e9df93d1ee6e90e823a66776ae0bb501f810/docs/examples/formula6.jpg",
+    "download_url": "https://raw.githubusercontent.com/breezedeus/Pix2Text/f881e9df93d1ee6e90e823a66776ae0bb501f810/docs/examples/formula6.jpg",
+    "source_revision": "f881e9df93d1ee6e90e823a66776ae0bb501f810",
+    "source_revision_kind": "git_commit",
+    "author": "BreezeDeus and Pix2Text contributors",
+    "license": "MIT",
+    "license_url": "https://github.com/breezedeus/Pix2Text/blob/f881e9df93d1ee6e90e823a66776ae0bb501f810/LICENSE",
+    "sha256": "f7a8526b35e411dfef81f8fc2ed356103860fe57cce707ea4a9d58f71107b7cf",
+    "subject": "一个四行四列的稀疏矩阵",
+    "observable_facts": [
+      "画面主体或版面为：一个四行四列的稀疏矩阵",
+      "矩阵多数元素为 0",
+      "非零项包含 1、m^2gl^2/(Mml^2) 和 -mgl(M+m)/(Mml^2)"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "四行四列矩阵",
+      "value": "\\begin{bmatrix}0&1&0&0\\\\0&0&\\frac{m^2gl^2}{Mml^2}&0\\\\0&0&0&1\\\\0&0&-\\frac{mgl(M+m)}{Mml^2}&0\\end{bmatrix}",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。",
+      "精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    ],
+    "verification_claim": "表达式只包含普通中文段落",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：用 LaTeX 转写四行四列矩阵，保留可见的符号、上下标和正负号。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：\\begin{bmatrix}0&1&0&0\\\\0&0&\\frac{m^2gl^2}{Mml^2}&0\\\\0&0&0&1\\\\0&0&-\\frac{mgl(M+m)}{Mml^2}&0\\end{bmatrix}",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "图中实际显示的是一个四行四列的稀疏矩阵，与待核验陈述不一致。"
+      },
+      "evidence": "证据 1：画面主体或版面为：一个四行四列的稀疏矩阵；证据 2：矩阵多数元素为 0；证据 3：非零项包含 1、m^2gl^2/(Mml^2) 和 -mgl(M+m)/(Mml^2)。",
+      "grounding": "能够确认：一个四行四列的稀疏矩阵，并且矩阵多数元素为 0。不能确认：未显示的地点、时间、作者或画外信息不作推断。；精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "formula-07",
+    "split": "train",
+    "category": "formula",
+    "image_relative_path": "images_v7/train/formula-07.png",
+    "source_page_url": "https://github.com/breezedeus/Pix2Text/blob/f881e9df93d1ee6e90e823a66776ae0bb501f810/docs/examples/hw-formula1.png",
+    "download_url": "https://raw.githubusercontent.com/breezedeus/Pix2Text/f881e9df93d1ee6e90e823a66776ae0bb501f810/docs/examples/hw-formula1.png",
+    "source_revision": "f881e9df93d1ee6e90e823a66776ae0bb501f810",
+    "source_revision_kind": "git_commit",
+    "author": "BreezeDeus and Pix2Text contributors",
+    "license": "MIT",
+    "license_url": "https://github.com/breezedeus/Pix2Text/blob/f881e9df93d1ee6e90e823a66776ae0bb501f810/LICENSE",
+    "sha256": "a68e0a2797612d0192737c6251683be3b396fbcfae630518201502fe5df358f7",
+    "subject": "一条手写的位移与速度积分关系式",
+    "observable_facts": [
+      "画面主体或版面为：一条手写的位移与速度积分关系式",
+      "左端为 s_2-s_1",
+      "积分上下限为 t_1 和 t_2，被积函数为 v"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "整条手写积分式",
+      "value": "s_2-s_1=\\int_{t_1}^{t_2}v\\,dt",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。",
+      "精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    ],
+    "verification_claim": "图中显示的是一条手写的位移与速度积分关系式。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：用 LaTeX 转写整条手写积分式，保留可见的符号、上下标和正负号。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：s_2-s_1=\\int_{t_1}^{t_2}v\\,dt",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "画面主体或版面确为一条手写的位移与速度积分关系式，且左端为 s_2-s_1。"
+      },
+      "evidence": "证据 1：画面主体或版面为：一条手写的位移与速度积分关系式；证据 2：左端为 s_2-s_1；证据 3：积分上下限为 t_1 和 t_2，被积函数为 v。",
+      "grounding": "能够确认：一条手写的位移与速度积分关系式，并且左端为 s_2-s_1。不能确认：未显示的地点、时间、作者或画外信息不作推断。；精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "formula-08",
+    "split": "train",
+    "category": "formula",
+    "image_relative_path": "images_v7/train/formula-08.png",
+    "source_page_url": "https://github.com/breezedeus/Pix2Text/blob/f881e9df93d1ee6e90e823a66776ae0bb501f810/docs/examples/hw-formula2.png",
+    "download_url": "https://raw.githubusercontent.com/breezedeus/Pix2Text/f881e9df93d1ee6e90e823a66776ae0bb501f810/docs/examples/hw-formula2.png",
+    "source_revision": "f881e9df93d1ee6e90e823a66776ae0bb501f810",
+    "source_revision_kind": "git_commit",
+    "author": "BreezeDeus and Pix2Text contributors",
+    "license": "MIT",
+    "license_url": "https://github.com/breezedeus/Pix2Text/blob/f881e9df93d1ee6e90e823a66776ae0bb501f810/LICENSE",
+    "sha256": "39d7726a23c0c046e385bccfaac73e64a4b919c3f1e4bddeb7ebf44b6de336e0",
+    "subject": "一条手写的广义积分等式",
+    "observable_facts": [
+      "画面主体或版面为：一条手写的广义积分等式",
+      "左右两边积分上下限均为负无穷到正无穷",
+      "被积函数含指数项，左侧还含 ds"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "等号右侧的清晰积分",
+      "value": "\\int_{-\\infty}^{+\\infty}e^{-ts^2}\\,ds",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。",
+      "精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    ],
+    "verification_claim": "图片是一张统计数据表而不是公式",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：用 LaTeX 转写等号右侧的清晰积分，保留可见的符号、上下标和正负号。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：\\int_{-\\infty}^{+\\infty}e^{-ts^2}\\,ds",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "图中实际显示的是一条手写的广义积分等式，与待核验陈述不一致。"
+      },
+      "evidence": "证据 1：画面主体或版面为：一条手写的广义积分等式；证据 2：左右两边积分上下限均为负无穷到正无穷；证据 3：被积函数含指数项，左侧还含 ds。",
+      "grounding": "能够确认：一条手写的广义积分等式，并且左右两边积分上下限均为负无穷到正无穷。不能确认：未显示的地点、时间、作者或画外信息不作推断。；精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "formula-09",
+    "split": "train",
+    "category": "formula",
+    "image_relative_path": "images_v7/train/formula-09.png",
+    "source_page_url": "https://github.com/breezedeus/Pix2Text/blob/f881e9df93d1ee6e90e823a66776ae0bb501f810/docs/examples/hw-formula3.png",
+    "download_url": "https://raw.githubusercontent.com/breezedeus/Pix2Text/f881e9df93d1ee6e90e823a66776ae0bb501f810/docs/examples/hw-formula3.png",
+    "source_revision": "f881e9df93d1ee6e90e823a66776ae0bb501f810",
+    "source_revision_kind": "git_commit",
+    "author": "BreezeDeus and Pix2Text contributors",
+    "license": "MIT",
+    "license_url": "https://github.com/breezedeus/Pix2Text/blob/f881e9df93d1ee6e90e823a66776ae0bb501f810/LICENSE",
+    "sha256": "bd1dc50b26b33bb62b9682fc35fc14f44ec0591d17f2eedae09c544a04101c8d",
+    "subject": "由两条常微分方程组成的手写方程组",
+    "observable_facts": [
+      "画面主体或版面为：由两条常微分方程组成的手写方程组",
+      "第一行是一阶导数 dy/dx 与 y 的关系",
+      "第二行包含二阶导数和一阶导数的三次方"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "两行常微分方程组",
+      "value": "\\begin{cases}\\frac{dy}{dx}+y=3\\\\\\frac{d^2y}{dx^2}+3\\left(\\frac{dy}{dx}\\right)^3+y^3=0\\end{cases}",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。",
+      "精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    ],
+    "verification_claim": "图中显示的是由两条常微分方程组成的手写方程组。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：用 LaTeX 转写两行常微分方程组，保留可见的符号、上下标和正负号。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：\\begin{cases}\\frac{dy}{dx}+y=3\\\\\\frac{d^2y}{dx^2}+3\\left(\\frac{dy}{dx}\\right)^3+y^3=0\\end{cases}",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "画面主体或版面确为由两条常微分方程组成的手写方程组，且第一行是一阶导数 dy/dx 与 y 的关系。"
+      },
+      "evidence": "证据 1：画面主体或版面为：由两条常微分方程组成的手写方程组；证据 2：第一行是一阶导数 dy/dx 与 y 的关系；证据 3：第二行包含二阶导数和一阶导数的三次方。",
+      "grounding": "能够确认：由两条常微分方程组成的手写方程组，并且第一行是一阶导数 dy/dx 与 y 的关系。不能确认：未显示的地点、时间、作者或画外信息不作推断。；精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "formula-10",
+    "split": "train",
+    "category": "formula",
+    "image_relative_path": "images_v7/train/formula-10.png",
+    "source_page_url": "https://github.com/breezedeus/Pix2Text/blob/f881e9df93d1ee6e90e823a66776ae0bb501f810/docs/examples/math-formula-42.png",
+    "download_url": "https://raw.githubusercontent.com/breezedeus/Pix2Text/f881e9df93d1ee6e90e823a66776ae0bb501f810/docs/examples/math-formula-42.png",
+    "source_revision": "f881e9df93d1ee6e90e823a66776ae0bb501f810",
+    "source_revision_kind": "git_commit",
+    "author": "BreezeDeus and Pix2Text contributors",
+    "license": "MIT",
+    "license_url": "https://github.com/breezedeus/Pix2Text/blob/f881e9df93d1ee6e90e823a66776ae0bb501f810/LICENSE",
+    "sha256": "28225a78e4f5f59677dc810b0a95133c1ea75d3aa08a88ec53f4a2a336614308",
+    "subject": "一个手写极限表达式",
+    "observable_facts": [
+      "画面主体或版面为：一个手写极限表达式",
+      "自变量 x 趋近 1/4",
+      "分子为 1-4^{x-1/4}，分母为 1-4x"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "整条极限式",
+      "value": "\\lim_{x\\to\\frac14}\\frac{1-4^{x-\\frac14}}{1-4x}",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。",
+      "精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    ],
+    "verification_claim": "表达式只包含普通中文段落",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：用 LaTeX 转写整条极限式，保留可见的符号、上下标和正负号。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：\\lim_{x\\to\\frac14}\\frac{1-4^{x-\\frac14}}{1-4x}",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "图中实际显示的是一个手写极限表达式，与待核验陈述不一致。"
+      },
+      "evidence": "证据 1：画面主体或版面为：一个手写极限表达式；证据 2：自变量 x 趋近 1/4；证据 3：分子为 1-4^{x-1/4}，分母为 1-4x。",
+      "grounding": "能够确认：一个手写极限表达式，并且自变量 x 趋近 1/4。不能确认：未显示的地点、时间、作者或画外信息不作推断。；精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "natural_scene-01",
+    "split": "train",
+    "category": "natural_scene",
+    "image_relative_path": "images_v7/train/natural_scene-01.png",
+    "source_page_url": "https://github.com/scikit-image/scikit-image/blob/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/skimage/data/astronaut.png",
+    "download_url": "https://raw.githubusercontent.com/scikit-image/scikit-image/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/skimage/data/astronaut.png",
+    "source_revision": "e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae",
+    "source_revision_kind": "git_commit",
+    "author": "scikit-image team and credited sample-data contributors",
+    "license": "BSD-3-Clause",
+    "license_url": "https://github.com/scikit-image/scikit-image/blob/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/LICENSE.txt",
+    "sha256": "88431cd9653ccd539741b555fb0a46b61558b301d4110412b5bc28b5e3ea6cb5",
+    "subject": "一名穿橙色宇航服的女宇航员半身肖像",
+    "observable_facts": [
+      "画面主体或版面为：一名穿橙色宇航服的女宇航员半身肖像",
+      "人物身后有美国国旗",
+      "右后方可见白色火箭模型，前景有黑色头盔"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "图中显示的是一名穿橙色宇航服的女宇航员半身肖像。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：描述主体、背景与相对位置，不猜测地点、身份或拍摄信息。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "一名穿橙色宇航服的女宇航员半身肖像。画面主体或版面为：一名穿橙色宇航服的女宇航员半身肖像；人物身后有美国国旗；右后方可见白色火箭模型，前景有黑色头盔。",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "画面主体或版面确为一名穿橙色宇航服的女宇航员半身肖像，且人物身后有美国国旗。"
+      },
+      "evidence": "证据 1：画面主体或版面为：一名穿橙色宇航服的女宇航员半身肖像；证据 2：人物身后有美国国旗；证据 3：右后方可见白色火箭模型，前景有黑色头盔。",
+      "grounding": "能够确认：一名穿橙色宇航服的女宇航员半身肖像，并且人物身后有美国国旗。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "natural_scene-02",
+    "split": "train",
+    "category": "natural_scene",
+    "image_relative_path": "images_v7/train/natural_scene-02.png",
+    "source_page_url": "https://github.com/scikit-image/scikit-image/blob/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/skimage/data/camera.png",
+    "download_url": "https://raw.githubusercontent.com/scikit-image/scikit-image/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/skimage/data/camera.png",
+    "source_revision": "e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae",
+    "source_revision_kind": "git_commit",
+    "author": "scikit-image team and credited sample-data contributors",
+    "license": "BSD-3-Clause",
+    "license_url": "https://github.com/scikit-image/scikit-image/blob/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/LICENSE.txt",
+    "sha256": "b0793d2adda0fa6ae899c03989482bff9a42d3d5690fc7e3648f2795d730c23a",
+    "subject": "一名在户外操作三脚架相机的男子",
+    "observable_facts": [
+      "画面主体或版面为：一名在户外操作三脚架相机的男子",
+      "画面为黑白照片",
+      "男子弯腰贴近取景器，远处有建筑和树木"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "画面右上角有醒目的红色文字",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：描述主体、背景与相对位置，不猜测地点、身份或拍摄信息。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "一名在户外操作三脚架相机的男子。画面主体或版面为：一名在户外操作三脚架相机的男子；画面为黑白照片；男子弯腰贴近取景器，远处有建筑和树木。",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "图中实际显示的是一名在户外操作三脚架相机的男子，与待核验陈述不一致。"
+      },
+      "evidence": "证据 1：画面主体或版面为：一名在户外操作三脚架相机的男子；证据 2：画面为黑白照片；证据 3：男子弯腰贴近取景器，远处有建筑和树木。",
+      "grounding": "能够确认：一名在户外操作三脚架相机的男子，并且画面为黑白照片。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "natural_scene-03",
+    "split": "train",
+    "category": "natural_scene",
+    "image_relative_path": "images_v7/train/natural_scene-03.png",
+    "source_page_url": "https://github.com/scikit-image/scikit-image/blob/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/skimage/data/chelsea.png",
+    "download_url": "https://raw.githubusercontent.com/scikit-image/scikit-image/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/skimage/data/chelsea.png",
+    "source_revision": "e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae",
+    "source_revision_kind": "git_commit",
+    "author": "scikit-image team and credited sample-data contributors",
+    "license": "BSD-3-Clause",
+    "license_url": "https://github.com/scikit-image/scikit-image/blob/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/LICENSE.txt",
+    "sha256": "596aa1e7cb875eb79f437e310381d26b338a81c2da23439704a73c4651e8c4bb",
+    "subject": "一只棕色虎斑猫的面部特写",
+    "observable_facts": [
+      "画面主体或版面为：一只棕色虎斑猫的面部特写",
+      "猫有黄绿色眼睛",
+      "鼻子位于画面中央，背景明显虚化"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "图中显示的是一只棕色虎斑猫的面部特写。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：描述主体、背景与相对位置，不猜测地点、身份或拍摄信息。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "一只棕色虎斑猫的面部特写。画面主体或版面为：一只棕色虎斑猫的面部特写；猫有黄绿色眼睛；鼻子位于画面中央，背景明显虚化。",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "画面主体或版面确为一只棕色虎斑猫的面部特写，且猫有黄绿色眼睛。"
+      },
+      "evidence": "证据 1：画面主体或版面为：一只棕色虎斑猫的面部特写；证据 2：猫有黄绿色眼睛；证据 3：鼻子位于画面中央，背景明显虚化。",
+      "grounding": "能够确认：一只棕色虎斑猫的面部特写，并且猫有黄绿色眼睛。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "natural_scene-04",
+    "split": "train",
+    "category": "natural_scene",
+    "image_relative_path": "images_v7/train/natural_scene-04.png",
+    "source_page_url": "https://github.com/scikit-image/scikit-image/blob/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/skimage/data/coffee.png",
+    "download_url": "https://raw.githubusercontent.com/scikit-image/scikit-image/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/skimage/data/coffee.png",
+    "source_revision": "e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae",
+    "source_revision_kind": "git_commit",
+    "author": "scikit-image team and credited sample-data contributors",
+    "license": "BSD-3-Clause",
+    "license_url": "https://github.com/scikit-image/scikit-image/blob/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/LICENSE.txt",
+    "sha256": "cc02f8ca188b167c775a7101b5d767d1e71792cf762c33d6fa15a4599b5a8de7",
+    "subject": "木桌上的一杯咖啡",
+    "observable_facts": [
+      "画面主体或版面为：木桌上的一杯咖啡",
+      "白色咖啡杯放在红色杯碟上",
+      "杯碟右侧放有一把金属小勺"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "画面是室内会议室",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：描述主体、背景与相对位置，不猜测地点、身份或拍摄信息。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "木桌上的一杯咖啡。画面主体或版面为：木桌上的一杯咖啡；白色咖啡杯放在红色杯碟上；杯碟右侧放有一把金属小勺。",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "图中实际显示的是木桌上的一杯咖啡，与待核验陈述不一致。"
+      },
+      "evidence": "证据 1：画面主体或版面为：木桌上的一杯咖啡；证据 2：白色咖啡杯放在红色杯碟上；证据 3：杯碟右侧放有一把金属小勺。",
+      "grounding": "能够确认：木桌上的一杯咖啡，并且白色咖啡杯放在红色杯碟上。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "natural_scene-05",
+    "split": "train",
+    "category": "natural_scene",
+    "image_relative_path": "images_v7/train/natural_scene-05.png",
+    "source_page_url": "https://github.com/scikit-image/scikit-image/blob/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/skimage/data/coins.png",
+    "download_url": "https://raw.githubusercontent.com/scikit-image/scikit-image/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/skimage/data/coins.png",
+    "source_revision": "e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae",
+    "source_revision_kind": "git_commit",
+    "author": "scikit-image team and credited sample-data contributors",
+    "license": "BSD-3-Clause",
+    "license_url": "https://github.com/scikit-image/scikit-image/blob/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/LICENSE.txt",
+    "sha256": "f8d773fc9cfa6f4d8e5942dc34d0a0788fcaed2a4fefbbed0aef5398d7ef4cba",
+    "subject": "深色背景上按行摆放的多枚硬币",
+    "observable_facts": [
+      "画面主体或版面为：深色背景上按行摆放的多枚硬币",
+      "硬币大小和图案各不相同",
+      "图像为灰度照片，共有多行硬币"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "图中显示的是深色背景上按行摆放的多枚硬币。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：描述主体、背景与相对位置，不猜测地点、身份或拍摄信息。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "深色背景上按行摆放的多枚硬币。画面主体或版面为：深色背景上按行摆放的多枚硬币；硬币大小和图案各不相同；图像为灰度照片，共有多行硬币。",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "画面主体或版面确为深色背景上按行摆放的多枚硬币，且硬币大小和图案各不相同。"
+      },
+      "evidence": "证据 1：画面主体或版面为：深色背景上按行摆放的多枚硬币；证据 2：硬币大小和图案各不相同；证据 3：图像为灰度照片，共有多行硬币。",
+      "grounding": "能够确认：深色背景上按行摆放的多枚硬币，并且硬币大小和图案各不相同。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "natural_scene-06",
+    "split": "train",
+    "category": "natural_scene",
+    "image_relative_path": "images_v7/train/natural_scene-06.png",
+    "source_page_url": "https://github.com/scikit-image/scikit-image/blob/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/skimage/data/brick.png",
+    "download_url": "https://raw.githubusercontent.com/scikit-image/scikit-image/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/skimage/data/brick.png",
+    "source_revision": "e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae",
+    "source_revision_kind": "git_commit",
+    "author": "scikit-image team and credited sample-data contributors",
+    "license": "BSD-3-Clause",
+    "license_url": "https://github.com/scikit-image/scikit-image/blob/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/LICENSE.txt",
+    "sha256": "7966caf324f6ba843118d98f7a07746d22f6a343430add0233eca5f6eaaa8fcf",
+    "subject": "由长方形砖块组成的规则表面纹理",
+    "observable_facts": [
+      "画面主体或版面为：由长方形砖块组成的规则表面纹理",
+      "砖块呈灰色",
+      "砖缝形成错位的横纵线条"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "画面右上角有醒目的红色文字",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：描述主体、背景与相对位置，不猜测地点、身份或拍摄信息。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "由长方形砖块组成的规则表面纹理。画面主体或版面为：由长方形砖块组成的规则表面纹理；砖块呈灰色；砖缝形成错位的横纵线条。",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "图中实际显示的是由长方形砖块组成的规则表面纹理，与待核验陈述不一致。"
+      },
+      "evidence": "证据 1：画面主体或版面为：由长方形砖块组成的规则表面纹理；证据 2：砖块呈灰色；证据 3：砖缝形成错位的横纵线条。",
+      "grounding": "能够确认：由长方形砖块组成的规则表面纹理，并且砖块呈灰色。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "natural_scene-07",
+    "split": "train",
+    "category": "natural_scene",
+    "image_relative_path": "images_v7/train/natural_scene-07.png",
+    "source_page_url": "https://github.com/scikit-image/scikit-image/blob/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/skimage/data/grass.png",
+    "download_url": "https://raw.githubusercontent.com/scikit-image/scikit-image/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/skimage/data/grass.png",
+    "source_revision": "e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae",
+    "source_revision_kind": "git_commit",
+    "author": "scikit-image team and credited sample-data contributors",
+    "license": "BSD-3-Clause",
+    "license_url": "https://github.com/scikit-image/scikit-image/blob/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/LICENSE.txt",
+    "sha256": "b6b6022426b38936c43a4ac09635cd78af074e90f42ffa8227ac8b7452d39f89",
+    "subject": "近距离拍摄的草地纹理",
+    "observable_facts": [
+      "画面主体或版面为：近距离拍摄的草地纹理",
+      "画面由交错的草叶覆盖",
+      "图像为灰度或低饱和度"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "图中显示的是近距离拍摄的草地纹理。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：描述主体、背景与相对位置，不猜测地点、身份或拍摄信息。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "近距离拍摄的草地纹理。画面主体或版面为：近距离拍摄的草地纹理；画面由交错的草叶覆盖；图像为灰度或低饱和度。",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "画面主体或版面确为近距离拍摄的草地纹理，且画面由交错的草叶覆盖。"
+      },
+      "evidence": "证据 1：画面主体或版面为：近距离拍摄的草地纹理；证据 2：画面由交错的草叶覆盖；证据 3：图像为灰度或低饱和度。",
+      "grounding": "能够确认：近距离拍摄的草地纹理，并且画面由交错的草叶覆盖。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "natural_scene-08",
+    "split": "train",
+    "category": "natural_scene",
+    "image_relative_path": "images_v7/train/natural_scene-08.png",
+    "source_page_url": "https://github.com/scikit-image/scikit-image/blob/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/skimage/data/gravel.png",
+    "download_url": "https://raw.githubusercontent.com/scikit-image/scikit-image/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/skimage/data/gravel.png",
+    "source_revision": "e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae",
+    "source_revision_kind": "git_commit",
+    "author": "scikit-image team and credited sample-data contributors",
+    "license": "BSD-3-Clause",
+    "license_url": "https://github.com/scikit-image/scikit-image/blob/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/LICENSE.txt",
+    "sha256": "c48615b451bf1e606fbd72c0aa9f8cc0f068ab7111ef7d93bb9b0f2586440c12",
+    "subject": "铺满画面的碎石纹理",
+    "observable_facts": [
+      "画面主体或版面为：铺满画面的碎石纹理",
+      "碎石大小接近但形状不规则",
+      "画面没有明显前景主体或文字"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "画面是室内会议室",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：描述主体、背景与相对位置，不猜测地点、身份或拍摄信息。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "铺满画面的碎石纹理。画面主体或版面为：铺满画面的碎石纹理；碎石大小接近但形状不规则；画面没有明显前景主体或文字。",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "图中实际显示的是铺满画面的碎石纹理，与待核验陈述不一致。"
+      },
+      "evidence": "证据 1：画面主体或版面为：铺满画面的碎石纹理；证据 2：碎石大小接近但形状不规则；证据 3：画面没有明显前景主体或文字。",
+      "grounding": "能够确认：铺满画面的碎石纹理，并且碎石大小接近但形状不规则。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "natural_scene-09",
+    "split": "train",
+    "category": "natural_scene",
+    "image_relative_path": "images_v7/train/natural_scene-09.png",
+    "source_page_url": "https://github.com/scikit-image/scikit-image/blob/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/skimage/data/horse.png",
+    "download_url": "https://raw.githubusercontent.com/scikit-image/scikit-image/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/skimage/data/horse.png",
+    "source_revision": "e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae",
+    "source_revision_kind": "git_commit",
+    "author": "scikit-image team and credited sample-data contributors",
+    "license": "BSD-3-Clause",
+    "license_url": "https://github.com/scikit-image/scikit-image/blob/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/LICENSE.txt",
+    "sha256": "c7fb60789fe394c485f842291ea3b21e50d140f39d6dcb5fb9917cc178225455",
+    "subject": "白色背景上的黑色马匹侧面剪影",
+    "observable_facts": [
+      "画面主体或版面为：白色背景上的黑色马匹侧面剪影",
+      "马头朝向右侧",
+      "四条腿、尾巴和耳朵轮廓清晰"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "图中显示的是白色背景上的黑色马匹侧面剪影。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：描述主体、背景与相对位置，不猜测地点、身份或拍摄信息。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "白色背景上的黑色马匹侧面剪影。画面主体或版面为：白色背景上的黑色马匹侧面剪影；马头朝向右侧；四条腿、尾巴和耳朵轮廓清晰。",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "画面主体或版面确为白色背景上的黑色马匹侧面剪影，且马头朝向右侧。"
+      },
+      "evidence": "证据 1：画面主体或版面为：白色背景上的黑色马匹侧面剪影；证据 2：马头朝向右侧；证据 3：四条腿、尾巴和耳朵轮廓清晰。",
+      "grounding": "能够确认：白色背景上的黑色马匹侧面剪影，并且马头朝向右侧。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "natural_scene-10",
+    "split": "train",
+    "category": "natural_scene",
+    "image_relative_path": "images_v7/train/natural_scene-10.jpg",
+    "source_page_url": "https://github.com/scikit-image/scikit-image/blob/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/skimage/data/hubble_deep_field.jpg",
+    "download_url": "https://raw.githubusercontent.com/scikit-image/scikit-image/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/skimage/data/hubble_deep_field.jpg",
+    "source_revision": "e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae",
+    "source_revision_kind": "git_commit",
+    "author": "scikit-image team and credited sample-data contributors",
+    "license": "BSD-3-Clause",
+    "license_url": "https://github.com/scikit-image/scikit-image/blob/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/LICENSE.txt",
+    "sha256": "3a19c5dd8a927a9334bb1229a6d63711b1c0c767fb27e2286e7c84a3e2c2f5f4",
+    "subject": "布满星系和恒星的深空图像",
+    "observable_facts": [
+      "画面主体或版面为：布满星系和恒星的深空图像",
+      "背景接近黑色",
+      "可见大量不同颜色和亮度的点状、团状天体"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "画面右上角有醒目的红色文字",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：描述主体、背景与相对位置，不猜测地点、身份或拍摄信息。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "布满星系和恒星的深空图像。画面主体或版面为：布满星系和恒星的深空图像；背景接近黑色；可见大量不同颜色和亮度的点状、团状天体。",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "图中实际显示的是布满星系和恒星的深空图像，与待核验陈述不一致。"
+      },
+      "evidence": "证据 1：画面主体或版面为：布满星系和恒星的深空图像；证据 2：背景接近黑色；证据 3：可见大量不同颜色和亮度的点状、团状天体。",
+      "grounding": "能够确认：布满星系和恒星的深空图像，并且背景接近黑色。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ocr-01",
+    "split": "train",
+    "category": "ocr",
+    "image_relative_path": "images_v7/train/ocr-01.jpg",
+    "source_page_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/deploy/ios_demo/PaddleOCRDemo/Resources/SampleImages/general_ocr_002.jpg",
+    "download_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/deploy/ios_demo/PaddleOCRDemo/Resources/SampleImages/general_ocr_002.jpg",
+    "source_revision": "2661c7c0ef5c613e8f93c6e93b2e052399f0f854",
+    "source_revision_kind": "git_commit",
+    "author": "PaddleOCR contributors",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/LICENSE",
+    "sha256": "4425af33dd163cf73bdff502bd35ee527e9bdd5725501db1da78bfdae9f538f4",
+    "subject": "一张中英文登机牌",
+    "observable_facts": [
+      "画面主体或版面为：一张中英文登机牌",
+      "票面包含航班、日期、座位、出发地和目的地字段",
+      "右侧有红色印章，底部有条形码"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "票面顶部的英文标题",
+      "value": "BOARDING PASS",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。",
+      "精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    ],
+    "verification_claim": "图中显示的是一张中英文登机牌。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：只转写票面顶部的英文标题，不要补写模糊或被裁切的其他文字。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：BOARDING PASS",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "画面主体或版面确为一张中英文登机牌，且票面包含航班、日期、座位、出发地和目的地字段。"
+      },
+      "evidence": "证据 1：画面主体或版面为：一张中英文登机牌；证据 2：票面包含航班、日期、座位、出发地和目的地字段；证据 3：右侧有红色印章，底部有条形码。",
+      "grounding": "能够确认：一张中英文登机牌，并且票面包含航班、日期、座位、出发地和目的地字段。不能确认：未显示的地点、时间、作者或画外信息不作推断。；精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ocr-02",
+    "split": "train",
+    "category": "ocr",
+    "image_relative_path": "images_v7/train/ocr-02.jpg",
+    "source_page_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/ArT.jpg",
+    "download_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/ArT.jpg",
+    "source_revision": "2661c7c0ef5c613e8f93c6e93b2e052399f0f854",
+    "source_revision_kind": "git_commit",
+    "author": "PaddleOCR contributors",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/LICENSE",
+    "sha256": "bf837b7ff1818dfc996e95ffb5905eee36daed38dbbcc7f4b6de767820016ee9",
+    "subject": "由多张英文招牌和体育照片组成的拼图",
+    "observable_facts": [
+      "画面主体或版面为：由多张英文招牌和体育照片组成的拼图",
+      "上排可见椭圆或矩形商店招牌",
+      "中下部可见球员背影和体育场入口"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "上排中间招牌的蓝色大字",
+      "value": "BLUE LAGOON",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。",
+      "精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    ],
+    "verification_claim": "所有文字都是英文印刷体",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：只转写上排中间招牌的蓝色大字，不要补写模糊或被裁切的其他文字。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：BLUE LAGOON",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "图中实际显示的是由多张英文招牌和体育照片组成的拼图，与待核验陈述不一致。"
+      },
+      "evidence": "证据 1：画面主体或版面为：由多张英文招牌和体育照片组成的拼图；证据 2：上排可见椭圆或矩形商店招牌；证据 3：中下部可见球员背影和体育场入口。",
+      "grounding": "能够确认：由多张英文招牌和体育照片组成的拼图，并且上排可见椭圆或矩形商店招牌。不能确认：未显示的地点、时间、作者或画外信息不作推断。；精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ocr-03",
+    "split": "train",
+    "category": "ocr",
+    "image_relative_path": "images_v7/train/ocr-03.jpg",
+    "source_page_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/CASIA_0.jpg",
+    "download_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/CASIA_0.jpg",
+    "source_revision": "2661c7c0ef5c613e8f93c6e93b2e052399f0f854",
+    "source_revision_kind": "git_commit",
+    "author": "PaddleOCR contributors",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/LICENSE",
+    "sha256": "0adafdf95d27c32a9c8e7ae9dc2f83ad01cd65f26ff67e853729a7c02198388a",
+    "subject": "五个分隔开的手写汉字样本",
+    "observable_facts": [
+      "画面主体或版面为：五个分隔开的手写汉字样本",
+      "每个字位于独立浅色小框内",
+      "笔迹为黑灰色且粗细不一"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "五个手写汉字，从左到右",
+      "value": "放、澳、吧、把、板",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。",
+      "精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    ],
+    "verification_claim": "图中显示的是五个分隔开的手写汉字样本。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：只转写五个手写汉字，从左到右，不要补写模糊或被裁切的其他文字。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：放、澳、吧、把、板",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "画面主体或版面确为五个分隔开的手写汉字样本，且每个字位于独立浅色小框内。"
+      },
+      "evidence": "证据 1：画面主体或版面为：五个分隔开的手写汉字样本；证据 2：每个字位于独立浅色小框内；证据 3：笔迹为黑灰色且粗细不一。",
+      "grounding": "能够确认：五个分隔开的手写汉字样本，并且每个字位于独立浅色小框内。不能确认：未显示的地点、时间、作者或画外信息不作推断。；精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ocr-04",
+    "split": "train",
+    "category": "ocr",
+    "image_relative_path": "images_v7/train/ocr-04.jpg",
+    "source_page_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/LSVT_1.jpg",
+    "download_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/LSVT_1.jpg",
+    "source_revision": "2661c7c0ef5c613e8f93c6e93b2e052399f0f854",
+    "source_revision_kind": "git_commit",
+    "author": "PaddleOCR contributors",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/LICENSE",
+    "sha256": "abbc66e4272e33c533ddc8155ab519550940dc0c2f2b2ef2cd2278881a08a3b2",
+    "subject": "两张街景招牌检测示例的并排拼图",
+    "observable_facts": [
+      "画面主体或版面为：两张街景招牌检测示例的并排拼图",
+      "左图是商铺入口及多块绿色标牌",
+      "右图包含黄色横向招牌和红色竖向招牌"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "左图下方蓝绿色标牌上的三字机构名",
+      "value": "司法所",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。",
+      "精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    ],
+    "verification_claim": "图片完全不含可读文字",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：只转写左图下方蓝绿色标牌上的三字机构名，不要补写模糊或被裁切的其他文字。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：司法所",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "图中实际显示的是两张街景招牌检测示例的并排拼图，与待核验陈述不一致。"
+      },
+      "evidence": "证据 1：画面主体或版面为：两张街景招牌检测示例的并排拼图；证据 2：左图是商铺入口及多块绿色标牌；证据 3：右图包含黄色横向招牌和红色竖向招牌。",
+      "grounding": "能够确认：两张街景招牌检测示例的并排拼图，并且左图是商铺入口及多块绿色标牌。不能确认：未显示的地点、时间、作者或画外信息不作推断。；精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ocr-05",
+    "split": "train",
+    "category": "ocr",
+    "image_relative_path": "images_v7/train/ocr-05.jpg",
+    "source_page_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/LSVT_2.jpg",
+    "download_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/LSVT_2.jpg",
+    "source_revision": "2661c7c0ef5c613e8f93c6e93b2e052399f0f854",
+    "source_revision_kind": "git_commit",
+    "author": "PaddleOCR contributors",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/LICENSE",
+    "sha256": "aa551928c5a9cd1bc3c6f1be0bb90f9b0463691119ff70137bd8189ffc245747",
+    "subject": "两张中文店面招牌及其标注文字",
+    "observable_facts": [
+      "画面主体或版面为：两张中文店面招牌及其标注文字",
+      "左图为深色网咖招牌",
+      "右图为红色艺术教育机构招牌"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "左图底部 GT 标注后的店名",
+      "value": "依佳人网咖",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。",
+      "精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    ],
+    "verification_claim": "图中显示的是两张中文店面招牌及其标注文字。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：只转写左图底部 GT 标注后的店名，不要补写模糊或被裁切的其他文字。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：依佳人网咖",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "画面主体或版面确为两张中文店面招牌及其标注文字，且左图为深色网咖招牌。"
+      },
+      "evidence": "证据 1：画面主体或版面为：两张中文店面招牌及其标注文字；证据 2：左图为深色网咖招牌；证据 3：右图为红色艺术教育机构招牌。",
+      "grounding": "能够确认：两张中文店面招牌及其标注文字，并且左图为深色网咖招牌。不能确认：未显示的地点、时间、作者或画外信息不作推断。；精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ocr-06",
+    "split": "train",
+    "category": "ocr",
+    "image_relative_path": "images_v7/train/ocr-06.png",
+    "source_page_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/captcha_demo.png",
+    "download_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/captcha_demo.png",
+    "source_revision": "2661c7c0ef5c613e8f93c6e93b2e052399f0f854",
+    "source_revision_kind": "git_commit",
+    "author": "PaddleOCR contributors",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/LICENSE",
+    "sha256": "7bb6e4fdd46ce708c70d9b514dcc62bac0c738246be6a766eab65c2f71bdf7d6",
+    "subject": "一组多行彩色手写数字与字母",
+    "observable_facts": [
+      "画面主体或版面为：一组多行彩色手写数字与字母",
+      "字符按行排列，颜色包括灰、绿、蓝、紫等",
+      "部分笔画重叠或不清晰"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "图中可确认反复出现的一个小写拉丁字母",
+      "value": "d",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。",
+      "精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    ],
+    "verification_claim": "所有文字都是英文印刷体",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：只转写图中可确认反复出现的一个小写拉丁字母，不要补写模糊或被裁切的其他文字。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：d",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "图中实际显示的是一组多行彩色手写数字与字母，与待核验陈述不一致。"
+      },
+      "evidence": "证据 1：画面主体或版面为：一组多行彩色手写数字与字母；证据 2：字符按行排列，颜色包括灰、绿、蓝、紫等；证据 3：部分笔画重叠或不清晰。",
+      "grounding": "能够确认：一组多行彩色手写数字与字母，并且字符按行排列，颜色包括灰、绿、蓝、紫等。不能确认：未显示的地点、时间、作者或画外信息不作推断。；精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ocr-07",
+    "split": "train",
+    "category": "ocr",
+    "image_relative_path": "images_v7/train/ocr-07.png",
+    "source_page_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/ccpd_demo.png",
+    "download_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/ccpd_demo.png",
+    "source_revision": "2661c7c0ef5c613e8f93c6e93b2e052399f0f854",
+    "source_revision_kind": "git_commit",
+    "author": "PaddleOCR contributors",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/LICENSE",
+    "sha256": "9e23fb97363f5aed5a85488ebff223cf25eebda4e42a2c7b6194b75ac4a4a0f8",
+    "subject": "车辆牌照的倾斜近景",
+    "observable_facts": [
+      "画面主体或版面为：车辆牌照的倾斜近景",
+      "蓝色牌照位于画面中央",
+      "白色字符受透视和反光影响"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "红色 GT 标注后的车牌文本",
+      "value": "皖A533Y3",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。",
+      "精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    ],
+    "verification_claim": "图中显示的是车辆牌照的倾斜近景。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：只转写红色 GT 标注后的车牌文本，不要补写模糊或被裁切的其他文字。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：皖A533Y3",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "画面主体或版面确为车辆牌照的倾斜近景，且蓝色牌照位于画面中央。"
+      },
+      "evidence": "证据 1：画面主体或版面为：车辆牌照的倾斜近景；证据 2：蓝色牌照位于画面中央；证据 3：白色字符受透视和反光影响。",
+      "grounding": "能够确认：车辆牌照的倾斜近景，并且蓝色牌照位于画面中央。不能确认：未显示的地点、时间、作者或画外信息不作推断。；精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ocr-08",
+    "split": "train",
+    "category": "ocr",
+    "image_relative_path": "images_v7/train/ocr-08.jpg",
+    "source_page_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/ch_doc1.jpg",
+    "download_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/ch_doc1.jpg",
+    "source_revision": "2661c7c0ef5c613e8f93c6e93b2e052399f0f854",
+    "source_revision_kind": "git_commit",
+    "author": "PaddleOCR contributors",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/LICENSE",
+    "sha256": "19588f23a55ded05245de1fcfdfe2425b1ee913522d16d743d4f04306b878dee",
+    "subject": "灰底黑字的中文文本行裁片",
+    "observable_facts": [
+      "画面主体或版面为：灰底黑字的中文文本行裁片",
+      "文字横向排列",
+      "左侧开头为“如，”"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "文本行中清晰连续的六个汉字",
+      "value": "旅游表演形式",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。",
+      "精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    ],
+    "verification_claim": "图片完全不含可读文字",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：只转写文本行中清晰连续的六个汉字，不要补写模糊或被裁切的其他文字。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：旅游表演形式",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "图中实际显示的是灰底黑字的中文文本行裁片，与待核验陈述不一致。"
+      },
+      "evidence": "证据 1：画面主体或版面为：灰底黑字的中文文本行裁片；证据 2：文字横向排列；证据 3：左侧开头为“如，”。",
+      "grounding": "能够确认：灰底黑字的中文文本行裁片，并且文字横向排列。不能确认：未显示的地点、时间、作者或画外信息不作推断。；精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ocr-09",
+    "split": "train",
+    "category": "ocr",
+    "image_relative_path": "images_v7/train/ocr-09.jpg",
+    "source_page_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/ch_doc3.jpg",
+    "download_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/ch_doc3.jpg",
+    "source_revision": "2661c7c0ef5c613e8f93c6e93b2e052399f0f854",
+    "source_revision_kind": "git_commit",
+    "author": "PaddleOCR contributors",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/LICENSE",
+    "sha256": "e6ec7927162c3f138f43f5fd4ccf4fdaad6899a257098361e72356f76d062675",
+    "subject": "灰底黑字的中文报告文本行裁片",
+    "observable_facts": [
+      "画面主体或版面为：灰底黑字的中文报告文本行裁片",
+      "文字为印刷体",
+      "右端仍有被裁切的后续内容"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "整行可见文本",
+      "value": "4年工作报告》中指出",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。",
+      "精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    ],
+    "verification_claim": "图中显示的是灰底黑字的中文报告文本行裁片。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：只转写整行可见文本，不要补写模糊或被裁切的其他文字。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：4年工作报告》中指出",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "画面主体或版面确为灰底黑字的中文报告文本行裁片，且文字为印刷体。"
+      },
+      "evidence": "证据 1：画面主体或版面为：灰底黑字的中文报告文本行裁片；证据 2：文字为印刷体；证据 3：右端仍有被裁切的后续内容。",
+      "grounding": "能够确认：灰底黑字的中文报告文本行裁片，并且文字为印刷体。不能确认：未显示的地点、时间、作者或画外信息不作推断。；精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ocr-10",
+    "split": "train",
+    "category": "ocr",
+    "image_relative_path": "images_v7/train/ocr-10.png",
+    "source_page_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/ch_street_rec_1.png",
+    "download_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/docs/datasets/images/ch_street_rec_1.png",
+    "source_revision": "2661c7c0ef5c613e8f93c6e93b2e052399f0f854",
+    "source_revision_kind": "git_commit",
+    "author": "PaddleOCR contributors",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/2661c7c0ef5c613e8f93c6e93b2e052399f0f854/LICENSE",
+    "sha256": "561a08f36ab0685d95d560217835f4106261c6d1edc6a8e720c1346ed00812b4",
+    "subject": "蓝白描边的中文门店招牌",
+    "observable_facts": [
+      "画面主体或版面为：蓝白描边的中文门店招牌",
+      "大字横向排列",
+      "背景为深色"
+    ],
+    "gold_transcription": {
+      "applicable": true,
+      "scope": "招牌上的全部大字",
+      "value": "魅派集成吊顶",
+      "review_status": "double_checked",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。",
+      "精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    ],
+    "verification_claim": "所有文字都是英文印刷体",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：只转写招牌上的全部大字，不要补写模糊或被裁切的其他文字。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "指定区域的转写为：魅派集成吊顶",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "图中实际显示的是蓝白描边的中文门店招牌，与待核验陈述不一致。"
+      },
+      "evidence": "证据 1：画面主体或版面为：蓝白描边的中文门店招牌；证据 2：大字横向排列；证据 3：背景为深色。",
+      "grounding": "能够确认：蓝白描边的中文门店招牌，并且大字横向排列。不能确认：未显示的地点、时间、作者或画外信息不作推断。；精确金标只覆盖指定的清晰区域，其他区域不补写。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ui-01",
+    "split": "train",
+    "category": "ui",
+    "image_relative_path": "images_v7/train/ui-01.png",
+    "source_page_url": "https://github.com/microsoft/OmniParser/blob/354021201345a96178360b28733573e27269f2de/imgs/excel.png",
+    "download_url": "https://raw.githubusercontent.com/microsoft/OmniParser/354021201345a96178360b28733573e27269f2de/imgs/excel.png",
+    "source_revision": "354021201345a96178360b28733573e27269f2de",
+    "source_revision_kind": "git_commit",
+    "author": "Microsoft and OmniParser contributors",
+    "license": "CC-BY-4.0",
+    "license_url": "https://github.com/microsoft/OmniParser/blob/354021201345a96178360b28733573e27269f2de/LICENSE",
+    "sha256": "2fa51d9c4be0e0485ae6139de8318154127fac483db12ef0b18acb866975695d",
+    "subject": "Windows 上打开的 Microsoft Excel 空白工作簿",
+    "observable_facts": [
+      "画面主体或版面为：Windows 上打开的 Microsoft Excel 空白工作簿",
+      "顶部是功能区和公式栏",
+      "中央是带行号列标的空白单元格网格"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "图中显示的是Windows 上打开的 Microsoft Excel 空白工作簿。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：说明界面名称、主要区域以及当前可见状态。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "Windows 上打开的 Microsoft Excel 空白工作簿。画面主体或版面为：Windows 上打开的 Microsoft Excel 空白工作簿；顶部是功能区和公式栏；中央是带行号列标的空白单元格网格。",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "画面主体或版面确为Windows 上打开的 Microsoft Excel 空白工作簿，且顶部是功能区和公式栏。"
+      },
+      "evidence": "证据 1：画面主体或版面为：Windows 上打开的 Microsoft Excel 空白工作簿；证据 2：顶部是功能区和公式栏；证据 3：中央是带行号列标的空白单元格网格。",
+      "grounding": "能够确认：Windows 上打开的 Microsoft Excel 空白工作簿，并且顶部是功能区和公式栏。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ui-02",
+    "split": "train",
+    "category": "ui",
+    "image_relative_path": "images_v7/train/ui-02.png",
+    "source_page_url": "https://github.com/microsoft/OmniParser/blob/354021201345a96178360b28733573e27269f2de/imgs/google_page.png",
+    "download_url": "https://raw.githubusercontent.com/microsoft/OmniParser/354021201345a96178360b28733573e27269f2de/imgs/google_page.png",
+    "source_revision": "354021201345a96178360b28733573e27269f2de",
+    "source_revision_kind": "git_commit",
+    "author": "Microsoft and OmniParser contributors",
+    "license": "CC-BY-4.0",
+    "license_url": "https://github.com/microsoft/OmniParser/blob/354021201345a96178360b28733573e27269f2de/LICENSE",
+    "sha256": "b49b10aea95808a8bf260632599df38c7d0d0c0e6ec8549b049323ffc3ceb3ac",
+    "subject": "浏览器中的 Google 搜索主页",
+    "observable_facts": [
+      "画面主体或版面为：浏览器中的 Google 搜索主页",
+      "中央有 Google 标志和搜索框",
+      "页面顶部和底部有导航链接"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "屏幕中央弹出了系统错误提示",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：说明界面名称、主要区域以及当前可见状态。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "浏览器中的 Google 搜索主页。画面主体或版面为：浏览器中的 Google 搜索主页；中央有 Google 标志和搜索框；页面顶部和底部有导航链接。",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "图中实际显示的是浏览器中的 Google 搜索主页，与待核验陈述不一致。"
+      },
+      "evidence": "证据 1：画面主体或版面为：浏览器中的 Google 搜索主页；证据 2：中央有 Google 标志和搜索框；证据 3：页面顶部和底部有导航链接。",
+      "grounding": "能够确认：浏览器中的 Google 搜索主页，并且中央有 Google 标志和搜索框。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ui-03",
+    "split": "train",
+    "category": "ui",
+    "image_relative_path": "images_v7/train/ui-03.png",
+    "source_page_url": "https://github.com/microsoft/OmniParser/blob/354021201345a96178360b28733573e27269f2de/imgs/ios.png",
+    "download_url": "https://raw.githubusercontent.com/microsoft/OmniParser/354021201345a96178360b28733573e27269f2de/imgs/ios.png",
+    "source_revision": "354021201345a96178360b28733573e27269f2de",
+    "source_revision_kind": "git_commit",
+    "author": "Microsoft and OmniParser contributors",
+    "license": "CC-BY-4.0",
+    "license_url": "https://github.com/microsoft/OmniParser/blob/354021201345a96178360b28733573e27269f2de/LICENSE",
+    "sha256": "0ad1727216b6f55500084d5d2c1666ad953fcec6a0f12f646693a8264f1e44d2",
+    "subject": "一部 iPhone 的主屏幕应用网格",
+    "observable_facts": [
+      "画面主体或版面为：一部 iPhone 的主屏幕应用网格",
+      "多行应用图标排列在蓝色背景上",
+      "底部 Dock 栏含电话、信息等常用应用"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "图中显示的是一部 iPhone 的主屏幕应用网格。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：说明界面名称、主要区域以及当前可见状态。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "一部 iPhone 的主屏幕应用网格。画面主体或版面为：一部 iPhone 的主屏幕应用网格；多行应用图标排列在蓝色背景上；底部 Dock 栏含电话、信息等常用应用。",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "画面主体或版面确为一部 iPhone 的主屏幕应用网格，且多行应用图标排列在蓝色背景上。"
+      },
+      "evidence": "证据 1：画面主体或版面为：一部 iPhone 的主屏幕应用网格；证据 2：多行应用图标排列在蓝色背景上；证据 3：底部 Dock 栏含电话、信息等常用应用。",
+      "grounding": "能够确认：一部 iPhone 的主屏幕应用网格，并且多行应用图标排列在蓝色背景上。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ui-04",
+    "split": "train",
+    "category": "ui",
+    "image_relative_path": "images_v7/train/ui-04.png",
+    "source_page_url": "https://github.com/microsoft/OmniParser/blob/354021201345a96178360b28733573e27269f2de/imgs/mobile.png",
+    "download_url": "https://raw.githubusercontent.com/microsoft/OmniParser/354021201345a96178360b28733573e27269f2de/imgs/mobile.png",
+    "source_revision": "354021201345a96178360b28733573e27269f2de",
+    "source_revision_kind": "git_commit",
+    "author": "Microsoft and OmniParser contributors",
+    "license": "CC-BY-4.0",
+    "license_url": "https://github.com/microsoft/OmniParser/blob/354021201345a96178360b28733573e27269f2de/LICENSE",
+    "sha256": "14e6ef211fbb612de93f568eb7a129cc529debf4321b36f06ff2d927f391ff7a",
+    "subject": "横向显示的 iPadOS 主屏幕",
+    "observable_facts": [
+      "画面主体或版面为：横向显示的 iPadOS 主屏幕",
+      "左侧有天气、时钟和日历等小组件",
+      "底部为应用 Dock，背景是卡通羊图案"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "当前应用是一个全屏游戏",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：说明界面名称、主要区域以及当前可见状态。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "横向显示的 iPadOS 主屏幕。画面主体或版面为：横向显示的 iPadOS 主屏幕；左侧有天气、时钟和日历等小组件；底部为应用 Dock，背景是卡通羊图案。",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "图中实际显示的是横向显示的 iPadOS 主屏幕，与待核验陈述不一致。"
+      },
+      "evidence": "证据 1：画面主体或版面为：横向显示的 iPadOS 主屏幕；证据 2：左侧有天气、时钟和日历等小组件；证据 3：底部为应用 Dock，背景是卡通羊图案。",
+      "grounding": "能够确认：横向显示的 iPadOS 主屏幕，并且左侧有天气、时钟和日历等小组件。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ui-05",
+    "split": "train",
+    "category": "ui",
+    "image_relative_path": "images_v7/train/ui-05.png",
+    "source_page_url": "https://github.com/microsoft/OmniParser/blob/354021201345a96178360b28733573e27269f2de/imgs/onenote.png",
+    "download_url": "https://raw.githubusercontent.com/microsoft/OmniParser/354021201345a96178360b28733573e27269f2de/imgs/onenote.png",
+    "source_revision": "354021201345a96178360b28733573e27269f2de",
+    "source_revision_kind": "git_commit",
+    "author": "Microsoft and OmniParser contributors",
+    "license": "CC-BY-4.0",
+    "license_url": "https://github.com/microsoft/OmniParser/blob/354021201345a96178360b28733573e27269f2de/LICENSE",
+    "sha256": "0d9dda4fd055b0d584a7f40eed1e890e18a092d8e01f171817f10c16bb31aa4d",
+    "subject": "浏览器内打开的 Microsoft OneNote 网页界面",
+    "observable_facts": [
+      "画面主体或版面为：浏览器内打开的 Microsoft OneNote 网页界面",
+      "左侧是笔记本和页面导航栏",
+      "中间为笔记编辑区域，顶部有紫色工具栏"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "图中显示的是浏览器内打开的 Microsoft OneNote 网页界面。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：说明界面名称、主要区域以及当前可见状态。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "浏览器内打开的 Microsoft OneNote 网页界面。画面主体或版面为：浏览器内打开的 Microsoft OneNote 网页界面；左侧是笔记本和页面导航栏；中间为笔记编辑区域，顶部有紫色工具栏。",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "画面主体或版面确为浏览器内打开的 Microsoft OneNote 网页界面，且左侧是笔记本和页面导航栏。"
+      },
+      "evidence": "证据 1：画面主体或版面为：浏览器内打开的 Microsoft OneNote 网页界面；证据 2：左侧是笔记本和页面导航栏；证据 3：中间为笔记编辑区域，顶部有紫色工具栏。",
+      "grounding": "能够确认：浏览器内打开的 Microsoft OneNote 网页界面，并且左侧是笔记本和页面导航栏。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ui-06",
+    "split": "train",
+    "category": "ui",
+    "image_relative_path": "images_v7/train/ui-06.png",
+    "source_page_url": "https://github.com/microsoft/OmniParser/blob/354021201345a96178360b28733573e27269f2de/imgs/saved_image_demo.png",
+    "download_url": "https://raw.githubusercontent.com/microsoft/OmniParser/354021201345a96178360b28733573e27269f2de/imgs/saved_image_demo.png",
+    "source_revision": "354021201345a96178360b28733573e27269f2de",
+    "source_revision_kind": "git_commit",
+    "author": "Microsoft and OmniParser contributors",
+    "license": "CC-BY-4.0",
+    "license_url": "https://github.com/microsoft/OmniParser/blob/354021201345a96178360b28733573e27269f2de/LICENSE",
+    "sha256": "a90160d0358f65fb0bff6693375a72c5a2be4505c51a3db32404233009216cdf",
+    "subject": "Microsoft Word 中的空白文档编辑界面",
+    "observable_facts": [
+      "画面主体或版面为：Microsoft Word 中的空白文档编辑界面",
+      "顶部功能区展开",
+      "中央白色页面顶部出现 Copilot 写作提示"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "屏幕中央弹出了系统错误提示",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：说明界面名称、主要区域以及当前可见状态。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "Microsoft Word 中的空白文档编辑界面。画面主体或版面为：Microsoft Word 中的空白文档编辑界面；顶部功能区展开；中央白色页面顶部出现 Copilot 写作提示。",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "图中实际显示的是Microsoft Word 中的空白文档编辑界面，与待核验陈述不一致。"
+      },
+      "evidence": "证据 1：画面主体或版面为：Microsoft Word 中的空白文档编辑界面；证据 2：顶部功能区展开；证据 3：中央白色页面顶部出现 Copilot 写作提示。",
+      "grounding": "能够确认：Microsoft Word 中的空白文档编辑界面，并且顶部功能区展开。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ui-07",
+    "split": "train",
+    "category": "ui",
+    "image_relative_path": "images_v7/train/ui-07.png",
+    "source_page_url": "https://github.com/microsoft/OmniParser/blob/354021201345a96178360b28733573e27269f2de/imgs/som_overlaid_omni.png",
+    "download_url": "https://raw.githubusercontent.com/microsoft/OmniParser/354021201345a96178360b28733573e27269f2de/imgs/som_overlaid_omni.png",
+    "source_revision": "354021201345a96178360b28733573e27269f2de",
+    "source_revision_kind": "git_commit",
+    "author": "Microsoft and OmniParser contributors",
+    "license": "CC-BY-4.0",
+    "license_url": "https://github.com/microsoft/OmniParser/blob/354021201345a96178360b28733573e27269f2de/LICENSE",
+    "sha256": "aebbb1876b50ebbf2887e193b91af41f6797bbb617748b5f88a28cd3e4f5de62",
+    "subject": "浏览器中的 OmniParser 相关演示或说明页面",
+    "observable_facts": [
+      "画面主体或版面为：浏览器中的 OmniParser 相关演示或说明页面",
+      "页面左侧为文字说明",
+      "中部包含一张桌面界面截图，右侧有橙色操作按钮"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "图中显示的是浏览器中的 OmniParser 相关演示或说明页面。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：说明界面名称、主要区域以及当前可见状态。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "浏览器中的 OmniParser 相关演示或说明页面。画面主体或版面为：浏览器中的 OmniParser 相关演示或说明页面；页面左侧为文字说明；中部包含一张桌面界面截图，右侧有橙色操作按钮。",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "画面主体或版面确为浏览器中的 OmniParser 相关演示或说明页面，且页面左侧为文字说明。"
+      },
+      "evidence": "证据 1：画面主体或版面为：浏览器中的 OmniParser 相关演示或说明页面；证据 2：页面左侧为文字说明；证据 3：中部包含一张桌面界面截图，右侧有橙色操作按钮。",
+      "grounding": "能够确认：浏览器中的 OmniParser 相关演示或说明页面，并且页面左侧为文字说明。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ui-08",
+    "split": "train",
+    "category": "ui",
+    "image_relative_path": "images_v7/train/ui-08.png",
+    "source_page_url": "https://github.com/microsoft/OmniParser/blob/354021201345a96178360b28733573e27269f2de/imgs/teams.png",
+    "download_url": "https://raw.githubusercontent.com/microsoft/OmniParser/354021201345a96178360b28733573e27269f2de/imgs/teams.png",
+    "source_revision": "354021201345a96178360b28733573e27269f2de",
+    "source_revision_kind": "git_commit",
+    "author": "Microsoft and OmniParser contributors",
+    "license": "CC-BY-4.0",
+    "license_url": "https://github.com/microsoft/OmniParser/blob/354021201345a96178360b28733573e27269f2de/LICENSE",
+    "sha256": "6061b1afa695c07a034313966bf48b1a90d0055408da848458858cadecc47936",
+    "subject": "深色主题的 Microsoft Teams 聊天界面",
+    "observable_facts": [
+      "画面主体或版面为：深色主题的 Microsoft Teams 聊天界面",
+      "左侧是团队或聊天列表",
+      "中间为消息会话，右侧展示代码或内容面板"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "当前应用是一个全屏游戏",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：说明界面名称、主要区域以及当前可见状态。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "深色主题的 Microsoft Teams 聊天界面。画面主体或版面为：深色主题的 Microsoft Teams 聊天界面；左侧是团队或聊天列表；中间为消息会话，右侧展示代码或内容面板。",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "图中实际显示的是深色主题的 Microsoft Teams 聊天界面，与待核验陈述不一致。"
+      },
+      "evidence": "证据 1：画面主体或版面为：深色主题的 Microsoft Teams 聊天界面；证据 2：左侧是团队或聊天列表；证据 3：中间为消息会话，右侧展示代码或内容面板。",
+      "grounding": "能够确认：深色主题的 Microsoft Teams 聊天界面，并且左侧是团队或聊天列表。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ui-09",
+    "split": "train",
+    "category": "ui",
+    "image_relative_path": "images_v7/train/ui-09.png",
+    "source_page_url": "https://github.com/microsoft/OmniParser/blob/354021201345a96178360b28733573e27269f2de/imgs/windows.png",
+    "download_url": "https://raw.githubusercontent.com/microsoft/OmniParser/354021201345a96178360b28733573e27269f2de/imgs/windows.png",
+    "source_revision": "354021201345a96178360b28733573e27269f2de",
+    "source_revision_kind": "git_commit",
+    "author": "Microsoft and OmniParser contributors",
+    "license": "CC-BY-4.0",
+    "license_url": "https://github.com/microsoft/OmniParser/blob/354021201345a96178360b28733573e27269f2de/LICENSE",
+    "sha256": "091875eb3c285c5fc4681b257f0a00d529a2e225c17e9830b11115d2c12f9833",
+    "subject": "Windows 11 桌面",
+    "observable_facts": [
+      "画面主体或版面为：Windows 11 桌面",
+      "背景为蓝色 Windows 11 波纹图案",
+      "左侧有多个桌面快捷方式，底部任务栏居中"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "图中显示的是Windows 11 桌面。",
+    "claim_supported": true,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：说明界面名称、主要区域以及当前可见状态。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "Windows 11 桌面。画面主体或版面为：Windows 11 桌面；背景为蓝色 Windows 11 波纹图案；左侧有多个桌面快捷方式，底部任务栏居中。",
+      "verification": {
+        "verdict": "supported",
+        "evidence": "画面主体或版面确为Windows 11 桌面，且背景为蓝色 Windows 11 波纹图案。"
+      },
+      "evidence": "证据 1：画面主体或版面为：Windows 11 桌面；证据 2：背景为蓝色 Windows 11 波纹图案；证据 3：左侧有多个桌面快捷方式，底部任务栏居中。",
+      "grounding": "能够确认：Windows 11 桌面，并且背景为蓝色 Windows 11 波纹图案。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  },
+  {
+    "image_id": "ui-10",
+    "split": "train",
+    "category": "ui",
+    "image_relative_path": "images_v7/train/ui-10.png",
+    "source_page_url": "https://github.com/microsoft/OmniParser/blob/354021201345a96178360b28733573e27269f2de/imgs/windows_home.png",
+    "download_url": "https://raw.githubusercontent.com/microsoft/OmniParser/354021201345a96178360b28733573e27269f2de/imgs/windows_home.png",
+    "source_revision": "354021201345a96178360b28733573e27269f2de",
+    "source_revision_kind": "git_commit",
+    "author": "Microsoft and OmniParser contributors",
+    "license": "CC-BY-4.0",
+    "license_url": "https://github.com/microsoft/OmniParser/blob/354021201345a96178360b28733573e27269f2de/LICENSE",
+    "sha256": "036008abc32379393876e722fedab2bd02bda9b667b957bc150c2f83c725ebac",
+    "subject": "以山地风景为壁纸的 Windows 桌面",
+    "observable_facts": [
+      "画面主体或版面为：以山地风景为壁纸的 Windows 桌面",
+      "桌面本身没有打开应用窗口",
+      "底部可见任务栏，壁纸显示山脊与沙地"
+    ],
+    "gold_transcription": {
+      "applicable": false,
+      "scope": "not_applicable",
+      "value": "",
+      "review_status": "not_applicable",
+      "ambiguous_tokens": []
+    },
+    "uncertainty_notes": [
+      "未显示的地点、时间、作者或画外信息不作推断。"
+    ],
+    "verification_claim": "屏幕中央弹出了系统错误提示",
+    "claim_supported": false,
+    "prompts": {
+      "direct": "请严格依据当前图片作答：说明界面名称、主要区域以及当前可见状态。",
+      "verification": "请核验下列训练陈述；仅给出“符合”或“不符合”，并引用直接可见证据。",
+      "evidence": "请列出三项彼此不同、能从图片直接观察到的证据，不加入常识推断。",
+      "grounding": "请区分图片中能够确认的信息与没有显示、因而不能确认的信息。"
+    },
+    "answers": {
+      "direct": "以山地风景为壁纸的 Windows 桌面。画面主体或版面为：以山地风景为壁纸的 Windows 桌面；桌面本身没有打开应用窗口；底部可见任务栏，壁纸显示山脊与沙地。",
+      "verification": {
+        "verdict": "unsupported",
+        "evidence": "图中实际显示的是以山地风景为壁纸的 Windows 桌面，与待核验陈述不一致。"
+      },
+      "evidence": "证据 1：画面主体或版面为：以山地风景为壁纸的 Windows 桌面；证据 2：桌面本身没有打开应用窗口；证据 3：底部可见任务栏，壁纸显示山脊与沙地。",
+      "grounding": "能够确认：以山地风景为壁纸的 Windows 桌面，并且桌面本身没有打开应用窗口。不能确认：未显示的地点、时间、作者或画外信息不作推断。"
+    },
+    "annotation_status": "double_checked",
+    "annotation_method": "manual visual review plus second-pass scoped transcription audit"
+  }
+]

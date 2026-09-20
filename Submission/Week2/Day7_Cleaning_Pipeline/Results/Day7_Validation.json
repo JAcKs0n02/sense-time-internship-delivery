@@ -1,0 +1,10 @@
+{
+  "valid": true,
+  "errors": [],
+  "input_count": 5000,
+  "final_count": 4999,
+  "aligned_output_counts": true,
+  "max_final_tokens": 2048,
+  "max_tokens": 2048,
+  "count_balance": true
+}

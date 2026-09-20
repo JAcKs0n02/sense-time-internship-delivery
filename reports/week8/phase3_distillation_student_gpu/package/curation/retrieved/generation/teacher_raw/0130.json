@@ -1,0 +1,14 @@
+{
+  "sample_id": "0861ddb0943e1627ec57a3005ee0d879e5cd71b2b6d542d90a3b7b9570ca0514",
+  "prompt": "请判断下面句子是否为中文,请以{\"PREDICTION\": 0_1}的格式作答\n\nしかし預言者は騙されなかった。",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请判断下面句子是否为中文,请以{\"PREDICTION\": 0_1}的格式作答\n\nしかし預言者は騙されなかった。"
+    }
+  ],
+  "answer": "{\"PREDICTION\": 0}",
+  "truncated": false,
+  "input_tokens": 63,
+  "output_tokens": 10
+}

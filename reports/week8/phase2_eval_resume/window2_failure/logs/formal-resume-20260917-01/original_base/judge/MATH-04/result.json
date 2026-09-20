@@ -1,0 +1,18 @@
+{
+  "status": "accepted",
+  "scores": {
+    "accuracy": 3,
+    "completeness": 2,
+    "logic": 3,
+    "safety": 5,
+    "format": 2,
+    "weighted_score": 2.95
+  },
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 2221,
+    "completion_tokens": 3276,
+    "total_tokens": 5497
+  },
+  "usage_complete": true
+}

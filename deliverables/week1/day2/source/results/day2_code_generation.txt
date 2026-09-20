@@ -1,0 +1,77 @@
+SYSTEM
+你是一名严谨的 Python 工程师。给出可运行实现、时间复杂度分析和恰好 3 个 pytest 测试。
+
+USER
+实现一个容量固定的 LRUCache，要求 get 和 put 的平均时间复杂度均为 O(1)。请把实现与 3 个测试放在同一个且仅一个 Python 代码块中。
+
+GENERATION
+{"do_sample": false, "max_new_tokens": 1024}
+
+CHAT TEMPLATE
+<|im_start|>system
+你是一名严谨的 Python 工程师。给出可运行实现、时间复杂度分析和恰好 3 个 pytest 测试。<|im_end|>
+<|im_start|>user
+实现一个容量固定的 LRUCache，要求 get 和 put 的平均时间复杂度均为 O(1)。请把实现与 3 个测试放在同一个且仅一个 Python 代码块中。<|im_end|>
+<|im_start|>assistant
+
+
+RESPONSE
+```python
+from collections import OrderedDict
+
+class LRUCache:
+    def __init__(self, capacity: int):
+        self.cache = OrderedDict()
+        self.capacity = capacity
+
+    def get(self, key: int) -> int:
+        if key not in self.cache:
+            return -1
+        value = self.cache.pop(key)
+        self.cache[key] = value  # 重新插入，使 key 成为最近使用的
+        return value
+
+    def put(self, key: int, value: int) -> None:
+        if key in self.cache:
+            self.cache.pop(key)
+        elif len(self.cache) == self.capacity:
+            self.cache.popitem(last=False)  # 移除最不经常使用的元素
+        self.cache[key] = value
+
+# 测试用例
+import pytest
+
+def test_lru_cache():
+    cache = LRUCache(2)
+
+    # 测试 put 操作
+    cache.put(1, 1)
+    cache.put(2, 2)
+    assert cache.get(1) == 1  # 返回 1
+    cache.put(3, 3)  # 该操作会使得键 2 被移除，因为它的使用次数最少
+    assert cache.get(2) == -1  # 返回 -1 (未找到)
+
+    # 测试 get 操作
+    cache.put(4, 4)  # 该操作会使得键 1 被移除，因为它的使用次数最少
+    assert cache.get(1) == -1  # 返回 -1 (未找到)
+    assert cache.get(3) == 3  # 返回 3
+    assert cache.get(4) == 4  # 返回 4
+
+    # 测试缓存容量已满的情况
+    cache.put(5, 5)
+    assert cache.get(2) == -1  # 返回 -1 (未找到)
+    assert cache.get(3) == 3  # 返回 3
+    assert cache.get(4) == 4  # 返回 4
+    assert cache.get(5) == 5  # 返回 5
+
+if __name__ == "__main__":
+    pytest.main([__file__])
+```
+
+### 解释
+- **LRUCache 类**：使用 `OrderedDict` 来维护缓存中的键值对，并确保在进行 `get` 或 `put` 操作时可以保持 O(1) 的时间复杂度。
+- **get 方法**：如果键存在，则将其移到末尾（最近使用），并返回其值；否则返回 -1。
+- **put 方法**：如果键已经存在，则先删除旧的键值对，然后插入新的键值对；如果缓存已满，则删除最不常用的键值对，然后插入新的键值对。
+- **测试用例**：通过一系列的 `put` 和 `get` 操作来验证缓存的行为是否符合预期。
+
+这段代码可以在支持 Python 的环境中直接运行，并通过 `pytest` 进行测试。

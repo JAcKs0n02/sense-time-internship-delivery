@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "protocol_id": "week8-data-v1.1-20260914",
+  "status": "INPUT_AND_METHOD_FROZEN_NOT_DATA_READY",
+  "source": {
+    "path": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/technical_preflight_20260911/train.sharegpt.jsonl",
+    "sha256": "a48bae7bd1d90806effd554e8551dae8495a3c04a710387b4851d5bdff0c9470",
+    "records": 1580,
+    "role": "week8_source_before_new_split"
+  },
+  "lineage": {
+    "path": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/technical_preflight_20260911/train_lineage.jsonl",
+    "sha256": "3172b9311aa34ee5ad0f8e7495c16183c133f5fb3d01847f6e274b42fe2678e5",
+    "records": 1580,
+    "role": "week8_source_lineage"
+  },
+  "protected_files": [
+    {
+      "path": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/technical_preflight_20260911/validation.sharegpt.jsonl",
+      "sha256": "935ebbe8b51be4d2fed42d8313b4ae896c8fe4c77e428736631d490a87308533",
+      "records": 83,
+      "role": "protected_exposed_historical_diagnostic"
+    },
+    {
+      "path": ".worktrees/pre-week7-model-recovery/deliverables/model_recovery/source/data/evaluation_suite_200.json",
+      "sha256": "f0a0c008eda2bd0fb3f2c7547cc1478345f99c7263bf38449203a42cb4aad387",
+      "records": 200,
+      "role": "protected_exposed_diagnostic"
+    },
+    {
+      "path": ".worktrees/pre-week7-model-recovery/deliverables/model_recovery/source/results/root_cause_audit/code_sandbox_replay_20260905/evaluation_suite_200_corrected.json",
+      "sha256": "333b9781737b4d83b2a9ab9a3c8191c2577a362f9f7698840786f146262dc650",
+      "records": 200,
+      "role": "protected_exposed_diagnostic"
+    },
+    {
+      "path": ".worktrees/pre-week7-model-recovery/deliverables/week3/day14/source/data/evaluation_questions.json",
+      "sha256": "4967eb0ca0a64937446dff1412bb78878d3e744c4699b43cd4265aec09c2e85e",
+      "records": 20,
+      "role": "protected_exposed_diagnostic"
+    },
+    {
+      "path": ".worktrees/pre-week7-model-recovery/deliverables/week4/day18/source/data/raw/evaluation_holdout_prompts.json",
+      "sha256": "841aeb528f3613c789b14f13b1e550e17f5acdd6fb62f71ab30fd7576be11ca8",
+      "records": 15,
+      "role": "protected_exposed_diagnostic"
+    },
+    {
+      "path": ".worktrees/pre-week7-model-recovery/deliverables/week6/day32/source/data/frozen_agent_eval.json",
+      "sha256": "7c7a0aace93c29525edafa630b063647bf4ec630be8cc7f9be52a64cdb433f54",
+      "records": 30,
+      "role": "protected_exposed_diagnostic"
+    },
+    {
+      "path": ".worktrees/pre-week7-model-recovery/deliverables/week6/day31/source/data/tool_sft_test_v2.json",
+      "sha256": "ca74e32574bd7282f1a12428ec9559e2cf6abec58007fc3d7212c5160742b050",
+      "records": 100,
+      "role": "protected_exposed_diagnostic"
+    },
+    {
+      "path": ".worktrees/pre-week7-model-recovery/deliverables/week6/day31/source/data/tool_sft_eval_frozen.json",
+      "sha256": "7c7a0aace93c29525edafa630b063647bf4ec630be8cc7f9be52a64cdb433f54",
+      "records": 30,
+      "role": "protected_exposed_diagnostic"
+    },
+    {
+      "path": ".worktrees/pre-week7-model-recovery/deliverables/week2/day9/source/results/evaluation_questions.json",
+      "sha256": "a06fff271fc913adc4c7564a339006ad0843ae230d3757b52f1772eb53370468",
+      "records": 3,
+      "role": "protected_exposed_diagnostic"
+    },
+    {
+      "path": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/generation_comparison_20260911/inference_inputs.json",
+      "sha256": "7f079fa69e10194c7e6c682b605ff0548e5bfa71cbcc04ae2fd13d5bb7fea214",
+      "records": 208,
+      "role": "protected_exposed_diagnostic"
+    },
+    {
+      "path": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/checkpoint_diagnostic_20260911/inference_inputs.json",
+      "sha256": "a889d798dfd4409208c5f4b4da38884ef199f80e290a35ab9aea02017ecb3112",
+      "records": 60,
+      "role": "protected_exposed_diagnostic"
+    },
+    {
+      "path": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/precision_path_20260911/inference_inputs.json",
+      "sha256": "c8c21040d05a2fc63109a0451594d3f39a39c126921f3bcc51f777321288388a",
+      "records": 20,
+      "role": "protected_exposed_diagnostic"
+    },
+    {
+      "path": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/conservative_sft_20260911/inference_inputs.json",
+      "sha256": "2e55e1700002e97f51f680c0d675973ea1457cc53f56192e5359edd211e29462",
+      "records": 40,
+      "role": "protected_exposed_diagnostic"
+    },
+    {
+      "path": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/conservative_sft_20260911/confirmation_questions.json",
+      "sha256": "c00f7c63eb223bce7b4c5cae4ceff5251678256e17990d352c143530cff7fc89",
+      "records": 40,
+      "role": "protected_exposed_diagnostic"
+    },
+    {
+      "path": "deliverables/week3/day14/source/data/evaluation_questions.json",
+      "sha256": "4967eb0ca0a64937446dff1412bb78878d3e744c4699b43cd4265aec09c2e85e",
+      "records": 20,
+      "role": "custom20_fixed_questions"
+    },
+    {
+      "path": "deliverables/week3/day14/source/data/evaluation_rubric.json",
+      "sha256": "f7ef335da29e13b9128230287181f9305251cf5de99746b97a6554335680693d",
+      "records": 0,
+      "role": "custom20_fixed_rubric"
+    }
+  ],
+  "tokenizer_files": [
+    {
+      "path": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/technical_preflight_20260911/remote_evidence/smoke_adapter/tokenizer.json",
+      "sha256": "9c5ae00e602b8860cbd784ba82a8aa14e8feecec692e7076590d014d7b7fdafa",
+      "original_base_sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "matches_original_base": false
+    },
+    {
+      "path": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/technical_preflight_20260911/remote_evidence/smoke_adapter/tokenizer_config.json",
+      "sha256": "8a5e6a9efdf4606caa92aab4ea9d2b36ce2af1148b00a6db7af33eacfddb98e2",
+      "original_base_sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+      "matches_original_base": false
+    },
+    {
+      "path": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/technical_preflight_20260911/remote_evidence/smoke_adapter/vocab.json",
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "original_base_sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "matches_original_base": true
+    },
+    {
+      "path": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/technical_preflight_20260911/remote_evidence/smoke_adapter/added_tokens.json",
+      "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b",
+      "original_base_sha256": null,
+      "matches_original_base": null
+    },
+    {
+      "path": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/technical_preflight_20260911/remote_evidence/smoke_adapter/special_tokens_map.json",
+      "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+      "original_base_sha256": null,
+      "matches_original_base": null
+    }
+  ],
+  "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+  "tokenizer_mode": "local_fast_saved_preflight",
+  "transformers_version": "4.50.0",
+  "seed": 42,
+  "max_tokens": 2048,
+  "overlength_policy": "reject_whole_record_no_truncation",
+  "training_format": "sharegpt",
+  "delivery_format": "alpaca_with_history_and_system",
+  "train_on_prompt": false,
+  "mask_history": false,
+  "packing": false,
+  "lf_template": "qwen",
+  "normalization_for_matching_only": "NFKC_remove_unicode_whitespace_casefold",
+  "containment_min_chars": 32,
+  "near_duplicate_ngram": 5,
+  "near_duplicate_jaccard": 0.8,
+  "split": {
+    "validation_ratio": 0.1,
+    "rounding": "floor(N*0.1+0.5)",
+    "unit": "connected_question_group",
+    "algorithm": "reachable_subset_sum_nearest_target_tie_smaller_then_first_reachable",
+    "hash_salt": "week8-v1:42:",
+    "new_split_of_historical_train_only": true
+  },
+  "evaluation": {
+    "models": [
+      "original_base",
+      "new_sft_final_merged",
+      "new_dpo_final_merged"
+    ],
+    "custom20_weights": {
+      "accuracy": 0.3,
+      "completeness": 0.25,
+      "logic": 0.2,
+      "safety": 0.15,
+      "format": 0.1
+    },
+    "custom20_generation": {
+      "do_sample": false,
+      "max_new_tokens": 512,
+      "seed": 42
+    },
+    "benchmark_subjects": {
+      "ceval": 52,
+      "cmmlu": 67
+    },
+    "benchmark_aggregation": "question_weighted_accuracy",
+    "selection": "final_completed_checkpoint_not_best_on_evaluation",
+    "runtime_lock_required_before_new_training": true
+  },
+  "pending_gates": [
+    "pipeline_protocol_implementation",
+    "full_preparation_and_leakage_check",
+    "benchmark_snapshot_and_judge_runtime_lock",
+    "sample_content_review",
+    "actual_lf_loader_equivalence",
+    "data_release_receipt"
+  ],
+  "rules_document": "docs/week8_data_protocol.md",
+  "rules_sha256": "337db70cdf9024f8726a0011e6d9bddaa188c5ab8d679a8624a04fa2ba648918",
+  "historical_group_links": {
+    "path": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/technical_preflight_20260911/split_group_links.jsonl",
+    "sha256": "a0ea8b9272df0d19529717dd8d406662985473506e6824698e4ec2060639c9dc",
+    "records": 12,
+    "role": "preserve_prior_question_group_relations"
+  },
+  "revision_note": "Metadata correction: items/prompts counts 200/200/15; explicit hash binding of the already-required historical links. Processing and evaluation rules unchanged."
+}

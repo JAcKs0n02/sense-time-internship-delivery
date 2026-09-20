@@ -1,0 +1,21 @@
+[
+  "/root/autodl-tmp/conda/envs/llm_exp/bin/python",
+  "/root/autodl-tmp/week8-distillation-student-20260918/scripts/distill.py",
+  "train",
+  "--config",
+  "/root/autodl-tmp/week8-distillation-student-20260918/configs/distillation.json",
+  "--input",
+  "/root/autodl-tmp/week8-distillation-student-20260918/curation/curated_targets.json",
+  "--output-dir",
+  "/root/autodl-tmp/week8-distillation-student-20260918/run-01/student",
+  "--student",
+  "/root/autodl-tmp/week8-distillation-preflight-20260918/student-Qwen2.5-0.5B-Instruct",
+  "--student-manifest",
+  "/root/autodl-tmp/week8-distillation-student-20260918/student_manifest.json",
+  "--generation-receipt",
+  "/root/autodl-tmp/week8-distillation-student-20260918/curation/retrieved/generation/generation_receipt.json",
+  "--quality-review",
+  "/root/autodl-tmp/week8-distillation-student-20260918/quality_review.json",
+  "--curation-manifest",
+  "/root/autodl-tmp/week8-distillation-student-20260918/curation/curation_manifest.json"
+]

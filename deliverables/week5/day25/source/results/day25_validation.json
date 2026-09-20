@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "status": "PASS",
+  "summary": {
+    "expected_records": 10,
+    "case_records": 10,
+    "raw_records": 10,
+    "reviewed_records": 10,
+    "successful_raw_records": 10,
+    "hallucination_count": 7,
+    "hallucination_rate": 0.7
+  },
+  "checks": [
+    {
+      "check": "record_count_and_order",
+      "status": "PASS"
+    },
+    {
+      "check": "preregistered_case_design",
+      "status": "PASS"
+    },
+    {
+      "check": "successful_raw_outputs",
+      "status": "PASS"
+    },
+    {
+      "check": "frozen_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "binary_review",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_immutability",
+      "status": "PASS"
+    },
+    {
+      "check": "metric_formula",
+      "status": "PASS"
+    },
+    {
+      "check": "grouped_metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "artifact_integrity",
+      "status": "PASS"
+    },
+    {
+      "check": "teacher_report",
+      "status": "PASS"
+    }
+  ],
+  "errors": []
+}

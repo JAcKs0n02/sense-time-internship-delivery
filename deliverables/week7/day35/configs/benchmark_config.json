@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "protocol_id": "week7_bf16_awq_gptq_v1",
+  "seed": 42,
+  "models": {
+    "bf16": "/root/autodl-tmp/qwen25-week4/best_model/qwen25-7b-week4-dpo-corrective-merged",
+    "awq": "/root/autodl-tmp/qwen25-week7/models/week4-dpo-awq-int4",
+    "gptq": "/root/autodl-tmp/qwen25-week7/models/week4-dpo-gptq-int4"
+  },
+  "generation_eval": {
+    "path": "deliverables/week7/day35/source/data/generation_eval_20.json",
+    "sha256": "816cb1e04780efcf602d08bb09986124c9493e3627b749a93a021fee2b82af8c",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_new_tokens": 256,
+    "warmup_runs": 3,
+    "measured_runs": 10
+  },
+  "perplexity_eval": {
+    "path": "deliverables/week7/day35/source/data/perplexity_eval_256.jsonl",
+    "sha256": "36c8f567f1b89e0cf226a88789994ee1d2d5ae799a826bba4674da9a19a165a7",
+    "row_count": 256,
+    "window_tokens": 512,
+    "batch_size": 1
+  },
+  "memory": {
+    "empty_gpu_before_load": true,
+    "measure_torch_allocated": true,
+    "measure_nvidia_smi_process_delta": true
+  }
+}

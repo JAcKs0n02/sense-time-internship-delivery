@@ -1,0 +1,13 @@
+{
+  "chosen_reward_delta": 0.11778431385755539,
+  "chosen_reward_window_delta": 0.03185908608720638,
+  "first_step": 1,
+  "last_step": 40,
+  "logged_steps": 40,
+  "margin_delta": 0.09554757922887802,
+  "margin_window_delta": 0.03599528145277873,
+  "rejected_reward_delta": 0.02223672904074192,
+  "rejected_reward_window_delta": -0.004136195220053195,
+  "teacher_trend_observed": true,
+  "trend_window": 20
+}

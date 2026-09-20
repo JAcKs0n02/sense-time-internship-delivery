@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "fresh_model_inference": true,
+  "coverage": "sample",
+  "new_api_calls": 20,
+  "custom_questions": 20,
+  "judge_model": "gemini-3.1-pro-preview"
+}

@@ -1,0 +1,14 @@
+{
+  "sample_id": "15adb33a497c676c25e4d1b11f0ca8b85fbda925f6197d24acafb1325ae520c6",
+  "prompt": "请将下列丹麦语翻译成中文\n\nhvem er værten i america has talent",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请将下列丹麦语翻译成中文\n\nhvem er værten i america has talent"
+    }
+  ],
+  "answer": "美国达人秀的主持人是谁",
+  "truncated": false,
+  "input_tokens": 48,
+  "output_tokens": 7
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "day26-v7-run-manifest-1",
+  "stage": "pre_run",
+  "candidate_id": "v7-c",
+  "run_name": "day26-v7-c-lr1e5-e15",
+  "base_model_repository": "Qwen/Qwen2-VL-7B-Instruct",
+  "base_model_revision": "eed13092ef92e448dd6875b2a00151bd3f7db0ac",
+  "training_dataset_name": "day26_train_v7",
+  "development_dataset_name": "day26_dev_v7",
+  "training_parameters": {
+    "learning_rate": 1e-05,
+    "num_train_epochs": 1.5,
+    "seed": 42,
+    "lora_rank": 16,
+    "lora_alpha": 32,
+    "lora_target": "q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj",
+    "freeze_vision_tower": true,
+    "freeze_multi_modal_projector": true
+  },
+  "input_files": {
+    "training_dataset": {
+      "bytes": 104816,
+      "sha256": "cb2e58e65ad21c204bad958cd30e12e98a49ccdbbeb424a9a353507fa31be542",
+      "relative_path": "source/data/week5_vlm_train_v7.json"
+    },
+    "fact_cards": {
+      "bytes": 198310,
+      "sha256": "0344c8754ff2046ec39a43f11595f827542a628f5bb463e2fc2094b4913c405b",
+      "relative_path": "source/data/source_image_facts_v7.json"
+    },
+    "source_manifest": {
+      "bytes": 87099,
+      "sha256": "cdd81bd24cd495877ebeaf035b680bf22c2b978f48e685a82837148bba169552",
+      "relative_path": "source/data/source_image_manifest_v7.json"
+    },
+    "data_manifest": {
+      "bytes": 12970,
+      "sha256": "e5baad0af9ce402f7c2db74a21156c236d50f8e48f49fc654f9ca02bd5ed7047",
+      "relative_path": "source/data/data_manifest_v7.json"
+    },
+    "dataset_info": {
+      "bytes": 2450,
+      "sha256": "562f237d758244f22e63ae216963486b0b0aed5fc262d013c063e5791b3b6aa3",
+      "relative_path": "configs/dataset_info.json"
+    },
+    "framework_lock": {
+      "bytes": 790,
+      "sha256": "07123d6a8e73fb9e2bc9a044ace856c74cc50292b046a5fd23b85d52b95d81fa",
+      "relative_path": "configs/framework_lock.json"
+    },
+    "training_config": {
+      "bytes": 1749,
+      "sha256": "c0049f54f60edcd66082e1d2e3d1adc52c740f98a3e35711a2373f1246b7a067",
+      "relative_path": "configs/qwen2vl_lora_v7_c_lr1e5_e15.yaml"
+    }
+  },
+  "pre_run_fingerprint_sha256": "8b1fa90e445365e6f0921932dee3b8b57e23e7f32853f893473fa276cac6f02e"
+}

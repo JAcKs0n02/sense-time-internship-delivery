@@ -1,0 +1,14 @@
+{
+  "sample_id": "957d8b177d435bdf143ea3298a8faeb8af0d903eebc866f3ced5fb3604935946",
+  "prompt": "将此现象归类为自然现象或人为诱发现象。\n\n输入：臭氧层消耗。",
+  "messages": [
+    {
+      "role": "user",
+      "content": "将此现象归类为自然现象或人为诱发现象。\n\n输入：臭氧层消耗。"
+    }
+  ],
+  "answer": "臭氧层消耗属于自然现象和人为诱发现象。在自然界，臭氧层的损耗有一定的正常比例。但是，人类活动排放的氯氟烃（CFCs）等化学物质加速了这一过程，导致人为诱发表现。",
+  "truncated": false,
+  "input_tokens": 50,
+  "output_tokens": 54
+}

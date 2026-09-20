@@ -1,0 +1,8 @@
+title=TensorBoard
+url=http://127.0.0.1:6006/#timeseries
+body_text_length=3115
+contains_train_loss=False
+contains_run1=True
+contains_run2=True
+screenshot=/root/autodl-tmp/qwen25-week1/week1/reports/tensorboard_loss.png
+capture_exit_code=0

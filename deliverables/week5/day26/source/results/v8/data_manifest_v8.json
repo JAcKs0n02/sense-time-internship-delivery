@@ -1,0 +1,51 @@
+{
+  "schema_version": "day26-v8-data-manifest-1",
+  "status": "PRE_REGISTERED",
+  "v7_final_promotion": "UNOPENED_V7_FINAL_BECOMES_V8_DEV",
+  "parent_sha256": {
+    "train_public": "cb2e58e65ad21c204bad958cd30e12e98a49ccdbbeb424a9a353507fa31be542",
+    "train_internal": "115719d66d7e992edb1cb7a43340e39dafb5f3fe3bab516c4d514ab76e7c16e8",
+    "unopened_final_public": "b59ec641ad4d7cb899bb9d48db5f667544b877f1b45bf2c33457662eee87198e",
+    "unopened_final_internal": "0aa5cfc60a14223a99b4b0cfe2a5b23962eae105728ba3e94a96e3ba1eafc09b"
+  },
+  "train_count": 400,
+  "dev_count": 20,
+  "train_category_counts": {
+    "chart_table": 80,
+    "formula": 80,
+    "natural_scene": 80,
+    "ocr": 80,
+    "ui": 80
+  },
+  "dev_category_counts": {
+    "chart_table": 4,
+    "formula": 4,
+    "natural_scene": 4,
+    "ocr": 4,
+    "ui": 4
+  },
+  "dev_mode_counts": {
+    "direct": 10,
+    "verification": 10
+  },
+  "prompt_intersection": [],
+  "image_sha256_intersection": [],
+  "outputs": {
+    "train_public": {
+      "path": "source/data/week5_vlm_train_v8_corrective.json",
+      "sha256": "1bc5eb667f24cc9324dbeb1aa09dca042764da76688563b4bfcd33fba9dc04eb"
+    },
+    "train_internal": {
+      "path": "source/data/week5_vlm_train_v8_corrective_internal.json",
+      "sha256": "9252f762deb0cc0637ec8c5fcbb49bad6f6fc0d4781d8e264d39a13ac09b5ca8"
+    },
+    "dev_public": {
+      "path": "source/data/week5_vlm_dev_v8.json",
+      "sha256": "51f2562036f9910e5718c55284e507736cad2e0bf637c4f7647194b4157d8f1d"
+    },
+    "dev_internal": {
+      "path": "source/data/week5_vlm_dev_v8_internal.json",
+      "sha256": "b7129fe14aafd34e68cf5a044bd57eeb86bd6d6fbf70ba323f6bd45a53968312"
+    }
+  }
+}

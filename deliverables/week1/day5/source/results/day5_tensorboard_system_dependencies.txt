@@ -1,0 +1,104 @@
+Get:1 https://repo.huaweicloud.com/ubuntu jammy InRelease [270 kB]
+Get:2 https://repo.huaweicloud.com/ubuntu jammy-backports InRelease [127 kB]
+Get:3 https://repo.huaweicloud.com/ubuntu jammy-proposed InRelease [279 kB]
+Get:4 https://repo.huaweicloud.com/ubuntu jammy-security InRelease [129 kB]
+Get:5 https://repo.huaweicloud.com/ubuntu jammy-updates InRelease [128 kB]
+Get:6 https://repo.huaweicloud.com/ubuntu jammy/restricted Sources [28.2 kB]
+Get:7 https://repo.huaweicloud.com/ubuntu jammy/multiverse Sources [361 kB]
+Get:8 https://repo.huaweicloud.com/ubuntu jammy/universe Sources [22.0 MB]
+Get:9 https://repo.huaweicloud.com/ubuntu jammy/main Sources [1668 kB]
+Get:10 https://repo.huaweicloud.com/ubuntu jammy/main amd64 Packages [1792 kB]
+Get:11 https://repo.huaweicloud.com/ubuntu jammy/multiverse amd64 Packages [266 kB]
+Get:12 https://repo.huaweicloud.com/ubuntu jammy/restricted amd64 Packages [164 kB]
+Get:13 https://repo.huaweicloud.com/ubuntu jammy/universe amd64 Packages [17.5 MB]
+Get:14 https://repo.huaweicloud.com/ubuntu jammy-backports/universe Sources [11.1 kB]
+Get:15 https://repo.huaweicloud.com/ubuntu jammy-backports/main Sources [8869 B]
+Get:16 https://repo.huaweicloud.com/ubuntu jammy-backports/universe amd64 Packages [35.6 kB]
+Get:17 https://repo.huaweicloud.com/ubuntu jammy-backports/main amd64 Packages [82.8 kB]
+Get:18 https://repo.huaweicloud.com/ubuntu jammy-proposed/restricted Sources [53.5 kB]
+Get:19 https://repo.huaweicloud.com/ubuntu jammy-proposed/universe Sources [18.0 kB]
+Get:20 https://repo.huaweicloud.com/ubuntu jammy-proposed/main Sources [94.9 kB]
+Get:21 https://repo.huaweicloud.com/ubuntu jammy-proposed/multiverse Sources [8406 B]
+Get:22 https://repo.huaweicloud.com/ubuntu jammy-proposed/universe amd64 Packages [59.7 kB]
+Get:23 https://repo.huaweicloud.com/ubuntu jammy-proposed/multiverse amd64 Packages [19.1 kB]
+Get:24 https://repo.huaweicloud.com/ubuntu jammy-proposed/main amd64 Packages [889 kB]
+Get:25 https://repo.huaweicloud.com/ubuntu jammy-proposed/restricted amd64 Packages [2393 kB]
+Get:26 https://repo.huaweicloud.com/ubuntu jammy-security/main Sources [371 kB]
+Get:27 https://repo.huaweicloud.com/ubuntu jammy-security/restricted Sources [92.9 kB]
+Get:28 https://repo.huaweicloud.com/ubuntu jammy-security/multiverse Sources [28.4 kB]
+Get:29 https://repo.huaweicloud.com/ubuntu jammy-security/universe Sources [318 kB]
+Get:30 https://repo.huaweicloud.com/ubuntu jammy-security/restricted amd64 Packages [7332 kB]
+Get:31 https://repo.huaweicloud.com/ubuntu jammy-security/multiverse amd64 Packages [77.8 kB]
+Get:32 https://repo.huaweicloud.com/ubuntu jammy-security/universe amd64 Packages [1313 kB]
+Get:33 https://repo.huaweicloud.com/ubuntu jammy-security/main amd64 Packages [4091 kB]
+Get:34 https://repo.huaweicloud.com/ubuntu jammy-updates/restricted Sources [96.9 kB]
+Get:35 https://repo.huaweicloud.com/ubuntu jammy-updates/multiverse Sources [37.2 kB]
+Get:36 https://repo.huaweicloud.com/ubuntu jammy-updates/universe Sources [477 kB]
+Get:37 https://repo.huaweicloud.com/ubuntu jammy-updates/main Sources [568 kB]
+Get:38 https://repo.huaweicloud.com/ubuntu jammy-updates/restricted amd64 Packages [7649 kB]
+Get:39 https://repo.huaweicloud.com/ubuntu jammy-updates/main amd64 Packages [4442 kB]
+Get:40 https://repo.huaweicloud.com/ubuntu jammy-updates/multiverse amd64 Packages [86.4 kB]
+Get:41 https://repo.huaweicloud.com/ubuntu jammy-updates/universe amd64 Packages [1615 kB]
+Fetched 76.9 MB in 5s (17.0 MB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  alsa-topology-conf alsa-ucm-conf
+  libasound2-data libwayland-server0
+Suggested packages:
+  libasound2-plugins alsa-utils
+The following NEW packages will be installed:
+  alsa-topology-conf alsa-ucm-conf
+  libasound2 libasound2-data libgbm1
+  libwayland-server0
+0 upgraded, 6 newly installed, 0 to remove and 203 not upgraded.
+Need to get 537 kB of archives.
+After this operation, 2708 kB of additional disk space will be used.
+Get:1 https://repo.huaweicloud.com/ubuntu jammy/main amd64 alsa-topology-conf all 1.2.5.1-2 [15.5 kB]
+Get:2 https://repo.huaweicloud.com/ubuntu jammy-security/main amd64 libasound2-data all 1.2.6.1-1ubuntu1.2 [19.3 kB]
+Get:3 https://repo.huaweicloud.com/ubuntu jammy-security/main amd64 libasound2 amd64 1.2.6.1-1ubuntu1.2 [391 kB]
+Get:4 https://repo.huaweicloud.com/ubuntu jammy-updates/main amd64 alsa-ucm-conf all 1.2.6.3-1ubuntu1.12 [43.5 kB]
+Get:5 https://repo.huaweicloud.com/ubuntu jammy-security/main amd64 libwayland-server0 amd64 1.20.0-1ubuntu0.1 [34.3 kB]
+Get:6 https://repo.huaweicloud.com/ubuntu jammy-security/main amd64 libgbm1 amd64 23.2.1-1ubuntu3.1~22.04.4 [33.7 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 537 kB in 0s (2205 kB/s)
+Selecting previously unselected package alsa-topology-conf.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 47631 files and directories currently installed.)
+Preparing to unpack .../0-alsa-topology-conf_1.2.5.1-2_all.deb ...
+Unpacking alsa-topology-conf (1.2.5.1-2) ...
+Selecting previously unselected package libasound2-data.
+Preparing to unpack .../1-libasound2-data_1.2.6.1-1ubuntu1.2_all.deb ...
+Unpacking libasound2-data (1.2.6.1-1ubuntu1.2) ...
+Selecting previously unselected package libasound2:amd64.
+Preparing to unpack .../2-libasound2_1.2.6.1-1ubuntu1.2_amd64.deb ...
+Unpacking libasound2:amd64 (1.2.6.1-1ubuntu1.2) ...
+Selecting previously unselected package alsa-ucm-conf.
+Preparing to unpack .../3-alsa-ucm-conf_1.2.6.3-1ubuntu1.12_all.deb ...
+Unpacking alsa-ucm-conf (1.2.6.3-1ubuntu1.12) ...
+Selecting previously unselected package libwayland-server0:amd64.
+Preparing to unpack .../4-libwayland-server0_1.20.0-1ubuntu0.1_amd64.deb ...
+Unpacking libwayland-server0:amd64 (1.20.0-1ubuntu0.1) ...
+Selecting previously unselected package libgbm1:amd64.
+Preparing to unpack .../5-libgbm1_23.2.1-1ubuntu3.1~22.04.4_amd64.deb ...
+Unpacking libgbm1:amd64 (23.2.1-1ubuntu3.1~22.04.4) ...
+Setting up libwayland-server0:amd64 (1.20.0-1ubuntu0.1) ...
+Setting up libgbm1:amd64 (23.2.1-1ubuntu3.1~22.04.4) ...
+Setting up libasound2-data (1.2.6.1-1ubuntu1.2) ...
+Setting up alsa-topology-conf (1.2.5.1-2) ...
+Setting up libasound2:amd64 (1.2.6.1-1ubuntu1.2) ...
+Setting up alsa-ucm-conf (1.2.6.3-1ubuntu1.12) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.4) ...
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libcuda.so.530.30.02 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libcuda.so.535.98 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libcudadebugger.so.530.30.02 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libcudadebugger.so.535.98 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-allocator.so.535.98 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-cfg.so.535.98 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-ml.so.535.98 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-opencl.so.535.98 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11.so.535.98 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.530.30.02 is empty, not checked.
+/sbin/ldconfig.real: File /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.535.98 is empty, not checked.
+system_dependencies_exit_code=0

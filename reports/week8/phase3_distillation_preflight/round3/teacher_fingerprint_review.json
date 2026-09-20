@@ -1,0 +1,7 @@
+{
+  "manifest_file": "deliverables/week4/day20/source/results/corrective_final/merged_model_manifest.json",
+  "manifest_file_sha256": "39d6abfaa8d260be36524c10def770fd1381a6ad12d14f1cd145f220b39964a7",
+  "model_file_list_sha256": "aca9a2932ed427f8fc6e9962e70274eb286a09c446d177af2bc00f6df1675e4c",
+  "historical_algorithm": "SHA256 over each entry: sha256 + two spaces + relative path + newline, in manifest order",
+  "current_remote_model_verified": false
+}

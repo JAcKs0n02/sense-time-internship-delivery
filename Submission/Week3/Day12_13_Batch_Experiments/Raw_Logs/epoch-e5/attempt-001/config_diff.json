@@ -1,0 +1,10 @@
+{
+  "output_dir": {
+    "source": "/root/autodl-tmp/qwen25-week3/runs/epoch-e5/adapter",
+    "runtime": "runs/epoch-e5/attempt-001/adapter"
+  },
+  "run_name": {
+    "source": "qwen25-7b-week3-epoch-e5",
+    "runtime": "qwen25-7b-week3-epoch-e5-attempt-001"
+  }
+}

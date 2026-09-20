@@ -1,0 +1,8 @@
+{
+  "samples": 91,
+  "name": "Qwen2.5-Intern",
+  "author": "Week 1 Internship Project",
+  "placeholder_occurrences_replaced": 137,
+  "template_sha256": "475cca081507c57cc198a96231128801623f665c524e7b1d182265d782c2efc8",
+  "resolved_sha256": "57e0d9978bc3b45ce2667cf1ba584efa5de810575d15255883ce2440388d3f3c"
+}

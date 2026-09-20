@@ -1,0 +1,12 @@
+export_started_at=2026-07-30T17:14:46+08:00
+config=/root/autodl-tmp/qwen25-week2/day9/configs/qwen25_7b_week2_export.yaml
+932933ae3b94410b22557a6f243cb14ea52a217ce2587b67ea48733a7c640a9d  /root/autodl-tmp/qwen25-week2/day9/configs/qwen25_7b_week2_export.yaml
+               total        used        free      shared  buff/cache   available
+Mem:           503Gi        52Gi        69Gi       506Mi       381Gi       446Gi
+Swap:             0B          0B          0B
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme1n1    100G   26G   75G  26% /root/autodl-tmp
+export_finished_at=2026-07-30T17:15:01+08:00
+export_exit_code=0
+export_finished_at=2026-07-30T17:15:23+08:00
+export_exit_code=0

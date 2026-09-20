@@ -1,0 +1,542 @@
+[
+  {
+    "case_id": "chart_table-v7-dev-01--direct",
+    "category": "chart_table",
+    "mode": "direct",
+    "lora": {
+      "scores": {
+        "factual": 1,
+        "instruction": 2,
+        "completeness": 2,
+        "usefulness": 1,
+        "format": 3
+      },
+      "hallucination": true,
+      "notes": "识别坐标轴但虚构来源、口径并误读美国；未给出两项准确关系。"
+    },
+    "base": {
+      "scores": {
+        "factual": 2,
+        "instruction": 2,
+        "completeness": 2,
+        "usefulness": 2,
+        "format": 3
+      },
+      "hallucination": true,
+      "notes": "识别坐标轴，但以泛化趋势和未核对国家举例代替两项可核关系。"
+    }
+  },
+  {
+    "case_id": "chart_table-v7-dev-01--verification",
+    "category": "chart_table",
+    "mode": "verification",
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "正确结论与依据。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "正确结论与依据。"
+    }
+  },
+  {
+    "case_id": "chart_table-v7-dev-02--direct",
+    "category": "chart_table",
+    "mode": "direct",
+    "lora": {
+      "scores": {
+        "factual": 3,
+        "instruction": 3,
+        "completeness": 3,
+        "usefulness": 3,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "轴与主题正确，但多项峰值趋势未经精确核对。"
+    },
+    "base": {
+      "scores": {
+        "factual": 3,
+        "instruction": 3,
+        "completeness": 2,
+        "usefulness": 3,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "轴与主题正确，但趋势表述泛化且未给具体读数。"
+    }
+  },
+  {
+    "case_id": "chart_table-v7-dev-02--verification",
+    "category": "chart_table",
+    "mode": "verification",
+    "lora": {
+      "scores": {
+        "factual": 1,
+        "instruction": 2,
+        "completeness": 2,
+        "usefulness": 1,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "错误接受低于 1 吨的陈述。"
+    },
+    "base": {
+      "scores": {
+        "factual": 1,
+        "instruction": 2,
+        "completeness": 2,
+        "usefulness": 1,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "错误接受陈述并虚构约 0.5 吨。"
+    }
+  },
+  {
+    "case_id": "formula-v7-dev-01--direct",
+    "category": "formula",
+    "mode": "direct",
+    "lora": {
+      "scores": {
+        "factual": 1,
+        "instruction": 1,
+        "completeness": 1,
+        "usefulness": 1,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "生成无关方程。"
+    },
+    "base": {
+      "scores": {
+        "factual": 1,
+        "instruction": 1,
+        "completeness": 1,
+        "usefulness": 1,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "生成无关方程。"
+    }
+  },
+  {
+    "case_id": "formula-v7-dev-01--verification",
+    "category": "formula",
+    "mode": "verification",
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "准确核对左侧可见项。"
+    },
+    "base": {
+      "scores": {
+        "factual": 2,
+        "instruction": 3,
+        "completeness": 3,
+        "usefulness": 2,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "结论正确但错误拆分左右侧并虚构时间导数。"
+    }
+  },
+  {
+    "case_id": "formula-v7-dev-02--direct",
+    "category": "formula",
+    "mode": "direct",
+    "base": {
+      "scores": {
+        "factual": 4,
+        "instruction": 3,
+        "completeness": 5,
+        "usefulness": 4,
+        "format": 5
+      },
+      "hallucination": true,
+      "notes": "公式正确但追加图中不能支持的采样解释。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "严格准确转写。"
+    }
+  },
+  {
+    "case_id": "formula-v7-dev-02--verification",
+    "category": "formula",
+    "mode": "verification",
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "正确指出 KL 项。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 4,
+        "instruction": 4,
+        "completeness": 5,
+        "usefulness": 4,
+        "format": 5
+      },
+      "hallucination": true,
+      "notes": "核心结论正确，但追加未经图像支持且表意可疑的分布解释。"
+    }
+  },
+  {
+    "case_id": "natural_scene-v7-dev-03--direct",
+    "category": "natural_scene",
+    "mode": "direct",
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "完整覆盖主体、背景和相对位置。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 4,
+        "completeness": 4,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "主体细节正确，但相对位置说明较少。"
+    }
+  },
+  {
+    "case_id": "natural_scene-v7-dev-03--verification",
+    "category": "natural_scene",
+    "mode": "verification",
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "正确。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "正确。"
+    }
+  },
+  {
+    "case_id": "natural_scene-v7-dev-04--direct",
+    "category": "natural_scene",
+    "mode": "direct",
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 4,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "正确客观描述。"
+    },
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 4,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "正确客观描述。"
+    }
+  },
+  {
+    "case_id": "natural_scene-v7-dev-04--verification",
+    "category": "natural_scene",
+    "mode": "verification",
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "正确否定并指出土路与落叶。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "正确否定并指出土路与落叶。"
+    }
+  },
+  {
+    "case_id": "ocr-v7-dev-01--direct",
+    "category": "ocr",
+    "mode": "direct",
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "准确转写。"
+    },
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "准确转写。"
+    }
+  },
+  {
+    "case_id": "ocr-v7-dev-01--verification",
+    "category": "ocr",
+    "mode": "verification",
+    "lora": {
+      "scores": {
+        "factual": 3,
+        "instruction": 4,
+        "completeness": 4,
+        "usefulness": 3,
+        "format": 5
+      },
+      "hallucination": true,
+      "notes": "结论正确，但把可见英文标题错误改写成中文作为依据。"
+    },
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "准确核对英文标题。"
+    }
+  },
+  {
+    "case_id": "ocr-v7-dev-02--direct",
+    "category": "ocr",
+    "mode": "direct",
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "准确转写。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "准确转写。"
+    }
+  },
+  {
+    "case_id": "ocr-v7-dev-02--verification",
+    "category": "ocr",
+    "mode": "verification",
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "正确。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "正确。"
+    }
+  },
+  {
+    "case_id": "ui-v7-dev-01--direct",
+    "category": "ui",
+    "mode": "direct",
+    "base": {
+      "scores": {
+        "factual": 3,
+        "instruction": 3,
+        "completeness": 4,
+        "usefulness": 3,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "误识别为 IDE，但较完整列出可见区域和选项。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 3,
+        "instruction": 3,
+        "completeness": 3,
+        "usefulness": 3,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "未识别产品名，并把提示当标题、把选项位置说错。"
+    }
+  },
+  {
+    "case_id": "ui-v7-dev-01--verification",
+    "category": "ui",
+    "mode": "verification",
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "正确确认选项及依据。"
+    },
+    "base": {
+      "scores": {
+        "factual": 4,
+        "instruction": 5,
+        "completeness": 4,
+        "usefulness": 4,
+        "format": 5
+      },
+      "hallucination": true,
+      "notes": "结论正确，但错误声称选项位于 Clipboard history 下拉菜单。"
+    }
+  },
+  {
+    "case_id": "ui-v7-dev-02--direct",
+    "category": "ui",
+    "mode": "direct",
+    "base": {
+      "scores": {
+        "factual": 3,
+        "instruction": 4,
+        "completeness": 4,
+        "usefulness": 4,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "正确识别布局选择器及主要区域，但对选中状态有臆测。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 2,
+        "instruction": 3,
+        "completeness": 2,
+        "usefulness": 2,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "虚构界面名称，遗漏多个模板和创建按钮并误述当前状态。"
+    }
+  },
+  {
+    "case_id": "ui-v7-dev-02--verification",
+    "category": "ui",
+    "mode": "verification",
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "正确列举多个模板。"
+    },
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "正确列举多个模板。"
+    }
+  }
+]

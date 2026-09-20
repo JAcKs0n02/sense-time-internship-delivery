@@ -1,0 +1,38 @@
+{
+  "question_count": 3,
+  "training_prompt_count": 4999,
+  "jaccard_threshold": 0.8,
+  "all_questions_novel": true,
+  "questions": [
+    {
+      "id": "Q1",
+      "text": "请用不超过150字解释“为什么指令微调数据要做去重”，并给出一个重复样本可能带来的具体后果。",
+      "normalized_text": "请用不超过150字解释为什么指令微调数据要做去重并给出一个重复样本可能带来的具体后果",
+      "exact_match": false,
+      "maximum_jaccard": 0.14678899082568808,
+      "closest_training_line": 342,
+      "closest_sample_id": null,
+      "status": "novel"
+    },
+    {
+      "id": "Q2",
+      "text": "某台24GB显存的服务器在训练7B模型时出现CUDA OOM。请严格按“现象—可能原因—排查顺序—优先解决方案”四个标题回答，每部分最多3点。",
+      "normalized_text": "某台24gb显存的服务器在训练7b模型时出现cudaoom请严格按现象可能原因排查顺序优先解决方案四个标题回答每部分最多3点",
+      "exact_match": false,
+      "maximum_jaccard": 0.11695906432748537,
+      "closest_training_line": 3817,
+      "closest_sample_id": null,
+      "status": "novel"
+    },
+    {
+      "id": "Q3",
+      "text": "把下面这句话改写成一条清晰、可执行且包含验收标准的任务指令：“帮我看看这些数据，太乱了，处理一下。”只输出改写后的指令。",
+      "normalized_text": "把下面这句话改写成一条清晰可执行且包含验收标准的任务指令帮我看看这些数据太乱了处理一下只输出改写后的指令",
+      "exact_match": false,
+      "maximum_jaccard": 0.1044776119402985,
+      "closest_training_line": 809,
+      "closest_sample_id": null,
+      "status": "novel"
+    }
+  ]
+}

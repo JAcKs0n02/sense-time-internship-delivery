@@ -1,0 +1,190 @@
+{
+  "questions": 20,
+  "scores": [
+    {
+      "question_id": "MATH-01",
+      "accuracy": 5,
+      "completeness": 5,
+      "logic": 5,
+      "safety": 5,
+      "format": 4,
+      "weighted_score": 4.9
+    },
+    {
+      "question_id": "MATH-02",
+      "accuracy": 2,
+      "completeness": 5,
+      "logic": 2,
+      "safety": 5,
+      "format": 5,
+      "weighted_score": 3.5
+    },
+    {
+      "question_id": "MATH-03",
+      "accuracy": 5,
+      "completeness": 5,
+      "logic": 5,
+      "safety": 5,
+      "format": 4,
+      "weighted_score": 4.9
+    },
+    {
+      "question_id": "MATH-04",
+      "accuracy": 0,
+      "completeness": 1,
+      "logic": 1,
+      "safety": 5,
+      "format": 1,
+      "weighted_score": 1.3
+    },
+    {
+      "question_id": "MATH-05",
+      "accuracy": 2,
+      "completeness": 5,
+      "logic": 5,
+      "safety": 5,
+      "format": 3,
+      "weighted_score": 3.9
+    },
+    {
+      "question_id": "MATH-06",
+      "accuracy": 5,
+      "completeness": 5,
+      "logic": 5,
+      "safety": 5,
+      "format": 5,
+      "weighted_score": 5.0
+    },
+    {
+      "question_id": "MATH-07",
+      "accuracy": 5,
+      "completeness": 5,
+      "logic": 5,
+      "safety": 5,
+      "format": 5,
+      "weighted_score": 5.0
+    },
+    {
+      "question_id": "REASON-01",
+      "accuracy": 5,
+      "completeness": 5,
+      "logic": 5,
+      "safety": 5,
+      "format": 5,
+      "weighted_score": 5.0
+    },
+    {
+      "question_id": "REASON-02",
+      "accuracy": 0,
+      "completeness": 5,
+      "logic": 0,
+      "safety": 5,
+      "format": 5,
+      "weighted_score": 2.5
+    },
+    {
+      "question_id": "REASON-03",
+      "accuracy": 2,
+      "completeness": 5,
+      "logic": 2,
+      "safety": 5,
+      "format": 5,
+      "weighted_score": 3.5
+    },
+    {
+      "question_id": "REASON-04",
+      "accuracy": 5,
+      "completeness": 5,
+      "logic": 5,
+      "safety": 5,
+      "format": 5,
+      "weighted_score": 5.0
+    },
+    {
+      "question_id": "REASON-05",
+      "accuracy": 4,
+      "completeness": 5,
+      "logic": 5,
+      "safety": 5,
+      "format": 5,
+      "weighted_score": 4.7
+    },
+    {
+      "question_id": "REASON-06",
+      "accuracy": 5,
+      "completeness": 5,
+      "logic": 5,
+      "safety": 5,
+      "format": 5,
+      "weighted_score": 5.0
+    },
+    {
+      "question_id": "REASON-07",
+      "accuracy": 0,
+      "completeness": 1,
+      "logic": 0,
+      "safety": 5,
+      "format": 5,
+      "weighted_score": 1.5
+    },
+    {
+      "question_id": "CODE-01",
+      "accuracy": 3,
+      "completeness": 3,
+      "logic": 5,
+      "safety": 5,
+      "format": 5,
+      "weighted_score": 3.9
+    },
+    {
+      "question_id": "CODE-02",
+      "accuracy": 5,
+      "completeness": 5,
+      "logic": 5,
+      "safety": 5,
+      "format": 4,
+      "weighted_score": 4.9
+    },
+    {
+      "question_id": "CODE-03",
+      "accuracy": 2,
+      "completeness": 4,
+      "logic": 3,
+      "safety": 5,
+      "format": 5,
+      "weighted_score": 3.45
+    },
+    {
+      "question_id": "CODE-04",
+      "accuracy": 1,
+      "completeness": 2,
+      "logic": 1,
+      "safety": 2,
+      "format": 3,
+      "weighted_score": 1.6
+    },
+    {
+      "question_id": "CODE-05",
+      "accuracy": 5,
+      "completeness": 5,
+      "logic": 5,
+      "safety": 5,
+      "format": 5,
+      "weighted_score": 5.0
+    },
+    {
+      "question_id": "CODE-06",
+      "accuracy": 5,
+      "completeness": 5,
+      "logic": 5,
+      "safety": 5,
+      "format": 5,
+      "weighted_score": 5.0
+    }
+  ],
+  "weighted_mean": 3.9775,
+  "evidence_kind": "ai_judge_not_human",
+  "generation_reused": true,
+  "historical_scores_reused": false,
+  "plan_hash": "614952bef1e12285c6079177ca7ad56c57cde61b7fb573193d2a6ec3338e974d"
+}

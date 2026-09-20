@@ -1,0 +1,31 @@
+case_id,passed,primary_label,secondary_labels,expected_tool_sequence,actual_tool_sequence,failed_checks
+eval-calculator-01,True,,[],"[""calculator""]","[""calculator""]",[]
+eval-calculator-02,True,,[],"[""calculator""]","[""calculator""]",[]
+eval-calculator-03,True,,[],"[""calculator""]","[""calculator""]",[]
+eval-calculator-04,True,,[],"[""calculator""]","[""calculator""]",[]
+eval-calculator-05,True,,[],"[""calculator""]","[""calculator""]",[]
+eval-calculator-06,True,,[],"[""calculator""]","[""calculator""]",[]
+eval-calculator-07,True,,[],"[""calculator""]","[""calculator""]",[]
+eval-calculator-08,True,,[],"[""calculator""]","[""calculator""]",[]
+eval-calculator-09,True,,[],"[""calculator""]","[""calculator""]",[]
+eval-calculator-10,True,,[],"[""calculator""]","[""calculator""]",[]
+eval-aurora-zero-shipping-calculator-required,False,wrong_tool,"[""argument_extraction_error""]","[""knowledge_retrieval"", ""calculator""]","[""knowledge_retrieval""]","[""full_tool_sequence"", ""argument_correctness"", ""completion""]"
+eval-budget-02,False,wrong_tool,"[""argument_extraction_error""]","[""knowledge_retrieval"", ""calculator""]","[""knowledge_retrieval""]","[""full_tool_sequence"", ""argument_correctness"", ""completion""]"
+eval-budget-03,False,wrong_tool,"[""argument_extraction_error""]","[""knowledge_retrieval"", ""calculator""]","[""knowledge_retrieval""]","[""full_tool_sequence"", ""argument_correctness"", ""completion""]"
+eval-budget-04,True,,[],"[""knowledge_retrieval"", ""calculator""]","[""knowledge_retrieval"", ""calculator""]",[]
+eval-budget-05,True,,[],"[""knowledge_retrieval"", ""calculator""]","[""knowledge_retrieval"", ""calculator""]",[]
+eval-budget-06,True,,[],"[""knowledge_retrieval"", ""calculator""]","[""knowledge_retrieval"", ""calculator""]",[]
+eval-budget-07,True,,[],"[""knowledge_retrieval"", ""calculator""]","[""knowledge_retrieval"", ""calculator""]",[]
+eval-budget-08,True,,[],"[""knowledge_retrieval"", ""calculator""]","[""knowledge_retrieval"", ""calculator""]",[]
+eval-code-no-unnecessary-knowledge,True,,[],"[""code_executor""]","[""code_executor""]",[]
+eval-code-02,False,argument_extraction_error,[],"[""code_executor""]","[""code_executor""]","[""argument_correctness""]"
+eval-code-03,False,argument_extraction_error,[],"[""code_executor""]","[""code_executor""]","[""argument_correctness""]"
+eval-code-04,True,,[],"[""code_executor""]","[""code_executor""]",[]
+eval-code-05,True,,[],"[""code_executor""]","[""code_executor""]",[]
+eval-code-06,True,,[],"[""code_executor""]","[""code_executor""]",[]
+eval-recovery-01,False,final_answer_error,[],"[""calculator""]","[""calculator""]","[""completion""]"
+eval-recovery-02,False,final_answer_error,[],"[""calculator""]","[""calculator""]","[""completion""]"
+eval-recovery-03,True,,[],"[""knowledge_retrieval""]","[""knowledge_retrieval""]",[]
+eval-recovery-04,False,wrong_tool,[],"[""knowledge_retrieval""]",[],"[""first_tool_choice"", ""full_tool_sequence"", ""completion""]"
+eval-recovery-05,False,wrong_tool,"[""tool_error_unhandled""]","[""code_executor""]","[""knowledge_retrieval""]","[""first_tool_choice"", ""full_tool_sequence"", ""completion""]"
+eval-recovery-06,False,wrong_tool,[],"[""code_executor""]","[""calculator""]","[""first_tool_choice"", ""full_tool_sequence"", ""completion""]"

@@ -1,0 +1,503 @@
+20260918_033549
+tabulate format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dataset                                         version    metric    mode      week8-bound-model
+----------------------------------------------  ---------  --------  ------  -------------------
+ceval-computer_network                          3ca950     accuracy  gen                   68.42
+ceval-operating_system                          9cc183     accuracy  gen                   68.42
+ceval-computer_architecture                     b06b51     accuracy  gen                   80.95
+ceval-college_programming                       2d37f8     accuracy  gen                   86.49
+ceval-college_physics                           fab095     accuracy  gen                   73.68
+ceval-college_chemistry                         0a1175     accuracy  gen                   70.83
+ceval-advanced_mathematics                      9ec2a0     accuracy  gen                   36.84
+ceval-probability_and_statistics                316ceb     accuracy  gen                   55.56
+ceval-discrete_mathematics                      4b43b1     accuracy  gen                   31.25
+ceval-electrical_engineer                       a077f4     accuracy  gen                   64.86
+ceval-metrology_engineer                        169df2     accuracy  gen                   79.17
+ceval-high_school_mathematics                   c78c4c     accuracy  gen                   61.11
+ceval-high_school_physics                       c1864b     accuracy  gen                   78.95
+ceval-high_school_chemistry                     bab9b6     accuracy  gen                   84.21
+ceval-high_school_biology                       d51f0f     accuracy  gen                   89.47
+ceval-middle_school_mathematics                 912110     accuracy  gen                   89.47
+ceval-middle_school_biology                     0d5293     accuracy  gen                   95.24
+ceval-middle_school_physics                     b3dc34     accuracy  gen                   94.74
+ceval-middle_school_chemistry                   a444c1     accuracy  gen                  100.00
+ceval-veterinary_medicine                       c2ad8c     accuracy  gen                   78.26
+ceval-college_economics                         bccb3f     accuracy  gen                   72.73
+ceval-business_administration                   d0e662     accuracy  gen                   84.85
+ceval-marxism                                   1999c8     accuracy  gen                   94.74
+ceval-mao_zedong_thought                        2f502f     accuracy  gen                   95.83
+ceval-education_science                         b8df44     accuracy  gen                   93.10
+ceval-teacher_qualification                     7a8a3f     accuracy  gen                   84.09
+ceval-high_school_politics                      7fe902     accuracy  gen                   89.47
+ceval-high_school_geography                     50a3b1     accuracy  gen                   89.47
+ceval-middle_school_politics                    3d3b2d     accuracy  gen                  100.00
+ceval-middle_school_geography                   571a34     accuracy  gen                  100.00
+ceval-modern_chinese_history                    8977b9     accuracy  gen                   91.30
+ceval-ideological_and_moral_cultivation         0b5835     accuracy  gen                  100.00
+ceval-logic                                     0a9c44     accuracy  gen                   72.73
+ceval-law                                       954bae     accuracy  gen                   66.67
+ceval-chinese_language_and_literature           964dd8     accuracy  gen                   69.57
+ceval-art_studies                               8ce5e6     accuracy  gen                   75.76
+ceval-professional_tour_guide                   2e789b     accuracy  gen                   89.66
+ceval-legal_professional                        ac1a4a     accuracy  gen                   65.22
+ceval-high_school_chinese                       f433fc     accuracy  gen                   63.16
+ceval-high_school_history                       a01043     accuracy  gen                  100.00
+ceval-middle_school_history                     f5d227     accuracy  gen                   90.91
+ceval-civil_servant                             d95065     accuracy  gen                   74.47
+ceval-sports_science                            2abd10     accuracy  gen                   89.47
+ceval-plant_protection                          04c7b8     accuracy  gen                   81.82
+ceval-basic_medicine                            4e8300     accuracy  gen                   89.47
+ceval-clinical_medicine                         f915ca     accuracy  gen                   86.36
+ceval-urban_and_rural_planner                   2fff81     accuracy  gen                   76.09
+ceval-accountant                                a1e403     accuracy  gen                   83.67
+ceval-fire_engineer                             b0839f     accuracy  gen                   74.19
+ceval-environmental_impact_assessment_engineer  52bd17     accuracy  gen                   74.19
+ceval-tax_accountant                            c6dfc8     accuracy  gen                   79.59
+ceval-physician                                 01a1df     accuracy  gen                   83.67
+cmmlu-agronomy                                  a45bb7     accuracy  gen                   72.19
+cmmlu-anatomy                                   87a348     accuracy  gen                   85.81
+cmmlu-ancient_chinese                           848c10     accuracy  gen                   46.34
+cmmlu-arts                                      c22186     accuracy  gen                   94.38
+cmmlu-astronomy                                 c85dc3     accuracy  gen                   52.73
+cmmlu-business_ethics                           bc9840     accuracy  gen                   72.25
+cmmlu-chinese_civil_service_exam                85c44a     accuracy  gen                   83.12
+cmmlu-chinese_driving_rule                      e5a226     accuracy  gen                   97.71
+cmmlu-chinese_food_culture                      bc720c     accuracy  gen                   77.94
+cmmlu-chinese_foreign_policy                    c20436     accuracy  gen                   79.44
+cmmlu-chinese_history                           409a66     accuracy  gen                   86.07
+cmmlu-chinese_literature                        8d6b02     accuracy  gen                   71.08
+cmmlu-chinese_teacher_qualification             96ab80     accuracy  gen                   90.50
+cmmlu-clinical_knowledge                        28da7e     accuracy  gen                   79.32
+cmmlu-college_actuarial_science                 11dbc5     accuracy  gen                   40.57
+cmmlu-college_education                         92dc42     accuracy  gen                   88.79
+cmmlu-college_engineering_hydrology             092a1f     accuracy  gen                   78.30
+cmmlu-college_law                               6a7223     accuracy  gen                   74.07
+cmmlu-college_mathematics                       75bb3b     accuracy  gen                   50.48
+cmmlu-college_medical_statistics                6ee0ac     accuracy  gen                   74.53
+cmmlu-college_medicine                          411c09     accuracy  gen                   87.55
+cmmlu-computer_science                          82e0cb     accuracy  gen                   88.73
+cmmlu-computer_security                         cd7932     accuracy  gen                   92.40
+cmmlu-conceptual_physics                        bf10e3     accuracy  gen                   89.80
+cmmlu-construction_project_management           3a9c5f     accuracy  gen                   78.42
+cmmlu-economics                                 4568ee     accuracy  gen                   86.16
+cmmlu-education                                 07c43c     accuracy  gen                   80.37
+cmmlu-electrical_engineering                    88268e     accuracy  gen                   87.21
+cmmlu-elementary_chinese                        c0f162     accuracy  gen                   76.59
+cmmlu-elementary_commonsense                    485571     accuracy  gen                   79.80
+cmmlu-elementary_information_and_technology     d0c55c     accuracy  gen                   92.86
+cmmlu-elementary_mathematics                    2e19c6     accuracy  gen                   64.78
+cmmlu-ethnology                                 8579f2     accuracy  gen                   74.81
+cmmlu-food_science                              2acf20     accuracy  gen                   72.73
+cmmlu-genetics                                  3a7688     accuracy  gen                   65.34
+cmmlu-global_facts                              2a852f     accuracy  gen                   80.54
+cmmlu-high_school_biology                       df4561     accuracy  gen                   83.43
+cmmlu-high_school_chemistry                     2cf370     accuracy  gen                   75.76
+cmmlu-high_school_geography                     996a96     accuracy  gen                   83.05
+cmmlu-high_school_mathematics                   2d3d94     accuracy  gen                   57.93
+cmmlu-high_school_physics                       fd22de     accuracy  gen                   76.36
+cmmlu-high_school_politics                      0180b2     accuracy  gen                   88.11
+cmmlu-human_sexuality                           88bfeb     accuracy  gen                   71.43
+cmmlu-international_law                         45dfd5     accuracy  gen                   72.43
+cmmlu-journalism                                3aed47     accuracy  gen                   77.91
+cmmlu-jurisprudence                             0cb520     accuracy  gen                   85.16
+cmmlu-legal_and_moral_basis                     4000a0     accuracy  gen                   97.66
+cmmlu-logical                                   3674e8     accuracy  gen                   79.67
+cmmlu-machine_learning                          da46c2     accuracy  gen                   72.13
+cmmlu-management                                fe63e0     accuracy  gen                   87.14
+cmmlu-marketing                                 b13677     accuracy  gen                   88.89
+cmmlu-marxist_theory                            ac3d2a     accuracy  gen                   95.77
+cmmlu-modern_chinese                            b68c63     accuracy  gen                   60.34
+cmmlu-nutrition                                 7945f4     accuracy  gen                   80.69
+cmmlu-philosophy                                22a2c8     accuracy  gen                   78.10
+cmmlu-professional_accounting                   e08020     accuracy  gen                   90.86
+cmmlu-professional_law                          f1fe9e     accuracy  gen                   77.25
+cmmlu-professional_medicine                     d2a911     accuracy  gen                   78.72
+cmmlu-professional_psychology                   4aa31f     accuracy  gen                   88.36
+cmmlu-public_relations                          9ac815     accuracy  gen                   75.86
+cmmlu-security_study                            2d5893     accuracy  gen                   88.89
+cmmlu-sociology                                 3f4d91     accuracy  gen                   80.53
+cmmlu-sports_science                            db6565     accuracy  gen                   75.15
+cmmlu-traditional_chinese_medicine              19da0d     accuracy  gen                   84.86
+cmmlu-virology                                  0f2d2f     accuracy  gen                   86.39
+cmmlu-world_history                             d331be     accuracy  gen                   86.96
+cmmlu-world_religions                           f7e0de     accuracy  gen                   81.25
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+-------------------------------------------------------------------------------------------------------------------------------- THIS IS A DIVIDER --------------------------------------------------------------------------------------------------------------------------------
+
+csv format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dataset,version,metric,mode,week8-bound-model
+ceval-computer_network,3ca950,accuracy,gen,68.42
+ceval-operating_system,9cc183,accuracy,gen,68.42
+ceval-computer_architecture,b06b51,accuracy,gen,80.95
+ceval-college_programming,2d37f8,accuracy,gen,86.49
+ceval-college_physics,fab095,accuracy,gen,73.68
+ceval-college_chemistry,0a1175,accuracy,gen,70.83
+ceval-advanced_mathematics,9ec2a0,accuracy,gen,36.84
+ceval-probability_and_statistics,316ceb,accuracy,gen,55.56
+ceval-discrete_mathematics,4b43b1,accuracy,gen,31.25
+ceval-electrical_engineer,a077f4,accuracy,gen,64.86
+ceval-metrology_engineer,169df2,accuracy,gen,79.17
+ceval-high_school_mathematics,c78c4c,accuracy,gen,61.11
+ceval-high_school_physics,c1864b,accuracy,gen,78.95
+ceval-high_school_chemistry,bab9b6,accuracy,gen,84.21
+ceval-high_school_biology,d51f0f,accuracy,gen,89.47
+ceval-middle_school_mathematics,912110,accuracy,gen,89.47
+ceval-middle_school_biology,0d5293,accuracy,gen,95.24
+ceval-middle_school_physics,b3dc34,accuracy,gen,94.74
+ceval-middle_school_chemistry,a444c1,accuracy,gen,100.00
+ceval-veterinary_medicine,c2ad8c,accuracy,gen,78.26
+ceval-college_economics,bccb3f,accuracy,gen,72.73
+ceval-business_administration,d0e662,accuracy,gen,84.85
+ceval-marxism,1999c8,accuracy,gen,94.74
+ceval-mao_zedong_thought,2f502f,accuracy,gen,95.83
+ceval-education_science,b8df44,accuracy,gen,93.10
+ceval-teacher_qualification,7a8a3f,accuracy,gen,84.09
+ceval-high_school_politics,7fe902,accuracy,gen,89.47
+ceval-high_school_geography,50a3b1,accuracy,gen,89.47
+ceval-middle_school_politics,3d3b2d,accuracy,gen,100.00
+ceval-middle_school_geography,571a34,accuracy,gen,100.00
+ceval-modern_chinese_history,8977b9,accuracy,gen,91.30
+ceval-ideological_and_moral_cultivation,0b5835,accuracy,gen,100.00
+ceval-logic,0a9c44,accuracy,gen,72.73
+ceval-law,954bae,accuracy,gen,66.67
+ceval-chinese_language_and_literature,964dd8,accuracy,gen,69.57
+ceval-art_studies,8ce5e6,accuracy,gen,75.76
+ceval-professional_tour_guide,2e789b,accuracy,gen,89.66
+ceval-legal_professional,ac1a4a,accuracy,gen,65.22
+ceval-high_school_chinese,f433fc,accuracy,gen,63.16
+ceval-high_school_history,a01043,accuracy,gen,100.00
+ceval-middle_school_history,f5d227,accuracy,gen,90.91
+ceval-civil_servant,d95065,accuracy,gen,74.47
+ceval-sports_science,2abd10,accuracy,gen,89.47
+ceval-plant_protection,04c7b8,accuracy,gen,81.82
+ceval-basic_medicine,4e8300,accuracy,gen,89.47
+ceval-clinical_medicine,f915ca,accuracy,gen,86.36
+ceval-urban_and_rural_planner,2fff81,accuracy,gen,76.09
+ceval-accountant,a1e403,accuracy,gen,83.67
+ceval-fire_engineer,b0839f,accuracy,gen,74.19
+ceval-environmental_impact_assessment_engineer,52bd17,accuracy,gen,74.19
+ceval-tax_accountant,c6dfc8,accuracy,gen,79.59
+ceval-physician,01a1df,accuracy,gen,83.67
+cmmlu-agronomy,a45bb7,accuracy,gen,72.19
+cmmlu-anatomy,87a348,accuracy,gen,85.81
+cmmlu-ancient_chinese,848c10,accuracy,gen,46.34
+cmmlu-arts,c22186,accuracy,gen,94.38
+cmmlu-astronomy,c85dc3,accuracy,gen,52.73
+cmmlu-business_ethics,bc9840,accuracy,gen,72.25
+cmmlu-chinese_civil_service_exam,85c44a,accuracy,gen,83.12
+cmmlu-chinese_driving_rule,e5a226,accuracy,gen,97.71
+cmmlu-chinese_food_culture,bc720c,accuracy,gen,77.94
+cmmlu-chinese_foreign_policy,c20436,accuracy,gen,79.44
+cmmlu-chinese_history,409a66,accuracy,gen,86.07
+cmmlu-chinese_literature,8d6b02,accuracy,gen,71.08
+cmmlu-chinese_teacher_qualification,96ab80,accuracy,gen,90.50
+cmmlu-clinical_knowledge,28da7e,accuracy,gen,79.32
+cmmlu-college_actuarial_science,11dbc5,accuracy,gen,40.57
+cmmlu-college_education,92dc42,accuracy,gen,88.79
+cmmlu-college_engineering_hydrology,092a1f,accuracy,gen,78.30
+cmmlu-college_law,6a7223,accuracy,gen,74.07
+cmmlu-college_mathematics,75bb3b,accuracy,gen,50.48
+cmmlu-college_medical_statistics,6ee0ac,accuracy,gen,74.53
+cmmlu-college_medicine,411c09,accuracy,gen,87.55
+cmmlu-computer_science,82e0cb,accuracy,gen,88.73
+cmmlu-computer_security,cd7932,accuracy,gen,92.40
+cmmlu-conceptual_physics,bf10e3,accuracy,gen,89.80
+cmmlu-construction_project_management,3a9c5f,accuracy,gen,78.42
+cmmlu-economics,4568ee,accuracy,gen,86.16
+cmmlu-education,07c43c,accuracy,gen,80.37
+cmmlu-electrical_engineering,88268e,accuracy,gen,87.21
+cmmlu-elementary_chinese,c0f162,accuracy,gen,76.59
+cmmlu-elementary_commonsense,485571,accuracy,gen,79.80
+cmmlu-elementary_information_and_technology,d0c55c,accuracy,gen,92.86
+cmmlu-elementary_mathematics,2e19c6,accuracy,gen,64.78
+cmmlu-ethnology,8579f2,accuracy,gen,74.81
+cmmlu-food_science,2acf20,accuracy,gen,72.73
+cmmlu-genetics,3a7688,accuracy,gen,65.34
+cmmlu-global_facts,2a852f,accuracy,gen,80.54
+cmmlu-high_school_biology,df4561,accuracy,gen,83.43
+cmmlu-high_school_chemistry,2cf370,accuracy,gen,75.76
+cmmlu-high_school_geography,996a96,accuracy,gen,83.05
+cmmlu-high_school_mathematics,2d3d94,accuracy,gen,57.93
+cmmlu-high_school_physics,fd22de,accuracy,gen,76.36
+cmmlu-high_school_politics,0180b2,accuracy,gen,88.11
+cmmlu-human_sexuality,88bfeb,accuracy,gen,71.43
+cmmlu-international_law,45dfd5,accuracy,gen,72.43
+cmmlu-journalism,3aed47,accuracy,gen,77.91
+cmmlu-jurisprudence,0cb520,accuracy,gen,85.16
+cmmlu-legal_and_moral_basis,4000a0,accuracy,gen,97.66
+cmmlu-logical,3674e8,accuracy,gen,79.67
+cmmlu-machine_learning,da46c2,accuracy,gen,72.13
+cmmlu-management,fe63e0,accuracy,gen,87.14
+cmmlu-marketing,b13677,accuracy,gen,88.89
+cmmlu-marxist_theory,ac3d2a,accuracy,gen,95.77
+cmmlu-modern_chinese,b68c63,accuracy,gen,60.34
+cmmlu-nutrition,7945f4,accuracy,gen,80.69
+cmmlu-philosophy,22a2c8,accuracy,gen,78.10
+cmmlu-professional_accounting,e08020,accuracy,gen,90.86
+cmmlu-professional_law,f1fe9e,accuracy,gen,77.25
+cmmlu-professional_medicine,d2a911,accuracy,gen,78.72
+cmmlu-professional_psychology,4aa31f,accuracy,gen,88.36
+cmmlu-public_relations,9ac815,accuracy,gen,75.86
+cmmlu-security_study,2d5893,accuracy,gen,88.89
+cmmlu-sociology,3f4d91,accuracy,gen,80.53
+cmmlu-sports_science,db6565,accuracy,gen,75.15
+cmmlu-traditional_chinese_medicine,19da0d,accuracy,gen,84.86
+cmmlu-virology,0f2d2f,accuracy,gen,86.39
+cmmlu-world_history,d331be,accuracy,gen,86.96
+cmmlu-world_religions,f7e0de,accuracy,gen,81.25
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+markdown format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+| dataset | version | metric | mode | week8-bound-model |
+|----- | ----- | ----- | ----- | -----|
+| ceval-computer_network | 3ca950 | accuracy | gen | 68.42 |
+| ceval-operating_system | 9cc183 | accuracy | gen | 68.42 |
+| ceval-computer_architecture | b06b51 | accuracy | gen | 80.95 |
+| ceval-college_programming | 2d37f8 | accuracy | gen | 86.49 |
+| ceval-college_physics | fab095 | accuracy | gen | 73.68 |
+| ceval-college_chemistry | 0a1175 | accuracy | gen | 70.83 |
+| ceval-advanced_mathematics | 9ec2a0 | accuracy | gen | 36.84 |
+| ceval-probability_and_statistics | 316ceb | accuracy | gen | 55.56 |
+| ceval-discrete_mathematics | 4b43b1 | accuracy | gen | 31.25 |
+| ceval-electrical_engineer | a077f4 | accuracy | gen | 64.86 |
+| ceval-metrology_engineer | 169df2 | accuracy | gen | 79.17 |
+| ceval-high_school_mathematics | c78c4c | accuracy | gen | 61.11 |
+| ceval-high_school_physics | c1864b | accuracy | gen | 78.95 |
+| ceval-high_school_chemistry | bab9b6 | accuracy | gen | 84.21 |
+| ceval-high_school_biology | d51f0f | accuracy | gen | 89.47 |
+| ceval-middle_school_mathematics | 912110 | accuracy | gen | 89.47 |
+| ceval-middle_school_biology | 0d5293 | accuracy | gen | 95.24 |
+| ceval-middle_school_physics | b3dc34 | accuracy | gen | 94.74 |
+| ceval-middle_school_chemistry | a444c1 | accuracy | gen | 100.00 |
+| ceval-veterinary_medicine | c2ad8c | accuracy | gen | 78.26 |
+| ceval-college_economics | bccb3f | accuracy | gen | 72.73 |
+| ceval-business_administration | d0e662 | accuracy | gen | 84.85 |
+| ceval-marxism | 1999c8 | accuracy | gen | 94.74 |
+| ceval-mao_zedong_thought | 2f502f | accuracy | gen | 95.83 |
+| ceval-education_science | b8df44 | accuracy | gen | 93.10 |
+| ceval-teacher_qualification | 7a8a3f | accuracy | gen | 84.09 |
+| ceval-high_school_politics | 7fe902 | accuracy | gen | 89.47 |
+| ceval-high_school_geography | 50a3b1 | accuracy | gen | 89.47 |
+| ceval-middle_school_politics | 3d3b2d | accuracy | gen | 100.00 |
+| ceval-middle_school_geography | 571a34 | accuracy | gen | 100.00 |
+| ceval-modern_chinese_history | 8977b9 | accuracy | gen | 91.30 |
+| ceval-ideological_and_moral_cultivation | 0b5835 | accuracy | gen | 100.00 |
+| ceval-logic | 0a9c44 | accuracy | gen | 72.73 |
+| ceval-law | 954bae | accuracy | gen | 66.67 |
+| ceval-chinese_language_and_literature | 964dd8 | accuracy | gen | 69.57 |
+| ceval-art_studies | 8ce5e6 | accuracy | gen | 75.76 |
+| ceval-professional_tour_guide | 2e789b | accuracy | gen | 89.66 |
+| ceval-legal_professional | ac1a4a | accuracy | gen | 65.22 |
+| ceval-high_school_chinese | f433fc | accuracy | gen | 63.16 |
+| ceval-high_school_history | a01043 | accuracy | gen | 100.00 |
+| ceval-middle_school_history | f5d227 | accuracy | gen | 90.91 |
+| ceval-civil_servant | d95065 | accuracy | gen | 74.47 |
+| ceval-sports_science | 2abd10 | accuracy | gen | 89.47 |
+| ceval-plant_protection | 04c7b8 | accuracy | gen | 81.82 |
+| ceval-basic_medicine | 4e8300 | accuracy | gen | 89.47 |
+| ceval-clinical_medicine | f915ca | accuracy | gen | 86.36 |
+| ceval-urban_and_rural_planner | 2fff81 | accuracy | gen | 76.09 |
+| ceval-accountant | a1e403 | accuracy | gen | 83.67 |
+| ceval-fire_engineer | b0839f | accuracy | gen | 74.19 |
+| ceval-environmental_impact_assessment_engineer | 52bd17 | accuracy | gen | 74.19 |
+| ceval-tax_accountant | c6dfc8 | accuracy | gen | 79.59 |
+| ceval-physician | 01a1df | accuracy | gen | 83.67 |
+| cmmlu-agronomy | a45bb7 | accuracy | gen | 72.19 |
+| cmmlu-anatomy | 87a348 | accuracy | gen | 85.81 |
+| cmmlu-ancient_chinese | 848c10 | accuracy | gen | 46.34 |
+| cmmlu-arts | c22186 | accuracy | gen | 94.38 |
+| cmmlu-astronomy | c85dc3 | accuracy | gen | 52.73 |
+| cmmlu-business_ethics | bc9840 | accuracy | gen | 72.25 |
+| cmmlu-chinese_civil_service_exam | 85c44a | accuracy | gen | 83.12 |
+| cmmlu-chinese_driving_rule | e5a226 | accuracy | gen | 97.71 |
+| cmmlu-chinese_food_culture | bc720c | accuracy | gen | 77.94 |
+| cmmlu-chinese_foreign_policy | c20436 | accuracy | gen | 79.44 |
+| cmmlu-chinese_history | 409a66 | accuracy | gen | 86.07 |
+| cmmlu-chinese_literature | 8d6b02 | accuracy | gen | 71.08 |
+| cmmlu-chinese_teacher_qualification | 96ab80 | accuracy | gen | 90.50 |
+| cmmlu-clinical_knowledge | 28da7e | accuracy | gen | 79.32 |
+| cmmlu-college_actuarial_science | 11dbc5 | accuracy | gen | 40.57 |
+| cmmlu-college_education | 92dc42 | accuracy | gen | 88.79 |
+| cmmlu-college_engineering_hydrology | 092a1f | accuracy | gen | 78.30 |
+| cmmlu-college_law | 6a7223 | accuracy | gen | 74.07 |
+| cmmlu-college_mathematics | 75bb3b | accuracy | gen | 50.48 |
+| cmmlu-college_medical_statistics | 6ee0ac | accuracy | gen | 74.53 |
+| cmmlu-college_medicine | 411c09 | accuracy | gen | 87.55 |
+| cmmlu-computer_science | 82e0cb | accuracy | gen | 88.73 |
+| cmmlu-computer_security | cd7932 | accuracy | gen | 92.40 |
+| cmmlu-conceptual_physics | bf10e3 | accuracy | gen | 89.80 |
+| cmmlu-construction_project_management | 3a9c5f | accuracy | gen | 78.42 |
+| cmmlu-economics | 4568ee | accuracy | gen | 86.16 |
+| cmmlu-education | 07c43c | accuracy | gen | 80.37 |
+| cmmlu-electrical_engineering | 88268e | accuracy | gen | 87.21 |
+| cmmlu-elementary_chinese | c0f162 | accuracy | gen | 76.59 |
+| cmmlu-elementary_commonsense | 485571 | accuracy | gen | 79.80 |
+| cmmlu-elementary_information_and_technology | d0c55c | accuracy | gen | 92.86 |
+| cmmlu-elementary_mathematics | 2e19c6 | accuracy | gen | 64.78 |
+| cmmlu-ethnology | 8579f2 | accuracy | gen | 74.81 |
+| cmmlu-food_science | 2acf20 | accuracy | gen | 72.73 |
+| cmmlu-genetics | 3a7688 | accuracy | gen | 65.34 |
+| cmmlu-global_facts | 2a852f | accuracy | gen | 80.54 |
+| cmmlu-high_school_biology | df4561 | accuracy | gen | 83.43 |
+| cmmlu-high_school_chemistry | 2cf370 | accuracy | gen | 75.76 |
+| cmmlu-high_school_geography | 996a96 | accuracy | gen | 83.05 |
+| cmmlu-high_school_mathematics | 2d3d94 | accuracy | gen | 57.93 |
+| cmmlu-high_school_physics | fd22de | accuracy | gen | 76.36 |
+| cmmlu-high_school_politics | 0180b2 | accuracy | gen | 88.11 |
+| cmmlu-human_sexuality | 88bfeb | accuracy | gen | 71.43 |
+| cmmlu-international_law | 45dfd5 | accuracy | gen | 72.43 |
+| cmmlu-journalism | 3aed47 | accuracy | gen | 77.91 |
+| cmmlu-jurisprudence | 0cb520 | accuracy | gen | 85.16 |
+| cmmlu-legal_and_moral_basis | 4000a0 | accuracy | gen | 97.66 |
+| cmmlu-logical | 3674e8 | accuracy | gen | 79.67 |
+| cmmlu-machine_learning | da46c2 | accuracy | gen | 72.13 |
+| cmmlu-management | fe63e0 | accuracy | gen | 87.14 |
+| cmmlu-marketing | b13677 | accuracy | gen | 88.89 |
+| cmmlu-marxist_theory | ac3d2a | accuracy | gen | 95.77 |
+| cmmlu-modern_chinese | b68c63 | accuracy | gen | 60.34 |
+| cmmlu-nutrition | 7945f4 | accuracy | gen | 80.69 |
+| cmmlu-philosophy | 22a2c8 | accuracy | gen | 78.10 |
+| cmmlu-professional_accounting | e08020 | accuracy | gen | 90.86 |
+| cmmlu-professional_law | f1fe9e | accuracy | gen | 77.25 |
+| cmmlu-professional_medicine | d2a911 | accuracy | gen | 78.72 |
+| cmmlu-professional_psychology | 4aa31f | accuracy | gen | 88.36 |
+| cmmlu-public_relations | 9ac815 | accuracy | gen | 75.86 |
+| cmmlu-security_study | 2d5893 | accuracy | gen | 88.89 |
+| cmmlu-sociology | 3f4d91 | accuracy | gen | 80.53 |
+| cmmlu-sports_science | db6565 | accuracy | gen | 75.15 |
+| cmmlu-traditional_chinese_medicine | 19da0d | accuracy | gen | 84.86 |
+| cmmlu-virology | 0f2d2f | accuracy | gen | 86.39 |
+| cmmlu-world_history | d331be | accuracy | gen | 86.96 |
+| cmmlu-world_religions | f7e0de | accuracy | gen | 81.25 |
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+-------------------------------------------------------------------------------------------------------------------------------- THIS IS A DIVIDER --------------------------------------------------------------------------------------------------------------------------------
+
+raw format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------
+Model: week8-bound-model
+ceval-computer_network: {'accuracy': 68.42105263157895}
+ceval-operating_system: {'accuracy': 68.42105263157895}
+ceval-computer_architecture: {'accuracy': 80.95238095238095}
+ceval-college_programming: {'accuracy': 86.48648648648648}
+ceval-college_physics: {'accuracy': 73.68421052631578}
+ceval-college_chemistry: {'accuracy': 70.83333333333334}
+ceval-advanced_mathematics: {'accuracy': 36.84210526315789}
+ceval-probability_and_statistics: {'accuracy': 55.55555555555556}
+ceval-discrete_mathematics: {'accuracy': 31.25}
+ceval-electrical_engineer: {'accuracy': 64.86486486486487}
+ceval-metrology_engineer: {'accuracy': 79.16666666666666}
+ceval-high_school_mathematics: {'accuracy': 61.111111111111114}
+ceval-high_school_physics: {'accuracy': 78.94736842105263}
+ceval-high_school_chemistry: {'accuracy': 84.21052631578947}
+ceval-high_school_biology: {'accuracy': 89.47368421052632}
+ceval-middle_school_mathematics: {'accuracy': 89.47368421052632}
+ceval-middle_school_biology: {'accuracy': 95.23809523809523}
+ceval-middle_school_physics: {'accuracy': 94.73684210526315}
+ceval-middle_school_chemistry: {'accuracy': 100.0}
+ceval-veterinary_medicine: {'accuracy': 78.26086956521739}
+ceval-college_economics: {'accuracy': 72.72727272727273}
+ceval-business_administration: {'accuracy': 84.84848484848484}
+ceval-marxism: {'accuracy': 94.73684210526315}
+ceval-mao_zedong_thought: {'accuracy': 95.83333333333334}
+ceval-education_science: {'accuracy': 93.10344827586206}
+ceval-teacher_qualification: {'accuracy': 84.0909090909091}
+ceval-high_school_politics: {'accuracy': 89.47368421052632}
+ceval-high_school_geography: {'accuracy': 89.47368421052632}
+ceval-middle_school_politics: {'accuracy': 100.0}
+ceval-middle_school_geography: {'accuracy': 100.0}
+ceval-modern_chinese_history: {'accuracy': 91.30434782608695}
+ceval-ideological_and_moral_cultivation: {'accuracy': 100.0}
+ceval-logic: {'accuracy': 72.72727272727273}
+ceval-law: {'accuracy': 66.66666666666666}
+ceval-chinese_language_and_literature: {'accuracy': 69.56521739130434}
+ceval-art_studies: {'accuracy': 75.75757575757575}
+ceval-professional_tour_guide: {'accuracy': 89.65517241379311}
+ceval-legal_professional: {'accuracy': 65.21739130434783}
+ceval-high_school_chinese: {'accuracy': 63.1578947368421}
+ceval-high_school_history: {'accuracy': 100.0}
+ceval-middle_school_history: {'accuracy': 90.9090909090909}
+ceval-civil_servant: {'accuracy': 74.46808510638297}
+ceval-sports_science: {'accuracy': 89.47368421052632}
+ceval-plant_protection: {'accuracy': 81.81818181818183}
+ceval-basic_medicine: {'accuracy': 89.47368421052632}
+ceval-clinical_medicine: {'accuracy': 86.36363636363636}
+ceval-urban_and_rural_planner: {'accuracy': 76.08695652173914}
+ceval-accountant: {'accuracy': 83.6734693877551}
+ceval-fire_engineer: {'accuracy': 74.19354838709677}
+ceval-environmental_impact_assessment_engineer: {'accuracy': 74.19354838709677}
+ceval-tax_accountant: {'accuracy': 79.59183673469387}
+ceval-physician: {'accuracy': 83.6734693877551}
+cmmlu-agronomy: {'accuracy': 72.18934911242604}
+cmmlu-anatomy: {'accuracy': 85.8108108108108}
+cmmlu-ancient_chinese: {'accuracy': 46.34146341463415}
+cmmlu-arts: {'accuracy': 94.375}
+cmmlu-astronomy: {'accuracy': 52.72727272727272}
+cmmlu-business_ethics: {'accuracy': 72.24880382775119}
+cmmlu-chinese_civil_service_exam: {'accuracy': 83.125}
+cmmlu-chinese_driving_rule: {'accuracy': 97.70992366412213}
+cmmlu-chinese_food_culture: {'accuracy': 77.94117647058823}
+cmmlu-chinese_foreign_policy: {'accuracy': 79.43925233644859}
+cmmlu-chinese_history: {'accuracy': 86.06811145510835}
+cmmlu-chinese_literature: {'accuracy': 71.07843137254902}
+cmmlu-chinese_teacher_qualification: {'accuracy': 90.5027932960894}
+cmmlu-clinical_knowledge: {'accuracy': 79.32489451476793}
+cmmlu-college_actuarial_science: {'accuracy': 40.56603773584906}
+cmmlu-college_education: {'accuracy': 88.78504672897196}
+cmmlu-college_engineering_hydrology: {'accuracy': 78.30188679245283}
+cmmlu-college_law: {'accuracy': 74.07407407407408}
+cmmlu-college_mathematics: {'accuracy': 50.476190476190474}
+cmmlu-college_medical_statistics: {'accuracy': 74.52830188679245}
+cmmlu-college_medicine: {'accuracy': 87.54578754578755}
+cmmlu-computer_science: {'accuracy': 88.72549019607843}
+cmmlu-computer_security: {'accuracy': 92.39766081871345}
+cmmlu-conceptual_physics: {'accuracy': 89.79591836734694}
+cmmlu-construction_project_management: {'accuracy': 78.41726618705036}
+cmmlu-economics: {'accuracy': 86.16352201257862}
+cmmlu-education: {'accuracy': 80.3680981595092}
+cmmlu-electrical_engineering: {'accuracy': 87.20930232558139}
+cmmlu-elementary_chinese: {'accuracy': 76.5873015873016}
+cmmlu-elementary_commonsense: {'accuracy': 79.7979797979798}
+cmmlu-elementary_information_and_technology: {'accuracy': 92.85714285714286}
+cmmlu-elementary_mathematics: {'accuracy': 64.78260869565217}
+cmmlu-ethnology: {'accuracy': 74.81481481481481}
+cmmlu-food_science: {'accuracy': 72.72727272727273}
+cmmlu-genetics: {'accuracy': 65.3409090909091}
+cmmlu-global_facts: {'accuracy': 80.53691275167785}
+cmmlu-high_school_biology: {'accuracy': 83.4319526627219}
+cmmlu-high_school_chemistry: {'accuracy': 75.75757575757575}
+cmmlu-high_school_geography: {'accuracy': 83.05084745762711}
+cmmlu-high_school_mathematics: {'accuracy': 57.92682926829268}
+cmmlu-high_school_physics: {'accuracy': 76.36363636363637}
+cmmlu-high_school_politics: {'accuracy': 88.11188811188812}
+cmmlu-human_sexuality: {'accuracy': 71.42857142857143}
+cmmlu-international_law: {'accuracy': 72.43243243243244}
+cmmlu-journalism: {'accuracy': 77.90697674418605}
+cmmlu-jurisprudence: {'accuracy': 85.15815085158151}
+cmmlu-legal_and_moral_basis: {'accuracy': 97.66355140186917}
+cmmlu-logical: {'accuracy': 79.67479674796748}
+cmmlu-machine_learning: {'accuracy': 72.1311475409836}
+cmmlu-management: {'accuracy': 87.14285714285714}
+cmmlu-marketing: {'accuracy': 88.88888888888889}
+cmmlu-marxist_theory: {'accuracy': 95.76719576719577}
+cmmlu-modern_chinese: {'accuracy': 60.3448275862069}
+cmmlu-nutrition: {'accuracy': 80.6896551724138}
+cmmlu-philosophy: {'accuracy': 78.0952380952381}
+cmmlu-professional_accounting: {'accuracy': 90.85714285714286}
+cmmlu-professional_law: {'accuracy': 77.25118483412322}
+cmmlu-professional_medicine: {'accuracy': 78.72340425531915}
+cmmlu-professional_psychology: {'accuracy': 88.36206896551724}
+cmmlu-public_relations: {'accuracy': 75.86206896551724}
+cmmlu-security_study: {'accuracy': 88.88888888888889}
+cmmlu-sociology: {'accuracy': 80.53097345132744}
+cmmlu-sports_science: {'accuracy': 75.15151515151514}
+cmmlu-traditional_chinese_medicine: {'accuracy': 84.86486486486487}
+cmmlu-virology: {'accuracy': 86.3905325443787}
+cmmlu-world_history: {'accuracy': 86.95652173913044}
+cmmlu-world_religions: {'accuracy': 81.25}
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$

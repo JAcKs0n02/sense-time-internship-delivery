@@ -1,0 +1,11 @@
+2026-07-18T22:46:20+08:00
+dependency_check=PASS
+pandas=2.3.3
+sentencepiece=0.2.0
+tokenizers=0.21.1
+transformers=4.50.0
+tokenizer_json=PASS
+tokenizer_config=PASS
+e73b6e6301be544cab2d5055ea873e824c33b7b6efd45980bbdbad0560494878  tokenizer_experiments.ipynb
+304717d19f86a9d4af1dd0df8f56a79a78489758cf99f43d8c950ae3ad1b07fe  source/data/tokenizer_comparison_corpus.txt
+e55bd4b66d4372833772cb35f8246b0eb95ce81f5d49f6645d445c8fc3ad6b06  source/scripts/validate_day4.py

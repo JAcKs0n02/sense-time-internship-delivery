@@ -1,0 +1,16 @@
+{
+  "host": "autodl-container-be044ebe99-be706b14",
+  "pid": 1566,
+  "started_utc": "2026-09-17T11:09:46.357388+00:00",
+  "deadline_utc": "2026-09-17T20:30:00+00:00",
+  "locks": {
+    "original_base": "ce2adde9027af06c96dad05b668db954e1ef3fcf27b52affd7c6371627b4aee3",
+    "final_sft": "4f65d0757e777cbdce37c16154175d3be2d9dafe221bd2d5031cb243d3488487",
+    "final_dpo": "ae261518099604cdf91b5633d5cc432ebad3fc9a46a2495ddf0a9c7eaf5c8fa5"
+  },
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "disk_free_bytes": 21539401728,
+  "script_sha256": "308dabb2fd65c66f49b3daca8e51f4591b90090a384769e36eb9c5c2d15bd4b9",
+  "mode": "base_custom20_resume_then_sft_dpo_fresh",
+  "attempts_per_model": 1
+}

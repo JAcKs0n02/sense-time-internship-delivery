@@ -1,0 +1,56 @@
+{
+  "status": "PREPARED_NOT_RUN",
+  "purpose": "Verify forward/backward, optimizer, adapter save, SFT export and DPO reference wiring; not model quality.",
+  "target_instance": "be044ebe99-be706b14",
+  "stages": [
+    {
+      "stage": "sft",
+      "max_steps": 3,
+      "source_config": "deliverables/week3/day11/configs/experiments/epoch-e5.yaml",
+      "dataset": "frozen week8 train 1422 / validation 158",
+      "gradient_accumulation_steps": 4
+    },
+    {
+      "stage": "export_sft",
+      "source": "successful 3-step SFT adapter",
+      "output": "isolated smoke SFT merge; never label as formal final SFT"
+    },
+    {
+      "stage": "dpo",
+      "max_steps": 3,
+      "source_config": "deliverables/week4/day20/remediation/configs/reward_corrective_40step.yaml",
+      "model": "newly exported smoke SFT",
+      "reference": "adapter-disabled implicit reference on smoke SFT",
+      "gradient_accumulation_steps": 8
+    }
+  ],
+  "fixed": {
+    "cutoff_len": 2048,
+    "lora_rank": 8,
+    "lora_alpha": 16,
+    "quantization_bit": 4,
+    "seed": 42,
+    "per_device_train_batch_size": 1,
+    "bf16": true
+  },
+  "smoke_only_overrides": {
+    "max_steps": 3,
+    "save_steps": 3,
+    "logging_steps": 1,
+    "eval_strategy": "no",
+    "report_to": "none",
+    "preprocessing_num_workers": 1,
+    "dataloader_num_workers": 0,
+    "overwrite_output_dir": false
+  },
+  "acceptance": [
+    "Exactly global_step=3 for both training stages",
+    "Finite loss and gradients, optimizer actually runs",
+    "Adapter tensors finite and artifacts present",
+    "SFT merge succeeds before DPO starts",
+    "DPO points to freshly merged smoke SFT, never historical SFT",
+    "No automatic promotion to full training"
+  ],
+  "execution_gate": "Training pipeline must consume a separate hash-bound smoke authorization; do not delete the unconditional guard without replacing it.",
+  "execution_started": false
+}

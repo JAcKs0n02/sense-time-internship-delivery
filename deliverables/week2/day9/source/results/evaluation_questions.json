@@ -1,0 +1,43 @@
+{
+  "evaluation_name": "week2_day9_base_vs_merged",
+  "frozen_before_inference": true,
+  "system_message": "你是一个严谨、清晰且诚实的中文助手。",
+  "generation_config": {
+    "do_sample": false,
+    "max_new_tokens": 512,
+    "repetition_penalty": 1.05,
+    "seed": 42
+  },
+  "questions": [
+    {
+      "id": "Q1",
+      "purpose": "Concise explanation and concrete consequence",
+      "messages": [
+        {
+          "role": "user",
+          "content": "请用不超过150字解释“为什么指令微调数据要做去重”，并给出一个重复样本可能带来的具体后果。"
+        }
+      ]
+    },
+    {
+      "id": "Q2",
+      "purpose": "Multi-constraint structure following",
+      "messages": [
+        {
+          "role": "user",
+          "content": "某台24GB显存的服务器在训练7B模型时出现CUDA OOM。请严格按“现象—可能原因—排查顺序—优先解决方案”四个标题回答，每部分最多3点。"
+        }
+      ]
+    },
+    {
+      "id": "Q3",
+      "purpose": "Rewrite a vague request into an executable instruction",
+      "messages": [
+        {
+          "role": "user",
+          "content": "把下面这句话改写成一条清晰、可执行且包含验收标准的任务指令：“帮我看看这些数据，太乱了，处理一下。”只输出改写后的指令。"
+        }
+      ]
+    }
+  ]
+}

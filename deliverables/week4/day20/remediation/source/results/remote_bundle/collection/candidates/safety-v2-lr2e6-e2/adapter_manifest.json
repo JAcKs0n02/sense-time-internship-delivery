@@ -1,0 +1,6 @@
+{
+  "candidate": "safety-v2-lr2e6-e2",
+  "adapter_file": "/root/autodl-tmp/qwen25-week4/day20-remediation/runs/safety-v2-lr2e6-e2/attempt_001/trainer_output/adapter_model.safetensors",
+  "adapter_size_bytes": 80792096,
+  "adapter_sha256": "7d07c2204b07de42a0c641833b105903ce71900e6e549418b655e3e1868a19b6"
+}

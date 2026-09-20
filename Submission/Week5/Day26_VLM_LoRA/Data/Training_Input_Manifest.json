@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "status": "SELECTED_V6_TRAINING_INPUT",
+  "unique_training_records": 200,
+  "weighted_training_samples": 300,
+  "sampling_policy": {
+    "direct": 2,
+    "correction": 2,
+    "structured": 1,
+    "explanation": 1
+  },
+  "files": {
+    "week5_vlm_train_grounded_internal.json": {
+      "sha256": "c1ac7fc94494a0b86e6b6c234a0e8cbccf3fb782b87a07039984862dc25e9114",
+      "bytes": 294291
+    },
+    "week5_vlm_train_grounded.json": {
+      "sha256": "5f0c821732959f380ce9e2fadadb76ae61780422dca5e90b0ea11d3f90f015bc",
+      "bytes": 125255
+    },
+    "week5_vlm_train_grounded_weighted.json": {
+      "sha256": "6d1d4a6a37c45faab44782e349ce5329c3f2a355adc885a26acb81e6c0b57b0d",
+      "bytes": 186563
+    }
+  },
+  "teacher_projection_files": {
+    "Training_Dataset_200.json": {
+      "sha256": "c1ac7fc94494a0b86e6b6c234a0e8cbccf3fb782b87a07039984862dc25e9114",
+      "bytes": 294291
+    },
+    "Training_Dataset_LLaMAFactory.json": {
+      "sha256": "5f0c821732959f380ce9e2fadadb76ae61780422dca5e90b0ea11d3f90f015bc",
+      "bytes": 125255
+    },
+    "Training_Dataset_Weighted_300.json": {
+      "sha256": "6d1d4a6a37c45faab44782e349ce5329c3f2a355adc885a26acb81e6c0b57b0d",
+      "bytes": 186563
+    }
+  }
+}

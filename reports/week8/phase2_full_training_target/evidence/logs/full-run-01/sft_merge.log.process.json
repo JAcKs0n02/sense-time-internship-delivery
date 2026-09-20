@@ -1,0 +1,13 @@
+{
+  "command": [
+    "llamafactory-cli",
+    "export",
+    "/root/autodl-tmp/week8-full-training-runtime-20260916/configs/week8_full_training_candidate/export_sft.yaml"
+  ],
+  "started_utc": "2026-09-16T18:59:30.336542+00:00",
+  "returncode": 0,
+  "timed_out": false,
+  "header_verified": true,
+  "finished_utc": "2026-09-16T19:00:07.964608+00:00",
+  "log_sha256": "8b36ff8bd5a116867bee5d55b23660d177a8dba64f41f7629e472062fa3b944d"
+}

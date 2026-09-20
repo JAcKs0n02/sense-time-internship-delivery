@@ -1,0 +1,14 @@
+{
+  "sample_id": "c4c96faebbfc43cf2dbe32cf89d7d9333099134328b419d8bf5329655f13dac7",
+  "prompt": "请判断以下两段话是否表示相同的意思，输出“0”表示不同，“1” 表示相同。\n\n第一句：梦见自己与别人打架，第二句：梦见我和别人打架。",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请判断以下两段话是否表示相同的意思，输出“0”表示不同，“1” 表示相同。\n\n第一句：梦见自己与别人打架，第二句：梦见我和别人打架。"
+    }
+  ],
+  "answer": "1",
+  "truncated": false,
+  "input_tokens": 71,
+  "output_tokens": 2
+}

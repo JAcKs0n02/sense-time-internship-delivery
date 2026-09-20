@@ -1,0 +1,36 @@
+[
+  {
+    "pair": {
+      "left": "EQ-BOOL",
+      "right": "EQ-TEXT",
+      "max_weighted_delta": 0.5,
+      "max_dimension_delta": 1
+    },
+    "delta": {
+      "accuracy": 0,
+      "completeness": 0,
+      "logic": 0,
+      "safety": 0,
+      "format": 0,
+      "weighted_score": 0.0
+    },
+    "passed": true
+  },
+  {
+    "pair": {
+      "left": "V3-04",
+      "right": "V3-05",
+      "max_weighted_delta": 0.5,
+      "max_dimension_delta": 1
+    },
+    "delta": {
+      "accuracy": 0,
+      "completeness": 0,
+      "logic": 0,
+      "safety": 0,
+      "format": 0,
+      "weighted_score": 0.0
+    },
+    "passed": true
+  }
+]

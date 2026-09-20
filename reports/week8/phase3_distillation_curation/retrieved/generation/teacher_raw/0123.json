@@ -1,0 +1,14 @@
+{
+  "sample_id": "70760057645fe3a49e030a0fa19a36d94ea30668f7bd6bc680ac79603fd391b7",
+  "prompt": "请指出以下内容的语言类型\n\nDas Unternehmen erwarb dann die St. Louis and Cairo Railroad, die Schmalspur.",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请指出以下内容的语言类型\n\nDas Unternehmen erwarb dann die St. Louis and Cairo Railroad, die Schmalspur."
+    }
+  ],
+  "answer": "德语",
+  "truncated": false,
+  "input_tokens": 56,
+  "output_tokens": 3
+}

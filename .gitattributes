@@ -1,0 +1,11 @@
+# Generated CSV evidence intentionally preserves CRLF records and verbatim
+# model-response whitespace. Do not treat those bytes as source-code errors.
+deliverables/week3/day14/source/results/**/*.csv -whitespace
+deliverables/week3/day14/source/results/**/*.log -whitespace
+Submission/Week3/Day14_Model_Evaluation/*.csv -whitespace
+deliverables/week4/day19/source/results/*.csv -whitespace
+deliverables/week4/day19/source/results/remote_evidence/*.csv -whitespace
+deliverables/week4/day19/source/results/remote_evidence/*.log -whitespace
+Submission/Week4/Day19_DPO_Training/*.csv -whitespace
+Submission/Week4/Day19_DPO_Training/Launch_Log.txt -whitespace
+deliverables/week4/day20/remediation/source/results/reward_corrective_40step/*.csv -whitespace

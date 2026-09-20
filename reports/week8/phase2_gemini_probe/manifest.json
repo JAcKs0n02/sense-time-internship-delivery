@@ -1,0 +1,12 @@
+{
+  "reports/week8/phase2_gemini_probe/run.py": "165ee792241c843431f7acfcf55482afa8ee8dee617bb693ffa64910ca195fb1",
+  "reports/week8/phase2_gemini_probe/plan.json": "bcbddd681e0249d3dd4055fb174a0649f55a9da57105e608eaaf2e82929010b8",
+  "reports/week8/phase2_gemini_probe/STRICT-BOOL-request.json": "d50a17d585381e331b23d67970783a676567d5f2baaac4ff763e002c27156237",
+  "reports/week8/phase2_gemini_probe/cases.json": "fa557f0bcc5b12b3855155653adc7a3fe589b5d7b9f3aaad8976d7967e2e30c7",
+  "reports/week8/phase2_gemini_probe/EQ-TEXT-request.json": "18a1331b211040acc4655f0b76738283ece7e966e73638a455207988ae1d1229",
+  "scripts/week8_gemini_judge.py": "f4fc591480819d7a16105ab77950db7ab1eb67b41a09136854dc1ce1f88ffe5b",
+  "scripts/setup_week8_gemini_key.py": "8597bf1eb71cc2742c9c2f38371c998518a18254a42d7e2b251b2e9b3cdb2c43",
+  "scripts/setup_week8_judge_key.py": "27a27f7cd7fba05794268e9a4e844a6264fa90526b2f4daecf6b5a46f3f63786",
+  "scripts/week8_deepseek_judge.py": "5b8ad8ac4cb93578293a8d58aea0960ddd1dbacf93e02713e91cfe751cb5be7b",
+  "scripts/step3_eval.py": "663b115ec65ac8d91c42f4326dabcb951fd4fbf7823f0582b6baefa175971616"
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "freeze_date": "2026-08-17",
+  "images": [
+    {
+      "image_id": "w5-table-01",
+      "summary": "A spreadsheet screenshot with column letters A-F, row numbers 1-4, a header row, and three subject rows.",
+      "visible_text": [
+        "DESCRIPTION",
+        "ALIAS",
+        "PREDICATE 1",
+        "PREDICATE 2",
+        "PREDICATE 3",
+        "SUBJECT A",
+        "SUBJECT B",
+        "SUBJECT C",
+        "text",
+        "OBJECT"
+      ],
+      "key_facts": [
+        "The spreadsheet shows columns A through F and rows 1 through 4.",
+        "B1-F1 contain the five headers DESCRIPTION, ALIAS, and PREDICATE 1-3; A1 is blank and shaded gray.",
+        "A2-A4 contain SUBJECT A, SUBJECT B, and SUBJECT C.",
+        "B2-C4 contain the word text, and D2-F4 contain the word OBJECT."
+      ],
+      "unknown_or_not_inferable": [
+        "The originating spreadsheet application and the semantics of the placeholder data cannot be determined from the pixels alone."
+      ],
+      "privacy_review": "PASS",
+      "license_review": "PASS"
+    },
+    {
+      "image_id": "w5-scene-01",
+      "summary": "A snow-capped mountain behind a forest and calm lake under an overcast sky.",
+      "visible_text": [],
+      "key_facts": [
+        "A snow-capped mountain appears near the lower center of the image.",
+        "Dense evergreen forest surrounds the lake and climbs the right side of the frame.",
+        "The mountain and trees are reflected in the calm lake.",
+        "The sky is cloudy, and rocks and fallen branches are visible along the right foreground shore."
+      ],
+      "unknown_or_not_inferable": [
+        "The exact mountain, lake, location, date, temperature, and weather forecast cannot be established from the image alone."
+      ],
+      "privacy_review": "PASS",
+      "license_review": "PASS"
+    },
+    {
+      "image_id": "w5-logo-01",
+      "summary": "A text-free Wikimedia community logo rendered on a transparent square canvas.",
+      "visible_text": [],
+      "key_facts": [
+        "The center is a green globe-like shape with black curved grid lines.",
+        "A red arc sits above the globe.",
+        "Two blue curved segments wrap around the lower left and lower right.",
+        "The logo contains no visible letters or words."
+      ],
+      "unknown_or_not_inferable": [
+        "The organization name and legal ownership cannot be inferred solely from the logo pixels; they require source metadata."
+      ],
+      "privacy_review": "PASS",
+      "license_review": "PASS"
+    },
+    {
+      "image_id": "w5-formula-01",
+      "summary": "A grayscale crop of a handwritten relativistic energy expression.",
+      "visible_text": [
+        "E = mc^2 / sqrt(1 - q^2/c^2)"
+      ],
+      "key_facts": [
+        "A calligraphic E-like symbol appears to the left of an equals sign.",
+        "The numerator of the fraction is m times c squared.",
+        "The denominator is the square root of 1 minus q squared divided by c squared.",
+        "The expression is handwritten rather than typeset."
+      ],
+      "unknown_or_not_inferable": [
+        "The intended physical meaning of q and the surrounding derivation cannot be determined from this crop alone."
+      ],
+      "privacy_review": "PASS",
+      "license_review": "PASS"
+    },
+    {
+      "image_id": "w5-ui-01",
+      "summary": "A LibreOffice Writer window displaying a document with four colored comment callouts in the right margin.",
+      "visible_text": [
+        "test.odt - LibreOffice Writer",
+        "File",
+        "Edit",
+        "View",
+        "Insert",
+        "Format",
+        "Table",
+        "Tools",
+        "Window",
+        "Help",
+        "Content",
+        "M",
+        "N",
+        "O",
+        "(no date)",
+        "Page 1 / 1",
+        "Words: 20",
+        "Hungarian",
+        "100%"
+      ],
+      "key_facts": [
+        "The application title identifies LibreOffice Writer and the open file test.odt.",
+        "A document page containing Lorem ipsum text occupies the center.",
+        "Four comment boxes appear in the right margin: two blue, one green, and one purple.",
+        "The status bar shows page 1 of 1, Words: 20, language Hungarian, and zoom 100%."
+      ],
+      "unknown_or_not_inferable": [
+        "The document's real purpose, authors' identities, and whether any unsaved changes exist cannot be established from the screenshot alone."
+      ],
+      "privacy_review": "PASS",
+      "license_review": "PASS"
+    }
+  ]
+}

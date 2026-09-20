@@ -1,0 +1,42 @@
+{
+  "status": "TARGET_CONFIRMED_CONSOLE_INSPECTED_NOT_STARTED",
+  "source": "user-authorized logged-in Codex in-app browser AutoDL console",
+  "console_url": "https://www.autodl.com/console/instance/list",
+  "instance_label": "320机",
+  "instance_id": "be044ebe99-be706b14",
+  "region": "内蒙B区",
+  "power_state": "已关机",
+  "gpu_availability": "GPU充足",
+  "health": "正常",
+  "gpu": "RTX 3090",
+  "gpu_count": 1,
+  "gpu_memory_GB": 24,
+  "cpu": "14 vCPU Intel Xeon Gold 6330 @ 2.00GHz",
+  "memory_GB": 60,
+  "system_disk_GB": 30,
+  "data_disk_free_tier_GB": 50,
+  "data_disk_paid_capacity_GB": 200,
+  "system_disk_used_percent": 8.88,
+  "data_disk_used_percent": 74.14,
+  "billing": "按量计费",
+  "displayed_price_CNY_per_hour": 1.48,
+  "image_metadata": {
+    "pytorch": "2.1.0",
+    "python": "3.10",
+    "os": "ubuntu22.04",
+    "cuda": "12.1",
+    "not_verified_runtime": true
+  },
+  "release_countdown_at_observation": "11天22小时11分",
+  "other_instance_notice": {
+    "instance_label": "344机",
+    "release_countdown_at_observation": "1天23小时56分",
+    "action_taken": false
+  },
+  "historical_ssh_probe_result": "Connection refused; no remote command executed",
+  "credentials_read": false,
+  "instance_started": false,
+  "remote_environment_verified": false,
+  "weights_verified": false,
+  "training_started": false
+}

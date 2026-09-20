@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "manifest_status": "completed",
+  "terminal_record_count": 200,
+  "failed_record_count": 0,
+  "candidate_question_counts": {
+    "base": 20,
+    "epoch-e2": 20,
+    "epoch-e3": 20,
+    "epoch-e5": 20,
+    "lr-1e-4": 20,
+    "lr-2e-4": 20,
+    "lr-5e-5": 20,
+    "rank-r32": 20,
+    "rank-r64": 20,
+    "rank-r8": 20
+  },
+  "unique_pairs": 200,
+  "automatic_evidence_count": 200,
+  "automatic_evidence_ranking_input": false
+}

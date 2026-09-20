@@ -1,0 +1,145 @@
+{
+  "schema_version": "2.0",
+  "status": "completed",
+  "selection_split": "development",
+  "policy_mode": "raw",
+  "ranking_order": [
+    "strict_success",
+    "argument_correctness",
+    "full_tool_sequence",
+    "semantic_correctness"
+  ],
+  "selected_checkpoint": "/root/autodl-tmp/qwen25-week6/formal-v2/runs/tool-sft-lora-v2/checkpoint-38",
+  "selected_adapter_sha256": "a5e348ad180f8183479d3138b40613ead7163f3b2089c9b271063b64be5cdc5c",
+  "selection_metrics": {
+    "strict_success": 0.45,
+    "argument_correctness": 0.9,
+    "full_tool_sequence": 0.925,
+    "semantic_correctness": 0.5
+  },
+  "acceptance_gate": {
+    "thresholds": {
+      "strict_success": 0.9,
+      "first_tool_choice": 0.95,
+      "full_tool_sequence": 0.9,
+      "argument_correctness": 0.95,
+      "semantic_correctness": 0.9,
+      "observation_integrity": 1.0,
+      "no_loops": 1.0,
+      "final_answer_grounded": 0.95
+    },
+    "checks": {
+      "strict_success": false,
+      "first_tool_choice": false,
+      "full_tool_sequence": true,
+      "argument_correctness": false,
+      "semantic_correctness": false,
+      "observation_integrity": true,
+      "no_loops": true,
+      "final_answer_grounded": false
+    },
+    "passed": false
+  },
+  "candidates": [
+    {
+      "result_path": "/root/autodl-tmp/qwen25-week6/formal-v2/results/v2_dev_checkpoint_19.json",
+      "result_sha256": "2688546c8f17ba0c30e1035d151900d6eab4999394e774d3f1e0b7ef3947a2b2",
+      "checkpoint": "/root/autodl-tmp/qwen25-week6/formal-v2/runs/tool-sft-lora-v2/checkpoint-19",
+      "adapter_model_sha256": "1692d8ffa73d1ca7c03747fd8f7baa00fd1f66f95b9b96a83ab79d413996046c",
+      "selection_metrics": {
+        "strict_success": 0.225,
+        "argument_correctness": 0.875,
+        "full_tool_sequence": 1.0,
+        "semantic_correctness": 0.35
+      },
+      "all_metrics": {
+        "first_tool_choice": 1.0,
+        "full_tool_sequence": 1.0,
+        "argument_schema_valid": 1.0,
+        "argument_correctness": 0.875,
+        "observation_integrity": 1.0,
+        "format_valid": 1.0,
+        "semantic_correctness": 0.35,
+        "final_answer_grounded": 0.225,
+        "safe_termination": 1.0,
+        "completion": 1.0,
+        "no_loops": 1.0
+      }
+    },
+    {
+      "result_path": "/root/autodl-tmp/qwen25-week6/formal-v2/results/v2_dev_checkpoint_38.json",
+      "result_sha256": "6a58062ee1bd9931ec4a9fed5c3129f874727b2fc149d16ca4e0f126f8beee55",
+      "checkpoint": "/root/autodl-tmp/qwen25-week6/formal-v2/runs/tool-sft-lora-v2/checkpoint-38",
+      "adapter_model_sha256": "a5e348ad180f8183479d3138b40613ead7163f3b2089c9b271063b64be5cdc5c",
+      "selection_metrics": {
+        "strict_success": 0.45,
+        "argument_correctness": 0.9,
+        "full_tool_sequence": 0.925,
+        "semantic_correctness": 0.5
+      },
+      "all_metrics": {
+        "first_tool_choice": 0.925,
+        "full_tool_sequence": 0.925,
+        "argument_schema_valid": 1.0,
+        "argument_correctness": 0.9,
+        "observation_integrity": 1.0,
+        "format_valid": 0.875,
+        "semantic_correctness": 0.5,
+        "final_answer_grounded": 0.45,
+        "safe_termination": 0.95,
+        "completion": 0.875,
+        "no_loops": 1.0
+      }
+    },
+    {
+      "result_path": "/root/autodl-tmp/qwen25-week6/formal-v2/results/v2_dev_checkpoint_57.json",
+      "result_sha256": "aa624b4adbe22a40535484f4a516df75e54c69c34344bbd202c4763b4ac061bb",
+      "checkpoint": "/root/autodl-tmp/qwen25-week6/formal-v2/runs/tool-sft-lora-v2/checkpoint-57",
+      "adapter_model_sha256": "c4fbf8343b8a954dc9072475c9d9fb680a8b837354cb7a1a47081a126c1c0c22",
+      "selection_metrics": {
+        "strict_success": 0.3,
+        "argument_correctness": 0.925,
+        "full_tool_sequence": 0.925,
+        "semantic_correctness": 0.375
+      },
+      "all_metrics": {
+        "first_tool_choice": 0.925,
+        "full_tool_sequence": 0.925,
+        "argument_schema_valid": 1.0,
+        "argument_correctness": 0.925,
+        "observation_integrity": 1.0,
+        "format_valid": 0.85,
+        "semantic_correctness": 0.375,
+        "final_answer_grounded": 0.3,
+        "safe_termination": 0.95,
+        "completion": 0.85,
+        "no_loops": 1.0
+      }
+    },
+    {
+      "result_path": "/root/autodl-tmp/qwen25-week6/formal-v2/results/v2_dev_checkpoint_76.json",
+      "result_sha256": "2de8b24d3699387d560ceb3edd354d412e0a1ce08df01a2a79c61e607e8a9039",
+      "checkpoint": "/root/autodl-tmp/qwen25-week6/formal-v2/runs/tool-sft-lora-v2/checkpoint-76",
+      "adapter_model_sha256": "0800773f2f7df0add00c45c685fcd484be3ce296084f0f79e60e20e16ed8dd7b",
+      "selection_metrics": {
+        "strict_success": 0.3,
+        "argument_correctness": 0.925,
+        "full_tool_sequence": 0.95,
+        "semantic_correctness": 0.35
+      },
+      "all_metrics": {
+        "first_tool_choice": 0.95,
+        "full_tool_sequence": 0.95,
+        "argument_schema_valid": 1.0,
+        "argument_correctness": 0.925,
+        "observation_integrity": 1.0,
+        "format_valid": 0.85,
+        "semantic_correctness": 0.35,
+        "final_answer_grounded": 0.3,
+        "safe_termination": 0.95,
+        "completion": 0.85,
+        "no_loops": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "case_count": 30,
+  "frozen_eval_sha256": "7c7a0aace93c29525edafa630b063647bf4ec630be8cc7f9be52a64cdb433f54",
+  "generation_config": {
+    "do_sample": false,
+    "max_new_tokens": 192,
+    "repetition_penalty": 1.0,
+    "seed": 42
+  },
+  "model_identity_sha256": "270859bfe41ddce6d14b2d4e44e98db32704c075e9d8bd11b6f441ee9db4c183",
+  "baseline_metrics": {
+    "first_tool_choice": 0.9,
+    "full_tool_sequence": 0.9,
+    "argument_correctness": 0.9166666666666666,
+    "completion": 0.8666666666666667,
+    "no_loops": 1.0,
+    "no_hallucinated_observations": 1.0
+  },
+  "optimized_metrics": {
+    "first_tool_choice": 0.9,
+    "full_tool_sequence": 0.8,
+    "argument_correctness": 0.7916666666666666,
+    "completion": 0.7333333333333333,
+    "no_loops": 1.0,
+    "no_hallucinated_observations": 1.0
+  },
+  "metric_deltas": {
+    "argument_correctness": -0.125,
+    "completion": -0.13333333333333341,
+    "first_tool_choice": 0.0,
+    "full_tool_sequence": -0.09999999999999998,
+    "no_hallucinated_observations": 0.0,
+    "no_loops": 0.0
+  },
+  "baseline_unique_failed_cases": 6,
+  "optimized_unique_failed_cases": 10,
+  "improved_cases": [
+    "eval-budget-08"
+  ],
+  "regression_cases": [
+    "eval-aurora-zero-shipping-calculator-required",
+    "eval-budget-02",
+    "eval-budget-03",
+    "eval-code-02",
+    "eval-recovery-04"
+  ]
+}

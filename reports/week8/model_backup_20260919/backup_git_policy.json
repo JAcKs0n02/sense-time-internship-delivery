@@ -1,0 +1,6 @@
+{
+  "weight_paths_git_ignored": true,
+  "verified_by": "git check-ignore on the three model weight paths; exit 0",
+  "git_stage_commit_push_performed": false,
+  "scope": "Local backup stays outside Git; audit receipts and documentation are separately reviewable"
+}

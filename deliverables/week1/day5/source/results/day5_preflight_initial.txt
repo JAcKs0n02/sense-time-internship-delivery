@@ -1,0 +1,25 @@
+2026-07-19T10:04:13+08:00
+/root
+Python 3.10.20
+/root/autodl-tmp/conda/envs/llm_exp/bin/python
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+----------------------------------------------------------
+| Welcome to LLaMA Factory, version 0.9.3                |
+|                                                        |
+| Project page: https://github.com/hiyouga/LLaMA-Factory |
+----------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+torch 2.5.1+cu121 cuda 12.1 available True
+gpu NVIDIA GeForce RTX 3090
+NVIDIA GeForce RTX 3090, 24576 MiB, 1 MiB, 595.71.05
+Filesystem     Type  Size  Used Avail Use% Mounted on
+/dev/nvme1n1   xfs   100G   23G   78G  23% /root/autodl-tmp
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+llamafactory_path /root/autodl-tmp/qwen25-week1/week1/third_party/LlamaFactory/src/llamafactory/__init__.py

@@ -1,0 +1,14 @@
+{
+  "status": "TARGET_BASE_EVALUATION_LOCK_RELEASED",
+  "utc": "2026-09-15T23:41:10.910981+00:00",
+  "host": "autodl-container-be044ebe99-be706b14",
+  "root": "/root/autodl-tmp/week8-judge-runtime-20260916",
+  "lock_sha256": "4986a43e393ebd2017a7e2fad7f8e8fcd063e8811e1b07852828c27b0e0968ec",
+  "review_sha256": "4cdbcc2f75b4d2c41a2f64656aa8134f36ee2d472497be8da4d28549fecbf128",
+  "target_preflight_sha256": "3c319856325831352f4bcb7b805a014fc3775b0c09b29a606abbba560604701b",
+  "actual_entrypoint_lock_check_passed": true,
+  "artifacts_verified": 307,
+  "training_allowed": false,
+  "inference_or_training_started": false,
+  "api_calls": 0
+}

@@ -1,0 +1,20 @@
+{
+  "expected_steps": 3747,
+  "loss_record_count": 3747,
+  "step_sequence_complete": true,
+  "all_losses_finite": true,
+  "nonfinite_loss_count": 0,
+  "first_loss": 1.4029,
+  "last_loss": 0.9737,
+  "minimum_loss": 0.0415,
+  "maximum_loss": 4.0499,
+  "mean_loss": 1.2016955431011476,
+  "decile_size": 375,
+  "first_decile_mean": 1.4455111999999999,
+  "last_decile_mean": 1.0308757333333334,
+  "moving_average_window": 100,
+  "moving_average_first": 1.607461,
+  "moving_average_last": 1.061506,
+  "linear_loss_slope": -0.0001319324506517437,
+  "overall_downward_trend": true
+}

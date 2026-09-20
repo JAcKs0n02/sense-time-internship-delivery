@@ -1,0 +1,110 @@
+{
+  "sft": {
+    "dataloader_num_workers": {
+      "source": 2,
+      "candidate": 0
+    },
+    "dataset": {
+      "source": "week2_clean_alpaca",
+      "candidate": "week8_train"
+    },
+    "dataset_dir": {
+      "source": "/root/autodl-tmp/qwen25-week3/data",
+      "candidate": "/root/autodl-tmp/week8-full-training-runtime-20260916/logs/week8-protocol-data-20260914/run-a"
+    },
+    "eval_dataset": {
+      "source": null,
+      "candidate": "week8_validation"
+    },
+    "eval_strategy": {
+      "source": null,
+      "candidate": "epoch"
+    },
+    "load_best_model_at_end": {
+      "source": null,
+      "candidate": false
+    },
+    "max_samples": {
+      "source": 4999,
+      "candidate": null
+    },
+    "max_steps": {
+      "source": null,
+      "candidate": -1
+    },
+    "output_dir": {
+      "source": "/root/autodl-tmp/qwen25-week3/runs/epoch-e5/adapter",
+      "candidate": "/root/autodl-tmp/week8-full-training-runtime-20260916/logs/full-run-01/sft/attempt-01/adapter"
+    },
+    "per_device_eval_batch_size": {
+      "source": null,
+      "candidate": 1
+    },
+    "plot_loss": {
+      "source": true,
+      "candidate": false
+    },
+    "prediction_loss_only": {
+      "source": null,
+      "candidate": true
+    },
+    "preprocessing_num_workers": {
+      "source": 4,
+      "candidate": 1
+    },
+    "report_to": {
+      "source": "tensorboard",
+      "candidate": "none"
+    },
+    "run_name": {
+      "source": "qwen25-7b-week3-epoch-e5",
+      "candidate": "week8-full-sft-epoch-e5"
+    },
+    "save_strategy": {
+      "source": null,
+      "candidate": "steps"
+    }
+  },
+  "dpo": {
+    "dataloader_num_workers": {
+      "source": 2,
+      "candidate": 0
+    },
+    "dataset_dir": {
+      "source": "/root/autodl-tmp/qwen25-week4/day20-remediation/data",
+      "candidate": "/root/autodl-tmp/week8-full-training-runtime-20260916/deliverables/week4/day20/remediation/source/data"
+    },
+    "load_best_model_at_end": {
+      "source": null,
+      "candidate": false
+    },
+    "model_name_or_path": {
+      "source": "/root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged",
+      "candidate": "/root/autodl-tmp/week8-full-training-runtime-20260916/logs/full-run-01/models/final_sft"
+    },
+    "output_dir": {
+      "source": "/root/autodl-tmp/qwen25-week4/day20-remediation/runs/reward-corrective-40step-placeholder",
+      "candidate": "/root/autodl-tmp/week8-full-training-runtime-20260916/logs/full-run-01/dpo/attempt-01/adapter"
+    },
+    "plot_loss": {
+      "source": true,
+      "candidate": false
+    },
+    "preprocessing_num_workers": {
+      "source": 4,
+      "candidate": 1
+    },
+    "report_to": {
+      "source": "tensorboard",
+      "candidate": "none"
+    },
+    "run_name": {
+      "source": "reward-corrective-40step",
+      "candidate": "week8-full-dpo-corrective-40"
+    },
+    "save_strategy": {
+      "source": null,
+      "candidate": "steps"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "change_scope": "system_prompt_only",
+  "baseline": {
+    "version": "week6-day30-three-tool-react-v1",
+    "path": "system_prompt_v1.txt",
+    "sha256": "b9132d22ab2154b7f36eabe49c281dcfb4c005d67c604ae3e19ce3545654623e"
+  },
+  "optimized": {
+    "version": "week6-day32-three-tool-react-v2",
+    "path": "system_prompt_v2.txt",
+    "sha256": "421c0139be8e1dea4369027e40039116e60a589dcbd4109ff9b8571844c52fc8"
+  },
+  "targeted_failures": [
+    "wrong_tool",
+    "argument_extraction_error",
+    "tool_error_unhandled",
+    "format_parse_error"
+  ]
+}

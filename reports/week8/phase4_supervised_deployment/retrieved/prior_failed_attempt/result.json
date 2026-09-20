@@ -1,0 +1,7 @@
+{
+  "status": "FAILED",
+  "started_utc": "2026-09-18T21:39:14Z",
+  "quality_promotion": false,
+  "error": "AssertionError('Traceback (most recent call last):\\n  File \"/root/autodl-tmp/week8-supervised-deployment-20260918/scripts/deploy.py\", line 120, in <module>\\n    main()\\n  File \"/root/autodl-tmp/week8-supervised-deployment-20260918/scripts/deploy.py\", line 108, in main\\n    raise RuntimeError(str(status))\\nRuntimeError: {\\'status\\': \\'failed\\', \\'error\\': \\'[Errno 98] Address already in use\\'}\\n')",
+  "finished_utc": "2026-09-18T21:40:05Z"
+}

@@ -1,0 +1,19 @@
+{
+  "instance_id": "be044ebe99-be706b14",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "gpu_memory_total_mib": 24576,
+  "gpu_memory_free_before_training_mib": 24126,
+  "data_disk_available_before_training": "46G",
+  "llamafactory_version": "0.9.3",
+  "bitsandbytes_version": "0.45.5",
+  "model_path": "/root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged",
+  "model_file_count": 14,
+  "model_total_bytes": 15247184276,
+  "model_manifest_sha256": "e4512f7dd0f85b2f1d8154d123aec176295f557046142aab406a030c8e76e971",
+  "model_manifest_check": "PASS",
+  "train_count": 639,
+  "train_sha256": "88c6a176eda7df50f5ffb0e01e78610c99178e71e14518d82b6c0bd20a50c320",
+  "validation_count": 71,
+  "validation_sha256": "5626226d8d0aff49cec6119de63720692cb3f3f27091bf94332524cd83a53372",
+  "notes": "The original Day18 instance had no free GPU on its host. AutoDL cross-instance data copy moved only the frozen Week3 merged-model directory to the other authorized RTX 3090 instance; all 14 source hashes were then revalidated."
+}

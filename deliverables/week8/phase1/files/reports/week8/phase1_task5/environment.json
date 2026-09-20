@@ -1,0 +1,20 @@
+{
+  "python": "3.11.14 (main, Oct  9 2025, 16:16:55) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "python_executable": "/private/tmp/internship-week8-loader-20260915/bin/python",
+  "platform": "macOS-15.7.3-arm64-arm-64bit",
+  "versions": {
+    "torch": "2.5.1",
+    "transformers": "4.50.0",
+    "llamafactory": "0.9.3",
+    "peft": "0.15.2",
+    "accelerate": "1.7.0",
+    "datasets": "3.2.0",
+    "trl": "0.9.6",
+    "tokenizers": "0.21.1"
+  },
+  "cpu_only": true,
+  "cuda_available": false,
+  "weight_loading_called": false,
+  "training_called": false,
+  "framework_path": "/private/tmp/internship-week8-loader-20260915/lib/python3.11/site-packages/llamafactory/__init__.py"
+}

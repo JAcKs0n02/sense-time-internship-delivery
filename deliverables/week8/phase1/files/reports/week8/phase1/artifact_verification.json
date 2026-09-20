@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "file_hash_checks": 31,
+  "input_checks_passed": 34,
+  "completed_checkboxes": 9,
+  "remaining_checkboxes": 16,
+  "protocol_document_hash_matches": true,
+  "relative_document_links_resolve": true,
+  "new_data_generated": false,
+  "gpu_started": false,
+  "runtime_evaluation_lock": "required_before_training_not_yet_resolved"
+}

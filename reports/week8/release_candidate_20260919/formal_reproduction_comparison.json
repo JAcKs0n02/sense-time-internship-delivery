@@ -1,0 +1,80 @@
+{
+  "status": "ALL_15_OUTPUTS_BYTE_IDENTICAL",
+  "files": [
+    {
+      "path": "dataset_info.json",
+      "sha256": "958eee16683628361e10d2d6bad1fd3bca0ad65de947045a82605859e7c606e8",
+      "matches_original": true
+    },
+    {
+      "path": "exclusions.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "matches_original": true
+    },
+    {
+      "path": "group_edges.json",
+      "sha256": "fe29b65880c10527ac25dc25ade4bbd5cb6987fd576eaadd2933f6955a8d13b8",
+      "matches_original": true
+    },
+    {
+      "path": "groups.json",
+      "sha256": "7b3b97dc7390b784e38fbf8620c1f730e056f4ac9bff6eba5f8c5328e8d9a6c0",
+      "matches_original": true
+    },
+    {
+      "path": "input_receipt.json",
+      "sha256": "a13ac6260ec8035e9c1e8e3b53585a5ac507439cc4020f84944aa7e0d1cc1da4",
+      "matches_original": true
+    },
+    {
+      "path": "lengths.json",
+      "sha256": "3f3f73ef968c48890119f30f628b935dec356bf8f20774eea6f789af321b85b9",
+      "matches_original": true
+    },
+    {
+      "path": "lineage.json",
+      "sha256": "5e3249a17081b422711a70096c6e949379ccb70f9353128a6517caca21ec9a08",
+      "matches_original": true
+    },
+    {
+      "path": "protected_coverage.json",
+      "sha256": "bf788a594e54a28591c7bda8066e2504e60a7b7e278ed5d6899fddd67e7fef05",
+      "matches_original": true
+    },
+    {
+      "path": "protected_hits.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "matches_original": true
+    },
+    {
+      "path": "protocol.json",
+      "sha256": "de92cce2f90ce30595d752c515ac37ec2730514cefbdf5dc91cf1c474277cffd",
+      "matches_original": true
+    },
+    {
+      "path": "statistics.json",
+      "sha256": "d5485800108fe74278265a2ecb00f7984d5a9da41fae01dee9f8f4b6d880a6a3",
+      "matches_original": true
+    },
+    {
+      "path": "train_alpaca.json",
+      "sha256": "cbc2721be936bea7036a98ea9198fc3d6cb32c45b961892b14feb95d56257529",
+      "matches_original": true
+    },
+    {
+      "path": "train_sharegpt.json",
+      "sha256": "a3be525413c27aa80af0048dbf0100a70068917439f58b6070012f4af9b44d09",
+      "matches_original": true
+    },
+    {
+      "path": "validation_alpaca.json",
+      "sha256": "41f794aa459c360f53102ad8a1e9566ff6f5f47a5f75b8b53894362a95928709",
+      "matches_original": true
+    },
+    {
+      "path": "validation_sharegpt.json",
+      "sha256": "0b53889a290df308a478d8bca6cdca9f26aacdbad34f7d4010e2c6a30900fec3",
+      "matches_original": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "week2_clean_alpaca": {
+    "file_name": "week2_clean_alpaca.jsonl",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+}

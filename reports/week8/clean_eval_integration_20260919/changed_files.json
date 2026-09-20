@@ -1,0 +1,11 @@
+{
+  "run_pipeline.sh": "ca0c3dd90353cdaba7f479610b93b181991fa669b7ea5823fd2963e63a7aae07",
+  "scripts/week8_clean_eval.py": "f7436645d4e45f31f41d462a4aae2145a35a5e1c72bd81a2bbbb51761611eb8c",
+  "tests/test_week8_clean_eval.py": "eac5f05df88073c03d707abaecca185c7eb64bde8d2ceeaf6aa5ec124d495c79",
+  "docs/week8_clean_eval_integration.md": "b79bbb2770434b4bfe23acef4474ad66edb85db873b23760a7768fc72a821df9",
+  "docs/week8_clean_eval_preparation.md": "28a0396278b6d76947e7e7d5195a3249a9d0f0981d06a97ee4e0f0605efea55e",
+  "docs/week8_acceptance_audit.md": "1fa1c3374c97c7b98f2afb19482c8b15fba7d7ef7fb22c4452315b887dc1660c",
+  "README.md": "ac6466e77fdfee7509d4badb759138158eaf1cd1a88c6beee1f547fc5a531081",
+  "Submission/Week8/README.md": "ea7512d3cd9b0ab10222b885fe1a5fe96d467d7183d2edcc3103fc587f1ad9c7",
+  "configs/README.md": "11a966318ce891d4e34128e35a97ff792a1b4f006620de5e4a95eb404e58d72d"
+}

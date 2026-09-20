@@ -1,0 +1,14 @@
+{
+  "sample_id": "a54700e499cf436425f8a223c1e2debecb5914cd65d58a0c8f2d9656a91ae10c",
+  "prompt": "橙子是什么颜色？",
+  "messages": [
+    {
+      "role": "user",
+      "content": "橙子是什么颜色？"
+    }
+  ],
+  "answer": "橙子的颜色是橙色。",
+  "truncated": false,
+  "input_tokens": 34,
+  "output_tokens": 8
+}

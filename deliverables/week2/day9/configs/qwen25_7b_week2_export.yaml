@@ -1,0 +1,19 @@
+### Source:
+### /root/autodl-tmp/qwen25-week1/week1/third_party/LlamaFactory/
+### examples/merge_lora/llama3_lora_sft.yaml
+###
+### LLaMA-Factory 0.9.3 infers LoRA export from adapter_name_or_path and
+### adapter_config.json (peft_type=LORA). Its official export example does not
+### include finetuning_type. Do not add quantization_bit when merging QLoRA.
+
+### model
+model_name_or_path: /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct
+adapter_name_or_path: /root/autodl-tmp/qwen25-week2/day8/saves/qwen25-7b-week2-qlora-sft-run1
+template: qwen
+trust_remote_code: true
+
+### export
+export_dir: /root/autodl-tmp/qwen25-week2/merged/qwen25-7b-week2-sft-merged
+export_size: 4
+export_device: cpu
+export_legacy_format: false

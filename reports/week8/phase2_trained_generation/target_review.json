@@ -1,0 +1,21 @@
+{
+  "status": "TARGET_CPU_AUDIT_VERIFIED_GPU_RELEASE_PENDING",
+  "target_audit_sha256": "0cebaee6d0f351f325b2fcd0e354b621f7683fddae73765c78ee6625f700e482",
+  "candidate_plan_sha256": "a1dcb2a9d71b98db4fd6a9892dec3dc5f3a4f7185459f7a2a13b0226ceb6067e",
+  "focused_tests": {
+    "generation_only": 3,
+    "session_cleanup": 3,
+    "result": "PASS via python3 unittest"
+  },
+  "first_audit_failure": "Missing historical target_review.json; preserved audit.log; three hash-locked historical receipts supplied before second audit.",
+  "second_audit": "PASS; complete model file identities and frozen dependencies verified on 320",
+  "limitations": [
+    "Package metadata verified; CUDA execution not tested in CPU-only mode.",
+    "Coordinator remains local candidate, not deployed or released.",
+    "New absolute GPU window and platform shutdown timer not yet configured.",
+    "Balance and GPU availability require fresh check before launch."
+  ],
+  "gpu_inference_started": false,
+  "judge_calls": 0,
+  "automatic_monitor_enabled": false
+}

@@ -1,0 +1,20 @@
+{
+  "reports/week8/release_audit_20260919/score_recovery.json": "5ed43c987a3d440f4615c5786f8420319783286d97ec193d8e41c818b03edc47",
+  "reports/week8/release_audit_20260919/submission_checksums_before.txt": "16855abe931efa2a5b1cd2232e920bd644dd78a99f737d00fe293054c7221ae1",
+  "reports/week8/release_audit_20260919/credential_findings.json": "3bf0c0b2a3ddc9bd93c94e32751ac22f93bf9a29966004e8ecd14084c6733c7e",
+  "reports/week8/release_audit_20260919/submission_existing_checksum_audit.json": "d2e4283ae78e61de240b1c046b0b0b9428d96188abd6a3a31f8d71f81a46dfc0",
+  "reports/week8/release_audit_20260919/expected_model_backups.json": "d1400a765b5bdcf2ef273c6c4fc4794c23cc31954994ec19e9098555e08efce4",
+  "reports/week8/release_audit_20260919/quick_status.json": "fbae585fea0dd9036c30b6e19a4244228511957f51bf789d89610f6d137a55aa",
+  "reports/week8/release_audit_20260919/initial_scan.json": "14e34aa50d350d3d96c49ed7dd442fc0da5b8fa3bd6dab8b4e3b6ade86f51260",
+  "reports/week8/release_audit_20260919/week7_assets_verification.json": "df74ed17d57edc2d565b8a37a0b897e8aba802bd6488af64b83846bdda2eb1ae",
+  "reports/week8/release_audit_20260919/submission_checksum_coverage.json": "a9c43da902f462006634107eb4277311f8289e10a8052896e4c2ac15bc40ecf5",
+  "reports/week8/release_audit_20260919/local_weight_inventory.json": "4156294ee85d1434bcae2e896c42f20be4d462d1279f6f038b61440fdfff075e",
+  "reports/week8/release_audit_20260919/submission_current_manifest.json": "7b736c34d37efd2d4358eb946687fd07a23511c64e18ee92aee337d59ba0a109",
+  "reports/week8/release_audit_20260919/entry_links.json": "6bf31e52fb84a0319a8903e2ce20e85b7fcfaf6e38f569995406eb810436bd08",
+  "reports/week8/release_audit_20260919/verification.json": "44344a2663ba5130779603e1b8fbaec1895a00ec77349c471c872cbcd27b35d5",
+  "reports/week8/release_audit_20260919/quick_data_statistics.json": "1332ce1adf2c7d8d58938457aa30103b6d9fb1b5be8f90ff72fb03f572242587",
+  "models/README.md": "8f821960448fc09dd95fc320fb8085cac7f1e79f7155d085e411e9862043f71a",
+  "docs/week8_release_review.md": "b296384062e1bf703c0d61df89c5acb77f6a6707d75b7570c7a1641d2d3d184f",
+  ".gitignore": "f1214d37ec42ca906169f433f4f94dabd694353809fda86737a86f8462c5f38b",
+  "Submission/SHA256SUMS.txt": "7863cc0e5174440d7f4f086d44ade1eebbf55e1d0d15c9e931b80812eafd06cf"
+}

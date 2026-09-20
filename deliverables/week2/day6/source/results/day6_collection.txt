@@ -1,0 +1,81 @@
+Week 2 Day 6 数据收集与格式统一执行记录
+执行日期：2026-07-27（Asia/Shanghai）
+
+一、认证与访问
+- Hugging Face CLI 登录成功。
+- BAAI/COIG-PC 数据集访问申请已获准。
+- 仅使用只读凭据；本记录和仓库中不保存 token。
+
+二、确定性采集命令
+/Users/yifanren/anaconda3/bin/python \
+  deliverables/week2/day6/source/scripts/collect_day6.py \
+  --raw-dir deliverables/week2/day6/source/data/raw \
+  --cache-dir .cache/day6-huggingface \
+  --manifest-json deliverables/week2/day6/source/manifests/collection_metadata.json \
+  --seed 42
+
+最终输出：
+- alpaca_gpt4_zh: upstream_count=42677, sample_count=2000
+  raw_sha256=57e9714f2ba02ca0323a062b72af92da1de67d1161bc71828e0638dfc8b4ed84
+- coig_pc: upstream_count=253558, sample_count=2000
+  raw_sha256=c78f4ae29f9891a7dfdebf4b054085d71f8c4f5f38d95123590f54a19ee5e81c
+- sharegpt_zh: upstream_count=30015, sample_count=1000
+  raw_sha256=e7fb562bbe4ccf884c3968f2536b5a5d53b4ad48e72688e95b77203695f6e092
+- total_sample_count=5000
+
+三、格式转换命令
+/Users/yifanren/anaconda3/bin/python \
+  deliverables/week2/day6/source/scripts/convert_formats.py \
+  --raw-dir deliverables/week2/day6/source/data/raw \
+  --formatted-dir deliverables/week2/day6/source/data/formatted \
+  --provenance-file \
+    deliverables/week2/day6/source/data/interim/day6_provenance.jsonl
+
+第一次严格转换结果：
+- 发现 10 条 ShareGPT 原始记录在至少一组完整问答后，以未获回答的 human
+  消息结尾，转换主动失败，没有输出一个“看似成功”的不完整监督目标。
+- 审计确认其余消息均为合法 human-gpt 交替。
+- 经单元测试约束后，只从训练可见格式移除这 10 个未回答的末尾消息；
+  raw 数据不变，并在 provenance 的 format_adjustments 中逐条记录。
+
+最终输出：
+{"alpaca_gpt4_zh": 2000, "coig_pc": 2000, "sharegpt_zh": 1000, "total": 5000}
+
+派生文件 SHA-256：
+- week2_5k_alpaca.jsonl
+  8c626aefaf0a31cf292ed09755c5bd5302e3c381d1637440339c36a67fc4d304
+- week2_5k_sharegpt.jsonl
+  96b383f5769ae9aa59d86d12b23384cbf08eb8cdb50555cfc4d3880e3a499645
+- day6_provenance.jsonl
+  1877171f9aea338459419bf08392529e8f3aa31a6969794441d8c5a964416b14
+
+四、独立验证命令
+/Users/yifanren/anaconda3/bin/python \
+  deliverables/week2/day6/source/scripts/validate_day6.py \
+  --root deliverables/week2/day6 \
+  --output deliverables/week2/day6/source/results/day6_validation.json
+
+验证结果：
+{
+  "valid": true,
+  "counts": {
+    "alpaca_gpt4_zh": 2000,
+    "coig_pc": 2000,
+    "sharegpt_zh": 1000,
+    "formatted_alpaca": 5000,
+    "formatted_sharegpt": 5000,
+    "provenance": 5000
+  },
+  "errors": []
+}
+
+五、测试
+/Users/yifanren/anaconda3/bin/python -m pytest \
+  deliverables/week2/day6/source/tests/test_day6_pipeline.py -q
+
+结果：23 passed
+
+六、边界说明
+- Day 6 只做来源固定、确定性抽样、结构转换和验证。
+- 未执行 HTML 清理、控制字符清理、2048-token 截断或模糊去重。
+- formatted 文件不是 Day 7 的“清洗后训练集”。

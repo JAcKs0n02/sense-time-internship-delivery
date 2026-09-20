@@ -1,0 +1,14 @@
+{
+  "sample_id": "b579583618e7b04a7e8453572ed67b762e3c5d1167194dd8c52c8922e9f6fc04",
+  "prompt": "请用一个词描述以下新闻的题材类型\n\n走向世界中国文学多少“密码”待解",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请用一个词描述以下新闻的题材类型\n\n走向世界中国文学多少“密码”待解"
+    }
+  ],
+  "answer": "文化",
+  "truncated": false,
+  "input_tokens": 50,
+  "output_tokens": 2
+}

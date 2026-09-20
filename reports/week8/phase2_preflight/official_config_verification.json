@@ -1,0 +1,24 @@
+{
+  "status": "PASS_WHEEL_CONFIGS_MATCH_PINNED_OFFICIAL_COMMIT",
+  "checks": [
+    {
+      "url": "https://raw.githubusercontent.com/open-compass/opencompass/a25fdd25dbe6a6e1da355332fa52e82dcfc3a1ee/opencompass/configs/datasets/ceval/ceval_gen_5f30c7.py",
+      "wheel_path": "opencompass/configs/datasets/ceval/ceval_gen_5f30c7.py",
+      "sha256": "98388fc58c9d88dc993411ff668705932aa9470fd27a9e489bda149dd7ccfde3",
+      "bytes_identical": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/open-compass/opencompass/a25fdd25dbe6a6e1da355332fa52e82dcfc3a1ee/opencompass/configs/datasets/cmmlu/cmmlu_gen_c13365.py",
+      "wheel_path": "opencompass/configs/datasets/cmmlu/cmmlu_gen_c13365.py",
+      "sha256": "1ff4b082df0baaa421dcdc9e2f991d79d2326533b1f7cecdeb129bbb48306d39",
+      "bytes_identical": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/open-compass/opencompass/a25fdd25dbe6a6e1da355332fa52e82dcfc3a1ee/opencompass/configs/datasets/cmmlu/cmmlu_gen.py",
+      "wheel_path": "opencompass/configs/datasets/cmmlu/cmmlu_gen.py",
+      "sha256": "c4cce61b252ed0d71484556b5c14b17b0951373f193bf1a715ee4b08264fd973",
+      "bytes_identical": true
+    }
+  ],
+  "resolved_fetch_incident": "Initial repository-level configs/ URL returned 404; actual tagged source is under opencompass/configs/."
+}

@@ -1,0 +1,65 @@
+{
+    "accuracy": 100.0,
+    "details": [
+        {
+            "example_abbr": "cmmlu-elementary_commonsense_test_0",
+            "prompt": [
+                [
+                    {
+                        "role": "HUMAN",
+                        "prompt": "以下是关于小学常识的单项选择题，请直接给出正确答案的选项。\n题目：我们经常吃的洋葱是植物的哪一部分\nA. 茎\nB. 叶\nC. 根 \nD. 果实\n"
+                    },
+                    {
+                        "role": "BOT",
+                        "prompt": "答案是: A"
+                    },
+                    {
+                        "role": "HUMAN",
+                        "prompt": "以下是关于小学常识的单项选择题，请直接给出正确答案的选项。\n题目：世界上地势最低的国家是\nA. 土耳其\nB. 意大利\nC. 荷兰 \nD. 波兰\n"
+                    },
+                    {
+                        "role": "BOT",
+                        "prompt": "答案是: C"
+                    },
+                    {
+                        "role": "HUMAN",
+                        "prompt": "以下是关于小学常识的单项选择题，请直接给出正确答案的选项。\n题目：有“绿城” 之称的是\nA. 郑州\nB. 贵州\nC. 昆明\nD. 海口\n"
+                    },
+                    {
+                        "role": "BOT",
+                        "prompt": "答案是: A"
+                    },
+                    {
+                        "role": "HUMAN",
+                        "prompt": "以下是关于小学常识的单项选择题，请直接给出正确答案的选项。\n题目：世界上产玉米最多的国家是\nA. 法国\nB. 俄罗撕\nC. 中国\nD. 美国\n"
+                    },
+                    {
+                        "role": "BOT",
+                        "prompt": "答案是: D"
+                    },
+                    {
+                        "role": "HUMAN",
+                        "prompt": "以下是关于小学常识的单项选择题，请直接给出正确答案的选项。\n题目：交通事故报警电话号码是\nA. 110\nB. 119\nC. 120\nD. 122\n"
+                    },
+                    {
+                        "role": "BOT",
+                        "prompt": "答案是: D"
+                    },
+                    {
+                        "role": "HUMAN",
+                        "prompt": "以下是关于小学常识的单项选择题，请直接给出正确答案的选项。\n题目：我国古代“十八般武艺”中第十八是“白打”意思是\nA. 用白棒打\nB. 用白巾作武器\nC. 徒手搏斗\nD. 打空拳\n"
+                    }
+                ]
+            ],
+            "pred": [
+                "C"
+            ],
+            "refr": [
+                "C"
+            ],
+            "is_correct": [
+                true
+            ]
+        }
+    ]
+}

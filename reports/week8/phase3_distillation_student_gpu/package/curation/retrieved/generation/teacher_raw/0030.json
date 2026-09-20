@@ -1,0 +1,14 @@
+{
+  "sample_id": "025e0947d4faa83db0b8ff79f9f19c4f51d2a9f51ed338d3e851f1c8cbd62d2d",
+  "prompt": "她将要做这件事。",
+  "messages": [
+    {
+      "role": "user",
+      "content": "她将要做这件事。"
+    }
+  ],
+  "answer": "\"她将要做这件事\" 翻译成英文就是 \"She will do this thing\"。",
+  "truncated": false,
+  "input_tokens": 34,
+  "output_tokens": 22
+}

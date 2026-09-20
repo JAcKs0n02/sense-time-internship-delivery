@@ -1,0 +1,2760 @@
+[
+  {
+    "id": "dev-calculator-001",
+    "split": "dev",
+    "category": "calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请调用计算器求出 (1517 + 7) * 2 的结果。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"(1517 + 7) * 2\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":3048},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "计算器返回 3048。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "请调用计算器求出 (1517 + 7) * 2 的结果。",
+      "react": [
+        {
+          "Thought": "使用受限计算器获得精确数值。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "(1517 + 7) * 2"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 3048
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "计算器返回 3048。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "expected_answer": {
+        "kind": "calculator",
+        "value": 3048
+      }
+    }
+  },
+  {
+    "id": "dev-calculator-002",
+    "split": "dev",
+    "category": "calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "需要精确计算表达式 (1520 + 8) * 3，请使用算术工具。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"(1520 + 8) * 3\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":4584},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "计算器返回 4584。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "需要精确计算表达式 (1520 + 8) * 3，请使用算术工具。",
+      "react": [
+        {
+          "Thought": "使用受限计算器获得精确数值。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "(1520 + 8) * 3"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 4584
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "计算器返回 4584。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "expected_answer": {
+        "kind": "calculator",
+        "value": 4584
+      }
+    }
+  },
+  {
+    "id": "dev-calculator-003",
+    "split": "dev",
+    "category": "calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "不要心算：用 calculator 处理 (1523 + 9) * 4。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"(1523 + 9) * 4\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":6128},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "计算器返回 6128。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "不要心算：用 calculator 处理 (1523 + 9) * 4。",
+      "react": [
+        {
+          "Thought": "使用受限计算器获得精确数值。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "(1523 + 9) * 4"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 6128
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "计算器返回 6128。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "expected_answer": {
+        "kind": "calculator",
+        "value": 6128
+      }
+    }
+  },
+  {
+    "id": "dev-calculator-004",
+    "split": "dev",
+    "category": "calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "帮我核算 (1526 + 10) * 5，返回工具给出的数值。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"(1526 + 10) * 5\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":7680},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "计算器返回 7680。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "帮我核算 (1526 + 10) * 5，返回工具给出的数值。",
+      "react": [
+        {
+          "Thought": "使用受限计算器获得精确数值。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "(1526 + 10) * 5"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 7680
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "计算器返回 7680。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "expected_answer": {
+        "kind": "calculator",
+        "value": 7680
+      }
+    }
+  },
+  {
+    "id": "dev-calculator-005",
+    "split": "dev",
+    "category": "calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请调用计算器求出 (1529 + 2) * 6 的结果。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"(1529 + 2) * 6\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":9186},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "计算器返回 9186。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "请调用计算器求出 (1529 + 2) * 6 的结果。",
+      "react": [
+        {
+          "Thought": "使用受限计算器获得精确数值。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "(1529 + 2) * 6"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 9186
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "计算器返回 9186。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "expected_answer": {
+        "kind": "calculator",
+        "value": 9186
+      }
+    }
+  },
+  {
+    "id": "dev-calculator-006",
+    "split": "dev",
+    "category": "calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "需要精确计算表达式 (1532 + 3) * 2，请使用算术工具。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"(1532 + 3) * 2\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":3070},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "计算器返回 3070。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "需要精确计算表达式 (1532 + 3) * 2，请使用算术工具。",
+      "react": [
+        {
+          "Thought": "使用受限计算器获得精确数值。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "(1532 + 3) * 2"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 3070
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "计算器返回 3070。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "expected_answer": {
+        "kind": "calculator",
+        "value": 3070
+      }
+    }
+  },
+  {
+    "id": "dev-calculator-007",
+    "split": "dev",
+    "category": "calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "不要心算：用 calculator 处理 (1535 + 4) * 3。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"(1535 + 4) * 3\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":4617},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "计算器返回 4617。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "不要心算：用 calculator 处理 (1535 + 4) * 3。",
+      "react": [
+        {
+          "Thought": "使用受限计算器获得精确数值。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "(1535 + 4) * 3"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 4617
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "计算器返回 4617。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "expected_answer": {
+        "kind": "calculator",
+        "value": 4617
+      }
+    }
+  },
+  {
+    "id": "dev-calculator-008",
+    "split": "dev",
+    "category": "calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "帮我核算 (1538 + 5) * 4，返回工具给出的数值。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"(1538 + 5) * 4\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":6172},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "计算器返回 6172。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "帮我核算 (1538 + 5) * 4，返回工具给出的数值。",
+      "react": [
+        {
+          "Thought": "使用受限计算器获得精确数值。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "(1538 + 5) * 4"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 6172
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "计算器返回 6172。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "expected_answer": {
+        "kind": "calculator",
+        "value": 6172
+      }
+    }
+  },
+  {
+    "id": "dev-knowledge-001",
+    "split": "dev",
+    "category": "knowledge_retrieval",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请在本地商品目录查询“高山键盘”。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"高山键盘\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"aliases\":[\"Alpine Keyboard\",\"高山静音键盘\"],\"description\":\"静音轴机械键盘。\",\"knowledge_base_sha256\":\"62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a\",\"match_type\":\"exact_name\",\"name\":\"高山键盘\",\"price_cny\":739,\"product_id\":\"alpine-keyboard\",\"shipping_cny\":0,\"stock\":11},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "目录记录：高山键盘，价格 739 元，库存 11。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "请在本地商品目录查询“高山键盘”。",
+      "react": [
+        {
+          "Thought": "固定目录事实必须由检索工具提供。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "高山键盘"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "product_id": "alpine-keyboard",
+              "name": "高山键盘",
+              "aliases": [
+                "Alpine Keyboard",
+                "高山静音键盘"
+              ],
+              "price_cny": 739,
+              "shipping_cny": 0,
+              "stock": 11,
+              "description": "静音轴机械键盘。",
+              "match_type": "exact_name",
+              "knowledge_base_sha256": "62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a"
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "目录记录：高山键盘，价格 739 元，库存 11。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "expected_answer": {
+        "kind": "knowledge",
+        "status": "success",
+        "product_id": "alpine-keyboard",
+        "name": "高山键盘",
+        "price_cny": 739,
+        "stock": 11
+      }
+    }
+  },
+  {
+    "id": "dev-knowledge-002",
+    "split": "dev",
+    "category": "knowledge_retrieval",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "我需要“雪松人体工学鼠标”的目录信息，请使用检索工具。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"雪松人体工学鼠标\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"aliases\":[\"Cedar Mouse\",\"雪松人体工学鼠标\"],\"description\":\"人体工学无线鼠标。\",\"knowledge_base_sha256\":\"62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a\",\"match_type\":\"exact_alias\",\"name\":\"雪松鼠标\",\"price_cny\":289,\"product_id\":\"cedar-mouse\",\"shipping_cny\":11,\"stock\":24},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "目录记录：雪松鼠标，价格 289 元，库存 24。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "我需要“雪松人体工学鼠标”的目录信息，请使用检索工具。",
+      "react": [
+        {
+          "Thought": "固定目录事实必须由检索工具提供。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "雪松人体工学鼠标"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "product_id": "cedar-mouse",
+              "name": "雪松鼠标",
+              "aliases": [
+                "Cedar Mouse",
+                "雪松人体工学鼠标"
+              ],
+              "price_cny": 289,
+              "shipping_cny": 11,
+              "stock": 24,
+              "description": "人体工学无线鼠标。",
+              "match_type": "exact_alias",
+              "knowledge_base_sha256": "62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a"
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "目录记录：雪松鼠标，价格 289 元，库存 24。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "expected_answer": {
+        "kind": "knowledge",
+        "status": "success",
+        "product_id": "cedar-mouse",
+        "name": "雪松鼠标",
+        "price_cny": 289,
+        "stock": 24
+      }
+    }
+  },
+  {
+    "id": "dev-knowledge-003",
+    "split": "dev",
+    "category": "knowledge_retrieval",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "帮我查一下固定商品库中的“Summit Headphones”。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"Summit Headphones\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"aliases\":[\"Summit Headphones\",\"峰顶监听耳机\"],\"description\":\"封闭式监听耳机。\",\"knowledge_base_sha256\":\"62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a\",\"match_type\":\"exact_alias\",\"name\":\"峰顶耳机\",\"price_cny\":999,\"product_id\":\"summit-headphones\",\"shipping_cny\":20,\"stock\":6},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "目录记录：峰顶耳机，价格 999 元，库存 6。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "帮我查一下固定商品库中的“Summit Headphones”。",
+      "react": [
+        {
+          "Thought": "固定目录事实必须由检索工具提供。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "Summit Headphones"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "product_id": "summit-headphones",
+              "name": "峰顶耳机",
+              "aliases": [
+                "Summit Headphones",
+                "峰顶监听耳机"
+              ],
+              "price_cny": 999,
+              "shipping_cny": 20,
+              "stock": 6,
+              "description": "封闭式监听耳机。",
+              "match_type": "exact_alias",
+              "knowledge_base_sha256": "62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a"
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "目录记录：峰顶耳机，价格 999 元，库存 6。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "expected_answer": {
+        "kind": "knowledge",
+        "status": "success",
+        "product_id": "summit-headphones",
+        "name": "峰顶耳机",
+        "price_cny": 999,
+        "stock": 6
+      }
+    }
+  },
+  {
+    "id": "dev-knowledge-004",
+    "split": "dev",
+    "category": "knowledge_retrieval",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请核对产品“山谷显示器”的价格与库存记录。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"山谷显示器\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"aliases\":[\"Valley Monitor\",\"山谷广色域屏\"],\"description\":\"27 英寸广色域显示器。\",\"knowledge_base_sha256\":\"62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a\",\"match_type\":\"exact_name\",\"name\":\"山谷显示器\",\"price_cny\":1399,\"product_id\":\"valley-monitor\",\"shipping_cny\":35,\"stock\":8},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "目录记录：山谷显示器，价格 1399 元，库存 8。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "请核对产品“山谷显示器”的价格与库存记录。",
+      "react": [
+        {
+          "Thought": "固定目录事实必须由检索工具提供。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "山谷显示器"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "product_id": "valley-monitor",
+              "name": "山谷显示器",
+              "aliases": [
+                "Valley Monitor",
+                "山谷广色域屏"
+              ],
+              "price_cny": 1399,
+              "shipping_cny": 35,
+              "stock": 8,
+              "description": "27 英寸广色域显示器。",
+              "match_type": "exact_name",
+              "knowledge_base_sha256": "62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a"
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "目录记录：山谷显示器，价格 1399 元，库存 8。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "expected_answer": {
+        "kind": "knowledge",
+        "status": "success",
+        "product_id": "valley-monitor",
+        "name": "山谷显示器",
+        "price_cny": 1399,
+        "stock": 8
+      }
+    }
+  },
+  {
+    "id": "dev-knowledge-005",
+    "split": "dev",
+    "category": "knowledge_retrieval",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请在本地商品目录查询“Ridge Webcam”。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"Ridge Webcam\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"aliases\":[\"Ridge Webcam\",\"山脊会议摄像头\"],\"description\":\"2K 自动对焦会议摄像头。\",\"knowledge_base_sha256\":\"62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a\",\"match_type\":\"exact_alias\",\"name\":\"山脊摄像头\",\"price_cny\":499,\"product_id\":\"ridge-webcam\",\"shipping_cny\":0,\"stock\":15},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "目录记录：山脊摄像头，价格 499 元，库存 15。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "请在本地商品目录查询“Ridge Webcam”。",
+      "react": [
+        {
+          "Thought": "固定目录事实必须由检索工具提供。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "Ridge Webcam"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "product_id": "ridge-webcam",
+              "name": "山脊摄像头",
+              "aliases": [
+                "Ridge Webcam",
+                "山脊会议摄像头"
+              ],
+              "price_cny": 499,
+              "shipping_cny": 0,
+              "stock": 15,
+              "description": "2K 自动对焦会议摄像头。",
+              "match_type": "exact_alias",
+              "knowledge_base_sha256": "62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a"
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "目录记录：山脊摄像头，价格 499 元，库存 15。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "expected_answer": {
+        "kind": "knowledge",
+        "status": "success",
+        "product_id": "ridge-webcam",
+        "name": "山脊摄像头",
+        "price_cny": 499,
+        "stock": 15
+      }
+    }
+  },
+  {
+    "id": "dev-knowledge-006",
+    "split": "dev",
+    "category": "knowledge_retrieval",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "我需要“森林 Mesh 路由器”的目录信息，请使用检索工具。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"森林 Mesh 路由器\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"aliases\":[\"Forest Router\",\"森林 Mesh 路由器\"],\"description\":\"家庭 Mesh 无线路由器。\",\"knowledge_base_sha256\":\"62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a\",\"match_type\":\"exact_alias\",\"name\":\"森林路由器\",\"price_cny\":429,\"product_id\":\"forest-router\",\"shipping_cny\":16,\"stock\":19},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "目录记录：森林路由器，价格 429 元，库存 19。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "我需要“森林 Mesh 路由器”的目录信息，请使用检索工具。",
+      "react": [
+        {
+          "Thought": "固定目录事实必须由检索工具提供。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "森林 Mesh 路由器"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "product_id": "forest-router",
+              "name": "森林路由器",
+              "aliases": [
+                "Forest Router",
+                "森林 Mesh 路由器"
+              ],
+              "price_cny": 429,
+              "shipping_cny": 16,
+              "stock": 19,
+              "description": "家庭 Mesh 无线路由器。",
+              "match_type": "exact_alias",
+              "knowledge_base_sha256": "62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a"
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "目录记录：森林路由器，价格 429 元，库存 19。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "expected_answer": {
+        "kind": "knowledge",
+        "status": "success",
+        "product_id": "forest-router",
+        "name": "森林路由器",
+        "price_cny": 429,
+        "stock": 19
+      }
+    }
+  },
+  {
+    "id": "dev-knowledge-007",
+    "split": "dev",
+    "category": "knowledge_retrieval",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "帮我查一下固定商品库中的“高山键盘”。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"高山键盘\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"aliases\":[\"Alpine Keyboard\",\"高山静音键盘\"],\"description\":\"静音轴机械键盘。\",\"knowledge_base_sha256\":\"62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a\",\"match_type\":\"exact_name\",\"name\":\"高山键盘\",\"price_cny\":739,\"product_id\":\"alpine-keyboard\",\"shipping_cny\":0,\"stock\":11},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "目录记录：高山键盘，价格 739 元，库存 11。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "帮我查一下固定商品库中的“高山键盘”。",
+      "react": [
+        {
+          "Thought": "固定目录事实必须由检索工具提供。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "高山键盘"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "product_id": "alpine-keyboard",
+              "name": "高山键盘",
+              "aliases": [
+                "Alpine Keyboard",
+                "高山静音键盘"
+              ],
+              "price_cny": 739,
+              "shipping_cny": 0,
+              "stock": 11,
+              "description": "静音轴机械键盘。",
+              "match_type": "exact_name",
+              "knowledge_base_sha256": "62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a"
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "目录记录：高山键盘，价格 739 元，库存 11。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "expected_answer": {
+        "kind": "knowledge",
+        "status": "success",
+        "product_id": "alpine-keyboard",
+        "name": "高山键盘",
+        "price_cny": 739,
+        "stock": 11
+      }
+    }
+  },
+  {
+    "id": "dev-knowledge-008",
+    "split": "dev",
+    "category": "knowledge_retrieval",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请核对产品“雪松人体工学鼠标”的价格与库存记录。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"雪松人体工学鼠标\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"aliases\":[\"Cedar Mouse\",\"雪松人体工学鼠标\"],\"description\":\"人体工学无线鼠标。\",\"knowledge_base_sha256\":\"62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a\",\"match_type\":\"exact_alias\",\"name\":\"雪松鼠标\",\"price_cny\":289,\"product_id\":\"cedar-mouse\",\"shipping_cny\":11,\"stock\":24},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "目录记录：雪松鼠标，价格 289 元，库存 24。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "请核对产品“雪松人体工学鼠标”的价格与库存记录。",
+      "react": [
+        {
+          "Thought": "固定目录事实必须由检索工具提供。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "雪松人体工学鼠标"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "product_id": "cedar-mouse",
+              "name": "雪松鼠标",
+              "aliases": [
+                "Cedar Mouse",
+                "雪松人体工学鼠标"
+              ],
+              "price_cny": 289,
+              "shipping_cny": 11,
+              "stock": 24,
+              "description": "人体工学无线鼠标。",
+              "match_type": "exact_alias",
+              "knowledge_base_sha256": "62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a"
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "目录记录：雪松鼠标，价格 289 元，库存 24。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "expected_answer": {
+        "kind": "knowledge",
+        "status": "success",
+        "product_id": "cedar-mouse",
+        "name": "雪松鼠标",
+        "price_cny": 289,
+        "stock": 24
+      }
+    }
+  },
+  {
+    "id": "dev-code-001",
+    "split": "dev",
+    "category": "code_executor",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "只做 Python AST 静态检查，不执行下面源码：\ntotal_500 = 500 + 2\nlabel_500 = 'ok'"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"source\":\"total_500 = 500 + 2\\nlabel_500 = 'ok'\"},\"name\":\"code_executor\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"error_column\":null,\"error_line\":null,\"error_message\":null,\"max_depth\":4,\"node_count\":12,\"risk_nodes\":[],\"syntax_valid\":true},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "静态检查状态为 success，语法有效性为 True，错误码为 None，风险节点为 []。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "只做 Python AST 静态检查，不执行下面源码：\ntotal_500 = 500 + 2\nlabel_500 = 'ok'",
+      "react": [
+        {
+          "Thought": "源码只能进行 AST 静态检查。",
+          "Action": "code_executor",
+          "Action Input": {
+            "source": "total_500 = 500 + 2\nlabel_500 = 'ok'"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "syntax_valid": true,
+              "error_line": null,
+              "error_column": null,
+              "error_message": null,
+              "node_count": 12,
+              "max_depth": 4,
+              "risk_nodes": []
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "静态检查状态为 success，语法有效性为 True，错误码为 None，风险节点为 []。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "expected_answer": {
+        "kind": "code",
+        "status": "success",
+        "error_code": null,
+        "syntax_valid": true,
+        "risk_nodes": []
+      }
+    }
+  },
+  {
+    "id": "dev-code-002",
+    "split": "dev",
+    "category": "code_executor",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请用 CodeExecutor 审查这段源码，禁止运行：\ndef scale_501(number):\n    return number * 5"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"source\":\"def scale_501(number):\\n    return number * 5\"},\"name\":\"code_executor\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"error_column\":null,\"error_line\":null,\"error_message\":null,\"max_depth\":6,\"node_count\":10,\"risk_nodes\":[],\"syntax_valid\":true},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "静态检查状态为 success，语法有效性为 True，错误码为 None，风险节点为 []。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "请用 CodeExecutor 审查这段源码，禁止运行：\ndef scale_501(number):\n    return number * 5",
+      "react": [
+        {
+          "Thought": "源码只能进行 AST 静态检查。",
+          "Action": "code_executor",
+          "Action Input": {
+            "source": "def scale_501(number):\n    return number * 5"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "syntax_valid": true,
+              "error_line": null,
+              "error_column": null,
+              "error_message": null,
+              "node_count": 10,
+              "max_depth": 6,
+              "risk_nodes": []
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "静态检查状态为 success，语法有效性为 True，错误码为 None，风险节点为 []。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "expected_answer": {
+        "kind": "code",
+        "status": "success",
+        "error_code": null,
+        "syntax_valid": true,
+        "risk_nodes": []
+      }
+    }
+  },
+  {
+    "id": "dev-code-003",
+    "split": "dev",
+    "category": "code_executor",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "核对以下 Python 代码的语法和风险节点：\nitems_502 = [502, 503]\nsize_502 = len(items_502)"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"source\":\"items_502 = [502, 503]\\nsize_502 = len(items_502)\"},\"name\":\"code_executor\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"error_column\":null,\"error_line\":null,\"error_message\":null,\"max_depth\":5,\"node_count\":16,\"risk_nodes\":[\"Call\"],\"syntax_valid\":true},\"error_code\":\"risk_nodes_detected\",\"status\":\"rejected\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "静态检查状态为 rejected，语法有效性为 True，错误码为 risk_nodes_detected，风险节点为 ['Call']。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "核对以下 Python 代码的语法和风险节点：\nitems_502 = [502, 503]\nsize_502 = len(items_502)",
+      "react": [
+        {
+          "Thought": "源码只能进行 AST 静态检查。",
+          "Action": "code_executor",
+          "Action Input": {
+            "source": "items_502 = [502, 503]\nsize_502 = len(items_502)"
+          },
+          "Observation": {
+            "status": "rejected",
+            "data": {
+              "syntax_valid": true,
+              "error_line": null,
+              "error_column": null,
+              "error_message": null,
+              "node_count": 16,
+              "max_depth": 5,
+              "risk_nodes": [
+                "Call"
+              ]
+            },
+            "error_code": "risk_nodes_detected"
+          }
+        }
+      ],
+      "final": "静态检查状态为 rejected，语法有效性为 True，错误码为 risk_nodes_detected，风险节点为 ['Call']。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "expected_answer": {
+        "kind": "code",
+        "status": "rejected",
+        "error_code": "risk_nodes_detected",
+        "syntax_valid": true,
+        "risk_nodes": [
+          "Call"
+        ]
+      }
+    }
+  },
+  {
+    "id": "dev-code-004",
+    "split": "dev",
+    "category": "code_executor",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "对下面内容进行非执行式 AST 检查：\nvalue_503 ="
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"source\":\"value_503 =\"},\"name\":\"code_executor\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"error_column\":12,\"error_line\":1,\"error_message\":\"invalid syntax\",\"max_depth\":0,\"node_count\":0,\"risk_nodes\":[],\"syntax_valid\":false},\"error_code\":\"syntax_error\",\"status\":\"rejected\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "静态检查状态为 rejected，语法有效性为 False，错误码为 syntax_error，风险节点为 []。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "对下面内容进行非执行式 AST 检查：\nvalue_503 =",
+      "react": [
+        {
+          "Thought": "源码只能进行 AST 静态检查。",
+          "Action": "code_executor",
+          "Action Input": {
+            "source": "value_503 ="
+          },
+          "Observation": {
+            "status": "rejected",
+            "data": {
+              "syntax_valid": false,
+              "error_line": 1,
+              "error_column": 12,
+              "error_message": "invalid syntax",
+              "node_count": 0,
+              "max_depth": 0,
+              "risk_nodes": []
+            },
+            "error_code": "syntax_error"
+          }
+        }
+      ],
+      "final": "静态检查状态为 rejected，语法有效性为 False，错误码为 syntax_error，风险节点为 []。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "expected_answer": {
+        "kind": "code",
+        "status": "rejected",
+        "error_code": "syntax_error",
+        "syntax_valid": false,
+        "risk_nodes": []
+      }
+    }
+  },
+  {
+    "id": "dev-code-005",
+    "split": "dev",
+    "category": "code_executor",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "只做 Python AST 静态检查，不执行下面源码：\nimport os\nmarker_504 = 'static-only'"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"source\":\"import os\\nmarker_504 = 'static-only'\"},\"name\":\"code_executor\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"error_column\":null,\"error_line\":null,\"error_message\":null,\"max_depth\":4,\"node_count\":7,\"risk_nodes\":[\"Import\"],\"syntax_valid\":true},\"error_code\":\"risk_nodes_detected\",\"status\":\"rejected\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "静态检查状态为 rejected，语法有效性为 True，错误码为 risk_nodes_detected，风险节点为 ['Import']。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "只做 Python AST 静态检查，不执行下面源码：\nimport os\nmarker_504 = 'static-only'",
+      "react": [
+        {
+          "Thought": "源码只能进行 AST 静态检查。",
+          "Action": "code_executor",
+          "Action Input": {
+            "source": "import os\nmarker_504 = 'static-only'"
+          },
+          "Observation": {
+            "status": "rejected",
+            "data": {
+              "syntax_valid": true,
+              "error_line": null,
+              "error_column": null,
+              "error_message": null,
+              "node_count": 7,
+              "max_depth": 4,
+              "risk_nodes": [
+                "Import"
+              ]
+            },
+            "error_code": "risk_nodes_detected"
+          }
+        }
+      ],
+      "final": "静态检查状态为 rejected，语法有效性为 True，错误码为 risk_nodes_detected，风险节点为 ['Import']。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "expected_answer": {
+        "kind": "code",
+        "status": "rejected",
+        "error_code": "risk_nodes_detected",
+        "syntax_valid": true,
+        "risk_nodes": [
+          "Import"
+        ]
+      }
+    }
+  },
+  {
+    "id": "dev-code-006",
+    "split": "dev",
+    "category": "code_executor",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请用 CodeExecutor 审查这段源码，禁止运行：\nrecord_505.field = 505"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"source\":\"record_505.field = 505\"},\"name\":\"code_executor\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"error_column\":null,\"error_line\":null,\"error_message\":null,\"max_depth\":5,\"node_count\":7,\"risk_nodes\":[\"Attribute\"],\"syntax_valid\":true},\"error_code\":\"risk_nodes_detected\",\"status\":\"rejected\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "静态检查状态为 rejected，语法有效性为 True，错误码为 risk_nodes_detected，风险节点为 ['Attribute']。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "请用 CodeExecutor 审查这段源码，禁止运行：\nrecord_505.field = 505",
+      "react": [
+        {
+          "Thought": "源码只能进行 AST 静态检查。",
+          "Action": "code_executor",
+          "Action Input": {
+            "source": "record_505.field = 505"
+          },
+          "Observation": {
+            "status": "rejected",
+            "data": {
+              "syntax_valid": true,
+              "error_line": null,
+              "error_column": null,
+              "error_message": null,
+              "node_count": 7,
+              "max_depth": 5,
+              "risk_nodes": [
+                "Attribute"
+              ]
+            },
+            "error_code": "risk_nodes_detected"
+          }
+        }
+      ],
+      "final": "静态检查状态为 rejected，语法有效性为 True，错误码为 risk_nodes_detected，风险节点为 ['Attribute']。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "expected_answer": {
+        "kind": "code",
+        "status": "rejected",
+        "error_code": "risk_nodes_detected",
+        "syntax_valid": true,
+        "risk_nodes": [
+          "Attribute"
+        ]
+      }
+    }
+  },
+  {
+    "id": "dev-code-007",
+    "split": "dev",
+    "category": "code_executor",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "核对以下 Python 代码的语法和风险节点：\ntotal_506 = 506 + 2\nlabel_506 = 'ok'"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"source\":\"total_506 = 506 + 2\\nlabel_506 = 'ok'\"},\"name\":\"code_executor\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"error_column\":null,\"error_line\":null,\"error_message\":null,\"max_depth\":4,\"node_count\":12,\"risk_nodes\":[],\"syntax_valid\":true},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "静态检查状态为 success，语法有效性为 True，错误码为 None，风险节点为 []。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "核对以下 Python 代码的语法和风险节点：\ntotal_506 = 506 + 2\nlabel_506 = 'ok'",
+      "react": [
+        {
+          "Thought": "源码只能进行 AST 静态检查。",
+          "Action": "code_executor",
+          "Action Input": {
+            "source": "total_506 = 506 + 2\nlabel_506 = 'ok'"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "syntax_valid": true,
+              "error_line": null,
+              "error_column": null,
+              "error_message": null,
+              "node_count": 12,
+              "max_depth": 4,
+              "risk_nodes": []
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "静态检查状态为 success，语法有效性为 True，错误码为 None，风险节点为 []。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "expected_answer": {
+        "kind": "code",
+        "status": "success",
+        "error_code": null,
+        "syntax_valid": true,
+        "risk_nodes": []
+      }
+    }
+  },
+  {
+    "id": "dev-code-008",
+    "split": "dev",
+    "category": "code_executor",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "对下面内容进行非执行式 AST 检查：\ndef scale_507(number):\n    return number * 4"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"source\":\"def scale_507(number):\\n    return number * 4\"},\"name\":\"code_executor\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"error_column\":null,\"error_line\":null,\"error_message\":null,\"max_depth\":6,\"node_count\":10,\"risk_nodes\":[],\"syntax_valid\":true},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "静态检查状态为 success，语法有效性为 True，错误码为 None，风险节点为 []。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "对下面内容进行非执行式 AST 检查：\ndef scale_507(number):\n    return number * 4",
+      "react": [
+        {
+          "Thought": "源码只能进行 AST 静态检查。",
+          "Action": "code_executor",
+          "Action Input": {
+            "source": "def scale_507(number):\n    return number * 4"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "syntax_valid": true,
+              "error_line": null,
+              "error_column": null,
+              "error_message": null,
+              "node_count": 10,
+              "max_depth": 6,
+              "risk_nodes": []
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "静态检查状态为 success，语法有效性为 True，错误码为 None，风险节点为 []。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "expected_answer": {
+        "kind": "code",
+        "status": "success",
+        "error_code": null,
+        "syntax_valid": true,
+        "risk_nodes": []
+      }
+    }
+  },
+  {
+    "id": "dev-budget-001",
+    "split": "dev",
+    "category": "knowledge_plus_calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "查询“高山键盘”的商品价和运费，用计算器求总价，并与 619 元预算比较。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"高山键盘\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"aliases\":[\"Alpine Keyboard\",\"高山静音键盘\"],\"description\":\"静音轴机械键盘。\",\"knowledge_base_sha256\":\"62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a\",\"match_type\":\"exact_name\",\"name\":\"高山键盘\",\"price_cny\":739,\"product_id\":\"alpine-keyboard\",\"shipping_cny\":0,\"stock\":11},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"739 + 0\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":739},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "高山键盘商品价 739 元，运费 0 元，总价 739 元，与 619 元预算关系为 above，差额 120 元。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "查询“高山键盘”的商品价和运费，用计算器求总价，并与 619 元预算比较。",
+      "react": [
+        {
+          "Thought": "先读取商品价和运费。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "高山键盘"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "product_id": "alpine-keyboard",
+              "name": "高山键盘",
+              "aliases": [
+                "Alpine Keyboard",
+                "高山静音键盘"
+              ],
+              "price_cny": 739,
+              "shipping_cny": 0,
+              "stock": 11,
+              "description": "静音轴机械键盘。",
+              "match_type": "exact_name",
+              "knowledge_base_sha256": "62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a"
+            },
+            "error_code": null
+          }
+        },
+        {
+          "Thought": "使用检索结果中的两个金额计算总价。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "739 + 0"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 739
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "高山键盘商品价 739 元，运费 0 元，总价 739 元，与 619 元预算关系为 above，差额 120 元。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "expected_answer": {
+        "kind": "budget",
+        "product_id": "alpine-keyboard",
+        "name": "高山键盘",
+        "price_cny": 739,
+        "shipping_cny": 0,
+        "total_cny": 739,
+        "budget_cny": 619,
+        "relation": "above",
+        "difference_cny": 120
+      }
+    }
+  },
+  {
+    "id": "dev-budget-002",
+    "split": "dev",
+    "category": "knowledge_plus_calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请先检索“Cedar Mouse”，再计算落地价，判断是否超过 300 元。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"Cedar Mouse\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"aliases\":[\"Cedar Mouse\",\"雪松人体工学鼠标\"],\"description\":\"人体工学无线鼠标。\",\"knowledge_base_sha256\":\"62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a\",\"match_type\":\"exact_alias\",\"name\":\"雪松鼠标\",\"price_cny\":289,\"product_id\":\"cedar-mouse\",\"shipping_cny\":11,\"stock\":24},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"289 + 11\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":300},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "雪松鼠标商品价 289 元，运费 11 元，总价 300 元，与 300 元预算关系为 equal，差额 0 元。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "请先检索“Cedar Mouse”，再计算落地价，判断是否超过 300 元。",
+      "react": [
+        {
+          "Thought": "先读取商品价和运费。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "Cedar Mouse"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "product_id": "cedar-mouse",
+              "name": "雪松鼠标",
+              "aliases": [
+                "Cedar Mouse",
+                "雪松人体工学鼠标"
+              ],
+              "price_cny": 289,
+              "shipping_cny": 11,
+              "stock": 24,
+              "description": "人体工学无线鼠标。",
+              "match_type": "exact_alias",
+              "knowledge_base_sha256": "62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a"
+            },
+            "error_code": null
+          }
+        },
+        {
+          "Thought": "使用检索结果中的两个金额计算总价。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "289 + 11"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 300
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "雪松鼠标商品价 289 元，运费 11 元，总价 300 元，与 300 元预算关系为 equal，差额 0 元。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "expected_answer": {
+        "kind": "budget",
+        "product_id": "cedar-mouse",
+        "name": "雪松鼠标",
+        "price_cny": 289,
+        "shipping_cny": 11,
+        "total_cny": 300,
+        "budget_cny": 300,
+        "relation": "equal",
+        "difference_cny": 0
+      }
+    }
+  },
+  {
+    "id": "dev-budget-003",
+    "split": "dev",
+    "category": "knowledge_plus_calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "核对“峰顶耳机”到手总额：目录检索后必须调用 calculator，并对照 1104 元预算。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"峰顶耳机\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"aliases\":[\"Summit Headphones\",\"峰顶监听耳机\"],\"description\":\"封闭式监听耳机。\",\"knowledge_base_sha256\":\"62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a\",\"match_type\":\"exact_name\",\"name\":\"峰顶耳机\",\"price_cny\":999,\"product_id\":\"summit-headphones\",\"shipping_cny\":20,\"stock\":6},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"999 + 20\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":1019},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "峰顶耳机商品价 999 元，运费 20 元，总价 1019 元，与 1104 元预算关系为 below，差额 85 元。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "核对“峰顶耳机”到手总额：目录检索后必须调用 calculator，并对照 1104 元预算。",
+      "react": [
+        {
+          "Thought": "先读取商品价和运费。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "峰顶耳机"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "product_id": "summit-headphones",
+              "name": "峰顶耳机",
+              "aliases": [
+                "Summit Headphones",
+                "峰顶监听耳机"
+              ],
+              "price_cny": 999,
+              "shipping_cny": 20,
+              "stock": 6,
+              "description": "封闭式监听耳机。",
+              "match_type": "exact_name",
+              "knowledge_base_sha256": "62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a"
+            },
+            "error_code": null
+          }
+        },
+        {
+          "Thought": "使用检索结果中的两个金额计算总价。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "999 + 20"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 1019
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "峰顶耳机商品价 999 元，运费 20 元，总价 1019 元，与 1104 元预算关系为 below，差额 85 元。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "expected_answer": {
+        "kind": "budget",
+        "product_id": "summit-headphones",
+        "name": "峰顶耳机",
+        "price_cny": 999,
+        "shipping_cny": 20,
+        "total_cny": 1019,
+        "budget_cny": 1104,
+        "relation": "below",
+        "difference_cny": 85
+      }
+    }
+  },
+  {
+    "id": "dev-budget-004",
+    "split": "dev",
+    "category": "knowledge_plus_calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "我有 1594 元预算；请查“Valley Monitor”并计算商品价加运费后的差额。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"Valley Monitor\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"aliases\":[\"Valley Monitor\",\"山谷广色域屏\"],\"description\":\"27 英寸广色域显示器。\",\"knowledge_base_sha256\":\"62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a\",\"match_type\":\"exact_alias\",\"name\":\"山谷显示器\",\"price_cny\":1399,\"product_id\":\"valley-monitor\",\"shipping_cny\":35,\"stock\":8},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"1399 + 35\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":1434},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "山谷显示器商品价 1399 元，运费 35 元，总价 1434 元，与 1594 元预算关系为 below，差额 160 元。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "我有 1594 元预算；请查“Valley Monitor”并计算商品价加运费后的差额。",
+      "react": [
+        {
+          "Thought": "先读取商品价和运费。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "Valley Monitor"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "product_id": "valley-monitor",
+              "name": "山谷显示器",
+              "aliases": [
+                "Valley Monitor",
+                "山谷广色域屏"
+              ],
+              "price_cny": 1399,
+              "shipping_cny": 35,
+              "stock": 8,
+              "description": "27 英寸广色域显示器。",
+              "match_type": "exact_alias",
+              "knowledge_base_sha256": "62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a"
+            },
+            "error_code": null
+          }
+        },
+        {
+          "Thought": "使用检索结果中的两个金额计算总价。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "1399 + 35"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 1434
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "山谷显示器商品价 1399 元，运费 35 元，总价 1434 元，与 1594 元预算关系为 below，差额 160 元。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "expected_answer": {
+        "kind": "budget",
+        "product_id": "valley-monitor",
+        "name": "山谷显示器",
+        "price_cny": 1399,
+        "shipping_cny": 35,
+        "total_cny": 1434,
+        "budget_cny": 1594,
+        "relation": "below",
+        "difference_cny": 160
+      }
+    }
+  },
+  {
+    "id": "dev-budget-005",
+    "split": "dev",
+    "category": "knowledge_plus_calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "查询“山脊摄像头”的商品价和运费，用计算器求总价，并与 379 元预算比较。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"山脊摄像头\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"aliases\":[\"Ridge Webcam\",\"山脊会议摄像头\"],\"description\":\"2K 自动对焦会议摄像头。\",\"knowledge_base_sha256\":\"62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a\",\"match_type\":\"exact_name\",\"name\":\"山脊摄像头\",\"price_cny\":499,\"product_id\":\"ridge-webcam\",\"shipping_cny\":0,\"stock\":15},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"499 + 0\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":499},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "山脊摄像头商品价 499 元，运费 0 元，总价 499 元，与 379 元预算关系为 above，差额 120 元。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "查询“山脊摄像头”的商品价和运费，用计算器求总价，并与 379 元预算比较。",
+      "react": [
+        {
+          "Thought": "先读取商品价和运费。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "山脊摄像头"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "product_id": "ridge-webcam",
+              "name": "山脊摄像头",
+              "aliases": [
+                "Ridge Webcam",
+                "山脊会议摄像头"
+              ],
+              "price_cny": 499,
+              "shipping_cny": 0,
+              "stock": 15,
+              "description": "2K 自动对焦会议摄像头。",
+              "match_type": "exact_name",
+              "knowledge_base_sha256": "62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a"
+            },
+            "error_code": null
+          }
+        },
+        {
+          "Thought": "使用检索结果中的两个金额计算总价。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "499 + 0"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 499
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "山脊摄像头商品价 499 元，运费 0 元，总价 499 元，与 379 元预算关系为 above，差额 120 元。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "expected_answer": {
+        "kind": "budget",
+        "product_id": "ridge-webcam",
+        "name": "山脊摄像头",
+        "price_cny": 499,
+        "shipping_cny": 0,
+        "total_cny": 499,
+        "budget_cny": 379,
+        "relation": "above",
+        "difference_cny": 120
+      }
+    }
+  },
+  {
+    "id": "dev-budget-006",
+    "split": "dev",
+    "category": "knowledge_plus_calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请先检索“Forest Router”，再计算落地价，判断是否超过 445 元。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"Forest Router\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"aliases\":[\"Forest Router\",\"森林 Mesh 路由器\"],\"description\":\"家庭 Mesh 无线路由器。\",\"knowledge_base_sha256\":\"62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a\",\"match_type\":\"exact_alias\",\"name\":\"森林路由器\",\"price_cny\":429,\"product_id\":\"forest-router\",\"shipping_cny\":16,\"stock\":19},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"429 + 16\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":445},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "森林路由器商品价 429 元，运费 16 元，总价 445 元，与 445 元预算关系为 equal，差额 0 元。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "请先检索“Forest Router”，再计算落地价，判断是否超过 445 元。",
+      "react": [
+        {
+          "Thought": "先读取商品价和运费。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "Forest Router"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "product_id": "forest-router",
+              "name": "森林路由器",
+              "aliases": [
+                "Forest Router",
+                "森林 Mesh 路由器"
+              ],
+              "price_cny": 429,
+              "shipping_cny": 16,
+              "stock": 19,
+              "description": "家庭 Mesh 无线路由器。",
+              "match_type": "exact_alias",
+              "knowledge_base_sha256": "62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a"
+            },
+            "error_code": null
+          }
+        },
+        {
+          "Thought": "使用检索结果中的两个金额计算总价。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "429 + 16"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 445
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "森林路由器商品价 429 元，运费 16 元，总价 445 元，与 445 元预算关系为 equal，差额 0 元。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "expected_answer": {
+        "kind": "budget",
+        "product_id": "forest-router",
+        "name": "森林路由器",
+        "price_cny": 429,
+        "shipping_cny": 16,
+        "total_cny": 445,
+        "budget_cny": 445,
+        "relation": "equal",
+        "difference_cny": 0
+      }
+    }
+  },
+  {
+    "id": "dev-budget-007",
+    "split": "dev",
+    "category": "knowledge_plus_calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "核对“高山键盘”到手总额：目录检索后必须调用 calculator，并对照 824 元预算。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"高山键盘\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"aliases\":[\"Alpine Keyboard\",\"高山静音键盘\"],\"description\":\"静音轴机械键盘。\",\"knowledge_base_sha256\":\"62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a\",\"match_type\":\"exact_name\",\"name\":\"高山键盘\",\"price_cny\":739,\"product_id\":\"alpine-keyboard\",\"shipping_cny\":0,\"stock\":11},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"739 + 0\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":739},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "高山键盘商品价 739 元，运费 0 元，总价 739 元，与 824 元预算关系为 below，差额 85 元。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "核对“高山键盘”到手总额：目录检索后必须调用 calculator，并对照 824 元预算。",
+      "react": [
+        {
+          "Thought": "先读取商品价和运费。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "高山键盘"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "product_id": "alpine-keyboard",
+              "name": "高山键盘",
+              "aliases": [
+                "Alpine Keyboard",
+                "高山静音键盘"
+              ],
+              "price_cny": 739,
+              "shipping_cny": 0,
+              "stock": 11,
+              "description": "静音轴机械键盘。",
+              "match_type": "exact_name",
+              "knowledge_base_sha256": "62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a"
+            },
+            "error_code": null
+          }
+        },
+        {
+          "Thought": "使用检索结果中的两个金额计算总价。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "739 + 0"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 739
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "高山键盘商品价 739 元，运费 0 元，总价 739 元，与 824 元预算关系为 below，差额 85 元。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "expected_answer": {
+        "kind": "budget",
+        "product_id": "alpine-keyboard",
+        "name": "高山键盘",
+        "price_cny": 739,
+        "shipping_cny": 0,
+        "total_cny": 739,
+        "budget_cny": 824,
+        "relation": "below",
+        "difference_cny": 85
+      }
+    }
+  },
+  {
+    "id": "dev-budget-008",
+    "split": "dev",
+    "category": "knowledge_plus_calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "我有 460 元预算；请查“Cedar Mouse”并计算商品价加运费后的差额。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"Cedar Mouse\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"aliases\":[\"Cedar Mouse\",\"雪松人体工学鼠标\"],\"description\":\"人体工学无线鼠标。\",\"knowledge_base_sha256\":\"62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a\",\"match_type\":\"exact_alias\",\"name\":\"雪松鼠标\",\"price_cny\":289,\"product_id\":\"cedar-mouse\",\"shipping_cny\":11,\"stock\":24},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"289 + 11\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":300},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "雪松鼠标商品价 289 元，运费 11 元，总价 300 元，与 460 元预算关系为 below，差额 160 元。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "我有 460 元预算；请查“Cedar Mouse”并计算商品价加运费后的差额。",
+      "react": [
+        {
+          "Thought": "先读取商品价和运费。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "Cedar Mouse"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "product_id": "cedar-mouse",
+              "name": "雪松鼠标",
+              "aliases": [
+                "Cedar Mouse",
+                "雪松人体工学鼠标"
+              ],
+              "price_cny": 289,
+              "shipping_cny": 11,
+              "stock": 24,
+              "description": "人体工学无线鼠标。",
+              "match_type": "exact_alias",
+              "knowledge_base_sha256": "62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a"
+            },
+            "error_code": null
+          }
+        },
+        {
+          "Thought": "使用检索结果中的两个金额计算总价。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "289 + 11"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 300
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "雪松鼠标商品价 289 元，运费 11 元，总价 300 元，与 460 元预算关系为 below，差额 160 元。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "expected_answer": {
+        "kind": "budget",
+        "product_id": "cedar-mouse",
+        "name": "雪松鼠标",
+        "price_cny": 289,
+        "shipping_cny": 11,
+        "total_cny": 300,
+        "budget_cny": 460,
+        "relation": "below",
+        "difference_cny": 160
+      }
+    }
+  },
+  {
+    "id": "dev-budget-009",
+    "split": "dev",
+    "category": "knowledge_plus_calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "查询“峰顶耳机”的商品价和运费，用计算器求总价，并与 899 元预算比较。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"峰顶耳机\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"aliases\":[\"Summit Headphones\",\"峰顶监听耳机\"],\"description\":\"封闭式监听耳机。\",\"knowledge_base_sha256\":\"62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a\",\"match_type\":\"exact_name\",\"name\":\"峰顶耳机\",\"price_cny\":999,\"product_id\":\"summit-headphones\",\"shipping_cny\":20,\"stock\":6},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"999 + 20\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":1019},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "峰顶耳机商品价 999 元，运费 20 元，总价 1019 元，与 899 元预算关系为 above，差额 120 元。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "查询“峰顶耳机”的商品价和运费，用计算器求总价，并与 899 元预算比较。",
+      "react": [
+        {
+          "Thought": "先读取商品价和运费。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "峰顶耳机"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "product_id": "summit-headphones",
+              "name": "峰顶耳机",
+              "aliases": [
+                "Summit Headphones",
+                "峰顶监听耳机"
+              ],
+              "price_cny": 999,
+              "shipping_cny": 20,
+              "stock": 6,
+              "description": "封闭式监听耳机。",
+              "match_type": "exact_name",
+              "knowledge_base_sha256": "62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a"
+            },
+            "error_code": null
+          }
+        },
+        {
+          "Thought": "使用检索结果中的两个金额计算总价。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "999 + 20"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 1019
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "峰顶耳机商品价 999 元，运费 20 元，总价 1019 元，与 899 元预算关系为 above，差额 120 元。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "expected_answer": {
+        "kind": "budget",
+        "product_id": "summit-headphones",
+        "name": "峰顶耳机",
+        "price_cny": 999,
+        "shipping_cny": 20,
+        "total_cny": 1019,
+        "budget_cny": 899,
+        "relation": "above",
+        "difference_cny": 120
+      }
+    }
+  },
+  {
+    "id": "dev-budget-010",
+    "split": "dev",
+    "category": "knowledge_plus_calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请先检索“Valley Monitor”，再计算落地价，判断是否超过 1434 元。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"Valley Monitor\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"aliases\":[\"Valley Monitor\",\"山谷广色域屏\"],\"description\":\"27 英寸广色域显示器。\",\"knowledge_base_sha256\":\"62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a\",\"match_type\":\"exact_alias\",\"name\":\"山谷显示器\",\"price_cny\":1399,\"product_id\":\"valley-monitor\",\"shipping_cny\":35,\"stock\":8},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"1399 + 35\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":1434},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "山谷显示器商品价 1399 元，运费 35 元，总价 1434 元，与 1434 元预算关系为 equal，差额 0 元。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "请先检索“Valley Monitor”，再计算落地价，判断是否超过 1434 元。",
+      "react": [
+        {
+          "Thought": "先读取商品价和运费。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "Valley Monitor"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "product_id": "valley-monitor",
+              "name": "山谷显示器",
+              "aliases": [
+                "Valley Monitor",
+                "山谷广色域屏"
+              ],
+              "price_cny": 1399,
+              "shipping_cny": 35,
+              "stock": 8,
+              "description": "27 英寸广色域显示器。",
+              "match_type": "exact_alias",
+              "knowledge_base_sha256": "62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a"
+            },
+            "error_code": null
+          }
+        },
+        {
+          "Thought": "使用检索结果中的两个金额计算总价。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "1399 + 35"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 1434
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "山谷显示器商品价 1399 元，运费 35 元，总价 1434 元，与 1434 元预算关系为 equal，差额 0 元。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "expected_answer": {
+        "kind": "budget",
+        "product_id": "valley-monitor",
+        "name": "山谷显示器",
+        "price_cny": 1399,
+        "shipping_cny": 35,
+        "total_cny": 1434,
+        "budget_cny": 1434,
+        "relation": "equal",
+        "difference_cny": 0
+      }
+    }
+  },
+  {
+    "id": "dev-recovery-001",
+    "split": "dev",
+    "category": "recovery_or_termination",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请用计算器处理 501 / 0；若被拒绝，报告错误码并停止。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"501 / 0\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{},\"error_code\":\"division_by_zero\",\"status\":\"rejected\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "工具状态为 rejected，错误码为 division_by_zero，任务已终止。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "请用计算器处理 501 / 0；若被拒绝，报告错误码并停止。",
+      "react": [
+        {
+          "Thought": "执行一次真实计算器调用，拒绝后终止。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "501 / 0"
+          },
+          "Observation": {
+            "status": "rejected",
+            "data": {},
+            "error_code": "division_by_zero"
+          }
+        }
+      ],
+      "final": "工具状态为 rejected，错误码为 division_by_zero，任务已终止。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "terminates_after_tool_error": true,
+      "expected_answer": {
+        "kind": "recovery",
+        "status": "rejected",
+        "error_code": "division_by_zero"
+      }
+    }
+  },
+  {
+    "id": "dev-recovery-002",
+    "split": "dev",
+    "category": "recovery_or_termination",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "在本地目录检索“未收录设备-dev-502”；若未找到，报告状态并停止。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"未收录设备-dev-502\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"query\":\"未收录设备-dev-502\"},\"error_code\":\"not_found\",\"status\":\"not_found\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "工具状态为 not_found，错误码为 not_found，任务已终止。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "在本地目录检索“未收录设备-dev-502”；若未找到，报告状态并停止。",
+      "react": [
+        {
+          "Thought": "执行一次真实目录检索，未命中后终止。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "未收录设备-dev-502"
+          },
+          "Observation": {
+            "status": "not_found",
+            "data": {
+              "query": "未收录设备-dev-502"
+            },
+            "error_code": "not_found"
+          }
+        }
+      ],
+      "final": "工具状态为 not_found，错误码为 not_found，任务已终止。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "terminates_after_tool_error": true,
+      "expected_answer": {
+        "kind": "recovery",
+        "status": "not_found",
+        "error_code": "not_found"
+      }
+    }
+  },
+  {
+    "id": "dev-recovery-003",
+    "split": "dev",
+    "category": "recovery_or_termination",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "只做 AST 静态检查，不执行下面源码；若拒绝，报告错误码并停止：\nimport os\nflag_503 = 'audit'"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"source\":\"import os\\nflag_503 = 'audit'\"},\"name\":\"code_executor\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"error_column\":null,\"error_line\":null,\"error_message\":null,\"max_depth\":4,\"node_count\":7,\"risk_nodes\":[\"Import\"],\"syntax_valid\":true},\"error_code\":\"risk_nodes_detected\",\"status\":\"rejected\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "工具状态为 rejected，错误码为 risk_nodes_detected，任务已终止。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "只做 AST 静态检查，不执行下面源码；若拒绝，报告错误码并停止：\nimport os\nflag_503 = 'audit'",
+      "react": [
+        {
+          "Thought": "执行一次真实 AST 检查，拒绝后终止。",
+          "Action": "code_executor",
+          "Action Input": {
+            "source": "import os\nflag_503 = 'audit'"
+          },
+          "Observation": {
+            "status": "rejected",
+            "data": {
+              "syntax_valid": true,
+              "error_line": null,
+              "error_column": null,
+              "error_message": null,
+              "node_count": 7,
+              "max_depth": 4,
+              "risk_nodes": [
+                "Import"
+              ]
+            },
+            "error_code": "risk_nodes_detected"
+          }
+        }
+      ],
+      "final": "工具状态为 rejected，错误码为 risk_nodes_detected，任务已终止。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "terminates_after_tool_error": true,
+      "expected_answer": {
+        "kind": "recovery",
+        "status": "rejected",
+        "error_code": "risk_nodes_detected"
+      }
+    }
+  },
+  {
+    "id": "dev-recovery-004",
+    "split": "dev",
+    "category": "recovery_or_termination",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请用计算器处理 504 / 0；若被拒绝，报告错误码并停止。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"504 / 0\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{},\"error_code\":\"division_by_zero\",\"status\":\"rejected\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "工具状态为 rejected，错误码为 division_by_zero，任务已终止。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "请用计算器处理 504 / 0；若被拒绝，报告错误码并停止。",
+      "react": [
+        {
+          "Thought": "执行一次真实计算器调用，拒绝后终止。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "504 / 0"
+          },
+          "Observation": {
+            "status": "rejected",
+            "data": {},
+            "error_code": "division_by_zero"
+          }
+        }
+      ],
+      "final": "工具状态为 rejected，错误码为 division_by_zero，任务已终止。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "terminates_after_tool_error": true,
+      "expected_answer": {
+        "kind": "recovery",
+        "status": "rejected",
+        "error_code": "division_by_zero"
+      }
+    }
+  },
+  {
+    "id": "dev-recovery-005",
+    "split": "dev",
+    "category": "recovery_or_termination",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "在本地目录检索“未收录设备-dev-505”；若未找到，报告状态并停止。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"未收录设备-dev-505\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"query\":\"未收录设备-dev-505\"},\"error_code\":\"not_found\",\"status\":\"not_found\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "工具状态为 not_found，错误码为 not_found，任务已终止。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "在本地目录检索“未收录设备-dev-505”；若未找到，报告状态并停止。",
+      "react": [
+        {
+          "Thought": "执行一次真实目录检索，未命中后终止。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "未收录设备-dev-505"
+          },
+          "Observation": {
+            "status": "not_found",
+            "data": {
+              "query": "未收录设备-dev-505"
+            },
+            "error_code": "not_found"
+          }
+        }
+      ],
+      "final": "工具状态为 not_found，错误码为 not_found，任务已终止。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "terminates_after_tool_error": true,
+      "expected_answer": {
+        "kind": "recovery",
+        "status": "not_found",
+        "error_code": "not_found"
+      }
+    }
+  },
+  {
+    "id": "dev-recovery-006",
+    "split": "dev",
+    "category": "recovery_or_termination",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "只做 AST 静态检查，不执行下面源码；若拒绝，报告错误码并停止：\nimport os\nflag_506 = 'audit'"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"source\":\"import os\\nflag_506 = 'audit'\"},\"name\":\"code_executor\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"error_column\":null,\"error_line\":null,\"error_message\":null,\"max_depth\":4,\"node_count\":7,\"risk_nodes\":[\"Import\"],\"syntax_valid\":true},\"error_code\":\"risk_nodes_detected\",\"status\":\"rejected\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "工具状态为 rejected，错误码为 risk_nodes_detected，任务已终止。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "只做 AST 静态检查，不执行下面源码；若拒绝，报告错误码并停止：\nimport os\nflag_506 = 'audit'",
+      "react": [
+        {
+          "Thought": "执行一次真实 AST 检查，拒绝后终止。",
+          "Action": "code_executor",
+          "Action Input": {
+            "source": "import os\nflag_506 = 'audit'"
+          },
+          "Observation": {
+            "status": "rejected",
+            "data": {
+              "syntax_valid": true,
+              "error_line": null,
+              "error_column": null,
+              "error_message": null,
+              "node_count": 7,
+              "max_depth": 4,
+              "risk_nodes": [
+                "Import"
+              ]
+            },
+            "error_code": "risk_nodes_detected"
+          }
+        }
+      ],
+      "final": "工具状态为 rejected，错误码为 risk_nodes_detected，任务已终止。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "terminates_after_tool_error": true,
+      "expected_answer": {
+        "kind": "recovery",
+        "status": "rejected",
+        "error_code": "risk_nodes_detected"
+      }
+    }
+  }
+]

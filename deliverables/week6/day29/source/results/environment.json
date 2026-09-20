@@ -1,0 +1,21 @@
+{
+  "python": "3.10.20",
+  "python_executable": "/root/autodl-tmp/conda/envs/llm_exp/bin/python3.10",
+  "packages": {
+    "langchain": "0.3.30",
+    "langchain_community": "0.3.31",
+    "langchain_core": "0.3.86",
+    "langgraph": "0.6.11",
+    "langgraph_prebuilt": "0.6.5",
+    "pydantic": "2.13.4",
+    "peft": "0.15.1",
+    "transformers": "4.50.0",
+    "torch": "2.5.1+cu121"
+  },
+  "create_react_agent": {
+    "module": "langgraph.prebuilt.chat_agent_executor",
+    "name": "create_react_agent",
+    "callable": true
+  },
+  "evidence_sha256": "b1bafa7d5484a4e5c637a9addb2f8263f9f1d53337bab20d40e90fdebdcf16cb"
+}

@@ -1,0 +1,6 @@
+@TEXT_POSTPROCESSORS.register_module('first-capital')
+def first_capital_postprocess(text: str) -> str:
+    for t in text:
+        if t.isupper():
+            return t
+    return ''

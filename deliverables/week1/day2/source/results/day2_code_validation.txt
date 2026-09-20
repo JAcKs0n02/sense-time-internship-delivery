@@ -1,0 +1,34 @@
+F                                                    [100%]
+========================= FAILURES =========================
+______________________ test_lru_cache ______________________
+
+    def test_lru_cache():
+        cache = LRUCache(2)
+    
+        # 测试 put 操作
+        cache.put(1, 1)
+        cache.put(2, 2)
+        assert cache.get(1) == 1  # 返回 1
+        cache.put(3, 3)  # 该操作会使得键 2 被移除，因为它的使用次数最少
+        assert cache.get(2) == -1  # 返回 -1 (未找到)
+    
+        # 测试 get 操作
+        cache.put(4, 4)  # 该操作会使得键 1 被移除，因为它的使用次数最少
+        assert cache.get(1) == -1  # 返回 -1 (未找到)
+        assert cache.get(3) == 3  # 返回 3
+        assert cache.get(4) == 4  # 返回 4
+    
+        # 测试缓存容量已满的情况
+        cache.put(5, 5)
+        assert cache.get(2) == -1  # 返回 -1 (未找到)
+>       assert cache.get(3) == 3  # 返回 3
+E       assert -1 == 3
+E        +  where -1 = get(3)
+E        +    where get = <day2_generated_lru.LRUCache object at 0x7fb044b00b80>.get
+
+artifacts/day2_generated_lru.py:44: AssertionError
+================= short test summary info ==================
+FAILED artifacts/day2_generated_lru.py::test_lru_cache - ...
+1 failed in 0.05s
+__CODE_SYNTAX_EXIT__=0
+__CODE_PYTEST_EXIT__=1

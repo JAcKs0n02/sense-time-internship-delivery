@@ -1,0 +1,68 @@
+[
+  {
+    "id": "ceval:advanced_mathematics:val:13",
+    "question": "已知曲线C是圆$(x-1)^{2}+(y-6)^{2}=25$上从点$A(1,1)$沿逆时针方向到$B(4,2)$的一段弧，则$\\oint_{C}(3\\ln(1+y)+5x^{2})\\mathrm{d}x+\\Bigl({\\frac{3x}{1+y}}-2y\\Bigr)\\mathrm{d}y=$____",
+    "intended": "已知曲线C是圆$(x-1)^{2}+(y-6)^{2}=25$上从点$A(1,1)$沿逆时针方向到$B(4,2)$的一段弧，则$\\oint_{C}(3\\ln(1+y)+5x^{2})\\mathrm{d}x+\\Bigl({\\frac{3x}{1+y}}-2y\\Bigr)\\mathrm{d}y=$____\nA. $108+3\\ln\\Bigl(\\frac{27}{2}\\Bigr)$\nB. $3\\ln\\left(\\dfrac{81}{2}\\right)-102$\nC. $102+3\\ln\\Bigl(\\frac{81}{2}\\Bigr)$\nD. $3\\ln\\left(\\dfrac{27}{2}\\right)-97$",
+    "sequential_substitution": "已知曲线C是圆$(x-1)^{2}+(y-6)^{2}=25$上从点$A(1,1)$沿逆时针方向到$B(4,2)$的一段弧，则$\\oint_$102+3\\ln\\Bigl(\\frac{81}{2}\\Bigr)$(3\\ln(1+y)+5x^{2})\\mathrm{d}x+\\Bigl({\\frac{3x}{1+y}}-2y\\Bigr)\\mathrm{d}y=$____\nA. $108+3\\ln\\Bigl(\\frac{27}{2}\\Bigr)$\nB. $3\\ln\\left(\\dfrac{81}{2}\\right)-102$\nC. $102+3\\ln\\Bigl(\\frac{81}{2}\\Bigr)$\nD. $3\\ln\\left(\\dfrac{27}{2}\\right)-97$"
+  },
+  {
+    "id": "ceval:probability_and_statistics:val:8",
+    "question": "$$\n\\text{设}0<P(A)<1，0<P(B)<1\\text{，}\n$$\n$P(A\\mid B)+P(\\bar{A}\\mid\\bar{B})=1$，则____",
+    "intended": "$$\n\\text{设}0<P(A)<1，0<P(B)<1\\text{，}\n$$\n$P(A\\mid B)+P(\\bar{A}\\mid\\bar{B})=1$，则____\nA. 事件A和B互不相容\nB. 事件A和B互相对立\nC. 事件A和B互不独立\nD. 事件A和B相互独立",
+    "sequential_substitution": "$$\n\\text{设}0<P(A)<1，0<P(B)<1\\text{，}\n$$\n$P(A\\mid B)+P(\\bar事件A和B互不相容\\mid\\bar事件A和B互相对立)=1$，则____\nA. 事件A和B互不相容\nB. 事件A和B互相对立\nC. 事件A和B互不独立\nD. 事件A和B相互独立"
+  },
+  {
+    "id": "ceval:probability_and_statistics:val:16",
+    "question": "设$X_1,X_1,\\cdots X_8$为来自总体$X\\sim N\\left(\\mu_1,1\\right)$的简单样本,$\\bar{X},S_1^2$分別是其对应的样本均值与样本方差。$Y_1,Y_1,\\cdots,Y_7$为来自总$Y\\sim N\\left(\\mu_2,1\\right)$的简单样本,$\\bar{Y},S_2^2$分别是其对应的样本均值与样本方差。下列选项正确的是：____",
+    "intended": "设$X_1,X_1,\\cdots X_8$为来自总体$X\\sim N\\left(\\mu_1,1\\right)$的简单样本,$\\bar{X},S_1^2$分別是其对应的样本均值与样本方差。$Y_1,Y_1,\\cdots,Y_7$为来自总$Y\\sim N\\left(\\mu_2,1\\right)$的简单样本,$\\bar{Y},S_2^2$分别是其对应的样本均值与样本方差。下列选项正确的是：____\nA. $\\sum_{i=1}^8\\left(X_i-\\mu_1\\right)^2+\\sum_{i=1}^7\\left(Y_i-\\mu_2\\right)^2 \\sim \\chi^2(15)$\nB. $E\\left(\\sum_{i=1}^8\\left(X_i-\\mu_1\\right)^2+\\sum_{i=1}^7\\left(Y_i-\\mu_2\\right)^2\\right)=15$\nC. $\\mathrm{D}(\\bar{X}+\\bar{Y})=\\frac{1}{8}+\\frac{1}{7}$\nD. $\\bar{X}-\\bar{Y} \\sim \\mathrm{N}\\left(\\mu_1-\\mu_2, \\frac{1}{8}+\\frac{1}{7}\\right)$",
+    "sequential_substitution": "设$X_1,X_1,\\cdots X_8$为来自总体$X\\sim N\\left(\\mu_1,1\\right)$的简单样本,$\\bar{X},S_1^2$分別是其对应的样本均值与样本方差。$Y_1,Y_1,\\cdots,Y_7$为来自总$Y\\sim N\\left(\\mu_2,1\\right)$的简单样本,$\\bar{Y},S_2^2$分别是其对应的样本均值与样本方差。下列选项正确的是：____\nA. $\\sum_{i=1}^8\\left(X_i-\\mu_1\\right)^2+\\sum_{i=1}^7\\left(Y_i-\\mu_2\\right)^2 \\sim \\chi^2(15)$\nB. $E\\left(\\sum_{i=1}^8\\left(X_i-\\mu_1\\right)^2+\\sum_{i=1}^7\\left(Y_i-\\mu_2\\right)^2\\right)=15$\nC. $\\mathrm$\\bar{X}-\\bar{Y} \\sim \\mathrm{N}\\left(\\mu_1-\\mu_2, \\frac{1}{8}+\\frac{1}{7}\\right)$(\\bar{X}+\\bar{Y})=\\frac{1}{8}+\\frac{1}{7}$\nD. $\\bar{X}-\\bar{Y} \\sim \\mathrm{N}\\left(\\mu_1-\\mu_2, \\frac{1}{8}+\\frac{1}{7}\\right)$"
+  },
+  {
+    "id": "cmmlu:college_mathematics:test:56",
+    "question": "设 3 阶矩阵 $\\boldsymbol{A}=\\left(\\begin{array}{lll}a & b & b \\\\ b & a & b \\\\ b & b & a\\end{array}\\right)$， 若 $\\boldsymbol{A}$ 的伴随矩阵的秩为 1 ， 则必有 ( )",
+    "intended": "设 3 阶矩阵 $\\boldsymbol{A}=\\left(\\begin{array}{lll}a & b & b \\\\ b & a & b \\\\ b & b & a\\end{array}\\right)$， 若 $\\boldsymbol{A}$ 的伴随矩阵的秩为 1 ， 则必有 ( )\nA. $a=b$ 或 $a+2 b=0$\nB. $a \\neq b$ 且 $a+2 b=0$\nC. $a=b$ 或 $a+2 b \\neq 0$\nD. $a \\neq b$ 且 $a+2 b \\neq 0$",
+    "sequential_substitution": "设 3 阶矩阵 $\\boldsymbol$a=b$ 或 $a+2 b=0$=\\left(\\begin{array}{lll}a & b & b \\\\ b & a & b \\\\ b & b & a\\end{array}\\right)$， 若 $\\boldsymbol$a=b$ 或 $a+2 b=0$$ 的伴随矩阵的秩为 1 ， 则必有 ( )\nA. $a=b$ 或 $a+2 b=0$\nB. $a \\neq b$ 且 $a+2 b=0$\nC. $a=b$ 或 $a+2 b \\neq 0$\nD. $a \\neq b$ 且 $a+2 b \\neq 0$"
+  },
+  {
+    "id": "cmmlu:college_mathematics:test:63",
+    "question": "设 $\\boldsymbol{A}$ 是 $m \\times n$ 阶矩阵， $\\boldsymbol{B}$ 是 $n \\times m$ 阶矩阵， 则 $($ )",
+    "intended": "设 $\\boldsymbol{A}$ 是 $m \\times n$ 阶矩阵， $\\boldsymbol{B}$ 是 $n \\times m$ 阶矩阵， 则 $($ )\nA. 当 $m>n$ 时， 必有 $|\\boldsymbol{A} \\boldsymbol{B}| \\neq 0$\nB. 当 $n>m$ 时， 必有 $|\\boldsymbol{A} \\boldsymbol{B}|=0$\nC. 当 $m>n$ 时， 必有 $|\\boldsymbol{A} \\boldsymbol{B}|=0$\nD. 当 $n>m$ 时， 必有 $|\\boldsymbol{A} \\boldsymbol{B}| \\neq 0$",
+    "sequential_substitution": "设 $\\boldsymbol当 $m>n$ 时， 必有 $|\\boldsymbol{A} \\boldsymbol当 $n>m$ 时， 必有 $|\\boldsymbol{A} \\boldsymbol{B}|=0$| \\neq 0$$ 是 $m \\times n$ 阶矩阵， $\\boldsymbol当 $n>m$ 时， 必有 $|\\boldsymbol{A} \\boldsymbol{B}|=0$$ 是 $n \\times m$ 阶矩阵， 则 $($ )\nA. 当 $m>n$ 时， 必有 $|\\boldsymbol{A} \\boldsymbol当 $n>m$ 时， 必有 $|\\boldsymbol{A} \\boldsymbol{B}|=0$| \\neq 0$\nB. 当 $n>m$ 时， 必有 $|\\boldsymbol{A} \\boldsymbol{B}|=0$\nC. 当 $m>n$ 时， 必有 $|\\boldsymbol{A} \\boldsymbol{B}|=0$\nD. 当 $n>m$ 时， 必有 $|\\boldsymbol{A} \\boldsymbol{B}| \\neq 0$"
+  },
+  {
+    "id": "cmmlu:college_mathematics:test:77",
+    "question": "设 $\\boldsymbol{A}， \\boldsymbol{B}$ 均为 2 阶矩阵， $\\boldsymbol{A}^*， \\boldsymbol{B}^*$ 分别为 $\\boldsymbol{A}， \\boldsymbol{B}$ 的伴随矩阵， 若 $|\\boldsymbol{A}|=2，|\\boldsymbol{B}|=3$， 则分块矩阵 $\\left(\\begin{array}{ll}\\boldsymbol{O} & \\boldsymbol{A} \\\\ \\boldsymbol{B} & \\boldsymbol{O}\\end{array})$ 的伴随矩阵为",
+    "intended": "设 $\\boldsymbol{A}， \\boldsymbol{B}$ 均为 2 阶矩阵， $\\boldsymbol{A}^*， \\boldsymbol{B}^*$ 分别为 $\\boldsymbol{A}， \\boldsymbol{B}$ 的伴随矩阵， 若 $|\\boldsymbol{A}|=2，|\\boldsymbol{B}|=3$， 则分块矩阵 $\\left(\\begin{array}{ll}\\boldsymbol{O} & \\boldsymbol{A} \\\\ \\boldsymbol{B} & \\boldsymbol{O}\\end{array})$ 的伴随矩阵为\nA. $(\\begin{array}{cc}\\boldsymbol{O} & 3 \\boldsymbol{B}^* \\\\ 2 \\boldsymbol{A}^* & \\boldsymbol{O}\\end{array})$;\nB. $(\\begin{array}{cc}O & 2 B^* \\\\ 3 A^* & O\\end{array})$;\nC. $(\\begin{array}{cc}\\boldsymbol{O} & 3 \\boldsymbol{A}^* \\\\ 2 \\boldsymbol{B}^* & \\boldsymbol{O}\\end{array})$;\nD. $(\\begin{array}{cc}\\boldsymbol{O} & 2 \\boldsymbol{A}^* \\\\ 3 \\boldsymbol{B}^* & \\boldsymbol{O}\\end{array})$",
+    "sequential_substitution": "设 $\\boldsymbol$(\\begin{array}{cc}\\boldsymbol{O} & 3 \\boldsymbol$(\\begin{array}{cc}O & 2 B^* \\\\ 3 A^* & O\\end{array})$;^* \\\\ 2 \\boldsymbol{A}^* & \\boldsymbol{O}\\end{array})$;， \\boldsymbol$(\\begin{array}{cc}O & 2 B^* \\\\ 3 A^* & O\\end{array})$;$ 均为 2 阶矩阵， $\\boldsymbol$(\\begin{array}{cc}\\boldsymbol{O} & 3 \\boldsymbol$(\\begin{array}{cc}O & 2 B^* \\\\ 3 A^* & O\\end{array})$;^* \\\\ 2 \\boldsymbol{A}^* & \\boldsymbol{O}\\end{array})$;^*， \\boldsymbol$(\\begin{array}{cc}O & 2 B^* \\\\ 3 A^* & O\\end{array})$;^*$ 分别为 $\\boldsymbol$(\\begin{array}{cc}\\boldsymbol{O} & 3 \\boldsymbol$(\\begin{array}{cc}O & 2 B^* \\\\ 3 A^* & O\\end{array})$;^* \\\\ 2 \\boldsymbol{A}^* & \\boldsymbol{O}\\end{array})$;， \\boldsymbol$(\\begin{array}{cc}O & 2 B^* \\\\ 3 A^* & O\\end{array})$;$ 的伴随矩阵， 若 $|\\boldsymbol$(\\begin{array}{cc}\\boldsymbol{O} & 3 \\boldsymbol$(\\begin{array}{cc}O & 2 B^* \\\\ 3 A^* & O\\end{array})$;^* \\\\ 2 \\boldsymbol{A}^* & \\boldsymbol{O}\\end{array})$;|=2，|\\boldsymbol$(\\begin{array}{cc}O & 2 B^* \\\\ 3 A^* & O\\end{array})$;|=3$， 则分块矩阵 $\\left(\\begin{array}{ll}\\boldsymbol{O} & \\boldsymbol$(\\begin{array}{cc}\\boldsymbol{O} & 3 \\boldsymbol$(\\begin{array}{cc}O & 2 B^* \\\\ 3 A^* & O\\end{array})$;^* \\\\ 2 \\boldsymbol{A}^* & \\boldsymbol{O}\\end{array})$; \\\\ \\boldsymbol$(\\begin{array}{cc}O & 2 B^* \\\\ 3 A^* & O\\end{array})$; & \\boldsymbol{O}\\end{array})$ 的伴随矩阵为\nA. $(\\begin{array}{cc}\\boldsymbol{O} & 3 \\boldsymbol$(\\begin{array}{cc}O & 2 B^* \\\\ 3 A^* & O\\end{array})$;^* \\\\ 2 \\boldsymbol{A}^* & \\boldsymbol{O}\\end{array})$;\nB. $(\\begin{array}{cc}O & 2 B^* \\\\ 3 A^* & O\\end{array})$;\nC. $(\\begin{array}{cc}\\boldsymbol{O} & 3 \\boldsymbol{A}^* \\\\ 2 \\boldsymbol{B}^* & \\boldsymbol{O}\\end{array})$;\nD. $(\\begin{array}{cc}\\boldsymbol{O} & 2 \\boldsymbol{A}^* \\\\ 3 \\boldsymbol{B}^* & \\boldsymbol{O}\\end{array})$"
+  },
+  {
+    "id": "cmmlu:college_mathematics:test:79",
+    "question": "设 $\\boldsymbol{A}， \\boldsymbol{B}$ 为满足 $\\boldsymbol{A} \\boldsymbol{B}=\\boldsymbol{O}$ 的任意两个非零矩阵， 则必有",
+    "intended": "设 $\\boldsymbol{A}， \\boldsymbol{B}$ 为满足 $\\boldsymbol{A} \\boldsymbol{B}=\\boldsymbol{O}$ 的任意两个非零矩阵， 则必有\nA. $\\boldsymbol{A}$ 的列向量组线性相关， $\\boldsymbol{B}$ 的列向量组线性相关.\nB. $\\boldsymbol{A}$ 的行向量组线性相关， $\\boldsymbol{B}$ 的列向量组线性相关.\nC. $\\boldsymbol{A}$ 的列向量组线性相关， $\\boldsymbol{B}$ 的行向量组线性相关.\nD. $\\boldsymbol{A}$ 的行向量组线性相关， $\\boldsymbol{B}$ 的行向量组线性相关.",
+    "sequential_substitution": "设 $\\boldsymbol$\\boldsymbol{A}$ 的列向量组线性相关， $\\boldsymbol$\\boldsymbol{A}$ 的行向量组线性相关， $\\boldsymbol{B}$ 的列向量组线性相关.$ 的列向量组线性相关.， \\boldsymbol$\\boldsymbol{A}$ 的行向量组线性相关， $\\boldsymbol{B}$ 的列向量组线性相关.$ 为满足 $\\boldsymbol$\\boldsymbol{A}$ 的列向量组线性相关， $\\boldsymbol$\\boldsymbol{A}$ 的行向量组线性相关， $\\boldsymbol{B}$ 的列向量组线性相关.$ 的列向量组线性相关. \\boldsymbol$\\boldsymbol{A}$ 的行向量组线性相关， $\\boldsymbol{B}$ 的列向量组线性相关.=\\boldsymbol{O}$ 的任意两个非零矩阵， 则必有\nA. $\\boldsymbol{A}$ 的列向量组线性相关， $\\boldsymbol$\\boldsymbol{A}$ 的行向量组线性相关， $\\boldsymbol{B}$ 的列向量组线性相关.$ 的列向量组线性相关.\nB. $\\boldsymbol{A}$ 的行向量组线性相关， $\\boldsymbol{B}$ 的列向量组线性相关.\nC. $\\boldsymbol{A}$ 的列向量组线性相关， $\\boldsymbol{B}$ 的行向量组线性相关.\nD. $\\boldsymbol{A}$ 的行向量组线性相关， $\\boldsymbol{B}$ 的行向量组线性相关."
+  },
+  {
+    "id": "cmmlu:college_mathematics:test:83",
+    "question": "对于任意两个事件 $A$ 和 $B$， 与 $A \\bigcup B=B$ 不等价的是（）",
+    "intended": "对于任意两个事件 $A$ 和 $B$， 与 $A \\bigcup B=B$ 不等价的是（）\nA. $\\bar{B} \\subset \\bar{A}$\nB. $A \\bar{B}=\\varnothing$\nC. $A \\subset B$\nD. $\\bar{A} B=\\varnothing$",
+    "sequential_substitution": "对于任意两个事件 $A$ 和 $B$， 与 $A \\bigcup B=B$ 不等价的是（）\nA. $\\bar$A \\bar{B}=\\varnothing$ \\subset \\bar{A}$\nB. $A \\bar{B}=\\varnothing$\nC. $A \\subset B$\nD. $\\bar{A} B=\\varnothing$"
+  },
+  {
+    "id": "cmmlu:college_medical_statistics:test:7",
+    "question": "为观察药物$A、B$对某病治愈率的差异有无显著性意义，某医生将100例该病患者随机分成两组，其中一组40人，服用A药;另一组60人，服用B药。结果发现，服用$\\mathrm{A}$药的人中有30人治愈;服用B药的人中有11人治愈。应选用的统计学方法是:",
+    "intended": "为观察药物$A、B$对某病治愈率的差异有无显著性意义，某医生将100例该病患者随机分成两组，其中一组40人，服用A药;另一组60人，服用B药。结果发现，服用$\\mathrm{A}$药的人中有30人治愈;服用B药的人中有11人治愈。应选用的统计学方法是:\nA. 回归分析\nB. 加权$\\chi^2$检验\nC. Kappa检验\nD. $\\chi^2$检验",
+    "sequential_substitution": "为观察药物$A、B$对某病治愈率的差异有无显著性意义，某医生将100例该病患者随机分成两组，其中一组40人，服用A药;另一组60人，服用B药。结果发现，服用$\\mathrm回归分析$药的人中有30人治愈;服用B药的人中有11人治愈。应选用的统计学方法是:\nA. 回归分析\nB. 加权$\\chi^2$检验\nC. Kappa检验\nD. $\\chi^2$检验"
+  },
+  {
+    "id": "cmmlu:high_school_mathematics:test:11",
+    "question": "在$\\bigtriangleup ABC$中，$cos\\frac{C}{2}=\\frac{\\sqrt{5}}{5},BC=1, AC=5$，则AB等于",
+    "intended": "在$\\bigtriangleup ABC$中，$cos\\frac{C}{2}=\\frac{\\sqrt{5}}{5},BC=1, AC=5$，则AB等于\nA. $2\\sqrt{5}$\nB. $4\\sqrt{2}$\nC. $\\sqrt{29}$\nD. $\\sqrt{30}$",
+    "sequential_substitution": "在$\\bigtriangleup ABC$中，$cos\\frac$\\sqrt{29}${2}=\\frac{\\sqrt{5}}{5},BC=1, AC=5$，则AB等于\nA. $2\\sqrt{5}$\nB. $4\\sqrt{2}$\nC. $\\sqrt{29}$\nD. $\\sqrt{30}$"
+  },
+  {
+    "id": "cmmlu:high_school_mathematics:test:53",
+    "question": "设$\\bigtriangleup ABC$的内角A，B，C所对边的长分别是a，b，c，且$f(A)=\\sqrt{3}sinA-2cos^{2}\\frac{A}{2}+3$，当函数f(A)取到最大值时$\\bigtriangleup ABC$的形状是",
+    "intended": "设$\\bigtriangleup ABC$的内角A，B，C所对边的长分别是a，b，c，且$f(A)=\\sqrt{3}sinA-2cos^{2}\\frac{A}{2}+3$，当函数f(A)取到最大值时$\\bigtriangleup ABC$的形状是\nA. 不确定\nB. 锐角三角形\nC. 钝角三角形\nD. 直角三角形",
+    "sequential_substitution": "设$\\bigtriangleup ABC$的内角A，B，C所对边的长分别是a，b，c，且$f(A)=\\sqrt{3}sinA-2cos^{2}\\frac不确定{2}+3$，当函数f(A)取到最大值时$\\bigtriangleup ABC$的形状是\nA. 不确定\nB. 锐角三角形\nC. 钝角三角形\nD. 直角三角形"
+  }
+]

@@ -1,0 +1,117 @@
+{
+  "status": "FORMAL_TRAINING_PASS_LOCAL_REVIEWED",
+  "evidence_files_verified": 90,
+  "frozen_inputs_rechecked": 40,
+  "successful_stage_processes": 10,
+  "stages": {
+    "sft": {
+      "steps": 1775,
+      "first_training_loss": 1.1983,
+      "last_training_loss": 0.3143,
+      "validation": [
+        {
+          "epoch": 1.0,
+          "eval_loss": 0.9285325407981873,
+          "eval_runtime": 32.4339,
+          "eval_samples_per_second": 4.871,
+          "eval_steps_per_second": 4.871,
+          "step": 356
+        },
+        {
+          "epoch": 2.0,
+          "eval_loss": 0.9940559267997742,
+          "eval_runtime": 32.3588,
+          "eval_samples_per_second": 4.883,
+          "eval_steps_per_second": 4.883,
+          "step": 712
+        },
+        {
+          "epoch": 3.0,
+          "eval_loss": 1.1665148735046387,
+          "eval_runtime": 32.3825,
+          "eval_samples_per_second": 4.879,
+          "eval_steps_per_second": 4.879,
+          "step": 1068
+        },
+        {
+          "epoch": 4.0,
+          "eval_loss": 1.3967657089233398,
+          "eval_runtime": 32.2707,
+          "eval_samples_per_second": 4.896,
+          "eval_steps_per_second": 4.896,
+          "step": 1424
+        },
+        {
+          "epoch": 4.987341772151899,
+          "eval_loss": 1.565837025642395,
+          "eval_runtime": 32.306,
+          "eval_samples_per_second": 4.891,
+          "eval_steps_per_second": 4.891,
+          "step": 1775
+        }
+      ],
+      "merged_tensors": 339,
+      "merged_shards": 4,
+      "cold_load": "PASS",
+      "optimizer_step_verified_on_target": 1775,
+      "adapter_sha256": "90a20b13130152a8602a1805f13ce96f6e89b58887c7e6eb4e3aa412f508c1d1",
+      "optimizer_sha256": "6d6efbd91752dd4b918f2e8b3e75e61c5f1d4746b12c2de809c6f51df0876886"
+    },
+    "dpo": {
+      "steps": 40,
+      "first_training_loss": 0.6931,
+      "last_training_loss": 0.6742,
+      "validation": [
+        {
+          "epoch": 0.20434227330779056,
+          "eval_logits/chosen": -0.8051095008850098,
+          "eval_logits/rejected": -0.9164268970489502,
+          "eval_logps/chosen": -330.925048828125,
+          "eval_logps/rejected": -227.16091918945312,
+          "eval_loss": 0.6883051991462708,
+          "eval_rewards/accuracies": 0.5517241358757019,
+          "eval_rewards/chosen": 0.016640540212392807,
+          "eval_rewards/margins": 0.011494424194097519,
+          "eval_rewards/rejected": 0.005146116483956575,
+          "eval_runtime": 61.8335,
+          "eval_samples_per_second": 1.407,
+          "eval_steps_per_second": 1.407,
+          "step": 20
+        },
+        {
+          "epoch": 0.4086845466155811,
+          "eval_logits/chosen": -0.8014258146286011,
+          "eval_logits/rejected": -0.9143040180206299,
+          "eval_logps/chosen": -330.38873291015625,
+          "eval_logps/rejected": -227.01405334472656,
+          "eval_loss": 0.6703808307647705,
+          "eval_rewards/accuracies": 0.7126436829566956,
+          "eval_rewards/chosen": 0.0702722817659378,
+          "eval_rewards/margins": 0.050436973571777344,
+          "eval_rewards/rejected": 0.019835302606225014,
+          "eval_runtime": 61.8478,
+          "eval_samples_per_second": 1.407,
+          "eval_steps_per_second": 1.407,
+          "step": 40
+        }
+      ],
+      "merged_tensors": 339,
+      "merged_shards": 4,
+      "cold_load": "PASS",
+      "optimizer_step_verified_on_target": 40,
+      "adapter_sha256": "1c90dcff70680640178c364e60012d5926401065099b369c55d5cf4d73a56d7a",
+      "optimizer_sha256": "92d2e8d9d3aab32f952ce4cf8f8d5e50fd52a8681a2d5b5e8cb4e77b4fe42397"
+    }
+  },
+  "final_gpu_processes": [],
+  "quality_evaluated": false,
+  "formal_evaluation_allowed": false,
+  "limits": [
+    "Binary adapter/optimizer/merged weights verified on target and remain there; local audit checks raw logs, metadata and receipts.",
+    "Rising SFT validation loss signals possible overfitting; no quality-improvement claim.",
+    "New model identities must be bound to new evaluation locks before benchmarks."
+  ],
+  "archive_sha256": "51c3ebf6c4829b024f074146d1646965d5a31312ddc0c93d70bd9cee727cdd6c",
+  "manifest_sha256": "9b8b902833affe2d9c308545a166661d2857766dba0a30f78d5331056d6fbb0d",
+  "review_script_sha256": "4271ae686d7ac205c5393f3db2bb66b05561815f5fe13d8c334f56503f588e0f"
+}

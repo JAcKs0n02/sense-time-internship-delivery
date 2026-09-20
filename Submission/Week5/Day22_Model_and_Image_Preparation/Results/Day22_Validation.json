@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "summary": {
+    "image_count": 5,
+    "unique_image_ids": 5,
+    "image_types": [
+      "handwritten_formula",
+      "logo",
+      "natural_scene",
+      "table_screenshot",
+      "ui_interface"
+    ],
+    "ground_truth_count": 5,
+    "remote_evidence": {
+      "evidence_file_count": 4,
+      "repository": "Qwen/Qwen2-VL-7B-Instruct",
+      "revision": "eed13092ef92e448dd6875b2a00151bd3f7db0ac",
+      "gpu": "NVIDIA GeForce RTX 3090",
+      "gpu_memory_total_mib": 24576,
+      "model_file_count": 17,
+      "weight_shards": 5,
+      "total_bytes": 16594403704,
+      "offline_smoke_status": "PASS",
+      "offline_smoke_output": "湖面上倒映着一座雪山，周围是茂密的森林。"
+    }
+  },
+  "checks": [
+    {
+      "check": "manifest_schema",
+      "status": "PASS"
+    },
+    {
+      "check": "exact_five_types",
+      "status": "PASS"
+    },
+    {
+      "check": "file_integrity",
+      "status": "PASS"
+    },
+    {
+      "check": "ground_truth",
+      "status": "PASS"
+    },
+    {
+      "check": "license_privacy",
+      "status": "PASS"
+    },
+    {
+      "check": "remote_environment",
+      "status": "PASS"
+    },
+    {
+      "check": "remote_model",
+      "status": "PASS"
+    },
+    {
+      "check": "offline_smoke",
+      "status": "PASS"
+    },
+    {
+      "check": "remote_evidence",
+      "status": "PASS"
+    }
+  ],
+  "errors": []
+}

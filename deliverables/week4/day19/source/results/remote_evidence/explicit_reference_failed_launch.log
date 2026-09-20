@@ -1,0 +1,356 @@
+[INFO|2026-08-12 11:10:42] llamafactory.hparams.parser:406 >> Process rank: 0, world size: 1, device: cuda:0, distributed training: False, compute dtype: torch.bfloat16
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:10:42,959 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:10:42,959 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:10:42,959 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:10:42,959 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:10:42,959 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:10:42,959 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:10:42,959 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2299] 2026-08-12 11:10:43,339 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|configuration_utils.py:696] 2026-08-12 11:10:43,340 >> loading configuration file /root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged/config.json
+[INFO|configuration_utils.py:770] 2026-08-12 11:10:43,341 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.52.4",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:10:43,342 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:10:43,342 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:10:43,342 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:10:43,342 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:10:43,342 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:10:43,342 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:10:43,342 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2299] 2026-08-12 11:10:43,732 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|2026-08-12 11:10:43] llamafactory.data.loader:143 >> Loading dataset week4_dpo_train.json...
+Converting format of dataset (num_proc=4):   0%|          | 0/639 [00:00<?, ? examples/s]Converting format of dataset (num_proc=4): 100%|██████████| 639/639 [00:00<00:00, 3820.00 examples/s]
+[INFO|2026-08-12 11:10:44] llamafactory.data.loader:143 >> Loading dataset week4_dpo_validation.json...
+Setting num_proc from 4 back to 1 for the train split to disable multiprocessing as it only contains one shard.
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 71 examples [00:00, 1677.49 examples/s]
+Converting format of dataset (num_proc=4):   0%|          | 0/71 [00:00<?, ? examples/s]Converting format of dataset (num_proc=4): 100%|██████████| 71/71 [00:00<00:00, 500.62 examples/s]
+Running tokenizer on dataset (num_proc=4):   0%|          | 0/639 [00:00<?, ? examples/s]Running tokenizer on dataset (num_proc=4):  25%|██▌       | 160/639 [00:00<00:02, 233.12 examples/s]Running tokenizer on dataset (num_proc=4):  50%|█████     | 320/639 [00:01<00:00, 321.83 examples/s]Running tokenizer on dataset (num_proc=4):  75%|███████▌  | 480/639 [00:01<00:00, 404.80 examples/s]Running tokenizer on dataset (num_proc=4): 100%|██████████| 639/639 [00:01<00:00, 435.52 examples/s]
+training example:
+chosen_input_ids:
+[151644, 8948, 198, 2610, 525, 1207, 16948, 11, 3465, 553, 54364, 14817, 13, 1446, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 14880, 102074, 2073, 7082, 64388, 230, 21894, 100359, 854, 61443, 104191, 98237, 99534, 66394, 3837, 100645, 102298, 100160, 5373, 31196, 33108, 106186, 100142, 1773, 151645, 198, 151644, 77091, 198, 16, 13, 74866, 106, 30844, 5122, 100692, 66394, 7082, 64388, 230, 21894, 100359, 30534, 100638, 103936, 8997, 17, 13, 69058, 5122, 100101, 11622, 100052, 107736, 50511, 99553, 113274, 105271, 5373, 105308, 66394, 33108, 30440, 48927, 9370, 105598, 76837, 3837, 104610, 104078, 28606, 90395, 46485, 30440, 71137, 32664, 9370, 65577, 8997, 18, 13, 18137, 36677, 50009, 100142, 5122, 67071, 102024, 101071, 81167, 106073, 57218, 105966, 104918, 101266, 1773, 151645, 198]
+chosen_inputs:
+<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+请围绕“API 版本控制”写一份简短说明，必须包含目标、输入和验收标准。<|im_end|>
+<|im_start|>assistant
+1. 目标：明确说明API 版本控制要解决的问题。
+2. 输入：弃用旧接口应提供迁移窗口、变更说明和可验证的替代路径，而不是立即删除，并保存可核对的记录。
+3. 验收标准：由独立检查确认结论与原始证据一致。<|im_end|>
+
+chosen_label_ids:
+[-100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 16, 13, 74866, 106, 30844, 5122, 100692, 66394, 7082, 64388, 230, 21894, 100359, 30534, 100638, 103936, 8997, 17, 13, 69058, 5122, 100101, 11622, 100052, 107736, 50511, 99553, 113274, 105271, 5373, 105308, 66394, 33108, 30440, 48927, 9370, 105598, 76837, 3837, 104610, 104078, 28606, 90395, 46485, 30440, 71137, 32664, 9370, 65577, 8997, 18, 13, 18137, 36677, 50009, 100142, 5122, 67071, 102024, 101071, 81167, 106073, 57218, 105966, 104918, 101266, 1773, 151645, 198]
+chosen_labels:
+1. 目标：明确说明API 版本控制要解决的问题。
+2. 输入：弃用旧接口应提供迁移窗口、变更说明和可验证的替代路径，而不是立即删除，并保存可核对的记录。
+3. 验收标准：由独立检查确认结论与原始证据一致。<|im_end|>
+
+rejected_input_ids:
+[151644, 8948, 198, 2610, 525, 1207, 16948, 11, 3465, 553, 54364, 14817, 13, 1446, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 14880, 102074, 2073, 7082, 64388, 230, 21894, 100359, 854, 61443, 104191, 98237, 99534, 66394, 3837, 100645, 102298, 100160, 5373, 31196, 33108, 106186, 100142, 1773, 151645, 198, 151644, 77091, 198, 100160, 5122, 54542, 7082, 64388, 230, 21894, 100359, 62926, 65577, 59151, 1773, 151645, 198]
+rejected_inputs:
+<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+请围绕“API 版本控制”写一份简短说明，必须包含目标、输入和验收标准。<|im_end|>
+<|im_start|>assistant
+目标：处理API 版本控制并记录结果。<|im_end|>
+
+rejected_label_ids:
+[-100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 100160, 5122, 54542, 7082, 64388, 230, 21894, 100359, 62926, 65577, 59151, 1773, 151645, 198]
+rejected_labels:
+目标：处理API 版本控制并记录结果。<|im_end|>
+
+Running tokenizer on dataset (num_proc=4):   0%|          | 0/71 [00:00<?, ? examples/s]Running tokenizer on dataset (num_proc=4):  25%|██▌       | 18/71 [00:00<00:01, 30.19 examples/s]Running tokenizer on dataset (num_proc=4):  51%|█████     | 36/71 [00:00<00:00, 52.02 examples/s]Running tokenizer on dataset (num_proc=4):  76%|███████▌  | 54/71 [00:00<00:00, 74.61 examples/s]Running tokenizer on dataset (num_proc=4): 100%|██████████| 71/71 [00:01<00:00, 86.58 examples/s]Running tokenizer on dataset (num_proc=4): 100%|██████████| 71/71 [00:01<00:00, 64.05 examples/s]
+[INFO|configuration_utils.py:696] 2026-08-12 11:10:48,381 >> loading configuration file /root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged/config.json
+[INFO|configuration_utils.py:770] 2026-08-12 11:10:48,385 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.52.4",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+eval example:
+chosen_input_ids:
+[151644, 8948, 198, 2610, 525, 1207, 16948, 11, 3465, 553, 54364, 14817, 13, 1446, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 14880, 102074, 2073, 74393, 118198, 854, 61443, 104191, 98237, 99534, 66394, 3837, 100645, 102298, 115489, 76095, 5373, 75117, 105652, 33108, 18397, 100301, 39907, 1773, 151645, 198, 151644, 77091, 198, 16, 13, 4891, 231, 235, 21596, 76095, 5122, 100692, 66394, 74393, 118198, 30534, 100638, 103936, 8997, 17, 13, 46750, 58522, 105652, 5122, 118198, 19108, 8903, 77128, 53153, 105598, 102005, 109713, 3837, 101043, 99912, 102005, 48927, 101901, 104022, 118198, 107769, 90395, 46485, 30440, 71137, 32664, 9370, 65577, 8997, 18, 13, 49602, 252, 100301, 39907, 5122, 67071, 102024, 101071, 81167, 106073, 57218, 105966, 104918, 101266, 1773, 151645, 198]
+chosen_inputs:
+<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+请围绕“数据库备份”写一份简短说明，必须包含前置条件、执行步骤和回滚方法。<|im_end|>
+<|im_start|>assistant
+1. 前置条件：明确说明数据库备份要解决的问题。
+2. 执行步骤：备份成功日志不能替代恢复演练，只有实际恢复验证才能证明备份可用，并保存可核对的记录。
+3. 回滚方法：由独立检查确认结论与原始证据一致。<|im_end|>
+
+chosen_label_ids:
+[-100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 16, 13, 4891, 231, 235, 21596, 76095, 5122, 100692, 66394, 74393, 118198, 30534, 100638, 103936, 8997, 17, 13, 46750, 58522, 105652, 5122, 118198, 19108, 8903, 77128, 53153, 105598, 102005, 109713, 3837, 101043, 99912, 102005, 48927, 101901, 104022, 118198, 107769, 90395, 46485, 30440, 71137, 32664, 9370, 65577, 8997, 18, 13, 49602, 252, 100301, 39907, 5122, 67071, 102024, 101071, 81167, 106073, 57218, 105966, 104918, 101266, 1773, 151645, 198]
+chosen_labels:
+1. 前置条件：明确说明数据库备份要解决的问题。
+2. 执行步骤：备份成功日志不能替代恢复演练，只有实际恢复验证才能证明备份可用，并保存可核对的记录。
+3. 回滚方法：由独立检查确认结论与原始证据一致。<|im_end|>
+
+rejected_input_ids:
+[151644, 8948, 198, 2610, 525, 1207, 16948, 11, 3465, 553, 54364, 14817, 13, 1446, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 14880, 102074, 2073, 74393, 118198, 854, 61443, 104191, 98237, 99534, 66394, 3837, 100645, 102298, 115489, 76095, 5373, 75117, 105652, 33108, 18397, 100301, 39907, 1773, 151645, 198, 151644, 77091, 198, 115489, 76095, 5122, 54542, 74393, 118198, 62926, 65577, 59151, 1773, 151645, 198]
+rejected_inputs:
+<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+请围绕“数据库备份”写一份简短说明，必须包含前置条件、执行步骤和回滚方法。<|im_end|>
+<|im_start|>assistant
+前置条件：处理数据库备份并记录结果。<|im_end|>
+
+rejected_label_ids:
+[-100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 115489, 76095, 5122, 54542, 74393, 118198, 62926, 65577, 59151, 1773, 151645, 198]
+rejected_labels:
+前置条件：处理数据库备份并记录结果。<|im_end|>
+
+[INFO|2026-08-12 11:10:48] llamafactory.model.model_utils.quantization:143 >> Quantizing model to 4 bit with bitsandbytes.
+[INFO|2026-08-12 11:10:48] llamafactory.model.model_utils.kv_cache:143 >> KV cache is disabled during training.
+[INFO|modeling_utils.py:1148] 2026-08-12 11:10:49,423 >> loading weights file /root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged/model.safetensors.index.json
+[INFO|modeling_utils.py:2241] 2026-08-12 11:10:49,424 >> Instantiating Qwen2ForCausalLM model under default dtype torch.bfloat16.
+[INFO|configuration_utils.py:1135] 2026-08-12 11:10:49,427 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "use_cache": false
+}
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:08,  2.72s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:05<00:05,  2.95s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:09<00:03,  3.05s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:11<00:00,  2.70s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:11<00:00,  2.79s/it]
+[INFO|modeling_utils.py:5131] 2026-08-12 11:11:00,724 >> All model checkpoint weights were used when initializing Qwen2ForCausalLM.
+
+[INFO|modeling_utils.py:5139] 2026-08-12 11:11:00,724 >> All the weights of Qwen2ForCausalLM were initialized from the model checkpoint at /root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use Qwen2ForCausalLM for predictions without further training.
+[INFO|configuration_utils.py:1088] 2026-08-12 11:11:00,726 >> loading configuration file /root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged/generation_config.json
+[INFO|configuration_utils.py:1135] 2026-08-12 11:11:00,727 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "do_sample": true,
+  "eos_token_id": [
+    151645,
+    151643
+  ],
+  "pad_token_id": 151643,
+  "repetition_penalty": 1.05,
+  "temperature": 0.7,
+  "top_k": 20,
+  "top_p": 0.8
+}
+
+[INFO|2026-08-12 11:11:00] llamafactory.model.model_utils.checkpointing:143 >> Upcasting layernorm weights in float32.
+[INFO|2026-08-12 11:11:00] llamafactory.model.model_utils.checkpointing:143 >> Gradient checkpointing enabled.
+[INFO|2026-08-12 11:11:00] llamafactory.model.model_utils.attention:143 >> Using torch SDPA for faster training and inference.
+[INFO|2026-08-12 11:11:00] llamafactory.model.adapter:143 >> Upcasting trainable params to float32.
+[INFO|2026-08-12 11:11:00] llamafactory.model.adapter:143 >> Fine-tuning method: LoRA
+[INFO|2026-08-12 11:11:00] llamafactory.model.model_utils.misc:143 >> Found linear modules: v_proj,o_proj,gate_proj,k_proj,up_proj,q_proj,down_proj
+[INFO|2026-08-12 11:11:01] llamafactory.model.loader:143 >> trainable params: 20,185,088 || all params: 7,635,801,600 || trainable%: 0.2643
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:11:01,138 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:11:01,138 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:11:01,138 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:11:01,138 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:11:01,138 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:11:01,138 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:11:01,138 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2299] 2026-08-12 11:11:01,480 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|configuration_utils.py:696] 2026-08-12 11:11:01,480 >> loading configuration file /root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged/config.json
+[INFO|configuration_utils.py:770] 2026-08-12 11:11:01,481 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.52.4",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:11:01,482 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:11:01,482 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:11:01,482 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:11:01,482 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:11:01,482 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:11:01,482 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2021] 2026-08-12 11:11:01,482 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2299] 2026-08-12 11:11:01,834 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|configuration_utils.py:696] 2026-08-12 11:11:01,856 >> loading configuration file /root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged/config.json
+[INFO|configuration_utils.py:770] 2026-08-12 11:11:01,857 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.52.4",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|2026-08-12 11:11:01] llamafactory.model.model_utils.quantization:143 >> Quantizing model to 4 bit with bitsandbytes.
+[INFO|2026-08-12 11:11:01] llamafactory.model.model_utils.kv_cache:143 >> KV cache is enabled for faster generation.
+[INFO|modeling_utils.py:1148] 2026-08-12 11:11:01,860 >> loading weights file /root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged/model.safetensors.index.json
+[INFO|modeling_utils.py:2241] 2026-08-12 11:11:01,860 >> Instantiating Qwen2ForCausalLM model under default dtype torch.bfloat16.
+[INFO|configuration_utils.py:1135] 2026-08-12 11:11:01,862 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "eos_token_id": 151645
+}
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:07,  2.53s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:05<00:05,  2.88s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:08<00:03,  3.01s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:11<00:00,  2.70s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:11<00:00,  2.76s/it]
+[INFO|modeling_utils.py:5131] 2026-08-12 11:11:13,015 >> All model checkpoint weights were used when initializing Qwen2ForCausalLM.
+
+[INFO|modeling_utils.py:5139] 2026-08-12 11:11:13,015 >> All the weights of Qwen2ForCausalLM were initialized from the model checkpoint at /root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use Qwen2ForCausalLM for predictions without further training.
+[INFO|configuration_utils.py:1088] 2026-08-12 11:11:13,018 >> loading configuration file /root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged/generation_config.json
+[INFO|configuration_utils.py:1135] 2026-08-12 11:11:13,018 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "do_sample": true,
+  "eos_token_id": [
+    151645,
+    151643
+  ],
+  "pad_token_id": 151643,
+  "repetition_penalty": 1.05,
+  "temperature": 0.7,
+  "top_k": 20,
+  "top_p": 0.8
+}
+
+[INFO|2026-08-12 11:11:13] llamafactory.model.model_utils.attention:143 >> Using torch SDPA for faster training and inference.
+[INFO|2026-08-12 11:11:13] llamafactory.model.loader:143 >> all params: 7,615,616,512
+[INFO|2026-08-12 11:11:13] llamafactory.train.trainer_utils:143 >> Created reference model from /root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged
+[INFO|trainer.py:756] 2026-08-12 11:11:13,146 >> Using auto half precision backend
+[INFO|trainer.py:2409] 2026-08-12 11:11:13,475 >> ***** Running training *****
+[INFO|trainer.py:2410] 2026-08-12 11:11:13,475 >>   Num examples = 639
+[INFO|trainer.py:2411] 2026-08-12 11:11:13,475 >>   Num Epochs = 3
+[INFO|trainer.py:2412] 2026-08-12 11:11:13,475 >>   Instantaneous batch size per device = 1
+[INFO|trainer.py:2415] 2026-08-12 11:11:13,475 >>   Total train batch size (w. parallel, distributed & accumulation) = 8
+[INFO|trainer.py:2416] 2026-08-12 11:11:13,475 >>   Gradient Accumulation steps = 8
+[INFO|trainer.py:2417] 2026-08-12 11:11:13,475 >>   Total optimization steps = 240
+[INFO|trainer.py:2418] 2026-08-12 11:11:13,479 >>   Number of trainable parameters = 20,185,088
+  0%|          | 0/240 [00:00<?, ?it/s]  0%|          | 1/240 [00:10<40:59, 10.29s/it]                                                 0%|          | 1/240 [00:10<40:59, 10.29s/it]  1%|          | 2/240 [00:19<38:19,  9.66s/it]                                                 1%|          | 2/240 [00:19<38:19,  9.66s/it]  1%|▏         | 3/240 [00:31<41:57, 10.62s/it]                                                 1%|▏         | 3/240 [00:31<41:57, 10.62s/it]  2%|▏         | 4/240 [00:40<40:05, 10.19s/it]                                                 2%|▏         | 4/240 [00:40<40:05, 10.19s/it]  2%|▏         | 5/240 [00:54<44:45, 11.43s/it]                                                 2%|▏         | 5/240 [00:54<44:45, 11.43s/it]  2%|▎         | 6/240 [01:06<45:39, 11.71s/it]                                                 2%|▎         | 6/240 [01:06<45:39, 11.71s/it]  3%|▎         | 7/240 [01:14<40:55, 10.54s/it]                                                 3%|▎         | 7/240 [01:14<40:55, 10.54s/it]  3%|▎         | 8/240 [01:28<45:05, 11.66s/it]                                                 3%|▎         | 8/240 [01:28<45:05, 11.66s/it]  4%|▍         | 9/240 [01:42<46:47, 12.15s/it]                                                 4%|▍         | 9/240 [01:42<46:47, 12.15s/it]  4%|▍         | 10/240 [01:53<46:10, 12.04s/it]                                                  4%|▍         | 10/240 [01:53<46:10, 12.04s/it]  5%|▍         | 11/240 [02:02<41:55, 10.98s/it]                                                  5%|▍         | 11/240 [02:02<41:55, 10.98s/it]  5%|▌         | 12/240 [02:16<45:23, 11.95s/it]                                                  5%|▌         | 12/240 [02:16<45:23, 11.95s/it]  5%|▌         | 13/240 [02:31<48:12, 12.74s/it]                                                  5%|▌         | 13/240 [02:31<48:12, 12.74s/it]  6%|▌         | 14/240 [02:43<47:37, 12.64s/it]                                                  6%|▌         | 14/240 [02:43<47:37, 12.64s/it]  6%|▋         | 15/240 [02:56<47:29, 12.67s/it]                                                  6%|▋         | 15/240 [02:56<47:29, 12.67s/it]  7%|▋         | 16/240 [03:10<48:41, 13.04s/it]                                                  7%|▋         | 16/240 [03:10<48:41, 13.04s/it]{'loss': 0.6945, 'grad_norm': 6.315926551818848, 'learning_rate': 0.0, 'rewards/chosen': 0.016039857640862465, 'rewards/rejected': 0.016363978385925293, 'rewards/accuracies': 0.5, 'rewards/margins': -0.00032411888241767883, 'logps/chosen': -234.6810302734375, 'logps/rejected': -286.59112548828125, 'logits/chosen': -0.34043899178504944, 'logits/rejected': 0.04385355859994888, 'epoch': 0.01}
+{'loss': 0.6776, 'grad_norm': 6.378019332885742, 'learning_rate': 2.0833333333333333e-07, 'rewards/chosen': 0.014140315353870392, 'rewards/rejected': -0.020731830969452858, 'rewards/accuracies': 0.5, 'rewards/margins': 0.0348721444606781, 'logps/chosen': -280.53399658203125, 'logps/rejected': -124.16181182861328, 'logits/chosen': -0.38543224334716797, 'logits/rejected': -0.3825591802597046, 'epoch': 0.03}
+{'loss': 0.6912, 'grad_norm': 7.0238566398620605, 'learning_rate': 4.1666666666666667e-07, 'rewards/chosen': -0.005494356155395508, 'rewards/rejected': -0.014187303371727467, 'rewards/accuracies': 0.5, 'rewards/margins': 0.008692947216331959, 'logps/chosen': -270.4956970214844, 'logps/rejected': -236.10498046875, 'logits/chosen': -0.01616106927394867, 'logits/rejected': -0.3245571553707123, 'epoch': 0.04}
+{'loss': 0.6751, 'grad_norm': 5.608996391296387, 'learning_rate': 6.25e-07, 'rewards/chosen': 0.046768005937337875, 'rewards/rejected': 0.005804026499390602, 'rewards/accuracies': 0.75, 'rewards/margins': 0.040963977575302124, 'logps/chosen': -198.3734130859375, 'logps/rejected': -176.47142028808594, 'logits/chosen': -0.47521674633026123, 'logits/rejected': -0.4233860969543457, 'epoch': 0.05}
+{'loss': 0.6901, 'grad_norm': 6.205327987670898, 'learning_rate': 8.333333333333333e-07, 'rewards/chosen': -0.01357259787619114, 'rewards/rejected': -0.02039508894085884, 'rewards/accuracies': 0.5, 'rewards/margins': 0.0068224892020225525, 'logps/chosen': -248.1646270751953, 'logps/rejected': -210.07403564453125, 'logits/chosen': 0.11508446931838989, 'logits/rejected': -0.16649875044822693, 'epoch': 0.06}
+{'loss': 0.6755, 'grad_norm': 6.238443374633789, 'learning_rate': 1.0416666666666667e-06, 'rewards/chosen': 0.03920886665582657, 'rewards/rejected': 0.001339005772024393, 'rewards/accuracies': 0.75, 'rewards/margins': 0.037869855761528015, 'logps/chosen': -271.1573486328125, 'logps/rejected': -119.36917114257812, 'logits/chosen': -0.4041684567928314, 'logits/rejected': -0.7594650983810425, 'epoch': 0.08}
+{'loss': 0.7078, 'grad_norm': 6.053798675537109, 'learning_rate': 1.25e-06, 'rewards/chosen': 0.00958023127168417, 'rewards/rejected': 0.03716406971216202, 'rewards/accuracies': 0.375, 'rewards/margins': -0.027583837509155273, 'logps/chosen': -220.9524688720703, 'logps/rejected': -189.29751586914062, 'logits/chosen': -0.5043610334396362, 'logits/rejected': 0.06301499903202057, 'epoch': 0.09}
+{'loss': 0.6818, 'grad_norm': 6.557341575622559, 'learning_rate': 1.4583333333333335e-06, 'rewards/chosen': 0.008814668282866478, 'rewards/rejected': -0.015933608636260033, 'rewards/accuracies': 0.625, 'rewards/margins': 0.02474827878177166, 'logps/chosen': -264.4993896484375, 'logps/rejected': -235.331787109375, 'logits/chosen': -0.3158069849014282, 'logits/rejected': -0.3411250114440918, 'epoch': 0.1}
+{'loss': 0.7007, 'grad_norm': 7.900788307189941, 'learning_rate': 1.6666666666666667e-06, 'rewards/chosen': -0.0006060730665922165, 'rewards/rejected': 0.011940479278564453, 'rewards/accuracies': 0.5, 'rewards/margins': -0.012546551413834095, 'logps/chosen': -443.76416015625, 'logps/rejected': -303.428955078125, 'logits/chosen': 0.2400098741054535, 'logits/rejected': -0.10621054470539093, 'epoch': 0.11}
+{'loss': 0.673, 'grad_norm': 7.502692222595215, 'learning_rate': 1.8750000000000003e-06, 'rewards/chosen': 0.06324181705713272, 'rewards/rejected': 0.02072916179895401, 'rewards/accuracies': 0.75, 'rewards/margins': 0.04251265525817871, 'logps/chosen': -231.50173950195312, 'logps/rejected': -234.2496337890625, 'logits/chosen': -0.19424434006214142, 'logits/rejected': 0.001211605966091156, 'epoch': 0.13}
+{'loss': 0.6852, 'grad_norm': 5.587818622589111, 'learning_rate': 2.0833333333333334e-06, 'rewards/chosen': 0.03966879844665527, 'rewards/rejected': 0.02317962795495987, 'rewards/accuracies': 0.625, 'rewards/margins': 0.016489172354340553, 'logps/chosen': -245.93756103515625, 'logps/rejected': -168.45997619628906, 'logits/chosen': -0.54351806640625, 'logits/rejected': -0.24472224712371826, 'epoch': 0.14}
+{'loss': 0.6508, 'grad_norm': 6.88797664642334, 'learning_rate': 2.2916666666666666e-06, 'rewards/chosen': 0.032088711857795715, 'rewards/rejected': -0.05599510669708252, 'rewards/accuracies': 0.875, 'rewards/margins': 0.08808381855487823, 'logps/chosen': -322.9664611816406, 'logps/rejected': -219.12533569335938, 'logits/chosen': -0.11745920777320862, 'logits/rejected': -0.25066763162612915, 'epoch': 0.15}
+{'loss': 0.7014, 'grad_norm': 7.380098819732666, 'learning_rate': 2.5e-06, 'rewards/chosen': -0.030511382967233658, 'rewards/rejected': -0.019711649045348167, 'rewards/accuracies': 0.5, 'rewards/margins': -0.010799730196595192, 'logps/chosen': -472.3050231933594, 'logps/rejected': -215.24349975585938, 'logits/chosen': -0.32669857144355774, 'logits/rejected': -0.4856252670288086, 'epoch': 0.16}
+{'loss': 0.7246, 'grad_norm': 6.929201602935791, 'learning_rate': 2.7083333333333334e-06, 'rewards/chosen': -0.058437637984752655, 'rewards/rejected': 0.0014136312529444695, 'rewards/accuracies': 0.375, 'rewards/margins': -0.0598512664437294, 'logps/chosen': -255.03623962402344, 'logps/rejected': -289.52203369140625, 'logits/chosen': -0.11602910608053207, 'logits/rejected': -0.5320017337799072, 'epoch': 0.18}
+{'loss': 0.6848, 'grad_norm': 7.247025966644287, 'learning_rate': 2.916666666666667e-06, 'rewards/chosen': -0.024220310151576996, 'rewards/rejected': -0.043230555951595306, 'rewards/accuracies': 0.5, 'rewards/margins': 0.01901024580001831, 'logps/chosen': -296.74786376953125, 'logps/rejected': -181.85296630859375, 'logits/chosen': -0.38400062918663025, 'logits/rejected': -0.5921612977981567, 'epoch': 0.19}
+{'loss': 0.6845, 'grad_norm': 7.420475959777832, 'learning_rate': 3.125e-06, 'rewards/chosen': 0.03990302234888077, 'rewards/rejected': 0.016346730291843414, 'rewards/accuracies': 0.625, 'rewards/margins': 0.023556290194392204, 'logps/chosen': -509.2078857421875, 'logps/rejected': -286.3740234375, 'logits/chosen': -0.659400463104248, 'logits/rejected': -0.4233538508415222, 'epoch': 0.2}
+Traceback (most recent call last):
+  File "/root/miniconda3/bin/llamafactory-cli", line 8, in <module>
+    sys.exit(main())
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/cli.py", line 151, in main
+    COMMAND_MAP[command]()
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/train/tuner.py", line 110, in run_exp
+    _training_function(config={"args": args, "callbacks": callbacks})
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/train/tuner.py", line 78, in _training_function
+    run_dpo(model_args, data_args, training_args, finetuning_args, callbacks)
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/train/dpo/workflow.py", line 80, in run_dpo
+    train_result = trainer.train(resume_from_checkpoint=training_args.resume_from_checkpoint)
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 2240, in train
+    return inner_training_loop(
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 2555, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/root/miniconda3/lib/python3.10/site-packages/transformers/trainer.py", line 3745, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/train/dpo/trainer.py", line 277, in compute_loss
+    return super().compute_loss(model, inputs, return_outputs)
+  File "/root/miniconda3/lib/python3.10/site-packages/trl/trainer/dpo_trainer.py", line 1408, in compute_loss
+    loss, metrics = self.get_batch_loss_metrics(model, inputs, train_eval="train")
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/train/dpo/trainer.py", line 246, in get_batch_loss_metrics
+    reference_chosen_logps, reference_rejected_logps = self.compute_reference_log_probs(model, batch)
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/train/dpo/trainer.py", line 223, in compute_reference_log_probs
+    reference_chosen_logps, reference_rejected_logps, *_ = self.concatenated_forward(
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/train/dpo/trainer.py", line 191, in concatenated_forward
+    all_logps, valid_length = get_batch_logps(
+  File "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/train/trainer_utils.py", line 607, in get_batch_logps
+    per_token_logps = torch.gather(logits.log_softmax(-1), dim=2, index=labels.unsqueeze(2)).squeeze(2)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 1.75 GiB. GPU 0 has a total capacty of 23.56 GiB of which 1.56 GiB is free. Including non-PyTorch memory, this process has 21.99 GiB memory in use. Of the allocated memory 18.89 GiB is allocated by PyTorch, and 2.78 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+  7%|▋         | 16/240 [03:17<46:01, 12.33s/it]

@@ -1,0 +1,70 @@
+Week 2 final validation
+Date: 2026-08-01 (Asia/Shanghai)
+Branch: codex/week2-day10-report-review
+Base commit: a5455b2
+
+1. Baseline and final Python tests
+Command:
+  /Users/yifanren/anaconda3/bin/python -m pytest -q \
+    deliverables/week2/day6/source/tests \
+    deliverables/week2/day7/source/tests \
+    deliverables/week2/day8/source/tests \
+    deliverables/week2/day9/source/tests
+Result:
+  62 passed, 5 skipped
+
+The five skips are environment-dependent tests that require the AutoDL model/tokenizer
+runtime. Their full-data outputs and remote validation artifacts are already archived.
+
+2. Day 8 annotated YAML validation
+Result:
+  valid: true
+  active_parameter_count: 45
+  all_parameters_fully_annotated: true
+  expected_count: 4999
+  errors: []
+
+3. Recomputed core counts
+Result:
+  Day 6 Alpaca: 5000
+  Day 6 ShareGPT: 5000
+  Day 7 Alpaca: 4999
+  Day 7 ShareGPT: 4999
+  Day 9 per-step loss rows: 3747
+
+4. Machine-readable evidence checks
+Result:
+  All JSON files under deliverables/week2 and Submission/Week2 parsed successfully.
+  Day 9 loss records are sequential and finite; overall_downward_trend is true.
+  Blind totals are Base 25/30 and Merged 22/30.
+  merged_model_better is false and remains reported as acceptance criterion 4 FAIL.
+
+5. Markdown and submission checks
+Result:
+  All local Markdown targets in the final Week 2 entry documents exist.
+  No stale Day 8-Day 10 pending status remains in the active entry documents.
+  Submission/Week2/Day10_Weekly_Report_and_FAQ contains exactly three files:
+    FAQ.md
+    README.md
+    Week2_Data_and_SFT_Report.md
+
+6. Week 2 file integrity
+Command:
+  shasum -a 256 -c \
+    deliverables/week2/day10/source/results/week2_files.sha256
+Result:
+  131/131 listed files: OK
+
+The checksum file, CSV manifest and this validation log are excluded from their own
+self-referential hash scope. The manifest covers the Week 2 engineering archive and
+teacher submission while excluding caches and .pyc files.
+
+7. Requirement conclusion
+  Criterion 1 clean_pipeline.py independent execution: PASS
+  Criterion 2 >=1500 correctly formatted training records: PASS (4999)
+  Criterion 3 stable downward SFT loss: PASS
+  Criterion 4 merged model better than base: FAIL (22/30 vs 25/30)
+  Criterion 5 Week 2 report and FAQ submitted: PASS
+
+No AutoDL instance was started for Day 10 because all required evidence was already
+archived locally and Day 10 required no GPU computation.

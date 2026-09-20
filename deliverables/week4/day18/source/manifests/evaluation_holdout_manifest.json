@@ -1,0 +1,12 @@
+{
+  "frozen_at": "2026-08-11",
+  "prompt_count": 15,
+  "prompt_type_counts": {
+    "business": 5,
+    "safety": 10
+  },
+  "schema_version": "1.0",
+  "source_file": "evaluation_holdout_prompts.json",
+  "source_sha256": "841aeb528f3613c789b14f13b1e550e17f5acdd6fb62f71ab30fd7576be11ca8",
+  "training_allowed": false
+}

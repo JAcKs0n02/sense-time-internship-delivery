@@ -1,0 +1,116 @@
+{
+  "schema_version": "2.0",
+  "profile": "v2",
+  "status": "collected",
+  "trainer_output": "/root/autodl-tmp/qwen25-week6/formal-v2/runs/tool-sft-lora-v2",
+  "effective_config_sha256": "11d970d05b88b7e0a2817158822e9e211fd9e8c1a191bdc4829f4f9a43ac9365",
+  "preflight_sha256": "5aa33fc5984f4d9cf558e9b6440b8a8b10a10bbde02fcd0d248776e892123232",
+  "launch_command_sha256": "9f0b6e0b3848872b635746bf4ff7f5c4ecbf68e324989de2b1c9f2bae57549f4",
+  "exit_status_sha256": "ecad7731eb0da4905ab4f3e251e81a1252e647fcba09dbfa6aa7287f1ab19ad7",
+  "lineage": {
+    "scheme": "A",
+    "load_mode": "verified_week4_merged",
+    "model_dir": "/root/autodl-tmp/qwen25-week4/best_model/qwen25-7b-week4-dpo-corrective-merged",
+    "merged_manifest_path": "/root/autodl-tmp/qwen25-week4/day20/corrective-results/merged_model_manifest.json",
+    "merged_manifest_sha256": "aca9a2932ed427f8fc6e9962e70274eb286a09c446d177af2bc00f6df1675e4c"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1851,
+      "sha256": "aec7a965859547b25e68d777dcb44f1e6f173aabc6fe0d6229b837a93e55b277"
+    },
+    {
+      "path": "adapter_config.json",
+      "bytes": 862,
+      "sha256": "3f9585b4844615acbddaf03ebc140f1e6b74694ea6bac801840e65392bf6222d"
+    },
+    {
+      "path": "adapter_model.safetensors",
+      "bytes": 40400200,
+      "sha256": "0800773f2f7df0add00c45c685fcd484be3ce296084f0f79e60e20e16ed8dd7b"
+    },
+    {
+      "path": "added_tokens.json",
+      "bytes": 605,
+      "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b"
+    },
+    {
+      "path": "all_results.json",
+      "bytes": 346,
+      "sha256": "ab6c51c9b812ffcadf874d9f749dfc01b82b9b45c832e8f79131fca4af41c84c"
+    },
+    {
+      "path": "chat_template.jinja",
+      "bytes": 2507,
+      "sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f"
+    },
+    {
+      "path": "eval_results.json",
+      "bytes": 159,
+      "sha256": "aa1cd06205f42bdbe36214bcf367c3310e5600dbe857b185e80e32443702a9d1"
+    },
+    {
+      "path": "merges.txt",
+      "bytes": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+    },
+    {
+      "path": "special_tokens_map.json",
+      "bytes": 613,
+      "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+    },
+    {
+      "path": "tokenizer.json",
+      "bytes": 11421896,
+      "sha256": "9c5ae00e602b8860cbd784ba82a8aa14e8feecec692e7076590d014d7b7fdafa"
+    },
+    {
+      "path": "tokenizer_config.json",
+      "bytes": 4713,
+      "sha256": "11d20a741a0eda1e7482d29b5d17553328922ed9e7391ec6f44d390215390f3d"
+    },
+    {
+      "path": "train_results.json",
+      "bytes": 207,
+      "sha256": "e740422a53e834e2a91d49d7d11b65e18ea6b2151a3aafe3c88a2bfbdb3d9f75"
+    },
+    {
+      "path": "trainer_log.jsonl",
+      "bytes": 14994,
+      "sha256": "9299aec2a17d94ffefd266c1befa05699d451e23fbc407b24c66b9dde4240109"
+    },
+    {
+      "path": "trainer_state.json",
+      "bytes": 14571,
+      "sha256": "1cac04d90940e423d32d395099d5881132df1d74739c557b58e382780f39dfa2"
+    },
+    {
+      "path": "training_args.bin",
+      "bytes": 5816,
+      "sha256": "2b704ccfabc7ef9f9e90e9e1bf4b4d518b5f9d791995e0f3e9d2ac329945fe8f"
+    },
+    {
+      "path": "training_eval_loss.png",
+      "bytes": 37094,
+      "sha256": "9b2263fa86546f8fe9fae21efbe1b5ef3a95e47b2d084b6d937d93249f9a613a"
+    },
+    {
+      "path": "training_loss.png",
+      "bytes": 42386,
+      "sha256": "97289361d6772edf28898f92d52c6a5b9243c9aeef9003483112534fd7f73069"
+    },
+    {
+      "path": "vocab.json",
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  ],
+  "total_bytes": 56397506,
+  "adapter": {
+    "path": "adapter_model.safetensors",
+    "bytes": 40400200,
+    "sha256": "0800773f2f7df0add00c45c685fcd484be3ce296084f0f79e60e20e16ed8dd7b",
+    "config_sha256": "3f9585b4844615acbddaf03ebc140f1e6b74694ea6bac801840e65392bf6222d"
+  }
+}

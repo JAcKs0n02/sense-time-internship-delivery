@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "generator": {
+    "path": "deliverables/week6/day31/source/scripts/build_tool_sft_dataset.py",
+    "sha256": "7aaf2244674245b71d976e2a664c4b275599a8294202fb24bf1413737897f776"
+  },
+  "tool_names": [
+    "calculator",
+    "knowledge_retrieval",
+    "code_executor"
+  ],
+  "tool_sources": [
+    {
+      "name": "calculator",
+      "path": "deliverables/week6/source/week6_agent/tools/calculator.py",
+      "sha256": "6f60a42fde9f9d1506225f4033cb41572972ea6a12caa34fdc1d896dadd4e886"
+    },
+    {
+      "name": "knowledge_retrieval",
+      "path": "deliverables/week6/source/week6_agent/tools/knowledge_retrieval.py",
+      "sha256": "c9a76c2826ce217753b03ebff0552e065e08731b30f742203a664330cd76cd3b"
+    },
+    {
+      "name": "code_executor",
+      "path": "deliverables/week6/source/week6_agent/tools/code_executor.py",
+      "sha256": "2bb03a5aead3af7a9d6a57a4744150b9515a269f5beafe61391b1d2dc98a261e"
+    }
+  ],
+  "tool_schemas_sha256": "27f8f5dc7b3c07e4df271eaba158bb926e8d6014e2400b786dc67a2bf1cd6fea",
+  "knowledge_base": {
+    "path": "deliverables/week6/day28/source/data/knowledge_base.json",
+    "sha256": "27f94bf18e50043532f71ebc68edbe2ea8af2c772a567ef81d949a71d583b39a"
+  },
+  "train": {
+    "file_name": "tool_sft_train_100.json",
+    "row_count": 100,
+    "canonical_content_sha256": "3579d6ca014bcfa408c9f0d3e3b8a559ba893a7d7b1b62eaf46026ffad0d24b9",
+    "file_sha256": "296e9abd1c593640373b98551466874acadab64ce83a4e72cefbadac0b97cfb9",
+    "category_counts": {
+      "calculator": 20,
+      "code_executor": 20,
+      "knowledge_plus_calculator": 25,
+      "knowledge_retrieval": 20,
+      "recovery_or_termination": 15
+    }
+  },
+  "eval_frozen": {
+    "file_name": "tool_sft_eval_frozen.json",
+    "row_count": 30,
+    "canonical_content_sha256": "786fd1b5477ec80b5da26bfc012a3107084c576ed2325ded1c839cf1f8fc40b3",
+    "file_sha256": "7c7a0aace93c29525edafa630b063647bf4ec630be8cc7f9be52a64cdb433f54",
+    "frozen": true
+  },
+  "llamafactory": {
+    "formatting": "sharegpt",
+    "message_column": "conversations",
+    "tools_column": "tools",
+    "tool_call_roles": [
+      "human",
+      "function_call",
+      "observation",
+      "gpt"
+    ],
+    "formal_runtime_revision": "pending_autodl_preflight"
+  }
+}

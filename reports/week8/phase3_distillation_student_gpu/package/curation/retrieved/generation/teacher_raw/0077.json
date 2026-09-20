@@ -1,0 +1,14 @@
+{
+  "sample_id": "1bb47bfc73c5e5dc99ddf0591dbecaf4f4f63aedcc273494fb9e6e50eb729040",
+  "prompt": "给定两个数字，创建一个函数，返回它们的和。",
+  "messages": [
+    {
+      "role": "user",
+      "content": "给定两个数字，创建一个函数，返回它们的和。"
+    }
+  ],
+  "answer": "可以使用以下 Python 代码来实现这一功能：\n\n```python\ndef sum(a, b):\n    \"\"\"\n    返回两个数a和b的和\n\n    参数:\n    a (int or float): 第一个加数\n    b (int or float): 第二个加数\n\n    返回:\n    int or float: a和b的和\n    \"\"\"\n    return a + b\n```\n\n这个函数接受两个参数 `a` 和 `b`，并返回它们的和。你可以通过调用此函数并传入两个数字来计算它们的总和。例如:\n\n```python\nresult = sum(3, 5)\nprint(result)  # 输出8\n```",
+  "truncated": false,
+  "input_tokens": 43,
+  "output_tokens": 145
+}

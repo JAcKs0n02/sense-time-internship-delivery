@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "plan_sha256": "d1400a765b5bdcf2ef273c6c4fc4794c23cc31954994ec19e9098555e08efce4",
+  "verified_utc": "2026-09-18T23:45:14.199652+00:00",
+  "models": [
+    {
+      "role": "week8_final_sft",
+      "source": "reports/week8/phase2_full_training_target/evidence/logs/full-run-01/sft_merge_verification.json",
+      "source_sha256": "1bdc55f81b1d4a02702e9c7f8a1f6b201fa3ee0c07b86b9d1c4c8ae381c0821a",
+      "expected_files": 14,
+      "expected_tensors": 339,
+      "matches_original_receipt": true
+    },
+    {
+      "role": "week8_final_dpo",
+      "source": "reports/week8/phase2_full_training_target/evidence/logs/full-run-01/dpo_merge_verification.json",
+      "source_sha256": "19d82a58bdddc8487ccb0f7932c00378505ac686d84911dac82617abaf489ecc",
+      "expected_files": 14,
+      "expected_tensors": 339,
+      "matches_original_receipt": true
+    },
+    {
+      "role": "week8_final_distilled",
+      "source": "reports/week8/phase3_distillation_comparison/package/after_manifest.json",
+      "source_sha256": "834184ee342d5c3680a54782165882059c59d300bd63250cd5f73c91b781c506",
+      "expected_files": 10,
+      "expected_tensors": 290,
+      "matches_original_receipt": true
+    }
+  ]
+}

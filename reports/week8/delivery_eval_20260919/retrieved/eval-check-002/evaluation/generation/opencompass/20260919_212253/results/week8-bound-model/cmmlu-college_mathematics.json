@@ -1,0 +1,65 @@
+{
+    "accuracy": 100.0,
+    "details": [
+        {
+            "example_abbr": "cmmlu-college_mathematics_test_0",
+            "prompt": [
+                [
+                    {
+                        "role": "HUMAN",
+                        "prompt": "以下是关于大学数学的单项选择题，请直接给出正确答案的选项。\n题目：若f(x) 在 (a，b) 内单调有界， 则 f(x) 在 (a，b) 内间断点的类型只能是 ( ).\nA. 第一类间断点\nB. 既有第一类间断点也有第二类间断点\nC. 结论不确定\nD. 第二类间断点\n"
+                    },
+                    {
+                        "role": "BOT",
+                        "prompt": "答案是: A"
+                    },
+                    {
+                        "role": "HUMAN",
+                        "prompt": "以下是关于大学数学的单项选择题，请直接给出正确答案的选项。\n题目：函数 $f(x)=\\frac{x-x^3}{\\sin \\pi x}$ 的可去间断点个数为.\nA. 1\nB. 无穷多个\nC. 3\nD. 2\n"
+                    },
+                    {
+                        "role": "BOT",
+                        "prompt": "答案是: C"
+                    },
+                    {
+                        "role": "HUMAN",
+                        "prompt": "以下是关于大学数学的单项选择题，请直接给出正确答案的选项。\n题目：若 $f(x)$ 的导函数是 $2^x(\\ln 2)^2$， 则 $f(x)$ 为 ( ).\nA. $\\frac{1}{\\ln 2} \\cdot 2^x+C$\nB. $2^x(\\ln 2)^2+C$\nC. $2^x+C$\nD. $2^x \\ln 2+C$\n"
+                    },
+                    {
+                        "role": "BOT",
+                        "prompt": "答案是: D"
+                    },
+                    {
+                        "role": "HUMAN",
+                        "prompt": "以下是关于大学数学的单项选择题，请直接给出正确答案的选项。\n题目：设f(x)和F(x)分别为连续型随机变量X的概率密度和分布函数， 则下列函数 中可作为某随机变量的概率密度的是 . (多选)\nA. f(-x)\nB. f(x)F(x)\nC. f(2x)\nD. 2xf(x^2)\n"
+                    },
+                    {
+                        "role": "BOT",
+                        "prompt": "答案是: A"
+                    },
+                    {
+                        "role": "HUMAN",
+                        "prompt": "以下是关于大学数学的单项选择题，请直接给出正确答案的选项。\n题目：设是 $f(x)$ 偶函数， $\\varphi(x)$ 是奇函数， 则下列函数(假设都有意义)中是奇函数的是 ( ).\nA. $f[f(x)]$\nB. $\\varphi[\\varphi(x)]$\nC. $\\varphi[f(x)]$\nD. $f[\\varphi(x)]$\n"
+                    },
+                    {
+                        "role": "BOT",
+                        "prompt": "答案是: B"
+                    },
+                    {
+                        "role": "HUMAN",
+                        "prompt": "以下是关于大学数学的单项选择题，请直接给出正确答案的选项。\n题目：设 A，B 为n阶矩阵， 则 $|-2(\\begin{array}{cc}A^T & O \\\\ O & B^{-1}\\end{array})|$ 等于()\nA. $-2|A^T||B|$\nB. $(-2)^{2n}|A||B|^{-1}$\nC. $(-2)^n|A||B|^{-1}$\nD. $-2|A||B|^{-1}$\n"
+                    }
+                ]
+            ],
+            "pred": [
+                "B"
+            ],
+            "refr": [
+                "B"
+            ],
+            "is_correct": [
+                true
+            ]
+        }
+    ]
+}

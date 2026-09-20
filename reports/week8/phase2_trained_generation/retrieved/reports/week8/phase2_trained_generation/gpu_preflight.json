@@ -1,0 +1,6 @@
+{
+  "status": "GPU_RELEASE_PREFLIGHT_PASS",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "bf16": true,
+  "judge_calls": 0
+}

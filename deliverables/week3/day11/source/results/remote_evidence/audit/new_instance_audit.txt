@@ -1,0 +1,49 @@
+2026-08-03T17:44:45+08:00
+HOST=autodl-container-78fb4ea487-e700080a
+Linux 5.15.0-136-generic x86_64 GNU/Linux
+
+GPU
+NVIDIA GeForce RTX 3090, GPU-de3e3935-638c-e950-ab14-830e5b09ec8e, 595.58.03, 24576 MiB, 1 MiB, 8.6
+
+DISK
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme1n1    100G   41G   60G  41% /root/autodl-tmp
+overlay          30G  1.3G   29G   5% /
+
+ENV
+Python 3.10.20
+torch=2.5.1+cu121
+cuda=12.1
+cuda_available=True
+device=NVIDIA GeForce RTX 3090
+transformers=4.50.0
+bitsandbytes=0.43.3
+----------------------------------------------------------
+| Welcome to LLaMA Factory, version 0.9.3                |
+|                                                        |
+| Project page: https://github.com/hiyouga/LLaMA-Factory |
+----------------------------------------------------------
+
+PATHS
+OK /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct
+OK /root/autodl-tmp/qwen25-week1/week1/third_party/LlamaFactory
+OK /root/autodl-tmp/qwen25-week2/day8/data/week2_clean_alpaca.jsonl
+OK /root/autodl-tmp/qwen25-week2/day8/data/dataset_info.json
+OK /root/autodl-tmp/qwen25-week2/day8/saves/qwen25-7b-week2-qlora-sft-run1
+OK /root/autodl-tmp/qwen25-week2/merged/qwen25-7b-week2-sft-merged
+
+DATA
+4999 /root/autodl-tmp/qwen25-week2/day8/data/week2_clean_alpaca.jsonl
+600c01cb1d2ca41bb1fbe7fca3973336568062ead29ee0e6b6033733a86b2743  /root/autodl-tmp/qwen25-week2/day8/data/week2_clean_alpaca.jsonl
+00b02ac6130c63ca5ba68bf34a21fa84c72a6549de3577e3ec649bf0e312ac72  /root/autodl-tmp/qwen25-week2/day8/data/dataset_info.json
+
+SIZES
+15G	/root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct
+589M	/root/autodl-tmp/qwen25-week2/day8/saves/qwen25-7b-week2-qlora-sft-run1
+15G	/root/autodl-tmp/qwen25-week2/merged/qwen25-7b-week2-sft-merged
+
+KEY_FILES
+-rw-r--r-- 1 root root 663 Jul 16 11:14 /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct/config.json
+-rw-r--r-- 1 root root 28K Jul 16 11:26 /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct/model.safetensors.index.json
+-rw------- 1 root root 78M Jul 29 21:22 /root/autodl-tmp/qwen25-week2/day8/saves/qwen25-7b-week2-qlora-sft-run1/adapter_model.safetensors
+-rw-r--r-- 1 root root 28K Jul 30 17:15 /root/autodl-tmp/qwen25-week2/merged/qwen25-7b-week2-sft-merged/model.safetensors.index.json

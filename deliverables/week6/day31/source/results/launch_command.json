@@ -1,0 +1,9 @@
+{
+  "argv": [
+    "llamafactory-cli",
+    "train",
+    "/root/autodl-tmp/qwen25-week6/day31/configs/formal.yaml"
+  ],
+  "cwd": "/root/autodl-tmp/qwen25-week6/day31/repository",
+  "config_sha256": "c60d660d258a8d1dc58c2ef361664df1a6584b6c0bceeaacf5c35a276f3596fd"
+}

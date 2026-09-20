@@ -1,0 +1,35 @@
+$ /root/autodl-tmp/conda/envs/llm_exp/bin/python --version
+Python 3.10.20
+
+$ llamafactory-cli version
+----------------------------------------------------------
+| Welcome to LLaMA Factory, version 0.9.3                |
+|                                                        |
+| Project page: https://github.com/hiyouga/LLaMA-Factory |
+----------------------------------------------------------
+
+$ nvidia-smi
+Tue Aug  4 21:28:46 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.58.03              Driver Version: 595.58.03      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 3090        On  |   00000000:E1:00.0 Off |                  N/A |
+| 54%   44C    P8             28W /  350W |       1MiB /  24576MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+$ df -h /root/autodl-tmp
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme1n1    100G   48G   53G  48% /root/autodl-tmp

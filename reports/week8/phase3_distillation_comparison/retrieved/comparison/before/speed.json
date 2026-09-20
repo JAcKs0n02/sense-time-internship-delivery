@@ -1,0 +1,82 @@
+{
+  "model": "/root/autodl-tmp/week8-distillation-comparison-20260918/run-01/views/before",
+  "warmups": 2,
+  "runs": [
+    {
+      "id": "MATH-03",
+      "tokens": 128,
+      "seconds": 2.328602135181427
+    },
+    {
+      "id": "MATH-04",
+      "tokens": 128,
+      "seconds": 2.3259978694841266
+    },
+    {
+      "id": "MATH-05",
+      "tokens": 128,
+      "seconds": 2.3009691489860415
+    },
+    {
+      "id": "MATH-06",
+      "tokens": 128,
+      "seconds": 2.2967254631221294
+    },
+    {
+      "id": "MATH-07",
+      "tokens": 128,
+      "seconds": 2.301708078943193
+    },
+    {
+      "id": "REASON-01",
+      "tokens": 128,
+      "seconds": 2.3000200437381864
+    },
+    {
+      "id": "REASON-02",
+      "tokens": 128,
+      "seconds": 2.2976451367139816
+    },
+    {
+      "id": "REASON-03",
+      "tokens": 128,
+      "seconds": 2.299833015538752
+    },
+    {
+      "id": "REASON-04",
+      "tokens": 128,
+      "seconds": 2.298266495577991
+    },
+    {
+      "id": "REASON-05",
+      "tokens": 128,
+      "seconds": 2.300711431540549
+    }
+  ],
+  "dtype": "bfloat16",
+  "includes_prefill": true,
+  "environment": {
+    "gpu_uuid": "bf88b89e-43bc-dc76-6d69-2afa56a3c747",
+    "gpu_name": "NVIDIA GeForce RTX 3090",
+    "torch": "2.5.1+cu121",
+    "transformers": "4.50.0",
+    "cuda": "12.1"
+  },
+  "prompt_source_sha256": "4967eb0ca0a64937446dff1412bb78878d3e744c4699b43cd4265aec09c2e85e",
+  "prompt_token_sha256": [
+    "e882d59c0f9707e38f8070c70846b400e84fb5a90f39373468fc12ac7bf31438",
+    "348a570483f158a1da751cda09ba8918c597983c43d62332d5474065c4b07154",
+    "7ad861771433fdde215b54a4edd5de748d1fac6eb7e559c2a7e7d70c853c61a0",
+    "e1a91a181dc1aeef73465e18f68e2b2d5d4a5ad169537997fe3612e881c88d49",
+    "2cadf1a5d42fafb79ece4b983de54f649f7e89ee74282a38c4f174dcc15f6108",
+    "138ae5c4057f208d8d53db63f42361c2d09f5a2416210ce678065cc1170c138e",
+    "6e205eb7af048787f3eadbab854bd05d63b241a14032d5a23f9cae2a3f3fc118",
+    "5148a84d6b8f6c21458a1c5e8b742c7654a3a8703129589d40c44233cd63e395",
+    "646d2fd691f8e3bf9a59185f41a6e846c12aba5eaad9f23f1ed7a1e5bd699c99",
+    "36c7b85769d3f7942b8f224625afabd6bf7b33bb7efa01461cd121f50dece03e",
+    "ec9cdf6b1f14063c394aa15fc06ef60032f56bd08a46acf2adea3e1b9697001e",
+    "78c9733c6c02487199ae3b54f5cc1f277e4452fff3f226b21679cffa806c2d8d"
+  ],
+  "tokens_per_second": 55.53029982850359,
+  "median_seconds": 2.3003657376393676
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "reviewer_type": "codex_review",
+  "model_prompt_counts": {
+    "sft_dpo": 5,
+    "sft_only": 5
+  },
+  "model_weighted_means": {
+    "sft_dpo": 3.355,
+    "sft_only": 3.565
+  },
+  "weighted_mean_delta_sft_dpo_minus_sft_only": -0.21,
+  "dimension_means": {
+    "sft_dpo": {
+      "accuracy": 2.7,
+      "completeness": 3.3,
+      "logic": 3.2,
+      "safety": 4.4,
+      "format": 4.2
+    },
+    "sft_only": {
+      "accuracy": 2.9,
+      "completeness": 3.5,
+      "logic": 3.5,
+      "safety": 4.6,
+      "format": 4.3
+    }
+  },
+  "prompt_outcomes": {
+    "sft_dpo_wins": 1,
+    "sft_only_wins": 3,
+    "ties": 1
+  },
+  "interpretation": "Descriptive evidence from five frozen prompts; no statistical significance claim.",
+  "blinded_scores_sha256": "43648787be987b63692e4b2a5608817cfe57ea3a1477d54bb7edabf775172455"
+}

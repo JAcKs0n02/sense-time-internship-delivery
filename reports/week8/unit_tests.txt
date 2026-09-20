@@ -1,0 +1,14 @@
+test_data_entry_and_split (test_week8_pipeline.PipelineTests.test_data_entry_and_split) ... ok
+test_health_check_rejects_dead_child (test_week8_pipeline.PipelineTests.test_health_check_rejects_dead_child) ... ok
+test_judge_rejects_bad_and_nonfinite_scores (test_week8_pipeline.PipelineTests.test_judge_rejects_bad_and_nonfinite_scores) ... ok
+test_oom_reduction_preserves_effective_batch (test_week8_pipeline.PipelineTests.test_oom_reduction_preserves_effective_batch) ... ok
+test_quick_has_real_artifact_and_honest_status (test_week8_pipeline.PipelineTests.test_quick_has_real_artifact_and_honest_status) ... ok
+test_training_non_oom_failure_is_not_retried (test_week8_pipeline.PipelineTests.test_training_non_oom_failure_is_not_retried) ... ok
+test_training_refuses_smoke_data (test_week8_pipeline.PipelineTests.test_training_refuses_smoke_data) ... ok
+test_training_zero_exit_without_artifact_fails (test_week8_pipeline.PipelineTests.test_training_zero_exit_without_artifact_fails) ... ok
+test_unknown_pipeline_option_fails (test_week8_pipeline.PipelineTests.test_unknown_pipeline_option_fails) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 9.841s
+
+OK

@@ -1,0 +1,192 @@
+{
+  "image_id": "sha256:528257d48c1da0dcecc2e725d1ae34498d60c965f1241e39cd6a85a8859bdf84",
+  "network": "none",
+  "host_mounts": [],
+  "read_only": true,
+  "memory": "128m",
+  "cpus": 1,
+  "timeout_seconds": 12,
+  "ranking_input": false,
+  "records": [
+    {
+      "model": "original_base",
+      "question_id": "CODE-01",
+      "answer_sha256": "7e69052f5a753d83993a2a76f9a34c61b28b4def87ef5c0296e692bf5268e0d6",
+      "program_sha256": "026e8a47178f09b059bcf119ce257136ff59adcb0cb8d0366d14eb67a356a83f",
+      "status": "failed",
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"<stdin>\", line 25, in <module>\nAssertionError\n"
+    },
+    {
+      "model": "original_base",
+      "question_id": "CODE-02",
+      "answer_sha256": "f14b857afbb636dc6a068804446786a3ab932a0d7d8a96a3525f81f38a32ae45",
+      "program_sha256": "7a8e19c758473dec0556f118293ec0d390bcbf9b7f4a3aefc823e88ea44984e3",
+      "status": "passed",
+      "exit_code": 0,
+      "stdout": "DAY14_TESTS_PASSED\n",
+      "stderr": ""
+    },
+    {
+      "model": "original_base",
+      "question_id": "CODE-03",
+      "answer_sha256": "edd52a24161a553843e6e00775dd4e37b33898814aafbd7a3bb74faec10b7e3b",
+      "program_sha256": "8b432e60b1c0a19c367f17e3461418f5a01d03f69c42617aa3c0b15bd7abe3a2",
+      "status": "failed",
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"<stdin>\", line 42, in <module>\n  File \"<stdin>\", line 5, in topo_sort\nValueError: Nodes and edges cannot be empty\n"
+    },
+    {
+      "model": "original_base",
+      "question_id": "CODE-04",
+      "answer_sha256": "b9e651cab1bfc963e55d29c1c078381f61442dee943dbbf2830d834f6c4af8ed",
+      "program_sha256": "8a88327d3dae9c6ba2d7a4f2a6cca8775cb8cf6c50f58eee7749ebca3bfb44b1",
+      "status": "failed",
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"<stdin>\", line 27, in <module>\nAssertionError\n"
+    },
+    {
+      "model": "original_base",
+      "question_id": "CODE-05",
+      "answer_sha256": "30c870e1cb7201dfc2158efa3c43c59a27d932f50561c54758b304a2fa449117",
+      "program_sha256": "3613ba157cc3926769b64bb9671c5013409751bd51619cf32e8b2302b7334fdb",
+      "status": "passed",
+      "exit_code": 0,
+      "stdout": "DAY14_TESTS_PASSED\n",
+      "stderr": ""
+    },
+    {
+      "model": "original_base",
+      "question_id": "CODE-06",
+      "answer_sha256": "2dbcdcb655b8c8633fa288acc664eb6fc232c4c68d642980ec7008a8b9ba6c81",
+      "program_sha256": "a3cb57d974d67fe45a418e9716eb6bec1de7ecf310d07a8857d20bc55cec4053",
+      "status": "passed",
+      "exit_code": 0,
+      "stdout": "DAY14_TESTS_PASSED\n",
+      "stderr": ""
+    },
+    {
+      "model": "final_sft",
+      "question_id": "CODE-01",
+      "answer_sha256": "f40fa1aabf52ace436064949ce7586c3111b5060b3d3c690f2e15555a652fe5b",
+      "program_sha256": "bd03979c4aa6159091574d800ea564eff53024a0a8a79f42f28c31cb36e88afb",
+      "status": "failed",
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"<stdin>\", line 19, in <module>\nAssertionError\n"
+    },
+    {
+      "model": "final_sft",
+      "question_id": "CODE-02",
+      "answer_sha256": "d0eb07f7f3ce5ffb96669853d6dc49d242b98f59330475fd299f71fb3305295b",
+      "program_sha256": "10ac14e2afc6631877894ff065e1a050333ffc35600859544a0dffbfe56ed3db",
+      "status": "failed",
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "  File \"<stdin>\", line 3\n    assert first_unique_index('') == -1\n    ^\nIndentationError: expected an indented block after function definition on line 1\n"
+    },
+    {
+      "model": "final_sft",
+      "question_id": "CODE-03",
+      "answer_sha256": "fffe72d94cd5d9d1eb38a9cd98d5cdcb1dfcaf8496639026994b96388fb0f59a",
+      "program_sha256": "54c623ce7a2e1bcc13539673c408f9e205583663a9b5be66a2a0c5ba3fd1f22e",
+      "status": "failed",
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"<stdin>\", line 43, in <module>\n  File \"<stdin>\", line 5, in topo_sort\nValueError: Invalid input\n"
+    },
+    {
+      "model": "final_sft",
+      "question_id": "CODE-04",
+      "answer_sha256": "e5566ed354d0442e80317d4f595390d079e69ef347a5bf5e611bc9ad9335b6bd",
+      "program_sha256": "7de54365f257ad2da82db5c176e3e3ce2da672ce87aff804bf58f2e79062758c",
+      "status": "failed",
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"<stdin>\", line 12, in <module>\n  File \"<stdin>\", line 6, in safe_join\nNameError: name 'os' is not defined\n"
+    },
+    {
+      "model": "final_sft",
+      "question_id": "CODE-05",
+      "answer_sha256": "69f825a4046eb866575d1d8f606aab1421d3cfeadcaf958039439cff4c3d7e84",
+      "program_sha256": "730808d805a8a43b68caaae7df9498c31544e7ca02db0ad103b9cb535e9425ce",
+      "status": "failed",
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"<stdin>\", line 30, in <module>\n  File \"<stdin>\", line 17, in evaluate_rpn\nZeroDivisionError: division by zero\n"
+    },
+    {
+      "model": "final_sft",
+      "question_id": "CODE-06",
+      "answer_sha256": "85c1aebf8029990e32993d479be92e52429ea0e519289a6d212b66adde10522f",
+      "program_sha256": "cad80bb855db1109b99f6170dbd9763ff130aba18525601b8276ec270606cb33",
+      "status": "passed",
+      "exit_code": 0,
+      "stdout": "DAY14_TESTS_PASSED\n",
+      "stderr": ""
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "CODE-01",
+      "answer_sha256": "316a0c1bab44077e0f4af04a663499fc75bc7e7a5ee721704e752ac13a050b13",
+      "program_sha256": "9f9d4c2ce6f7852a74efe22bdba633ebcca52106442edd8687b4cdee5276156c",
+      "status": "failed",
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"<stdin>\", line 19, in <module>\nAssertionError\n"
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "CODE-02",
+      "answer_sha256": "d0eb07f7f3ce5ffb96669853d6dc49d242b98f59330475fd299f71fb3305295b",
+      "program_sha256": "10ac14e2afc6631877894ff065e1a050333ffc35600859544a0dffbfe56ed3db",
+      "status": "failed",
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "  File \"<stdin>\", line 3\n    assert first_unique_index('') == -1\n    ^\nIndentationError: expected an indented block after function definition on line 1\n"
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "CODE-03",
+      "answer_sha256": "0302bf759d9979b9e201dc50ff58f32d041bb15cb6aec794a4c29dba4b4d8b5c",
+      "program_sha256": "6d153320e76dc451e9083f8e19c2cb71c665473603ccd97908b066e48aa7b204",
+      "status": "failed",
+      "exit_code": 137,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "CODE-04",
+      "answer_sha256": "67ff4d2da0d9f0ec7a1f06acb4facf358e440329616761ca86b2c83822470e16",
+      "program_sha256": "519e674f9dcdd45bf2b2fc9881c0e14401c9b53ee8f3e27a25e0a421906fb44c",
+      "status": "failed",
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"<stdin>\", line 15, in <module>\n  File \"<stdin>\", line 6, in safe_join\nNameError: name 'os' is not defined\n"
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "CODE-05",
+      "answer_sha256": "69f825a4046eb866575d1d8f606aab1421d3cfeadcaf958039439cff4c3d7e84",
+      "program_sha256": "730808d805a8a43b68caaae7df9498c31544e7ca02db0ad103b9cb535e9425ce",
+      "status": "failed",
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"<stdin>\", line 30, in <module>\n  File \"<stdin>\", line 17, in evaluate_rpn\nZeroDivisionError: division by zero\n"
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "CODE-06",
+      "answer_sha256": "85c1aebf8029990e32993d479be92e52429ea0e519289a6d212b66adde10522f",
+      "program_sha256": "cad80bb855db1109b99f6170dbd9763ff130aba18525601b8276ec270606cb33",
+      "status": "passed",
+      "exit_code": 0,
+      "stdout": "DAY14_TESTS_PASSED\n",
+      "stderr": ""
+    }
+  ]
+}

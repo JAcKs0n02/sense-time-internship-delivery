@@ -1,0 +1,43 @@
+{
+  "schema_version": "day26-v8-candidate-selection-1",
+  "status": "NO_PASSING_CANDIDATE",
+  "decision": "STOP_AFTER_TWO_DEV_FAILURES",
+  "development_gate": {
+    "mean_gain_min": 0.35,
+    "direct_gain_min": 0.0,
+    "opportunity_win_rate_min": 0.5,
+    "hallucination_rate_not_worse": true
+  },
+  "candidates": [
+    {
+      "candidate_id": "v8-e-balanced-continue",
+      "training_return_code": 0,
+      "adapter_model_sha256": "0fbc22b412e36018ca8f98d434ad48194f7ed39e7fd829c7f41c70e2f4142c6b",
+      "mean_gain": -0.57,
+      "direct_gain": -0.26,
+      "opportunity_wins": 3,
+      "opportunity_count": 12,
+      "opportunity_win_rate": 0.25,
+      "base_hallucination_rate": 0.4,
+      "lora_hallucination_rate": 0.6,
+      "passed": false
+    },
+    {
+      "candidate_id": "v8-f-balanced-restart",
+      "training_return_code": 0,
+      "adapter_model_sha256": "d1e003c0852827646df752741cdc4b7e78309d67f362c571201f513b5230a505",
+      "mean_gain": -0.4525,
+      "direct_gain": -0.025,
+      "opportunity_wins": 4,
+      "opportunity_count": 12,
+      "opportunity_win_rate": 0.3333333333333333,
+      "base_hallucination_rate": 0.4,
+      "lora_hallucination_rate": 0.55,
+      "passed": false
+    }
+  ],
+  "selected_candidate": null,
+  "new_final_set_acquired": false,
+  "final_evaluation_run": false,
+  "reason": "Both preregistered candidates failed all four development gates. The protocol forbids a third candidate and forbids final-set acquisition without a development pass."
+}

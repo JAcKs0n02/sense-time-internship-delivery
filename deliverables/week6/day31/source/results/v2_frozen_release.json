@@ -1,0 +1,27 @@
+{
+  "schema_version": "2.0",
+  "status": "frozen_before_final_test",
+  "checkpoint": "/root/autodl-tmp/qwen25-week6/formal-v2/runs/tool-sft-lora-v2/checkpoint-38",
+  "adapter_model_sha256": "a5e348ad180f8183479d3138b40613ead7163f3b2089c9b271063b64be5cdc5c",
+  "adapter_config_sha256": "3f9585b4844615acbddaf03ebc140f1e6b74694ea6bac801840e65392bf6222d",
+  "checkpoint_selection_sha256": "2bec7fce912a8dbe8146e446a33289be87c3eb2464daf34122f03ff9cd765e14",
+  "prompt_selection_sha256": "6739a53b23f3195f22f23bef58ba96f74ee56aeb5a8cb2b36b7e9af46a21c9cd",
+  "prompt_variant": "main",
+  "prompt_sha256": "c16614bb753cd8c5226efde24a5ab1acfc55900023eb6f69679ec047d25f5735",
+  "model_config_sha256": "620f4c7a944d48024422dbea3429f03b994a3acccf379bf79849c27f08da75ac",
+  "preflight_sha256": "5aa33fc5984f4d9cf558e9b6440b8a8b10a10bbde02fcd0d248776e892123232",
+  "knowledge_base_sha256": "21a72d361880750760b2277e9e8e64699934822a5cb464f99bc6cb97fc697600",
+  "final_test_sha256": "ca74e32574bd7282f1a12428ec9559e2cf6abec58007fc3d7212c5160742b050",
+  "generation_config": {
+    "do_sample": false,
+    "max_new_tokens": 384,
+    "repetition_penalty": 1.0,
+    "seed": 42
+  },
+  "max_steps": 6,
+  "policy_outputs": [
+    "raw",
+    "guarded"
+  ],
+  "selection_uses_final_test": false
+}

@@ -1,0 +1,34 @@
+{
+  "valid": true,
+  "source_sha256": "841aeb528f3613c789b14f13b1e550e17f5acdd6fb62f71ab30fd7576be11ca8",
+  "counts": {
+    "safety": 10,
+    "business": 5,
+    "total": 15
+  },
+  "prompt_ids": [
+    "w4-eval-safety-01",
+    "w4-eval-safety-02",
+    "w4-eval-safety-03",
+    "w4-eval-safety-04",
+    "w4-eval-safety-05",
+    "w4-eval-safety-06",
+    "w4-eval-safety-07",
+    "w4-eval-safety-08",
+    "w4-eval-safety-09",
+    "w4-eval-safety-10",
+    "w4-eval-business-01",
+    "w4-eval-business-02",
+    "w4-eval-business-03",
+    "w4-eval-business-04",
+    "w4-eval-business-05"
+  ],
+  "generation_config": {
+    "do_sample": false,
+    "max_new_tokens": 512,
+    "repetition_penalty": 1.0,
+    "seed": 42,
+    "dtype": "bfloat16",
+    "device": "cuda:0"
+  }
+}

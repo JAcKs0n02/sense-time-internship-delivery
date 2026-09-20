@@ -1,0 +1,58 @@
+{
+  "status": "RESUME_LOCKS_TARGET_AUDIT_PASS",
+  "models": {
+    "original_base": {
+      "dependencies_checked": 324,
+      "model_path": "/root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct",
+      "entrypoint_gate": "PASS",
+      "rows": [
+        {
+          "model": "/root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct",
+          "dataset": "ceval",
+          "score": 77.93462109955424,
+          "subjects": 52,
+          "questions": 1346,
+          "correct": 1049,
+          "evidence_kind": "reused_verified_opencompass",
+          "source_run": "formal-eval-20260916-01"
+        },
+        {
+          "model": "/root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct",
+          "dataset": "cmmlu",
+          "score": 79.8307718874115,
+          "subjects": 67,
+          "questions": 11582,
+          "correct": 9246,
+          "evidence_kind": "reused_verified_opencompass",
+          "source_run": "formal-eval-20260916-01"
+        }
+      ],
+      "provenance": {
+        "source_run": "formal-eval-20260916-01",
+        "source_model": "original_base",
+        "source_manifest_sha256": "4badbc8b4b2cc9393396b8194ba7dfb921e973fe6538caf529e685dc746396d1",
+        "source_lock_sha256": "ddf8cf644799a6e5fbe2946c911bad6424dcef14148411c927e44269cf2856e0",
+        "objective_inference_repeated": false
+      },
+      "runtime_lock_sha256": "ce2adde9027af06c96dad05b668db954e1ef3fcf27b52affd7c6371627b4aee3"
+    },
+    "final_sft": {
+      "dependencies_checked": 322,
+      "model_path": "/root/autodl-tmp/week8-full-training-runtime-20260916/logs/full-run-01/models/final_sft",
+      "entrypoint_gate": "PASS",
+      "runtime_lock_sha256": "4f65d0757e777cbdce37c16154175d3be2d9dafe221bd2d5031cb243d3488487"
+    },
+    "final_dpo": {
+      "dependencies_checked": 322,
+      "model_path": "/root/autodl-tmp/week8-full-training-runtime-20260916/logs/full-run-01/models/final_dpo",
+      "entrypoint_gate": "PASS",
+      "runtime_lock_sha256": "ae261518099604cdf91b5633d5cc432ebad3fc9a46a2495ddf0a9c7eaf5c8fa5"
+    }
+  },
+  "host": "autodl-container-be044ebe99-be706b14",
+  "completed_utc": "2026-09-17T00:12:06.904632+00:00",
+  "preflight_restored": true,
+  "gpu_inference": false,
+  "judge_calls": 0,
+  "script_sha256": "0a529b5b8e3a0313dd5964608d2d412a1971f1d99be03b5cd5ce65d17e441350"
+}

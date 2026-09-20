@@ -1,0 +1,53 @@
+Qwen2.5-7B-Instruct 参数量手工交叉核对
+日期：2026-07-17
+
+配置：
+V = vocab_size = 152064
+H = hidden_size = 3584
+L = num_hidden_layers = 28
+A = num_attention_heads = 28
+K = num_key_value_heads = 4
+I = intermediate_size = 18944
+D = head_dim = H / A = 128
+
+1. Token embedding
+V * H = 152064 * 3584 = 544997376
+
+2. 单层 Attention
+Q weight + bias = H * (A * D) + A * D
+                = 3584 * 3584 + 3584 = 12848640
+K weight + bias = H * (K * D) + K * D
+                = 3584 * 512 + 512 = 1835520
+V weight + bias = 1835520
+O weight        = (A * D) * H = 3584 * 3584 = 12845056
+Attention 合计 = 29364736
+
+3. 单层 SwiGLU FFN
+gate + up + down = 3 * H * I
+                 = 3 * 3584 * 18944 = 203685888
+
+4. 单层两个 RMSNorm
+2 * H = 7168
+
+5. 单个 Decoder Layer
+29364736 + 203685888 + 7168 = 233057792
+
+6. 28 个 Decoder Layer
+L * 233057792 = 28 * 233057792 = 6525618176
+
+7. Final RMSNorm
+H = 3584
+
+8. LM head
+tie_word_embeddings=false，因此单独计算：
+V * H = 544997376
+
+9. 总参数量
+544997376 + 6525618176 + 3584 + 544997376
+= 7615616512
+
+10. 去除输入 embedding 和输出 lm_head 的 Transformer 主体
+7615616512 - 544997376 - 544997376
+= 6525621760
+
+结论：手工公式与 analyze_params.py 输出逐项一致。

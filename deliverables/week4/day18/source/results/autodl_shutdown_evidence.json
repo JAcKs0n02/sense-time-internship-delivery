@@ -1,0 +1,9 @@
+{
+  "checked_at_utc": "2026-08-11T03:44:28Z",
+  "console_status": "已关机",
+  "instance_id": "78fb4ea487-e700080a",
+  "instance_name": "内蒙B区 / 344机",
+  "shutdown_confirmed": true,
+  "verification_method": "AutoDL 控制台实例列表刷新后核实",
+  "workload": "Day 18 Qwen tokenizer length statistics and LLaMA-Factory 0.9.3 ranking schema smoke"
+}

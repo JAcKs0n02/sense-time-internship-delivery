@@ -1,0 +1,26 @@
+{
+  "week6_tool_sft_train_v2": {
+    "file_name": "tool_sft_train_v2.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "tools": "tools"
+    }
+  },
+  "week6_tool_sft_dev_v2": {
+    "file_name": "tool_sft_dev_v2.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "tools": "tools"
+    }
+  },
+  "week6_tool_sft_test_v2": {
+    "file_name": "tool_sft_test_v2.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "tools": "tools"
+    }
+  }
+}

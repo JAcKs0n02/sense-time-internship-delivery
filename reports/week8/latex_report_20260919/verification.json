@@ -1,0 +1,44 @@
+{
+  "status": "PASS_CONTENT_AND_LATEX_PDF_REVIEW",
+  "date": "2026-09-19",
+  "teacher_format": "草稿Word/LaTeX；终稿PDF及源文件",
+  "counts": {
+    "chapter_count": 8,
+    "total_chinese_characters": 15253,
+    "chapters_1_to_4_chinese_characters": 5923,
+    "pdf_pages": 35,
+    "figures": 6,
+    "numbered_tables": 21
+  },
+  "compiler": "Tectonic 0.17.0",
+  "pandoc": "pandoc 3.9",
+  "all_fonts_embedded": true,
+  "missing_glyphs": 0,
+  "overfull_boxes": 0,
+  "text_outside_page_safe_bounds": 0,
+  "visual_review": {
+    "pages_covered": 35,
+    "method": "All page renders inspected as contact sheets; screenshot-corresponding page enlarged; final changed pages re-inspected; unchanged pages pixel-identical to prior reviewed render.",
+    "screenshot_corresponding_pdf_page": 16
+  },
+  "existing_20_result_tables_unchanged": true,
+  "added_table": "119 benchmark sample plus custom20 delivery check",
+  "old_docx_unchanged": true,
+  "canonical_source": "reports/technical_report.md",
+  "source_archive_files": 12,
+  "fresh_cuda_install_verified": false,
+  "git_published": false,
+  "checkpoints_deleted": 0,
+  "current_report_sha256": {
+    "reports/technical_report.md": "c7c206944d09ccb0a9eaf394fb48dfc1da4e067c7e9c7642575e09b9b0f1bf9a",
+    "reports/technical_report.tex": "9f2872fa30e3c510d67f8f4eba48dab6da17d76de9a0554e8605b15d08940200",
+    "reports/technical_report.pdf": "3472ddf9b94072ae50427fcb50fc7cde10b6253ba110ba70b928173e03c3b0bd",
+    "reports/technical_report_sources.zip": "987d12590d4979a5739290f7fb2a51f76ae1681aeec334ba7bd7c6512c1d3175"
+  },
+  "source_archive_standalone_compile": {
+    "status": "PASS",
+    "pages": 35,
+    "pdf_text_identical": true,
+    "inputs": "Extracted source ZIP under /tmp, using included .tex and figures"
+  }
+}

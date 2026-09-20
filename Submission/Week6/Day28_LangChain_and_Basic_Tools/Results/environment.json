@@ -1,0 +1,19 @@
+{
+  "python": "3.11.14",
+  "packages": {
+    "langchain": "0.3.30",
+    "langchain-community": "0.3.31",
+    "langgraph": "0.6.11",
+    "pytest": "9.0.2",
+    "pydantic": "2.13.4"
+  },
+  "pip_check": {
+    "status": "PASS",
+    "output": "No broken requirements found."
+  },
+  "create_react_agent_import": {
+    "status": "PASS",
+    "symbol": "langgraph.prebuilt.chat_agent_executor.create_react_agent",
+    "observed_warning": "LangChainPendingDeprecationWarning: the default allowed_objects value will change in a future version."
+  }
+}

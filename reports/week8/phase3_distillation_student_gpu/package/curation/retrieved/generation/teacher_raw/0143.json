@@ -1,0 +1,14 @@
+{
+  "sample_id": "03f5e69ec90b4806bc8a69a65167177211feca90842713199f527abe1527ac12",
+  "prompt": "请复述输入文本，并在结尾输出“<END>”\n\n井底死寂，她只听见自己粗重的呼吸声，井外也一片岑寂。",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请复述输入文本，并在结尾输出“<END>”\n\n井底死寂，她只听见自己粗重的呼吸声，井外也一片岑寂。"
+    }
+  ],
+  "answer": "井底死寂，她只听见自己粗重的呼吸声，井外也一片岑寂。<END>",
+  "truncated": false,
+  "input_tokens": 65,
+  "output_tokens": 26
+}

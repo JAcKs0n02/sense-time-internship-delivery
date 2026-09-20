@@ -1,0 +1,13 @@
+### Corrective DPO merge selected only after isolated development gates passed.
+
+### model
+model_name_or_path: /root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged
+adapter_name_or_path: /root/autodl-tmp/qwen25-week4/day20-remediation/runs/reward-corrective-40step/attempt_001/trainer_output
+template: qwen
+trust_remote_code: true
+
+### export
+export_dir: /root/autodl-tmp/qwen25-week4/best_model/qwen25-7b-week4-dpo-corrective-merged
+export_size: 4
+export_device: cpu
+export_legacy_format: false

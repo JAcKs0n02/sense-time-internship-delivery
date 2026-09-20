@@ -1,0 +1,5 @@
+model,dataset,score,macro_subject_score,subject_count,question_count,status,aggregation,result_dir,delta_vs_base
+base,ceval,77.542262,77.001569,52,1398,completed,sample_weighted_accuracy,/root/autodl-tmp/qwen25-week3/opencompass/formal/base/attempt-001/20260807_121515/results/Qwen2.5-7B-Instruct_hf,0.0
+base,cmmlu,0.647412,0.622482,67,11649,completed,sample_weighted_accuracy,/root/autodl-tmp/qwen25-week3/opencompass/formal/base/attempt-001/20260807_121515/results/Qwen2.5-7B-Instruct_hf,0.0
+best_sft,ceval,79.189426,78.977255,52,1398,completed,sample_weighted_accuracy,/root/autodl-tmp/qwen25-week3/opencompass/formal/best_sft/attempt-001/20260807_141654/results/qwen25-7b-week3-best-merged_hf,1.647164
+best_sft,cmmlu,5.205187,5.003287,67,11649,completed,sample_weighted_accuracy,/root/autodl-tmp/qwen25-week3/opencompass/formal/best_sft/attempt-001/20260807_141654/results/qwen25-7b-week3-best-merged_hf,4.557775

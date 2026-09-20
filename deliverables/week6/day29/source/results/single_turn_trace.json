@@ -1,0 +1,299 @@
+{
+  "schema_version": "1.0",
+  "model_id": "reward_corrective_40step_merged",
+  "model_manifest_sha256": "d9be5c285591d7fcf0a8e91d5ec351ecefabe241d0372e1aa21d067e400d28ef",
+  "run_spec_sha256": "05b465941d1051eba123b9a0f677e5e922b28d765c138e9f31b8ce16029db354",
+  "prompt": "计算 123 * 456",
+  "runner_evidence": {
+    "model_preflight": {
+      "load_mode": "base_plus_peft_merge",
+      "base_model_dir": "/root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged",
+      "base_archive_manifest_sha256": "e4512f7dd0f85b2f1d8154d123aec176295f557046142aab406a030c8e76e971",
+      "base_files": [
+        {
+          "path": "Modelfile",
+          "bytes": 464,
+          "sha256": "5e3d4048240729db5b474431102461272678d60e5793d4a3452b2cfaf3acb2f7"
+        },
+        {
+          "path": "added_tokens.json",
+          "bytes": 605,
+          "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b"
+        },
+        {
+          "path": "config.json",
+          "bytes": 687,
+          "sha256": "620f4c7a944d48024422dbea3429f03b994a3acccf379bf79849c27f08da75ac"
+        },
+        {
+          "path": "generation_config.json",
+          "bytes": 243,
+          "sha256": "e37243c9528b42e7d07737838af2fad956be52550398d00a852e032934646484"
+        },
+        {
+          "path": "merges.txt",
+          "bytes": 1671853,
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+        },
+        {
+          "path": "model-00001-of-00004.safetensors",
+          "bytes": 3945426872,
+          "sha256": "6423982195a83374e19761c2ae36fd27335ecbb7bd0eb5f750aad9c9143010c5"
+        },
+        {
+          "path": "model-00002-of-00004.safetensors",
+          "bytes": 3864726352,
+          "sha256": "38bb70d2fdd4dbac89c5a641a5ac25ad08b82aaa969ad4fcb4fd98e39cd48590"
+        },
+        {
+          "path": "model-00003-of-00004.safetensors",
+          "bytes": 3864726408,
+          "sha256": "d838d4672adbb345d1408384d812faf5fff4f943d653987969b4c50cbf826f29"
+        },
+        {
+          "path": "model-00004-of-00004.safetensors",
+          "bytes": 3556392240,
+          "sha256": "970c454abb38676ba92de3513dd9867513deeb2fc519f69f319872b76cc0bd9a"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "bytes": 27752,
+          "sha256": "f00d17cbf433746c391ad43948613e373aa51222dbee3b0db61ffff59a74bb1a"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "bytes": 613,
+          "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+        },
+        {
+          "path": "tokenizer.json",
+          "bytes": 11421896,
+          "sha256": "9c5ae00e602b8860cbd784ba82a8aa14e8feecec692e7076590d014d7b7fdafa"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "bytes": 7362,
+          "sha256": "056f2c058091cdc7af49f6dc7cc43e0440f1b7d2a76d95d1daea085db11db491"
+        },
+        {
+          "path": "vocab.json",
+          "bytes": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+        }
+      ],
+      "base_files_sha256": "8fc4bc39471ae51210e91a57e969bfa369f011663691d1171634ff18b86662f5",
+      "adapter_dir": "/root/autodl-tmp/qwen25-week4/day20-remediation/runs/reward-corrective-40step/attempt_001/trainer_output",
+      "adapter": {
+        "path": "/root/autodl-tmp/qwen25-week4/day20-remediation/runs/reward-corrective-40step/attempt_001/trainer_output/adapter_model.safetensors",
+        "bytes": 80792096,
+        "sha256": "d7a932ee4f28c8950db289126381f5d4dd30a037b238852e87ad8e5a241f9e52",
+        "config_sha256": "c3bdb54475427d65c81abeb93c3d41b2bc9e3a906e6b1865045a433192d346fb"
+      },
+      "adapter_source_manifest_sha256": "f8c41f8096b61453aa6cce8c72c8a594682d80531c756ddb7b35cf2d880cf7e9",
+      "archived_merged_model_path": "/root/autodl-tmp/qwen25-week4/best_model/qwen25-7b-week4-dpo-corrective-merged",
+      "archived_merged_manifest_sha256": "aca9a2932ed427f8fc6e9962e70274eb286a09c446d177af2bc00f6df1675e4c",
+      "runtime_identity_sha256": "d9be5c285591d7fcf0a8e91d5ec351ecefabe241d0372e1aa21d067e400d28ef",
+      "manifest_sha256": "d9be5c285591d7fcf0a8e91d5ec351ecefabe241d0372e1aa21d067e400d28ef"
+    },
+    "effective_config": {
+      "schema_version": "1.0",
+      "model_id": "reward_corrective_40step_merged",
+      "runtime_load_mode": "base_plus_peft_merge",
+      "expected_remote_model_path": "/root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged",
+      "base_archive_manifest_sha256": "e4512f7dd0f85b2f1d8154d123aec176295f557046142aab406a030c8e76e971",
+      "expected_remote_adapter_path": "/root/autodl-tmp/qwen25-week4/day20-remediation/runs/reward-corrective-40step/attempt_001/trainer_output",
+      "expected_adapter_run": "reward-corrective-40step/attempt_001",
+      "expected_adapter_bytes": 80792096,
+      "expected_adapter_sha256": "d7a932ee4f28c8950db289126381f5d4dd30a037b238852e87ad8e5a241f9e52",
+      "archived_merged_model_path": "/root/autodl-tmp/qwen25-week4/best_model/qwen25-7b-week4-dpo-corrective-merged",
+      "archived_merged_manifest_sha256": "aca9a2932ed427f8fc6e9962e70274eb286a09c446d177af2bc00f6df1675e4c",
+      "formal_prompt": "计算 123 * 456",
+      "tool_names": [
+        "calculator",
+        "knowledge_retrieval"
+      ],
+      "system_prompt_version": "week6-day29-react-v1",
+      "max_steps": 4,
+      "runtime_limit_seconds": 60,
+      "generation": {
+        "do_sample": false,
+        "max_new_tokens": 256,
+        "repetition_penalty": 1.0,
+        "seed": 42
+      },
+      "remote_model_path": "/root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged",
+      "remote_adapter_path": "/root/autodl-tmp/qwen25-week4/day20-remediation/runs/reward-corrective-40step/attempt_001/trainer_output",
+      "recursion_limit": 12,
+      "config_file_sha256": "abf6b09fa7d9cacca82da04a0306a95814dda68e89c11693bee0e7309dcae25c",
+      "source_manifest_sha256": "f8c41f8096b61453aa6cce8c72c8a594682d80531c756ddb7b35cf2d880cf7e9"
+    },
+    "code_tool_prompt_manifest": {
+      "files": [
+        {
+          "path": "deliverables/week6/source/week6_agent/model_adapter.py",
+          "sha256": "6086831c7ad589f5e942f3f4579f5106501c2c40185bafdc94dc7b72bbb6e5cc"
+        },
+        {
+          "path": "deliverables/week6/source/week6_agent/agent_factory.py",
+          "sha256": "6ad46fd536099fb40f0be8f44fcbd125939f3fe6263ed1b864d820dfaa0004df"
+        },
+        {
+          "path": "deliverables/week6/source/week6_agent/trace_schema.py",
+          "sha256": "c6285272263cfc7b2a637cff1ab62640e96167ac9bcfd9aeb4f559ad4cadcb3b"
+        },
+        {
+          "path": "deliverables/week6/day29/source/scripts/initialize_agent.py",
+          "sha256": "0a95d7bee0f82beadda468140a586e0a841e3db054316d48df843a0e7810af29"
+        },
+        {
+          "path": "deliverables/week6/day29/source/scripts/run_single_turn.py",
+          "sha256": "83d27b3ef42c5cc80399ab85a281f977b02b394d33ee942b3076112f4e983b8d"
+        },
+        {
+          "path": "deliverables/week6/day29/source/scripts/validate_day29.py",
+          "sha256": "dcd9697733e503b58732120525e1d60cef845006abe1cb9b9092a95428c1d124"
+        }
+      ],
+      "tool_names": [
+        "calculator",
+        "knowledge_retrieval"
+      ],
+      "tools": [
+        {
+          "name": "calculator",
+          "description": "Safely calculates one bounded arithmetic expression.",
+          "source_path": "/root/autodl-tmp/qwen25-week6/day29/repo_final/deliverables/week6/source/week6_agent/tools/calculator.py",
+          "source_sha256": "6f60a42fde9f9d1506225f4033cb41572972ea6a12caa34fdc1d896dadd4e886",
+          "schema": {
+            "description": "Input accepted by the LangChain-compatible calculator wrapper.",
+            "properties": {
+              "expression": {
+                "description": "A single arithmetic expression.",
+                "title": "Expression",
+                "type": "string"
+              }
+            },
+            "required": [
+              "expression"
+            ],
+            "title": "CalculatorInput",
+            "type": "object"
+          },
+          "schema_sha256": "521ef9e264cdbd5b80c8bfcf997a63e85a2694b85f64e642198138facc33d507"
+        },
+        {
+          "name": "knowledge_retrieval",
+          "description": "Looks up product price, shipping, stock, and descriptions in local JSON.",
+          "source_path": "/root/autodl-tmp/qwen25-week6/day29/repo_final/deliverables/week6/source/week6_agent/tools/knowledge_retrieval.py",
+          "source_sha256": "c9a76c2826ce217753b03ebff0552e065e08731b30f742203a664330cd76cd3b",
+          "schema": {
+            "description": "Input accepted by the LangChain-compatible retrieval wrapper.",
+            "properties": {
+              "query": {
+                "description": "A product name, alias, or product keyword query.",
+                "title": "Query",
+                "type": "string"
+              }
+            },
+            "required": [
+              "query"
+            ],
+            "title": "KnowledgeRetrievalInput",
+            "type": "object"
+          },
+          "schema_sha256": "16fa4ea5208a1e9f7f5a61ee0e09fce7cf02269083ff8cc2b772daa04df2ef08"
+        }
+      ],
+      "tools_sha256": "5f062a3b9c2b6ae02e0ea67066415f6ea94c609375e99dba2d892e3aa8148840",
+      "system_prompt_version": "week6-day29-react-v1",
+      "system_prompt_sha256": "9730572628873a847359068e6e494ab196806dc72cbe12b34f96cd8a8f6c48fd"
+    },
+    "environment": {
+      "python": "3.10.20",
+      "python_executable": "/root/autodl-tmp/conda/envs/llm_exp/bin/python3.10",
+      "packages": {
+        "langchain": "0.3.30",
+        "langchain_community": "0.3.31",
+        "langchain_core": "0.3.86",
+        "langgraph": "0.6.11",
+        "langgraph_prebuilt": "0.6.5",
+        "pydantic": "2.13.4",
+        "peft": "0.15.1",
+        "transformers": "4.50.0",
+        "torch": "2.5.1+cu121"
+      },
+      "create_react_agent": {
+        "module": "langgraph.prebuilt.chat_agent_executor",
+        "name": "create_react_agent",
+        "callable": true
+      },
+      "evidence_sha256": "b1bafa7d5484a4e5c637a9addb2f8263f9f1d53337bab20d40e90fdebdcf16cb"
+    }
+  },
+  "messages": [
+    {
+      "type": "human",
+      "content": "计算 123 * 456"
+    },
+    {
+      "type": "ai",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "calculator",
+          "args": {
+            "expression": "123*456"
+          },
+          "id": "model-turn-0-tool-call-0",
+          "type": "tool_call"
+        }
+      ],
+      "response_metadata": {
+        "raw_generated_text": "<tool_call>\n{\"name\": \"calculator\", \"arguments\": {\"expression\": \"123*456\"}}\n</tool_call>"
+      }
+    },
+    {
+      "type": "tool",
+      "content": "{\"status\": \"success\", \"data\": {\"value\": 56088}, \"error_code\": null}",
+      "tool_call_id": "model-turn-0-tool-call-0",
+      "name": "calculator"
+    },
+    {
+      "type": "ai",
+      "content": "计算结果为 56088",
+      "tool_calls": [],
+      "response_metadata": {
+        "raw_generated_text": "计算结果为 56088"
+      }
+    }
+  ],
+  "status": "success",
+  "error_code": null,
+  "trace": [
+    {
+      "step_index": 1,
+      "action": "calculator",
+      "action_input": {
+        "expression": "123*456"
+      },
+      "tool_call_id": "model-turn-0-tool-call-0",
+      "raw_generated_text": "<tool_call>\n{\"name\": \"calculator\", \"arguments\": {\"expression\": \"123*456\"}}\n</tool_call>",
+      "observation": {
+        "status": "success",
+        "data": {
+          "value": 56088
+        },
+        "error_code": null
+      }
+    }
+  ],
+  "final_answer": "计算结果为 56088",
+  "tool_names": [
+    "calculator",
+    "knowledge_retrieval"
+  ],
+  "max_steps": 4,
+  "recursion_limit": 12,
+  "runtime_limit_seconds": 60,
+  "latency_seconds": 1.5494037065654993
+}

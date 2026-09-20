@@ -1,0 +1,38 @@
+{
+  "status": "PASS_INDEPENDENT_EXPORT_CPU_VALIDATION_NOT_FINAL_RELEASE",
+  "created_utc": "2026-09-19T00:58:50.763088+00:00",
+  "candidate": "outputs/week8-release-candidate-20260919/repository",
+  "source_allowlist_files": 5922,
+  "redacted_files": 9,
+  "redacted_occurrences": 18,
+  "original_source_files_unchanged": true,
+  "frozen_data_outputs_identical": 15,
+  "quick": "PASS_ARCHIVED_EVIDENCE_REPLAY",
+  "score_only": "VERIFIED_EXISTING_SCORES",
+  "new_api_calls": 0,
+  "formal_data": {
+    "train": 1422,
+    "validation": 158,
+    "protected_hits": 0,
+    "cross_split_groups": 0
+  },
+  "tests": {
+    "passed": 170,
+    "warnings": 1,
+    "excluded": 0
+  },
+  "pip_check": "PASS",
+  "source_access_and_external_network_guard": "PASS_NEGATIVE_PROBE_AND_GUARDED_RUNS",
+  "credential_pattern_scan": "PASS_WITH_DOCUMENTED_SCOPE",
+  "new_gpu_jobs": 0,
+  "full_cuda_reproduction_verified": false,
+  "final_release_allowed": false,
+  "git_commit_push_or_history_rewrite": false,
+  "remaining": [
+    "Linux CUDA complete pipeline validation",
+    "Final public-content/history/attachment scope review",
+    "Exact checkpoint cleanup list review"
+  ],
+  "candidate_manifest": "release_metadata/export_manifest.json",
+  "original_artifact_identity_receipts": "Retained as historical identities; not silently rewritten to match redaction"
+}

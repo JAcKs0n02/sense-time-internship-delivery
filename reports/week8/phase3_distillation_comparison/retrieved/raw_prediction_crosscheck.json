@@ -1,0 +1,17 @@
+{
+  "before": {
+    "correct": 723,
+    "questions": 1346
+  },
+  "after": {
+    "correct": 715,
+    "questions": 1346
+  },
+  "paired": {
+    "both_correct": 707,
+    "after_only_correct": 8,
+    "before_only_correct": 16,
+    "both_wrong": 615
+  },
+  "status": "RAW_RECOUNT_COMPLETE_OC_SCORING_PENDING"
+}

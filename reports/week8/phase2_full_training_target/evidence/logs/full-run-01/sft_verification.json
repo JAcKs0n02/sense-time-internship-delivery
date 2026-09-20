@@ -1,0 +1,52 @@
+{
+  "global_step": 1775,
+  "first_loss": 1.1983,
+  "last_loss": 0.3143,
+  "validation": [
+    {
+      "epoch": 1.0,
+      "eval_loss": 0.9285325407981873,
+      "eval_runtime": 32.4339,
+      "eval_samples_per_second": 4.871,
+      "eval_steps_per_second": 4.871,
+      "step": 356
+    },
+    {
+      "epoch": 2.0,
+      "eval_loss": 0.9940559267997742,
+      "eval_runtime": 32.3588,
+      "eval_samples_per_second": 4.883,
+      "eval_steps_per_second": 4.883,
+      "step": 712
+    },
+    {
+      "epoch": 3.0,
+      "eval_loss": 1.1665148735046387,
+      "eval_runtime": 32.3825,
+      "eval_samples_per_second": 4.879,
+      "eval_steps_per_second": 4.879,
+      "step": 1068
+    },
+    {
+      "epoch": 4.0,
+      "eval_loss": 1.3967657089233398,
+      "eval_runtime": 32.2707,
+      "eval_samples_per_second": 4.896,
+      "eval_steps_per_second": 4.896,
+      "step": 1424
+    },
+    {
+      "epoch": 4.987341772151899,
+      "eval_loss": 1.565837025642395,
+      "eval_runtime": 32.306,
+      "eval_samples_per_second": 4.891,
+      "eval_steps_per_second": 4.891,
+      "step": 1775
+    }
+  ],
+  "tensor_count": 392,
+  "nonzero_lora_b_tensors": 196,
+  "optimizer_step": 1775,
+  "adapter_sha256": "90a20b13130152a8602a1805f13ce96f6e89b58887c7e6eb4e3aa412f508c1d1",
+  "optimizer_sha256": "6d6efbd91752dd4b918f2e8b3e75e61c5f1d4746b12c2de809c6f51df0876886"
+}

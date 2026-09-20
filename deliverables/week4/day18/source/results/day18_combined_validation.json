@@ -1,0 +1,14 @@
+{
+  "autodl_shutdown_confirmed": true,
+  "errors": [],
+  "llamafactory_schema_status": "pass",
+  "record_count": 710,
+  "records_over_cutoff": 0,
+  "self_built_count": 210,
+  "train_count": 639,
+  "train_sha256": "88c6a176eda7df50f5ffb0e01e78610c99178e71e14518d82b6c0bd20a50c320",
+  "ultrafeedback_count": 500,
+  "valid": true,
+  "validation_count": 71,
+  "validation_sha256": "5626226d8d0aff49cec6119de63720692cb3f3f27091bf94332524cd83a53372"
+}

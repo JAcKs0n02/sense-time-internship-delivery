@@ -1,0 +1,78 @@
+Looking in indexes: http://mirrors.aliyun.com/pypi/simple
+Collecting playwright==1.49.1
+  Downloading http://mirrors.aliyun.com/pypi/packages/9a/c1/ea765e72a746dc7ec2ce155ffea29d454e7171db78f3c09185e888387246/playwright-1.49.1-py3-none-manylinux1_x86_64.whl (44.2 MB)
+     ━━━━━━ 44.2/4… 14.4   eta 0:00:00
+            MB      MB/s              
+Collecting pyee==12.0.0
+  Downloading http://mirrors.aliyun.com/pypi/packages/1d/0d/95993c08c721ec68892547f2117e8f9dfbcef2ca71e098533541b4a54d5f/pyee-12.0.0-py3-none-any.whl (14 kB)
+Collecting greenlet==3.1.1
+  Downloading http://mirrors.aliyun.com/pypi/packages/cf/69/79e4d63b9387b48939096e25115b8af7cd8a90397a304f92436bcb21f5b2/greenlet-3.1.1-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (599 kB)
+     ━━━━━━ 599.5… 5.6     eta 0:00:00
+            kB     MB/s               
+Collecting typing-extensions
+  Downloading http://mirrors.aliyun.com/pypi/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+     ━━━━━━ 45.6/4… 24.5   eta 0:00:00
+            kB      MB/s              
+Installing collected packages: typing-extensions, greenlet, pyee, playwright
+Successfully installed greenlet-3.1.1 playwright-1.49.1 pyee-12.0.0 typing-extensions-4.16.0
+
+[notice] A new release of pip is available: 23.0.1 -> 26.1.2
+[notice] To update, run: python -m pip install --upgrade pip
+Downloading Chromium 131.0.6778.33 (playwright build v1148)[2m from https://playwright.azureedge.net/builds/chromium/1148/chromium-linux.zip[22m
+|                                                                                |   0% of 161.3 MiB
+|■■■■■■■■                                                                        |  10% of 161.3 MiB
+|■■■■■■■■■■■■■■■■                                                                |  20% of 161.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 161.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 161.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 161.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 161.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 161.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 161.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 161.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 161.3 MiB
+Chromium 131.0.6778.33 (playwright build v1148) downloaded to /root/.cache/ms-playwright/chromium-1148
+Downloading FFMPEG playwright build v1010[2m from https://playwright.azureedge.net/builds/ffmpeg/1010/ffmpeg-linux.zip[22m
+|                                                                                |   0% of 2.3 MiB
+|■■■■■■■■                                                                        |  10% of 2.3 MiB
+|■■■■■■■■■■■■■■■■                                                                |  20% of 2.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 2.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 2.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 2.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 2.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 2.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 2.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 2.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 2.3 MiB
+FFMPEG playwright build v1010 downloaded to /root/.cache/ms-playwright/ffmpeg-1010
+Downloading Chromium Headless Shell 131.0.6778.33 (playwright build v1148)[2m from https://playwright.azureedge.net/builds/chromium/1148/chromium-headless-shell-linux.zip[22m
+|                                                                                |   0% of 100.9 MiB
+|■■■■■■■■                                                                        |  10% of 100.9 MiB
+|■■■■■■■■■■■■■■■■                                                                |  20% of 100.9 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 100.9 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 100.9 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 100.9 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 100.9 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 100.9 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 100.9 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 100.9 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 100.9 MiB
+Chromium Headless Shell 131.0.6778.33 (playwright build v1148) downloaded to /root/.cache/ms-playwright/chromium_headless_shell-1148
+Playwright Host validation warning: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     playwright install-deps                          ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     apt-get install libgbm1\                         ║
+║         libasound2                                   ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+    at validateDependenciesLinux (/root/autodl-tmp/qwen25-week1/week1/tools/tb_capture_env/lib/python3.10/site-packages/playwright/driver/package/lib/server/registry/dependencies.js:216:9)
+    at async Registry._validateHostRequirements (/root/autodl-tmp/qwen25-week1/week1/tools/tb_capture_env/lib/python3.10/site-packages/playwright/driver/package/lib/server/registry/index.js:753:43)
+    at async Registry._validateHostRequirementsForExecutableIfNeeded (/root/autodl-tmp/qwen25-week1/week1/tools/tb_capture_env/lib/python3.10/site-packages/playwright/driver/package/lib/server/registry/index.js:851:7)
+    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/root/autodl-tmp/qwen25-week1/week1/tools/tb_capture_env/lib/python3.10/site-packages/playwright/driver/package/lib/server/registry/index.js:840:43)
+    at async t.<anonymous> (/root/autodl-tmp/qwen25-week1/week1/tools/tb_capture_env/lib/python3.10/site-packages/playwright/driver/package/lib/cli/program.js:137:7)
+capture_setup_exit_code=0

@@ -1,0 +1,157 @@
+{
+  "status": "PASS_INPUT_IDENTITY_ONLY",
+  "checks": [
+    {
+      "check": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/keep_only_freeze_20260911/sft_keep_only.sharegpt.jsonl",
+      "passed": true
+    },
+    {
+      "check": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/keep_only_freeze_20260911/selected_lineage.jsonl",
+      "passed": true
+    },
+    {
+      "check": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/keep_only_freeze_20260911/excluded_records.jsonl",
+      "passed": true
+    },
+    {
+      "check": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/keep_only_freeze_20260911/03_未纳入清单.md",
+      "passed": true
+    },
+    {
+      "check": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/keep_only_freeze_20260911/01_冻结说明.md",
+      "passed": true
+    },
+    {
+      "check": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/technical_preflight_20260911/train.sharegpt.jsonl",
+      "passed": true
+    },
+    {
+      "check": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/technical_preflight_20260911/validation.sharegpt.jsonl",
+      "passed": true
+    },
+    {
+      "check": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/technical_preflight_20260911/train_lineage.jsonl",
+      "passed": true
+    },
+    {
+      "check": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/technical_preflight_20260911/validation_lineage.jsonl",
+      "passed": true
+    },
+    {
+      "check": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/technical_preflight_20260911/overlap_hits.jsonl",
+      "passed": true
+    },
+    {
+      "check": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/technical_preflight_20260911/split_group_links.jsonl",
+      "passed": true
+    },
+    {
+      "check": "all original freeze dependencies available and unchanged",
+      "passed": true
+    },
+    {
+      "check": "counts 1663 = 1580 + 83",
+      "passed": true
+    },
+    {
+      "check": "unique IDs and disjoint complete partition",
+      "passed": true
+    },
+    {
+      "check": "all partition content exactly equals frozen original",
+      "passed": true
+    },
+    {
+      "check": "all selected retain common KEEP rule",
+      "passed": true
+    },
+    {
+      "check": "all 4908 candidate rows accounted once",
+      "passed": true
+    },
+    {
+      "check": "remote consumed train parsed content and order identity",
+      "passed": true
+    },
+    {
+      "check": "remote consumed validation parsed content and order identity",
+      "passed": true
+    },
+    {
+      "check": "historical eval hash evaluation_suite_200.json",
+      "passed": true
+    },
+    {
+      "check": "historical eval hash evaluation_suite_200_corrected.json",
+      "passed": true
+    },
+    {
+      "check": "historical eval hash evaluation_questions.json",
+      "passed": true
+    },
+    {
+      "check": "historical eval hash evaluation_holdout_prompts.json",
+      "passed": true
+    },
+    {
+      "check": "historical eval hash frozen_agent_eval.json",
+      "passed": true
+    },
+    {
+      "check": "historical eval hash tool_sft_test_v2.json",
+      "passed": true
+    },
+    {
+      "check": "historical eval hash tool_sft_eval_frozen.json",
+      "passed": true
+    },
+    {
+      "check": "historical eval hash evaluation_questions.json",
+      "passed": true
+    },
+    {
+      "check": "generation_comparison_20260911/inference_inputs.json",
+      "passed": true
+    },
+    {
+      "check": "checkpoint_diagnostic_20260911/inference_inputs.json",
+      "passed": true
+    },
+    {
+      "check": "precision_path_20260911/inference_inputs.json",
+      "passed": true
+    },
+    {
+      "check": "conservative_sft_20260911/inference_inputs.json",
+      "passed": true
+    },
+    {
+      "check": "conservative_sft_20260911/confirmation_questions.json",
+      "passed": true
+    },
+    {
+      "check": "local vocabulary matches original base",
+      "passed": true
+    },
+    {
+      "check": "saved tokenizer matches delivered tokenizer",
+      "passed": true
+    }
+  ],
+  "counts": {
+    "parent": 1663,
+    "source": 1580,
+    "protected": 83,
+    "excluded": 3245
+  },
+  "train_sources": {
+    "alpaca_gpt4_zh": 761,
+    "coig_pc": 745,
+    "sharegpt_zh": 74
+  },
+  "train_multiturn": 13,
+  "new_data_generated": false,
+  "week8_leakage_check_run": false,
+  "week8_loader_run": false,
+  "gpu_started": false
+}

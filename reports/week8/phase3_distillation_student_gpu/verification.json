@@ -1,0 +1,243 @@
+{
+  "status": "PASS",
+  "instance_off_verified": true,
+  "quality_comparison": "PENDING",
+  "files": [
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/launch.json",
+      "sha256": "a7a70f58e5a3f4ff22f93d950a13a9e7671ec3dcd75a6f1ee4eee49bf3a69a63"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/preflight_data/audit.json",
+      "sha256": "af5c1d4f2fd604b17b30b3a7cbcd6e4596d5e322c3fb9ca5a274c21d19db5921"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/preflight_data/dataset_info.json",
+      "sha256": "31e506e1ef7460b8b390a1bbf25c193f7b2fd14ddb90278d2f04e7c1522727d4"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/preflight_data/statistics.json",
+      "sha256": "b8c25db3d475ae19278891ebf184ccef34fb81a6c41c907b7cc0ea469c190d56"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/preflight_data/train_alpaca.json",
+      "sha256": "986f5dda095bbeae0f3c5c239b8141124cec3836bd16e40eefbbaff61870be32"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/preflight_data/train_sharegpt.json",
+      "sha256": "4703bc0a2f71af2caaef500f4c633673df78202ac6fe8b8a30e2b2359dce4ed1"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/preflight_data/validation_alpaca.json",
+      "sha256": "02b33b5d12b9c17b65acd1caf90e520a1f6641529cc0e655aa97aad4439e0e21"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/preflight_data/validation_sharegpt.json",
+      "sha256": "4f4ee46a1db52ef606c66e65b7d6f1a9f6c30e5e484a69e0713a1fb68d656623"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/session_exit.json",
+      "sha256": "33cc3bc32e4e7e1fdafc7ced2fc5a10e25122e549356d942f00f312216d68b3c"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/status.json",
+      "sha256": "62095f2b17dfdf3a56e1ecfbcec3879433b319db48aacc78933324d5fc4c4f81"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/data/audit.json",
+      "sha256": "af5c1d4f2fd604b17b30b3a7cbcd6e4596d5e322c3fb9ca5a274c21d19db5921"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/data/dataset_info.json",
+      "sha256": "31e506e1ef7460b8b390a1bbf25c193f7b2fd14ddb90278d2f04e7c1522727d4"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/data/statistics.json",
+      "sha256": "b8c25db3d475ae19278891ebf184ccef34fb81a6c41c907b7cc0ea469c190d56"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/data/train_alpaca.json",
+      "sha256": "986f5dda095bbeae0f3c5c239b8141124cec3836bd16e40eefbbaff61870be32"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/data/train_sharegpt.json",
+      "sha256": "4703bc0a2f71af2caaef500f4c633673df78202ac6fe8b8a30e2b2359dce4ed1"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/data/validation_alpaca.json",
+      "sha256": "02b33b5d12b9c17b65acd1caf90e520a1f6641529cc0e655aa97aad4439e0e21"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/data/validation_sharegpt.json",
+      "sha256": "4f4ee46a1db52ef606c66e65b7d6f1a9f6c30e5e484a69e0713a1fb68d656623"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/distill_train.yaml",
+      "sha256": "6b9525354f67175d58779da4d50265e3cfffb56717fbae4fc2bc386fcd365b43"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/final_distilled/added_tokens.json",
+      "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/final_distilled/config.json",
+      "sha256": "02db2210304f0299f71776688eda4303d933074836c574f297b8fb60b290f711"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/final_distilled/generation_config.json",
+      "sha256": "79f5d0fe1531430ca8ea4852da2c6d8fe0c4efd7ad9f00037cb4871f93518059"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/final_distilled/special_tokens_map.json",
+      "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/final_distilled/tokenizer_config.json",
+      "sha256": "056f2c058091cdc7af49f6dc7cc43e0440f1b7d2a76d95d1daea085db11db491"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/final_distilled_export.log",
+      "sha256": "8998b56be072b802f94ab0e65908c4a206fa4ce2dd06d95c9574a21e0cef85eb"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/final_distilled_export.yaml",
+      "sha256": "8718ddec02f9b2519346c29eae19ffbe43e1b086172214cee7ec81f2b0d8a7af"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/input_binding.json",
+      "sha256": "7c5265386b0b5600b3f60c3e7e546e3bab59503214715d1e2a8de94caf754b1f"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/status.json",
+      "sha256": "25b066c2ec508728b35ba8ee077d11b155a9a8ed1edd14c6a4f9a420b46b4fe4"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/student_artifact_verification.json",
+      "sha256": "4d4e91b4f3daa8a44c5569a214939479539cf9e834efaab128d7a902c603b876"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/student_cold_load.json",
+      "sha256": "16c9f8802fb7764f784e51fc12d9ab3a47df8d1403f6ab4bb221d70bee6c6f1c"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/student_cold_load.log",
+      "sha256": "011509e18f1ed62565cf7c6c588e7e34039d274af7a667490096e10c7fa0ac31"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/student_state_verification.json",
+      "sha256": "820c97bd4c1488c8c24c4e93276f9f916d28babd253c5cc39a2d736e7ed2d7b8"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/student_tensor_verification.json",
+      "sha256": "834184ee342d5c3680a54782165882059c59d300bd63250cd5f73c91b781c506"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/student_tensor_verification.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/student_training_schedule.json",
+      "sha256": "309d3354f26e7512a06d12ec516637c2579641c6bec5c270b75aaea35584da70"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/training/attempt-01/adapter/adapter_config.json",
+      "sha256": "293275bf16041afabd7a8a551a8c17447a52b14016e0f575ec711b7ec1f37a77"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/training/attempt-01/adapter/added_tokens.json",
+      "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/training/attempt-01/adapter/all_results.json",
+      "sha256": "608d56ca63dc9aa8a2c4828f1df3fc864b946e603727ee11ffcafff36e662654"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/training/attempt-01/adapter/checkpoint-36/adapter_config.json",
+      "sha256": "293275bf16041afabd7a8a551a8c17447a52b14016e0f575ec711b7ec1f37a77"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/training/attempt-01/adapter/checkpoint-36/added_tokens.json",
+      "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/training/attempt-01/adapter/checkpoint-36/special_tokens_map.json",
+      "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/training/attempt-01/adapter/checkpoint-36/tokenizer_config.json",
+      "sha256": "8a5e6a9efdf4606caa92aab4ea9d2b36ce2af1148b00a6db7af33eacfddb98e2"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/training/attempt-01/adapter/checkpoint-36/trainer_state.json",
+      "sha256": "d29ddd446b1b8f6222c6693e2194df56ceca0456279dc1f8de6325adf0639374"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/training/attempt-01/adapter/eval_results.json",
+      "sha256": "2ef7fb38d3a49b8244c077ca74ccfcf6762f65c45bbf81c6f144d6518f4c69e5"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/training/attempt-01/adapter/special_tokens_map.json",
+      "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/training/attempt-01/adapter/tokenizer_config.json",
+      "sha256": "8a5e6a9efdf4606caa92aab4ea9d2b36ce2af1148b00a6db7af33eacfddb98e2"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/training/attempt-01/adapter/train_results.json",
+      "sha256": "973c5e824fb47a92cfe3113012d25feef3785410646b4c6a71992dda71fbc1d2"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/training/attempt-01/adapter/trainer_state.json",
+      "sha256": "217a027e0d0555465bd8587a69a0913feeb451dab45cae0953c7a0cfa42f1ad4"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/training/attempt-01/status.json",
+      "sha256": "a8860932fcade5a2b5395bc811291e7d23bd3dbb6e8e4f7cc3ed421faac7f308"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/training/attempt-01/train.log",
+      "sha256": "67fc59ed7b829642eef79fb0c7e1f95dbc83635d30c1b745416858a6cfacc557"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student/training/attempt-01/train.yaml",
+      "sha256": "8a05acf561b92e0327802f4b0650eef9ddda0a3c27d682bdcd7dd220184a4d03"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/student_pipeline.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/retrieved/training_command.json",
+      "sha256": "faff9ac66b96615a819fb29e4483979ef888c64e3a60b3f79c23348855b9f89b"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/received_bundle.json",
+      "sha256": "52d2561bda709c3779dcd1a2d8a2dc6ea2d52c14fac1919d4f5286353affc8db"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/verify_receipts.py",
+      "sha256": "266c625d265d4f933d3c4cf72fef9ca8ec4eb58f764564f7413345afe389f577"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/checks.json",
+      "sha256": "a330bd2c64122c265b3b8e50b8a622e8fa2e96e452205c9951234ef992b740bc"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_gpu/session.json",
+      "sha256": "dd8a7ab1eef712862d1881dab0c4f287c0ba6c85bae2ad52d02e4caf685b56d5"
+    },
+    {
+      "path": "docs/week8_distillation_student_training.md",
+      "sha256": "e8cbf6ea000f17c00f5d95fa733c2cb709d4a80e33f70e7b0be4366dd7824eb1"
+    },
+    {
+      "path": "docs/week8_distillation_student_preparation.md",
+      "sha256": "75c870ff2bad672dbb24cffd6855c08082fe7dd12f83f0982a4d3550032c71a1"
+    },
+    {
+      "path": "docs/week8_acceptance_audit.md",
+      "sha256": "fda5d26d31e9a698a7fbc9a7c79f6e3af145a0ec9c7374d85dbe2a933f387582"
+    }
+  ]
+}

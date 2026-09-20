@@ -1,0 +1,41 @@
+{
+  "verified_utc": "2026-09-18T23:43:44.085747+00:00",
+  "models": [
+    {
+      "role": "week8_final_sft",
+      "metadata_files": 10,
+      "model_type": "qwen2",
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "hidden_size": 3584,
+      "layers": 28,
+      "dtype": "bfloat16",
+      "metadata_hashes": "PASS"
+    },
+    {
+      "role": "week8_final_dpo",
+      "metadata_files": 10,
+      "model_type": "qwen2",
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "hidden_size": 3584,
+      "layers": 28,
+      "dtype": "bfloat16",
+      "metadata_hashes": "PASS"
+    },
+    {
+      "role": "week8_final_distilled",
+      "metadata_files": 9,
+      "model_type": "qwen2",
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "hidden_size": 896,
+      "layers": 24,
+      "dtype": "bfloat16",
+      "metadata_hashes": "PASS"
+    }
+  ]
+}

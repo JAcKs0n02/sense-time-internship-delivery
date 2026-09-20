@@ -1,0 +1,61 @@
+{
+  "status": "TARGET_LOADER_PASS_OC_PROMPT_BLOCKED",
+  "evidence_kind": "selected fields transcribed from remote session_receipt.txt through authenticated Jupyter editor; not a byte-identical copy of the entire receipt",
+  "remote_time_utc": "2026-09-15T12:55:49.816095+00:00",
+  "host": "autodl-container-be044ebe99-be706b14",
+  "remote_root": "/root/autodl-tmp/week8-recheck-20260915",
+  "loader_exit_code": 0,
+  "train_token_rows_sha256": "346c9067ccfeb6acb05b1ca8300876e4ad7d7056f3694c5fd20f4ad769c54055",
+  "validation_token_rows_sha256": "583d0a5681d139c1752dfa0c718b6a32cc8dd7ff915c61e4a1832c7031f23e3c",
+  "loader_verification_sha256": "3ecd14868022c8ab6f5306b3d8f528000f598a8304667e5c594250b05e7a6021",
+  "loader_source_sha256": "ef32ea44b01e0030e834e473caa3d4aa408388f9375242eccea78d87f04cb590",
+  "environment": {
+    "python": "3.10.20",
+    "platform": "Linux-5.15.0-94-generic-x86_64-with-glibc2.35",
+    "torch": "2.5.1+cu121",
+    "transformers": "4.50.0",
+    "llamafactory": "0.9.3",
+    "peft": "0.15.1",
+    "accelerate": "1.2.1",
+    "datasets": "3.2.0",
+    "trl": "0.9.6",
+    "tokenizers": "0.21.1",
+    "cpu_only_audit_on_target": true
+  },
+  "splits": {
+    "train": {
+      "records": 1422,
+      "supervised_tokens": 85596,
+      "assistant_turns": 1441,
+      "multiturn_records": 13,
+      "max_tokens": 2048,
+      "mismatches": 0
+    },
+    "validation": {
+      "records": 158,
+      "supervised_tokens": 8702,
+      "assistant_turns": 158,
+      "multiturn_records": 0,
+      "max_tokens": 1949,
+      "mismatches": 0
+    }
+  },
+  "sharegpt_alpaca_identical_records": 1580,
+  "synthetic_system_multiturn_pass": true,
+  "oc_01_02": "failed: missing empty SYSTEM merge newline in independent reconstruction",
+  "oc_03": "failed: upload not yet present",
+  "oc_04": "failed: upload was incomplete JSON; after completion SHA256 matched local v2",
+  "oc_05": "failed: ceval advanced_mathematics row_index 13 token mismatch due to recursive {C} substitution",
+  "remote_log_hashes": {
+    "loader-attempt-01.log": "8ea4dc3beb5a5452b6fb97049830b63b82f5d332972bfc976df675d35170bdb9",
+    "oc-runtime-01.log": "af5bb4bde5b4446012c55b374e0705e8820ce8df68e367eb3eeda1f67c333a0f",
+    "oc-runtime-02.log": "6e18c2a0e86ea601802ac86568fe84178dbf961e8c20fb1af374f328b4c0d93e",
+    "oc-runtime-03.log": "892a2136705e48c3af7e6bfa0ee516422dcce08119c47cc6dc7c6f6e4f221913",
+    "oc-runtime-04.log": "1d7ceaf1d7c2e2a7fd86d322ca9ea274926edc6834fe661e73b3963dcf5b9728",
+    "oc-runtime-05.log": "a314d96228e1f22f32afc14bce2bc429c2e054040d9fdf82538d80158de5c033"
+  },
+  "gpu_processes_at_end": "",
+  "training_started": false,
+  "full_raw_archive_remote": "/root/autodl-tmp/week8-recheck-20260915/evidence.tar.gz",
+  "full_raw_archive_downloaded": false
+}

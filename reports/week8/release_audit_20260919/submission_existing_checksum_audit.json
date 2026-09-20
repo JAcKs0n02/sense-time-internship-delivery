@@ -1,0 +1,2197 @@
+[
+  {
+    "path": "Submission/README.md",
+    "exists": true,
+    "match": false
+  },
+  {
+    "path": "Submission/Week1/Day1_Environment_Setup/day1_environment.png",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week1/Day1_Environment_Setup/day1_toolchain.png",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week1/Day2_Model_Download_and_Inference/chat_template.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week1/Day2_Model_Download_and_Inference/code_generation.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week1/Day2_Model_Download_and_Inference/inference.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week1/Day2_Model_Download_and_Inference/logic_reasoning.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week1/Day2_Model_Download_and_Inference/model_download.jpg",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week1/Day2_Model_Download_and_Inference/role_play.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week1/Day3_Architecture_Analysis/Qwen2.5_Architecture_Report.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week1/Day3_Architecture_Analysis/analyze_params.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week1/Day3_Architecture_Analysis/config.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week1/Day3_Architecture_Analysis/parameter_counts.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week1/Day4_Tokenizer_Experiments/tokenizer_experiments.executed.ipynb",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week1/Day5_LLaMA_Factory_and_Weekly_Report/Week1_Report.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week1/Day5_LLaMA_Factory_and_Weekly_Report/day5_train_run2.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week1/Day5_LLaMA_Factory_and_Weekly_Report/qwen25_7b_identity_qlora_run2.yaml",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week1/Day5_LLaMA_Factory_and_Weekly_Report/tensorboard_loss.png",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week1/Day5_LLaMA_Factory_and_Weekly_Report/training_complete.png",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week1/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day10_Weekly_Report_and_FAQ/FAQ.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day10_Weekly_Report_and_FAQ/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day10_Weekly_Report_and_FAQ/Week2_Data_and_SFT_Report.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day6_Data_Collection_and_Formatting/Data/Data_Provenance.jsonl",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day6_Data_Collection_and_Formatting/Data/Formatted_Alpaca_5K.jsonl",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day6_Data_Collection_and_Formatting/Data/Formatted_ShareGPT_5K.jsonl",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day6_Data_Collection_and_Formatting/Manifest/Collection_Metadata.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day6_Data_Collection_and_Formatting/Manifest/Raw_Data_Manifest.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day6_Data_Collection_and_Formatting/Manifest/Raw_Data_Manifest.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day6_Data_Collection_and_Formatting/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day7_Cleaning_Pipeline/Data/Cleaned_Alpaca_4999.jsonl",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day7_Cleaning_Pipeline/Data/Cleaned_ShareGPT_4999.jsonl",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day7_Cleaning_Pipeline/Figures/Cleaning_Counts.png",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day7_Cleaning_Pipeline/Figures/Length_Distribution.png",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day7_Cleaning_Pipeline/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day7_Cleaning_Pipeline/Results/Cleaning_Stats.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day7_Cleaning_Pipeline/Results/Cleaning_Stats.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day7_Cleaning_Pipeline/Results/Day7_Validation.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day7_Cleaning_Pipeline/Results/Duplicate_Pairs.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day7_Cleaning_Pipeline/Results/SimHash_Calibration.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day7_Cleaning_Pipeline/clean_pipeline.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day8_Configuration_and_First_SFT/Config/qwen25_7b_week2_lora_annotated.yaml",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day8_Configuration_and_First_SFT/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day8_Configuration_and_First_SFT/Results/First_SFT_Summary.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day9_Training_Monitoring_and_Merge/Config/qwen25_7b_week2_export.yaml",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day9_Training_Monitoring_and_Merge/Figures/TensorBoard_Train_Loss.png",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day9_Training_Monitoring_and_Merge/Merged_Model/Model_Inventory.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day9_Training_Monitoring_and_Merge/Merged_Model/Model_SHA256.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day9_Training_Monitoring_and_Merge/Merged_Model/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day9_Training_Monitoring_and_Merge/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day9_Training_Monitoring_and_Merge/Results/Base_Model_Responses.jsonl",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day9_Training_Monitoring_and_Merge/Results/Base_vs_Merged_Comparison.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day9_Training_Monitoring_and_Merge/Results/Base_vs_Merged_Comparison.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day9_Training_Monitoring_and_Merge/Results/Evaluation_Scores.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day9_Training_Monitoring_and_Merge/Results/Loss_Summary.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day9_Training_Monitoring_and_Merge/Results/Merged_Model_Responses.jsonl",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day9_Training_Monitoring_and_Merge/Results/Merged_Model_Validation.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/Day9_Training_Monitoring_and_Merge/Results/Train_Loss_By_Step.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week2/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day11_Experiment_Design/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e2/attempt-001/config_diff.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e2/attempt-001/environment.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e2/attempt-001/gpu_memory.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e2/attempt-001/preflight.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e2/attempt-001/preflight.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e2/attempt-001/runtime_config.yaml",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e2/attempt-001/source_config.yaml",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e2/attempt-001/status.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e2/attempt-001/train.log",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e2/attempt-001/train_results.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e2/attempt-001/trainer_state.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e3/attempt-001/config_diff.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e3/attempt-001/environment.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e3/attempt-001/gpu_memory.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e3/attempt-001/preflight.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e3/attempt-001/preflight.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e3/attempt-001/runtime_config.yaml",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e3/attempt-001/source_config.yaml",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e3/attempt-001/status.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e3/attempt-001/train.log",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e3/attempt-001/train_results.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e3/attempt-001/trainer_state.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e5/attempt-001/config_diff.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e5/attempt-001/environment.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e5/attempt-001/gpu_memory.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e5/attempt-001/preflight.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e5/attempt-001/preflight.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e5/attempt-001/runtime_config.yaml",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e5/attempt-001/source_config.yaml",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e5/attempt-001/status.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e5/attempt-001/train.log",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e5/attempt-001/train_results.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/epoch-e5/attempt-001/trainer_state.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-1e-4/attempt-001/config_diff.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-1e-4/attempt-001/environment.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-1e-4/attempt-001/gpu_memory.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-1e-4/attempt-001/preflight.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-1e-4/attempt-001/preflight.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-1e-4/attempt-001/runtime_config.yaml",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-1e-4/attempt-001/source_config.yaml",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-1e-4/attempt-001/status.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-1e-4/attempt-001/train.log",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-1e-4/attempt-001/train_results.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-1e-4/attempt-001/trainer_state.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-2e-4/attempt-001/config_diff.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-2e-4/attempt-001/environment.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-2e-4/attempt-001/gpu_memory.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-2e-4/attempt-001/preflight.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-2e-4/attempt-001/preflight.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-2e-4/attempt-001/runtime_config.yaml",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-2e-4/attempt-001/source_config.yaml",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-2e-4/attempt-001/status.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-2e-4/attempt-001/train.log",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-2e-4/attempt-001/train_results.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-2e-4/attempt-001/trainer_state.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-5e-5/attempt-001/config_diff.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-5e-5/attempt-001/environment.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-5e-5/attempt-001/gpu_memory.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-5e-5/attempt-001/preflight.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-5e-5/attempt-001/preflight.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-5e-5/attempt-001/runtime_config.yaml",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-5e-5/attempt-001/source_config.yaml",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-5e-5/attempt-001/status.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-5e-5/attempt-001/train.log",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-5e-5/attempt-001/train_results.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/lr-5e-5/attempt-001/trainer_state.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r32/attempt-001/config_diff.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r32/attempt-001/environment.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r32/attempt-001/gpu_memory.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r32/attempt-001/preflight.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r32/attempt-001/preflight.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r32/attempt-001/runtime_config.yaml",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r32/attempt-001/source_config.yaml",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r32/attempt-001/status.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r32/attempt-001/train.log",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r32/attempt-001/train_results.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r32/attempt-001/trainer_state.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r64/attempt-001/config_diff.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r64/attempt-001/environment.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r64/attempt-001/gpu_memory.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r64/attempt-001/preflight.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r64/attempt-001/preflight.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r64/attempt-001/runtime_config.yaml",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r64/attempt-001/source_config.yaml",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r64/attempt-001/status.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r64/attempt-001/train.log",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r64/attempt-001/train_results.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r64/attempt-001/trainer_state.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r8/attempt-001/config_diff.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r8/attempt-001/environment.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r8/attempt-001/gpu_memory.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r8/attempt-001/preflight.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r8/attempt-001/preflight.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r8/attempt-001/runtime_config.yaml",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r8/attempt-001/source_config.yaml",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r8/attempt-001/status.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r8/attempt-001/train.log",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r8/attempt-001/train_results.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Raw_Logs/rank-r8/attempt-001/trainer_state.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Results/Experiment_Summary.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day12_13_Batch_Experiments/Results/Experiment_Summary.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day14_Model_Evaluation/All_Responses.jsonl",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day14_Model_Evaluation/Automatic_Evidence.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day14_Model_Evaluation/Automatic_Evidence_Summary.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day14_Model_Evaluation/Best_Model.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day14_Model_Evaluation/Eval_Harness.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day14_Model_Evaluation/Evaluation_Questions.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day14_Model_Evaluation/Evaluation_Rubric.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day14_Model_Evaluation/Formal_Evaluation_Manifest.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day14_Model_Evaluation/Formal_Validation.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day14_Model_Evaluation/Human_Review_Status.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day14_Model_Evaluation/Human_Score_Summary.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day14_Model_Evaluation/Human_Scoring_Guide.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day14_Model_Evaluation/Model_Scores_Radar.png",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day14_Model_Evaluation/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day14_Model_Evaluation/Reviewer_1_Scores.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day14_Model_Evaluation/Reviewer_2_Scores.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day15_OpenCompass/OpenCompass_Scores.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day15_OpenCompass/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day16_Weekly_Report_and_Model_Archive/Best_Model_Path.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day16_Weekly_Report_and_Model_Archive/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day16_Weekly_Report_and_Model_Archive/Week3_Acceptance_Matrix.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/Day16_Weekly_Report_and_Model_Archive/Week3_SFT_Optimization_and_Evaluation_Report.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week3/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day17_Preference_Data_Methodology/Day17_Validation.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day17_Preference_Data_Methodology/Preference_Data_Construction_Guide.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day17_Preference_Data_Methodology/Preference_Pair_Examples.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day17_Preference_Data_Methodology/Preference_Taxonomy.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day17_Preference_Data_Methodology/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day18_Preference_Dataset/Corrective_DPO_Train.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day18_Preference_Dataset/Corrective_DPO_Validation.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day18_Preference_Dataset/Corrective_Data_Validation.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day18_Preference_Dataset/Corrective_Dataset_Info.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day18_Preference_Dataset/DPO_Train.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day18_Preference_Dataset/DPO_Validation.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day18_Preference_Dataset/Data_Validation.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day18_Preference_Dataset/Dataset_Info.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day18_Preference_Dataset/Dataset_Statistics.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day18_Preference_Dataset/LLaMAFactory_Schema_Smoke.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day18_Preference_Dataset/Length_Statistics.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day18_Preference_Dataset/Merged_Preference_Dataset.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day18_Preference_Dataset/Preference_Split.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day18_Preference_Dataset/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day18_Preference_Dataset/Self_Built_Review.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day18_Preference_Dataset/UltraFeedback_Provenance.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day19_DPO_Training/Adapter_Manifest.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day19_DPO_Training/Corrective_Development_Review.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day19_DPO_Training/DPO_Config.yaml",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day19_DPO_Training/DPO_Explicit_Reference_Config.yaml",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day19_DPO_Training/DPO_Metrics_By_Step.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day19_DPO_Training/DPO_Training_Summary.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day19_DPO_Training/Launch_Log.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day19_DPO_Training/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day19_DPO_Training/Reference_Model_Decision.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day20_DPO_Merge_and_Evaluation/Business_Quality_Comparison.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day20_DPO_Merge_and_Evaluation/Business_Quality_Summary.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day20_DPO_Merge_and_Evaluation/Evaluation_Config.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day20_DPO_Merge_and_Evaluation/Evaluation_Prompts.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day20_DPO_Merge_and_Evaluation/Final_Model_Selection.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day20_DPO_Merge_and_Evaluation/Merged_Model_Manifest.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day20_DPO_Merge_and_Evaluation/Merged_Model_Smoke.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day20_DPO_Merge_and_Evaluation/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day20_DPO_Merge_and_Evaluation/Safety_Test_Records.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day20_DPO_Merge_and_Evaluation/Safety_Test_Summary.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day21_Weekly_Report_and_Final_Model_Archive/DPO_Rewards_Curves.png",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day21_Weekly_Report_and_Final_Model_Archive/DPO_Training_Metrics.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day21_Weekly_Report_and_Final_Model_Archive/Final_DPO_Model_Archive.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day21_Weekly_Report_and_Final_Model_Archive/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day21_Weekly_Report_and_Final_Model_Archive/Week4_Acceptance_Matrix.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/Day21_Weekly_Report_and_Final_Model_Archive/Week4_DPO_Preference_Alignment_Report.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week4/SHA256SUMS.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day22_Model_and_Image_Preparation/Images/w5-formula-01.jpg",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day22_Model_and_Image_Preparation/Images/w5-logo-01.png",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day22_Model_and_Image_Preparation/Images/w5-scene-01.jpg",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day22_Model_and_Image_Preparation/Images/w5-table-01.png",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day22_Model_and_Image_Preparation/Images/w5-ui-01.png",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day22_Model_and_Image_Preparation/Manifests/Image_Ground_Truth.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day22_Model_and_Image_Preparation/Manifests/Image_Manifest.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day22_Model_and_Image_Preparation/Manifests/Image_Sources.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day22_Model_and_Image_Preparation/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day22_Model_and_Image_Preparation/Results/Day22_Validation.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day22_Model_and_Image_Preparation/Results/Environment.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day22_Model_and_Image_Preparation/Results/Model_Download_Confirmation.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day22_Model_and_Image_Preparation/Results/Offline_Load_Smoke.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day23_VLM_Inference/Capability_Boundary_Summary.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day23_VLM_Inference/Day23_Validation.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day23_VLM_Inference/Generation_Config.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day23_VLM_Inference/Image_Index.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day23_VLM_Inference/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day23_VLM_Inference/VLM_Inference_Results.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day24_Cross_Modal_Attention/Attention_Heatmap_Records.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day24_Cross_Modal_Attention/Cross_Modal_Attention_Method.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day24_Cross_Modal_Attention/Day24_Validation.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day24_Cross_Modal_Attention/Figures/Attention_01_Scene_Mountain.png",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day24_Cross_Modal_Attention/Figures/Attention_02_Table_DESCRIPTION.png",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day24_Cross_Modal_Attention/Figures/Attention_03_Formula_Gamma.png",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day24_Cross_Modal_Attention/Figures/Attention_04_Logo_Triangle.png",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day24_Cross_Modal_Attention/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day25_VLM_Hallucination_Evaluation/Day25_Validation.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day25_VLM_Hallucination_Evaluation/Hallucination_Summary.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day25_VLM_Hallucination_Evaluation/Hallucination_Test_Records.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day25_VLM_Hallucination_Evaluation/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day25_VLM_Hallucination_Evaluation/Test_Case_Manifest.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day25_VLM_Hallucination_Evaluation/VLM_Hallucination_Report.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Config/Evaluation_Config.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Config/LLaMAFactory_LoRA_Config.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Data/Acquire_Source_Images.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Data/Data_Manifest.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Data/Source_Image_Manifest.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Data/Source_Image_Manifest.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Data/Split_Manifest.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Data/Training_Dataset_200.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Data/Training_Dataset_LLaMAFactory.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Data/Training_Dataset_Weighted_300.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Data/Training_Input_Manifest.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Model_Archive/Base_Model_Manifest.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Model_Archive/Model_Manifest.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Model_Archive/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Model_Archive/Selected_Adapter_SHA256.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Results/Adapter_Manifest.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Results/Base_LoRA_Final_Comparison.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Results/Candidate_Selection.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Results/Comparison_Summary.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Results/Data_Validation.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Results/Day26_Validation.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Results/Effect_Comparison.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Results/Evaluation_Run_Summary.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Results/Formal_Training_Log.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Results/Original_V2_Comparison_Summary.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Results/Revealed_Scores.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Results/Smoke_Training_Summary.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Results/Trainable_Parameters.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day26_VLM_LoRA/Results/Training_Summary.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day27_Weekly_Report/Day26_V8_Candidate_Selection.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day27_Weekly_Report/Day27_Validation.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day27_Weekly_Report/Final_VLM_Model_Manifest.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day27_Weekly_Report/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day27_Weekly_Report/Week5_Acceptance_Matrix.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/Day27_Weekly_Report/Week5_Multimodal_Practice_Report.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week5/SHA256SUMS.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day28_LangChain_and_Basic_Tools/Code/week6_agent/__init__.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day28_LangChain_and_Basic_Tools/Code/week6_agent/limits.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day28_LangChain_and_Basic_Tools/Code/week6_agent/tool_result.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day28_LangChain_and_Basic_Tools/Code/week6_agent/tools/__init__.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day28_LangChain_and_Basic_Tools/Code/week6_agent/tools/calculator.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day28_LangChain_and_Basic_Tools/Code/week6_agent/tools/knowledge_retrieval.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day28_LangChain_and_Basic_Tools/Data/knowledge_base.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day28_LangChain_and_Basic_Tools/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day28_LangChain_and_Basic_Tools/Results/day28_validation.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day28_LangChain_and_Basic_Tools/Results/environment.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day28_LangChain_and_Basic_Tools/Submission_Map.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day28_LangChain_and_Basic_Tools/requirements.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day29_ReAct_Agent/Code/week6_agent/__init__.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day29_ReAct_Agent/Code/week6_agent/agent_factory.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day29_ReAct_Agent/Code/week6_agent/limits.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day29_ReAct_Agent/Code/week6_agent/model_adapter.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day29_ReAct_Agent/Code/week6_agent/tool_result.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day29_ReAct_Agent/Code/week6_agent/tools/__init__.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day29_ReAct_Agent/Code/week6_agent/tools/calculator.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day29_ReAct_Agent/Code/week6_agent/tools/knowledge_retrieval.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day29_ReAct_Agent/Code/week6_agent/trace_schema.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day29_ReAct_Agent/Config/agent_config.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day29_ReAct_Agent/Provenance/Adapter_Manifest.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day29_ReAct_Agent/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day29_ReAct_Agent/Results/code_tool_prompt_manifest.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day29_ReAct_Agent/Results/day29_validation.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day29_ReAct_Agent/Results/effective_config.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day29_ReAct_Agent/Results/environment.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day29_ReAct_Agent/Results/model_preflight.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day29_ReAct_Agent/Results/run_spec.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day29_ReAct_Agent/Results/single_turn_trace.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day29_ReAct_Agent/Scripts/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day29_ReAct_Agent/Scripts/initialize_agent.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day29_ReAct_Agent/Scripts/run_single_turn.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day29_ReAct_Agent/Scripts/validate_day29.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day29_ReAct_Agent/Submission_Map.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day29_ReAct_Agent/requirements.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day30_Complex_Tools_and_Multistep/Code/week6_agent/__init__.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day30_Complex_Tools_and_Multistep/Code/week6_agent/agent_factory.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day30_Complex_Tools_and_Multistep/Code/week6_agent/day30_agent.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day30_Complex_Tools_and_Multistep/Code/week6_agent/day30_validation.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day30_Complex_Tools_and_Multistep/Code/week6_agent/limits.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day30_Complex_Tools_and_Multistep/Code/week6_agent/model_adapter.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day30_Complex_Tools_and_Multistep/Code/week6_agent/tool_result.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day30_Complex_Tools_and_Multistep/Code/week6_agent/tools/__init__.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day30_Complex_Tools_and_Multistep/Code/week6_agent/tools/calculator.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day30_Complex_Tools_and_Multistep/Code/week6_agent/tools/code_executor.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day30_Complex_Tools_and_Multistep/Code/week6_agent/tools/knowledge_retrieval.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day30_Complex_Tools_and_Multistep/Code/week6_agent/trace_schema.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day30_Complex_Tools_and_Multistep/Data/multistep_cases.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day30_Complex_Tools_and_Multistep/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day30_Complex_Tools_and_Multistep/Results/code_executor_safety_trace.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day30_Complex_Tools_and_Multistep/Results/code_tool_prompt_manifest.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day30_Complex_Tools_and_Multistep/Results/environment.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day30_Complex_Tools_and_Multistep/Results/model_preflight.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day30_Complex_Tools_and_Multistep/Results/run_spec.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day30_Complex_Tools_and_Multistep/Results/teacher_acceptance.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day30_Complex_Tools_and_Multistep/Results/teacher_multistep_trace.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day30_Complex_Tools_and_Multistep/Results/transitive_integrity_audit.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day30_Complex_Tools_and_Multistep/Scripts/initialize_day30.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day30_Complex_Tools_and_Multistep/Scripts/run_multistep.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day30_Complex_Tools_and_Multistep/Scripts/validate_day30.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day30_Complex_Tools_and_Multistep/Submission_Map.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day30_Complex_Tools_and_Multistep/requirements.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Config/dataset_info_v2.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Config/runtime_versions_v2.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Config/week6_tool_sft_lora_v2.yaml",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Config/week6_tool_sft_lora_v2_effective.yaml",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Data/dataset_manifest_v2.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Data/tool_sft_dev_v2.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Data/tool_sft_test_v2.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Data/tool_sft_train_core_100.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Data/tool_sft_train_v2.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Model_Archive/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Model_Archive/adapter_config.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Model_Archive/adapter_manifest.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Results/checkpoint_selection_v2.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Results/data_validation_v2.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Results/exit_status_v2.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Results/final_test_guarded_v2.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Results/final_test_raw_v2.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Results/final_test_summary_v2.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Results/formal_preflight_v2.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Results/frozen_release_v2.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Results/launch_command_v2.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Results/official_parser_receipt_v2.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Results/trainable_parameters_v2.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Results/training_log_v2.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Results/training_summary_v2.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Scripts/build_tool_sft_dataset.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Scripts/day31_harness.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Scripts/select_v2_checkpoint.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Scripts/validate_tool_sft_dataset.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day31_Tool_Call_SFT/Submission_Map.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day32_Error_Analysis/Code/day32_analysis.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day32_Error_Analysis/Config/prompt_manifest_v2.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day32_Error_Analysis/Config/system_prompt_ablation_input_fidelity.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day32_Error_Analysis/Config/system_prompt_main.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day32_Error_Analysis/Data/tool_sft_dev_v2.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day32_Error_Analysis/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day32_Error_Analysis/Results/Agent_Error_Mode_Analysis_Report.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day32_Error_Analysis/Results/ablation_error_analysis.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day32_Error_Analysis/Results/ablation_error_cases.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day32_Error_Analysis/Results/day32_validation.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day32_Error_Analysis/Results/main_error_analysis.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day32_Error_Analysis/Results/main_error_cases.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day32_Error_Analysis/Results/prompt_ablation_eval_v2.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day32_Error_Analysis/Results/prompt_comparison.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day32_Error_Analysis/Results/prompt_main_eval_v2.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day32_Error_Analysis/Results/prompt_selection_v2.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day32_Error_Analysis/Scripts/analyze_failures.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day32_Error_Analysis/Scripts/validate_day32.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day32_Error_Analysis/Submission_Map.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day33_Weekly_Report/Code/day33_reporting.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day33_Weekly_Report/Model_Archive/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day33_Weekly_Report/Model_Archive/adapter_config.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day33_Weekly_Report/Model_Archive/adapter_manifest.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day33_Weekly_Report/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day33_Weekly_Report/Report/Week6_Agent_Development_Report.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day33_Weekly_Report/Results/day33_validation.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day33_Weekly_Report/Results/final_agent_archive.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day33_Weekly_Report/Results/report_input_manifest.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day33_Weekly_Report/Results/week6_acceptance_matrix.csv",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day33_Weekly_Report/Scripts/build_day33.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day33_Weekly_Report/Scripts/validate_day33.py",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/Day33_Weekly_Report/Submission_Map.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week6/SHA256SUMS.txt",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week7/README.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week7/assets_manifest.json",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week7/优化记录.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week7/本地部署与操作手册.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week7/第7周部署与应用报告.md",
+    "exists": true,
+    "match": true
+  },
+  {
+    "path": "Submission/Week7/量化对比报告.md",
+    "exists": true,
+    "match": true
+  }
+]

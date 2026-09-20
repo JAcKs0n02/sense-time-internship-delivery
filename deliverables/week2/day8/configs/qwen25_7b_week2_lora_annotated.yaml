@@ -1,0 +1,279 @@
+# Week 2 Day 8 正式配置。
+# 配置源自 LLaMA-Factory 0.9.3 的官方文本 LoRA SFT 示例，并结合 Week 1
+# 已验证的 Qwen2.5-7B-Instruct 4-bit QLoRA 基线改写。
+# 老师所称的 qwen_lora.yaml 在当前 v0.9.3 源码中没有字面同名的纯文本示例；
+# 原始官方副本、搜索结果、真实源路径和 SHA-256 均单独归档。
+
+### model
+
+# 作用：指定基座模型的配置、Tokenizer 和权重来源。
+# 当前值：使用 Week 1 已完整下载并通过推理、QLoRA 训练验证的
+# Qwen2.5-7B-Instruct 本地目录，避免网络下载和模型版本漂移。
+# 调整影响：改成错误路径会在加载阶段失败；改成其他模型还必须同步修改
+# template、LoRA 目标层、显存方案，以及 Day 9 合并时使用的基座。
+model_name_or_path: /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct
+
+# 作用：允许 Transformers 执行模型仓库提供的自定义加载代码。
+# 当前值：沿用 LLaMA-Factory 官方示例和 Week 1 已验证配置，保证 Qwen
+# 配置类兼容；本实验只加载已经固定在本地的数据和模型文件。
+# 调整影响：设为 false 更保守，但若当前模型实现需要自定义代码会加载失败；
+# 设为 true 时必须确认模型来源可信，不能指向未经审核的陌生仓库。
+trust_remote_code: true
+
+# 作用：以 4-bit 加载冻结的基座权重；LoRA adapter 仍以较高精度训练，
+# 因此“finetuning_type=lora + 4-bit 基座”整体称为 QLoRA。
+# 当前值：RTX 3090 只有 24 GB 显存，同一模型的 Week 1 已验证 4-bit 可用。
+# 调整影响：改为 8 会增加显存但通常减少量化误差；删除量化则成为普通 LoRA，
+# 在 2048-token 长度下更容易 OOM。
+quantization_bit: 4
+
+# 作用：选择负责低比特加载的量化后端。
+# 当前值：bitsandbytes 0.43.3 已在当前 llm_exp 环境通过 Week 1 正式训练。
+# 调整影响：换成 HQQ、EETQ 等后端需要额外依赖和兼容性验证，不能只改名称。
+quantization_method: bnb
+
+# 作用：选择 bitsandbytes 4-bit 数值表示；NF4 为正态分布权重设计。
+# 当前值：沿用 Week 1 已验证基线，在显存和量化精度之间取得平衡。
+# 调整影响：改成 fp4 会改变量化误差分布，必须用同条件训练和评测重新比较。
+quantization_type: nf4
+
+# 作用：对量化参数本身再次量化，进一步降低 4-bit 基座的显存占用。
+# 当前值：Week 1 已验证为 true，适合单卡 24 GB 的 7B 模型训练。
+# 调整影响：设为 false 可能略微减少嵌套量化误差，但会增加显存使用。
+double_quantization: true
+
+# 作用：让 LayerNorm 在量化训练中以 float32 计算，减少低精度归一化的数值误差。
+# 当前值：true；这是 LLaMA-Factory 0.9.3 对当前 4-bit 配置给出的明确稳定性建议，
+# 额外显存开销很小，适合首次正式训练优先保证数值稳定。
+# 调整影响：设为 false 可省下极少量转换开销，但量化训练更容易出现精度波动；
+# 非量化训练通常不必专门启用。
+upcast_layernorm: true
+
+### method
+
+# 作用：选择 LLaMA-Factory 的训练阶段；sft 表示监督式指令微调。
+# 当前值：老师要求使用 instruction/input/output 数据进行首次 SFT。
+# 调整影响：pt、dpo、rm 等阶段需要完全不同的数据结构和训练目标，
+# 不能与 finetuning_type 混为一谈。
+stage: sft
+
+# 作用：明确执行参数更新，而不是只进行评估、预测或数据预处理。
+# 当前值：Day 8 必须真实启动训练并产生 step、loss 和 adapter。
+# 调整影响：设为 false 不会完成老师要求的首次 SFT。
+do_train: true
+
+# 作用：决定参数更新方式；lora 冻结原始权重，只训练低秩增量矩阵。
+# 当前值：单卡 24 GB 上以较少可训练参数完成 Qwen2.5-7B 微调。
+# 调整影响：改成 full 会更新全部约 76 亿参数并显著增加显存；freeze 只训练
+# 指定原始层，产生的权重结构也不同。
+finetuning_type: lora
+
+# 作用：低秩矩阵的秩 r，控制 adapter 容量和可训练参数数量。
+# 当前值：r=8 沿用官方示例和 Week 1 基线；当 lora_target=all 时，
+# Week 1 实测可训练参数为 20,185,088，约占总参数 0.2643%。
+# 调整影响：提高 rank 通常增强拟合容量，也增加显存、计算和过拟合风险；
+# 降低 rank 更省资源，但可能欠拟合复杂的 4,999 条多领域指令。
+lora_rank: 8
+
+# 作用：缩放 LoRA 分支的增量；标准 LoRA 常用 scaling=alpha/rank。
+# 当前值：alpha=16 与 rank=8 配套，标准缩放为 2，并沿用 Week 1 成功基线。
+# 调整影响：提高 alpha 会放大 LoRA 更新，过大可能导致训练不稳；降低 alpha
+# 会减弱 adapter 影响。alpha 不等于学习率，也不改变 adapter 参数量。
+lora_alpha: 16
+
+# 作用：在 LoRA 分支上随机丢弃部分激活，提供正则化。
+# 当前值：0.05 沿用 Week 1，在 4,999 条异质数据上降低过拟合风险。
+# 调整影响：设为 0 训练更直接但正则更弱；过高会丢失过多信号并导致欠拟合。
+lora_dropout: 0.05
+
+# 作用：决定哪些线性模块插入 LoRA adapter。
+# 当前值：all 让注意力与前馈网络主要线性层都能适配，并与 Week 1 一致。
+# 调整影响：只训练 q_proj、v_proj 会减少参数和显存，但表达能力更受限；
+# 修改目标层后 Day 9 adapter 清单和可训练参数量也会变化。
+lora_target: all
+
+### dataset
+
+# 作用：引用 dataset_info.json 中的数据集注册名，而不是直接填写文件名。
+# 当前值：只注册 Day 7 的 Alpaca 版 4,999 条清洗数据。
+# 调整影响：不能同时加入等价的 ShareGPT 版，否则相同语义样本会重复训练；
+# 名称与 dataset_info.json 不一致会触发“未定义数据集”错误。
+dataset: week2_clean_alpaca
+
+# 作用：指定数据文件和 dataset_info.json 所在目录。
+# 当前值：Day 8 使用独立数据快照，避免训练中上游文件被覆盖或移动。
+# 调整影响：目录错误会导致注册文件或 JSONL 找不到；更换目录后必须重新
+# 核对 4,999 条计数和 SHA-256。
+dataset_dir: /root/autodl-tmp/qwen25-week2/day8/data
+
+# 作用：把 instruction、input、assistant answer 渲染为 Qwen 对话 token，
+# 包括角色标记、消息边界、assistant 生成前缀和监督标签位置。
+# 当前值：qwen 是 LLaMA-Factory 0.9.3 中与 Qwen2.5-Instruct 匹配、
+# 且已被 Week 1 正式训练验证的模板。
+# 调整影响：模板错误可能仍能运行，但会使用错误角色 token 或 loss mask，
+# 导致模型学坏；不能使用当前最新版的 qwen3 模板。
+template: qwen
+
+# 作用：限制应用 chat template 后每条样本的最大 token 数。
+# 当前值：2048 与 Day 7 使用同一 Qwen Tokenizer 的清洗和截断口径一致。
+# 调整影响：调低可减少显存和计算但丢失上下文，并要求重做 Day 7 长度统计；
+# 调高会增加单步峰值显存，且当前数据已经按 2048 截断，不能恢复已删内容。
+cutoff_len: 2048
+
+# 作用：限制本次最多读取的训练样本数。
+# 当前值：精确设置为 Day 7 最终保留的 4,999 条，明确使用全量数据。
+# 调整影响：小于 4,999 会无必要丢弃清洗数据；大于 4,999 不会凭空增加样本，
+# 但会弱化本次实验对实际数据量的显式记录。
+max_samples: 4999
+
+# 作用：忽略以前缓存的 tokenized dataset，按当前数据、模板和长度重新处理。
+# 当前值：Day 8 首次正式训练，必须确保不会误用 Week 1 或旧参数缓存。
+# 调整影响：设为 false 可加速重复运行，但模板、数据或 cutoff_len 变化后可能
+# 读取陈旧缓存，造成难以发现的实验污染。
+overwrite_cache: true
+
+# 作用：控制数据映射和 tokenization 的 CPU 并行进程数。
+# 当前值：4 与当前容器 14 核 CPU 匹配，避免 16 进程同时占用过多内存。
+# 调整影响：提高可能加快预处理但增加内存和进程开销；降低更稳但预处理更慢，
+# 不会改变模型学习目标。
+preprocessing_num_workers: 4
+
+# 作用：控制 PyTorch DataLoader 准备 batch 的后台 worker 数。
+# 当前值：2 足以为单卡、micro batch 1 的训练供数，并减少多进程开销。
+# 调整影响：提高可能改善数据供给，也可能增加内存或引发 worker 稳定性问题；
+# 设为 0 最稳但可能降低吞吐。
+dataloader_num_workers: 2
+
+### output
+
+# 作用：指定正式 LoRA adapter、checkpoint、trainer state 和事件文件目录。
+# 当前值：使用 Day 8 独立 run1 目录，与 smoke test 和 Week 1 结果隔离。
+# 调整影响：重复使用已有目录可能混入旧 checkpoint；Day 9 合并必须引用这里
+# 最终生成的 adapter，而不是 smoke test 目录。
+output_dir: /root/autodl-tmp/qwen25-week2/day8/saves/qwen25-7b-week2-qlora-sft-run1
+
+# 作用：给 TensorBoard 和 Trainer 记录一个可读的实验名称。
+# 当前值：包含模型、周次、方法和 run 序号，便于与 Week 1/后续重试区分。
+# 调整影响：只影响日志标识，不改变梯度；若改训练参数也必须改 run_name，
+# 不能让不同实验共用一个名称。
+run_name: qwen25-7b-week2-qlora-sft-run1
+
+# 作用：每隔多少 optimizer steps 写一次 loss、learning rate 和 grad norm。
+# 当前值：1，满足 Day 9“记录每步 loss 值”和 TensorBoard 曲线要求。
+# 调整影响：提高可减小日志体积，但会丢失逐步曲线细节，无法满足老师要求。
+logging_steps: 1
+
+# 作用：每隔多少 optimizer steps 保存一次 checkpoint。
+# 当前值：500；预计约 3,747 个 optimizer steps，能留下阶段性恢复点。
+# 调整影响：过小会频繁写磁盘、拖慢训练；过大则故障时需要重跑更多 step。
+save_steps: 500
+
+# 作用：限制磁盘上保留的 checkpoint 数量，旧 checkpoint 会按策略清理。
+# 当前值：2，在保留恢复能力的同时控制 100 GB 数据盘占用。
+# 调整影响：提高会占用更多磁盘；设为 1 仍可训练但恢复选择更少。
+save_total_limit: 2
+
+# 作用：训练结束后根据 Trainer 日志绘制 loss 图。
+# 当前值：true，为 Day 9 TensorBoard 之外再提供一份静态训练曲线证据。
+# 调整影响：false 不影响训练本身，但会缺少 LLaMA-Factory 自动生成的图。
+plot_loss: true
+
+# 作用：控制是否允许在已有 output_dir 上直接写入。
+# 当前值：false；正式 run 必须使用新目录，避免覆盖真实失败或旧训练证据。
+# 调整影响：true 更方便重跑，但可能混合或覆盖旧 adapter、日志和 checkpoint。
+overwrite_output_dir: false
+
+# 作用：控制 checkpoint 是否只保存模型权重，而省略优化器等恢复状态。
+# 当前值：false，保留 Trainer/优化器状态，支持实例中断后从 checkpoint 恢复。
+# 调整影响：true 可节省空间，但无法完整恢复优化器和 scheduler 进度。
+save_only_model: false
+
+# 作用：选择训练指标上报后端。
+# 当前值：tensorboard，生成 event 文件供 Day 9 查看每步 loss 曲线。
+# 调整影响：none 不生成 TensorBoard event；wandb 等会引入额外账号和网络依赖，
+# 本任务没有必要。
+report_to: tensorboard
+
+### train
+
+# 作用：每张 GPU 每个 micro-step 处理的样本数，直接影响峰值显存。
+# 当前值：1 是 24 GB RTX 3090、7B 模型、2048 cutoff 的稳妥起点。
+# 调整影响：提高可能提升吞吐但显著增加显存并导致 OOM；降低已无空间。
+per_device_train_batch_size: 1
+
+# 作用：累计多少个 micro-batches 后执行一次 optimizer step。
+# 当前值：4；单卡时有效 batch 约为 1×4×1=4，沿用 Week 1 基线。
+# 调整影响：提高会减少 optimizer step 数并增加一次更新覆盖的样本数，
+# 但不能降低单条 2048-token 样本的峰值显存。
+gradient_accumulation_steps: 4
+
+# 作用：反向传播时重新计算部分前向激活，以计算时间换显存。
+# 当前值：true，为单卡 24 GB 上的 2048-token 训练保留显存余量。
+# 调整影响：false 训练可能更快，但峰值显存更高；出现 OOM 时不应关闭。
+gradient_checkpointing: true
+
+# 作用：控制优化器每次更新 LoRA 参数的步幅。
+# 当前值：1e-4 综合官方 LoRA 示例、Week 1 成功训练和有效 batch 4 确定。
+# 调整影响：过高可能使 loss 振荡、NaN 或破坏已有指令能力；过低会收敛慢、
+# 欠拟合。它与 lora_alpha 的分支缩放作用不同。
+learning_rate: 1.0e-4
+
+# 作用：完整遍历训练集的次数。
+# 当前值：3；4,999 条数据预计形成约 3,747 个 optimizer steps，
+# 能观察充分的收敛趋势，又不像 Week 1 的 91 条 identity 数据那样需要 5 epoch。
+# 调整影响：提高会延长时间并增加过拟合或能力偏移风险；降低可能学习不足。
+num_train_epochs: 3.0
+
+# 作用：定义 warmup 之后学习率随训练进度变化的曲线。
+# 当前值：cosine，从峰值平滑衰减，有利于后期稳定收敛。
+# 调整影响：constant 更新更激进；linear 衰减形状不同，改变后必须用 loss
+# 与 Day 9 固定问题评测重新判断。
+lr_scheduler_type: cosine
+
+# 作用：训练前 10% optimizer steps 将学习率从较小值逐步升到设定值。
+# 当前值：0.1 沿用官方示例和 Week 1，降低训练初期突然大更新的风险。
+# 调整影响：太小可能初期不稳；太大会在低学习率阶段停留过久、减慢学习。
+warmup_ratio: 0.1
+
+# 作用：在优化目标中对权重施加轻量 L2 风格衰减，帮助正则化。
+# 当前值：0.01 沿用 Week 1，为异质数据训练提供温和约束。
+# 调整影响：过高会抑制 adapter 学习；设为 0 会移除这项正则。
+weight_decay: 0.01
+
+# 作用：把整体梯度范数裁剪到上限，降低异常样本导致巨大更新的风险。
+# 当前值：1.0 是常用稳定基线，并与 Week 1 一致。
+# 调整影响：过低会频繁裁剪、减慢学习；过高或禁用会降低对梯度尖峰的保护。
+max_grad_norm: 1.0
+
+# 作用：使用 BF16 执行主要训练计算，在速度、显存和数值范围间平衡。
+# 当前值：RTX 3090 和当前 PyTorch 已实测支持 BF16。
+# 调整影响：false 会回退到其他精度设置；与 fp16 同时为 true 会产生冲突。
+bf16: true
+
+# 作用：是否启用 FP16 混合精度。
+# 当前值：false，因为本实验已经选择数值范围更大的 BF16。
+# 调整影响：只有硬件不支持 BF16 时才考虑 FP16；FP16 更容易发生溢出，
+# 切换后必须重新检查 loss、grad norm 和 scaler 相关日志。
+fp16: false
+
+# 作用：固定数据顺序、初始化和 Trainer 中支持的随机过程。
+# 当前值：42，与 Day 6 抽样、Day 7 清洗和 Week 1 训练一致。
+# 调整影响：更换 seed 可能造成 loss 和最终回答差异；比较实验时必须保持一致。
+seed: 42
+
+# 作用：设置分布式训练进程组初始化/通信的超时上限，单位为秒。
+# 当前值：沿用官方示例的较大值；单卡不会改变学习过程。
+# 调整影响：过小可能在模型加载或慢速环境中误触发超时；更大只延长故障等待。
+ddp_timeout: 180000000
+
+# 作用：指定是否从已有 checkpoint 恢复训练。
+# 当前值：null，表示 Day 8 run1 从基座模型和新建 LoRA adapter 开始。
+# 调整影响：填写路径时必须与同一模型、数据和配置兼容；误指向 Week 1 或
+# smoke test checkpoint 会污染正式实验。
+resume_from_checkpoint: null
+
+### evaluation policy
+
+# 本配置不设置 val_size 或 eval_dataset：老师要求使用清洗后的数据完成首次
+# SFT，Day 8 将全部 4,999 条用于训练；Day 9 再用提前固定、未进入训练集的
+# 三个新问题，在相同模板和生成参数下比较基座模型与合并模型。

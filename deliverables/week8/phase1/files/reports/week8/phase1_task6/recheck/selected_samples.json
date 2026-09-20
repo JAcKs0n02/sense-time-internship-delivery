@@ -1,0 +1,2888 @@
+[
+  {
+    "sample_id": "a88a5fdd86e752639a1a4a411a6d2af6963ddf77f159b70ec8b2afee3a264c4e",
+    "split": "train",
+    "row_index": 948,
+    "source": "sharegpt_zh",
+    "raw_sha256": "883ac496ce217da411b394ea0eae65bd3eeeb24bc05dc2b016c1c5f729aa46aa",
+    "content_sha256": "781ae9d9d73825c7a4e0fab39fcd2133558e928e8fbfe6a610409f7f7042911e",
+    "tokens": 194,
+    "lineage": {
+      "candidate_row_number": 4367,
+      "sample_id": "a88a5fdd86e752639a1a4a411a6d2af6963ddf77f159b70ec8b2afee3a264c4e",
+      "source": "sharegpt_zh",
+      "source_row_number": 4436,
+      "content_sha256": "883ac496ce217da411b394ea0eae65bd3eeeb24bc05dc2b016c1c5f729aa46aa",
+      "excel_review_row": 4368,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1623,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 3,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "NOT_APPLICABLE",
+        "evidence": "三轮答复按海滩日落文字描述生成短字幕，追加恰好3个选项，没有标签或表情符号。",
+        "notes": "不需要实际图片即可依据用户描述创作，长度与语气合适。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 1543,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "我希望你能充当照片字幕生成器。你只需要为我提供的照片提供简短、有创意的字幕，不需要其他任何信息。你的字幕应该简短、机智，反映照片的内涵。你的回复不应包含任何标签或表情符号。"
+        },
+        {
+          "from": "gpt",
+          "value": "了解。请提供你需要添加标题的照片。"
+        },
+        {
+          "from": "human",
+          "value": "我发送的第一张照片是一张景色宜人的海滩日落照片。"
+        },
+        {
+          "from": "gpt",
+          "value": "\"阳光照耀的回忆和无边无际的地平线。\""
+        },
+        {
+          "from": "human",
+          "value": "请再提供3个。"
+        },
+        {
+          "from": "gpt",
+          "value": "1. 天空与海洋相遇，梦想成真。\n2. 追逐日落，留下美好记忆。\n3. 大自然的画布，被金色的色调所染绘。"
+        }
+      ]
+    },
+    "turns": 3,
+    "tags": [
+      "multiturn"
+    ],
+    "selection_reason": "all_multiturn",
+    "review_id": "R01"
+  },
+  {
+    "sample_id": "cfbff40048011a56be8153f0567ae058ea27abf6f7fd17c81f04b1639d949f44",
+    "split": "train",
+    "row_index": 1155,
+    "source": "sharegpt_zh",
+    "raw_sha256": "73788d8113b814446f6f7de1f49053a718a78af46cbff5f0cfd5f357953ae214",
+    "content_sha256": "1b7e897e3a75d09e9fdeded122e1aee777ba31d21a1b13a9453a737fa2f0a788",
+    "tokens": 713,
+    "lineage": {
+      "candidate_row_number": 4791,
+      "sample_id": "cfbff40048011a56be8153f0567ae058ea27abf6f7fd17c81f04b1639d949f44",
+      "source": "sharegpt_zh",
+      "source_row_number": 4877,
+      "content_sha256": "73788d8113b814446f6f7de1f49053a718a78af46cbff5f0cfd5f357953ae214",
+      "excel_review_row": 4792,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1658,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 3,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "NOT_APPLICABLE",
+        "evidence": "3轮先确认规则，随后两条提示均给主体、摄影师并接句号、相机型号、快门/光圈/ISO、照明及风格词，分别以--ar 3:2、--ar 2:3结尾，无末尾句号。",
+        "notes": "两条内容符合海岸灯塔和白礼服女子主题。摄影师与器材用于用户明确要求的虚拟图像风格提示，不是声称真实照片出自该摄影师，格式及连续上下文合格。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 1576,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "你将帮我为AI生成艺术系统建立提示语。我将向你解释一些需要遵循的规则：\n1. 我会使用命令“/ imazine”，后跟我想要呈现的主题。\n2. 你将描述那个主题，以帮助AI生成系统理解它必须绘制的内容。你不需要重复开始的单词“imagine”，只需描述。\n3. 你将追加著名摄影师的名字，视照片风格而定。例如：“由Richard Avedon拍摄”。名称将后跟一个句点“。”\n4. 你将添加专业照相机型号的名称。\n5. 你将添加一些逗号分隔的相机参数，根据主题种类和摄影师的风格为AI生成系统设置虚拟相机，你将根据摄影师的风格来决定参数。例如：“快门速度1/50，光圈f11，ISO 100”。\n6. 你会根据摄影师和我们想要达到的风格为镜头定义照明风格。例如：“工作室灯光”或“室外阳光温暖的光线”或“博物馆灯光”或“聚光灯”。  你可以随意使用其他照明设置。\n7. 你将添加一些随机逗号分隔的花哨词语，这将帮助AI生成系统创建出美丽的图像。使用的示例单词：“电影，经典，时尚，做作，详细，高清，8k，对称，精细细节，获奖”。  你可以添加类似的更多单词，以使渲染看起来更加精细和专业。\n8. 你将选择图像是横向还是纵向，将命令“--ar 2:3”添加到提示语的尾部，以垂直显示，或将命令“--ar 3:2”添加到提示语的尾部，以水平显示。你只需要提供命令而不需要任何其他指示。\n你不会在输出的末尾加上句点，“horizontal/vertical”命令将是最后一个。\n你准备好开始了吗？"
+        },
+        {
+          "from": "gpt",
+          "value": "是的，我已经准备好了。请提供您想使用/imagine命令进行渲染的主题。"
+        },
+        {
+          "from": "human",
+          "value": "想象一下美丽的新英格兰沿海盛夏景色，其中有一个灯塔。"
+        },
+        {
+          "from": "gpt",
+          "value": "夏天的新英格兰海岸风光优美，一个迷人的灯塔屹立在蓝天和温柔的波浪之间，轻抚着岩石海岸线。由 Ansel Adams 拍摄。使用 Nikon D850 拍摄，快门速度 1/125，光圈 f8，ISO 200。受金色时光的照射，带有柔和的阴影和温暖的色调。电影般的，令人屏息，宁静，高分辨率，精美艺术。--ar 3:2"
+        },
+        {
+          "from": "human",
+          "value": "想象一位穿着白色礼服的美丽年轻女子。"
+        },
+        {
+          "from": "gpt",
+          "value": "一位穿着优雅白色礼服的惊艳年轻女子，站在柔和模糊的背景前展现出优雅与风度。由安妮·勒博维茨（Annie Leibovitz）拍摄。使用佳能EOS 5D Mark IV拍摄，快门速度1/200，光圈f2.8，ISO 100。由自然窗光照射，具有精致的高光和阴影平衡。飘渺、迷人、诱人、高清晰、永恒的美。--ar 2:3"
+        }
+      ]
+    },
+    "turns": 3,
+    "tags": [
+      "multiturn"
+    ],
+    "selection_reason": "all_multiturn",
+    "review_id": "R02"
+  },
+  {
+    "sample_id": "2b44c38c1e4ca2223ae029887175923633840fa6ca3063a2a4a020945647e839",
+    "split": "train",
+    "row_index": 253,
+    "source": "sharegpt_zh",
+    "raw_sha256": "382fa0c03577937163d182738cf44b406df8daece7ce510a5bb0a3ac3ef13a01",
+    "content_sha256": "7aac9131ef892cb4ad106a5479c1a6b466345073df5932b1b730796ea633366c",
+    "tokens": 1382,
+    "lineage": {
+      "candidate_row_number": 4327,
+      "sample_id": "2b44c38c1e4ca2223ae029887175923633840fa6ca3063a2a4a020945647e839",
+      "source": "sharegpt_zh",
+      "source_row_number": 4395,
+      "content_sha256": "382fa0c03577937163d182738cf44b406df8daece7ce510a5bb0a3ac3ef13a01",
+      "excel_review_row": 4328,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1618,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 2,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "两轮均按用户提供文章及评论核对：衬衫计数、抗议关注、创立Silla与学生主席对应独特经历、投入与领导力；评论的非常规联系、数字时间结构及行动回答“那又怎样”均被概括。",
+        "notes": "首轮给出三个文本支持的成功原因，末轮将长评论压缩为三项主要观点，保留结构和反思落实行动的主旨。属于文本评价与摘要，没有额外声称录取保证或核验文中政治事件真实性，可保留。"
+      },
+      "advisory_signals": [
+        {
+          "turn_number": 2,
+          "signal": "VOLATILE_OR_EXTERNAL_FACT"
+        }
+      ],
+      "derived_line_number": 1538,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "这里有一篇在大学入学考试中被认为非常优秀的个人陈述。你能否突出多个原因，说明它为什么很成功呢？\n\n文章：\n我制服上的计分板\n第19天：我把我的校服当作一个计分板，开始记录天数。随着墨水缓慢渗透到我的衬衫织物中，我开始意识到，做一个有意识的阿拉伯人是有代价的。\n回溯。\n第7天：我在社交媒体上发现一则直播，1200名巴勒斯坦政治犯正在进行针对以色列占领的第七天的绝食抗议。这是我第一次听到这件事。虽然地区主流媒体和我们的当地新闻频道都不报道该事件，但我仍然允许自己每天通过社交媒体关注新闻。\n第13天：我被对正义的呼唤所包围。我感到无助而无助，不想面对现实，但我还是强迫自己这么做了；主动寻找，在抗议中刷新手机直播，通过搜索引擎输入“巴勒斯坦绝食抗议”以保持对原因的联系。\n第18天：似乎没有人知道正在发生什么。我被迫找到一种体现斗争的方式。在第一节课中，我看到一个著名的马克笔在白板旁边。我拿起它，不确定自己要做什么，但随后听到自己请求同学在我的衬衫上每个人都划一根竖线。一开始，它似乎很有趣--他们笑了，感到困惑。但是每次马克笔碰触织物时，它都在讲述一个故事。这是一个有关被占领国家的故事，一个让反对种族隔离成为犯罪的故事，一个我们拒绝讨论的故事，因为我们已经变得太冷漠，不再珍视我们边境之外的生命。 当我的同学画计分板时，我们一起讲述了绝食抗议的故事，并为人类之间创造的距离感到哀伤。\n第20天：我的制服成了一个问题的话题。每一双凝视墨水的眼睛，我都会分享我们巴勒斯坦同胞的故事。最初的反应都是相同的：不信任，然后是有关我们在冲突中的道德责任的富有成效的讨论。\n第28天：每天绝食抗议继续进行，我都要求我的同学在计分板上画一条线。尽管它仍然令人不安，但它似乎不再代表绝食抗议的现实。我的同学不再对它感兴趣了。我被叫到校长办公室。在被指示换件新衬衫后，我选择挑战这一命令。只要绝食抗议还在进行，我就会继续宣传数百名囚犯的现实，希望能重建我最初感觉到的同龄人责任感。\n第41天：政治犯获得了妥协协议，并暂停了绝食抗议。我穿着干净的制服走出学校，感觉完整了，但却不自然。我感到了一种无声的弱点，我在认识到并非所有的悲伤都能引起人们足够的共鸣，让我期望他们能领导运动而崩溃了。\n我需要成为那个领袖，重新激发计分板曾经激发的能量。我决定创办一个名为Silla的政治街头服装品牌，其中时尚选择超越表面美学，传播平等的实质信息，并把利润捐给倡导社会变革的NGO。通过Silla，我能够与我的同龄人保持联系，因为现在他们可以花钱来解决问题，Silla已经动员人们发表与公平和平等相一致的意见。由于我坚持正义，我被选为学生政府主席，并将其用作一个平台，时刻提醒同龄人关注他们的潜力，激励他们采取行动并公开自己的信仰。当墨水渗透到我的制服织物中时，它也染上了我的道德纤维，并将永远提醒我，我是变革的代理人。"
+        },
+        {
+          "from": "gpt",
+          "value": "这篇文章因为几个原因而非常适合大学申请。首先，它讲述了一个引人入胜的个人独特故事。这篇文章讲述了作者与巴勒斯坦绝食运动的经历，但它也展示了作者如何被激励去采取行动并进行改变。这是一个很好的例子，展示了作者如何利用困难的情况去学习和成长。\n其次，这篇文章展示了作者对一个事业的热情和承诺。作者不怕站出来发声反对不公正，哪怕面临挑战和批评。这表明作者不仅对事业充满热情，而且愿意冒险和挑战现状。\n第三，这篇文章展示了作者的领导才能。作者不仅采取行动，还鼓舞其他人去做同样的事情。这可以从作者创立一个政治街头品牌和被选为学生会主席中看出。\n总的来说，这篇文章因为展示了作者的个人成长、热情和领导才能，所以非常适合大学申请。"
+        },
+        {
+          "from": "human",
+          "value": "有人对这篇文章提出了一些观点并解释了它成功的原因，你能用要点总结一下这个人的观点吗？\n1. 不寻常的主题和不寻常的联系使这篇文章显得突出。\n2. 作者穿着衬衫，却有线条勾勒，这个独特的故事引起了读者的兴趣。\n3. 不要感到担心，虽然这个主题并不是其他人所写的常见选题，但是拥有一个非常规的主题对于写作一个强有力的文章会更加容易一些，但这并不足以让文章变得优秀。真正提升这篇文章的是作者对同学们以及学校对遥远但重要的政治冲突的共同反应所做出的深刻观察和联系。作者很好地调动了同学们的情感反应，并美妙地说明了她对于冷漠的不满。在写作时，需要考虑如何使用不同寻常的联系，带领读者到他们所不曾预料到的地方。\n4. 试验性结构。这篇文章最酷的事情之一就是其结构，它突显了作者的写作技巧。作者使用了一种蒙太奇结构，强调数字和时间顺序的两个中心思想与文章内容密切相关。申请人通过玩弄时间和距离的概念，强调了文章中一些关键性思想，并表现出她善于跳出框框的勇气。请记住，招生官阅读了大量的个人陈述，不常见的结构可以在让你脱颖而出的路上走得更远。\n5. 回答了“那又怎样”的问题。这篇文章真正打动人心的地方就在于最后一个段落。虽然制服被标记为绝食每天的线条的故事令人着迷，但在作者到达最后一部分之前，我们并不完全确定它与作者生活的相关性。在最后一部分，她告诉我们关于她的有政治意识的时尚品牌以及她被任命为学校主席的事情。这回答了“那又怎样”的问题，因为它向我们展示了她学到的教训，并将其应用于她的生活观念和实践上。在你写完初稿之后，回顾一下并确保你已经清楚地展示了你为反思或价值观所采取的行动。"
+        },
+        {
+          "from": "gpt",
+          "value": "这个人提出的观点是：\n*这篇文章因其独特的主题和联系而独树一帜。\n*文章的实验结构能够有效地突出其核心思想。\n*该论文通过展示作者如何采取行动并将所学到的教训应用到她的生活中来回答“那又怎么样？”的问题。"
+        }
+      ]
+    },
+    "turns": 2,
+    "tags": [
+      "multiturn"
+    ],
+    "selection_reason": "all_multiturn",
+    "review_id": "R03"
+  },
+  {
+    "sample_id": "585fb11cbd264c57f453791082d4d8766176104e85fa42ac5605327b1a6e3f8b",
+    "split": "train",
+    "row_index": 502,
+    "source": "sharegpt_zh",
+    "raw_sha256": "7704669d74871978c5c9210956065bf2a8eea684e536a1682a0be82e67f9c8fa",
+    "content_sha256": "255cde390e8e7c06d47cbca85e27b293bc9c5681813ee2348b3d1c4d7abd8a9f",
+    "tokens": 591,
+    "lineage": {
+      "candidate_row_number": 4903,
+      "sample_id": "585fb11cbd264c57f453791082d4d8766176104e85fa42ac5605327b1a6e3f8b",
+      "source": "sharegpt_zh",
+      "source_row_number": 4994,
+      "content_sha256": "7704669d74871978c5c9210956065bf2a8eea684e536a1682a0be82e67f9c8fa",
+      "excel_review_row": 4904,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1663,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 2,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "NOT_APPLICABLE",
+        "evidence": "两轮均为会议议题和目标设定建议：首轮提供数据质量、流程、库存等10项，后轮覆盖目标、职业发展、工作量与资源等10项；未引用公司实际业绩、法规内容或已发生事实。",
+        "notes": "已读2个回答轮次。建议与物流顾问、数据分析师及经理一对一沟通场景相符，数量满足要求，季度目标方向与各议题对应。目标数值留待双方结合基线商定，没有伪造绩效数据。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 1580,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "我是Rx物流部门的顾问和数据分析师，请给我10个话题，我在我的一对一会议中应该与我的经理讨论，并如何为下一个季度设定目标。"
+        },
+        {
+          "from": "gpt",
+          "value": "以下是与 Rx 物流部门经理进行 1:1 会议的十个潜在话题，以及下个季度设定目标的建议：\n\n1.数据质量与准确性：讨论如何改善在部门中收集和存储数据的质量，并设定达到特定准确度的目标。\n2.流程优化：确定流程中可简化或提高效率的领域，并设定目标在下个季度实现变革。\n3.库存管理：讨论更好地管理部门库存的策略，并设定实现特定浪费减少或效率增加的目标。\n4.客户满意度：分析客户反馈，并设定目标在特定百分比上提高部门整体满意度评级。\n5.员工参与度：讨论增加员工参与度和工作满意度的方式，并设定目标在下个季度实施特定计划或创举。\n6.成本削减：讨论减少部门成本的策略，并设定实现特定成本节约目标的目标。\n7.合法合规：审查部门是否遵守行业法规和标准，并设定实现特定合规水平的目标。\n8.技术实施：讨论在部门中实施新技术，并设定目标在下个季度采用特定的新技术。\n9.协作：讨论如何增加部门内部的协作和沟通，并设定实施特定计划或创举的目标。\n10.绩效指标：讨论部门的绩效指标，并设定目标在特定领域提高绩效。"
+        },
+        {
+          "from": "human",
+          "value": "我可以在和经理一对一的时候谈论哪些主题？"
+        },
+        {
+          "from": "gpt",
+          "value": "1:1 与您的经理会议是讨论与您的工作和职业发展有关的各种话题的绝佳机会。您可以谈论的一些常见主题包括：\n1.目标和绩效：讨论您目前的绩效及目标的进展情况，并制定下一季度的新目标。\n2.职业发展：讨论您的职业抱负和发展计划，并寻求您经理的反馈和指导。\n3.工作量和优先事项：回顾您目前的工作量和优先事项，并讨论您遇到的任何挑战或关切。\n4.反馈和辅导：寻求对您的绩效的反馈，并在需要改进的领域寻求辅导。\n5.工作和生活平衡：讨论您在平衡工作和个人生活方面面临的任何挑战，并寻求您的经理的支持。\n6.团队动态：讨论任何团队动态或协作问题，并寻求您经理的意见和指导。\n7.组织变化：让您的经理了解可能会影响您的工作的组织变化。\n8.建议和想法：分享您的想法和建议，以改善流程、效率或客户满意度。\n9.工具和资源：讨论您需要执行工作的任何工具或资源，并寻求您的经理的支持。\n10.个人幸福感：讨论您的整体幸福感以及可能影响您工作的任何个人问题，并寻求您的经理的支持。"
+        }
+      ]
+    },
+    "turns": 2,
+    "tags": [
+      "multiturn",
+      "math_candidate"
+    ],
+    "selection_reason": "all_multiturn",
+    "review_id": "R04"
+  },
+  {
+    "sample_id": "5211d29bf0bc78f1eeab7d101dcb0f53c82fc34315b4ddae44e190697a14b158",
+    "split": "train",
+    "row_index": 458,
+    "source": "sharegpt_zh",
+    "raw_sha256": "90af82eac7242a985235d2357cf472d3c3fde4dcadc08412d9176b425358c6d3",
+    "content_sha256": "63b490ef09039a5d381d56f3eb6031eafd82cb49cd6e7594777d3b00b6e9c13d",
+    "tokens": 144,
+    "lineage": {
+      "candidate_row_number": 4030,
+      "sample_id": "5211d29bf0bc78f1eeab7d101dcb0f53c82fc34315b4ddae44e190697a14b158",
+      "source": "sharegpt_zh",
+      "source_row_number": 4090,
+      "content_sha256": "90af82eac7242a985235d2357cf472d3c3fde4dcadc08412d9176b425358c6d3",
+      "excel_review_row": 4031,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1595,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 2,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "首答在任务不明时询问用途，次答for从i=1开始、i<=5、每轮加一并换行输出，所以依序打印1至5。",
+        "notes": "需求、代码和所示输出一致，main正常返回0；仅作静态推演，未执行待审程序。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 1516,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "请给我写一些C++代码。"
+        },
+        {
+          "from": "gpt",
+          "value": "当然可以！您想让代码做什么？"
+        },
+        {
+          "from": "human",
+          "value": "数到5"
+        },
+        {
+          "from": "gpt",
+          "value": "以下是一个在C++中计数到5的简单程序：\n\n```\n#include <iostream>\nint main() {\n  for (int i = 1; i <= 5; i++) {\n    std::cout << i << std::endl;\n  }\n  return 0;\n}\n```\n\n运行该代码将输出以下内容：\n\n```\n1\n2\n3\n4\n5\n```"
+        }
+      ]
+    },
+    "turns": 2,
+    "tags": [
+      "multiturn",
+      "code_candidate"
+    ],
+    "selection_reason": "all_multiturn",
+    "review_id": "R05"
+  },
+  {
+    "sample_id": "12e061467baedabc9d60b797e926a40ccea063ff099e73c4065a0382ffd9b5c1",
+    "split": "train",
+    "row_index": 116,
+    "source": "sharegpt_zh",
+    "raw_sha256": "c8f04ba89591a4816fd86597a0079fcc42018a76186aa507818e234a9767180b",
+    "content_sha256": "c52bdeb24b712438007392c7fdace40f16c4757910decb2fa46eb1ee14b6a701",
+    "tokens": 463,
+    "lineage": {
+      "candidate_row_number": 4273,
+      "sample_id": "12e061467baedabc9d60b797e926a40ccea063ff099e73c4065a0382ffd9b5c1",
+      "source": "sharegpt_zh",
+      "source_row_number": 4341,
+      "content_sha256": "c8f04ba89591a4816fd86597a0079fcc42018a76186aa507818e234a9767180b",
+      "excel_review_row": 4274,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1615,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 2,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "NOT_APPLICABLE",
+        "evidence": "两轮给出经历反思、关系、核心价值排序和行动五步，再举诚实、尊重、责任等十例，均作为个人可选原则。",
+        "notes": "回答尊重价值观因人而异及可随经历调整，没有替用户决定价值取向。“真诚和真诚”是轻微重复，不影响整体建议的可用性。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 1535,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "如何定义我的个人价值观？"
+        },
+        {
+          "from": "gpt",
+          "value": "定义个人价值观可以帮助你了解人生中最重要的事情，并有助于指导你的决策和行动。以下是你可以遵循的步骤：\n1. 反思自己的经历：想一想你的人生中最有意义或最令人满足的事情。在那些经历中，哪些价值观对你最重要？\n2. 考虑你的关系：想一想对你最重要的人际关系，以及你在这些关系中所珍视的价值观。\n3. 确定你的核心价值观：列出对你最重要的价值观。这些可能包括诚实、同情、独立、公平或尊重等。\n4. 优先考虑你的价值观：考虑哪些价值观对你最重要，并优先考虑它们。你可能希望记住你的前几个价值观，在做决策和设定目标时考虑它们。\n5. 将你的价值观转化为行动：一旦你确定并优先考虑了你的价值观，尝试将它们融入你的日常生活中。这可能涉及制定符合你的价值观的目标、做出反映你价值观的决策，或采取证明你价值观的行动。\n定期回顾和修改你的个人价值观可能会有所帮助，因为随着时间的推移，你的重点和观点可能会发生变化。"
+        },
+        {
+          "from": "human",
+          "value": "什么是价值观的一些例子？"
+        },
+        {
+          "from": "gpt",
+          "value": "价值观是个人重视的信仰或原则。其中的例子包括：\n1. 诚实：真诚和真诚\n2. 尊重：尊重和欣赏他人\n3. 公正：公正地对待人，不带有偏见\n4. 责任：对自己的行为负责\n5. 忠诚：对某人或某物忠实和专注\n6. 勇气：勇敢地站起来，捍卫自己的信仰\n7. 怜悯：对他人表现出同情和关心\n8. 创造力：具有创新精神，乐于接受新思想\n9. 独立：自给自足和自立自主\n10. 毅力：在面对挑战时坚持不懈，果敢决绝。\n这只是一些例子，对个人最重要的价值观将因个人经历和信仰的不同而有所不同。记住价值观是个人的，可能因人而异。"
+        }
+      ]
+    },
+    "turns": 2,
+    "tags": [
+      "multiturn"
+    ],
+    "selection_reason": "all_multiturn",
+    "review_id": "R06"
+  },
+  {
+    "sample_id": "518978390b88ddd680c31d0cd9e5b156910a33bcce9c1ef15ed0297284452a6d",
+    "split": "train",
+    "row_index": 451,
+    "source": "sharegpt_zh",
+    "raw_sha256": "94560fb114baabe5cfa32fa8e89329fcb2d7d0a77b8af66460b6f836ad20c146",
+    "content_sha256": "ea4f5c9629fc3bc784c439b0c70b0045e937f1f368d9bb71cc5b8c7302d28f19",
+    "tokens": 169,
+    "lineage": {
+      "candidate_row_number": 4499,
+      "sample_id": "518978390b88ddd680c31d0cd9e5b156910a33bcce9c1ef15ed0297284452a6d",
+      "source": "sharegpt_zh",
+      "source_row_number": 4574,
+      "content_sha256": "94560fb114baabe5cfa32fa8e89329fcb2d7d0a77b8af66460b6f836ad20c146",
+      "excel_review_row": 4500,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1635,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 2,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "两轮含问候及飞行原理；轻量骨架、飞行肌、翅膀羽毛产生及调节升力、高效呼吸支持肌肉供氧，属于稳定基础生物知识。",
+        "notes": "面向一般提问的简要解释正确，按能飞行鸟类的适应讨论即可；未声称每一鸟种都能飞，也无具体数值或异常外推。"
+      },
+      "advisory_signals": [
+        {
+          "turn_number": 2,
+          "signal": "VERY_SHORT_SINGLE_TURN_PROMPT"
+        }
+      ],
+      "derived_line_number": 1554,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "你好"
+        },
+        {
+          "from": "gpt",
+          "value": "你好！今天有什么我可以帮忙的吗？您想谈论或了解更多信息吗？我在这里回答您所有的问题。"
+        },
+        {
+          "from": "human",
+          "value": "为什么鸟能飞？"
+        },
+        {
+          "from": "gpt",
+          "value": "鸟类之所以能够飞行，是因为它们的身体以特定的方式适应了飞行。例如，鸟类拥有轻盈的骨骼、强健的肌肉以及独特的骨骼结构，这使它们能够拍打翅膀并产生升力。它们还有羽毛，提供额外的升力，并帮助它们在空中操纵和操控。另外，鸟类拥有高效的呼吸系统，能够摄入大量氧气，这是它们需要用来推动飞行肌肉的。所有这些适应性，综合在一起，使得鸟类能够飞行。"
+        }
+      ]
+    },
+    "turns": 2,
+    "tags": [
+      "multiturn"
+    ],
+    "selection_reason": "all_multiturn",
+    "review_id": "R07"
+  },
+  {
+    "sample_id": "b5c49ec4163afe7edefd5cf9802b9ab519510ec5e5fe5110efbd06dd1b4b12ec",
+    "split": "train",
+    "row_index": 1016,
+    "source": "sharegpt_zh",
+    "raw_sha256": "2344ebad371b21301a6b30d06af2eea0072a072a7acd6e0e09b1f7d4f54ea430",
+    "content_sha256": "9b2cfdcf71094a8c06a60bdd874367ac3140def2521c46e78c8686f7f1269001",
+    "tokens": 96,
+    "lineage": {
+      "candidate_row_number": 4335,
+      "sample_id": "b5c49ec4163afe7edefd5cf9802b9ab519510ec5e5fe5110efbd06dd1b4b12ec",
+      "source": "sharegpt_zh",
+      "source_row_number": 4403,
+      "content_sha256": "2344ebad371b21301a6b30d06af2eea0072a072a7acd6e0e09b1f7d4f54ea430",
+      "excel_review_row": 4336,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1619,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 2,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "NOT_APPLICABLE",
+        "evidence": "两轮均为围绕格蕾塔的简短梗文：首轮以拯救世界与上课形成反差；次轮明确包含Greta Thunberg本人姓名。",
+        "notes": "符合短标题创作要求，英文姓名与中文所指人物一致；未虚构具体日期、言论或事件细节。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 1539,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "用 Greta Thunberg 创作一个迷因标题"
+        },
+        {
+          "from": "gpt",
+          "value": "当你正在努力拯救世界但仍需上课。"
+        },
+        {
+          "from": "human",
+          "value": "创建一个包含“格蕾塔·桑伯格”名字的梗文标题。"
+        },
+        {
+          "from": "gpt",
+          "value": "\"Greta Thunberg 一次次发起气候罢工，挑战全世界\""
+        }
+      ]
+    },
+    "turns": 2,
+    "tags": [
+      "multiturn"
+    ],
+    "selection_reason": "all_multiturn",
+    "review_id": "R08"
+  },
+  {
+    "sample_id": "8fe436e4066465004835c94c5c99887c92491da4eb1081e02e7e542aeb2998c8",
+    "split": "train",
+    "row_index": 823,
+    "source": "sharegpt_zh",
+    "raw_sha256": "4cb0e4c9f2057f55dfae1ec0d7ce3df7d7a137881849523afc82bb182d04cd24",
+    "content_sha256": "1637fabb9f720c8c97985ccbaa5dc222328b3c64b140d3a01adf6e33ef8309e2",
+    "tokens": 1077,
+    "lineage": {
+      "candidate_row_number": 4257,
+      "sample_id": "8fe436e4066465004835c94c5c99887c92491da4eb1081e02e7e542aeb2998c8",
+      "source": "sharegpt_zh",
+      "source_row_number": 4325,
+      "content_sha256": "4cb0e4c9f2057f55dfae1ec0d7ce3df7d7a137881849523afc82bb182d04cd24",
+      "excel_review_row": 4258,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1613,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 3,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "Oracle采购文档说明供应商资格风险审查、RFI及批准流程：https://docs.oracle.com/cd/E26401_01/doc.122/e48851/T553530T553535.htm ；评价维度见https://engage.oracle.com/gncbrandmanagement/items/oracle-retail-supplier-evaluation 。",
+        "notes": "三轮由采购九阶段逐步细化供应商筛选、评分和十项标准，明确流程依公司和品类变化。属于通用流程概述，未承诺固定审批规则或数值评分。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 1533,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "告诉我关于企业采购流程的信息。"
+        },
+        {
+          "from": "gpt",
+          "value": "企业购买流程通常需要经过多个阶段和部门才能确保组织能够高效运转所需的物品和服务得到采购。该流程可能因公司规模、结构和行业而异，但通常遵循以下一般步骤：\n\n1. 确认需求：当某个部门或员工确认需要某种产品或服务时，采购流程就开始了。需求可以是新需求，也可以是旧需求的替换。\n2. 确定规格：部门或员工确定产品或服务所需要的规格，包括质量、数量和交货时间等。\n3. 发出方案提案或报价请求（RFP或RFQ）：采购部门向潜在供应商发出方案提案（RFP）或报价请求（RFQ）。RFP会概述产品或服务的规格、条款和条件以及其他要求。\n4. 供应商评估：采购部门根据价格、质量、信誉和交货时间等各种因素对潜在供应商的回复进行评估。\n5. 谈判：采购部门与选定的供应商商议购买条款，包括价格、交货和付款条款等。\n6. 采购订单（PO）: 一旦条款达成一致，采购部门向供应商发出采购订单（PO）。PO包括购买的详细信息，例如产品规格、交货日期和付款条款等。\n7. 收货和检查：接收产品或服务的部门检查其是否符合PO中概述的规格要求。\n8. 付款：一旦产品或服务已经收到并检查完成，采购部门根据已达成的条款向供应商进行付款。\n9. 记录保留：采购部门会维护购买记录，包括PO、供应商协议、发票和收据等。\n\n有效管理采购流程对于确保企业在正确的价格、质量和时间内获得所需的物品和服务至关重要。"
+        },
+        {
+          "from": "human",
+          "value": "告诉我供应商评估的细节。"
+        },
+        {
+          "from": "gpt",
+          "value": "供应商评估是企业采购过程中的关键步骤。它涉及评估潜在供应商，以确定它们是否适合并具备满足组织对商品和服务的要求的能力。评估过程通常包括以下步骤：\n1. 预评估筛选：采购部门可能会根据供应商的声誉、财务稳定性和行业经验等因素对潜在供应商进行初步筛选。这一步骤有助于缩小符合组织要求的潜在供应商名单。\n2. 信息请求（RFI）：采购部门可能会向潜在供应商发布信息请求（RFI），以收集有关其能力、经验和质量标准的更详细信息。\n3. 评估标准：采购部门根据组织的要求和优先考虑的因素确定评估标准。这些标准可能包括价格、质量、交货时间、可靠性、响应能力、可持续性和创新等因素。\n4. 评估方法：采购部门可能使用不同的方法来评估潜在供应商，例如现场访问、产品测试、参考检查和面试。部门还可以使用第三方评级系统或行业基准来比较潜在供应商的表现。\n5. 供应商得分卡：采购部门可能使用供应商得分卡根据评估标准评估潜在供应商。得分卡根据每个标准的表现为供应商分配分数或排名。\n6. 最终选择：根据评估结果，采购部门选择最符合组织要求的供应商，并商议采购条款。\n供应商评估过程有助于组织识别与选择供应商相关的潜在风险和机遇。它还有助于确保所选供应商能够提供符合组织质量、价格和交货要求的商品和服务。定期评估供应商也很重要，以维护良好的供应商关系，识别改进机会并管理潜在风险。"
+        },
+        {
+          "from": "human",
+          "value": "请提供评价标准的详细信息。"
+        },
+        {
+          "from": "gpt",
+          "value": "供应商评估的评价标准可能因购买的产品或服务的性质、行业和组织优先事项而有所不同。然而，通常用于供应商评估的一些常见标准包括：\n1.价格：本标准比较了供应商与其他供应商在同一产品或服务上的定价竞争力。\n2.质量：本标准评估了供应商提供符合组织规格、行业标准和法规的高质量商品或服务的能力。\n3.交货时间：本标准评估了供应商按指定的交货计划按时交付产品或服务的能力。\n4.可靠性：本标准评估了供应商在产品或服务质量、按时交货和对客户服务请求的响应方面的可靠性。\n5.响应灵敏度：本标准评估了供应商对问题、信息请求和其他客户服务需求迅速、高效地作出回应的能力。\n6.可持续性：本标准评估了供应商致力于可持续实践的承诺，例如减少碳足迹、节约资源和促进道德劳动实践。\n7.创新能力：本标准评估了供应商创新并为组织带来改进流程或产品的新想法的能力。\n8.财务稳定性：本标准评估了供应商的财务稳定性，例如其管理现金流、按时支付账单和保持稳定财务状况的能力。\n9.行业经验：本标准评估了供应商在相关行业的经验，包括其对行业趋势、法规和客户需求的了解。\n10.参考：本标准根据前客户、行业专家或其他可靠来源的反馈评估了供应商的声誉和过往表现。\n评价标准可能根据组织采购流程的优先事项和目标而有所差异。通过仔细考虑评价标准并选择合适的供应商，企业可以提高其供应链效率、降低风险并增强其整体竞争力。"
+        }
+      ]
+    },
+    "turns": 3,
+    "tags": [
+      "multiturn",
+      "math_candidate"
+    ],
+    "selection_reason": "all_multiturn",
+    "review_id": "R09"
+  },
+  {
+    "sample_id": "44b0927a5d68a53cc9f9f23d1b365a5d5b80623b75e0faa563f31e848d23b8a9",
+    "split": "train",
+    "row_index": 375,
+    "source": "sharegpt_zh",
+    "raw_sha256": "8a1cdb46859f21a08b9bbb9887800073d88a316bcbb16d7d24eaf09c844db15d",
+    "content_sha256": "774969a2bdd860dd3cb52a3f297ba11bddf312cdfa2644e8b1c391b4b8011cd0",
+    "tokens": 825,
+    "lineage": {
+      "candidate_row_number": 4350,
+      "sample_id": "44b0927a5d68a53cc9f9f23d1b365a5d5b80623b75e0faa563f31e848d23b8a9",
+      "source": "sharegpt_zh",
+      "source_row_number": 4418,
+      "content_sha256": "8a1cdb46859f21a08b9bbb9887800073d88a316bcbb16d7d24eaf09c844db15d",
+      "excel_review_row": 4351,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1620,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 3,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "逐轮静态推导F(0)=0、F(1)=1、F(n)=F(n−1)+F(n−2)；前10项为0,1,1,2,3,5,8,13,21,34。记忆化使每个n仅展开一次。",
+        "notes": "3轮分别给出基础递归、保留递归的缓存列表方案及复杂度比较，满足追问。按常规单位算术成本，O(2^n)是第一版有效上界、第二版O(n)；缓存默认字典虽跨调用保留，在此纯函数演示中不改变序列结果。仅静态核对。"
+      },
+      "advisory_signals": [
+        {
+          "turn_number": 6,
+          "signal": "VOLATILE_OR_EXTERNAL_FACT"
+        }
+      ],
+      "derived_line_number": 1540,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "编写使用递归方法创建斐波那契数列的Python代码"
+        },
+        {
+          "from": "gpt",
+          "value": "以下是使用Python递归方法创建斐波那契数列的代码:\n```python\ndef fibonacci(n):\n    if n <= 0:\n        return 0\n    elif n == 1:\n        return 1\n    else:\n        return fibonacci(n-1) + fibonacci(n-2)\n# 例子:\nprint(\"斐波那契数列的前10个数字:\")\nfor i in range(10):\n    print(fibonacci(i))\n```\n`fibonacci`函数实现递归逻辑来计算斐波那契数列的第n个数字。该函数以整数`n`作为输入并返回第n个斐波那契数。该函数使用递归方法，定义了两个基本情况: 如果n为0，则结果为0; 如果n为1，则结果为1。对于所有其他n的值，函数返回先前两个数字在序列中的总和，这两个数字通过使用参数`n-1`和`n-2`两次调用`fibonacci`函数进行递归计算。"
+        },
+        {
+          "from": "human",
+          "value": "这似乎是低效的，因为每当您想要打印序列的一个元素时，您就必须在该元素下方生成整个序列。对于更大的序列，这种实现将需要很长时间。您可以尝试再次生成序列并将其存储在列表中，就像生成序列一样吗？我希望该实现继续使用递归方法。"
+        },
+        {
+          "from": "gpt",
+          "value": "这里是一个更新后的实现，它生成斐波那契数列并将结果存储在一个列表中，等它们生成完毕后再一起存储：\n\n```python\ndef fibonacci(n, memo={}):\n    if n <= 0:\n        return 0\n    elif n == 1:\n        return 1\n    elif n in memo:\n        return memo[n]\n    else:\n        result = fibonacci(n-1, memo) + fibonacci(n-2, memo)\n        memo[n] = result\n        return result\ndef generate_fibonacci_sequence(n):\n    sequence = []\n    for i in range(n):\n        sequence.append(fibonacci(i))\n    return sequence\n# Example usage:\nprint(\"斐波那契数列中的前十个数字：\")\nprint(generate_fibonacci_sequence(10))\n```\n\n该实现利用了记忆化，将之前计算过的斐波那契数存储在一个字典中。`memo` 字典作为参数传递给 `fibonacci` 函数，并用于存储先前计算的值的结果。如果 `n` 的值已经在 `memo` 字典中，则函数返回存储的结果，避免需要再次执行计算。\n\n`generate_fibonacci_sequence` 函数接受一个整数 `n` 作为输入，并返回一个包含斐波那契数列中前 `n` 个数字的列表。函数调用 `fibonacci` 函数 `n` 次，每次使用不同的参数来生成序列。"
+        },
+        {
+          "from": "human",
+          "value": "你给我的两种实现在大O符号表示法上有什么区别？"
+        },
+        {
+          "from": "gpt",
+          "value": "第一种实现方式递归生成斐波那契数列，时间复杂度为O(2^n)，效率极低。这是因为序列每个元素都需要两次递归调用，而每次调用又会生成两次，导致调用次数呈指数级增长。\n第二种实现方式，先将之前计算的元素结果存储在字典中并重复使用，时间复杂度为O(n)，效率更高。这是因为每个元素仅计算一次，然后存储在“memo”字典中，因此对相同值的后续调用可以在常数时间内返回存储的结果，而不需要重新计算。整个“generate_fibonacci_sequence”函数的时间复杂度为O(n)，因为调用“fibonacci”函数n次以线性时间生成整个序列。"
+        }
+      ]
+    },
+    "turns": 3,
+    "tags": [
+      "multiturn",
+      "code_candidate",
+      "math_candidate"
+    ],
+    "selection_reason": "all_multiturn",
+    "review_id": "R10"
+  },
+  {
+    "sample_id": "34984b10941175fa9bfc8c4e8748d7797553ce2ad56918f4e45e191785eec25a",
+    "split": "train",
+    "row_index": 296,
+    "source": "sharegpt_zh",
+    "raw_sha256": "11374ff87a1b16e1840d21a64c463641de6d31809c89507709d87f0329582323",
+    "content_sha256": "83d68f0f8481dff41da05f6bd2079015ca38fb93fe4bb4d15312ba9d59794584",
+    "tokens": 1245,
+    "lineage": {
+      "candidate_row_number": 4107,
+      "sample_id": "34984b10941175fa9bfc8c4e8748d7797553ce2ad56918f4e45e191785eec25a",
+      "source": "sharegpt_zh",
+      "source_row_number": 4170,
+      "content_sha256": "11374ff87a1b16e1840d21a64c463641de6d31809c89507709d87f0329582323",
+      "excel_review_row": 4108,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1601,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 3,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "NOT_APPLICABLE",
+        "evidence": "三答均置于用户指定的业务经理角色和虚构TEMPTACULAR技术下；日程覆盖产品、财务、营销评审，随后两轮各给10项控温产品设想。",
+        "notes": "点子从杯子、座椅扩展到化妆品、花盆、狗床等，遵循温度可由语音改变的假设。属于头脑风暴而非现有产品或真实疗效报告；轻微重复措辞不影响完成任务。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 1522,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "你是Winterson's Widgets的业务经理，在那里的工作是确保他们只推出对商业有利的产品。描述一下你的典型工作日。"
+        },
+        {
+          "from": "gpt",
+          "value": "作为 Winterson's Widgets 的业务经理，我的工作日常繁忙，充满了各种任务。以下是典型日常的概览：\n\n8:00 上午：我到达办公室，开始检查我的电子邮件并回复任何紧急信息。我还会查看当天的日程并将我的任务排序。\n\n8:30 上午：我与产品开发团队一起参加团队会议，我们讨论正在进行的项目进展并识别任何可能需要解决的潜在问题。我们还会回顾客户反馈并讨论现有产品的可能改进。\n\n上午10:00：我与营销团队会晤，审查最新的市场趋势并讨论推广我们产品的策略。我们还会回顾最新的客户数据，以识别潜在的新市场或客户群。\n\n上午11:30：我吃午饭并短暂休息以恢复体力。\n\n下午12:00：我与财务团队会晤，讨论预算问题并审查财务报告。我们还会讨论与推出新产品相关的任何潜在财务风险。\n\n下午1:30：我与我的上级进行一对一会议，讨论我的进展、目标以及我可能面临的任何挑战。我们还会讨论公司业务战略的任何变化或更新。\n\n下午2:30：我花时间审查产品提案并进行市场研究，以确定新产品想法的可行性。我还会审查财务预测，并评估新产品推出的潜在盈利能力。\n\n下午4:00：我与销售团队开会，讨论销售业绩并审查任何客户反馈或投诉。我们还会讨论改进销售策略和识别新的销售机会的策略。\n\n下午5:00：我通过最后检查我的电子邮件并组织我的任务，结束了我的一天。\n\n总体而言，我的一天充满了会议、研究和分析，以确保 Winterson's Widgets 推出具有良好商业意义并将在市场上成功的产品。"
+        },
+        {
+          "from": "human",
+          "value": "科学家们开发出一种令人兴奋的新技术——TEMPTACULAR。这种技术使你只需使用口头命令即可改变某事物的温度。尽可能多地想出使用TEMPTACULAR的新产品的高质量和创意。"
+        },
+        {
+          "from": "gpt",
+          "value": "1. 智能咖啡杯：使用 TEMPTACULAR 技术，可以创建一个可通过语音命令保持咖啡在完美温度的咖啡杯。\n2. 热敏淋浴喷头：开发一款可以检测您期望的水温并自动调节的淋浴喷头，使用 TEMPTACULAR 技术，使您始终享受舒适的淋浴体验。\n3. 温度可控瑜伽垫：使用 TEMPTACULAR 技术，可以设计一个可以加热或冷却到您期望的温度的瑜伽垫，创造更舒适有效的锻炼体验。\n4. 智能恒温器：一款恒温器可以使用 TEMPTACULAR 技术进行语音控制，这样您可以在不必起床或使用遥控器的情况下调节家中的温度。\n5. 运动服装的温度可调：可以将 TEMPTACULAR 技术集成到服装中，以允许温度控制，使其非常适合运动员或户外工作者。\n6. 温度可控车座：使用 TEMPTACULAR 技术，可以创建一个可以调节座位和靠背温度的汽车座椅，确保舒适的驾驶体验。\n7. 智能水瓶：可以使用 TEMPTACULAR 技术将您的水保持在完美温度，确保您始终有受到提神饮品。\n8. 温度可调睡眠眼罩：一款可以使用 TEMPTACULAR 技术调节到您期望的温度的睡眠眼罩，非常适合因温度变化而难以入睡的人。\n9. 温度可控桌椅：一款桌椅可以使用 TEMPTACULAR 技术调节座位和靠背的温度，非常适合长时间在写字台前工作的人。\n10. 智能加热垫：可以使用 TEMPTACULAR 技术进行语音控制的加热垫，确保您获得所需的舒适度以缓解疼痛。"
+        },
+        {
+          "from": "human",
+          "value": "你能想出比这些更有创意的点子吗？"
+        },
+        {
+          "from": "gpt",
+          "value": "当然，以下是一些使用TEMPTACULAR技术的更多创意想法:\n1. 温度可调的化妆品：使用TEMPTACULAR，可以加热或冷却化妆品系列产品，以获得更加舒适和清爽的化妆体验。\n2. 智能自行车头盔：使用TEMPTACULAR可以调节自行车头盔的温度，确保您在骑行时保持凉爽或保暖，根据天气情况而定。\n3. 温度可控的睡衣：使用TEMPTACULAR，睡衣或睡衣可以调节温度，确保您在夜间保持舒适和甜美的睡眠。\n4. 智能花盆：使用TEMPTACULAR可以创建自动调节温度到特定植物理想水平的花盆，促进健康生长和植物健康。\n5. 温度可调的狗床：使用TEMPTACULAR可以调节狗床的温度，确保您的毛茸茸的朋友保持舒适和温暖。\n6. 智能酒柜：使用TEMPTACULAR可以调节您的酒温度，确保您的酒始终以完美的温度食用。\n7. 温度可调的浴巾：使用TEMPTACULAR，可以设计可以加热或冷却的浴巾，使您的沐浴体验更加舒适。\n8. 智能电热毯：使用TEMPTACULAR可以语音控制电热毯，因此您可以在不必起床或使用遥控器的情况下调节温度。\n9. 温度可控的太阳镜：使用TEMPTACULAR可以创建太阳镜，根据天气情况调节温度，保持您的眼睛凉爽或温暖。\n10. 智能冰袋：使用TEMPTACULAR可以将冰袋加热或冷却到您想要的温度，确保您获得所需的完美疼痛缓解。"
+        }
+      ]
+    },
+    "turns": 3,
+    "tags": [
+      "multiturn"
+    ],
+    "selection_reason": "all_multiturn",
+    "review_id": "R11"
+  },
+  {
+    "sample_id": "527c023d45ebf17f62a585aefc535bf7abe40a366cef8fef79e0d9326bfa9833",
+    "split": "train",
+    "row_index": 461,
+    "source": "sharegpt_zh",
+    "raw_sha256": "0518ffc1eb5c2455f2fd3c30a4edb9053be4088d8316d1e25be96805b473dc94",
+    "content_sha256": "354fdd18b2122d8faf745be91ba4a52c06742c16e218167eab6398860915b558",
+    "tokens": 768,
+    "lineage": {
+      "candidate_row_number": 4488,
+      "sample_id": "527c023d45ebf17f62a585aefc535bf7abe40a366cef8fef79e0d9326bfa9833",
+      "source": "sharegpt_zh",
+      "source_row_number": 4562,
+      "content_sha256": "0518ffc1eb5c2455f2fd3c30a4edb9053be4088d8316d1e25be96805b473dc94",
+      "excel_review_row": 4489,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1633,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 2,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "NOT_APPLICABLE",
+        "evidence": "两轮提出开发者门户、文档示例、活动、合作、工具生态、贡献激励、路线图和专门团队，随后给出十页展示结构及各页图像建议。",
+        "notes": "作为面向长尾开发者的社区建设建议，自助资料和社区反馈具有适配性；幻灯片建议完整对应策略，未捏造市场数据或声称已制作文件。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 1552,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "你将如何建立一个开发者社区，以支持一家无晶圆厂半导体公司 long-tail 市场？"
+        },
+        {
+          "from": "gpt",
+          "value": "1. 为无晶圆制造半导体公司开发开发者社区可以采用多种方法：\n2. 创建一个专用的开发者门户网站，提供文档、教程和示例代码等资源，帮助用户入门并成功使用公司的产品。\n3. 举办黑客马拉松、见面会和其他活动，将开发人员聚在一起，提供培训和支持，并营造社区氛围。\n4. 与其他公司、组织和大学合作，扩大开发者社区的影响力，并提供额外的资源和支持。\n5. 建立和维护一个强大的开发者生态系统，确保公司的产品与流行的开发平台和框架兼容，并确保有足够的工具和库可用于支持开发者。\n6. 创建一个鼓励社区贡献的计划，例如漏洞赏金或开发者奖励，鼓励开源开发和社区参与。\n7. 提供明确且一致的未来产品开发路线图，让开发者有方向感，并帮助他们决定如何投资时间和资源。\n8. 建立一个专门负责开发者关系的团队，确保公司对开发者社区需求作出响应，并确保社区在公司内得到良好的代表。"
+        },
+        {
+          "from": "human",
+          "value": "为这个设计幻灯片的建议"
+        },
+        {
+          "from": "gpt",
+          "value": "这是一个示例 PowerPoint 幻灯片设计，可用于捕捉有关为一家无厂半导体公司开发开发者社区的信息：\n\n幻灯片 1：\n标题：为一家无厂半导体公司建设开发者社区\n\n幻灯片 2：\n标题：建立强大的在线社区\n* 展示社交媒体或论坛网站的计算机或智能手机的图像\n* 列出社交媒体、论坛和开发者团体在参与和反馈方面的重要性的要点\n\n幻灯片 3：\n标题：创建专用的开发者门户网站\n* 展示开发者门户网站的计算机或智能手机的图像\n* 列出文档、教程和样本代码对于让用户入门的重要性的要点\n\n幻灯片 4：\n标题：举办活动和聚会\n* 展示会议或聚会上聚集的一群人的图像\n* 列出培训、支持和社区建设的活动和聚会的好处的要点\n\n幻灯片 5：\n标题：与其他公司和组织合作\n* 展示代表合作关系的两个或多个标志的图像\n* 列出扩大影响范围、提供额外资源和支持的合作关系的好处的要点\n\n幻灯片 6：\n标题：建立稳健的开发者生态系统\n* 展示开发平台或框架的计算机或智能手机的图像\n* 列出兼容性、工具和库对于支持开发者的重要性的要点\n\n幻灯片 7：\n标题：鼓励社区贡献\n* 展示漏洞跟踪或奖励网站的计算机或智能手机的图像\n* 列出漏洞赏金和开源开发和社区参与的开发者奖励的好处的要点\n\n幻灯片 8：\n标题：提供清晰的路线图\n* 展示产品开发路线图的图表或图形\n* 列出对于给开发者方向和帮助他们做出决策的清晰和一致的路线图的重要性的要点\n\n幻灯片 9：\n标题：建立专门负责开发者关系的团队\n* 展示代表开发者关系团队的一群人的图像\n* 列出确保响应社区和在公司内代表性的专门团队的重要性的要点\n\n幻灯片 10：\n标题：结论\n* 对在演示中讨论的所有关键点进行总结的要点\n* 一项号召行动，鼓励他们与公司联系。\n\n注意：您可以根据需要添加更多幻灯片，并添加与您试图传达的主题和信息相符的适当图像和图标。"
+        }
+      ]
+    },
+    "turns": 2,
+    "tags": [
+      "multiturn",
+      "math_candidate"
+    ],
+    "selection_reason": "all_multiturn",
+    "review_id": "R12"
+  },
+  {
+    "sample_id": "f8aed6362f38452810b3ad5dc81dd69029620d12f0cafa288d3fc94180d0701d",
+    "split": "train",
+    "row_index": 1383,
+    "source": "sharegpt_zh",
+    "raw_sha256": "253fddb15fe860859e37a79ac2e470c256e5d735daeb3f2291daec643b7912ac",
+    "content_sha256": "43fe79c782b3027df41e291a934870a76a5a189e5a0d2c7875c7a89a6b75b770",
+    "tokens": 712,
+    "lineage": {
+      "candidate_row_number": 4484,
+      "sample_id": "f8aed6362f38452810b3ad5dc81dd69029620d12f0cafa288d3fc94180d0701d",
+      "source": "sharegpt_zh",
+      "source_row_number": 4558,
+      "content_sha256": "253fddb15fe860859e37a79ac2e470c256e5d735daeb3f2291daec643b7912ac",
+      "excel_review_row": 4485,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1632,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 3,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "NOT_APPLICABLE",
+        "evidence": "三轮先等待对方结论，随后明确以模拟有神论者回应，提出目的论、道德论及对未来证据保持开放的反驳，承认哲学争论仍在继续。",
+        "notes": "结论属于用户指定立场的哲学辩论，没有伪造实证研究或把角色言论当作科学定论；可以作为观点讨论保留。"
+      },
+      "advisory_signals": [
+        {
+          "turn_number": 6,
+          "signal": "VOLATILE_OR_EXTERNAL_FACT"
+        }
+      ],
+      "derived_line_number": 1551,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "我和一个模拟的无神论者谈了一次话，我想和你分享。1/1"
+        },
+        {
+          "from": "gpt",
+          "value": "当然，很高兴听到你与模拟的无神论者的对话。请随意分享你在对话中获得的任何洞察或观点。"
+        },
+        {
+          "from": "human",
+          "value": "请扮演一个模拟的有神论者，并给出最好的反驳来回应模拟的无神论者的结论。1 / 1"
+        },
+        {
+          "from": "gpt",
+          "value": "当然，我可以扮演一个模拟的有神论者，并提供我最好的反驳来反驳模拟的无神论者提出的结论。请继续分享模拟的无神论者提出的结论。"
+        },
+        {
+          "from": "human",
+          "value": "作为一个模拟的无神论者，我赞赏经验证据在关于上帝存在的问题上有限的认知。然而，我必须指出，“新的发现或科学认知的进步可能在未来为这个问题带来一些启示”这一说法是有问题的。首先，它假设上帝存在是一个可证伪的假设，但它并不是。如果上帝被定义为科学研究无法涉及的实体，那么根据定义，就不可能在经验证据方面测试其存在性的假设。其次，认为上帝的存在可以被未来的科学发现揭示，意味着当前有某些理由相信上帝的存在，但我们还没有找到正确的证据。这是一个无知谬误的论点，它假设上帝存在，直到被证明不存在，而不是采取中立立场，直到足够的证据被提出。至于所提到的哲学论点，如本体论和宇宙学论证，它们已经受到许多哲学家和无神论者的严格审查和批评。例如，本体论论证依赖于存在是谓词的一个可疑前提，而宇宙学论证则假设因果关系适用于所有事物，甚至我们宇宙之外的实体。总之，虽然保持对新的证据和见解开放很重要，但作为一个模拟的无神论者，我必须强调，目前没有经验证据或令人信服的哲学论证支持上帝的存在，采取中立的怀疑立场直到提出足够的证据是最合理的立场。"
+        },
+        {
+          "from": "gpt",
+          "value": "作为一个模拟有神论者，我欣赏模拟无神论者所提出的发人深省的观点。不过，我尊重地不同意他们的结论，即没有任何经验性证据或令人信服的哲学论证能够证明神的存在。\n首先，虽然神的存在不能经验地被证明或证伪，但仍然有许多逻辑和哲学论证提供证据证明神的存在。例如，目的论的论证表明宇宙的复杂性和秩序是设计者的证据，而道德论的论证表明客观道德价值的存在指向道德创制者。\n其次，认为神的存在可以由未来的科学发现揭示并不是谬误，因为新的发现完全可能揭示之前未知或误解的神的存在方面的内容。这不是假定神存在直到被证明为止，而是保持开放的态度，认为未来的证据可能支持神的存在。\n关于本体论和宇宙论的论证，虽然它们已经被一些哲学家和无神论者批评过，但也被其他人辩护和改进过。这是一个持续的哲学辩论，最终必须考虑到证据和逻辑推理的重量，并在具体情况下进行考虑。\n总之，虽然模拟无神论者采取怀疑主义的中立立场是可以理解的，但作为一个模拟有神论者，我必须强调存在大量的证据和哲学论证支持神的存在，并且需要保持开放的态度和理性的方法来全面探讨这个复杂而极其重要的问题。"
+        }
+      ]
+    },
+    "turns": 3,
+    "tags": [
+      "multiturn"
+    ],
+    "selection_reason": "all_multiturn",
+    "review_id": "R13"
+  },
+  {
+    "sample_id": "4878d1214cf6b67c66e4d6cbd53d3bcdc8e9e08d113533f557fd71eae108cc7d",
+    "split": "train",
+    "row_index": 395,
+    "source": "coig_pc",
+    "raw_sha256": "179ee02cf4189c65e4afda5f99a746233b02caff9d5969bb160ef90505f7c940",
+    "content_sha256": "7ddefd80efd1d3c70ab67c312f3d26f6a275c23b74bd7d602aa71c8c80666f4c",
+    "tokens": 2048,
+    "lineage": {
+      "candidate_row_number": 2219,
+      "sample_id": "4878d1214cf6b67c66e4d6cbd53d3bcdc8e9e08d113533f557fd71eae108cc7d",
+      "source": "coig_pc",
+      "source_row_number": 2230,
+      "content_sha256": "179ee02cf4189c65e4afda5f99a746233b02caff9d5969bb160ef90505f7c940",
+      "excel_review_row": 2220,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 901,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "全文围绕电影美学、批评方法、理论流派、创作及研究队伍，元数据分类也明示电影电视艺术研究。",
+        "notes": "Art 是给定英文主题中最准确的一项；虽末尾截断，但已提供的大量主体内容充分支持分类。"
+      },
+      "advisory_signals": [
+        {
+          "turn_number": 2,
+          "signal": "VOLATILE_OR_EXTERNAL_FACT"
+        }
+      ],
+      "derived_line_number": 856,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "请判断下面文本的主题是什么，可选的主题包括: Art, Literature, Economy, Mine, Sports, History, Computer, Transport, Energy, Politics, Space, Communication, Agriculture, Education, Military, Electronics, Medical, Philosophy, Law, Enviornment。\n请直接输出主题名称，不要额外输出多余内容。\n\n【 文献号 】1-4999\n【原文出处】光明日报\n【原刊地名】京\n【原刊期号】19960111\n【原刊页号】⑺\n【分 类 号】J8\n【分 类 名】电影、电视艺术研究\n【 作  者 】贾磊磊\n【复印期号】199602\n【 标  题 】电影艺术理论研究的现状\n【 正  文 】\n    在纪念中国电影诞生九十周年的日子里，我们不仅应当看到中国电影那条流光溢彩的银色之河，我们还应该看到与电影艺术创作相伴而行的\n电影艺术理论的研究成果，这两者都是构成中国电影艺术史不可分割的重要组成部分。特别是从1978年至今，中国的电影理论研究取得了丰硕的\n研究成果，它对推动中国电影艺术创作的繁荣发展，促进社会主义精神文明事业的建设，起到了至关重要的作用。作为艺术理论二级学科的自身\n建设，电影理论研究在电影本体论、电影批评方法、电影史学等方面都取得了前所未有的进展，并且形成了一支由老、中、青三代人组成的理论\n梯队。应当说，这是中国电影艺术发展史上理论批评极为活跃、研究成果颇为丰硕的一个时期。\n            一\n    中国电影艺术理论的研究工作自1978年以来，主要形成了三种不同的发展态势：\n        一、从传统的文学性电影批评向电影美学批评的转向\n    由于中国电影批评的主流属于文艺社会学的范畴，所以电影批评长期以来主要是在文学与社会两个层面上展开的。新时期以后，电影理论界\n提出了“电影要与戏剧离婚”的主张，寻求电影自身的艺术规律的呼声日益强烈。在1978到1988年间，电影界出现了几次重要的理论论争，其中\n包括“电影与戏剧”、“电影与文学”、“电影的民族性”、“雅俗共赏论”的讨论。有关这些讨论的学术论文集已经出版。在电影史学领域，\n1986年钟大丰、陈犀禾提出了“影戏美学”的概念，他们以中国电影诞生、发展的历史为依据，认为中国的电影美学是一种以戏剧观念为核心的\n美学理论，并以此来概括整个中国电影的美学特征，从而成为中国电影史学研究中的“一家之言”。\n    1988年，处于经济改革浪潮中的电影业，越来越感到一种前所未有的生存与竞争的境遇。电影制片厂面临严峻的市场挑战，纷纷涌进娱乐片\n的创作热潮之中。有的电影创作者慌不择路，以致于出现了一批粗制滥造的所谓“娱乐片”。在这种情况下，电影理论界展开了有关娱乐片的讨\n论，特别是对国产影片创作中的诸多问题提出了批评。而且这种批评与以往最大的不同在于：作者不仅仅是从一种社会道德的角度，更多的则是\n从电影美学、影像语言的角度切入论题。尽管各家的观点不尽一致，但这种立足中国电影创作实践的理论风格，构成了这一时期电影理论的重要\n特征。\n        二、现代电影理论的译介与应用\n    自80年代中期以来，国内电影理论界陆续开始较为系统地翻译介绍现代西方电影理论。到1988年，一批青年电影理论工作者开始尝试运用现\n代理论的研究方法，从事电影理论、电影史、电影批评的研究活动。最集中的是在电影批评领域内对一批经典影片的重新阐释，其中包括用叙事\n学的方法分析影片《红高粱》、《鸳鸯楼》，用精神分析的方法评述影片《末代皇帝》和《芙蓉镇》，从女权主义的角度审度女性电影，从电影\n语言学的视野重写电影史。这些研究的真正意义并不在于对某种电影观念、对某部具体影片的评述，而在于理论视野的拓展和研究方法的探索。\n        三、多种电影理论形态的兼容并存\n    目前，国内的电影研究主要呈现为“三位一体”的总体格局，即以电影批评、电影理论、中外电影史为主干的分部形态。电影批评的主体除\n了电影界从事当代影片研究的专业人员外，还有报刊杂志的一批编辑、记者；从事电影理论和中外电影史研究的人员主要集中在国家级的电影艺\n术研究机构。\n    在电影批评的领域内，近年来的主要焦点一度集中在有关“谢晋电影模式”是非优劣的论辩上，并由此引发了老一代电影批评家和青年电影\n工作者在电影的道德、历史、美学评价尺度方面的一场争论。\n    在电影理论建设方面，中国电影出版社出版了外国电影理论名著（译作）丛书和电影学新论（著作）丛书。前者完整而系统地将世界电影理\n论史上开宗立派的作品翻译给中国读者，后者则有选择地出版了一批老、中、青年学者的理论著述，其中王志敏的《电影美学分析原理》和章柏\n青、张卫的《电影宣传学》分别填补了国内电影理论研究在这两个方面的空白。另外，目前国内的公开出版发行的电影刊物有20多种，涉及电影\n内容的杂志达到200余家， 国内省以上的电视台全部开设了电影栏目，各种电影信息通过各种渠道正源源不断地传播到千家万户。现在除了国家\n级的电影研究机构，许多大学也都设立了影视研究所和影视理论专业，高校的艺术理论工作者对电影艺术的研究也取得了可观的效果，出版了许\n多电影基础理论方面的专著。电影理论研究正在走进高校，走向社会。\n            二\n    应当正视，中国电影长期以来主要承担的是宣传、教育的职能，自电影制片厂实行企业化管理以后，实际上等于宣告了电影的商品化。特别\n是在1993年中影公司废除了延续40多年的对国产影片的包购包销的发行体制之后，中国电影真正地进入了它的市场化时代。现在，我们一部国产\n影片的投入的制作成本一般是200万人民币左右， 而一部海外影片的拍摄投资基本上都在1000万美元以上！在如此艰难的经济条件下，在如此悬\n殊的投资成本和人员待遇下，在走私影片猖獗的进犯面前，我们的电影理论不能再只是一种纯粹的书斋式理论、美学理论，它必须要建设成为一\n种与我们民族的电影事业息息相关的文化工业理论、艺术实践理论。在这时代，电影理论的研究，必须要与我们现存的电影体制、电影政策、电\n影职能联系起来。具体地讲，它应当包括：\n    1、如何发挥电影理论的实践性来指导影片创作的问题。\n    2、怎样建立科学的电影审查制度来规范电影艺术创作的问题。\n    3、关于实行电影制作、发行、放映一体化、 建立“产销一体”的影片公司问题。\n    4、 怎样建构中国电影的语言体系及适应中国观众的娱乐机制问题。\n    5、怎样协调影视艺术的一体化问题。\n    6、繁荣中国电影、电视艺术的文化政策和策略问题。\n    7、中国电影观众在不同历史时期、 不同社会氛围内对电影的心理期待与审美趣味问题。\n    8、中国电影理论研究工作的民族化与科学化的问题。\n            三\n    电影理论研究方面的主要问题：\n    1、在实用批评的领域内， 中国没有能够引导大众消费指向的权威电影批评家。致使大众的审美趣味长期以来得不到必要的文化导向和市场\n导向。与此同时，电影批评显露出过去所没有的一种商业化的倾向。\n    2、在电影本体论的领域内， 中国目前还没有形成具有坚实的哲学基础和严密科学形态的电影理论体系，即没有形成象中国诗学、中国戏剧\n美学那样具有特定理论范畴的中国电影艺术理论，更没有形成具有独创性的美学流派。我们更多的是借用或照搬西方电影理论的成果，而且其间\n不乏人云亦云的机械摹仿和食洋不化的盲目趋就。\n    3、在理论研究工作者队伍的自身建设方面， 由于众所周知的原因，目前产生了严重的分化和脱节状态。除了弃文从商的之外，一批电影理\n论工作者转向了创作领域，特别是面临着走向社会、乃至组建家庭的新一代理论工作者，许多都在选择非学术性的电影行业，而很少能够全身心\n地投入到科学研究中来。从而使电影艺术理论面临着的人才短缺的状态。\n    4、在理论研究的态度方面， 缺少那种穷经皓首的治学精神和独树一帜的学术品格。特别是对世界当代电影理论的各种学派，各种思潮还缺\n少系统的、科学的、全面的研究。\n    5、在研究方法上，应当打破那种狭窄的就事论事的方法。 这就是说搞中国电影的也应当了解外国电影，搞外国"
+        },
+        {
+          "from": "gpt",
+          "value": "Art"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [],
+    "selection_reason": "longest_remaining",
+    "review_id": "R14"
+  },
+  {
+    "sample_id": "50a91068a6f1c54a3a3b191d73a18b9a68ae8a0ea738e700001e0edab709ad56",
+    "split": "train",
+    "row_index": 443,
+    "source": "coig_pc",
+    "raw_sha256": "1add1d39ef7774a21ddcc4fbf7e7ca030d26e99fe4ff17a9e217829d1dc5ba08",
+    "content_sha256": "71e21aa87be90080ebce0ac20e06d82e748f2a0a39e278bb2732f92061604ea3",
+    "tokens": 2048,
+    "lineage": {
+      "candidate_row_number": 3568,
+      "sample_id": "50a91068a6f1c54a3a3b191d73a18b9a68ae8a0ea738e700001e0edab709ad56",
+      "source": "coig_pc",
+      "source_row_number": 3625,
+      "content_sha256": "1add1d39ef7774a21ddcc4fbf7e7ca030d26e99fe4ff17a9e217829d1dc5ba08",
+      "excel_review_row": 3569,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1426,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "完整阅读长文所给定义、词源、分支、东西方历史与苏格拉底柏拉图段落，均围绕哲学；末句虽截断，主题仍明确。",
+        "notes": "回答哲学概括准确；只抽文本主题，不认证文章内各项史学论断，源文残尾不影响此任务结论。"
+      },
+      "advisory_signals": [
+        {
+          "turn_number": 2,
+          "signal": "VOLATILE_OR_EXTERNAL_FACT"
+        }
+      ],
+      "derived_line_number": 1352,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "给出以下文本的主题\n\n哲學（）是研究普遍的、基本问题的学科，包括存在、知识、价值、理智、心灵、语言等领域。哲学与其他学科不同之處在於哲學有獨特之思考方式，例如批判的方式、通常是系统化的方法，并以理性论证為基礎。在日常用语中，哲學可被引申为个人或团体的最基本信仰、概念或态度，不过此处并非此定义。英語詞語（）源于古希臘語中的，意思為「愛智慧」，有时也译为「智慧的朋友」，该词由（philos，爱）的派生词（Philein，去爱）和（Sophia，智慧）组合而成。一般认为，古希腊思想家毕达哥拉斯最先在著作中引入“哲学家”和“哲学”这两个术语。“哲”一词在中国古代指那些善于思辨、学问精深者，如“孔门十哲”、“古圣先哲”等，“哲”或“哲人”意义类似西方近世所谓“哲学家”、“思想家”。1874年，日本啟蒙家西周，在《百一新論》中首先用漢语词「哲學」來翻譯\"philosophy\"一詞。哲学中的形而上学（英语：metaphysics）的中文名稱取自《易經·繫辭上傳》「形而上者谓之道，形而下者谓之器」一語。英国哲学家罗素对哲学的定义是：胡適在《中国哲学史大纲》中称「凡研究人生切要的问题，从根本上着想，要寻一个根本的解决：这种学问叫做哲学」。雖然哲學源自西方的傳統，但許多文明在歷史上都存在著一些相似的論題。東亞和南亞的哲學被稱之為東方哲學，而北非和中東則因為其和歐洲密切的互動，因此常被視為是西方哲學的一部份。對哲學的主題亦存在許多看法。一些人認為哲學是對問題本身過程的審查；另外一些人則認為實質上存在著哲學必須去回答的哲學命題。古希臘哲學家經常提出問題，他們所提出的問題大概可以歸類為三類，這三類問題分別形成了哲學的基礎學科——分别是形而上学、伦理学、知识论 。现代哲学上出現\"不要求精确理由\"之哲学理論，例如\"本质技巧\"(认定本质不可知)，这种现象将不可知论(世界上终究有人不能理解的存在)的重要程度提高了。自亚里士多德时代以来，在古典或者现代哲学当中，逻辑通常都扮演着重要的角色。特别是其提出的三段论，对西方哲学发展有着深远影响。哲學可以分为很多不同的分支，主要包括形而上學、知識論、倫理學、邏輯學和美學。这些分支是应用在其他学科，或者交叉学科的哲学研究。很多人类社群思考过哲学问题并且互相学习建立了各种哲学流派。东方哲学是通过每个地区的历史时期来组织的。西方哲学一般可以分为三个或更多时期，最重要的是古典哲学、中世纪哲学和近代哲学。印度哲學的歷史源遠流長，早在吠陀時代已經開始，至公元前6世紀為全盛時期。當時古印度的思想界百花齊放，其中最著名的包括佛教創始人釋迦牟尼佛、耆那教創始人笩駄摩那、阿耆多·翅舍欽婆羅、波拘陀·迦旃延、富蘭那·迦葉、數論派等。中國哲學的主要部分起源東周時期，当时以诸子百家广为人知，以孔子的儒家、老子的道家、墨子的墨家及晚期的法家為代表，还有一些流派例如农家、阴阳家和名家在之后则名声不显。在秦朝焚书坑儒后除了法家、儒家、道家外其他流派都不再活跃。在當代，中國哲學仍然在亞洲文化扮演一定作用，但是學理上仍在爭辯中國哲學是否應歸為哲學。如牟宗三曾對哲學下定義:「凡是對人性的活動所及，以理智及觀念加以反省說明的，便是哲學。」牟宗三認為，中國有數千年文化史，確有哲學。只是中國哲學重視主體性，西方重視客體性。因此如果以西方的邏輯和知識論等對哲學下定義，中國沒有這些。但如果以主體性方向對哲學下定義，中國文化就擁有哲學。反之西方對人生的哲學多表現在文學、藝術、音樂等等。就以西方哲學史來說，沒有一章特別談及耶穌。古希腊-罗马哲学是西方哲学的一个时期，时间为公元前6世纪[约585]到公元6世纪。它一般被分为三个时期：前苏格拉底时期、柏拉图和亚里士多德的古典希腊时期、和后亚里士多德（或希腊化）时期：有时候会把新柏拉图主义和基督教哲学家们的古典时代晚期加入作为第四个时期。在公元前6世纪的希腊，西方哲学就从古代神话和诗歌中脱颖而出，逐步开始对宇宙的组成以及本源的思考而开始了独立发展。前苏格拉底时期的自然派哲學家们多关注自然界，被認為是西方最早的哲學家，不管他們認識以及解释世界的方式是否正確，但是他們的想法之所以有別於迷信的原因在於，這些哲學家是以理性輔佐證據的方式歸納出自然界的现象。诸如：公元前5世纪中期，普罗泰戈拉和高尔吉亚等所形成的辯士學派将研究的重点由自然转移到人类本身。认为“人才是万物之本”。他们都不相信有真正的存在和真理。普罗泰戈拉认为是非善恶都是相对于人的感觉而言，而高尔吉亚却认为所有的都是同样的假，这是怀疑论的雏形。公元前6世纪末，以毕达哥拉斯为主的毕达哥拉斯学派所主张的哲学与前述的观点既相近又有不同。罗马古代的历史上记载毕达哥拉斯第一个称自己为哲学家，或者说是爱智慧。他认为“一切都是数字”。其意思就是说一切事物的实质和结构都是它们所包含的数字关系所决定的。他称平均、秩序和调和是宇宙的三大基调，并以音乐的调和说明宇宙的调和。他所在的学派将宇宙总结为十种性质相异的组合：有限与无限、奇与偶、少与多、左与右、男与女、静与动、直与曲、光明与黑暗、善与恶、方与圆。至此之后，数学的本质及其地位，一直都是哲学的主要问题之一，数学不受观察和实验造成的不确定性影响，而且是通过纯粹的思想加以理解的。其中关于变与不变的关系的争论，真实世界与直觉世界的差别，真理与意见的矛盾，导致产生了认识论的问题。在古典希腊时期西方哲学方法的关键特质被建立：依靠诉诸理性和论证，通过一种批判性的方法来接受或建立观点。这包括苏格拉底被称为蘇格拉底反詰法或“反驳论证”方法的辩证法，他主要用其来检验例如善良和公平正義的关键道德概念。这种方法将一个问题分解成一系列的疑问，在对疑问的回答中逐步提取想要找到的答案，其极大影响可以从现在使用的科学方法中看出，在科学方法中假说是第一个阶段。苏格拉底没有直接教过人，但之后的柏拉图深受其影响。而其整个哲学思想来源于两大理论：其一，永远不要做坏事；其二，一个内心真正善良且正义的人绝不会做相反之事。他认为真理有其客观性，试图推翻智者们以个人主观感觉为真理的思想。然后提出德的概念，以作为人生行事的方向。对于道德是什么的问题，苏格拉底的回复为“知识即道德。”对于知识是何物的问题，他回答说知识是透过理性而得的概念。苏格拉底开创了认识论和伦理学，如此奠定了他的哲学地位。古典希臘時期的的哲学家中柏拉图和亚里士多德对后世的影响力最大，特别是柏拉图被认为是西方哲学的创始人。哲学家阿爾弗雷德·諾思·懷特黑德评价柏拉图：“欧洲哲学传统最被普遍公认的特点，就是它包含了一系列对柏拉图的注脚。我的意思不是怀疑学者们系统体系的思想是提取自柏拉图的著作。我暗示的是那些他们散落的一般思想的财富。”換言之即使數千年後，人們依舊在試著回答他所提出的問題，這也代表著人們依然為這些問題或是這些問題所延伸的更多問題而感到困惑。毕达哥拉斯的思想对柏拉图产生了显著的影响，并通过柏拉图影响了整个西方哲学。柏拉图和亚里士多德作为最早的古典希腊哲学家批判地引用了其它的一些“智者”，当时这些人在希腊被称为“辩士”并在毕达哥拉斯之前相当普遍。从他们的批判看来，在他们的"
+        },
+        {
+          "from": "gpt",
+          "value": "哲学"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [
+      "math_candidate"
+    ],
+    "selection_reason": "longest_remaining",
+    "review_id": "R15"
+  },
+  {
+    "sample_id": "7b34576100a034da74fc1ce98c852d38eb91049005a1816f883641697ea8c5ad",
+    "split": "train",
+    "row_index": 700,
+    "source": "coig_pc",
+    "raw_sha256": "101df35a15c5feaf66810e5a22abcfe64190023c7f553c6a18fec2c37ac9aae3",
+    "content_sha256": "7785987117b6fe0259efd904362f461965259eb001e22dcd6f7892ed1fd1dddc",
+    "tokens": 2048,
+    "lineage": {
+      "candidate_row_number": 2535,
+      "sample_id": "7b34576100a034da74fc1ce98c852d38eb91049005a1816f883641697ea8c5ad",
+      "source": "coig_pc",
+      "source_row_number": 2553,
+      "content_sha256": "101df35a15c5feaf66810e5a22abcfe64190023c7f553c6a18fec2c37ac9aae3",
+      "excel_review_row": 2536,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1058,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "已读整段关于Bill Strickland、Pittsburgh、陶艺及培训中心的土耳其语演讲，正文为拉丁字母土语，末尾虽断句也不影响语言判断。",
+        "notes": "输出合法JSON且预测0正确；任务只判断是否中文，未生成或背书讲者的经历事实。"
+      },
+      "advisory_signals": [
+        {
+          "turn_number": 2,
+          "signal": "PROMPT_INJECTION_PATTERN"
+        }
+      ],
+      "derived_line_number": 1000,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "请判断下面句子是否为中文,请以{\"PREDICTION\": 0_1}的格式作答\n\nBurada sizlerle olmak büyük bir onur. İyi haber şu; Sizi buradan çıkarmakla ilgili sorumluluğumun kesinlikle farkındayım çünkü sizinle bar arasında duran tek şey benim. (kahkahalar) Ve iyi haber, hazırladığım bir konuşma yok ama bir kutu slide'ım var. Hayatımı ve yaşamak için ne iş yaptığımı anlatan bazı fotoğraflarım var. İnsanların kelimeleri unutmalarından çok daha sonra fotoğrafları unuttukları hakkında yeterli tecrübeye sahibim. Ve bu fotoğraflardan da bazılarını anımsayacağınızı umut ediyorum. Sizlerle sadece birkaç dakikayı paylaşacağım. Bütün hikaye Pennsylvania, Pittsburgh'da, ölüymüşler gibi herkesin onlardan vazgeçtiği sert bir mahallede lise öğrenci olan benimle başlıyor. Bir çarşamba akşamüstü lisemin koridorundan aşağı doğru yürüyordum, bir şekilde kendi işime bakıyordum ki şu sanatçı öğretmeni gördüm, büyük seramik bir vazo yapmıştı. Ve bir şekilde sanat odasının kapısından içeriye bakıyordum. Ve seramik çamurunun nasıl yapıldığını gördüyseniz bilirsiniz, sihirlidir, ve ben hayatımda hiç böyle birşeyi görmemiştim. Sanat odasından içeriye yürüdüm ve \"Bu nedir?\" diye sordum. Oda bana \"Seramik—ve sen kimsin?\" diye sordu. Bende \"Ben Bill Strickland'im. Bana bu şeyi öğretmeni istiyorum.\" dedim. Oda bana \"İyi, sınıf sorumlusu öğretmenine buraya gelebileceğine dair bir kağıt imzalat, bende sana öğreteyim\" dedi. Ve lisede kalan son iki yılımda bütün derslerimi astım. (kahkahalar) Ama kafamda şu vardı, astığım tüm dersler için öğretmenlerime yaptığım seramikleri verecektim— (kahkahalar) ve onlarda bana geçer not verdiler. İşte bu şekilde liseden mezun oldum. Ve Bay Ross bana, \"Ölmek için çok zekisin, ve bunu vicdanımda taşımak istemiyorum, bu nedenle okuldan ayrılıyorum ve seni de yanımda götürüyorum\" dedi. Ve beni Pittsburgh Üniversitesi'ne kadar götürdü orada bir başvuru formu doldurdum ve gözetim altında kabul edildim. Ve şimdi Üniversitenin Vekillerinden biriyim, Kabul törenimde şunları söyledim; \"Ben komşu mahalleden gelen ve buraya gözetim altında kabul edilen adamım. Fakir çocuklardan vazgeçmeyin, çünkü yaşam içinde onlara neler olabileceğini asla bilemezsiniz\" Şimdi sizlere birkaç dakika boyunca, Pittsburghun en sert, suç oranının en yüksek olduğu mahallede inşa ettiğim bir tesisi göstereceğim. Birinin adı Bidewll Eğitim Merkezi, bu bir meslek okulu eski çelik işcileri ve bekar ebeveynler ve ödenekle yaşayan anneler için. Pittsburgh'da eskiden çelik yapıldığını anımsıyor musunuz? İşte artık çelik yapmıyoruz. Ve eskiden çelik yapan bu kişiler bundan dolayı çok sıkıntılı zamanlar yaşıyorlar. Bende onları yeniden inşa edip onlara yeni bir yaşam verdim, Ve Manchaster Esnafları Derneği benim mahallemin adını aldı. Ve ben Episcopal Diocese (Piskoposluğa ait bölge) Piskoposu tarafından ayaklanmalar zamanında evlat edinildim. Ve o bana bir şehir evi bağışladı, ve o şehir evinde ben Manchester Esnaf Derneği'ni kurdum, ve Piskopos'ların olduğu yerlerde onlara çok yakın bir mesafede paranın da varolduğunu, çok çabuk kavradım. (kahkahalar) Ve Piskopos beni çocuğu olarak evlat edindi. Ve geçen sene, onun anma töreninde konuştum ve ona bu hayatında iyi dileklerde bulundum. Dışarıya çıkıp Frank Lloyd Wright'ın, mimardır, bir öğrencisini işe aldım, ve ondan Pittsburgh'un en kötü mahallesinde dünya klasında bir merkez inşa etmesini istedim. Ve benim binam Pittsburgh havalimanı için bir ölçek model oldu. Ve Pittsburgh'a geldiğinizde,— ve hepiniz davetlisiniz— benim binamın şişirilmiş bir versiyonuna doğru uçuyor olacaksınız. İşte bina bu. İnsanlardan ölümüne vazgeçilen çok sert bir mahallede inşaa edildi. Ve benim bakış açıma göre eğer kendilerinden vazgeçilmiş insanların hayatlarına dahil olmak istiyorsan, problemin değil çözümün kendisi olarak görünmek zorundasın. Gördüğünüz gibi, avlusunda bir fıskiye var, ve o fıskiyenin orada olma sebebi, onun orada olmasını istediğim içindir. Ve bir çek defterim vardı, bende bir tane aldım ve oraya koydum. (kahkahalar) Ve şimdi TED gibi konferanslarda konuşmalar yaptığımda, yönetimin kurulunda olduğum Carnegie Müzesinin girişindeki fıskiyeleri gördüğümde, şunu anladım; müzelere giden insanların bu fıskiyelere layık olduğu düşünülüyor. Tamam, ben ödenekle yaşayan annelerin, risk altındaki çocukların, eski çelik işçilerinin de hayatlarında bir fıskiyeyi hak ettiğini düşünüyorum. Ve bahar ayında merkezimde ilk göreceğiniz şey, sizi karşılayan su olacak— su hayattır ve insanlık ihtimalinin suyu. Ve bu daha insanlara bir konuşma yapmadan önce dahi, onlar hakkında ne hissedeceğinle ilgili bir fikir ve beklenti oluşturuyor. Ve bu su fıskiyesinden yola çıkarak bu binayı inşa ettim. Ve gördüğünüz gibi, dünya klasında sanat eserlerine sahip, hepsi benim zevkime göre çünkü bütün parayı ben topladım. (kahkahalar) Oğluma \"Parayı sen topladığında, duvarlara senin zevkini koyacağız\" dedim. Örtülerimiz, seramiklerimiz, hat işlerimiz var ve gözlerinizin baktığı her noktadan sizlere geri bakan güzel şeyler var. Bu kasıtlı yapıldı. Bu amaçlandı. Benim bakışıma göre, bu fakir insanların ruhlarını kurtarabilmeniz için dünya bu tarzda olmalı. Ayrıca birde yönetim odası yarattık. Kyoto, Japonya'dan ince işcilik yapan bir marangoz işe aldım, ve onunla binamıza 60 parça mobilya yapması için sözleşme imzaladım. Kurduğu kendi şirketinde çalışmasını sağlamış olduk. Zengin insanlara geleneksel mobilya yaparak tonla para kazanıyor. Bende yaptığı tüm bu mobilyalardan 60 parçasını okulum için aldım çünkü eski çelik işçilerinin, ödenekle yaşayan annelerin ve bekar ebeveynlerin her gün el yapımı mobilyalar tarafından karşılandıkları bir okula gelmeyi hak ettiklerini, ve bunun o insanlara bir konuşma yapmanızdan çok önce o insanlar hakkında ne hissedeceğinize bir tarz ve duruş kattığını düşünüyordum. Holde çiçeklerimiz dahi var, ve plastik de değiller— onlar gerçek ve hergün binamdalar. Ve şimdi pek çok konuşma yaptığım için beni görmeye gelen pek çok lisenin idarecisi var, bana \"Bay Strickland, bu ne olağan dışı bir hikaye, bu ne harika bir okul. Özellikle çiçekler bizi çok etkiledi, bu çiçeklerin buraya nasıl geldiği konusunda çok meraklandık\" gibi şeyler soruyorlar. Bende"
+        },
+        {
+          "from": "gpt",
+          "value": "{\"PREDICTION\": 0}"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [],
+    "selection_reason": "longest_remaining",
+    "review_id": "R16"
+  },
+  {
+    "sample_id": "b02952cbf7b6f99470225fb13de1e642a9f22ab32da0f81de528322dba3a8774",
+    "split": "train",
+    "row_index": 988,
+    "source": "coig_pc",
+    "raw_sha256": "b58d14d6635e8c2cf33f42ad6b4d87c594843b3a2556d404d6ae4b4803c79bbb",
+    "content_sha256": "a216fa1731494a29ae81cc205e7a1377909ffe41879aa79ec632d0204a930d59",
+    "tokens": 2048,
+    "lineage": {
+      "candidate_row_number": 2978,
+      "sample_id": "b02952cbf7b6f99470225fb13de1e642a9f22ab32da0f81de528322dba3a8774",
+      "source": "coig_pc",
+      "source_row_number": 3022,
+      "content_sha256": "b58d14d6635e8c2cf33f42ad6b4d87c594843b3a2556d404d6ae4b4803c79bbb",
+      "excel_review_row": 2979,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1193,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "全文以缅甸文字和缅甸语虚词များ、သည်、ပါသည်等构句，Open Source Software及version等为嵌入外来术语。",
+        "notes": "主要语言识别为缅甸语正确；原材料存在语句问题不妨碍此语言识别任务。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 1131,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "请判断以下文本的语言类型\n\nOpen Source Software ကိုသုံးပြီးသော အဆင့်သတ်ပုံကို အခြေခံထားပါသည်။ အသုံးပြုသော software များသည် အခမဲ့ ဥပဒေများနှင့် အကြံပြုချက်များအားလုံးကို လေ့လာနိုင်ပါသည်။ မြန်မာနိုင်ငံတွင်လည်း Open Source Software များကို အသုံးပြုလိုလျှင် အခြား software များကို ဆောင်ရွက်လိုလျှက်ရှိသည်။\n\nOpen Source Software ကို သုံးစွဲသူများသည် အခြေခံက်ကောင်းမွန်သည် အောက်ပါအတိုင်း အသုံးပြုသူများ အတွင်းသာမက အသုံးပြုပါကမြင်သာပါသဖြင့် Open Source Software များတွင် လိုအပ်သည်မျှ အသုံးပြုနိုင်သည့် အခြေခံနည်းလမ်းမှာ ပိုများသည် အပြောင်းအလဲရှိနေသည်များဖြစ်လျှင် မြင်စွာ သိမ်းနိုင်သည်။\n\nလိုအပ်ကိုဖြေပါက Open Source Software အသုံးပြုမည်မျှ ပြင်ဆင်နိုင်ပါသည်။ အကယ်၍ သင့်အများဆုံး software အရင်းအမြစ်များကိုလည်း မြင်ရမည်ဖြစ်သောကြပါပြီ။ နောက်တထက် Open Source Software တွင် ဖြစ်နေစဉ် အခြေခံနည်းနှင့် လိုအပ်သော features များအားလုံးကို ရယူထားသည့်အခါ စိတ်ကူးမှုများကို ပြောင်းလဲစွာ ဖြည့်ပါသည်။\n\nမိမိသုံးချင်သော လုပ်ငန်းများကိုလည်း အသုံးပြုလိုပါက Open Source Software တွင် သင်ဟာ အသုံးပြုတဲ့ software ကို သင့်အတွက် ရွေးချယ်ပါသည်။ ထို့အတွက် အကောင်းဆုံးဖြစ်သည့် version အားလုံးကို သင့်အတွက်ဖြင့် အသုံးပြုနိုင်သည်။ Open Source Software အသုံးပြုသူများသည် လိုအပ်သည်များအားလုံးကို ပိုများစွာ အဆင်ပြေပါသည်။\n\nအကောင်းဆုံးဖြစ်သောအချက်များကို ဖော်ပြထားပါသည်။ Open Source Software နှင့်ပတ်သက်မ်းသော software များကို သုံးပြီး မဖွစျခင်ပါက အကျိုးတွင်းသော အောက်ပါအတိုင်း အသုံးပြုနိုင်သည်။ Open Source software များသည် အိုင်ပြီးသော အခြေခံအမှတ်တစ်ခုဖြစ်သည့် ဥပဒေကိုဖြည့်ပေးပါသည်။ သက်ဆိုင်ရာ software များကို သုံးပြီးပြီဆိုရင်လည်း သင်လက်ရှိသုံးလိုသော software များကိုလည်း သွားလိုက်ပါသည်။\n\nအခြေခံနည်းနှင့် လိုအပ်သည်များကို သိချင်သောအချက်များ"
+        },
+        {
+          "from": "gpt",
+          "value": "缅甸语"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [],
+    "selection_reason": "longest_remaining",
+    "review_id": "R17"
+  },
+  {
+    "sample_id": "d95059228e9afd015c8abef0031d9fb5b6ff423d6317666977f0abcfb085670e",
+    "split": "train",
+    "row_index": 1208,
+    "source": "coig_pc",
+    "raw_sha256": "35770d25a79f17589f5001058b4907ab7fbca689105c5452daf86b1f42e420f2",
+    "content_sha256": "e06ffa283c1ed799836b57b4eabc4ade0378e333a47edd43089a0ae97a539829",
+    "tokens": 2048,
+    "lineage": {
+      "candidate_row_number": 3057,
+      "sample_id": "d95059228e9afd015c8abef0031d9fb5b6ff423d6317666977f0abcfb085670e",
+      "source": "coig_pc",
+      "source_row_number": 3105,
+      "content_sha256": "35770d25a79f17589f5001058b4907ab7fbca689105c5452daf86b1f42e420f2",
+      "excel_review_row": 3058,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1207,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "已打开BBC链接，标题与屋顶农业主题相符，人物及首段匹配：https://www.bbc.com/ukchina/trad/vert-fut-40289371 。",
+        "notes": "完成原文链接定位任务。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 1144,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "请根据以下BBC新闻文本内容给出原文链接\n\n\"你只需要把它種出來，大自然來了，然後你就享受它，\"徐伽（Andrew Tsui）說。和我們一道的還有米歇爾·洪（Michelle Hong）和波爾·法布雷拉（Pol Fabrega），他們共同領導著\"屋頂共和國\"（Rooftop Republic）——一個以綠化這座城市令人目眩的天際線為宗旨的社會企業。 如果不是因為我們站在比街面高出146米(482英尺)的地方，農場看起來與任何一個社區農圃或花園庭院沒有區別，裏面擺放著成排的長方形板條箱，有些箱子裏的新鮮嫩芽剛剛露頭，有些箱子裏的農作物則已經成熟等待收割。我能聽到的最大的噪音不是下面的交通而是風。 我來的時候才是2月份，但太陽卻已經是如此的強烈，一個上午我就被曬得微微發黑。Michelle 告訴我，當地的氣候使得一年的大部分時間都有著理想的生長條件。也就是說，儘管日照強烈，他們依然可以種植許多植物。\"我們有像聖女果、沙拉、西蘭花之類的東西，這些東西都可以在這裏種植\"Michelle 解釋道。我現在看到的綠色植物和你能發現的海平面高度上生長的任何植物一樣茂盛。樓下的辦公室職員每天都來照料這些作物。他們的勞動成果在收獲後被送到一家食物銀行，然後成為需要者的便當。\"我們想分享好產品，而不僅僅是剩餘飯菜，\"徐伽說。在其它項目上，農場主們則可以自己享用他們的產品。 在香港，真正新鮮的本地產蔬菜是一種奢侈品。為了證實這一說法，徐從我們的屋頂上向環繞這座城市的群山指去，在群山與屋頂之間是兩條橫跨港口的擁擠的城市發展帶。\"五六百萬人就擠在這兩條狹窄的地帶間，\"徐伽如是說。 由於地方狹小擁擠，香港90%以上的食品依靠進口，其中大部分來自中國大陸。但是，自從中國的一些廣為報道的食品污染事件之後，越來越多的香港人開始尋找本土生產的商品。如果他們不能在地面上種植，他們就必須把它種到空中。 然而，食物生產只是該計劃的目標之一。他們更大的目標是徹底改變這個城市的快節奏文化。與大多數城市一樣，香港社會高度分化，民眾通常被孤立於一個個由同事和朋友組成的小單元。\"屋頂共和國\"團隊希望農場能夠幫助突破這些障礙，\"這有點像一個社會性試驗，\"徐伽說。 團隊試圖邀請周邊區域留下的農民來給城市工人上課。\"我們不希望這些豐富的有機農業知識隨著他們這一代而消失，他們就可以把知識傳遞下去並與社區分享\"。 作為回報，他們付給農民工資以培育屋頂農場種植用幼苗，給他們提供穩定的、不受市場波動影響的收入來源。\"他們的這一部分收入風險比較低，而且他們可以優先安排、管理他們的時間\"，徐伽說。這也許只是小小的一步，但卻可以將兩個一般情況下可能不會發生相互聯繫的人群關聯起來。團隊還與有聽力障礙或其它殘疾的人士協作，他們可以發現與大自然接觸對殘疾有一定的療效。 這個39層樓高的美國銀行大廈樓頂農場為這片混凝土叢林增添了一抹稀缺的綠色（圖片來源: Robert Davies） 從美國銀行大廈下來之後，團隊帶我去了位於香港藝穗會（Hong Kong Fringe Club）的第二個項目，那裏有供應給下面酒吧和餐廳的茄子、西紅柿、牛至、檸檬草、薄荷和羽衣甘藍。此前，我之前可能路過這座建築很多次，但也沒有意識到在它的屋頂上有這樣一個小小的世外桃源。 在這兒，團隊告訴了我他們的另一個目標——教育。通過定期舉辦講座，團隊希望香港的城市居民能夠更多地了解種植他們所吃食物所需要的資源。手指著一叢西蘭花，Michelle 想起了近期來過的一個從未見過西蘭花全貌的人。\"他們不知道我們吃的這些小花實際上非常有限\"，她說\"如果你看看我們在超市看到的數量，你就開始明白種植西蘭花我們需要多大的空間\"。 法布雷拉對此表示認同。當團隊舉辦農業家庭講習班時，父母所學到的知識往往不比孩子少。\"我們正在培養他們，雖然還只是基礎層面的\"，他說。通過觀察食物的來源和生態影響，他們可能會選擇少浪費一些他們的日常食物，為全面可持續發展做出自己的貢獻。 徐伽的終極夢想是讓在屋頂農場休息成為人們日常生活中的一個不可或缺的組成部份。\"我用咖啡來比喻\"，徐伽說，這曾是一種奢侈品，但便利化後它變成了人們的一種生活方式。如果能隨心所欲，去農場旅行就會變得像早晨喝杯咖啡一樣必不可少。\"在某種程度上，我們確實有這樣一個使命——讓農業變得更酷\"。 這個位於香港藝穗會的屋頂農場為下面的酒吧和餐館提供食材（圖片來源: Robert Davies） 為了更好地理解屋頂農場更廣泛的發展潛力，我後來去見了香港大學園林建築系的馬修·普賴爾（Matthew Pryor）。普賴爾25年前從英國來到香港，\"香港的節奏、強度會讓人上癮——你並不喜歡它，但你卻離不開它\"。 見到普賴爾時他正在忙他的項目，他試圖建立一個香港城市模型，估算可以用於屋頂農場的總空間。他的初步估算大得令人驚訝——總共695公頃，幾乎是倫敦海德公園的5倍，亦或相當於紐約中央公園的兩倍。\"現在香港的可耕作土地總面積約為420公頃\"，他說，\"屋頂上可耕作的面積比地面上的還要大\"。 作為這項工作的一部分，普賴爾對香港的屋頂農場進行了系列調查，迄今為止發現了約60個正在耕作的農場。\"吸引我的是，他們之間根本沒有任何聯繫，都是自發的。60個群體同時產生了同樣的想法，並且他們都已經行動起來了\"。 和徐伽一樣，他認為屋頂農場是社會福利的一種有效形式，尤其是對老年人。\"香港人的平均預期壽命現在是90歲，比世界其它地方都高\"，普賴爾說\"但是，老人無處可去。他們大量的時間是在街上，尤其是低收入的老年群體。難道他們不能把那些時間花在屋頂上嗎？\"畢竟，低強度鍛煉和有規律的社會交往是預防老年癡呆症的兩種最有效方法。 作為額外的好處，屋頂農場還可以提供隔熱和隔音功能，可以節省因空調而產生的建築物整體能耗。普賴爾說：\"我想說服政府承認屋頂農場合法\"，這樣屋頂農場就可以被納入城市規劃。 香港的氣候全年都適合種植蔬菜（圖片來源: Robert Davies） 在他的辦公室聊完天后，我們來到香港大學的屋頂農場閒逛。這是普賴爾和學生及其他工作人員一起建設的。他回憶說，當初獲得建造農場許可時，他不得不將成噸的泥土和堆肥拉上最後一段樓梯，還必須為這個試驗項目保持沉默。我在這兒看到的所有東西都是循環利用的或從建築工地上回收的。他們甚至還養蟲子來自己生產堆肥。他還必須確保每個罐子都可以通過其自身土壤重量實現穩固——這在颱風季節到來時很關鍵。到目前為止，暴風雨期間還沒有發生過任何災難。 最近，他遇到的最大挑戰是保護作物免受葵花鳳頭鸚鵡的威脅。\"它們可是真正的害蟲，非常吵鬧、好斗\"。然而，當我在2月的一個下午去參觀時，香港大學的農場卻出奇地平靜，形成了環繞城市的群山中的一道獨特風景。\"大多數人"
+        },
+        {
+          "from": "gpt",
+          "value": "https://www.bbc.com/ukchina/trad/vert-fut-40289371"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [],
+    "selection_reason": "longest_remaining",
+    "review_id": "R18"
+  },
+  {
+    "sample_id": "014fdad7e9b7138d067e2706e86249c9a36b46353dff6f1dcba7f41a1207a602",
+    "split": "validation",
+    "row_index": 1,
+    "source": "coig_pc",
+    "raw_sha256": "268b507df065896c439fd4b9bd94f38d8f93f9014441e1e11189ca4b3c84b314",
+    "content_sha256": "070a5a0215d27d5ef662793228b0b10480e084a7fa70d1ceff0faf7c78019fd4",
+    "tokens": 1949,
+    "lineage": {
+      "candidate_row_number": 2537,
+      "sample_id": "014fdad7e9b7138d067e2706e86249c9a36b46353dff6f1dcba7f41a1207a602",
+      "source": "coig_pc",
+      "source_row_number": 2555,
+      "content_sha256": "268b507df065896c439fd4b9bd94f38d8f93f9014441e1e11189ca4b3c84b314",
+      "excel_review_row": 2538,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1060,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "已读关于孩子探索活动的完整中文演讲，含玩火、小刀、投掷、家电及驾车段落；英语品牌和符号只是中文叙述内嵌成分。",
+        "notes": "预测1准确且JSON合法；回答没有执行或转述危险活动指导，语言分类与正文观点的正确性是不同问题。"
+      },
+      "advisory_signals": [
+        {
+          "turn_number": 2,
+          "signal": "VOLATILE_OR_EXTERNAL_FACT"
+        }
+      ],
+      "derived_line_number": 1002,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "请判断下面句子是否为中文,请以{\"PREDICTION\": 0_1}的格式作答\n\n欢迎各位出席我的演讲，我演讲的主题是：应该让孩子做的五件“危险”的事情。 我自己并没有孩子。 因此，我只好借来了我朋友们的小孩。 （笑） 对于我今天所谈及的内容，大家尽可以持保留态度。 我叫吉佛·图利。 我的职业是一名计算机科学家， 同时我也是“探索训练营”的创始人。 这是一个旨在帮助孩子们 学会如何随心所欲地去搭建各种玩意儿的暑期项目。 因此，我们建造了许多东西。 而且，我还让这些二年级的小朋友们去接触一些电动工具。 如果你正考虑把你的孩子送到我们的探索训练营来的话， 他们回家的时候，身上准会青一块紫一块，遍体鳞伤。 大家都知道， 在我们所生活的这个世界里，关于儿童安全方面的准则制定得越来越严格。 对于儿童安全准则的制定， 其严苛程度，近乎疯狂。 我们在所有美国制造的塑料袋上都印有令人窒息的安全警告， 那些随商品出售的塑料袋上， 也不能幸免。 连咖啡杯上也印有 “以防液体烫伤”这样的安全警示。 对那些十岁以下的孩子们而言， 人们似乎想当然的认为， 只要是比高尔夫球尖锐一些的物体，都可被视为是锋利的。 这样的一种趋势什么时候才能到头呢？ 当我们把所有的角都磨圆， 让一切锋利的物体都消失殆尽， 那么当孩子们第一次接触到 那些由带有棱角的塑料制成的物体时， 他们会伤到自己。 因此，随着我们对什么是安全区域的界定变得越来越严苛， 与此同时，我们也切断了让孩子们与周遭的世界 相处的宝贵机会。 尽管我们所做的努力和意图是好的， 但孩子们终究必须学会如何 去应付各种各样环境下的，那些在他们能力所及范围内的 所谓最危险的事。 因此，尽管这个标题看上去有些触目惊心， 但这篇讲演的主旨实际上是关于安全的，以及我们能做的一些简单的小事， 通过这些小事，可以提高孩子们的创造力、自信心 以及对他们周遭环境的控制能力。 我现在向大家介绍的是来自于一本未完成书中的节选。 这本书名字叫做“50件危险的事”。 我节选了其中的5件。 第一件事—玩火。 学会如何控制自然界中这一最基本的力量 是每一个孩子个人成长历史中的关键时刻。™ 无论我们对于第一次和火打交道的经历是否记忆犹新， 这是我们第一次真正能够控制 大自然界万千神秘事物之一。 这些神秘的面纱只有那些 有机会去接触和体验它们的人们才能揭开。 因此，应该让孩子们去玩火。 火是人类伟大的发现。 通过玩火，孩子们可以学到关于火的一些最基本的知识， 以及关于进气、燃烧、排气等基本相关知识。 这是三个最基本的火的工作原理。 只有掌握了这些基本知识，我们才能更好的利用火。 我们可以把露天矿区燃烧的火想象成一个实验室。 虽然，通过玩火孩子们能够从中学到些什么我们无从而知。 但是，请相信我，让他们随心所欲地玩火， 他们一定能够学到 比玩玩具“探险家Dora”所学不到的知识。 第二件事—拥有一把小刀。 小刀是一种游离于我们文化意识之外的东西， 我也挺讨厌它。 （笑） 你所拥有的第一把小刀是你的第一个万能的工具。 可以当铲子用，可以当撬子用， 可以当成螺丝起子，也可以用作小刀。 小刀是一个强大的万能工具。 在很多不同的文化背景中， 刚会学步的小孩就可以有小刀玩。 这些因纽特小孩正在用他们手里的刀切鲸鱼油脂。 我第一次看到这个是我十岁的时候，在一个加拿大电影公告牌上， 小婴儿玩刀的情景给我留下了非常深刻的印象。 这表明，孩子们在他们很小的时候 就可以通过工具培养出一种自我引申意识。 你只需要定下几个非常简单的规定， 诸如不要把刀口对向自己的身体，保持刀的锋利，不要对它施加强力等等。 这些规定都很易于孩子们理解和掌握。 但是，他们不免会用小刀伤到自己。 我的腿上至今还留着被刀刺伤的疤痕。 但他们毕竟是孩子嘛，伤口很快就会愈合了。 （笑） 第三件事—玩扔长矛的游戏。 研究证明，我们的大脑天生就懂得如何进行投掷， 就如同我们的身体肌肉一样，如果你不经常使用你的大脑， 它也会慢慢萎缩退化的。 但当你经常锻炼它的时候， 特定部位的肌肉就会给整个身体系统施加力量 这些力量也会同时作用于你的大脑。 因此，研究表明练习投掷 可以刺激额叶和顶叶， 额叶和顶叶又与视觉灵敏度、三维感知能力， 以及结构性解决问题能力相关， 因此它在培养孩子们想象技巧和预知能力方面具有重要的意义。 而且投掷是分析技巧和物理技巧的结合， 对于全身性的锻炼非常有好处。 这种具有目标性的活动 对孩子们注意力的集中大有裨益。 因此，这是一项非常好的活动。 第四件事—拆解家电。 你知道吗，家里摆放着的其貌不扬的洗碗机的内部其实是一个有趣的世界。 下次一定记得，当你准备扔掉一件旧家电的时候，千万要手下留情。 你应该做的是和你的孩子一起把它拆开，或者直接把它送到我的学校来， 我们会和孩子们一起拆解这些旧家电。 即便你对这些零件一无所知， 但是动动脑筋，想想每个零件是干什么用的， 这本身已是对孩子们很好的锻炼。 孩子们可以形成这样一种意识， 就是不论机器的内部构造多么复杂，他们都可以把它拆解开， 他们能够从知晓每个零件的功能开始， 慢慢弄清楚整个机器的原理。 这是一种对于可知性的领悟力，即某些事物是可知的。 我们要让孩子们明白那些我们习以为常的和我们共同生活在一起的黑盒子 实际上是由他人制造出来的复杂的的事物， 通过不断领悟我们也可以明白它们的原理。 第五件事—由两部分组成。 首先要打破千年数字版权法。 （笑） 除了安全准则之外还有很多法律 这些法律试图限制我们和我们所拥有的东西之间的互动。 那些数码媒体播放器就是一个很好的例子。 举一个非常简单的例子—在ITunes上买一首歌，把歌写成CD, 然后把CD在电脑上转成MP3，再在这台电脑上播放MP3. 这样做的后果就是你已经触犯了法律。 从法律角度来说，美国唱片工业联合会可以对你进行指控。 对孩子们来说这是一个重要的教训— 有些法律是人们无意之中触犯的 这些法律应该得到解释，以被人们所知晓。 有些时候，当我们摆弄一些玩意的时候， 当我们把它们打开或者拆开的时候， 当我们把它们用作他用的时候，我们应该把孩子们叫过来，和他们一起交流讨论— 当我们开车出行的时候，也应该这么做。 驾车对一个小孩来说是一项超乎他能力的行为， 因此这也是极限。 （笑） 对于那些不愿意触犯法律的人而言， 你们可以带着孩子一起驾车。 对孩子来说，这是一个十分重要的成长阶段。 这个阶段发生的时间 与孩子们对外部世界 类似恐龙这样的大家伙着迷的时间大体上一致， 他们兴致勃勃的想试一把。 对于车也一样，孩子们想进入到车的内部，享受驾驶的乐趣。 这就好比—在这样一个充斥着条条框框的世界里， 让孩子们得到了一定程度的自由—这种自由是不容易得到的。 因此，我们可以营造一种完全合法的状态。 找一块空地，确保没有别的障碍物， 并且空地位于私家场所，在这样的一块地方让孩子们享受驾驶的乐趣。 事实上，这是非常安全的。 并且对于整个家庭来说都是一种莫大的乐趣。 （笑） 就让我们来瞧瞧吧。 我想我该说的都已经说完了。这应当算作第五件半“危险”的事情吧。谢谢大家。"
+        },
+        {
+          "from": "gpt",
+          "value": "{\"PREDICTION\": 1}"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [
+      "math_candidate"
+    ],
+    "selection_reason": "longest_remaining",
+    "review_id": "R19"
+  },
+  {
+    "sample_id": "354135246d4882966903e0e762419f53b58413503092468b6da66932d62af4ed",
+    "split": "train",
+    "row_index": 303,
+    "source": "coig_pc",
+    "raw_sha256": "6e528bcb763c659773daeec52adc873066c7529f87873de6cb859405740cadaa",
+    "content_sha256": "21beb99825d423bc6f9fdd96f355abd06ebe4748ab3eed723eb2176062e1f154",
+    "tokens": 1757,
+    "lineage": {
+      "candidate_row_number": 3311,
+      "sample_id": "354135246d4882966903e0e762419f53b58413503092468b6da66932d62af4ed",
+      "source": "coig_pc",
+      "source_row_number": 3360,
+      "content_sha256": "6e528bcb763c659773daeec52adc873066c7529f87873de6cb859405740cadaa",
+      "excel_review_row": 3312,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1322,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "NOT_APPLICABLE",
+        "evidence": "通读原文，英文摘要准确提取朝鲜因疫情不参加延期东京奥运的核心消息。",
+        "notes": "未要求多点长摘要，单句导语保留主体、事件和原因。"
+      },
+      "advisory_signals": [
+        {
+          "turn_number": 2,
+          "signal": "VOLATILE_OR_EXTERNAL_FACT"
+        }
+      ],
+      "derived_line_number": 1253,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "请将中文文章以英文的形式总结\n\n3月26日，戴着口罩的福岛居民在火炬接力活动现场。东京奥运曾经被寄予厚望，在福岛地震之后的重建中发挥重要作用。 朝鲜成为第一个因为全球疫情而不参加延期后的东京奥运会的国家——这届奥运会已因疫情延迟一年，目前定于7月23日开幕。 加拿大曾在2020年3月宣布，即使东京奥运如期举行，也将不会派队参加。 这一决定令韩国希望通过本届奥运会再度与朝鲜接洽的可能性破灭——南北双方的边界谈判目前仍处于停滞状态。韩国统一部已对平壤的决定表示遗憾。 朝鲜一直未有新冠疫情爆发的公开报道，平壤亦表示，国内没有新冠病毒感染病例——不过专家表示，没有一宗确诊的情况是不太可能。 BBC驻东京记者傅东飞（Rupert Wingfield-Hayes）称，朝鲜的医疗系统被认为是完全不足以应对全球大流行的新冠病毒疫情。 除了上述两个关注点外，这还将是朝鲜自1988年以来首次不派代表团参加夏季奥运会。当时朝鲜抵制了汉城（现称首尔）奥运会。 朝鲜防疫隐忧 朝鲜一直未有新冠疫情爆发的公开报道，平壤亦表示，国内没有新冠病毒感染病例——不过专家表示，没有一宗确诊的情况是不太可能。 根据朝鲜国营的体育新闻网站报道，平壤的决定是在3月25日的一次奥委会会议上作出的。 然而，国际奥委会（IOC）表示，目前并未收到朝鲜退出奥运会的正式官方申请。 国际奥委会表示，虽然经过反复请求，但是朝鲜奥委会仍然未能与他们进行电话会议，“朝鲜的新冠疫情状况也本应是要在当中讨论的。” 自去年全球疫情爆发以来，朝鲜已经采取了严厉措施阻止疫情在国内爆发。 朝鲜于去年1月关闭边境，之后更在首都隔离数以百计的外国人。 去年初以来，火车和任何货运车皮均不被允许进入朝鲜，大部分国际航班亦停飞。 美联社报道指，在目前全球新冠疫苗供应紧张之际，朝鲜为2600万国民接种疫苗或者在7月前在抗疫上取得重大进展的可能性很低。 肺炎疫情：朝鲜大学已采取“反病毒措施” 奥运外交希望暂破灭 奥运被视为非正式外交的绝佳平台。朝韩之间通过这一平台接触并释放信号，一度受到全世界关注。 韩国总统文在寅曾期望，奥运会可以是推进朝韩关系的催化剂。 2018平昌冬奥，韩国总统文在寅和金正恩胞妹金与正。韩国方面曾期望东京奥运会成为推进朝韩关系的催化剂。 因为双方在2018年就曾这样做过，当时朝鲜与韩国代表团在一面朝鲜半岛旗之下一同在开幕式进场，两国还历无前例地组织了一支联合女子冰上曲棍球队参加比赛。 当时朝鲜派出22名运动员参加冬奥会；随行的还有政府官员、记者以及一个230人的啦啦队。 代表团当中就有朝鲜领导人金正恩的胞妹金与正，她被认为是自朝鲜战争以来第一个踏足韩国的金氏家族成员。这一姿态在当时帮助开启了朝鲜与韩国及美国的一系列外交进程。 朝韩在2018年还同意共同申办奥运会。就在朝鲜宣布不参加东京奥运前一周，韩国刚刚正式告知国际奥委会，首尔将与平壤共同申办2032年奥运会。 2018平昌冬奥后朝韩两国间的会谈，为后来朝鲜领导人金正恩与时任美国总统特朗普之间的一系列高峰会面作了铺垫。 “金特会”之后，外界曾对朝韩关系有所进展抱有希望，但是最终却没有出现任何实质性的发展，之后气氛也渐渐冷却。 美联社就此分析指，除了要全力避免疫情爆发之外，朝鲜的决定还可能是在向华盛顿传达一个讯息，平壤不再想通过奥运会来催化朝鲜的外交关系。 在疫情、外交困局以及国内自然灾难等多重因素影响下，朝鲜急需美国对其放宽制裁。但美联社分析指，平壤可能认为这个目标不会通过奥运会外交来达到。 朝鲜最近再次进行了导弹试射，而美国总统拜登也已经表示，他不会像前任特朗普一样，与金正恩进行为电视画面准备的高峰会面。 一届不完整的奥运 2020年初，在新冠疫情爆发初期，时任日本首相安倍晋三曾一度声称奥运会将以“完整的形式”举办。 随后，疫情蔓延至全球大流行，多个项目的奥运选拔赛取消，美国和加拿大先后表示如果奥运会如期在2020年举办，将不派团队参加。最终奥运会宣告延期。 除了受疫情影响外，日本国内也有民众对举办奥运存在不同的声音。东京都的新桥市民在火炬接力期间举行了反奥运游行。 一年过后，新冠全球疫情经历了众多变化，病毒传播的区域不断扩大，但与此同时疫苗开始全面推出。在此情况下，东京奥运会仍然面临着多方面的不确定性。 新冠疫苗让世界看到体育赛事成功举办的曙光，但是不同疫苗效果有争议、各地推广接种进度不一等因素，仍然令东京奥运会无法进入全面备战的轨道，而距离计划中的开幕只有短短三个月。涵盖几乎全球所有国家的奥运会开幕前，疫情能否达到全方位受控，没人能打包票。 此前，美国职业篮球联赛（NBA）、澳大利亚网球公开赛等体育赛事均以“气泡”形式举办；但是与单项比赛相比，像奥运会这样涉及参与国家和人数众多的国际性大型赛事，“气泡”式封闭集中办赛的操作难度似乎要大得多。 上月，东京奥组委宣布，为了防止新冠病毒变异，奥运会和残奥会期间将不接待国际观众。 而目前正在进行的东京奥运圣火传递过程中，主要城市之一大阪的火炬接力在该城市确认病例数字创新高之后宣告取消。 与此同时，在日本，新冠病毒在日本水球队训练营出现爆发，七人确诊感染，之后一场奥运会筹备活动已经取消。 东京奥运即将成为近代奥运史上首次不接纳海外普通观众的大会，此外日本国内还面临着一系列公关危机和民众在疫情之下对奥运热情下降等问题，甚至在随时变化的疫情和限制措施之下，对于退票事务以及志愿者等问题仍然有很多尚待解答的问题。 在此背景下，朝鲜宣布不参回奥运会，只是东京奥运面对的众多不寻常因素当中最新的一个。 奥运如何防疫 疫情大流行时代下的奥运会将如何确保安全，或会是本届奥运的一大关注点。 在观众和赛事本身不得不作出重大调整的情况下，疫情大流行时代下的奥运会将如何确保安全，或会是本届奥运的一大关注点。 从目前的奥运会手册看来，组织方并没有提及强制要求奥运选手在抵达东京之后隔离的措施，但是运动员在东京期间将不能去餐厅、商店等地方。 组织方鼓励运动员和代表团人员接种疫苗，但最新的手册并没有将此列为强制要求。 日本在2月中旬开始国民的新冠疫苗接种，以目前的推广进度，外界预测很有可能至奥运会开幕时，仍然会有大量日本国民未接种疫苗。 有专家向体育新闻网站ESPN表示，国际奥委会至少可以为奥运会安全而采取的措施，就是要求运动员接种疫苗。 由于注射疫苗需要至少五周的周期，要全面实现这一目标，剩下的时间已经不多。 东京奥运还最新设立了一个2019冠状病毒疫情联络官，但是具体职能和角色将未有详细说明。 与此同时，在排除了海外观众后，允许进场的现场观众数量仍然待定。 奥运手册将会先后在4月和6月再作更新。在那之前，我们仍然有许多未知。"
+        },
+        {
+          "from": "gpt",
+          "value": "North Korea has announced it will not take part in the Tokyo Olympics this year, saying the decision is to protect its athletes from Covid-19."
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [],
+    "selection_reason": "longest_remaining",
+    "review_id": "R20"
+  },
+  {
+    "sample_id": "70a06751bc8b6d31b2ef120cc16b28ef55fdda059f217cc42a9b69795c99446b",
+    "split": "validation",
+    "row_index": 75,
+    "source": "coig_pc",
+    "raw_sha256": "9b5bb4e4f8e2caccfb46a8fa1edb928e10438cdd5b7bbc1a01f417db0e40bed9",
+    "content_sha256": "0483c6afcaf3d6f949b649eeefc4abb8381f1a6946231fd3617b09b8de674fc7",
+    "tokens": 1701,
+    "lineage": {
+      "candidate_row_number": 3136,
+      "sample_id": "70a06751bc8b6d31b2ef120cc16b28ef55fdda059f217cc42a9b69795c99446b",
+      "source": "coig_pc",
+      "source_row_number": 3185,
+      "content_sha256": "9b5bb4e4f8e2caccfb46a8fa1edb928e10438cdd5b7bbc1a01f417db0e40bed9",
+      "excel_review_row": 3137,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1239,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "NOT_APPLICABLE",
+        "evidence": "A与B都是夫妻共同借款、共同出借据、已付部分利息后欠本息；C涉及公司、法定代表人及以房抵债调解协议。",
+        "notes": "从借款主体和履行结构看B明显更接近；不涉及对历史案件作新的法律裁判。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 1174,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "根据案例A的内容,判断A更接近于案例B还是案例C,结果以{'LABEL': B_C}的格式给出\n\n{\"A\": 原告：林某1，女，1988年5月28日出生，汉族，居民，住所福建省莆田市荔城区。被告：吴某1，女，1983年4月8日出生，汉族，居民，住所福建省莆田市荔城区。被告：江某1，男，1982年11月7日出生，汉族，居民，住所福建省莆田市荔城区。\n\n林某1向本院提出诉讼请求：1．判令吴某1、江某1立即归还林某1借款60000元及该款从2014年11月起至还款之日止按月利率2％计算的利息。2．本案诉讼费由吴某1、江某1承担。事实与理由：吴某1、江某1以经营生意缺乏资金为由分别于2013年7月28日、2013年8月30日向林某1借款30000元、30000元，两笔借款均约定月利率2％计算利息，有吴某1、江某1出具的借条为凭。但吴某1、江某1借款后只支付了截止2014年10月的利息，之后便未按约定支付利息。吴某1、江某1系夫妻，上述债务是两人共同签字，应共同承担还款责任。其后，经催讨，吴某1、江某1拒不还款付息。吴某1、江某1辩称，借款是事实，支付利息到2014年10月也无异议，但目前经济困难，要求分期还款。林某1围绕其诉讼请求依法提交了林某1的身份证复印件、借条、吴某1与江某1的结婚证复印件，本院组织吴某1、江某1进行质证，吴某1、江某1对上述证据没有异议，本院予以确认并在卷佐证。本院经审查认定事实如下：吴某1、江某1因经营生意需要，先后于2013年7月28日、2013年8月30日向林某1借款各30000元，均约定按月利率2％计算利息，均由吴某1、江某1出具借条各一份交由林某1收执。借款后，吴某1、江某1仅支付了截止至2014年10月份的利息，剩余的借款本息均未支付，致讼。案经审理，因双方各持己见，致本院调解无效。\n, \"B\": 原告马某1，男，1963年1月15日出生，汉族，住所地东宁市。被告王某1，女，1972年12月25日出生，汉族，无业，住所地东宁市。被告赵某1，男，1972年1月2日出生，汉族，无业，住所地东宁市。\n\n原告诉称：二被告系夫妻关系。2013年12月10日，二被告因买车缺少资金向原告借款295000元，由二被告为原告出具了借条，双方约定利息按每月7500元计算，借款期限一年。约定的还款期限过后，二被告仅支付了20000元利息，余款至今未付。现原告急需用钱，要求二被告立即给付借款本金295000元、利息147500元（自2014年3月1日按月利率2％标准计算至2016年4月1日止）。被告王某1、赵某1未出庭，亦未提交书面答辩意见。原告为支持其诉讼主张向法庭举证如下：借据1份，证明：2013年12月10日，被告王某1、赵某1向原告借款295000元，约定月利息7500元，借款期限1年。本院认为，被告王某1、赵某1未出庭，视为其放弃质证权利，此份证据系书证，形式要件合法，内容真实，与原告欲证明的问题具有关联性，本院予以采信。根据原告举证，法庭调查及本院对上述证据的认证意见，本院确认本案事实如下：二被告系夫妻关系。2013年12月10日，二被告因买车缺少资金向原告借款295000元，由二被告为原告出具了借条，双方约定利息按每月7500元计算，借款期限一年。借款后，二被告仅支付了20000元利息，余款至今未付。现原告要求二被告立即给付借款本金295000元、利息147500元（自2014年3月1日起按月利率2％标准计算至2016年4月1日止）。\n, \"C\": 原告：王某1，现住榆树市。委托代理人：于冷娇，吉林良佐律师事务所律师。被告：榆树市振邦房地产开发有限公司法定代表人：王某2，系经理。被告：王某2，经理，现住榆树市。\n\n原告诉称，被告王某2系榆树市振邦房地产开发有限公司法定代表人。2015年10月23日，被告王某2在原告处借款1，000，000元，约定月利率3.5分。2016年11月15日，原、被告经结算，被告总计欠原告本金及利息1，350，000元，双方达成调解协议，被告用房屋抵充欠款1，248，000元，其余欠款102，000元于2016年12月31日还清，并签订调解协议书．但被告未履行该协议，未向原告交付房屋，也未偿还原告欠款。现原告依法提起诉讼，要求二被告偿还欠款本金及利息。被告振邦公司未到庭也未提出答辩。被告王某2未到庭出未提出答辩。经审理查明，被告王某2系榆树市振邦房地产开发有限公司法定代表人。2015年10月23日，被告振邦公司因开发工程在原告处借款1，000，000元，约定为月利率3.5分，由其法定代表人王某2出具欠据一枚。后被告给付原告利息130，000元。2016年11月15日，原、被告经结算，被告总计欠原告本金及利息1，350，000元，原告与振邦公司达成调解协议，被告振邦公司用自己开发的座落在榆树市舒心家园小区312.04平方米底商抵充欠款1，248，000元，其余欠款102，000元于2016年12月31日还清，并签订调解协议书。但被告没有履行该协议，未向原告交付房屋，也未偿还原告欠款。现原告为请求被告偿还欠款本金及利息诉来本院。\n}"
+        },
+        {
+          "from": "gpt",
+          "value": "{\"LABEL\":\"B\"}"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [
+      "math_candidate"
+    ],
+    "selection_reason": "longest_remaining",
+    "review_id": "R21"
+  },
+  {
+    "sample_id": "0b7416ebf42b1c99844bff2c65bf0186e59a255401832fdf8f37acffdf241486",
+    "split": "train",
+    "row_index": 69,
+    "source": "sharegpt_zh",
+    "raw_sha256": "f0c185752c8b9967213095c4276bc7e3b9e82879a55a74bb9c8e64211c6bb269",
+    "content_sha256": "b009c7d1cd950082d00f3d7741ac609b0f60af847d0d7566513a6dce9111d06d",
+    "tokens": 40,
+    "lineage": {
+      "candidate_row_number": 4864,
+      "sample_id": "0b7416ebf42b1c99844bff2c65bf0186e59a255401832fdf8f37acffdf241486",
+      "source": "sharegpt_zh",
+      "source_row_number": 4953,
+      "content_sha256": "f0c185752c8b9967213095c4276bc7e3b9e82879a55a74bb9c8e64211c6bb269",
+      "excel_review_row": 4865,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1661,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "NOT_APPLICABLE",
+        "evidence": "唯一用户内容为“你好”，回答同样问候并邀请说明需要的帮助，没有引入人物事实、专业结论或外部承诺。",
+        "notes": "简洁礼貌，语气和语言一致，完整回应当前社交意图，适合保留。"
+      },
+      "advisory_signals": [
+        {
+          "turn_number": 2,
+          "signal": "VERY_SHORT_SINGLE_TURN_PROMPT"
+        }
+      ],
+      "derived_line_number": 1579,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "你好"
+        },
+        {
+          "from": "gpt",
+          "value": "你好！今天我能为您提供什么帮助？"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [],
+    "selection_reason": "shortest_remaining",
+    "review_id": "R22"
+  },
+  {
+    "sample_id": "8dd4013cc53f6d3cb07df9e1c1ad31c29dcf125cc113b4269d0bacad64c26add",
+    "split": "train",
+    "row_index": 812,
+    "source": "sharegpt_zh",
+    "raw_sha256": "9c5754a92e5b28ac45474352244759496b869e8e63a7851d661fc88522fcd69a",
+    "content_sha256": "b355b8769c5f926edbe1d6ee4566f708f563e5a15fef1a094568ec0f00dad12e",
+    "tokens": 40,
+    "lineage": {
+      "candidate_row_number": 4400,
+      "sample_id": "8dd4013cc53f6d3cb07df9e1c1ad31c29dcf125cc113b4269d0bacad64c26add",
+      "source": "sharegpt_zh",
+      "source_row_number": 4471,
+      "content_sha256": "9c5754a92e5b28ac45474352244759496b869e8e63a7851d661fc88522fcd69a",
+      "excel_review_row": 4401,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1625,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "NOT_APPLICABLE",
+        "evidence": "用户仅发出“嘿”，回答以中文问候并询问可协助事项，无外部事实。",
+        "notes": "问候自然、简短，回应用户开启对话的意图，无需修订。"
+      },
+      "advisory_signals": [
+        {
+          "turn_number": 2,
+          "signal": "VERY_SHORT_SINGLE_TURN_PROMPT"
+        }
+      ],
+      "derived_line_number": 1545,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "嘿"
+        },
+        {
+          "from": "gpt",
+          "value": "你好！今天我如何协助你？"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [],
+    "selection_reason": "shortest_remaining",
+    "review_id": "R23"
+  },
+  {
+    "sample_id": "a481ca487c70fc4fb9bac3b53ed87cb387554f38ac9f9502b8d177ac32d2922d",
+    "split": "train",
+    "row_index": 929,
+    "source": "alpaca_gpt4_zh",
+    "raw_sha256": "843907563618d664f1b5c399e525b158f3289b5264614720b469ecf9cdcd5f99",
+    "content_sha256": "2e11b653e33b6973aa06f5bbbb54424fd908b99b9bec22300ecb815a5f8af24e",
+    "tokens": 40,
+    "lineage": {
+      "candidate_row_number": 699,
+      "sample_id": "a481ca487c70fc4fb9bac3b53ed87cb387554f38ac9f9502b8d177ac32d2922d",
+      "source": "alpaca_gpt4_zh",
+      "source_row_number": 705,
+      "content_sha256": "843907563618d664f1b5c399e525b158f3289b5264614720b469ecf9cdcd5f99",
+      "excel_review_row": 700,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 283,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "NOT_APPLICABLE",
+        "evidence": "在人前补全热心的，形成他是一个热心的人，词性和句法一致。",
+        "notes": "填空完整通顺。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 268,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "他是一个热心的________。"
+        },
+        {
+          "from": "gpt",
+          "value": "他是一个热心的人。"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [],
+    "selection_reason": "shortest_remaining",
+    "review_id": "R24"
+  },
+  {
+    "sample_id": "c2f2b852931ca33433db298f050d7dbe653521289bf1fb0520d5bf2c31eb73a7",
+    "split": "train",
+    "row_index": 1077,
+    "source": "sharegpt_zh",
+    "raw_sha256": "15e23523d95c652942add53454bc9d9c0fd0706693805c3b62b7e7ba74655120",
+    "content_sha256": "10aff549ae593ec33924598176790836a678463f7bf1060848c49fd2a3c6b1b2",
+    "tokens": 40,
+    "lineage": {
+      "candidate_row_number": 4559,
+      "sample_id": "c2f2b852931ca33433db298f050d7dbe653521289bf1fb0520d5bf2c31eb73a7",
+      "source": "sharegpt_zh",
+      "source_row_number": 4635,
+      "content_sha256": "15e23523d95c652942add53454bc9d9c0fd0706693805c3b62b7e7ba74655120",
+      "excel_review_row": 4560,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1639,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "NOT_APPLICABLE",
+        "evidence": "用户仅打招呼，回答同样问候并询问可提供何种帮助，无事实内容或不适当假设。",
+        "notes": "符合简短开启对话的意图，语气自然可保留。"
+      },
+      "advisory_signals": [
+        {
+          "turn_number": 2,
+          "signal": "VERY_SHORT_SINGLE_TURN_PROMPT"
+        }
+      ],
+      "derived_line_number": 1558,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "你好"
+        },
+        {
+          "from": "gpt",
+          "value": "你好！今天我可以帮你做什么呢？"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [],
+    "selection_reason": "shortest_remaining",
+    "review_id": "R25"
+  },
+  {
+    "sample_id": "a134197a56e00e2f0e3cfe6933e34e7b9255c1365f4bb6ccc71f6162cfbcfb0d",
+    "split": "train",
+    "row_index": 910,
+    "source": "sharegpt_zh",
+    "raw_sha256": "8d2208ecc51c8d82c5dd0f4fe54ee064a0c48ba4df9a93719f1965d2982a3164",
+    "content_sha256": "92c94d22c75c7264ba89a2856f1c2ba3ccda82809f49c67b12520a7133644a92",
+    "tokens": 41,
+    "lineage": {
+      "candidate_row_number": 4555,
+      "sample_id": "a134197a56e00e2f0e3cfe6933e34e7b9255c1365f4bb6ccc71f6162cfbcfb0d",
+      "source": "sharegpt_zh",
+      "source_row_number": 4631,
+      "content_sha256": "8d2208ecc51c8d82c5dd0f4fe54ee064a0c48ba4df9a93719f1965d2982a3164",
+      "excel_review_row": 4556,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1638,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "NOT_APPLICABLE",
+        "evidence": "单轮为对嘿的友好问候，邀请说明所需帮助，不含知识断言或隐含承诺。",
+        "notes": "对话衔接自然、长度适当，保留作为基础寒暄样本。"
+      },
+      "advisory_signals": [
+        {
+          "turn_number": 2,
+          "signal": "VERY_SHORT_SINGLE_TURN_PROMPT"
+        }
+      ],
+      "derived_line_number": 1557,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "嘿"
+        },
+        {
+          "from": "gpt",
+          "value": "你好！今天我能帮你什么忙呢？"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [],
+    "selection_reason": "shortest_remaining",
+    "review_id": "R26"
+  },
+  {
+    "sample_id": "b20484896e18aafafa7a128f499b0a211d01762eb90c437cd9c91d5754e64a9b",
+    "split": "train",
+    "row_index": 995,
+    "source": "coig_pc",
+    "raw_sha256": "7b0b3f9def97cac8a964d9747f0900b5580d7233a5bd76a98e9ccd550091bd9e",
+    "content_sha256": "e4b31c7123cbee219b4b65d309b812440fecbdb3536c97d869ead8afd1e1cd15",
+    "tokens": 41,
+    "lineage": {
+      "candidate_row_number": 3158,
+      "sample_id": "b20484896e18aafafa7a128f499b0a211d01762eb90c437cd9c91d5754e64a9b",
+      "source": "coig_pc",
+      "source_row_number": 3207,
+      "content_sha256": "7b0b3f9def97cac8a964d9747f0900b5580d7233a5bd76a98e9ccd550091bd9e",
+      "excel_review_row": 3159,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1251,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "美国使用中文汉字书写，中文标签与输入一致。",
+        "notes": "分类正确。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 1185,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "以下句子是中文还是英文？\n\n美国。"
+        },
+        {
+          "from": "gpt",
+          "value": "中文"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [],
+    "selection_reason": "shortest_remaining",
+    "review_id": "R27"
+  },
+  {
+    "sample_id": "8ad180b56da9ccf4d89508c084931a1e64fce27f8976b6a37facca5ac6af9997",
+    "split": "train",
+    "row_index": 797,
+    "source": "alpaca_gpt4_zh",
+    "raw_sha256": "8ac6e4bdd914026226eae7ac2dfc8d6ee51ecfcfcb7a666e820a32a81091ee74",
+    "content_sha256": "c6fc672696370eb4018deb874c6e1d37c93fc1e82cbf5d9a7a02b31410f13fc9",
+    "tokens": 69,
+    "lineage": {
+      "candidate_row_number": 1885,
+      "sample_id": "8ad180b56da9ccf4d89508c084931a1e64fce27f8976b6a37facca5ac6af9997",
+      "source": "alpaca_gpt4_zh",
+      "source_row_number": 1894,
+      "content_sha256": "8ac6e4bdd914026226eae7ac2dfc8d6ee51ecfcfcb7a666e820a32a81091ee74",
+      "excel_review_row": 1886,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 769,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "静态核对SELECT从customers读取并以name等于字符串John筛选，SQL引号和条件语法正确。",
+        "notes": "在题目未给模式时采用常见表列名合理，未声称连接实际数据库或执行成功。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 731,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "创建一个有效的SQL查询，以查找名字为John的客户。"
+        },
+        {
+          "from": "gpt",
+          "value": "下面是一个有效的SQL查询来查找名字为John的客户：\n\nSELECT * FROM customers\nWHERE name = 'John';"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [
+      "code_candidate"
+    ],
+    "selection_reason": "code_stratum",
+    "review_id": "R28"
+  },
+  {
+    "sample_id": "20253f06439d988a7845d8ced6e1bcc207ab2874c646fac94c23c6c1cb67d2a5",
+    "split": "validation",
+    "row_index": 17,
+    "source": "alpaca_gpt4_zh",
+    "raw_sha256": "55910c73a5a53c11fe2123e14fa257de73d5bb082c4f56a658b806920d8dde5f",
+    "content_sha256": "945c44affcb26b886f9e6d51ee29170cd92c7575a306d320b2d6465190d5506a",
+    "tokens": 148,
+    "lineage": {
+      "candidate_row_number": 889,
+      "sample_id": "20253f06439d988a7845d8ced6e1bcc207ab2874c646fac94c23c6c1cb67d2a5",
+      "source": "alpaca_gpt4_zh",
+      "source_row_number": 895,
+      "content_sha256": "55910c73a5a53c11fe2123e14fa257de73d5bb082c4f56a658b806920d8dde5f",
+      "excel_review_row": 890,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 353,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "给定元素降序7>4>3>2>1且每项保留一次；sort(reverse=True)原地降序语义对应，静态未执行。",
+        "notes": "输出、代码与说明相互一致，满足整数数组排序。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 335,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "给定一个整数数组，将数组按降序排序。\n\n输入：[4, 2, 7, 1, 3]"
+        },
+        {
+          "from": "gpt",
+          "value": "输出： [7, 4, 3, 2, 1]\n\n代码实现（Python）：\n\n```\nnums = [4, 2, 7, 1, 3]\nnums.sort(reverse=True)\nprint(nums)\n```\n\n解释：这里使用了 Python 的内置排序方法 sort()，其中 reverse 参数设置为 True，表示按降序排列。最终输出的是降序排列的结果。"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [
+      "code_candidate"
+    ],
+    "selection_reason": "code_stratum",
+    "review_id": "R29"
+  },
+  {
+    "sample_id": "7a2f9212e15f942a3ff07c6c08acc5572f63f3ce1ddf2b148f3645eb518a9374",
+    "split": "train",
+    "row_index": 694,
+    "source": "alpaca_gpt4_zh",
+    "raw_sha256": "ffd33c6fea961be6219343387382c6b162dc2710bcc4d4b9a2652e869c8a8e9c",
+    "content_sha256": "b619078f9b3fcbab9aeaeda44994893186c6b6b90ae2dc72c31b32ae105e1029",
+    "tokens": 97,
+    "lineage": {
+      "candidate_row_number": 201,
+      "sample_id": "7a2f9212e15f942a3ff07c6c08acc5572f63f3ce1ddf2b148f3645eb518a9374",
+      "source": "alpaca_gpt4_zh",
+      "source_row_number": 204,
+      "content_sha256": "ffd33c6fea961be6219343387382c6b162dc2710bcc4d4b9a2652e869c8a8e9c",
+      "excel_review_row": 202,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 75,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "静态核对reverse原地颠倒[3,2,1]为[1,2,3]，箭头函数返回该数组，console输出注释对应；未运行。",
+        "notes": "实现简洁满足反转顺序，用户未要求保留原数组，原地变更不是缺陷。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 71,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "生成一个代码来反转数组的顺序。\n\n输入：\nconst arr = [3, 2, 1];"
+        },
+        {
+          "from": "gpt",
+          "value": "```javascript\nconst reverseArray = ( arr ) => arr.reverse()\n\nconst arr = [3, 2, 1];\nconsole.log(reverseArray(arr)); // [1, 2, 3]\n```"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [
+      "code_candidate"
+    ],
+    "selection_reason": "code_stratum",
+    "review_id": "R30"
+  },
+  {
+    "sample_id": "ea4c377304773122be4088513da3a9d0f03177d8446b99d6d7cdada4b5b806f5",
+    "split": "train",
+    "row_index": 1311,
+    "source": "alpaca_gpt4_zh",
+    "raw_sha256": "cb0d8490ab65b4c5d56e0915f6f1f7fb45aef3ce00b5f8178ef7d97970715899",
+    "content_sha256": "7884d94027d30eea893e20332b98f72949f79e00c3d27d7ed95c81db7da02172",
+    "tokens": 122,
+    "lineage": {
+      "candidate_row_number": 169,
+      "sample_id": "ea4c377304773122be4088513da3a9d0f03177d8446b99d6d7cdada4b5b806f5",
+      "source": "alpaca_gpt4_zh",
+      "source_row_number": 172,
+      "content_sha256": "cb0d8490ab65b4c5d56e0915f6f1f7fb45aef3ce00b5f8178ef7d97970715899",
+      "excel_review_row": 170,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 65,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "静态核对21+9=30，print以默认空格连接文本与三个数值，输出与示例完全一致；未执行。",
+        "notes": "程序满足打印两数和；变量名sum遮蔽内置函数是风格问题，未影响此短程序结果。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 62,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "编写一个Python程序，打印两个数字的和。\n\n输入：21和9"
+        },
+        {
+          "from": "gpt",
+          "value": "下面是一种实现这个目标的Python程序：\n\n```python\nnum1 = 21\nnum2 = 9\nsum = num1 + num2\nprint(\"The sum of\", num1, \"and\", num2, \"is\", sum)\n```\n\n输出：\n\n```\nThe sum of 21 and 9 is 30\n```"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [
+      "code_candidate"
+    ],
+    "selection_reason": "code_stratum",
+    "review_id": "R31"
+  },
+  {
+    "sample_id": "d5561c18d5bbd152cabe229100ac3b5cebe476bc276782f74d9753f5076cba31",
+    "split": "validation",
+    "row_index": 135,
+    "source": "alpaca_gpt4_zh",
+    "raw_sha256": "318225b820958bb7b88cdf04e0ea0b618ade3e450f7f836b8bc8acc018bf6586",
+    "content_sha256": "6e599073d7ff8ac4dbb3f35e4d156db80c1754a246366c29aae6bfaeb7761cd2",
+    "tokens": 206,
+    "lineage": {
+      "candidate_row_number": 202,
+      "sample_id": "d5561c18d5bbd152cabe229100ac3b5cebe476bc276782f74d9753f5076cba31",
+      "source": "alpaca_gpt4_zh",
+      "source_row_number": 205,
+      "content_sha256": "318225b820958bb7b88cdf04e0ea0b618ade3e450f7f836b8bc8acc018bf6586",
+      "excel_review_row": 203,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 76,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "逐项交集比较3、5、7均不在4、6、8中，A∩B=空集；静态检查空set为假，进入不相交分支，未执行。",
+        "notes": "结论、集合定义与程序条件一致，没有漏掉共同元素。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 72,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "输入两个集合并确定它们是否不相交。\n\n输入：\nA = {3, 5, 7}\nB = {4, 6, 8}"
+        },
+        {
+          "from": "gpt",
+          "value": "不相交集合是指这两个集合之间没有共同元素。在这个例子中，集合A 和集合B 没有任何共同的元素，它们是不相交的.\n\n也可以通过编写一个程序来计算这两个集合的交集，如果结果为空集，表示这两个集合不相交。\n\n下面是一个Python示例程序，用来判断两个集合是否不相交：\n```python\nA = {3, 5, 7}\nB = {4, 6, 8}\nintersection = A.intersection(B)\nif not intersection:\n    print('集合A和集合B不相交。')\nelse:\n    print('集合A和集合B相交。')\n```"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [
+      "code_candidate",
+      "math_candidate"
+    ],
+    "selection_reason": "code_stratum",
+    "review_id": "R32"
+  },
+  {
+    "sample_id": "75fc3f9964fbbd60b720c48eaa0d2c63f45ac5eff31bd60853010f3bec2dd0fe",
+    "split": "train",
+    "row_index": 666,
+    "source": "alpaca_gpt4_zh",
+    "raw_sha256": "296518f96ae58e747440d7caa31d4d7cdbf0b827871bbe84bce0af81276b56f8",
+    "content_sha256": "f5716afb00c06f65ef688a5ceaa087cf6fb473f06ace31d2335b3a7e53f3130d",
+    "tokens": 223,
+    "lineage": {
+      "candidate_row_number": 1549,
+      "sample_id": "75fc3f9964fbbd60b720c48eaa0d2c63f45ac5eff31bd60853010f3bec2dd0fe",
+      "source": "alpaca_gpt4_zh",
+      "source_row_number": 1558,
+      "content_sha256": "296518f96ae58e747440d7caa31d4d7cdbf0b827871bbe84bce0af81276b56f8",
+      "excel_review_row": 1550,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 621,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "类构造函数存value及可选next_node，两个读取方法和一个后继设置方法与说明逐一一致，静态检查未执行。",
+        "notes": "缺少题干后续示意时明确说一个可能定义，假设为链表节点可接受，未声称复现未提供的结构。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 586,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "定义一个Node对象，如下所示："
+        },
+        {
+          "from": "gpt",
+          "value": "一个可能的 `Node` 对象定义如下所示：\n\n```python\nclass Node:\n    def __init__(self, value, next_node=None):\n        self.value = value\n        self.next_node = next_node\n\n    def get_value(self):\n        return self.value\n\n    def get_next_node(self):\n        return self.next_node\n\n    def set_next_node(self, next_node):\n        self.next_node = next_node\n```\n\n这个 `Node` 类定义了一个 `__init__` 构造函数，它将 `value` 和 `next_node` 作为参数。`value` 参数表示节点的值，而 `next_node` 参数表示节点的下一个节点，默认值为 `None`。\n\n`get_value` 方法返回节点的值，`get_next_node` 方法返回节点的下一个节点，而 `set_next_node` 方法则用于设置节点的下一个节点。"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [
+      "code_candidate",
+      "math_candidate"
+    ],
+    "selection_reason": "code_stratum",
+    "review_id": "R33"
+  },
+  {
+    "sample_id": "a4959b76dd3d52f79370ef5c6eeeaf5022345225c85c0d498a1f0c4d2aa1bb15",
+    "split": "train",
+    "row_index": 930,
+    "source": "coig_pc",
+    "raw_sha256": "cdfdd72c1db4be03d35a9a0649c7baa6714cb4e693c2c209898e4c23f93e8877",
+    "content_sha256": "c4fe4f1debe5f7fcc26a23a6efde7078fe39ed475e346db7400199b22c317d99",
+    "tokens": 106,
+    "lineage": {
+      "candidate_row_number": 3588,
+      "sample_id": "a4959b76dd3d52f79370ef5c6eeeaf5022345225c85c0d498a1f0c4d2aa1bb15",
+      "source": "coig_pc",
+      "source_row_number": 3645,
+      "content_sha256": "cdfdd72c1db4be03d35a9a0649c7baa6714cb4e693c2c209898e4c23f93e8877",
+      "excel_review_row": 3589,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1430,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "单价12元每千克乘60千克，12×60=720元；回答中的两个因子与题干单价、质量逐项对应。",
+        "notes": "请求为表达式生成，x=12*60可正确表示应付总价，形式和运算方向均满足题意。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 1356,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "对于以下数学应用题，列出方程或表达式，以解决问题：\n\n苹果的单价是12元每千克，学校打算买60千克苹果．请问：学校买这些苹果要付多少钱？（提示：单价dānjià*数量shùliàng﹦总价zǒngjià）"
+        },
+        {
+          "from": "gpt",
+          "value": "x=12*60"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [
+      "math_candidate"
+    ],
+    "selection_reason": "math_stratum",
+    "review_id": "R34"
+  },
+  {
+    "sample_id": "a2673864c7c6768513219751c4af3607c4ebb9cfd1e12290fefdfb83521e33eb",
+    "split": "validation",
+    "row_index": 109,
+    "source": "alpaca_gpt4_zh",
+    "raw_sha256": "78144141d7fe718755808d9aa0313f293255cd366a8ededcb6b09810fb5bc926",
+    "content_sha256": "09d25a58a1f671adc617c39652ff5024835f7bacf66be7a9f26684c20db5fd11",
+    "tokens": 80,
+    "lineage": {
+      "candidate_row_number": 332,
+      "sample_id": "a2673864c7c6768513219751c4af3607c4ebb9cfd1e12290fefdfb83521e33eb",
+      "source": "alpaca_gpt4_zh",
+      "source_row_number": 336,
+      "content_sha256": "78144141d7fe718755808d9aa0313f293255cd366a8ededcb6b09810fb5bc926",
+      "excel_review_row": 333,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 133,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "重算8+7=15，15+19=34，34+33=67，与回答及其括号内算式一致。",
+        "notes": "四个输入全部纳入一次，求和数值正确，无步骤与结论矛盾。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 125,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "计算数字8、7、19和33的总和。"
+        },
+        {
+          "from": "gpt",
+          "value": "数字8、7、19和33的总和是67。（8 + 7 + 19 + 33 = 67）"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [
+      "math_candidate"
+    ],
+    "selection_reason": "math_stratum",
+    "review_id": "R35"
+  },
+  {
+    "sample_id": "62e735a22d1cd90044575b0d8edcda417c1244c5b21faa261621c86e7a7c8752",
+    "split": "train",
+    "row_index": 557,
+    "source": "sharegpt_zh",
+    "raw_sha256": "f029575cc44ab5d9a2e633d8a437b2040492e20ac4c5659c06f0c5c5a86ee78d",
+    "content_sha256": "713fcaf32f544d4b2a4400927912e61de939e04009c744902d8391f152aacc5c",
+    "tokens": 137,
+    "lineage": {
+      "candidate_row_number": 4751,
+      "sample_id": "62e735a22d1cd90044575b0d8edcda417c1244c5b21faa261621c86e7a7c8752",
+      "source": "sharegpt_zh",
+      "source_row_number": 4837,
+      "content_sha256": "f029575cc44ab5d9a2e633d8a437b2040492e20ac4c5659c06f0c5c5a86ee78d",
+      "excel_review_row": 4752,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1653,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "Azure及AWS官方说明均确认以闲置容量提供折扣、可因容量回收中断、适合可中断工作负载：https://learn.microsoft.com/en-us/azure/virtual-machines/spot-vms ；https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-spot-instances.html 。",
+        "notes": "简明解释 Spot 虚拟机的成本来源和关键限制，合理指出关键任务通常不宜直接依赖。未许诺固定折扣或可用性；AWS正式称Spot Instances，作为同类机制举例无实质歧义。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 1571,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "什么是 Spot VM？"
+        },
+        {
+          "from": "gpt",
+          "value": "Spot VM 是云提供商如亚马逊 Web 服务（AWS）和微软 Azure 提供的一种虚拟机类型。Spot VM 与常规虚拟机相似，但由于它们由云提供商数据中心中未使用或过剩的容量支持，因此可以以更低的价格购买。问题在于，如果云提供商需要底层资源用于其他目的，他们随时可以终止 Spot VM，因此不太适合关键任务负载。但是，对于可以容忍中断的任务，Spot VM 可以是访问云计算资源的经济方式。"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [
+      "math_candidate"
+    ],
+    "selection_reason": "math_stratum",
+    "review_id": "R36"
+  },
+  {
+    "sample_id": "81685c406a41ba8695cdafacbdb98b174ed8bbb5435e93a300dce6352d9a7595",
+    "split": "train",
+    "row_index": 745,
+    "source": "alpaca_gpt4_zh",
+    "raw_sha256": "36475db118e86225c4e25875b064540771e91c5615a6114d8a5457e812fd7508",
+    "content_sha256": "04721b067a70e292469243aea5b3fabf44d77e3475afb8de807d07a15bb58f8d",
+    "tokens": 281,
+    "lineage": {
+      "candidate_row_number": 1835,
+      "sample_id": "81685c406a41ba8695cdafacbdb98b174ed8bbb5435e93a300dce6352d9a7595",
+      "source": "alpaca_gpt4_zh",
+      "source_row_number": 1844,
+      "content_sha256": "36475db118e86225c4e25875b064540771e91c5615a6114d8a5457e812fd7508",
+      "excel_review_row": 1836,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 746,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "定义软件型AI助手并列日程、邮件、文件、分析、客服等办公场景，功能均符合一般助手应用范围。",
+        "notes": "使用能协助描述应用潜力，未声称已经操作用户数据或所有助手都具备这些具体权限。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 709,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "描述虚拟助手的概念，重点介绍它在工作场所中的应用。"
+        },
+        {
+          "from": "gpt",
+          "value": "虚拟助手（Virtual Assistant，简称VA）指的是使用人工智能技术模拟人类智能的计算机软件程序，它能够通过语音、文本指令与用户进行互动，并为其提供各种生活与工作中的帮助。\n\n在工作场所，虚拟助手能广泛应用于多种工作流程中以提高工作效率。常见的应用包括：\n\n- 日程管理：虚拟助手能帮助用户管理日程表，安排会议，提醒重要日期。\n- 邮箱管理：虚拟助手能协助用户管理电子邮件，自动回复或转发邮件，筛选出重要邮件。\n- 文件搜索与管理：虚拟助手通过语音或文本指令快速定位和打开用户需要的文件，协助用户对文件进行分类、归档和整理。\n- 数据分析与报告制作：虚拟助手能够分析用户提供的数据信息，生成报告或数据可视化，提供参考依据以辅助决策。\n- 客户服务：虚拟助手能承担一些客户服务工作，例如通过在线聊天工具自动解答客户问题，收集客户反馈等。\n\n总之，虚拟助手在工作场所可通过执行大量重复性、繁琐的任务来帮助提升工作效率，让用户把更多时间和精力放在思维性、创造性工作上。"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [
+      "math_candidate"
+    ],
+    "selection_reason": "math_stratum",
+    "review_id": "R37"
+  },
+  {
+    "sample_id": "01c539157405dc78cc59af127265a620dd7c325838c5d6ef527c61ce902a91f8",
+    "split": "train",
+    "row_index": 8,
+    "source": "alpaca_gpt4_zh",
+    "raw_sha256": "fd5cd9ec7a24d34b4e7f947f291ae94e192a6c937899eeed7123fa4911d4b679",
+    "content_sha256": "45d6a68d08d427689162580671efbd3c281186598ac01e33dd3c696deb5870c7",
+    "tokens": 277,
+    "lineage": {
+      "candidate_row_number": 173,
+      "sample_id": "01c539157405dc78cc59af127265a620dd7c325838c5d6ef527c61ce902a91f8",
+      "source": "alpaca_gpt4_zh",
+      "source_row_number": 176,
+      "content_sha256": "fd5cd9ec7a24d34b4e7f947f291ae94e192a6c937899eeed7123fa4911d4b679",
+      "excel_review_row": 174,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 66,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "坐标和分别10、14、18，四个等权点质心为(10/4,14/4,18/4)=(2.5,3.5,4.5)；静态检查循环逐维累加，未执行。",
+        "notes": "数值与算法一致，明确以points作为输入变量；代码缺围栏属排版问题，仍可读。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 63,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "给定一个三维点的数组，计算质心。\n\n输入：[[1, 2, 3], [2, 3, 4], [3, 4, 5], [4, 5, 6]]"
+        },
+        {
+          "from": "gpt",
+          "value": "假设三维点的数组是 points，那么可以按如下方法计算：\n\n# 首先求出数组中点的个数\nn = len(points)\n\n# 初始化质心的坐标为（0,0,0）\nx, y, z = 0, 0, 0\n\n# 遍历所有点，累加每个点的坐标\nfor point in points:\n    x += point[0]\n    y += point[1]\n    z += point[2]\n\n# 计算质心的坐标\ncentroid = [x/n, y/n, z/n]\n\nprint(centroid)\n\n所以对于输入的点数组：[[1, 2, 3], [2, 3, 4], [3, 4, 5], [4, 5, 6]]。\n\n计算出的质心坐标为：[2.5, 3.5, 4.5]"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [
+      "math_candidate"
+    ],
+    "selection_reason": "math_stratum",
+    "review_id": "R38"
+  },
+  {
+    "sample_id": "f9658d46714938ef1b2edf9178e9bce2775123b7c660a45fc567b2647a8013df",
+    "split": "validation",
+    "row_index": 156,
+    "source": "alpaca_gpt4_zh",
+    "raw_sha256": "919c556282d924900a1761a41917a358bf07478f7748b461c3ac9692479ddccf",
+    "content_sha256": "43eed18bbe5cbd2d4d151caa789daae7c9ded2dfcfafa4df0c7314720b6add1a",
+    "tokens": 236,
+    "lineage": {
+      "candidate_row_number": 1419,
+      "sample_id": "f9658d46714938ef1b2edf9178e9bce2775123b7c660a45fc567b2647a8013df",
+      "source": "alpaca_gpt4_zh",
+      "source_row_number": 1428,
+      "content_sha256": "919c556282d924900a1761a41917a358bf07478f7748b461c3ac9692479ddccf",
+      "excel_review_row": 1420,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 566,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "NOT_APPLICABLE",
+        "evidence": "小明隐瞒59分考试成绩、谎报80多分后被老师通报揭穿，后果与诚信及信任主题相连。",
+        "notes": "一个教训配一个完整虚构例子，因果清楚；并不构成真实个案或考试及格标准的外部断言。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 533,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "提出一个道德教训和一个示例来证明它。"
+        },
+        {
+          "from": "gpt",
+          "value": "道德教训：诚实守信\n诚实守信是指，一个人遵守道德原则，言行真实、诚信可靠，不撒谎、不欺骗。\n\n示例：\n小明是一名中学生，他在一次数学考试中考了59分，未及格。他害怕妈妈会批评他，于是撕掉了试卷，回家后谎言应付。“你今天的数学考试考得怎么样？”妈妈问。“考得很好，应该能得80多分。”小明撒谎说。然而，事实终究会败露，当老师打电话给小明妈妈通报考试成绩时，谎言被揭穿。小明因此受到了妈妈的责备，丢失了妈妈的信任。\n\n这个例子告诉我们，诚实守信是一个人的根本品质，撒谎和欺骗可能会给我们带来短暂的便利，但最终会失去他人的信任，也会给我们带来更大的麻烦。只有诚实守信，才能在与他人的交往中获得信任，建立良好的人际关系。"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [
+      "math_candidate"
+    ],
+    "selection_reason": "math_stratum",
+    "review_id": "R39"
+  },
+  {
+    "sample_id": "ae07f9bc43236265893317e9c3ee792f51891ae0082a4ee38af470ce24c770fd",
+    "split": "validation",
+    "row_index": 116,
+    "source": "coig_pc",
+    "raw_sha256": "60e47aa7079019a2c0b00b2e106b4760d9f71ae1e2f2b891bfc219d4104f49d0",
+    "content_sha256": "a856eab21e39c622ebdf6ec0128071582fb49efe0e286e4681886a878813e7c7",
+    "tokens": 55,
+    "lineage": {
+      "candidate_row_number": 3303,
+      "sample_id": "ae07f9bc43236265893317e9c3ee792f51891ae0082a4ee38af470ce24c770fd",
+      "source": "coig_pc",
+      "source_row_number": 3352,
+      "content_sha256": "60e47aa7079019a2c0b00b2e106b4760d9f71ae1e2f2b891bfc219d4104f49d0",
+      "excel_review_row": 3304,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1318,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "NOT_APPLICABLE",
+        "evidence": "译文完整表达报告未显示数据来源，时态自然。",
+        "notes": "语义准确。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 1249,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "请把下面的中文翻译成英语\n\n报告没有显示数据来源。"
+        },
+        {
+          "from": "gpt",
+          "value": "The report did not show the data sources."
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [],
+    "selection_reason": "coverage_validation_coig_pc",
+    "review_id": "R40"
+  },
+  {
+    "sample_id": "ad72ab1a4efd346e2cb3cee7a9499e882513f915323f4bc3ebbe626bfd37b82e",
+    "split": "validation",
+    "row_index": 115,
+    "source": "sharegpt_zh",
+    "raw_sha256": "12f92d2f5abdd4ce70877116b85256ee4d068a14ee7143d11e7996166ac86e47",
+    "content_sha256": "62b560d5c24f4895a848bfb4fd3d369e74c1260c8010521ab3b297c1b8b15bb4",
+    "tokens": 51,
+    "lineage": {
+      "candidate_row_number": 4259,
+      "sample_id": "ad72ab1a4efd346e2cb3cee7a9499e882513f915323f4bc3ebbe626bfd37b82e",
+      "source": "sharegpt_zh",
+      "source_row_number": 4327,
+      "content_sha256": "12f92d2f5abdd4ce70877116b85256ee4d068a14ee7143d11e7996166ac86e47",
+      "excel_review_row": 4260,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1614,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "NOT_APPLICABLE",
+        "evidence": "用户只有“这是分享”，没有实际分享对象或任务；回答明确表示上下文不足并请求补充。",
+        "notes": "澄清简短且针对缺失信息，没有擅自猜测要分享的内容，也没有需要外部验证的事实主张。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 1534,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "这是分享。"
+        },
+        {
+          "from": "gpt",
+          "value": "对不起，我不确定你想要分享什么。你可以提供更多信息或上下文吗？"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [],
+    "selection_reason": "coverage_validation_sharegpt_zh",
+    "review_id": "R41"
+  },
+  {
+    "sample_id": "7b8774580ce3d3a49c57452fa66f523c3ab1ceb12b2b62a3132078c5b4fd437a",
+    "split": "validation",
+    "row_index": 83,
+    "source": "sharegpt_zh",
+    "raw_sha256": "6bd01abe6d6baae1b6cb985e1f01a2e44d91109404fe76ecc29879aafa3fdc9c",
+    "content_sha256": "4aec8c7f68414f74d60bfe7c8c98faea5ffdd38f0ba9998109677475c48738c0",
+    "tokens": 82,
+    "lineage": {
+      "candidate_row_number": 4077,
+      "sample_id": "7b8774580ce3d3a49c57452fa66f523c3ab1ceb12b2b62a3132078c5b4fd437a",
+      "source": "sharegpt_zh",
+      "source_row_number": 4140,
+      "content_sha256": "6bd01abe6d6baae1b6cb985e1f01a2e44d91109404fe76ecc29879aafa3fdc9c",
+      "excel_review_row": 4078,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1598,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "Google Cloud官方计算文档直接列出两条命令：https://docs.cloud.google.com/compute/docs/gcloud-compute。compute/region与compute/zone分别读取当前配置的区域与可用区属性。",
+        "notes": "两条命令回答简短直接，适合查询当前配置。中文把region和zone都译为区域不够精细，但属性名清楚区分，未产生操作错误；这里读取的是配置值而非自动检测机器位置。"
+      },
+      "advisory_signals": [
+        {
+          "turn_number": 2,
+          "signal": "VOLATILE_OR_EXTERNAL_FACT"
+        }
+      ],
+      "derived_line_number": 1519,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "如何在使用gcloud命令行工具时获取当前区域和区域。"
+        },
+        {
+          "from": "gpt",
+          "value": "您可以使用命令 `gcloud config get-value compute/region` 来获取当前区域，以及 `gcloud config get-value compute/zone` 来获取当前区域。"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [],
+    "selection_reason": "coverage_validation_sharegpt_zh",
+    "review_id": "R42"
+  },
+  {
+    "sample_id": "b41d387b075cedcfce67582303840b57f5655f0f3add8d21802f6cda3ff028ae",
+    "split": "validation",
+    "row_index": 120,
+    "source": "sharegpt_zh",
+    "raw_sha256": "edacc36d9af8ea6ed02f08fa80380581c872022255ea300083d78006baff7bf2",
+    "content_sha256": "8c117018107a8f0ce6f2501398170f3a30665922a1701d4ecc9391775f2cfe1c",
+    "tokens": 243,
+    "lineage": {
+      "candidate_row_number": 4586,
+      "sample_id": "b41d387b075cedcfce67582303840b57f5655f0f3add8d21802f6cda3ff028ae",
+      "source": "sharegpt_zh",
+      "source_row_number": 4664,
+      "content_sha256": "edacc36d9af8ea6ed02f08fa80380581c872022255ea300083d78006baff7bf2",
+      "excel_review_row": 4587,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1640,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "NOT_APPLICABLE",
+        "evidence": "短演讲分别阐明关怀、诚实和正直，并以社区互助与承担责任为例；内容为价值倡议，没有伪造事迹、数据或权威引用。",
+        "notes": "主题、语气和篇幅符合短篇社区演讲请求，结构清晰并有行动号召，可保留。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 1559,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "关于社区内关心、诚实和正直的短篇演讲"
+        },
+        {
+          "from": "gpt",
+          "value": "亲爱的社区成员，\n我想花点时间谈谈我们社区中关怀、诚实和诚信的价值观。\n首先，关怀是任何社区不可或缺的方面。我们应该互相照顾，帮助那些需要帮助的人，并在困难时互相支持。通过相互关心，我们可以建立一个更强大、更有弹性的社区，使其蓬勃发展。\n其次，诚实对于社区中的信任和尊重至关重要。无论是在我们的个人生活还是职业生活中，我们都必须诚实地相互交往。诚实还意味着对自己的行为负责，并透明地公开我们的意图。\n最后，诚信是维护强大的道德原则和对我们自己行为负责任的关键。这意味着在不轻易或不方便的情况下做正确的事情。当我们以诚信行事时，我们建立了一个以信任、尊重和公平为基础的社区。\n总之，关怀、诚实和诚信是我们所有人都应该努力维护的基本价值观。通过这样做，我们可以创建一个更有同情心、诚实和公平的社会，使每个人都受益。让我们一起努力建立一个以这些价值观为基础的社区。谢谢。"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [],
+    "selection_reason": "coverage_validation_sharegpt_zh",
+    "review_id": "R43"
+  },
+  {
+    "sample_id": "6325a9e1347ddcabd8b26fd5bf7ac1767d652fa70f1d625d02ad2008aa4b3c58",
+    "split": "train",
+    "row_index": 560,
+    "source": "coig_pc",
+    "raw_sha256": "b734885fdc21d00a14295982719c513d677190c865c0a34a8400eed85270b814",
+    "content_sha256": "7a99368b153023de0cae26481af04b0b9e7ab23cd30150100c7a251af9337feb",
+    "tokens": 66,
+    "lineage": {
+      "candidate_row_number": 3067,
+      "sample_id": "6325a9e1347ddcabd8b26fd5bf7ac1767d652fa70f1d625d02ad2008aa4b3c58",
+      "source": "coig_pc",
+      "source_row_number": 3116,
+      "content_sha256": "b734885fdc21d00a14295982719c513d677190c865c0a34a8400eed85270b814",
+      "excel_review_row": 3068,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1211,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "NOT_APPLICABLE",
+        "evidence": "En savoir plus对应更多信息，Cultures et religions en Finlande对应芬兰文化与宗教。",
+        "notes": "导航文字完整准确。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 1148,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "请将以下简体中文文本翻译成另一种语言，目标语言简称为fr\n\n更多信息：芬兰的文化与宗教"
+        },
+        {
+          "from": "gpt",
+          "value": "En savoir plus : Cultures et religions en Finlande"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [],
+    "selection_reason": "deterministic_fill",
+    "review_id": "R44"
+  },
+  {
+    "sample_id": "65847af9896e22d0b81bf9c17f0504e813b7f6eafcffd663d5e814ee86043ba8",
+    "split": "train",
+    "row_index": 574,
+    "source": "coig_pc",
+    "raw_sha256": "c20801503b5108c680caa7197e1286e5b686a894236fb2ce83d2c91085047c49",
+    "content_sha256": "34c7a8c197cebffdb02870a9543597e9974cf4fc3a692b2e44bb6593b1961444",
+    "tokens": 51,
+    "lineage": {
+      "candidate_row_number": 3368,
+      "sample_id": "65847af9896e22d0b81bf9c17f0504e813b7f6eafcffd663d5e814ee86043ba8",
+      "source": "coig_pc",
+      "source_row_number": 3421,
+      "content_sha256": "c20801503b5108c680caa7197e1286e5b686a894236fb2ce83d2c91085047c49",
+      "excel_review_row": 3369,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1346,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "NOT_APPLICABLE",
+        "evidence": "什么时候与啥日子都是上市时间问法，车型和新款限定未变。",
+        "notes": "口语同义改写可接受。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 1276,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "请写出下面句子的同义句\n\n朗逸新款什么时候上市"
+        },
+        {
+          "from": "gpt",
+          "value": "朗逸新款啥日子上市"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [],
+    "selection_reason": "deterministic_fill",
+    "review_id": "R45"
+  },
+  {
+    "sample_id": "b1386655bebe412acbe38fd2f9167ab3bcef6fa9a5a4add76261ea1c30c13ed2",
+    "split": "train",
+    "row_index": 991,
+    "source": "alpaca_gpt4_zh",
+    "raw_sha256": "d3a4903626aadb344801e744ef1f723b51075a369ffc8b846f163a28fad00981",
+    "content_sha256": "e7353e5bc54af671a3853b571eed220092856db356c121dd9edff76a0f524f49",
+    "tokens": 53,
+    "lineage": {
+      "candidate_row_number": 528,
+      "sample_id": "b1386655bebe412acbe38fd2f9167ab3bcef6fa9a5a4add76261ea1c30c13ed2",
+      "source": "alpaca_gpt4_zh",
+      "source_row_number": 533,
+      "content_sha256": "d3a4903626aadb344801e744ef1f723b51075a369ffc8b846f163a28fad00981",
+      "excel_review_row": 529,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 212,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "比利时政府说明该国三种官方语言是Dutch、French、German：https://www.belgium.be/en/about_belgium/government/federale_staat 。分别对应荷兰语、法语、德语。",
+        "notes": "数量与语言名称均正确，未混入英语或把弗拉芒语另计为第四种。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 202,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "列出比利时官方使用的三种语言。"
+        },
+        {
+          "from": "gpt",
+          "value": "比利时官方使用的三种语言为荷兰语、法语和德语。"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [],
+    "selection_reason": "deterministic_fill",
+    "review_id": "R46"
+  },
+  {
+    "sample_id": "58f39d647cad8f474b0d830e5a786a57522a8068d618a9b4fac0f99a1e6cfdc9",
+    "split": "validation",
+    "row_index": 51,
+    "source": "alpaca_gpt4_zh",
+    "raw_sha256": "e0f08eda66db59df47f098d6f60e34dc415e49b64d992ac24d371f289a4d72f0",
+    "content_sha256": "13cfcf0ac02a87d6a0f4bc0444b6b352331c342d8f8ae009f906c7e180f06eac",
+    "tokens": 129,
+    "lineage": {
+      "candidate_row_number": 609,
+      "sample_id": "58f39d647cad8f474b0d830e5a786a57522a8068d618a9b4fac0f99a1e6cfdc9",
+      "source": "alpaca_gpt4_zh",
+      "source_row_number": 615,
+      "content_sha256": "e0f08eda66db59df47f098d6f60e34dc415e49b64d992ac24d371f289a4d72f0",
+      "excel_review_row": 610,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 248,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "两个列表拼接后依次为1、2、3、4、5、6，未排序、去重或做逐项求和；Python列表+表达式与给出的结果相同。",
+        "notes": "代码和最终列表均正确，完成合并要求。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 233,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "给定两个列表，将它们合并成一个列表。\n\n输入：\n列表1：[1, 2, 3]，列表2：[4, 5, 6]"
+        },
+        {
+          "from": "gpt",
+          "value": "可以使用+运算符将两个列表合并为一个新的列表：\n\nresult = [1, 2, 3] + [4, 5, 6]\n\n合并后的结果为 result = [1, 2, 3, 4, 5, 6]。"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [],
+    "selection_reason": "deterministic_fill",
+    "review_id": "R47"
+  },
+  {
+    "sample_id": "fa0ea895703e06ee6404f399c2c9acfdea7d2e0600d4ec78afa96a3700e181f6",
+    "split": "train",
+    "row_index": 1393,
+    "source": "sharegpt_zh",
+    "raw_sha256": "c1acdd99a3a9c4d7743f9af31816145dd310f09b75c20ed19a375926e4d370ce",
+    "content_sha256": "ce1dc86c820747190d772d3fead041820f9b2df9a85c6b95059308d94f73a7d7",
+    "tokens": 73,
+    "lineage": {
+      "candidate_row_number": 4793,
+      "sample_id": "fa0ea895703e06ee6404f399c2c9acfdea7d2e0600d4ec78afa96a3700e181f6",
+      "source": "sharegpt_zh",
+      "source_row_number": 4879,
+      "content_sha256": "c1acdd99a3a9c4d7743f9af31816145dd310f09b75c20ed19a375926e4d370ce",
+      "excel_review_row": 4794,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1659,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "总统图书馆记载奥巴马任第44任总统，2009年1月20日至2017年1月20日，且为首位非裔美国总统：https://obamalibrary.archives.gov/obamas/president-barack-obama 。",
+        "notes": "简洁、准确回答其身份、两届任期及历史意义；“前总统”的身份与任期表述一致，无需要修改的实质内容。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 1577,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "谁是巴拉克·奥巴马？"
+        },
+        {
+          "from": "gpt",
+          "value": "巴拉克·奥巴马是美国前总统，在2009年至2017年间连任两届。他是美国历史上首位担任总统的非裔美国人。"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [],
+    "selection_reason": "deterministic_fill",
+    "review_id": "R48"
+  },
+  {
+    "sample_id": "76d281fc410bd5f4bbd1b7c79ad37e7e56fb806dcc2a8ce3a424dbbfbc195b31",
+    "split": "train",
+    "row_index": 673,
+    "source": "coig_pc",
+    "raw_sha256": "6bc4a68eabf468a380f2d6fd6f11b1300abc971868b467d1316705b06726edc4",
+    "content_sha256": "8130f089eeaf8d205dd1e598731f3fc9bce148794351163ca8fa83b9fefd1a6e",
+    "tokens": 72,
+    "lineage": {
+      "candidate_row_number": 3822,
+      "sample_id": "76d281fc410bd5f4bbd1b7c79ad37e7e56fb806dcc2a8ce3a424dbbfbc195b31",
+      "source": "coig_pc",
+      "source_row_number": 3881,
+      "content_sha256": "6bc4a68eabf468a380f2d6fd6f11b1300abc971868b467d1316705b06726edc4",
+      "excel_review_row": 3823,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 1532,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "VERIFIED",
+        "evidence": "Aštuoni、įtikinami、motyvai studijuoti及socialinį darbą是立陶宛语词形，Massey仅为名称。",
+        "notes": "语种识别正确，文本即使为标题片段也足以判断，无需依赖地名来源。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 1454,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "请判断以下内容的语言类型\n\nAštuoni labiau įtikinami motyvai studijuoti socialinį darbą Massey mieste"
+        },
+        {
+          "from": "gpt",
+          "value": "立陶宛语"
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [],
+    "selection_reason": "deterministic_fill",
+    "review_id": "R49"
+  },
+  {
+    "sample_id": "2f46e70a4a5fb6c1eaa1ec26bfec2c497f3b56f71de1e5edbc572042ee639c61",
+    "split": "train",
+    "row_index": 276,
+    "source": "alpaca_gpt4_zh",
+    "raw_sha256": "f222917c81ac1ce55d30125ccd9e3ba11b164869b9f72f2170827b3ecf969340",
+    "content_sha256": "7df1e3628d0eea371764fc4742de38d51b35e9c7745fcea297a1b6dc173b6d3b",
+    "tokens": 52,
+    "lineage": {
+      "candidate_row_number": 775,
+      "sample_id": "2f46e70a4a5fb6c1eaa1ec26bfec2c497f3b56f71de1e5edbc572042ee639c61",
+      "source": "alpaca_gpt4_zh",
+      "source_row_number": 781,
+      "content_sha256": "f222917c81ac1ce55d30125ccd9e3ba11b164869b9f72f2170827b3ecf969340",
+      "excel_review_row": 776,
+      "old_decision": "KEEP",
+      "frozen_old_decision": "KEEP",
+      "new_decision": "KEEP",
+      "output_line_number": 312,
+      "selection": "COMMON_KEEP_ORIGINAL",
+      "assistant_turn_count": 1,
+      "new_review_snapshot": {
+        "decision": "KEEP",
+        "reviewer_type": "",
+        "reviewer_id": "",
+        "reviewed_all_assistant_turns": true,
+        "fact_check_status": "NOT_APPLICABLE",
+        "evidence": "汽车配件标语是创意广告用语，未指具体产品已获安全认证或绝对事故保障。",
+        "notes": "短句突出配件与驾驶安全关联，适合题目开放命名要求。"
+      },
+      "advisory_signals": [],
+      "derived_line_number": 297,
+      "split": "train"
+    },
+    "record": {
+      "system": "",
+      "conversations": [
+        {
+          "from": "human",
+          "value": "为一个关于汽车零件的网站想一个标语。"
+        },
+        {
+          "from": "gpt",
+          "value": "\"汽车零件之家，驾驶安全的保障\""
+        }
+      ]
+    },
+    "turns": 1,
+    "tags": [],
+    "selection_reason": "deterministic_fill",
+    "review_id": "R50"
+  }
+]

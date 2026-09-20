@@ -1,0 +1,34 @@
+{
+  "schema_version": "day26-v7-validation-1",
+  "status": "PASS",
+  "checks": {
+    "declared_file_hashes": true,
+    "source_manifest_inventory": true,
+    "source_image_bytes": true,
+    "fact_contract": true,
+    "fact_manifest_linkage": true,
+    "generated_internal_records": true,
+    "generated_exports": true,
+    "record_counts": true,
+    "unique_record_ids": true,
+    "unique_train_examples": true,
+    "zero_cross_split_prompts": true,
+    "zero_cross_split_images": true
+  },
+  "image_counts": {
+    "train": 50,
+    "dev": 10,
+    "final": 10
+  },
+  "record_counts": {
+    "train": 200,
+    "dev": 20,
+    "final": 20
+  },
+  "prompt_collisions": {
+    "train_dev": [],
+    "train_final": [],
+    "dev_final": []
+  },
+  "data_manifest_sha256": "e5baad0af9ce402f7c2db74a21156c236d50f8e48f49fc654f9ca02bd5ed7047"
+}

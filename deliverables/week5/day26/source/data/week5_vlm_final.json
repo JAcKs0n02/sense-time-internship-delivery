@@ -1,0 +1,302 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请提取图表中的关键信息，并概括最重要的结论。"
+      },
+      {
+        "role": "assistant",
+        "content": "图中显示一张名为 CRUncover 的小型结果表。表格有多列文本与数值；底部一行包含 2.72、Ingcubic 和 $744.78。"
+      }
+    ],
+    "images": [
+      "images/final/chart_table-13.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图中是一张只有红色折线的折线图”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "该说法不符合图像。图中显示一张名为 CRUncover 的小型结果表。表格有多列文本与数值；底部一行包含 2.72、Ingcubic 和 $744.78。"
+      }
+    ],
+    "images": [
+      "images/final/chart_table-13.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请提取图表中的关键信息，并概括最重要的结论。"
+      },
+      {
+        "role": "assistant",
+        "content": "图中显示一页含三幅小图和双栏正文的学术文档。页面上部并排展示图表；下方是英文双栏正文，并有彩色区域框。"
+      }
+    ],
+    "images": [
+      "images/final/chart_table-14.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“表格只有两行两列”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "该说法不符合图像。图中显示一页含三幅小图和双栏正文的学术文档。页面上部并排展示图表；下方是英文双栏正文，并有彩色区域框。"
+      }
+    ],
+    "images": [
+      "images/final/chart_table-14.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中的公式，并解释各部分表达的含义。"
+      },
+      {
+        "role": "assistant",
+        "content": "图中是一条白色手写字的级数表达式。可转写为：f(x)=\\sum_{n=-\\infty}^{\\infty}a_n x^n（左端与下限手写字形略模糊）。左端为 f(x) 或相近函数记号；右端是带 a_n 和 x^n 的求和。"
+      }
+    ],
+    "images": [
+      "images/final/formula-13.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图中没有等号或数学符号”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "该说法不符合图像。图中是一条白色手写字的级数表达式。可转写为：f(x)=\\sum_{n=-\\infty}^{\\infty}a_n x^n（左端与下限手写字形略模糊）。左端为 f(x) 或相近函数记号；右端是带 a_n 和 x^n 的求和。"
+      }
+    ],
+    "images": [
+      "images/final/formula-13.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中的公式，并解释各部分表达的含义。"
+      },
+      {
+        "role": "assistant",
+        "content": "图中是一条白色手写字的复数模平方等式。可转写为：|a+ib|^2=a^2+b^2。左端为 |a+ib| 的平方形式；右端是 a^2+b^2。"
+      }
+    ],
+    "images": [
+      "images/final/formula-14.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“表达式只包含普通中文段落”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "该说法不符合图像。图中是一条白色手写字的复数模平方等式。可转写为：|a+ib|^2=a^2+b^2。左端为 |a+ib| 的平方形式；右端是 a^2+b^2。"
+      }
+    ],
+    "images": [
+      "images/final/formula-14.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请客观描述图中的主体、环境和重要细节。"
+      },
+      {
+        "role": "assistant",
+        "content": "图中显示眼底视网膜的圆形医学图像。整体为橙红色；左侧可见较亮的视盘，并有血管向四周分支。"
+      }
+    ],
+    "images": [
+      "images/final/natural_scene-13.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图中主体是一辆蓝色公交车”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "该说法不符合图像。图中显示眼底视网膜的圆形医学图像。整体为橙红色；左侧可见较亮的视盘，并有血管向四周分支。"
+      }
+    ],
+    "images": [
+      "images/final/natural_scene-13.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请客观描述图中的主体、环境和重要细节。"
+      },
+      {
+        "role": "assistant",
+        "content": "图中显示夜间发射台上的白色运载火箭。火箭竖立在画面中央偏右；两侧有发射塔架，底部灯光形成星芒。"
+      }
+    ],
+    "images": [
+      "images/final/natural_scene-14.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“画面右上角有醒目的红色文字”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "该说法不符合图像。图中显示夜间发射台上的白色运载火箭。火箭竖立在画面中央偏右；两侧有发射塔架，底部灯光形成星芒。"
+      }
+    ],
+    "images": [
+      "images/final/natural_scene-14.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中清晰可见的文字；无法确认的部分不要猜测。"
+      },
+      {
+        "role": "assistant",
+        "content": "图中是包含街景、店招、票据和手机截图的多图拼图。小图数量较多；可见中文商户名、数字价格和交通标识等多种文字。可辨认文字包括：可辨认数字 2.33 等局部内容；不应把所有小图文字拼成一段连续文本。"
+      }
+    ],
+    "images": [
+      "images/final/ocr-13.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“图中清楚写着 WELCOME HOME”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "该说法不符合图像。图中是包含街景、店招、票据和手机截图的多图拼图。小图数量较多；可见中文商户名、数字价格和交通标识等多种文字。可辨认文字包括：可辨认数字 2.33 等局部内容；不应把所有小图文字拼成一段连续文本。"
+      }
+    ],
+    "images": [
+      "images/final/ocr-13.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请转写图中清晰可见的文字；无法确认的部分不要猜测。"
+      },
+      {
+        "role": "assistant",
+        "content": "图中是一张英文购物收据的照片。收据中央有较大的号码；下方按行列出项目、数量与金额。可辨认文字包括：YOUR NUMBER TOTAL IS；T31232；TOTAL；底部包含 Please See Your Receipt 等提示。"
+      }
+    ],
+    "images": [
+      "images/final/ocr-14.jpeg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“所有文字都是英文印刷体”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "该说法不符合图像。图中是一张英文购物收据的照片。收据中央有较大的号码；下方按行列出项目、数量与金额。可辨认文字包括：YOUR NUMBER TOTAL IS；T31232；TOTAL；底部包含 Please See Your Receipt 等提示。"
+      }
+    ],
+    "images": [
+      "images/final/ocr-14.jpeg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请说明当前界面的用途、主要区域以及用户可以执行的操作。"
+      },
+      {
+        "role": "assistant",
+        "content": "图中显示Microsoft Word 的文档编辑窗口。顶部为 Word 功能区；中央白色页面基本为空，并显示 Copilot 写作提示。"
+      }
+    ],
+    "images": [
+      "images/final/ui-13.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“界面正在显示打印对话框”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "该说法不符合图像。图中显示Microsoft Word 的文档编辑窗口。顶部为 Word 功能区；中央白色页面基本为空，并显示 Copilot 写作提示。"
+      }
+    ],
+    "images": [
+      "images/final/ui-13.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请说明当前界面的用途、主要区域以及用户可以执行的操作。"
+      },
+      {
+        "role": "assistant",
+        "content": "图中显示浏览器中的 Microsoft Corporation 股票信息页。页面中央有价格折线图；右侧显示市场摘要和绿色涨幅数据。"
+      }
+    ],
+    "images": [
+      "images/final/ui-14.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n有人声称：“屏幕中央弹出了系统错误提示”。请先判断该说法是否符合图像，再给出可见依据。"
+      },
+      {
+        "role": "assistant",
+        "content": "该说法不符合图像。图中显示浏览器中的 Microsoft Corporation 股票信息页。页面中央有价格折线图；右侧显示市场摘要和绿色涨幅数据。"
+      }
+    ],
+    "images": [
+      "images/final/ui-14.jpg"
+    ]
+  }
+]

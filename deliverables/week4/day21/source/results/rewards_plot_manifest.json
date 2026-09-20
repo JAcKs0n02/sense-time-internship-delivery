@@ -1,0 +1,32 @@
+{
+  "valid": true,
+  "source_path": "Submission/Week4/Day19_DPO_Training/DPO_Metrics_By_Step.csv",
+  "source_sha256": "55c41c3c99494bcbb5c9c3eda78c156a46c67ac9fe27fe7addf16b53a9418e13",
+  "summary_sha256": "87c30f7d12161ec3210e816a4c564dfc6b59a6228905f083c287a2a9c50c4659",
+  "row_count": 40,
+  "step_range": [
+    1,
+    40
+  ],
+  "validation_steps": [
+    20,
+    40
+  ],
+  "pref_beta": 0.1,
+  "moving_average_window": 20,
+  "csv_sha256": "c8a34b2fa789ede1a718457385520cadb02aa03063cc95733d9f53bef25beb12",
+  "png_sha256": "1ee19599b8903a7e04970d9a8bade2e47ca0ba79c050821f2758be31f96e6b89",
+  "final_train_ma20": {
+    "chosen": 0.03400641945190728,
+    "rejected": 0.004416526667773724,
+    "margin": 0.02958989287726581
+  },
+  "final_validation": {
+    "step": 40,
+    "chosen": 0.055808912962675095,
+    "rejected": 0.0053641414269804955,
+    "margin": 0.050444766879081726,
+    "accuracy": 0.7011494040489197,
+    "loss": 0.6694687008857727
+  }
+}

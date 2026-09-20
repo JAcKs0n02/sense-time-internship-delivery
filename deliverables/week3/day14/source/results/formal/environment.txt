@@ -1,0 +1,12 @@
+2026-08-06T03:55:31Z
+Python 3.10.20
+torch=2.5.1+cu121
+transformers=4.50.0
+peft=0.15.1
+cuda=12.1
+gpu=NVIDIA GeForce RTX 3090
+NVIDIA GeForce RTX 3090, 24576 MiB, 595.58.03
+4631e23d99920acf76888c1158dba4ce11bfbd0192cc1c90f32ac0b8be615395  /root/autodl-tmp/qwen25-week3/incoming/week3-day14-code-v2.tgz
+4967eb0ca0a64937446dff1412bb78878d3e744c4699b43cd4265aec09c2e85e  /root/autodl-tmp/qwen25-week3/day14/source/data/evaluation_questions.json
+f7ef335da29e13b9128230287181f9305251cf5de99746b97a6554335680693d  /root/autodl-tmp/qwen25-week3/day14/source/data/evaluation_rubric.json
+3da46d10c3931e386bdc3cb2f3c0c07a5d0af83108d3f4158756a496555f7732  /root/autodl-tmp/qwen25-week3/results/completed_adapters.json

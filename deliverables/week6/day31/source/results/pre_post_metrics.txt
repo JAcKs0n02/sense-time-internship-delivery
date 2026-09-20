@@ -1,0 +1,8 @@
+metric	applicable	baseline	post	delta
+argument_correctness	24	0.791667	0.916667	+0.125000
+completion	30	0.800000	0.866667	+0.066667
+first_tool_choice	30	0.866667	0.900000	+0.033333
+full_tool_sequence	30	0.866667	0.900000	+0.033333
+no_hallucinated_observations	30	1.000000	1.000000	+0.000000
+no_loops	30	1.000000	1.000000	+0.000000
+all_checks_passed_cases	30	20	24	+4

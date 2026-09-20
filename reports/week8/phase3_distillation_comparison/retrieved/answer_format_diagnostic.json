@@ -1,0 +1,12 @@
+{
+  "before": {
+    "rows": 1346,
+    "single_abcd_answers": 1343,
+    "unparseable_answers": 1
+  },
+  "after": {
+    "rows": 1346,
+    "single_abcd_answers": 1345,
+    "unparseable_answers": 0
+  }
+}

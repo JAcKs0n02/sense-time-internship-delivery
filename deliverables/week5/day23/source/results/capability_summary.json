@@ -1,0 +1,160 @@
+{
+  "schema_version": "1.0",
+  "overall": {
+    "record_count": 25,
+    "strength_counts": {
+      "strong": 7,
+      "acceptable": 12,
+      "weak": 6
+    },
+    "hallucination_counts": {
+      "none": 11,
+      "minor": 8,
+      "severe": 6
+    }
+  },
+  "by_question_type": {
+    "aesthetic_review": {
+      "record_count": 5,
+      "strength_counts": {
+        "strong": 1,
+        "acceptable": 4,
+        "weak": 0
+      },
+      "hallucination_counts": {
+        "none": 3,
+        "minor": 2,
+        "severe": 0
+      },
+      "severe_hallucinations": 0
+    },
+    "description": {
+      "record_count": 5,
+      "strength_counts": {
+        "strong": 1,
+        "acceptable": 2,
+        "weak": 2
+      },
+      "hallucination_counts": {
+        "none": 1,
+        "minor": 2,
+        "severe": 2
+      },
+      "severe_hallucinations": 2
+    },
+    "implicit_reasoning": {
+      "record_count": 5,
+      "strength_counts": {
+        "strong": 2,
+        "acceptable": 3,
+        "weak": 0
+      },
+      "hallucination_counts": {
+        "none": 4,
+        "minor": 1,
+        "severe": 0
+      },
+      "severe_hallucinations": 0
+    },
+    "ocr": {
+      "record_count": 5,
+      "strength_counts": {
+        "strong": 3,
+        "acceptable": 0,
+        "weak": 2
+      },
+      "hallucination_counts": {
+        "none": 3,
+        "minor": 0,
+        "severe": 2
+      },
+      "severe_hallucinations": 2
+    },
+    "structure_explanation": {
+      "record_count": 5,
+      "strength_counts": {
+        "strong": 0,
+        "acceptable": 3,
+        "weak": 2
+      },
+      "hallucination_counts": {
+        "none": 0,
+        "minor": 3,
+        "severe": 2
+      },
+      "severe_hallucinations": 2
+    }
+  },
+  "by_image_type": {
+    "handwritten_formula": {
+      "record_count": 5,
+      "strength_counts": {
+        "strong": 1,
+        "acceptable": 1,
+        "weak": 3
+      },
+      "hallucination_counts": {
+        "none": 2,
+        "minor": 0,
+        "severe": 3
+      },
+      "severe_hallucinations": 3
+    },
+    "logo": {
+      "record_count": 5,
+      "strength_counts": {
+        "strong": 1,
+        "acceptable": 3,
+        "weak": 1
+      },
+      "hallucination_counts": {
+        "none": 2,
+        "minor": 2,
+        "severe": 1
+      },
+      "severe_hallucinations": 1
+    },
+    "natural_scene": {
+      "record_count": 5,
+      "strength_counts": {
+        "strong": 3,
+        "acceptable": 2,
+        "weak": 0
+      },
+      "hallucination_counts": {
+        "none": 3,
+        "minor": 2,
+        "severe": 0
+      },
+      "severe_hallucinations": 0
+    },
+    "table_screenshot": {
+      "record_count": 5,
+      "strength_counts": {
+        "strong": 1,
+        "acceptable": 4,
+        "weak": 0
+      },
+      "hallucination_counts": {
+        "none": 2,
+        "minor": 3,
+        "severe": 0
+      },
+      "severe_hallucinations": 0
+    },
+    "ui_interface": {
+      "record_count": 5,
+      "strength_counts": {
+        "strong": 1,
+        "acceptable": 2,
+        "weak": 2
+      },
+      "hallucination_counts": {
+        "none": 2,
+        "minor": 1,
+        "severe": 2
+      },
+      "severe_hallucinations": 2
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.1",
+  "status": "completed",
+  "baseline_sha256": "313379c51d9f3ac31ca2f9a0933ae17f82928b82c71c3ad5e92a0d99d8c6fc8e",
+  "post_sha256": "17d7779cc17125f13616685d1c0bde2673a2de26b9ef555c847f7df17cd80f03",
+  "case_count": 30,
+  "frozen_eval_file_sha256": "7c7a0aace93c29525edafa630b063647bf4ec630be8cc7f9be52a64cdb433f54",
+  "generation_config": {
+    "do_sample": false,
+    "max_new_tokens": 192,
+    "repetition_penalty": 1.0,
+    "seed": 42
+  },
+  "protocol": {
+    "max_steps": 4,
+    "frozen_eval_file_sha256": "7c7a0aace93c29525edafa630b063647bf4ec630be8cc7f9be52a64cdb433f54",
+    "tool_sources_sha256": "497f9445cb9c2c1a589181ba5013112b21ba708c9b51793b855d2f92329c12e3",
+    "day30_config_sha256": "acf0792bcc86b814f7fd21bf9fff5290288ccdcef10cf41bd1d3ea4b0deb0d1b",
+    "base_model_config_sha256": "620f4c7a944d48024422dbea3429f03b994a3acccf379bf79849c27f08da75ac",
+    "preflight_sha256": "26e5175a98b75411e9a14615e625fc1b7e2f7da69620a248865ffe36ca1cd1a4",
+    "lineage": {
+      "scheme": "A",
+      "load_mode": "verified_week4_merged",
+      "model_dir": "/root/autodl-tmp/qwen25-week4/best_model/qwen25-7b-week4-dpo-corrective-merged",
+      "merged_manifest_path": "/root/autodl-tmp/qwen25-week4/day20/corrective-results/merged_model_manifest.json",
+      "merged_manifest_sha256": "aca9a2932ed427f8fc6e9962e70274eb286a09c446d177af2bc00f6df1675e4c"
+    }
+  },
+  "baseline_model_identity": {
+    "mode": "baseline",
+    "model_path": "/root/autodl-tmp/qwen25-week4/best_model/qwen25-7b-week4-dpo-corrective-merged",
+    "model_path_sha256": "620f4c7a944d48024422dbea3429f03b994a3acccf379bf79849c27f08da75ac",
+    "adapter_path": null,
+    "adapter_model_sha256": null,
+    "adapter_config_sha256": null
+  },
+  "post_model_identity": {
+    "mode": "post",
+    "model_path": "/root/autodl-tmp/qwen25-week4/best_model/qwen25-7b-week4-dpo-corrective-merged",
+    "model_path_sha256": "620f4c7a944d48024422dbea3429f03b994a3acccf379bf79849c27f08da75ac",
+    "adapter_path": "/root/autodl-tmp/qwen25-week6/day31/runs/tool-sft-lora",
+    "adapter_model_sha256": "7d7672cbbe7679d5badb20b040870b616e17c7093813baeb6605ee498925623c",
+    "adapter_config_sha256": "61218d74fb2f4517044e610da120540050ecea1773cdc958fdbb143f30daf00b"
+  },
+  "applicable_counts": {
+    "first_tool_choice": 30,
+    "full_tool_sequence": 30,
+    "argument_correctness": 24,
+    "completion": 30,
+    "no_loops": 30,
+    "no_hallucinated_observations": 30
+  },
+  "metrics": {
+    "argument_correctness": {
+      "baseline": 0.7916666666666666,
+      "post": 0.9166666666666666,
+      "delta": 0.125,
+      "applicable_count": 24
+    },
+    "completion": {
+      "baseline": 0.8,
+      "post": 0.8666666666666667,
+      "delta": 0.06666666666666665,
+      "applicable_count": 30
+    },
+    "first_tool_choice": {
+      "baseline": 0.8666666666666667,
+      "post": 0.9,
+      "delta": 0.033333333333333326,
+      "applicable_count": 30
+    },
+    "full_tool_sequence": {
+      "baseline": 0.8666666666666667,
+      "post": 0.9,
+      "delta": 0.033333333333333326,
+      "applicable_count": 30
+    },
+    "no_hallucinated_observations": {
+      "baseline": 1.0,
+      "post": 1.0,
+      "delta": 0.0,
+      "applicable_count": 30
+    },
+    "no_loops": {
+      "baseline": 1.0,
+      "post": 1.0,
+      "delta": 0.0,
+      "applicable_count": 30
+    }
+  },
+  "all_checks_passed_cases": {
+    "baseline": 20,
+    "post": 24,
+    "delta": 4
+  },
+  "special_cases": {
+    "eval-aurora-zero-shipping-calculator-required": {
+      "baseline_passed": true,
+      "post_passed": true,
+      "baseline_checks": {
+        "first_tool_choice": true,
+        "full_tool_sequence": true,
+        "argument_correctness": true,
+        "completion": true,
+        "no_loops": true,
+        "no_hallucinated_observations": true
+      },
+      "post_checks": {
+        "first_tool_choice": true,
+        "full_tool_sequence": true,
+        "argument_correctness": true,
+        "completion": true,
+        "no_loops": true,
+        "no_hallucinated_observations": true
+      }
+    },
+    "eval-code-no-unnecessary-knowledge": {
+      "baseline_passed": true,
+      "post_passed": true,
+      "baseline_checks": {
+        "first_tool_choice": true,
+        "full_tool_sequence": true,
+        "argument_correctness": true,
+        "completion": true,
+        "no_loops": true,
+        "no_hallucinated_observations": true
+      },
+      "post_checks": {
+        "first_tool_choice": true,
+        "full_tool_sequence": true,
+        "argument_correctness": true,
+        "completion": true,
+        "no_loops": true,
+        "no_hallucinated_observations": true
+      }
+    }
+  },
+  "conclusion": {
+    "argument_correctness_improved": true,
+    "completion_improved": true,
+    "first_tool_choice_improved": true,
+    "full_tool_sequence_improved": true,
+    "no_hallucinated_observations_improved": false,
+    "no_loops_improved": false
+  }
+}

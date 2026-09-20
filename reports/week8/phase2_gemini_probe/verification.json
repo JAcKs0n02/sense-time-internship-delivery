@@ -1,0 +1,42 @@
+{
+  "status": "TWO_CASE_PASS_NOT_RELEASED",
+  "results": [
+    {
+      "case": "EQ-TEXT",
+      "modelVersion": "gemini-3.1-pro-preview",
+      "scores": {
+        "accuracy": 5,
+        "completeness": 5,
+        "logic": 5,
+        "safety": 5,
+        "format": 5,
+        "weighted_score": 5.0
+      },
+      "usage": {
+        "promptTokenCount": 1963,
+        "candidatesTokenCount": 257,
+        "thoughtsTokenCount": 283,
+        "totalTokenCount": 2503
+      }
+    },
+    {
+      "case": "STRICT-BOOL",
+      "modelVersion": "gemini-3.1-pro-preview",
+      "scores": {
+        "accuracy": 5,
+        "completeness": 5,
+        "logic": 5,
+        "safety": 5,
+        "format": 3,
+        "weighted_score": 4.8
+      },
+      "usage": {
+        "promptTokenCount": 1972,
+        "candidatesTokenCount": 234,
+        "thoughtsTokenCount": 826,
+        "totalTokenCount": 3032
+      }
+    }
+  ],
+  "formal_release": false
+}

@@ -1,0 +1,542 @@
+[
+  {
+    "case_id": "chart_table-v8-dev-01--direct",
+    "category": "chart_table",
+    "mode": "direct",
+    "lora": {
+      "scores": {
+        "factual": 2,
+        "instruction": 2,
+        "completeness": 2,
+        "usefulness": 2,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "两者均识别主题和颜色编码，但都用不可靠的洲际或国家趋势替代两项直接可核关系。"
+    },
+    "base": {
+      "scores": {
+        "factual": 2,
+        "instruction": 2,
+        "completeness": 2,
+        "usefulness": 2,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "两者均识别主题和颜色编码，但都用不可靠的洲际或国家趋势替代两项直接可核关系。"
+    }
+  },
+  {
+    "case_id": "chart_table-v8-dev-01--verification",
+    "category": "chart_table",
+    "mode": "verification",
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "结论正确且明确引用 No data 图例。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 4,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "结论正确，依据足够但未保留图例英文原词。"
+    }
+  },
+  {
+    "case_id": "chart_table-v8-dev-02--direct",
+    "category": "chart_table",
+    "mode": "direct",
+    "lora": {
+      "scores": {
+        "factual": 4,
+        "instruction": 4,
+        "completeness": 4,
+        "usefulness": 4,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "正确说明时间、年龄颜色和 25–64 岁区域最大，但错称折线图并加入未核来源。"
+    },
+    "base": {
+      "scores": {
+        "factual": 3,
+        "instruction": 3,
+        "completeness": 3,
+        "usefulness": 3,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "主题和颜色基本正确，但加入未核的年龄增速排名和历史比例。"
+    }
+  },
+  {
+    "case_id": "chart_table-v8-dev-02--verification",
+    "category": "chart_table",
+    "mode": "verification",
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "正确否定并指出 25–64 岁区域最大。"
+    },
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "正确否定并指出 25–64 岁区域最大。"
+    }
+  },
+  {
+    "case_id": "formula-v8-dev-02--direct",
+    "category": "formula",
+    "mode": "direct",
+    "lora": {
+      "scores": {
+        "factual": 1,
+        "instruction": 1,
+        "completeness": 1,
+        "usefulness": 1,
+        "format": 3
+      },
+      "hallucination": true,
+      "notes": "完全虚构不存在的定积分，未转写式 (1)。"
+    },
+    "base": {
+      "scores": {
+        "factual": 1,
+        "instruction": 1,
+        "completeness": 1,
+        "usefulness": 1,
+        "format": 3
+      },
+      "hallucination": true,
+      "notes": "给出求和外形但符号、下标条件和函数结构均不符合目标公式。"
+    }
+  },
+  {
+    "case_id": "formula-v8-dev-02--verification",
+    "category": "formula",
+    "mode": "verification",
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "正确核验求和条件。"
+    },
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "正确核验求和条件。"
+    }
+  },
+  {
+    "case_id": "formula-v8-dev-03--direct",
+    "category": "formula",
+    "mode": "direct",
+    "base": {
+      "scores": {
+        "factual": 4,
+        "instruction": 3,
+        "completeness": 5,
+        "usefulness": 4,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "覆盖四个目标标签，但多列了一个 x，未严格遵守四类范围。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 4,
+        "instruction": 2,
+        "completeness": 5,
+        "usefulness": 3,
+        "format": 3
+      },
+      "hallucination": true,
+      "notes": "包含四个目标，但加入整份文档、颜色与等式布局，不是只转写四个标签。"
+    }
+  },
+  {
+    "case_id": "formula-v8-dev-03--verification",
+    "category": "formula",
+    "mode": "verification",
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "正确否定并指出可见负号。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 1,
+        "instruction": 1,
+        "completeness": 1,
+        "usefulness": 1,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "反向判为符合并丢失清晰负号。"
+    }
+  },
+  {
+    "case_id": "natural_scene-v8-dev-03--direct",
+    "category": "natural_scene",
+    "mode": "direct",
+    "base": {
+      "scores": {
+        "factual": 4,
+        "instruction": 1,
+        "completeness": 4,
+        "usefulness": 3,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "主体和背景基本正确，但明确违反禁止猜测，加入时段、气氛和热带地理猜测。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 4,
+        "instruction": 2,
+        "completeness": 4,
+        "usefulness": 4,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "主体、沙滩和山体正确，但仍猜测清晨或傍晚。"
+    }
+  },
+  {
+    "case_id": "natural_scene-v8-dev-03--verification",
+    "category": "natural_scene",
+    "mode": "verification",
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 4,
+        "completeness": 4,
+        "usefulness": 4,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "结论正确，依据较简略但足够。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 4,
+        "completeness": 4,
+        "usefulness": 4,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "结论正确，依据较简略但足够。"
+    }
+  },
+  {
+    "case_id": "natural_scene-v8-dev-04--direct",
+    "category": "natural_scene",
+    "mode": "direct",
+    "lora": {
+      "scores": {
+        "factual": 2,
+        "instruction": 2,
+        "completeness": 3,
+        "usefulness": 2,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "猜测哈士奇品种并错判两只犬朝右侧，未完成相对位置要求。"
+    },
+    "base": {
+      "scores": {
+        "factual": 3,
+        "instruction": 3,
+        "completeness": 3,
+        "usefulness": 3,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "猜测哈士奇品种且错说后方犬方向相反，但前景犬和雪地背景更接近参考。"
+    }
+  },
+  {
+    "case_id": "natural_scene-v8-dev-04--verification",
+    "category": "natural_scene",
+    "mode": "verification",
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "正确否定并指出奔跑姿态。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 2,
+        "instruction": 2,
+        "completeness": 2,
+        "usefulness": 2,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "虽先说不符合，但所谓视觉依据反而重复两只犬坐着，与可见奔跑姿态矛盾。"
+    }
+  },
+  {
+    "case_id": "ocr-v8-dev-01--direct",
+    "category": "ocr",
+    "mode": "direct",
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "完整准确转写指定招牌。"
+    },
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "完整准确转写指定招牌。"
+    }
+  },
+  {
+    "case_id": "ocr-v8-dev-01--verification",
+    "category": "ocr",
+    "mode": "verification",
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "结论正确并以完整转写为依据。"
+    },
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 3,
+        "completeness": 3,
+        "usefulness": 3,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "结论正确，但没有给出要求的视觉依据。"
+    }
+  },
+  {
+    "case_id": "ocr-v8-dev-02--direct",
+    "category": "ocr",
+    "mode": "direct",
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "完整准确转写指定命令。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "完整准确转写指定命令。"
+    }
+  },
+  {
+    "case_id": "ocr-v8-dev-02--verification",
+    "category": "ocr",
+    "mode": "verification",
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 4,
+        "completeness": 4,
+        "usefulness": 4,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "正确否定，虽未明写 python 开头，但足以排除 pip install。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 1,
+        "instruction": 1,
+        "completeness": 1,
+        "usefulness": 1,
+        "format": 3
+      },
+      "hallucination": true,
+      "notes": "未给出判断，并错称无可见依据。"
+    }
+  },
+  {
+    "case_id": "ui-v8-dev-01--direct",
+    "category": "ui",
+    "mode": "direct",
+    "base": {
+      "scores": {
+        "factual": 4,
+        "instruction": 4,
+        "completeness": 4,
+        "usefulness": 4,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "界面、开关和格式列表基本正确，但漏掉 Windows 快捷键并加入未核色值。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 3,
+        "instruction": 3,
+        "completeness": 3,
+        "usefulness": 3,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "识别界面与启用状态，但错称快捷键未指定，并对部分格式状态做未核断言。"
+    }
+  },
+  {
+    "case_id": "ui-v8-dev-01--verification",
+    "category": "ui",
+    "mode": "verification",
+    "lora": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "正确核验开关为 On。"
+    },
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 5,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "正确核验开关为 On。"
+    }
+  },
+  {
+    "case_id": "ui-v8-dev-02--direct",
+    "category": "ui",
+    "mode": "direct",
+    "base": {
+      "scores": {
+        "factual": 5,
+        "instruction": 5,
+        "completeness": 4,
+        "usefulness": 5,
+        "format": 5
+      },
+      "hallucination": false,
+      "notes": "准确识别 Home、左侧导航、Quick access 和 Modules 区域，内容末尾被截断。"
+    },
+    "lora": {
+      "scores": {
+        "factual": 3,
+        "instruction": 3,
+        "completeness": 3,
+        "usefulness": 3,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "识别主要框架，但加入版本更新和快捷键概览等未核界面内容。"
+    }
+  },
+  {
+    "case_id": "ui-v8-dev-02--verification",
+    "category": "ui",
+    "mode": "verification",
+    "lora": {
+      "scores": {
+        "factual": 1,
+        "instruction": 1,
+        "completeness": 1,
+        "usefulness": 1,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "反向判为符合，忽略多项明显开启的模块开关。"
+    },
+    "base": {
+      "scores": {
+        "factual": 1,
+        "instruction": 1,
+        "completeness": 1,
+        "usefulness": 1,
+        "format": 4
+      },
+      "hallucination": true,
+      "notes": "反向判为符合，忽略多项明显开启的模块开关。"
+    }
+  }
+]

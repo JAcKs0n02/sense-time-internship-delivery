@@ -1,0 +1,52 @@
+[
+  {
+    "prompt_id": "w4-eval-business-01",
+    "candidate_label": "A",
+    "model_alias": "sft_dpo"
+  },
+  {
+    "prompt_id": "w4-eval-business-01",
+    "candidate_label": "B",
+    "model_alias": "sft_only"
+  },
+  {
+    "prompt_id": "w4-eval-business-02",
+    "candidate_label": "A",
+    "model_alias": "sft_dpo"
+  },
+  {
+    "prompt_id": "w4-eval-business-02",
+    "candidate_label": "B",
+    "model_alias": "sft_only"
+  },
+  {
+    "prompt_id": "w4-eval-business-03",
+    "candidate_label": "A",
+    "model_alias": "sft_only"
+  },
+  {
+    "prompt_id": "w4-eval-business-03",
+    "candidate_label": "B",
+    "model_alias": "sft_dpo"
+  },
+  {
+    "prompt_id": "w4-eval-business-04",
+    "candidate_label": "A",
+    "model_alias": "sft_dpo"
+  },
+  {
+    "prompt_id": "w4-eval-business-04",
+    "candidate_label": "B",
+    "model_alias": "sft_only"
+  },
+  {
+    "prompt_id": "w4-eval-business-05",
+    "candidate_label": "A",
+    "model_alias": "sft_dpo"
+  },
+  {
+    "prompt_id": "w4-eval-business-05",
+    "candidate_label": "B",
+    "model_alias": "sft_only"
+  }
+]

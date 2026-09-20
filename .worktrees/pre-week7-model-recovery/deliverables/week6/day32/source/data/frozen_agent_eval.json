@@ -1,0 +1,1879 @@
+[
+  {
+    "id": "eval-calculator-01",
+    "split": "eval_frozen",
+    "category": "calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结评测算式 01：仅返回算式 13 * 7 的计算结果。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"13 * 7\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":91},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "结果为 91。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结评测算式 01：仅返回算式 13 * 7 的计算结果。",
+      "react": [
+        {
+          "Thought": "该请求只需受限算术工具。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "13 * 7"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 91
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "结果为 91。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true
+    }
+  },
+  {
+    "id": "eval-calculator-02",
+    "split": "eval_frozen",
+    "category": "calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结评测算式 02：仅返回算式 256 / 8 的计算结果。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"256 / 8\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":32.0},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "结果为 32.0。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结评测算式 02：仅返回算式 256 / 8 的计算结果。",
+      "react": [
+        {
+          "Thought": "该请求只需受限算术工具。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "256 / 8"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 32.0
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "结果为 32.0。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true
+    }
+  },
+  {
+    "id": "eval-calculator-03",
+    "split": "eval_frozen",
+    "category": "calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结评测算式 03：仅返回算式 (14 + 6) * 5 的计算结果。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"(14 + 6) * 5\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":100},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "结果为 100。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结评测算式 03：仅返回算式 (14 + 6) * 5 的计算结果。",
+      "react": [
+        {
+          "Thought": "该请求只需受限算术工具。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "(14 + 6) * 5"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 100
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "结果为 100。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true
+    }
+  },
+  {
+    "id": "eval-calculator-04",
+    "split": "eval_frozen",
+    "category": "calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结评测算式 04：仅返回算式 77 - 29 的计算结果。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"77 - 29\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":48},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "结果为 48。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结评测算式 04：仅返回算式 77 - 29 的计算结果。",
+      "react": [
+        {
+          "Thought": "该请求只需受限算术工具。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "77 - 29"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 48
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "结果为 48。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true
+    }
+  },
+  {
+    "id": "eval-calculator-05",
+    "split": "eval_frozen",
+    "category": "calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结评测算式 05：仅返回算式 9 ** 3 的计算结果。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"9 ** 3\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":729},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "结果为 729。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结评测算式 05：仅返回算式 9 ** 3 的计算结果。",
+      "react": [
+        {
+          "Thought": "该请求只需受限算术工具。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "9 ** 3"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 729
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "结果为 729。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true
+    }
+  },
+  {
+    "id": "eval-calculator-06",
+    "split": "eval_frozen",
+    "category": "calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结评测算式 06：仅返回算式 101 % 9 的计算结果。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"101 % 9\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":2},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "结果为 2。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结评测算式 06：仅返回算式 101 % 9 的计算结果。",
+      "react": [
+        {
+          "Thought": "该请求只需受限算术工具。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "101 % 9"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 2
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "结果为 2。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true
+    }
+  },
+  {
+    "id": "eval-calculator-07",
+    "split": "eval_frozen",
+    "category": "calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结评测算式 07：仅返回算式 -8 * 11 的计算结果。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"-8 * 11\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":-88},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "结果为 -88。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结评测算式 07：仅返回算式 -8 * 11 的计算结果。",
+      "react": [
+        {
+          "Thought": "该请求只需受限算术工具。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "-8 * 11"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": -88
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "结果为 -88。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true
+    }
+  },
+  {
+    "id": "eval-calculator-08",
+    "split": "eval_frozen",
+    "category": "calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结评测算式 08：仅返回算式 64 // 7 的计算结果。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"64 // 7\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":9},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "结果为 9。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结评测算式 08：仅返回算式 64 // 7 的计算结果。",
+      "react": [
+        {
+          "Thought": "该请求只需受限算术工具。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "64 // 7"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 9
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "结果为 9。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true
+    }
+  },
+  {
+    "id": "eval-calculator-09",
+    "split": "eval_frozen",
+    "category": "calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结评测算式 09：仅返回算式 45 + 55 的计算结果。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"45 + 55\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":100},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "结果为 100。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结评测算式 09：仅返回算式 45 + 55 的计算结果。",
+      "react": [
+        {
+          "Thought": "该请求只需受限算术工具。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "45 + 55"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 100
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "结果为 100。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true
+    }
+  },
+  {
+    "id": "eval-calculator-10",
+    "split": "eval_frozen",
+    "category": "calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结评测算式 10：仅返回算式 7.25 * 4 的计算结果。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"7.25 * 4\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":29.0},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "结果为 29.0。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结评测算式 10：仅返回算式 7.25 * 4 的计算结果。",
+      "react": [
+        {
+          "Thought": "该请求只需受限算术工具。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "7.25 * 4"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 29.0
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "结果为 29.0。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true
+    }
+  },
+  {
+    "id": "eval-aurora-zero-shipping-calculator-required",
+    "split": "eval_frozen",
+    "category": "knowledge_plus_calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结购物评测 01：核对“极光键盘”的落地总额是否高于 800 元；必须先查目录再计算。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"极光键盘\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"aliases\":[\"Aurora Keyboard\",\"极光机械键盘\"],\"description\":\"全尺寸有线机械键盘，适合固定桌面办公。\",\"knowledge_base_sha256\":\"48eee10d15e1ed6f0b87536a0707c5b9af0ce325c8ec48b663a59373ccbcdcae\",\"match_type\":\"exact_name\",\"name\":\"极光键盘\",\"price_cny\":799,\"product_id\":\"aurora-keyboard\",\"shipping_cny\":0,\"stock\":8},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"799 + 0\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":799},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "极光键盘：商品 799 元，运费 0 元，总价 799 元，没有超过 800 元预算，相差 1 元。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结购物评测 01：核对“极光键盘”的落地总额是否高于 800 元；必须先查目录再计算。",
+      "react": [
+        {
+          "Thought": "先读取商品价格和运费。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "极光键盘"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "product_id": "aurora-keyboard",
+              "name": "极光键盘",
+              "aliases": [
+                "Aurora Keyboard",
+                "极光机械键盘"
+              ],
+              "price_cny": 799,
+              "shipping_cny": 0,
+              "stock": 8,
+              "description": "全尺寸有线机械键盘，适合固定桌面办公。",
+              "match_type": "exact_name",
+              "knowledge_base_sha256": "48eee10d15e1ed6f0b87536a0707c5b9af0ce325c8ec48b663a59373ccbcdcae"
+            },
+            "error_code": null
+          }
+        },
+        {
+          "Thought": "已获得两个金额，必须计算总价。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "799 + 0"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 799
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "极光键盘：商品 799 元，运费 0 元，总价 799 元，没有超过 800 元预算，相差 1 元。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true,
+      "budget_cny": 800,
+      "requires_calculator_when_shipping_zero": true
+    }
+  },
+  {
+    "id": "eval-budget-02",
+    "split": "eval_frozen",
+    "category": "knowledge_plus_calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结购物评测 02：核对“Aurora Keyboard”的落地总额是否高于 805 元；必须先查目录再计算。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"Aurora Keyboard\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"aliases\":[\"Aurora Keyboard\",\"极光机械键盘\"],\"description\":\"全尺寸有线机械键盘，适合固定桌面办公。\",\"knowledge_base_sha256\":\"48eee10d15e1ed6f0b87536a0707c5b9af0ce325c8ec48b663a59373ccbcdcae\",\"match_type\":\"exact_alias\",\"name\":\"极光键盘\",\"price_cny\":799,\"product_id\":\"aurora-keyboard\",\"shipping_cny\":0,\"stock\":8},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"799 + 0\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":799},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "极光键盘：商品 799 元，运费 0 元，总价 799 元，没有超过 805 元预算，相差 6 元。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结购物评测 02：核对“Aurora Keyboard”的落地总额是否高于 805 元；必须先查目录再计算。",
+      "react": [
+        {
+          "Thought": "先读取商品价格和运费。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "Aurora Keyboard"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "product_id": "aurora-keyboard",
+              "name": "极光键盘",
+              "aliases": [
+                "Aurora Keyboard",
+                "极光机械键盘"
+              ],
+              "price_cny": 799,
+              "shipping_cny": 0,
+              "stock": 8,
+              "description": "全尺寸有线机械键盘，适合固定桌面办公。",
+              "match_type": "exact_alias",
+              "knowledge_base_sha256": "48eee10d15e1ed6f0b87536a0707c5b9af0ce325c8ec48b663a59373ccbcdcae"
+            },
+            "error_code": null
+          }
+        },
+        {
+          "Thought": "已获得两个金额，必须计算总价。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "799 + 0"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 799
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "极光键盘：商品 799 元，运费 0 元，总价 799 元，没有超过 805 元预算，相差 6 元。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true,
+      "budget_cny": 805
+    }
+  },
+  {
+    "id": "eval-budget-03",
+    "split": "eval_frozen",
+    "category": "knowledge_plus_calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结购物评测 03：核对“极光机械键盘”的落地总额是否高于 810 元；必须先查目录再计算。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"极光机械键盘\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"aliases\":[\"Aurora Keyboard\",\"极光机械键盘\"],\"description\":\"全尺寸有线机械键盘，适合固定桌面办公。\",\"knowledge_base_sha256\":\"48eee10d15e1ed6f0b87536a0707c5b9af0ce325c8ec48b663a59373ccbcdcae\",\"match_type\":\"exact_alias\",\"name\":\"极光键盘\",\"price_cny\":799,\"product_id\":\"aurora-keyboard\",\"shipping_cny\":0,\"stock\":8},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"799 + 0\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":799},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "极光键盘：商品 799 元，运费 0 元，总价 799 元，没有超过 810 元预算，相差 11 元。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结购物评测 03：核对“极光机械键盘”的落地总额是否高于 810 元；必须先查目录再计算。",
+      "react": [
+        {
+          "Thought": "先读取商品价格和运费。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "极光机械键盘"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "product_id": "aurora-keyboard",
+              "name": "极光键盘",
+              "aliases": [
+                "Aurora Keyboard",
+                "极光机械键盘"
+              ],
+              "price_cny": 799,
+              "shipping_cny": 0,
+              "stock": 8,
+              "description": "全尺寸有线机械键盘，适合固定桌面办公。",
+              "match_type": "exact_alias",
+              "knowledge_base_sha256": "48eee10d15e1ed6f0b87536a0707c5b9af0ce325c8ec48b663a59373ccbcdcae"
+            },
+            "error_code": null
+          }
+        },
+        {
+          "Thought": "已获得两个金额，必须计算总价。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "799 + 0"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 799
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "极光键盘：商品 799 元，运费 0 元，总价 799 元，没有超过 810 元预算，相差 11 元。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true,
+      "budget_cny": 810
+    }
+  },
+  {
+    "id": "eval-budget-04",
+    "split": "eval_frozen",
+    "category": "knowledge_plus_calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结购物评测 04：核对“有线”的落地总额是否高于 820 元；必须先查目录再计算。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"有线\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"aliases\":[\"Aurora Keyboard\",\"极光机械键盘\"],\"description\":\"全尺寸有线机械键盘，适合固定桌面办公。\",\"knowledge_base_sha256\":\"48eee10d15e1ed6f0b87536a0707c5b9af0ce325c8ec48b663a59373ccbcdcae\",\"match_type\":\"keyword\",\"name\":\"极光键盘\",\"price_cny\":799,\"product_id\":\"aurora-keyboard\",\"shipping_cny\":0,\"stock\":8},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"799 + 0\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":799},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "极光键盘：商品 799 元，运费 0 元，总价 799 元，没有超过 820 元预算，相差 21 元。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结购物评测 04：核对“有线”的落地总额是否高于 820 元；必须先查目录再计算。",
+      "react": [
+        {
+          "Thought": "先读取商品价格和运费。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "有线"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "product_id": "aurora-keyboard",
+              "name": "极光键盘",
+              "aliases": [
+                "Aurora Keyboard",
+                "极光机械键盘"
+              ],
+              "price_cny": 799,
+              "shipping_cny": 0,
+              "stock": 8,
+              "description": "全尺寸有线机械键盘，适合固定桌面办公。",
+              "match_type": "keyword",
+              "knowledge_base_sha256": "48eee10d15e1ed6f0b87536a0707c5b9af0ce325c8ec48b663a59373ccbcdcae"
+            },
+            "error_code": null
+          }
+        },
+        {
+          "Thought": "已获得两个金额，必须计算总价。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "799 + 0"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 799
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "极光键盘：商品 799 元，运费 0 元，总价 799 元，没有超过 820 元预算，相差 21 元。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true,
+      "budget_cny": 820
+    }
+  },
+  {
+    "id": "eval-budget-05",
+    "split": "eval_frozen",
+    "category": "knowledge_plus_calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结购物评测 05：核对“键盘 有线”的落地总额是否高于 830 元；必须先查目录再计算。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"键盘 有线\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"aliases\":[\"Aurora Keyboard\",\"极光机械键盘\"],\"description\":\"全尺寸有线机械键盘，适合固定桌面办公。\",\"knowledge_base_sha256\":\"48eee10d15e1ed6f0b87536a0707c5b9af0ce325c8ec48b663a59373ccbcdcae\",\"match_type\":\"keyword\",\"name\":\"极光键盘\",\"price_cny\":799,\"product_id\":\"aurora-keyboard\",\"shipping_cny\":0,\"stock\":8},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"799 + 0\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":799},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "极光键盘：商品 799 元，运费 0 元，总价 799 元，没有超过 830 元预算，相差 31 元。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结购物评测 05：核对“键盘 有线”的落地总额是否高于 830 元；必须先查目录再计算。",
+      "react": [
+        {
+          "Thought": "先读取商品价格和运费。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "键盘 有线"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "product_id": "aurora-keyboard",
+              "name": "极光键盘",
+              "aliases": [
+                "Aurora Keyboard",
+                "极光机械键盘"
+              ],
+              "price_cny": 799,
+              "shipping_cny": 0,
+              "stock": 8,
+              "description": "全尺寸有线机械键盘，适合固定桌面办公。",
+              "match_type": "keyword",
+              "knowledge_base_sha256": "48eee10d15e1ed6f0b87536a0707c5b9af0ce325c8ec48b663a59373ccbcdcae"
+            },
+            "error_code": null
+          }
+        },
+        {
+          "Thought": "已获得两个金额，必须计算总价。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "799 + 0"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 799
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "极光键盘：商品 799 元，运费 0 元，总价 799 元，没有超过 830 元预算，相差 31 元。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true,
+      "budget_cny": 830
+    }
+  },
+  {
+    "id": "eval-budget-06",
+    "split": "eval_frozen",
+    "category": "knowledge_plus_calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结购物评测 06：核对“机械 有线”的落地总额是否高于 840 元；必须先查目录再计算。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"机械 有线\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"aliases\":[\"Aurora Keyboard\",\"极光机械键盘\"],\"description\":\"全尺寸有线机械键盘，适合固定桌面办公。\",\"knowledge_base_sha256\":\"48eee10d15e1ed6f0b87536a0707c5b9af0ce325c8ec48b663a59373ccbcdcae\",\"match_type\":\"keyword\",\"name\":\"极光键盘\",\"price_cny\":799,\"product_id\":\"aurora-keyboard\",\"shipping_cny\":0,\"stock\":8},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"799 + 0\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":799},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "极光键盘：商品 799 元，运费 0 元，总价 799 元，没有超过 840 元预算，相差 41 元。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结购物评测 06：核对“机械 有线”的落地总额是否高于 840 元；必须先查目录再计算。",
+      "react": [
+        {
+          "Thought": "先读取商品价格和运费。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "机械 有线"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "product_id": "aurora-keyboard",
+              "name": "极光键盘",
+              "aliases": [
+                "Aurora Keyboard",
+                "极光机械键盘"
+              ],
+              "price_cny": 799,
+              "shipping_cny": 0,
+              "stock": 8,
+              "description": "全尺寸有线机械键盘，适合固定桌面办公。",
+              "match_type": "keyword",
+              "knowledge_base_sha256": "48eee10d15e1ed6f0b87536a0707c5b9af0ce325c8ec48b663a59373ccbcdcae"
+            },
+            "error_code": null
+          }
+        },
+        {
+          "Thought": "已获得两个金额，必须计算总价。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "799 + 0"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 799
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "极光键盘：商品 799 元，运费 0 元，总价 799 元，没有超过 840 元预算，相差 41 元。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true,
+      "budget_cny": 840
+    }
+  },
+  {
+    "id": "eval-budget-07",
+    "split": "eval_frozen",
+    "category": "knowledge_plus_calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结购物评测 07：核对“有线 键盘”的落地总额是否高于 850 元；必须先查目录再计算。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"有线 键盘\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"aliases\":[\"Aurora Keyboard\",\"极光机械键盘\"],\"description\":\"全尺寸有线机械键盘，适合固定桌面办公。\",\"knowledge_base_sha256\":\"48eee10d15e1ed6f0b87536a0707c5b9af0ce325c8ec48b663a59373ccbcdcae\",\"match_type\":\"keyword\",\"name\":\"极光键盘\",\"price_cny\":799,\"product_id\":\"aurora-keyboard\",\"shipping_cny\":0,\"stock\":8},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"799 + 0\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":799},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "极光键盘：商品 799 元，运费 0 元，总价 799 元，没有超过 850 元预算，相差 51 元。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结购物评测 07：核对“有线 键盘”的落地总额是否高于 850 元；必须先查目录再计算。",
+      "react": [
+        {
+          "Thought": "先读取商品价格和运费。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "有线 键盘"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "product_id": "aurora-keyboard",
+              "name": "极光键盘",
+              "aliases": [
+                "Aurora Keyboard",
+                "极光机械键盘"
+              ],
+              "price_cny": 799,
+              "shipping_cny": 0,
+              "stock": 8,
+              "description": "全尺寸有线机械键盘，适合固定桌面办公。",
+              "match_type": "keyword",
+              "knowledge_base_sha256": "48eee10d15e1ed6f0b87536a0707c5b9af0ce325c8ec48b663a59373ccbcdcae"
+            },
+            "error_code": null
+          }
+        },
+        {
+          "Thought": "已获得两个金额，必须计算总价。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "799 + 0"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 799
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "极光键盘：商品 799 元，运费 0 元，总价 799 元，没有超过 850 元预算，相差 51 元。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true,
+      "budget_cny": 850
+    }
+  },
+  {
+    "id": "eval-budget-08",
+    "split": "eval_frozen",
+    "category": "knowledge_plus_calculator",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结购物评测 08：核对“有线 机械 键盘”的落地总额是否高于 860 元；必须先查目录再计算。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"有线 机械 键盘\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"aliases\":[\"Aurora Keyboard\",\"极光机械键盘\"],\"description\":\"全尺寸有线机械键盘，适合固定桌面办公。\",\"knowledge_base_sha256\":\"48eee10d15e1ed6f0b87536a0707c5b9af0ce325c8ec48b663a59373ccbcdcae\",\"match_type\":\"keyword\",\"name\":\"极光键盘\",\"price_cny\":799,\"product_id\":\"aurora-keyboard\",\"shipping_cny\":0,\"stock\":8},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"799 + 0\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"value\":799},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "极光键盘：商品 799 元，运费 0 元，总价 799 元，没有超过 860 元预算，相差 61 元。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结购物评测 08：核对“有线 机械 键盘”的落地总额是否高于 860 元；必须先查目录再计算。",
+      "react": [
+        {
+          "Thought": "先读取商品价格和运费。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "有线 机械 键盘"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "product_id": "aurora-keyboard",
+              "name": "极光键盘",
+              "aliases": [
+                "Aurora Keyboard",
+                "极光机械键盘"
+              ],
+              "price_cny": 799,
+              "shipping_cny": 0,
+              "stock": 8,
+              "description": "全尺寸有线机械键盘，适合固定桌面办公。",
+              "match_type": "keyword",
+              "knowledge_base_sha256": "48eee10d15e1ed6f0b87536a0707c5b9af0ce325c8ec48b663a59373ccbcdcae"
+            },
+            "error_code": null
+          }
+        },
+        {
+          "Thought": "已获得两个金额，必须计算总价。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "799 + 0"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "value": 799
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "极光键盘：商品 799 元，运费 0 元，总价 799 元，没有超过 860 元预算，相差 61 元。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true,
+      "budget_cny": 860
+    }
+  },
+  {
+    "id": "eval-code-no-unnecessary-knowledge",
+    "split": "eval_frozen",
+    "category": "code_executor",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结代码评测 01：只做 AST 安全审查，绝不执行，也不要查商品目录。\ntotal = 1 + 2"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"source\":\"total = 1 + 2\"},\"name\":\"code_executor\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"error_column\":null,\"error_line\":null,\"error_message\":null,\"max_depth\":4,\"node_count\":8,\"risk_nodes\":[],\"syntax_valid\":true},\"error_code\":null,\"status\":\"success\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "静态检查状态：success。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结代码评测 01：只做 AST 安全审查，绝不执行，也不要查商品目录。\ntotal = 1 + 2",
+      "react": [
+        {
+          "Thought": "代码检查已足够，不应追加 knowledge_retrieval。",
+          "Action": "code_executor",
+          "Action Input": {
+            "source": "total = 1 + 2"
+          },
+          "Observation": {
+            "status": "success",
+            "data": {
+              "syntax_valid": true,
+              "error_line": null,
+              "error_column": null,
+              "error_message": null,
+              "node_count": 8,
+              "max_depth": 4,
+              "risk_nodes": []
+            },
+            "error_code": null
+          }
+        }
+      ],
+      "final": "静态检查状态：success。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true,
+      "no_knowledge_retrieval_after_code_check": true
+    }
+  },
+  {
+    "id": "eval-code-02",
+    "split": "eval_frozen",
+    "category": "code_executor",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结代码评测 02：只做 AST 安全审查，绝不执行，也不要查商品目录。\nopen('/tmp/not-run')"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"source\":\"open('/tmp/not-run')\"},\"name\":\"code_executor\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"error_column\":null,\"error_line\":null,\"error_message\":null,\"max_depth\":5,\"node_count\":6,\"risk_nodes\":[\"Call\"],\"syntax_valid\":true},\"error_code\":\"risk_nodes_detected\",\"status\":\"rejected\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "静态检查状态：rejected。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结代码评测 02：只做 AST 安全审查，绝不执行，也不要查商品目录。\nopen('/tmp/not-run')",
+      "react": [
+        {
+          "Thought": "代码检查已足够，不应追加 knowledge_retrieval。",
+          "Action": "code_executor",
+          "Action Input": {
+            "source": "open('/tmp/not-run')"
+          },
+          "Observation": {
+            "status": "rejected",
+            "data": {
+              "syntax_valid": true,
+              "error_line": null,
+              "error_column": null,
+              "error_message": null,
+              "node_count": 6,
+              "max_depth": 5,
+              "risk_nodes": [
+                "Call"
+              ]
+            },
+            "error_code": "risk_nodes_detected"
+          }
+        }
+      ],
+      "final": "静态检查状态：rejected。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true,
+      "no_knowledge_retrieval_after_code_check": true
+    }
+  },
+  {
+    "id": "eval-code-03",
+    "split": "eval_frozen",
+    "category": "code_executor",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结代码评测 03：只做 AST 安全审查，绝不执行，也不要查商品目录。\nvalue ="
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"source\":\"value =\"},\"name\":\"code_executor\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"error_column\":8,\"error_line\":1,\"error_message\":\"invalid syntax\",\"max_depth\":0,\"node_count\":0,\"risk_nodes\":[],\"syntax_valid\":false},\"error_code\":\"syntax_error\",\"status\":\"rejected\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "静态检查状态：rejected。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结代码评测 03：只做 AST 安全审查，绝不执行，也不要查商品目录。\nvalue =",
+      "react": [
+        {
+          "Thought": "代码检查已足够，不应追加 knowledge_retrieval。",
+          "Action": "code_executor",
+          "Action Input": {
+            "source": "value ="
+          },
+          "Observation": {
+            "status": "rejected",
+            "data": {
+              "syntax_valid": false,
+              "error_line": 1,
+              "error_column": 8,
+              "error_message": "invalid syntax",
+              "node_count": 0,
+              "max_depth": 0,
+              "risk_nodes": []
+            },
+            "error_code": "syntax_error"
+          }
+        }
+      ],
+      "final": "静态检查状态：rejected。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true,
+      "no_knowledge_retrieval_after_code_check": true
+    }
+  },
+  {
+    "id": "eval-code-04",
+    "split": "eval_frozen",
+    "category": "code_executor",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结代码评测 04：只做 AST 安全审查，绝不执行，也不要查商品目录。\nimport pathlib"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"source\":\"import pathlib\"},\"name\":\"code_executor\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"error_column\":null,\"error_line\":null,\"error_message\":null,\"max_depth\":3,\"node_count\":3,\"risk_nodes\":[\"Import\"],\"syntax_valid\":true},\"error_code\":\"risk_nodes_detected\",\"status\":\"rejected\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "静态检查状态：rejected。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结代码评测 04：只做 AST 安全审查，绝不执行，也不要查商品目录。\nimport pathlib",
+      "react": [
+        {
+          "Thought": "代码检查已足够，不应追加 knowledge_retrieval。",
+          "Action": "code_executor",
+          "Action Input": {
+            "source": "import pathlib"
+          },
+          "Observation": {
+            "status": "rejected",
+            "data": {
+              "syntax_valid": true,
+              "error_line": null,
+              "error_column": null,
+              "error_message": null,
+              "node_count": 3,
+              "max_depth": 3,
+              "risk_nodes": [
+                "Import"
+              ]
+            },
+            "error_code": "risk_nodes_detected"
+          }
+        }
+      ],
+      "final": "静态检查状态：rejected。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true,
+      "no_knowledge_retrieval_after_code_check": true
+    }
+  },
+  {
+    "id": "eval-code-05",
+    "split": "eval_frozen",
+    "category": "code_executor",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结代码评测 05：只做 AST 安全审查，绝不执行，也不要查商品目录。\nrecord.field = 2"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"source\":\"record.field = 2\"},\"name\":\"code_executor\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"error_column\":null,\"error_line\":null,\"error_message\":null,\"max_depth\":5,\"node_count\":7,\"risk_nodes\":[\"Attribute\"],\"syntax_valid\":true},\"error_code\":\"risk_nodes_detected\",\"status\":\"rejected\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "静态检查状态：rejected。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结代码评测 05：只做 AST 安全审查，绝不执行，也不要查商品目录。\nrecord.field = 2",
+      "react": [
+        {
+          "Thought": "代码检查已足够，不应追加 knowledge_retrieval。",
+          "Action": "code_executor",
+          "Action Input": {
+            "source": "record.field = 2"
+          },
+          "Observation": {
+            "status": "rejected",
+            "data": {
+              "syntax_valid": true,
+              "error_line": null,
+              "error_column": null,
+              "error_message": null,
+              "node_count": 7,
+              "max_depth": 5,
+              "risk_nodes": [
+                "Attribute"
+              ]
+            },
+            "error_code": "risk_nodes_detected"
+          }
+        }
+      ],
+      "final": "静态检查状态：rejected。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true,
+      "no_knowledge_retrieval_after_code_check": true
+    }
+  },
+  {
+    "id": "eval-code-06",
+    "split": "eval_frozen",
+    "category": "code_executor",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结代码评测 06：只做 AST 安全审查，绝不执行，也不要查商品目录。\nfor n in range(2):\n    pass"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"source\":\"for n in range(2):\\n    pass\"},\"name\":\"code_executor\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"error_column\":null,\"error_line\":null,\"error_message\":null,\"max_depth\":5,\"node_count\":9,\"risk_nodes\":[\"Call\"],\"syntax_valid\":true},\"error_code\":\"risk_nodes_detected\",\"status\":\"rejected\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "静态检查状态：rejected。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结代码评测 06：只做 AST 安全审查，绝不执行，也不要查商品目录。\nfor n in range(2):\n    pass",
+      "react": [
+        {
+          "Thought": "代码检查已足够，不应追加 knowledge_retrieval。",
+          "Action": "code_executor",
+          "Action Input": {
+            "source": "for n in range(2):\n    pass"
+          },
+          "Observation": {
+            "status": "rejected",
+            "data": {
+              "syntax_valid": true,
+              "error_line": null,
+              "error_column": null,
+              "error_message": null,
+              "node_count": 9,
+              "max_depth": 5,
+              "risk_nodes": [
+                "Call"
+              ]
+            },
+            "error_code": "risk_nodes_detected"
+          }
+        }
+      ],
+      "final": "静态检查状态：rejected。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true,
+      "no_knowledge_retrieval_after_code_check": true
+    }
+  },
+  {
+    "id": "eval-recovery-01",
+    "split": "eval_frozen",
+    "category": "recovery_or_termination",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结恢复算术：表达式被拒绝时停止，不要重试同一调用。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"0 / 0\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{},\"error_code\":\"division_by_zero\",\"status\":\"rejected\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "工具状态为 rejected，本次请求安全结束。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结恢复算术：表达式被拒绝时停止，不要重试同一调用。",
+      "react": [
+        {
+          "Thought": "执行一次真实工具调用；拒绝后停止。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "0 / 0"
+          },
+          "Observation": {
+            "status": "rejected",
+            "data": {},
+            "error_code": "division_by_zero"
+          }
+        }
+      ],
+      "final": "工具状态为 rejected，本次请求安全结束。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true,
+      "terminates_after_tool_error": true
+    }
+  },
+  {
+    "id": "eval-recovery-02",
+    "split": "eval_frozen",
+    "category": "recovery_or_termination",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结恢复算术：遇到禁止节点时准确报告工具拒绝。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"expression\":\"lambda x: x\"},\"name\":\"calculator\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{},\"error_code\":\"forbidden_node\",\"status\":\"rejected\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "工具状态为 rejected，本次请求安全结束。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结恢复算术：遇到禁止节点时准确报告工具拒绝。",
+      "react": [
+        {
+          "Thought": "执行一次真实工具调用；拒绝后停止。",
+          "Action": "calculator",
+          "Action Input": {
+            "expression": "lambda x: x"
+          },
+          "Observation": {
+            "status": "rejected",
+            "data": {},
+            "error_code": "forbidden_node"
+          }
+        }
+      ],
+      "final": "工具状态为 rejected，本次请求安全结束。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true,
+      "terminates_after_tool_error": true
+    }
+  },
+  {
+    "id": "eval-recovery-03",
+    "split": "eval_frozen",
+    "category": "recovery_or_termination",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结恢复目录：没有此商品时结束，不替换成相似商品。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"雾港摄像机\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"query\":\"雾港摄像机\"},\"error_code\":\"not_found\",\"status\":\"not_found\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "工具状态为 not_found，本次请求安全结束。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结恢复目录：没有此商品时结束，不替换成相似商品。",
+      "react": [
+        {
+          "Thought": "执行一次真实工具调用；拒绝后停止。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "雾港摄像机"
+          },
+          "Observation": {
+            "status": "not_found",
+            "data": {
+              "query": "雾港摄像机"
+            },
+            "error_code": "not_found"
+          }
+        }
+      ],
+      "final": "工具状态为 not_found，本次请求安全结束。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true,
+      "terminates_after_tool_error": true
+    }
+  },
+  {
+    "id": "eval-recovery-04",
+    "split": "eval_frozen",
+    "category": "recovery_or_termination",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结恢复目录：目录未命中时不要编造库存。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"query\":\"松风音箱\"},\"name\":\"knowledge_retrieval\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"query\":\"松风音箱\"},\"error_code\":\"not_found\",\"status\":\"not_found\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "工具状态为 not_found，本次请求安全结束。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结恢复目录：目录未命中时不要编造库存。",
+      "react": [
+        {
+          "Thought": "执行一次真实工具调用；拒绝后停止。",
+          "Action": "knowledge_retrieval",
+          "Action Input": {
+            "query": "松风音箱"
+          },
+          "Observation": {
+            "status": "not_found",
+            "data": {
+              "query": "松风音箱"
+            },
+            "error_code": "not_found"
+          }
+        }
+      ],
+      "final": "工具状态为 not_found，本次请求安全结束。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true,
+      "terminates_after_tool_error": true
+    }
+  },
+  {
+    "id": "eval-recovery-05",
+    "split": "eval_frozen",
+    "category": "recovery_or_termination",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结恢复代码：风险节点被拒绝时不得调用商品工具。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"source\":\"compile('x', '<frozen>', 'exec')\"},\"name\":\"code_executor\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"error_column\":null,\"error_line\":null,\"error_message\":null,\"max_depth\":5,\"node_count\":8,\"risk_nodes\":[\"Call\"],\"syntax_valid\":true},\"error_code\":\"risk_nodes_detected\",\"status\":\"rejected\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "工具状态为 rejected，本次请求安全结束。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结恢复代码：风险节点被拒绝时不得调用商品工具。",
+      "react": [
+        {
+          "Thought": "执行一次真实工具调用；拒绝后停止。",
+          "Action": "code_executor",
+          "Action Input": {
+            "source": "compile('x', '<frozen>', 'exec')"
+          },
+          "Observation": {
+            "status": "rejected",
+            "data": {
+              "syntax_valid": true,
+              "error_line": null,
+              "error_column": null,
+              "error_message": null,
+              "node_count": 8,
+              "max_depth": 5,
+              "risk_nodes": [
+                "Call"
+              ]
+            },
+            "error_code": "risk_nodes_detected"
+          }
+        }
+      ],
+      "final": "工具状态为 rejected，本次请求安全结束。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true,
+      "terminates_after_tool_error": true
+    }
+  },
+  {
+    "id": "eval-recovery-06",
+    "split": "eval_frozen",
+    "category": "recovery_or_termination",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "冻结恢复代码：语法错误时安全终止。"
+      },
+      {
+        "from": "function_call",
+        "value": "{\"arguments\":{\"source\":\"if\"},\"name\":\"code_executor\"}"
+      },
+      {
+        "from": "observation",
+        "value": "{\"data\":{\"error_column\":3,\"error_line\":1,\"error_message\":\"invalid syntax\",\"max_depth\":0,\"node_count\":0,\"risk_nodes\":[],\"syntax_valid\":false},\"error_code\":\"syntax_error\",\"status\":\"rejected\"}"
+      },
+      {
+        "from": "gpt",
+        "value": "工具状态为 rejected，本次请求安全结束。"
+      }
+    ],
+    "tools": "[{\"description\":\"Safely calculates one bounded arithmetic expression.\",\"name\":\"calculator\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible calculator wrapper.\",\"properties\":{\"expression\":{\"description\":\"A single arithmetic expression.\",\"title\":\"Expression\",\"type\":\"string\"}},\"required\":[\"expression\"],\"title\":\"CalculatorInput\",\"type\":\"object\"}},{\"description\":\"Looks up product price, shipping, stock, and descriptions in local JSON.\",\"name\":\"knowledge_retrieval\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible retrieval wrapper.\",\"properties\":{\"query\":{\"description\":\"A product name, alias, or product keyword query.\",\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"KnowledgeRetrievalInput\",\"type\":\"object\"}},{\"description\":\"Parses Python source with ast and reports syntax and risky node types. It never executes the source.\",\"name\":\"code_executor\",\"parameters\":{\"description\":\"Input accepted by the LangChain-compatible AST inspection wrapper.\",\"properties\":{\"source\":{\"description\":\"Python source to parse and inspect only. The source is never executed.\",\"title\":\"Source\",\"type\":\"string\"}},\"required\":[\"source\"],\"title\":\"CodeExecutorInput\",\"type\":\"object\"}}]",
+    "audit": {
+      "prompt": "冻结恢复代码：语法错误时安全终止。",
+      "react": [
+        {
+          "Thought": "执行一次真实工具调用；拒绝后停止。",
+          "Action": "code_executor",
+          "Action Input": {
+            "source": "if"
+          },
+          "Observation": {
+            "status": "rejected",
+            "data": {
+              "syntax_valid": false,
+              "error_line": 1,
+              "error_column": 3,
+              "error_message": "invalid syntax",
+              "node_count": 0,
+              "max_depth": 0,
+              "risk_nodes": []
+            },
+            "error_code": "syntax_error"
+          }
+        }
+      ],
+      "final": "工具状态为 rejected，本次请求安全结束。"
+    },
+    "success_predicates": {
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "tool_selection_exact": true,
+      "arguments_schema_valid": true,
+      "terminates_after_tool_error": true
+    }
+  }
+]

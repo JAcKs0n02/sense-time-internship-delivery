@@ -1,0 +1,7 @@
+{"event": "request", "elapsed_seconds": 0.0002265721559524536, "payload": {"model": "week4-dpo-quantized", "messages": [{"role": "user", "content": "请只回答：部署验证成功。"}], "temperature": 0, "top_p": 1, "max_tokens": 64, "seed": 20260911}}
+{"event": "delta", "elapsed_seconds": 1.146089455112815, "content": "部署"}
+{"event": "delta", "elapsed_seconds": 1.146857276558876, "content": "验证"}
+{"event": "delta", "elapsed_seconds": 1.1605124175548553, "content": "成功"}
+{"event": "delta", "elapsed_seconds": 1.1749844383448362, "content": "。"}
+{"event": "complete", "elapsed_seconds": 1.1903657745569944, "finish_reason": "stop", "text": "部署验证成功。"}
+{"event": "closed", "elapsed_seconds": 1.1904251528903842, "status": "complete"}

@@ -1,0 +1,17 @@
+{
+  "schema_version": "day27-report-input-manifest-1",
+  "generated_on": "2026-08-24",
+  "inputs": [
+    {"path": "day22/source/results/day22_validation.json", "sha256": "f17a12806212ff042258d14b1203f40df40fa98fb31ccee62afe3f6ee97e9f5b"},
+    {"path": "day23/source/results/day23_validation.json", "sha256": "8cfc31868bdd63b433883104c7773bfbab01333b79cfc7b7c9d3832fe1a9de69"},
+    {"path": "day24/source/results/validation_report.json", "sha256": "b62017df38a6efbfef50c911a84d6077ab61024552e2d301ccc425727878d099"},
+    {"path": "day25/source/results/day25_validation.json", "sha256": "ef2840f09190190103ce08cc76a6c4cc1ccaed7af16ef6ecd0ac875af84cbd0d"},
+    {"path": "day26/source/results/day26_validation.json", "sha256": "8589613a1ad43e72f214826ead7421dbe75f6ab950ad6fb6d53358ad61c67bbe"},
+    {"path": "day26/source/results/v7/score_summary_v7_b_dev_s100.json", "sha256": "ab43d3ae57e5d1e43eb421758aa2538249edd266d989bd679e71a6ad11a56343"},
+    {"path": "day26/source/results/v8/data_manifest_v8.json", "sha256": "a11e7f21b5cb540f024ab2ea6442ce13b41b8685990677e1dc655afa29f4fd22"},
+    {"path": "day26/source/results/v8/evidence_candidate_e/results/v8_e_dev_score_summary.json", "sha256": "df97b73bdee2b480176767429ae8c8374dd96a77491cac8e64f8a66bf99195a9"},
+    {"path": "day26/source/results/v8/evidence_candidate_f/results/v8_f_dev_score_summary.json", "sha256": "f1c2f1d79fc6e08b88b8497c49047f2424287b6bfae69a62d71d2823e9191778"},
+    {"path": "day26/source/data/week5_vlm_train_v8_corrective.json", "sha256": "1bc5eb667f24cc9324dbeb1aa09dca042764da76688563b4bfcd33fba9dc04eb"},
+    {"path": "day26/configs/qwen2vl_lora_v8_f_balanced_restart.yaml", "sha256": "2161277c2082a8878f30b45979ee39834e663799fedcd160db23974d169888a1"}
+  ]
+}

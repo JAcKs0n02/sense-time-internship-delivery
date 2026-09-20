@@ -1,0 +1,229 @@
+{
+  "status": "FORMAL_RESUME_TARGET_RELEASED_WAITING_GPU",
+  "evidence_root": "reports/week8/phase2_preflight",
+  "input_lock": {
+    "path": "reports/week8/phase2_preflight/benchmark_input_lock.json",
+    "sha256": "7f13ee8aea88f55ef464a9e256e1740738b89091314f4be27e7a1c4975fa69a0"
+  },
+  "overlap_receipt": {
+    "path": "reports/week8/phase2_preflight/benchmark_overlap_verification.json",
+    "sha256": "cad05a3d7e065c8d723685ce17a6a544e02f658e6da411fb6b7be4875e950a95"
+  },
+  "independent_verification": {
+    "path": "reports/week8/phase2_preflight/independent_verification.json",
+    "sha256": "2ffd71672fd28c6550404376e2b05b9c205035de0eab85f3c0bbc5ade85c712a"
+  },
+  "phase1_protocol_sha256": "de92cce2f90ce30595d752c515ac37ec2730514cefbdf5dc91cf1c474277cffd",
+  "judge": {
+    "model": "deepseek-flash",
+    "url": "https://api.deepseek.com"
+  },
+  "gpu_target": {
+    "provider": "AutoDL",
+    "instance_label": "320机",
+    "instance_id": "be044ebe99-be706b14",
+    "confirmed_by_user": true,
+    "console_observation": "reports/week8/phase2_gpu_320/console_observation.json",
+    "remote_preflight_passed": false,
+    "basic_gpu_and_base_identity_passed": true,
+    "final_power_state": "已关机",
+    "preflight_receipt": "reports/week8/phase2_gpu_320/verification.json",
+    "actual_week8_loader_passed": true,
+    "target_loader_report": "docs/week8_phase2_target_loader_result.md",
+    "whole_model_forward_tested": true,
+    "corrected_prompt_runtime_passed": true,
+    "target_runtime_report": "docs/week8_phase2_target_runtime.md"
+  },
+  "training_allowed": false,
+  "consumed_by_training_or_eval_entrypoint": true,
+  "pending": [
+    "完成正在运行的三模型全量推理和custom20评分；监控状态、时限及失败。",
+    "回收逐题结果与用量，审核覆盖与分数，完成比较报告并关机。"
+  ],
+  "findings": [
+    "cmmlu_gen alias resolves to zero-shot CoT in OpenCompass 0.5.3; existing 32-token limit risks incomplete answers",
+    "official parsed counts 1346/11582 differ from historical summary 1398/11649; never reuse historical counts for new runs",
+    "Actual OpenCompass safe_format recursively substitutes {C} inside inserted math questions; 11 scored source records affected in local reproduction; runtime prompt gate FAILED; fixed by scoped custom template, local actual runtime-03 PASS; target Linux recheck subsequently passed; see target_runtime receipt"
+  ],
+  "evaluation_entrypoint_fail_closed": true,
+  "local_hardening_report": "docs/week8_phase2_eval_hardening.md",
+  "local_prompt_runtime": {
+    "verified": true,
+    "platform": "macOS CPU",
+    "opencompass_version": "0.5.3",
+    "subjects": 119,
+    "questions": 12928,
+    "receipt": "reports/week8/phase2_prompt_fix/runtime-03/verification.json",
+    "report": "docs/week8_phase2_prompt_fix.md",
+    "target_linux_recheck_passed": true,
+    "model_inference_run": false
+  },
+  "formal_config_candidate": {
+    "path": "reports/week8/phase2_target_runtime/local_candidate/runtime_lock_candidate.json",
+    "sha256": "aa8db39436a18d64c9f58434ff131b311cddcba5f977adc18439592204c4456a",
+    "local_cli_dry_run_passed": true,
+    "report": "docs/week8_phase2_formal_config.md",
+    "target_deployment_verified": true,
+    "target_config": "reports/week8/phase2_target_runtime/remote_opencompass_formal.py",
+    "target_config_sha256": "891ce38524a3050fc439e5e9294f367a0bbeed7da21f6a7b5646bfdf9cb88aa7"
+  },
+  "target_runtime": {
+    "verified": true,
+    "receipt": "reports/week8/phase2_target_runtime/receipt_transport.json",
+    "sha256": "5f8100ee61cf2910329ab29ee56f9341a92b0bdffa3f4614d5e1758e0273e84d",
+    "model_forward_passed": true,
+    "benchmark_scored": false
+  },
+  "judge_proposal": {
+    "report": "docs/week8_judge_proposal.md",
+    "provider": "DeepSeek official API",
+    "model": "deepseek-flash",
+    "base_url": "https://api.deepseek.com",
+    "adopted": true,
+    "live_verified": true,
+    "profile_candidate": "configs/week8_judge_profile.json",
+    "formal_scoring_approved": false,
+    "calibration_v2_report": "docs/week8_judge_calibration_v2.md",
+    "calibration_v2_receipt": "reports/week8/phase2_judge_calibration_v2/verification.json",
+    "calibration_v2_sha256": "90a2b343e77dde49f28c282297d400245a25555d199f2882743a857d6c66f17c",
+    "calibration_v3_report": "docs/week8_judge_calibration_v3.md",
+    "calibration_v3_receipt": "reports/week8/phase2_judge_calibration_v3/verification.json",
+    "calibration_v3_sha256": "002271cf6d981367b6bc18794493a83701dfe8a25737b7c13a60e534f525f245",
+    "calibration_small_batch_passed": true,
+    "formal_entrypoint_integrated": true,
+    "integration_report": "docs/week8_judge_entrypoint_integration.md",
+    "integration_receipt": "reports/week8/phase2_judge_integration/verification.json",
+    "integration_receipt_sha256": "8fde8236e5ce95b2ba42402f54f5c5d8e651cca0d7d72d6be46e1d00f88dc06d",
+    "target_deployment": {
+      "verified": true,
+      "credential_verified": true,
+      "receipt": "reports/week8/phase2_judge_target/target_receipt.json",
+      "sha256": "471df2329b1fb80184b549862c1bf371ae37871f9c5cb5ca540134812dddd9ec",
+      "report": "docs/week8_judge_target_deployment.md",
+      "root": "/root/autodl-tmp/week8-judge-runtime-20260916"
+    },
+    "target_credentials": {
+      "verified": true,
+      "receipt": "reports/week8/phase2_judge_credentials/target_receipt.json",
+      "sha256": "a7bd1e5ee06c8bafd235e56882ddee5e238b3a3a29a48316fe0fbb3698f58993",
+      "read_only_api_calls": 2,
+      "paid_scoring_calls": 0
+    }
+  },
+  "release_review": "reports/week8/phase2_final_release/review.json",
+  "integrated_runtime_candidate": {
+    "path": "reports/week8/phase2_judge_integration/runtime_candidate/runtime_lock_candidate.json",
+    "sha256": "1c6790f5c5e1de5e6b4c7a8bb9cb1ff8099b1e84c9f36b2f4ff0da6a9ae21aed"
+  },
+  "target_runtime_release": {
+    "receipt": "reports/week8/phase2_final_release/target_receipt.json",
+    "receipt_sha256": "6c43d3ac7886ed1482d5e2d72cefcb400027890479687b0e5f6e324213da61ae",
+    "runtime_lock": "reports/week8/phase2_final_release/runtime_lock.json",
+    "runtime_lock_sha256": "4986a43e393ebd2017a7e2fad7f8e8fcd063e8811e1b07852828c27b0e0968ec",
+    "target_root": "/root/autodl-tmp/week8-judge-runtime-20260916",
+    "local_runtime_released": false
+  },
+  "training_smoke": {
+    "entrypoint": "scripts/week8_training_smoke.py",
+    "local_verified": true,
+    "verification": "reports/week8/phase2_training_smoke/verification.json",
+    "verification_sha256": "6bfde6253dc0b14e8dab95c1c79f85324db17387133aa232ce053dd85e99c176",
+    "training_started": true,
+    "target_deployed": true,
+    "report": "docs/week8_training_smoke_entry.md",
+    "target_verified": true,
+    "target_status": "GPU_SMOKE_PASS_LOCAL_REVIEWED",
+    "target_root": "/root/autodl-tmp/week8-training-smoke-runtime-20260916",
+    "target_run": "run-01",
+    "target_review": "reports/week8/phase2_training_smoke/target_review.json",
+    "target_review_sha256": "3ce9655da7c64920da7f96123801deafacbe734128a94afa7ea450d908d1c71c",
+    "target_session_close": "reports/week8/phase2_training_smoke/target_session_close.json",
+    "target_session_close_sha256": "fabf1f3c8af175077bfeb3b3e3bd949cc72815e52f2362dcaf1272b9bd15f235",
+    "target_report": "docs/week8_training_smoke_result.md",
+    "full_training_allowed": false
+  },
+  "full_training_preparation": {
+    "status": "FULL_TRAINING_CANDIDATES_VERIFIED_NOT_RELEASED",
+    "plan": "docs/superpowers/plans/2026-09-16-week8-full-training-release.md",
+    "candidate_config_dir": "configs/week8_full_training_candidate",
+    "verification": "reports/week8/phase2_full_training_plan/verification.json",
+    "verification_sha256": "13f5c61b9b1213969fa49704b40702745a53a369a8dbc520d13fda212c5605d9",
+    "training_started": false,
+    "execution_authorized": false,
+    "prior_budget_proposal_superseded": true,
+    "resource_policy": {
+      "quality_first": true,
+      "reduce_training_for_price": false,
+      "avoid_idle_gpu_and_unnecessary_retries": true,
+      "session_window_to_be_sized_before_launch": true
+    }
+  },
+  "full_training_entry": {
+    "status": "FORMAL_TRAINING_PASS_LOCAL_REVIEWED",
+    "entrypoint": "scripts/week8_full_training.py",
+    "report": "docs/week8_full_training_target.md",
+    "verification": "reports/week8/phase2_full_training_entry/verification.json",
+    "verification_sha256": "065516d6868a2cceba8ddc54e6578c7325ab55899287297a93c26399e8b6cc71",
+    "training_started": true,
+    "target_deployed": true,
+    "execution_enabled": false,
+    "quality_evaluated": false,
+    "release": "reports/week8/phase2_full_training_target/release.json",
+    "release_sha256": "c43eebb6b58e80d4be42d9535ea9257fbf6101d0f1d3a4ecd61041489c536c28",
+    "target_status": "reports/week8/phase2_full_training_target/deployment.json",
+    "completed": true,
+    "instance_status": "OFF",
+    "review": "reports/week8/phase2_full_training_target/target_review.json",
+    "review_sha256": "8ed9ef2be4df463191fe823e09ccd965c2e893f4c7c06098954781171c6efc76",
+    "formal_evaluation_allowed": false
+  },
+  "three_model_evaluation": {
+    "status": "TARGET_LOCKS_RELEASED_ENTRYPOINT_PASS",
+    "receipt": "reports/week8/phase2_three_model_eval/verification.json",
+    "sha256": "0d5418542911d8a8294b10c931081ba1f8722d87c9d86b36c61ae7044960c25d",
+    "execution_enabled": false,
+    "formal_inference_completed": false,
+    "report": "docs/week8_three_model_evaluation.md",
+    "target_audit": {
+      "path": "reports/week8/phase2_three_model_eval/target_audit.json",
+      "sha256": "7b897741b926728fa3989213d5d5a80bf823927ec957aa5348cdbcb65f7e1525"
+    },
+    "target_review": {
+      "path": "reports/week8/phase2_three_model_eval/target_review.json",
+      "sha256": "80acf6dddecb6670642e2fb1d110827401d4f68de2d3148fbc52638f23891d6a"
+    },
+    "release_receipt": {
+      "path": "reports/week8/phase2_three_model_eval/release_receipt.json",
+      "sha256": "c00b3e7b1c9790a0cba47e9a4fd1459f66402e43c4571c1e20f96ccab9a100c4"
+    },
+    "runtime_locks": {
+      "original_base": {
+        "path": "reports/week8/phase2_three_model_eval/original_base/runtime_lock.json",
+        "sha256": "ddf8cf644799a6e5fbe2946c911bad6424dcef14148411c927e44269cf2856e0"
+      },
+      "final_sft": {
+        "path": "reports/week8/phase2_three_model_eval/final_sft/runtime_lock.json",
+        "sha256": "a108d93844830964731ac191f2a87a1a506da4c98431fa9c4ae4a48cac66fc6c"
+      },
+      "final_dpo": {
+        "path": "reports/week8/phase2_three_model_eval/final_dpo/runtime_lock.json",
+        "sha256": "e385687c3d6775324fdbb792b6a25d375417f0356049120543181d85aaac0fe6"
+      }
+    },
+    "session_close": {
+      "path": "reports/week8/phase2_three_model_eval/session_close.json",
+      "sha256": "27fc48e772ba34989dad58eb75eb0aea6db4d1ee483a319f22215de9ba2435d3"
+    }
+  },
+  "formal_inference": {
+    "deployment": "reports/week8/phase2_formal_inference/deployment.json",
+    "sha256": "0fe3eb5785d323cae84e5630aa311e9dde447c399483936df284add2e6e8e812",
+    "report": "docs/week8_formal_inference.md",
+    "completed": false,
+    "failure_review": "reports/week8/phase2_formal_inference/failure_review.json",
+    "schema_fix_review": "reports/week8/phase2_eval_schema_fix/recovered_review.json",
+    "recovery_plan": "docs/week8_eval_schema_recovery.md",
+    "resume_entry_review": "reports/week8/phase2_eval_resume/local_review.json",
+    "resume_deployment": "reports/week8/phase2_eval_resume/deployment.json"
+  }
+}

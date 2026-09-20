@@ -1,0 +1,7 @@
+question_count=3
+training_prompt_count=4999
+jaccard_threshold=0.8
+all_questions_novel=true
+id=Q1 status=novel exact_match=false maximum_jaccard=0.146789 closest_training_line=342
+id=Q2 status=novel exact_match=false maximum_jaccard=0.116959 closest_training_line=3817
+id=Q3 status=novel exact_match=false maximum_jaccard=0.104478 closest_training_line=809

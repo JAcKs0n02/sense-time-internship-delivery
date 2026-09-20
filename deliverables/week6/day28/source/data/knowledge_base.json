@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "products_sha256": "48eee10d15e1ed6f0b87536a0707c5b9af0ce325c8ec48b663a59373ccbcdcae",
+  "products": [
+    {
+      "product_id": "aurora-keyboard",
+      "name": "极光键盘",
+      "aliases": ["Aurora Keyboard", "极光机械键盘"],
+      "keywords": ["键盘", "机械", "有线"],
+      "price_cny": 799,
+      "shipping_cny": 0,
+      "stock": 8,
+      "description": "全尺寸有线机械键盘，适合固定桌面办公。"
+    },
+    {
+      "product_id": "nebula-keyboard",
+      "name": "星云机械键盘",
+      "aliases": ["星云键盘", "Nebula Keyboard"],
+      "keywords": ["键盘", "机械", "无线"],
+      "price_cny": 699,
+      "shipping_cny": 20,
+      "stock": 12,
+      "description": "75% 配列的无线机械键盘，支持蓝牙连接。"
+    },
+    {
+      "product_id": "comet-mouse",
+      "name": "彗星鼠标",
+      "aliases": ["Comet Mouse", "无线鼠标"],
+      "keywords": ["鼠标", "无线", "办公"],
+      "price_cny": 249,
+      "shipping_cny": 12,
+      "stock": 30,
+      "description": "轻量无线办公鼠标。"
+    },
+    {
+      "product_id": "orbit-headphones",
+      "name": "轨道耳机",
+      "aliases": ["Orbit Headphones", "降噪耳机"],
+      "keywords": ["耳机", "降噪", "无线"],
+      "price_cny": 899,
+      "shipping_cny": 0,
+      "stock": 5,
+      "description": "头戴式无线降噪耳机。"
+    }
+  ]
+}

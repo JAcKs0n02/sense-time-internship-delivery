@@ -1,0 +1,49 @@
+{
+  "status": "LOCAL_GENERATION_BINDING_AND_TRAINER_STATE_CHECKS_PASS_GPU_PENDING",
+  "checked_at_utc": "2026-09-18T17:37:50.742917+00:00",
+  "tests": {
+    "tests_run": 30,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true
+  },
+  "gpu_started": false,
+  "api_calls": 0,
+  "teacher_answers_generated": false,
+  "student_trained": false,
+  "files": [
+    {
+      "path": "scripts/distill.py",
+      "sha256": "6dc75f8f757475f636ce5197f8e7bb51a54407738c6822d6677f822c113f8782"
+    },
+    {
+      "path": "tests/test_week8_distillation_evidence.py",
+      "sha256": "55bb1611a249059f89b2585600105e381bf8b389deb3f14b7e16d84d357b55d9"
+    },
+    {
+      "path": "docs/week8_distillation_preflight.md",
+      "sha256": "c02a31e9ebfaf655bc460279d67b7f80b44ac53a186e54b13208bed6203902a5"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_preflight/round3/tests.log",
+      "sha256": "df5f6755ba963de1256fb4b54fefb14911efa5b798c7ee4b38155532572ed437"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_preflight/round3/test_result.json",
+      "sha256": "2823873f3ceb959da7bf9fe22ca740a948db92927ab2cc71522a415226daa4d1"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_preflight/round3/teacher_fingerprint_review.json",
+      "sha256": "8d17d20fa987db48441a62427fc004cad0cf5bab71cf65dd8cee98aa2d746496"
+    }
+  ],
+  "remaining": [
+    "target assets/revision/free disk and new bounded session",
+    "real teacher targets and quality review",
+    "target trainer epoch/accumulation semantics before launch",
+    "LoRA update and merged tensor audit",
+    "independent CUDA cold load",
+    "real student before/after CEval and speed"
+  ]
+}

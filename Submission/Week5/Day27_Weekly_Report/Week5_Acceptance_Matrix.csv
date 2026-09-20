@@ -1,0 +1,5 @@
+requirement_id,teacher_requirement,status,actual,evidence
+W5-INFERENCE,完成图文推理,PASS,"5 张图片；25/25 条图文推理；10/10 条幻觉测试",Day22/Day23/Day25 validated artifacts
+W5-ATTENTION,完成注意力可视化,PASS,4 张真实注意力热力图,Day24 validation report and heatmaps
+W5-QUALITY,VLM 微调后有明显效果提升,FAIL,"v8-E gain=-0.5700；v8-F gain=-0.4525；无开发集通过候选",Day26 v8 candidate selection and blind development summaries
+W5-REPORT,第 5 周周报完整,PASS,报告、验收矩阵、模型归档和复现入口完整,Day27 report and model manifest

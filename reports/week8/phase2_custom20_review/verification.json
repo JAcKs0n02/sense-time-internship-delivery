@@ -1,0 +1,32 @@
+{
+  "status": "PACKET_VERIFIED_HUMAN_SCORES_PENDING",
+  "verified_utc": "2026-09-17T22:44:14.597101+00:00",
+  "answers": 60,
+  "reviewers": 2,
+  "rows_per_reviewer": 60,
+  "filled_human_scores": 0,
+  "executed_code_cases": 18,
+  "gpu_started": false,
+  "api_calls": 0,
+  "checks": [
+    "all scored-source receipt hashes verified",
+    "60 answer copies match source requests",
+    "blind mapping covers every answer exactly once",
+    "no model identities or AI scores in reviewer rows",
+    "all human score fields blank",
+    "18 isolated code executions accounted for"
+  ],
+  "files": {
+    "build_packet.py": "ada99329d6011c5219b1730c1662dc697d055a410617a98be8a70c677b7ee247",
+    "review_flags.csv": "a0b44f00bacfb6bbb385d2fcb90295d3ff17c2366937a23bc818be698c59f693",
+    "code_execution.json": "22e5bc1960acfe81321d77b98faec511be46f74a78d5c5bbe3acf44007459750",
+    "run_isolated_checks.py": "475efde43b8a5b84d898330c1088d8cbf32c6901b5b112931e0a22f4f15c15a5",
+    "automatic_review.json": "4a2de356b169e47c917ec349d8ab3b34d420199d1ca42a13bb393f4527734e73",
+    "reviewers/rubric.json": "f7ef335da29e13b9128230287181f9305251cf5de99746b97a6554335680693d",
+    "reviewers/README.md": "f93509925dbb61ebba130a61a3d46b9d7f3cc3ae1d04c7a9c293a2f868a7f4ef",
+    "reviewers/reviewer_1.csv": "4d6fe5c673251b36fcb91a2dc6bfdd23f5eb1d6f735ed7e583614f0eddb719a7",
+    "reviewers/reviewer_2.csv": "0c21882a7dfa660331c3589b78705ee178381b31dc32f7a29f2863d8130da84f",
+    "private/responses.jsonl": "327c801fd0f1b5ed140dba30e7ae582b0c50b18d9c11eafe12b1b392c30af087",
+    "private/blind_mapping.json": "631e99f0349ffa4c79608f5cb116d62c4a086ca35cfd26b84765cadadb7b50f4"
+  }
+}

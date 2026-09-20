@@ -1,0 +1,15 @@
+[
+  "/root/autodl-tmp/conda/envs/llm_exp/bin/python",
+  "/root/autodl-tmp/week8-distillation-gpu-20260918/scripts/distill.py",
+  "generate",
+  "--config",
+  "/root/autodl-tmp/week8-distillation-gpu-20260918/configs/distillation.json",
+  "--input",
+  "/root/autodl-tmp/week8-distillation-gpu-20260918/candidate_prompts.json",
+  "--output-dir",
+  "/root/autodl-tmp/week8-distillation-gpu-20260918/run-01/generation",
+  "--teacher",
+  "/root/autodl-tmp/qwen25-week4/best_model/qwen25-7b-week4-dpo-corrective-merged",
+  "--teacher-manifest",
+  "/root/autodl-tmp/week8-distillation-gpu-20260918/teacher_manifest.json"
+]

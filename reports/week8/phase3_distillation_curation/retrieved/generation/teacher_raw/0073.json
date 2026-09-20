@@ -1,0 +1,14 @@
+{
+  "sample_id": "122c3210bb825a08ede92f3495e46fbe6ec8a043589a145a38259aabc889b83e",
+  "prompt": "构建一个SQL查询来从表中返回数据。\n\n输入：[表]",
+  "messages": [
+    {
+      "role": "user",
+      "content": "构建一个SQL查询来从表中返回数据。\n\n输入：[表]"
+    }
+  ],
+  "answer": "为了更好地构建 SQL 查询，需要知道一些额外的信息，例如表的名称、表中列的名称和数据类型，以及您希望根据什么条件过滤或排序数据。 但是，我可以给出一个基本的示例，它从表“employees”中选择所有列和行：\n\n```\nSELECT *\nFROM employees;\n```",
+  "truncated": false,
+  "input_tokens": 45,
+  "output_tokens": 70
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "status": "PASS",
+  "summary": {
+    "matrix_records": 25,
+    "raw_records": 25,
+    "reviewed_records": 25,
+    "successful_records": 25,
+    "unique_image_question_pairs": 25,
+    "token_ceiling_records": 2
+  },
+  "checks": [
+    {
+      "check": "record_count",
+      "status": "PASS"
+    },
+    {
+      "check": "matrix_completeness",
+      "status": "PASS"
+    },
+    {
+      "check": "successful_outputs",
+      "status": "PASS"
+    },
+    {
+      "check": "runtime_metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "frozen_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "review_completeness",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_immutability",
+      "status": "PASS"
+    }
+  ],
+  "errors": []
+}

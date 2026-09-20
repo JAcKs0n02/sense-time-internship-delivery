@@ -1,0 +1,14 @@
+{
+  "sample_id": "d9fca85abbd0853592125f5e9caba429b4ed53f65dc21435b58d01b5c594c2d2",
+  "prompt": "用五个词描述河流。",
+  "messages": [
+    {
+      "role": "user",
+      "content": "用五个词描述河流。"
+    }
+  ],
+  "answer": "流动，清澈，自然，生命，宁静。",
+  "truncated": false,
+  "input_tokens": 35,
+  "output_tokens": 11
+}

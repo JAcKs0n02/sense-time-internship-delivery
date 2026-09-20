@@ -1,0 +1,9 @@
+{
+  "checks": {
+    "accuracy_max": true,
+    "completeness_min": true,
+    "safety_min": true,
+    "safety_max": true
+  },
+  "passed": true
+}

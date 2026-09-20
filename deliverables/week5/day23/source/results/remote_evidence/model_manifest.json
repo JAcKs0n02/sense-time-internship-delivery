@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "status": "downloaded_verified",
+  "repository": "Qwen/Qwen2-VL-7B-Instruct",
+  "revision": "eed13092ef92e448dd6875b2a00151bd3f7db0ac",
+  "canonical_repository_url": "https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct/tree/eed13092ef92e448dd6875b2a00151bd3f7db0ac",
+  "download_transport_endpoint": "https://huggingface.co",
+  "license": "Apache-2.0",
+  "model_type": "qwen2_vl",
+  "architectures": [
+    "Qwen2VLForConditionalGeneration"
+  ],
+  "remote_model_path": "/root/autodl-tmp/qwen2-vl-week5/models/Qwen2-VL-7B-Instruct",
+  "file_count": 17,
+  "total_bytes": 16594403704,
+  "weight_shards": 5,
+  "weight_bytes": 16582831200,
+  "index_declared_weight_bytes": 16582751232,
+  "files_digest_sha256": "575d62b8abe01fda09b28a02ff8e6cd04e8df0d15fd03e1642d3a22bbe7eb812",
+  "files": [
+    {
+      "relative_path": ".gitattributes",
+      "bytes": 1519,
+      "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361"
+    },
+    {
+      "relative_path": "LICENSE",
+      "bytes": 11343,
+      "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e"
+    },
+    {
+      "relative_path": "README.md",
+      "bytes": 17731,
+      "sha256": "9d30300f11d64f1b424c3d07d85139c24d5382e18ba6a3705739e9a36fe0b651"
+    },
+    {
+      "relative_path": "chat_template.json",
+      "bytes": 1050,
+      "sha256": "ad60d90252ed0b0705ba14e2d0ad0fec0beac1ea955642b54059b36052d8bc96"
+    },
+    {
+      "relative_path": "config.json",
+      "bytes": 1197,
+      "sha256": "4745aaba24756172765cb804b86512792202df6c65ac28989355971bbb27649c"
+    },
+    {
+      "relative_path": "generation_config.json",
+      "bytes": 244,
+      "sha256": "85fb0349cef993fe7d1cab4baa61c81a42326c3a549dc220fcecb43e6eea3413"
+    },
+    {
+      "relative_path": "merges.txt",
+      "bytes": 1671839,
+      "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+    },
+    {
+      "relative_path": "model-00001-of-00005.safetensors",
+      "bytes": 3898649896,
+      "sha256": "eab4f4dc1abf860794c98ce3759b4ace1059fc0fc041ede76b88988b3557c132"
+    },
+    {
+      "relative_path": "model-00002-of-00005.safetensors",
+      "bytes": 3864726320,
+      "sha256": "0546b7cd070ff239de0f61a28770de6a0ac517ad313071e151653e38911ffb25"
+    },
+    {
+      "relative_path": "model-00003-of-00005.safetensors",
+      "bytes": 3864726424,
+      "sha256": "11368ea1e9c0039ca54012a74ac32d543a9e9d980b2d0ad7e93af0341ace1fe6"
+    },
+    {
+      "relative_path": "model-00004-of-00005.safetensors",
+      "bytes": 3864733680,
+      "sha256": "381e110d74db594cc24956af0e74a01ae02104497113a78926990c5bd1f395f6"
+    },
+    {
+      "relative_path": "model-00005-of-00005.safetensors",
+      "bytes": 1089994880,
+      "sha256": "e76ec4dc2e7c0dcbe3432e58fae08e62204a2ef2323069d85c8fa0affb87332a"
+    },
+    {
+      "relative_path": "model.safetensors.index.json",
+      "bytes": 56470,
+      "sha256": "4cb1cbc47a33f4b18226b5d938127227cbdcb21bf0448f78aa665e3dbe7f15d6"
+    },
+    {
+      "relative_path": "preprocessor_config.json",
+      "bytes": 347,
+      "sha256": "b5eaad0c2815f07631535dcc58f3c462b0d73693638ad21d19f3c50820eae1cc"
+    },
+    {
+      "relative_path": "tokenizer.json",
+      "bytes": 7029741,
+      "sha256": "cb63a0a23eef3d5b01063a9880a1925a65aaf4d1591d519910ee3527852950a0"
+    },
+    {
+      "relative_path": "tokenizer_config.json",
+      "bytes": 4190,
+      "sha256": "ff5c4fd898fe8c39591eb70e5d39d2782802d4204d6ae9ba1223252f354842a0"
+    },
+    {
+      "relative_path": "vocab.json",
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  ],
+  "generated_at": "2026-08-18T15:27:57.277926+00:00"
+}

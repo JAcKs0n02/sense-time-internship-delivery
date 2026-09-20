@@ -1,0 +1,7 @@
+{
+  "ended_utc": "2026-09-18T19:42:10.508781+00:00",
+  "completed": [
+    "identity_and_exact_preparation",
+    "two_epoch_training_export_tensor_cold_verification"
+  ]
+}

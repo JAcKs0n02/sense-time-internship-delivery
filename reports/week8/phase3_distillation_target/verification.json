@@ -1,0 +1,97 @@
+{
+  "status": "CPU_TARGET_PREFLIGHT_PASS_GPU_FORWARD_PENDING",
+  "recorded_at_utc": "2026-09-18T18:08:47.205838+00:00",
+  "instance": "be044ebe99-be706b14",
+  "instance_off_verified": true,
+  "recovered_json_receipts": 7,
+  "teacher_files_matched": 14,
+  "student_files_matched": 8,
+  "student_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "ceval_prompt_subjects": 52,
+  "ceval_prompt_questions": 1346,
+  "max_input_tokens": 1361,
+  "truncation_changes": 0,
+  "tests": {
+    "tests_run": 37,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true
+  },
+  "real_student_training_run": false,
+  "gpu_forward_run": false,
+  "pending": [
+    "new bounded GPU session and platform shutdown",
+    "real student CUDA load and forward",
+    "whole generation/training process timeout protection",
+    "teacher generation and answer review",
+    "actual LLaMA-Factory processed dataset count and complete two epochs",
+    "student tensor/cold-load verification and CEval/speed comparison"
+  ],
+  "files": [
+    {
+      "path": "scripts/distill.py",
+      "sha256": "55ee1d9891b87eb52d4ad837cd61c047275ad3a3a81d0d9414cb93bb1c5a041f"
+    },
+    {
+      "path": "tests/test_week8_distillation_evidence.py",
+      "sha256": "e2888a07dc8d4b5be71a1b56f5d0125a7679a4151b80a5e0af19c2ae75ad0352"
+    },
+    {
+      "path": "docs/week8_distillation_preflight.md",
+      "sha256": "c7f9fa55413cf2b79f0b64b9f06dd4a0734663acf3196122f2fe7d75647ea749"
+    },
+    {
+      "path": "docs/week8_acceptance_audit.md",
+      "sha256": "d29647e2a8ed49592ef610ac9f764911526f7abb820938c0248d2fbfd43dde67"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_target/probe_epoch_schedule.py",
+      "sha256": "abc86ea2e0b597d62c7a8076e629f6ae6e652c1c2253b6c67ab94da2b2a4f3d5"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_target/recovered_bundle.json",
+      "sha256": "dd172bfe588d9f2948d022ca3083fae74c117e74f9aeebd46824fd7e49959864"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_target/retrieved/environment.json",
+      "sha256": "2f37db2612b58a1eef759a968216a2a064d65f79ac7698d00f9d2a062b95d5eb"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_target/retrieved/epoch_probe.json",
+      "sha256": "8b8d5e8796296660eeace21f107eb2d7ef8dd02f06bc72e87a78812a17111b97"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_target/retrieved/inventory.json",
+      "sha256": "3cbd390d39f86bbf6515ccee64f52738f6b4cd69028cb63ebaccb527015020fe"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_target/retrieved/student_header.json",
+      "sha256": "bd2d84ae0eeb163138d5503756ffa9cf82796f8d3f1ab45444c73b02e29c685c"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_target/retrieved/student_manifest.json",
+      "sha256": "026367d80e1b28ce1c70920b67171b3ea9003d210b3040fe97ad8cea9fdf7475"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_target/retrieved/teacher_verified.json",
+      "sha256": "0fb31bcf557848a879f45bfdceaccc6d6b8c7d3ca44c57f1d180dd9332d115a0"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_target/session.json",
+      "sha256": "452603e67d8d14841bdfedab8f00fa61dcd6363a8f1a79aa7d2d0c220f751758"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_target/student_source.json",
+      "sha256": "47629aecc3bad555b77b8ace8ebd34b4fb27eb616399ffe2fe793a87758ea214"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_target/test_result.json",
+      "sha256": "bdba7af9392e8ec27573e7f55c49b0a2ffe1108526ad50b8f7e57f7cfaa10051"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_target/tests.log",
+      "sha256": "b7bad7127079edb4a2453b88ebd524ebadf6e434df94708b801859e31af8e243"
+    }
+  ]
+}

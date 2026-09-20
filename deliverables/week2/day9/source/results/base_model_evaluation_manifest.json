@@ -1,0 +1,24 @@
+{
+  "valid": true,
+  "evaluation_name": "week2_day9_base_vs_merged",
+  "model_label": "Model A",
+  "model_dir": "/root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct",
+  "questions_file": "/root/autodl-tmp/qwen25-week2/day9/source/results/evaluation_questions.json",
+  "question_count": 3,
+  "question_ids": [
+    "Q1",
+    "Q2",
+    "Q3"
+  ],
+  "generation_config": {
+    "do_sample": false,
+    "max_new_tokens": 512,
+    "repetition_penalty": 1.05,
+    "seed": 42
+  },
+  "device": "cuda:0",
+  "dtype": "bfloat16",
+  "validate_only": false,
+  "response_count": 3,
+  "completed_at_utc": "2026-07-30T09:24:55.524806+00:00"
+}

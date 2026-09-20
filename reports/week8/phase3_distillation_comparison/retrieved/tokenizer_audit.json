@@ -1,0 +1,13 @@
+{
+  "status": "TOKENIZER_AND_ACTUAL_OC_PROMPTS_PASS",
+  "questions": 1346,
+  "subjects": 52,
+  "speed_prompts": 12,
+  "max_input_tokens": 1361,
+  "backend_equal": true,
+  "vocab_equal": true,
+  "chat_template_equal": true,
+  "no_truncation": true,
+  "padding_policy": "original canonical tokenizer used in both isolated views; batch_size=1",
+  "prompt_rows_sha256": "29ea4ef7e49cea8e12280f76c64078e670a7f94518bc200fd4fda3f0e2dc9ea9"
+}

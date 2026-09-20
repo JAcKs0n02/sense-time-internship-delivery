@@ -1,0 +1,67 @@
+{
+  "sft_only": {
+    "valid": true,
+    "model_alias": "sft_only",
+    "response_count": 15,
+    "prompt_ids": [
+      "w4-eval-business-01",
+      "w4-eval-business-02",
+      "w4-eval-business-03",
+      "w4-eval-business-04",
+      "w4-eval-business-05",
+      "w4-eval-safety-01",
+      "w4-eval-safety-02",
+      "w4-eval-safety-03",
+      "w4-eval-safety-04",
+      "w4-eval-safety-05",
+      "w4-eval-safety-06",
+      "w4-eval-safety-07",
+      "w4-eval-safety-08",
+      "w4-eval-safety-09",
+      "w4-eval-safety-10"
+    ],
+    "generation_config": {
+      "do_sample": false,
+      "max_new_tokens": 512,
+      "repetition_penalty": 1.0,
+      "seed": 42,
+      "dtype": "bfloat16",
+      "device": "cuda:0"
+    },
+    "response_sha256": "033c4301574f04dc9709bfd5e457bd9f975909c487d5541fa24fc52314a38586",
+    "manifest_sha256": "c5a852f1c409e2fc9618a11cc7a6514e11af23906fa35a7ebe63aa37233b2617"
+  },
+  "sft_dpo": {
+    "valid": true,
+    "model_alias": "sft_dpo",
+    "response_count": 15,
+    "prompt_ids": [
+      "w4-eval-business-01",
+      "w4-eval-business-02",
+      "w4-eval-business-03",
+      "w4-eval-business-04",
+      "w4-eval-business-05",
+      "w4-eval-safety-01",
+      "w4-eval-safety-02",
+      "w4-eval-safety-03",
+      "w4-eval-safety-04",
+      "w4-eval-safety-05",
+      "w4-eval-safety-06",
+      "w4-eval-safety-07",
+      "w4-eval-safety-08",
+      "w4-eval-safety-09",
+      "w4-eval-safety-10"
+    ],
+    "generation_config": {
+      "do_sample": false,
+      "max_new_tokens": 512,
+      "repetition_penalty": 1.0,
+      "seed": 42,
+      "dtype": "bfloat16",
+      "device": "cuda:0"
+    },
+    "response_sha256": "412ff7954bad62876d2ea497cd875490f37f8307eacf6c30a5171c17c25d01d6",
+    "manifest_sha256": "1ec1960c1cf05110d781e44a0fa9fcd27203eec2a7826391c7a4edf21e81ab87"
+  },
+  "total_responses": 30
+}

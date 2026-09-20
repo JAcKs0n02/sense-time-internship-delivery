@@ -1,0 +1,59 @@
+{
+  "run_ids": [
+    "rank-r8",
+    "lr-1e-4",
+    "epoch-e3"
+  ],
+  "successful_run_ids": [
+    "rank-r8",
+    "lr-1e-4",
+    "epoch-e3"
+  ],
+  "complete": true,
+  "metrics": {
+    "final_loss": {
+      "raw": {
+        "rank-r8": 0.9714,
+        "lr-1e-4": 0.9701,
+        "epoch-e3": 0.9744
+      },
+      "mean": 0.9719666666666666,
+      "standard_deviation": 0.0022052966542697805,
+      "minimum": 0.9701,
+      "maximum": 0.9744
+    },
+    "train_runtime_seconds": {
+      "raw": {
+        "rank-r8": 11495.892,
+        "lr-1e-4": 11458.0616,
+        "epoch-e3": 11471.0034
+      },
+      "mean": 11474.985666666667,
+      "standard_deviation": 19.227028550800977,
+      "minimum": 11458.0616,
+      "maximum": 11495.892
+    },
+    "wall_clock_runtime_seconds": {
+      "raw": {
+        "rank-r8": 11523.30006393604,
+        "lr-1e-4": 11484.801687737927,
+        "epoch-e3": 11496.253118995577
+      },
+      "mean": 11501.451623556515,
+      "standard_deviation": 19.76865143922123,
+      "minimum": 11484.801687737927,
+      "maximum": 11523.30006393604
+    },
+    "sampled_peak_gpu_memory_mib": {
+      "raw": {
+        "rank-r8": 21096,
+        "lr-1e-4": 21096,
+        "epoch-e3": 21096
+      },
+      "mean": 21096.0,
+      "standard_deviation": 0.0,
+      "minimum": 21096.0,
+      "maximum": 21096.0
+    }
+  }
+}

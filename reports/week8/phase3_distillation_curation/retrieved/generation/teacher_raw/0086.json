@@ -1,0 +1,14 @@
+{
+  "sample_id": "890e0b1293abb466a4684548a61789640769bb9d37d3162ecd829881fa6ec96c",
+  "prompt": "请将下列德语翻译成中文\n\nWann hat Tom Brady seinen ersten Ring gewonnen",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请将下列德语翻译成中文\n\nWann hat Tom Brady seinen ersten Ring gewonnen"
+    }
+  ],
+  "answer": "汤姆·布雷迪什么时候赢得他的第一枚戒指",
+  "truncated": false,
+  "input_tokens": 48,
+  "output_tokens": 13
+}

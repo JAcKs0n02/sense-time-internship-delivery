@@ -1,0 +1,14 @@
+{
+  "sample_id": "b4d8962bab697bfc8f5a37c7ee55c8b8713928f73f0f3727a0fc1d5691926ceb",
+  "prompt": "用印地语回复以下给定的'指令'和'输入'，各段用换行符分隔：\n\n指令：将以下设备分类为“电子”或“非电子”：iPhone、铲子、Samsung Galaxy、计算器、梯子、纸\n输入：",
+  "messages": [
+    {
+      "role": "user",
+      "content": "用印地语回复以下给定的'指令'和'输入'，各段用换行符分隔：\n\n指令：将以下设备分类为“电子”或“非电子”：iPhone、铲子、Samsung Galaxy、计算器、梯子、纸\n输入："
+    }
+  ],
+  "answer": "इलेक्ट्रonic: iPhone, Samsung Galaxy, कैलकुलेटर\nNon-इलेक्ट्रonic: फाँड़ी, सीढ़ी, पेपर",
+  "truncated": false,
+  "input_tokens": 88,
+  "output_tokens": 57
+}

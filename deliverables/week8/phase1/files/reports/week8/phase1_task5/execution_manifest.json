@@ -1,0 +1,40 @@
+{
+  "status": "TASK5_FINAL_ARTIFACT_CHECK_PASS",
+  "final_evidence_dir": "logs/week8-real-loader-20260915/attempt-02",
+  "superseded_evidence_dir": "logs/week8-real-loader-20260915/attempt-01",
+  "loader_command": "/tmp/internship-week8-loader-20260915/bin/python scripts/check_week8_loader.py --data-dir logs/week8-protocol-data-20260914/run-a --output-dir logs/week8-real-loader-20260915/attempt-02",
+  "tests_command": ".venv/bin/python -m pytest tests/test_week8_pipeline.py tests/test_week8_protocol_data.py tests/test_week8_loader.py -q",
+  "tests_passed": 27,
+  "source_hashes_unchanged": true,
+  "protocol_sha256": "de92cce2f90ce30595d752c515ac37ec2730514cefbdf5dc91cf1c474277cffd",
+  "document_links_validated": 12,
+  "phase1_checklist": {
+    "complete": 22,
+    "pending": 3
+  },
+  "implementation_sha256": {
+    "scripts/check_week8_loader.py": "ef32ea44b01e0030e834e473caa3d4aa408388f9375242eccea78d87f04cb590",
+    "tests/test_week8_loader.py": "2aaeeeb7ddb619a780591d0ab79edfce5cb09a5ec3c27e1a048c0a6efb8ec0d7",
+    "configs/requirements-loader-cpu.txt": "3827986be58120024a2c1483e98ad90a0d2bbf54ddfbee24839aa0e17fc7885e",
+    "docs/week8_phase1_task5_result.md": "97b6e38d5c7eaa35dee4df72c6b53d5facdc052134a5592fdaebf57f30f5ca07"
+  },
+  "report_sha256": {
+    "audit_overrides.json": "1256bbd817f77dd19170f4197926591ed2febe1b09bf2773fd52ae9f644ed415",
+    "config_identity.json": "a1e13571909464b8e673bb0099ead2c7389a4944a159d65a65dccc8cba2d2558",
+    "effective_sft_config.yaml": "c12b1e68fdaf4ba527430c6654643d9898cdf7b92dc12a974a37a92963627465",
+    "environment.json": "9e83b4a523e36af0c32c9b829b917c953b848dc76c922d8687c4987840898c8a",
+    "environment_freeze.txt": "0f3e46689c3d856eb5da57f3d66183e5c97045b5ae52b21e3336b7c02e4b3dcd",
+    "framework_code_sha256.json": "6da840d9f9ccf732cf46d5aaee465dab285dda5bfab623dba92820238219c657",
+    "independent_verification.json": "75b56f27b93ef6a023603da6840fcc86ba53f8581251b841156e85e43deac70e",
+    "install.log": "b30538a1add8442a8b067c9d6bc14ab6ae791b2562b179c3127a6b118ca7a7fa",
+    "loader.log": "2543e95d87d556517ad2fd1215e583ab84b7ea3ae4d22e9a037ebedeb1e47136",
+    "pip_check.txt": "9261363b733079a641c2e4cc9bc46ffa1d8336945a87f807b6cf68847dbc9b09",
+    "representative_spans.json": "f0520d33d6ce64718d15c05ae1c278b45e638f7436eb77ec0a8cdf0d05beae82",
+    "superseded_attempt_01.log": "92ae0fb6a451e39386c6a9b52b43c370756141c494d4ccc188a6ea89ed8f0f7a",
+    "synthetic_receipt.json": "19152401fdcb511330c6ed078c52cc5d57d28a2dff7987f145065014fbed54ff",
+    "tests.txt": "e223cc168e99c5e1d8b3d690d2c7fe3701b63bda7679b58ae93e3907ff44bd3a",
+    "tests_red_assets.txt": "d6b5cbdeebef4aa984f2abc0caac6c633bdc057fef35276d5baf44d7515270c9",
+    "tests_red_supervision.txt": "8b7aa8e6d11601d8132990a1fd7ee2c1d3e428b3656bf97ed858d95b50a7f5ca",
+    "verification.json": "750bdb021053042d2fe9d6ad77c35504fb2663990408fdcf95a28d9d41866e8d"
+  }
+}

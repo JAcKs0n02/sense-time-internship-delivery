@@ -1,0 +1,13 @@
+{
+  "name": "current_scoring_reuse",
+  "command": [
+    "/tmp/week8-delivery-fresh-20260919/bin/python",
+    "scripts/pipeline/step3_eval.py",
+    "--phase",
+    "score",
+    "--output-dir",
+    "logs/delivery-fresh-cached-evaluation"
+  ],
+  "returncode": 1,
+  "elapsed_seconds": 0.21
+}

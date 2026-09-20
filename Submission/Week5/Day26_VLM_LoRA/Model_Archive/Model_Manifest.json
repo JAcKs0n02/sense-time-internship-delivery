@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "peft_lora_adapter",
+  "base_model": "Qwen/Qwen2-VL-7B-Instruct",
+  "base_revision": "eed13092ef92e448dd6875b2a00151bd3f7db0ac",
+  "base_model_files_digest_sha256": "575d62b8abe01fda09b28a02ff8e6cd04e8df0d15fd03e1642d3a22bbe7eb812",
+  "base_model_manifest_sha256": "d81b269bdb13194e4bd431518cba6e3d6d4cc36f7215138514d60f6d4e4f530e",
+  "framework": "LLaMA-Factory 0.9.3",
+  "framework_revision": "ca75f1edf3cb50343ed1c98605141c3e22075b5f",
+  "selected_checkpoint": "checkpoint-84",
+  "selected_lora_scale": 0.85,
+  "training_dataset_weighted_sha256": "6d1d4a6a37c45faab44782e349ce5329c3f2a355adc885a26acb81e6c0b57b0d",
+  "training_input_source_manifest_sha256": "768be56caf7a225d56716d944b1190829362835121d325b06429b1b4056bd89a",
+  "training_config_sha256": "594217d54e125b61bc5f7a490c07bb10b584b8bc9e89bb510766924ffaacccb2",
+  "remote_directory": "/root/autodl-tmp/qwen2-vl-week5/day26/runs/formal_lora_v6_grounded",
+  "files": {
+    "adapter_model.safetensors": {
+      "bytes": 161533192,
+      "sha256": "fb36ad9452cdd1444b06f368c6c39a5d70c973769ccb886c4c811d88f15aa423",
+      "included_in_git": false
+    },
+    "adapter_config.json": {
+      "bytes": 892,
+      "sha256": "b5b03a14d6baef9c3a8e4be338aede9453bcb395ad35de68ca97ef4e1003d860",
+      "included_in_git": false
+    }
+  },
+  "frozen_vision_tower_verified": true,
+  "frozen_multimodal_projector_verified": true,
+  "freeze_verification_method": [
+    "llamafactory_trainer_freeze_log",
+    "trainable_parameter_name_audit",
+    "adapter_key_audit",
+    "base_reference_sha_before_after_adapter_load"
+  ],
+  "training_process_tensor_snapshot_available": false
+}

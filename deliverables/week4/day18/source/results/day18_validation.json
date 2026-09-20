@@ -1,0 +1,12 @@
+{
+  "errors": [],
+  "eval_contamination_count": 0,
+  "eval_near_contamination_count": 0,
+  "exact_duplicate_group_count": 0,
+  "self_built_count": 210,
+  "total_count": 710,
+  "train_count": 639,
+  "ultrafeedback_count": 500,
+  "valid": true,
+  "validation_count": 71
+}

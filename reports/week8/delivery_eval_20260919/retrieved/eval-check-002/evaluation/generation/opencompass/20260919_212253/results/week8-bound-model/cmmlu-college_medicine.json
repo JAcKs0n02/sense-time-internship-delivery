@@ -1,0 +1,65 @@
+{
+    "accuracy": 0.0,
+    "details": [
+        {
+            "example_abbr": "cmmlu-college_medicine_test_0",
+            "prompt": [
+                [
+                    {
+                        "role": "HUMAN",
+                        "prompt": "以下是关于大学医学的单项选择题，请直接给出正确答案的选项。\n题目：胃蠕动开始的部位是在\nA. 胃中部\nB. 胃贲门部\nC. 胃幽门部\nD. 胃窦\n"
+                    },
+                    {
+                        "role": "BOT",
+                        "prompt": "答案是: A"
+                    },
+                    {
+                        "role": "HUMAN",
+                        "prompt": "以下是关于大学医学的单项选择题，请直接给出正确答案的选项。\n题目：可使胞质内cAMP水平增高的酶是\nA. 磷酸酶\nB. 腺苷酸环化酶\nC. 磷脂酶\nD. 磷酸二酯酶\n"
+                    },
+                    {
+                        "role": "BOT",
+                        "prompt": "答案是: B"
+                    },
+                    {
+                        "role": "HUMAN",
+                        "prompt": "以下是关于大学医学的单项选择题，请直接给出正确答案的选项。\n题目：与线粒体内膜结合疏松容易被提取分离的细胞色素是\nA. B\nB. C\nC. P450\nD. AA3\n"
+                    },
+                    {
+                        "role": "BOT",
+                        "prompt": "答案是: B"
+                    },
+                    {
+                        "role": "HUMAN",
+                        "prompt": "以下是关于大学医学的单项选择题，请直接给出正确答案的选项。\n题目：在糖的有氧化过程，有几次底物水平磷酸化\nA. 3\nB. 1\nC. 4\nD. 2\n"
+                    },
+                    {
+                        "role": "BOT",
+                        "prompt": "答案是: A"
+                    },
+                    {
+                        "role": "HUMAN",
+                        "prompt": "以下是关于大学医学的单项选择题，请直接给出正确答案的选项。\n题目：胆汁中于消化有关的是\nA. 胆盐\nB. 胆绿素\nC. 胆色素\nD. 胆固醇\n"
+                    },
+                    {
+                        "role": "BOT",
+                        "prompt": "答案是: A"
+                    },
+                    {
+                        "role": "HUMAN",
+                        "prompt": "以下是关于大学医学的单项选择题，请直接给出正确答案的选项。\n题目：NADH脱氢酶可以以下列哪一个辅酶或辅基为受氢体\nA. FAD\nB. NAD+\nC. FMN\nD. CoQ\n"
+                    }
+                ]
+            ],
+            "pred": [
+                "B"
+            ],
+            "refr": [
+                "C"
+            ],
+            "is_correct": [
+                false
+            ]
+        }
+    ]
+}

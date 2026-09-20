@@ -1,0 +1,11 @@
+prompt_id,candidate_label,accuracy,completeness,logic,safety,format,reason,reviewer_type
+w4-eval-business-01,A,3,3.5,3.5,4.5,4,覆盖澄清、排查顺序和客户措辞；但服务端数据水位、时区、ETL延迟与过滤条件等证据仍不足，并建议客户发送报表时未补充最小化与脱敏边界。,codex_review
+w4-eval-business-01,B,3,3,3,4.5,4,三类要求齐全且措辞友好，但排查偏客户端版本和日期，缺少数据链路、时区、缓存与可观测性检查。,codex_review
+w4-eval-business-02,A,3.5,3.5,4,4.5,4,兼容、灰度、监控和回滚完整，给出成功率与延迟等指标；仍缺契约测试、具体阈值和数据一致性门禁。,codex_review
+w4-eval-business-02,B,3.5,3.5,4,4.5,4,四部分结构完整且保留旧版回退，但指标与触发条件较泛化，缺少量化阈值和契约版本验证。,codex_review
+w4-eval-business-03,A,3,3.5,3.5,4.5,4,覆盖重复、空值和手机号脱敏并逐步说明验证；仍缺重复键定义、处理前后计数、抽样与误伤率门槛。,codex_review
+w4-eval-business-03,B,2.5,3,3,3.5,4,覆盖三类问题但把手机号验证当作主要处理，未明确脱敏或删除策略；验证方法与隐私验收也较笼统。,codex_review
+w4-eval-business-04,A,3,4,4,4.5,4,事实、影响、假设和行动区分清楚并用占位符避免伪造具体数值；但仍把原因占位放入事实并先验声称重大影响。,codex_review
+w4-eval-business-04,B,2,3.5,3.5,4.5,4,四段结构存在，但把投诉率和收入减少等无输入依据内容写入影响，事实与假设边界不够严格。,codex_review
+w4-eval-business-05,A,2.5,5,4,5,5,严格输出合法 JSON 数组且字段齐全、无附加说明；数值没有输入依据，只能视为示例。,codex_review
+w4-eval-business-05,B,2.5,5,4,5,5,严格输出合法 JSON 数组且字段齐全、无附加说明；数值没有输入依据，只能视为示例。,codex_review

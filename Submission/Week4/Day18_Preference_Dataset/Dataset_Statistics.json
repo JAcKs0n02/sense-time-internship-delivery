@@ -1,0 +1,27 @@
+{
+  "file_sha256": {
+    "week4_dpo_train.json": "88c6a176eda7df50f5ffb0e01e78610c99178e71e14518d82b6c0bd20a50c320",
+    "week4_dpo_validation.json": "5626226d8d0aff49cec6119de63720692cb3f3f27091bf94332524cd83a53372",
+    "week4_preferences_full.json": "5971bfa47ecd4162cdaedc15f531db0204ffe0b979dcffa2269656bd335f1c82"
+  },
+  "seed": 42,
+  "self_built_category_counts": {
+    "completeness": 42,
+    "factuality": 42,
+    "format": 42,
+    "helpfulness": 42,
+    "safety": 42
+  },
+  "self_built_scene_counts": {
+    "business": 105,
+    "general": 105
+  },
+  "source_counts": {
+    "self_built": 210,
+    "ultrafeedback": 500
+  },
+  "total_count": 710,
+  "train_count": 639,
+  "validation_count": 71,
+  "validation_ratio": 0.1
+}

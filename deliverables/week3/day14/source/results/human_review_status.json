@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "status": "ready_for_unblinding",
+  "reviewers": [
+    {
+      "path": "deliverables/week3/day14/source/results/blind/reviewer_1_scores.csv",
+      "sha256": "06666df99d6bcca94dad14c657c415a366579d78c2c51b7e3cfc6c31118fd622",
+      "status": "completed",
+      "expected_rows": 200,
+      "row_count": 200,
+      "completed_rows": 200,
+      "blank_score_rows": 0,
+      "invalid_score_rows": 0,
+      "missing_reason_rows": 0,
+      "errors": []
+    },
+    {
+      "path": "deliverables/week3/day14/source/results/blind/reviewer_2_scores.csv",
+      "sha256": "4acc575a4d415afab1db2323d3f3e5445e4e44a43e02777f306a7e8f8fa674fc",
+      "status": "completed",
+      "expected_rows": 200,
+      "row_count": 200,
+      "completed_rows": 200,
+      "blank_score_rows": 0,
+      "invalid_score_rows": 0,
+      "missing_reason_rows": 0,
+      "errors": []
+    }
+  ],
+  "aggregation_allowed": true
+}

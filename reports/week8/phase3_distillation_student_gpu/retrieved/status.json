@@ -1,0 +1,12 @@
+{
+  "status": "STUDENT_TRAINING_VERIFIED_COMPARISON_PENDING",
+  "completed": [
+    "identity_and_exact_preparation",
+    "two_epoch_training_export_tensor_cold_verification"
+  ],
+  "epochs": 2,
+  "optimizer_steps": 36,
+  "train_count": 137,
+  "validation_count": 15,
+  "comparison_pending": true
+}

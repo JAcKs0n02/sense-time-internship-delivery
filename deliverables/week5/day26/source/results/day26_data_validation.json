@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "status": "PASS",
+  "checks": {
+    "source_fields_complete_and_revision_pinned": true,
+    "images_exist_decode_and_match_sha": true,
+    "70_unique_source_images": true,
+    "record_counts_200_20_20": true,
+    "training_categories_5x40": true,
+    "llamafactory_export_schema": true,
+    "cross_split_sha256_overlap_zero": true,
+    "day25_image_overlap_zero": true,
+    "day25_prompt_exact_and_near_overlap_zero": true,
+    "cross_split_target_answer_exact_overlap_zero": true,
+    "shared_task_prompt_templates_disclosed": true
+  }
+}

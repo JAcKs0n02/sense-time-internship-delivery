@@ -1,0 +1,14 @@
+{
+  "sample_id": "c8479af1ed7d9a388f610ac0e70cd675680d29250d1c1bafd223605e1977e816",
+  "prompt": "编写一个伪代码来计算三个数字的平均值。",
+  "messages": [
+    {
+      "role": "user",
+      "content": "编写一个伪代码来计算三个数字的平均值。"
+    }
+  ],
+  "answer": "下面是一份简单的计算三个数字平均值的伪代码：\n\n```\n// 定义一个函数，用于计算三个数的平均值\nfunction average(a, b, c)\n    // 将三个数相加\n    sum = a + b + c\n\n    // 计算平均值\n    avg = sum / 3\n\n    // 返回结果\n    return avg\n\n// 在主程序中调用该函数\nnum1 = 5\nnum2 = 7\nnum3 = 9\nresult = average(num1, num2, num3)\n\n// 输出结果\nprint(\"三个数的平均值是：\", result)\n```",
+  "truncated": false,
+  "input_tokens": 41,
+  "output_tokens": 139
+}

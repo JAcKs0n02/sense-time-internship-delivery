@@ -1,0 +1,234 @@
+[INFO|2026-08-03 17:53:49] llamafactory.hparams.parser:406 >> Process rank: 0, world size: 1, device: cuda:0, distributed training: False, compute dtype: torch.bfloat16
+[INFO|tokenization_utils_base.py:2058] 2026-08-03 17:53:49,681 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2058] 2026-08-03 17:53:49,682 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2058] 2026-08-03 17:53:49,682 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2058] 2026-08-03 17:53:49,682 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2058] 2026-08-03 17:53:49,682 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2058] 2026-08-03 17:53:49,682 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2058] 2026-08-03 17:53:49,682 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2323] 2026-08-03 17:53:50,024 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|configuration_utils.py:697] 2026-08-03 17:53:50,025 >> loading configuration file /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct/config.json
+[INFO|configuration_utils.py:771] 2026-08-03 17:53:50,027 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.50.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|tokenization_utils_base.py:2058] 2026-08-03 17:53:50,027 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2058] 2026-08-03 17:53:50,027 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2058] 2026-08-03 17:53:50,027 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2058] 2026-08-03 17:53:50,027 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2058] 2026-08-03 17:53:50,027 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2058] 2026-08-03 17:53:50,027 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2058] 2026-08-03 17:53:50,027 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2323] 2026-08-03 17:53:50,342 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|2026-08-03 17:53:50] llamafactory.data.loader:143 >> Loading dataset week2_clean_alpaca.jsonl...
+Setting num_proc from 4 back to 1 for the train split to disable multiprocessing as it only contains one shard.
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 4999 examples [00:00, 179468.68 examples/s]
+Converting format of dataset (num_proc=4):   0%|          | 0/8 [00:00<?, ? examples/s]Converting format of dataset (num_proc=4): 100%|██████████| 8/8 [00:00<00:00, 37.35 examples/s]
+Running tokenizer on dataset (num_proc=4):   0%|          | 0/8 [00:00<?, ? examples/s]Running tokenizer on dataset (num_proc=4):  25%|██▌       | 2/8 [00:00<00:02,  2.86 examples/s]Running tokenizer on dataset (num_proc=4): 100%|██████████| 8/8 [00:00<00:00, 10.36 examples/s]Running tokenizer on dataset (num_proc=4): 100%|██████████| 8/8 [00:01<00:00,  7.78 examples/s]
+[INFO|configuration_utils.py:697] 2026-08-03 17:53:53,676 >> loading configuration file /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct/config.json
+[INFO|configuration_utils.py:771] 2026-08-03 17:53:53,678 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.50.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+training example:
+input_ids:
+[151644, 8948, 198, 2610, 525, 1207, 16948, 11, 3465, 553, 54364, 14817, 13, 1446, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 104136, 100678, 87752, 103190, 49567, 40916, 34204, 16, 14, 19, 271, 31196, 5122, 19, 14, 16, 21, 151645, 198, 151644, 77091, 198, 19, 14, 16, 21, 107106, 16, 14, 19, 104404, 105773, 94237, 17177, 102388, 17177, 99740, 71268, 20755, 23031, 104056, 100082, 109865, 8863, 19, 3837, 101051, 9909, 19, 144422, 19, 7552, 14, 320, 16, 21, 144422, 19, 7552, 28, 16, 14, 19, 1773, 103190, 9370, 94237, 17177, 20412, 11622, 102388, 33108, 17177, 99740, 20755, 23031, 107668, 65676, 99822, 63431, 8863, 3837, 36407, 51463, 103190, 104111, 107668, 25511, 3837, 43288, 99519, 103190, 101359, 51463, 34187, 102388, 20755, 23031, 17177, 99740, 3837, 99999, 102033, 100369, 8863, 91572, 20755, 23031, 109626, 65676, 99822, 63431, 8863, 3837, 103190, 9370, 25511, 104871, 101933, 1773, 99999, 19, 14, 16, 21, 58143, 16, 14, 19, 20412, 101441, 101970, 108201, 100414, 3837, 77288, 104017, 9370, 25511, 48921, 49567, 1773, 151645, 198]
+inputs:
+<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+解释为什么以下分数等同于1/4
+
+输入：4/16<|im_end|>
+<|im_start|>assistant
+4/16等于1/4是因为我们可以约分分子分母都除以他们的最大公约数4，得到（4÷4）/ (16÷4）=1/4。分数的约分是用分子和分母除以相同的非零整数，来表示分数的一个相同的值，这因为分数实际上表示了分子除以分母，所以即使两个数同时除以同一个非零整数，分数的值也不会改变。所以4/16 和1/4是两种不同的书写形式，但它们的值相等。<|im_end|>
+
+label_ids:
+[-100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 19, 14, 16, 21, 107106, 16, 14, 19, 104404, 105773, 94237, 17177, 102388, 17177, 99740, 71268, 20755, 23031, 104056, 100082, 109865, 8863, 19, 3837, 101051, 9909, 19, 144422, 19, 7552, 14, 320, 16, 21, 144422, 19, 7552, 28, 16, 14, 19, 1773, 103190, 9370, 94237, 17177, 20412, 11622, 102388, 33108, 17177, 99740, 20755, 23031, 107668, 65676, 99822, 63431, 8863, 3837, 36407, 51463, 103190, 104111, 107668, 25511, 3837, 43288, 99519, 103190, 101359, 51463, 34187, 102388, 20755, 23031, 17177, 99740, 3837, 99999, 102033, 100369, 8863, 91572, 20755, 23031, 109626, 65676, 99822, 63431, 8863, 3837, 103190, 9370, 25511, 104871, 101933, 1773, 99999, 19, 14, 16, 21, 58143, 16, 14, 19, 20412, 101441, 101970, 108201, 100414, 3837, 77288, 104017, 9370, 25511, 48921, 49567, 1773, 151645, 198]
+labels:
+4/16等于1/4是因为我们可以约分分子分母都除以他们的最大公约数4，得到（4÷4）/ (16÷4）=1/4。分数的约分是用分子和分母除以相同的非零整数，来表示分数的一个相同的值，这因为分数实际上表示了分子除以分母，所以即使两个数同时除以同一个非零整数，分数的值也不会改变。所以4/16 和1/4是两种不同的书写形式，但它们的值相等。<|im_end|>
+
+[INFO|2026-08-03 17:53:53] llamafactory.model.model_utils.quantization:143 >> Quantizing model to 4 bit with bitsandbytes.
+[INFO|2026-08-03 17:53:53] llamafactory.model.model_utils.kv_cache:143 >> KV cache is disabled during training.
+[INFO|modeling_utils.py:1151] 2026-08-03 17:53:53,850 >> loading weights file /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct/model.safetensors.index.json
+[INFO|modeling_utils.py:2170] 2026-08-03 17:53:53,850 >> Instantiating Qwen2ForCausalLM model under default dtype torch.bfloat16.
+[INFO|configuration_utils.py:1139] 2026-08-03 17:53:53,852 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "use_cache": false
+}
+
+[WARNING|logging.py:329] 2026-08-03 17:53:53,881 >> Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.17s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.01s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.03it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.10it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.05it/s]
+[INFO|modeling_utils.py:4987] 2026-08-03 17:53:57,805 >> All model checkpoint weights were used when initializing Qwen2ForCausalLM.
+
+[INFO|modeling_utils.py:4995] 2026-08-03 17:53:57,805 >> All the weights of Qwen2ForCausalLM were initialized from the model checkpoint at /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use Qwen2ForCausalLM for predictions without further training.
+[INFO|configuration_utils.py:1092] 2026-08-03 17:53:57,807 >> loading configuration file /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct/generation_config.json
+[INFO|configuration_utils.py:1139] 2026-08-03 17:53:57,808 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "do_sample": true,
+  "eos_token_id": [
+    151645,
+    151643
+  ],
+  "pad_token_id": 151643,
+  "repetition_penalty": 1.05,
+  "temperature": 0.7,
+  "top_k": 20,
+  "top_p": 0.8
+}
+
+[INFO|2026-08-03 17:53:57] llamafactory.model.model_utils.checkpointing:143 >> Upcasting layernorm weights in float32.
+[INFO|2026-08-03 17:53:57] llamafactory.model.model_utils.checkpointing:143 >> Gradient checkpointing enabled.
+[INFO|2026-08-03 17:53:57] llamafactory.model.model_utils.attention:143 >> Using torch SDPA for faster training and inference.
+[INFO|2026-08-03 17:53:57] llamafactory.model.adapter:143 >> Upcasting trainable params to float32.
+[INFO|2026-08-03 17:53:57] llamafactory.model.adapter:143 >> Fine-tuning method: LoRA
+[INFO|2026-08-03 17:53:57] llamafactory.model.model_utils.misc:143 >> Found linear modules: o_proj,gate_proj,q_proj,down_proj,v_proj,up_proj,k_proj
+[INFO|2026-08-03 17:53:58] llamafactory.model.loader:143 >> trainable params: 20,185,088 || all params: 7,635,801,600 || trainable%: 0.2643
+[INFO|trainer.py:748] 2026-08-03 17:53:58,257 >> Using auto half precision backend
+[INFO|trainer.py:2409] 2026-08-03 17:53:58,840 >> ***** Running training *****
+[INFO|trainer.py:2410] 2026-08-03 17:53:58,840 >>   Num examples = 8
+[INFO|trainer.py:2411] 2026-08-03 17:53:58,840 >>   Num Epochs = 1
+[INFO|trainer.py:2412] 2026-08-03 17:53:58,840 >>   Instantaneous batch size per device = 1
+[INFO|trainer.py:2415] 2026-08-03 17:53:58,840 >>   Total train batch size (w. parallel, distributed & accumulation) = 4
+[INFO|trainer.py:2416] 2026-08-03 17:53:58,840 >>   Gradient Accumulation steps = 4
+[INFO|trainer.py:2417] 2026-08-03 17:53:58,840 >>   Total optimization steps = 2
+[INFO|trainer.py:2418] 2026-08-03 17:53:58,843 >>   Number of trainable parameters = 20,185,088
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:02<00:02,  2.50s/it]                                              50%|█████     | 1/2 [00:02<00:02,  2.50s/it]100%|██████████| 2/2 [00:04<00:00,  2.36s/it]                                             100%|██████████| 2/2 [00:04<00:00,  2.36s/it][INFO|trainer.py:3966] 2026-08-03 17:54:03,622 >> Saving model checkpoint to /root/autodl-tmp/qwen25-week3/smoke/day11-qlora-smoke/checkpoint-2
+[INFO|configuration_utils.py:697] 2026-08-03 17:54:03,670 >> loading configuration file /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct/config.json
+[INFO|configuration_utils.py:771] 2026-08-03 17:54:03,671 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.50.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|tokenization_utils_base.py:2510] 2026-08-03 17:54:03,811 >> tokenizer config file saved in /root/autodl-tmp/qwen25-week3/smoke/day11-qlora-smoke/checkpoint-2/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2519] 2026-08-03 17:54:03,811 >> Special tokens file saved in /root/autodl-tmp/qwen25-week3/smoke/day11-qlora-smoke/checkpoint-2/special_tokens_map.json
+[INFO|trainer.py:2665] 2026-08-03 17:54:04,216 >> 
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+                                             100%|██████████| 2/2 [00:05<00:00,  2.36s/it]100%|██████████| 2/2 [00:05<00:00,  2.68s/it]
+[INFO|trainer.py:3966] 2026-08-03 17:54:04,218 >> Saving model checkpoint to /root/autodl-tmp/qwen25-week3/smoke/day11-qlora-smoke
+[INFO|configuration_utils.py:697] 2026-08-03 17:54:04,259 >> loading configuration file /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct/config.json
+[INFO|configuration_utils.py:771] 2026-08-03 17:54:04,259 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.50.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|tokenization_utils_base.py:2510] 2026-08-03 17:54:04,384 >> tokenizer config file saved in /root/autodl-tmp/qwen25-week3/smoke/day11-qlora-smoke/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2519] 2026-08-03 17:54:04,384 >> Special tokens file saved in /root/autodl-tmp/qwen25-week3/smoke/day11-qlora-smoke/special_tokens_map.json
+{'loss': 2.235, 'grad_norm': 2.3812801837921143, 'learning_rate': 0.0001, 'epoch': 0.5}
+{'loss': 1.5086, 'grad_norm': 1.0132348537445068, 'learning_rate': 0.0, 'epoch': 1.0}
+{'train_runtime': 5.3726, 'train_samples_per_second': 1.489, 'train_steps_per_second': 0.372, 'train_loss': 1.8717711567878723, 'epoch': 1.0}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =    41524GF
+  train_loss               =     1.8718
+  train_runtime            = 0:00:05.37
+  train_samples_per_second =      1.489
+  train_steps_per_second   =      0.372
+Figure saved at: /root/autodl-tmp/qwen25-week3/smoke/day11-qlora-smoke/training_loss.png
+[WARNING|2026-08-03 17:54:04] llamafactory.extras.ploting:148 >> No metric eval_loss to plot.
+[WARNING|2026-08-03 17:54:04] llamafactory.extras.ploting:148 >> No metric eval_accuracy to plot.
+[INFO|modelcard.py:449] 2026-08-03 17:54:04,656 >> Dropping the following result as it does not have all the necessary fields:
+{'task': {'name': 'Causal Language Modeling', 'type': 'text-generation'}}

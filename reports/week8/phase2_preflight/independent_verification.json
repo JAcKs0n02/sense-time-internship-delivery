@@ -1,0 +1,12 @@
+{
+  "status": "PASS_INDEPENDENT_BENCHMARK_SNAPSHOT_AUDIT",
+  "normalized_records_verified": 25865,
+  "official_download_files_verified": 160,
+  "local_data_files_verified": 290,
+  "scored_questions": 12928,
+  "fewshot_questions": 595,
+  "unscored_ceval_test_questions": 12342,
+  "source_and_phase1_archive_unchanged": true,
+  "overlap_pairs": 0,
+  "actual_opencompass_runtime_executed": false
+}

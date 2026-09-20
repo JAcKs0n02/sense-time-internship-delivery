@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "products_sha256": "62a13da1d55ef60a3bb20beb44a03913ce150e92961bd8b7498e43d1691a646a",
+  "products": [
+    {"product_id":"nebula-keyboard","name":"星云机械键盘","aliases":["Nebula Keyboard","星云键盘"],"keywords":["星云","机械键盘","无线键盘"],"price_cny":699,"shipping_cny":20,"stock":12,"description":"75% 配列无线机械键盘。"},
+    {"product_id":"comet-mouse","name":"彗星鼠标","aliases":["Comet Mouse","彗星无线鼠标"],"keywords":["彗星","无线鼠标","办公鼠标"],"price_cny":249,"shipping_cny":12,"stock":30,"description":"轻量无线办公鼠标。"},
+    {"product_id":"orbit-headphones","name":"轨道耳机","aliases":["Orbit Headphones","轨道降噪耳机"],"keywords":["轨道","降噪耳机","头戴耳机"],"price_cny":899,"shipping_cny":0,"stock":5,"description":"头戴式无线降噪耳机。"},
+    {"product_id":"luna-monitor","name":"月影显示器","aliases":["Luna Monitor","月影屏幕"],"keywords":["月影","显示器","屏幕"],"price_cny":1299,"shipping_cny":30,"stock":9,"description":"27 英寸办公显示器。"},
+    {"product_id":"solar-webcam","name":"日光摄像头","aliases":["Solar Webcam","日光网络摄像头"],"keywords":["日光","摄像头","视频会议"],"price_cny":459,"shipping_cny":15,"stock":18,"description":"1080P 视频会议摄像头。"},
+    {"product_id":"meteor-router","name":"流星路由器","aliases":["Meteor Router","流星无线路由器"],"keywords":["流星","路由器","网络"],"price_cny":379,"shipping_cny":0,"stock":21,"description":"双频千兆无线路由器。"},
+    {"product_id":"galaxy-microphone","name":"银河麦克风","aliases":["Galaxy Microphone","银河桌面麦克风"],"keywords":["银河","麦克风","录音"],"price_cny":699,"shipping_cny":18,"stock":14,"description":"USB 桌面电容麦克风。"},
+    {"product_id":"nova-speaker","name":"新星音箱","aliases":["Nova Speaker","新星桌面音箱"],"keywords":["新星","音箱","扬声器"],"price_cny":329,"shipping_cny":10,"stock":26,"description":"双声道桌面音箱。"},
+    {"product_id":"pulsar-stand","name":"脉冲支架","aliases":["Pulsar Stand","脉冲笔记本支架"],"keywords":["脉冲","支架","笔记本支架"],"price_cny":189,"shipping_cny":0,"stock":33,"description":"铝合金可调笔记本支架。"},
+    {"product_id":"saturn-hub","name":"土星扩展坞","aliases":["Saturn Hub","土星 USB 扩展坞"],"keywords":["土星","扩展坞","USB"],"price_cny":269,"shipping_cny":8,"stock":17,"description":"八合一 USB-C 扩展坞。"},
+    {"product_id":"cosmos-tablet","name":"宇宙平板","aliases":["Cosmos Tablet","宇宙办公平板"],"keywords":["宇宙","平板","移动办公"],"price_cny":1599,"shipping_cny":25,"stock":7,"description":"11 英寸移动办公平板。"},
+    {"product_id":"eclipse-lamp","name":"月食台灯","aliases":["Eclipse Lamp","月食护眼灯"],"keywords":["月食","台灯","护眼灯"],"price_cny":219,"shipping_cny":0,"stock":40,"description":"可调色温护眼台灯。"},
+    {"product_id":"alpine-keyboard","name":"高山键盘","aliases":["Alpine Keyboard","高山静音键盘"],"keywords":["高山","静音键盘","键盘"],"price_cny":739,"shipping_cny":0,"stock":11,"description":"静音轴机械键盘。"},
+    {"product_id":"cedar-mouse","name":"雪松鼠标","aliases":["Cedar Mouse","雪松人体工学鼠标"],"keywords":["雪松","人体工学鼠标","鼠标"],"price_cny":289,"shipping_cny":11,"stock":24,"description":"人体工学无线鼠标。"},
+    {"product_id":"summit-headphones","name":"峰顶耳机","aliases":["Summit Headphones","峰顶监听耳机"],"keywords":["峰顶","监听耳机","耳机"],"price_cny":999,"shipping_cny":20,"stock":6,"description":"封闭式监听耳机。"},
+    {"product_id":"valley-monitor","name":"山谷显示器","aliases":["Valley Monitor","山谷广色域屏"],"keywords":["山谷","广色域屏","显示器"],"price_cny":1399,"shipping_cny":35,"stock":8,"description":"27 英寸广色域显示器。"},
+    {"product_id":"ridge-webcam","name":"山脊摄像头","aliases":["Ridge Webcam","山脊会议摄像头"],"keywords":["山脊","会议摄像头","摄像头"],"price_cny":499,"shipping_cny":0,"stock":15,"description":"2K 自动对焦会议摄像头。"},
+    {"product_id":"forest-router","name":"森林路由器","aliases":["Forest Router","森林 Mesh 路由器"],"keywords":["森林","Mesh 路由器","路由器"],"price_cny":429,"shipping_cny":16,"stock":19,"description":"家庭 Mesh 无线路由器。"},
+    {"product_id":"harbor-keyboard","name":"港湾键盘","aliases":["Harbor Keyboard","港湾矮轴键盘"],"keywords":["港湾","矮轴键盘","键盘"],"price_cny":819,"shipping_cny":9,"stock":10,"description":"便携矮轴机械键盘。"},
+    {"product_id":"river-mouse","name":"河川鼠标","aliases":["River Mouse","河川游戏鼠标"],"keywords":["河川","游戏鼠标","鼠标"],"price_cny":319,"shipping_cny":0,"stock":28,"description":"轻量化有线游戏鼠标。"},
+    {"product_id":"island-headphones","name":"海岛耳机","aliases":["Island Headphones","海岛蓝牙耳机"],"keywords":["海岛","蓝牙耳机","耳机"],"price_cny":1099,"shipping_cny":22,"stock":4,"description":"高解析蓝牙降噪耳机。"},
+    {"product_id":"ocean-monitor","name":"远洋显示器","aliases":["Ocean Monitor","远洋 4K 屏幕"],"keywords":["远洋","4K 屏幕","显示器"],"price_cny":1499,"shipping_cny":40,"stock":7,"description":"28 英寸 4K 办公显示器。"},
+    {"product_id":"breeze-webcam","name":"海风摄像头","aliases":["Breeze Webcam","海风直播摄像头"],"keywords":["海风","直播摄像头","摄像头"],"price_cny":539,"shipping_cny":13,"stock":13,"description":"高帧率直播摄像头。"},
+    {"product_id":"cloud-router","name":"云层路由器","aliases":["Cloud Router","云层 WiFi 6 路由器"],"keywords":["云层","WiFi 6 路由器","路由器"],"price_cny":479,"shipping_cny":0,"stock":16,"description":"WiFi 6 双频路由器。"}
+  ]
+}

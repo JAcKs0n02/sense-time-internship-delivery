@@ -1,0 +1,17 @@
+{
+  "protocol_version": "day26-v8-scoring-dev-1",
+  "split": "dev",
+  "weights": {
+    "factual": 0.35,
+    "instruction": 0.25,
+    "completeness": 0.15,
+    "usefulness": 0.15,
+    "format": 0.1
+  },
+  "pass_thresholds": {
+    "mean_gain_min": 0.35,
+    "direct_gain_min": 0.0,
+    "opportunity_win_rate_min": 0.5,
+    "hallucination_rate_not_worse": true
+  }
+}

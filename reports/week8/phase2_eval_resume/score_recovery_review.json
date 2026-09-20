@@ -1,0 +1,20 @@
+{
+  "status": "OFFLINE_SCORE_RECOVERY_PREPARATION_VERIFIED",
+  "utc": "2026-09-17T11:25:33.729938+00:00",
+  "related_tests_passed": 25,
+  "new_tests_passed": 6,
+  "full_suite": {
+    "run": 90,
+    "failures": 3,
+    "errors": 24,
+    "limitation": "system Python missing OpenCompass/PyTorch/PyYAML; previous temporary environment absent"
+  },
+  "api_calls": 0,
+  "gpu_started": false,
+  "formal_scoring_ready": false,
+  "artifacts": {
+    "scripts/week8_score_recovery_audit.py": "e62543884c0e34713e3759da6532b9543c1ee079773edd396261192267577b2e",
+    "tests/test_week8_score_recovery_audit.py": "fcd7f3940a4978798b4bbbe7822d8865187b5289733a272a58c8559d21439c32",
+    "reports/week8/phase2_eval_resume/score_recovery_audit.json": "9466db877dcc664b600fff4265460e2ffed57b1072d05743561de7c63a6bf72a"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-16T01:00:08.866160+00:00",
+  "instance": "be044ebe99-be706b14",
+  "machine": "320",
+  "source": "authenticated AutoDL startup dialog",
+  "required_gpus": 1,
+  "idle_gpus": 0,
+  "startup_completed": false,
+  "final_state": "已关机"
+}

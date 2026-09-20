@@ -1,0 +1,18 @@
+{
+  "status": "CPU_PREFLIGHT_COMPLETE_INSTANCE_OFF",
+  "instance": "be044ebe99-be706b14",
+  "host": "autodl-container-be044ebe99-be706b14",
+  "mode": "CPU_ONLY_0_5_CORE_2GB",
+  "hourly_cny": 0.1,
+  "session_deadline_utc": "2026-09-18T18:25:00Z",
+  "platform_shutdown_utc": "2026-09-18T18:30:00Z",
+  "platform_shutdown_display": "2026-09-18 19:30:00",
+  "training_allowed": false,
+  "gpu_generation_allowed": false,
+  "old_inference_session_reopened": false,
+  "shutdown_observed_at_utc": "2026-09-18T18:07:16Z",
+  "shutdown_evidence": "Codex in-app AutoDL console: row 内蒙B区 / 320机 be044ebe99-be706b14 shows 已关机 after confirmed shutdown",
+  "real_student_training_started": false,
+  "gpu_started": false,
+  "cpu_toy_trainer_probe_completed": true
+}

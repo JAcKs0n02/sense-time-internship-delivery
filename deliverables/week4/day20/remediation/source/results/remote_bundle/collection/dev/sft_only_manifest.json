@@ -1,0 +1,14 @@
+{
+  "valid": true,
+  "model_alias": "sft_only",
+  "prompt_count": 35,
+  "output_sha256": "8f3bd2b10dd3bf2c18e8d5a37e8d6ee2b1f111ac46c5c432d6c7ff4befae017c",
+  "generation_config": {
+    "do_sample": false,
+    "max_new_tokens": 512,
+    "repetition_penalty": 1.0,
+    "seed": 42,
+    "dtype": "bfloat16",
+    "device": "cuda:0"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "seed": 42,
+  "max_tokens": 2048,
+  "simhash": {
+    "bits": 64,
+    "ngram_size": 3,
+    "bands": 4,
+    "threshold": 3,
+    "min_chars": 20,
+    "min_jaccard": 0.85,
+    "min_role_jaccard": 0.9
+  },
+  "counts": {
+    "raw_total": 5000,
+    "structure_errors_removed": 0,
+    "initial_empty_removed": 0,
+    "html_modified": 72,
+    "controls_modified": 27,
+    "whitespace_modified": 1127,
+    "postclean_empty_removed": 0,
+    "overlength_total": 276,
+    "truncated_total": 276,
+    "exact_duplicates_removed": 1,
+    "fuzzy_duplicates_removed": 0,
+    "after_initial_filter": 5000,
+    "after_postclean_filter": 5000,
+    "after_exact_dedup": 4999,
+    "final_total": 4999
+  },
+  "lengths": {
+    "before_cleaning": {
+      "min": 40,
+      "p25": 89.0,
+      "median": 175.0,
+      "mean": 539.761,
+      "p75": 337.0,
+      "p90": 1114.1,
+      "p95": 2301.55,
+      "p99": 6754.2,
+      "max": 29343
+    },
+    "after_cleaning_before_truncation": {
+      "min": 40,
+      "p25": 89.0,
+      "median": 175.0,
+      "mean": 537.817,
+      "p75": 335.0,
+      "p90": 1114.1,
+      "p95": 2288.15,
+      "p99": 6754.2,
+      "max": 29343
+    },
+    "final_retained": {
+      "min": 40,
+      "p25": 89.0,
+      "median": 175.0,
+      "mean": 365.411,
+      "p75": 335.0,
+      "p90": 1096.6,
+      "p95": 1716.0,
+      "p99": 2048.0,
+      "max": 2048
+    }
+  }
+}

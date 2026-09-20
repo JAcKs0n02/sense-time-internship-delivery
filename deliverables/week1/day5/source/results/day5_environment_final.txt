@@ -1,0 +1,15 @@
+2026-07-19T10:48:43+08:00
+/root/autodl-tmp/conda/envs/llm_exp/bin/python
+Python 3.10.20
+torch=2.5.1+cu121
+cuda=12.1
+cuda_available=True
+gpu=NVIDIA GeForce RTX 3090
+transformers=4.50.0
+bitsandbytes=0.43.3
+----------------------------------------------------------
+| Welcome to LLaMA Factory, version 0.9.3                |
+|                                                        |
+| Project page: https://github.com/hiyouga/LLaMA-Factory |
+----------------------------------------------------------
+No broken requirements found.

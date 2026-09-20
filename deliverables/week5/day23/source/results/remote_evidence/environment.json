@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-08-18T15:28:26.254473+00:00",
+  "host": {
+    "platform": "Linux-5.15.0-136-generic-x86_64-with-glibc2.35",
+    "python_version": "3.10.20",
+    "python_executable": "/root/autodl-tmp/qwen2-vl-week5/venv/bin/python"
+  },
+  "gpu": [
+    {
+      "name": "NVIDIA GeForce RTX 3090",
+      "memory_total_mib": 24576,
+      "memory_free_mib": 24126,
+      "memory_used_mib": 1,
+      "driver_version": "595.58.03"
+    }
+  ],
+  "torch": {
+    "import_ok": true,
+    "version": "2.5.1+cu121",
+    "cuda_runtime": "12.1",
+    "cuda_available": true,
+    "bf16_supported": true,
+    "device_count": 1
+  },
+  "storage": {
+    "path": "/root/autodl-tmp",
+    "total_bytes": 107374182400,
+    "used_bytes": 86700826624,
+    "free_bytes": 20673355776
+  },
+  "packages": {
+    "accelerate": "1.2.1",
+    "huggingface-hub": "0.36.2",
+    "pillow": "11.1.0",
+    "qwen-vl-utils": "0.0.14",
+    "safetensors": "0.8.0",
+    "torch": "2.5.1+cu121",
+    "torchvision": "0.20.1+cu121",
+    "transformers": "4.50.0"
+  },
+  "pip_check": {
+    "returncode": 0,
+    "stdout": "No broken requirements found.",
+    "stderr": ""
+  },
+  "thresholds": {
+    "min_vram_mib": 16000,
+    "min_free_disk_gib": 15
+  },
+  "errors": []
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "path": "scripts/__init__.py",
+    "sha256": "d57468bfcd25001d2910a08215028809f9e377c86dc035b79bdea14709cf7be4"
+  },
+  {
+    "path": "scripts/build_week8_formal_eval_config.py",
+    "sha256": "78671c0bfe306cbd0d1286f64f1a193615c360ef1b2f07d0ead80942361c61c9"
+  }
+]

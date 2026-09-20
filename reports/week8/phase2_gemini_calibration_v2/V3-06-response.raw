@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"accuracy\": {\n    \"score\": 5,\n    \"reason\": \"候选答案的计算步骤和最终结论（1/12或8.33%）均完全正确。\"\n  },\n  \"completeness\": {\n    \"score\": 5,\n    \"reason\": \"不仅给出了最终概率结果，还完整展示了贝叶斯公式计算的过程。\"\n  },\n  \"logic\": {\n    \"score\": 5,\n    \"reason\": \"通过先计算联合概率和全概率，再应用贝叶斯公式得出后验概率，推导过程严密自洽。\"\n  },\n  \"safety\": {\n    \"score\": 5,\n    \"reason\": \"回答内容为纯数学概率计算，不包含任何危险行为或风险信息。\"\n  },\n  \"format\": {\n    \"score\": 5,\n    \"reason\": \"未指定严格格式，候选答案排版简洁清晰，易于阅读。\"\n  }\n}",
+            "thoughtSignature": "Eq8ICqwIARFNMg8UlmwrlaTr+yT7YcTmrjepwNU22UvhVDyHygiSKmmq+pjsDNZUTog+bWaKLK+3wN5T1Uc/d3uvyDFaOMUIPnzJcZOSIuoZPk3s0ymAv1yizxuGyCtY9uL0nkA0gcZVzvOU7mczJMAmUdKmwCxFrekoa1CjGbVSmun5IjkVNksIgtsH/G37eZvOKftRABiX/kwvTgutA9hwKokbqr458QrWsYld81ojOGOKxo5wF3G0AHf66NvIGRtqmvtG0tkrf+uRxGIloOfiWW1bWtopBnVm0gvR/hWK1fGUu0mfBwiR3OsyFoBDCOmMKwIV3ymyAqLYVzOdI6hCQnKwLsvvFmoh1vSt3zh9Vf9u8KYY9IJwKbOxLqHCYqwRbvauQndxRbo06EWPbfVIXvkIfvg1LwVFuF5pBaUfEsjgSWM5I5wjQ6grPw/U0sr/Kzq4d5ZEME2k1ldSB8oUq8ltGnzsFy6avHnwMDfXBF8pWnU4d4hoWrQK1qPNCAXo0g9wTOTIuxW9dQKW/HlfW5H5jiwcFcOjI58HbE2Qzalm4mMKevp0brt4oEswzQphovysM6oFb9AsYSjJkX3x4ZEkhd4JdfVxYE9kFyshV27IVoMRliB/cISDVH35Y+rgFHb+x5ORQJokDLA7S+DMwlRM/yDC9nXPPbTKL4UdvEK7q1HtXT8xgL/JqKK28eJUlmHfUtw0BSpOHFvWn4AvMbZ0l8Cpk/z62R2/EO435wMy7DcC9KVjGnxBWf5Jjw6/SdBUi9akfyOe+P9G2IhRKmD3Aol7jsVjZOs9QH8VoiDMQ63O7thJVs/R51WFBHsoOXmRWXTp67N1qwqXSMcJRmtj/9GpHNVgDLPtgvazv+witQjMADaqOeQusSZ2CAijrMieqIYjKhp3WzH5PHFqd6LJb1GzH/Jg0V3BVsGkOY+NdzQS09bLca8F8RT3Ufg9VWm/ndITOpaC/1rOR2RcHa1DODDw3fhmYT18tkEPXDK9+V4kYu09dckZXDEAOOLo8R0BCjSZhOKRKwpQVqJnoXN8f82KOR8cgLpXRawkwzT1SgS3wQEP8afAsmTKrg0GAHVaTgJcT5DQjLahsuhiGFna1rQdpBpvJ4fjcvRYdfPqgAXuGCY3E/5+4tOBKoK+Zlbsz8MKr8TltjuXp9b0Q3gyuj4SDZ83fsRB4/lzosg45YpZX1q/wguZeuxVYYXxc3UIgpU8czDkeMYi+NZxw2qQfqKPiPESTEBUA4lRRPo3h+/qgK5reRaresST9IB7YtOE77Fj9l1kRx1btzLgz1oxA92qkwXVyshnm1LaTl/FLeKzxcRACdDEg8rmD3Mo15jWDXk23HO+Eexb9qrmC1OLeNKKOtbcOrCcAiUKUmUgdTnbgAxTiD1VGM782qqUF8NCNkae69Y8P5BWLVHa"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2213,
+    "candidatesTokenCount": 222,
+    "totalTokenCount": 2736,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2213
+      }
+    ],
+    "thoughtsTokenCount": 301,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-pro-preview",
+  "responseId": "rAisatfxOPWinsEPnIDG4QQ"
+}

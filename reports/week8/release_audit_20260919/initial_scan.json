@@ -1,0 +1,229 @@
+{
+  "candidate_file_count": 9078,
+  "candidate_bytes": 1278351994,
+  "files_over_10MiB": [
+    {
+      "path": "Submission/Week2/Day6_Data_Collection_and_Formatting/Data/Formatted_Alpaca_5K.jsonl",
+      "bytes": 10963627
+    },
+    {
+      "path": "Submission/Week2/Day6_Data_Collection_and_Formatting/Data/Formatted_ShareGPT_5K.jsonl",
+      "bytes": 11259649
+    },
+    {
+      "path": "deliverables/week2/day6/source/data/formatted/week2_5k_alpaca.jsonl",
+      "bytes": 10963627
+    },
+    {
+      "path": "deliverables/week2/day6/source/data/formatted/week2_5k_sharegpt.jsonl",
+      "bytes": 11259649
+    },
+    {
+      "path": "deliverables/week8/phase1/files/outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/technical_preflight_20260911/remote_evidence/smoke_adapter/tokenizer.json",
+      "bytes": 11421896
+    },
+    {
+      "path": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/revision_review_2165_20260910/01_保留修订正文_2165条_独立核对_20260910.xlsx.inspect.ndjson",
+      "bytes": 52462665
+    },
+    {
+      "path": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/technical_preflight_20260911/remote_evidence/smoke_adapter/tokenizer.json",
+      "bytes": 11421896
+    },
+    {
+      "path": "outputs/Week7_正式提交_20260912/01_提交附件/演示视频/02_图片问答.mov",
+      "bytes": 26812890
+    },
+    {
+      "path": "outputs/Week7_正式提交_20260912/01_提交附件/演示视频/03_停止与重试.mov",
+      "bytes": 17825640
+    },
+    {
+      "path": "outputs/Week7_正式提交_20260912/01_提交附件/演示视频/04_更换图片.mov",
+      "bytes": 11315235
+    },
+    {
+      "path": "outputs/Week7_正式提交_20260912/02_AWQ模型单独交付/tokenizer.json",
+      "bytes": 11421896
+    },
+    {
+      "path": "outputs/day38-browser-demo-v1-20260912/02-vision-upload.mov",
+      "bytes": 20112085
+    },
+    {
+      "path": "outputs/day38-browser-demo-v1-20260912/03-vision-stop-retry.mov",
+      "bytes": 17619386
+    },
+    {
+      "path": "outputs/day38-browser-demo-v1-20260912/04-vision-stop-observed.mov",
+      "bytes": 10735052
+    },
+    {
+      "path": "outputs/day38-browser-demo-v2-20260912/02-vision-upload-length.mov",
+      "bytes": 26812890
+    },
+    {
+      "path": "outputs/day38-browser-demo-v2-20260912/03-stop-retry.mov",
+      "bytes": 17825640
+    },
+    {
+      "path": "outputs/day38-browser-demo-v2-20260912/04-change-image.mov",
+      "bytes": 11315235
+    },
+    {
+      "path": "outputs/day38-ui-cpu-20260912/run02/oversize.png",
+      "bytes": 10485761
+    },
+    {
+      "path": "outputs/day38-ui-cpu-20260912/run03/oversize.png",
+      "bytes": 10485761
+    },
+    {
+      "path": "outputs/week7-weight-backup-20260912/awq/tokenizer.json",
+      "bytes": 11421896
+    },
+    {
+      "path": "outputs/week7-weight-backup-20260912/gptq-raw-v2/tokenizer.json",
+      "bytes": 11421896
+    },
+    {
+      "path": "reports/week8/phase2_full_training_target/evidence/logs/full-run-01/dpo/attempt-01/adapter/checkpoint-40/tokenizer.json",
+      "bytes": 11421896
+    },
+    {
+      "path": "reports/week8/phase2_full_training_target/evidence/logs/full-run-01/dpo/attempt-01/adapter/tokenizer.json",
+      "bytes": 11421896
+    },
+    {
+      "path": "reports/week8/phase2_full_training_target/evidence/logs/full-run-01/sft/attempt-01/adapter/checkpoint-1500/tokenizer.json",
+      "bytes": 11421896
+    },
+    {
+      "path": "reports/week8/phase2_full_training_target/evidence/logs/full-run-01/sft/attempt-01/adapter/checkpoint-1775/tokenizer.json",
+      "bytes": 11421896
+    },
+    {
+      "path": "reports/week8/phase2_full_training_target/evidence/logs/full-run-01/sft/attempt-01/adapter/tokenizer.json",
+      "bytes": 11421896
+    },
+    {
+      "path": "reports/week8/phase2_preflight/benchmark_records.json",
+      "bytes": 13786310
+    },
+    {
+      "path": "reports/week8/phase3_distillation_comparison/package/logs/week8-real-loader-20260915/attempt-02/tokenizer/tokenizer.json",
+      "bytes": 11421896
+    },
+    {
+      "path": "reports/week8/phase3_distillation_comparison/package/reports/week8/phase2_preflight/benchmark_records.json",
+      "bytes": 13786310
+    },
+    {
+      "path": "reports/week8/phase3_distillation_comparison/received_bundle.json",
+      "bytes": 26307643
+    },
+    {
+      "path": "reports/week8/phase3_distillation_comparison/tokenizer_roundtrip/tokenizer.json",
+      "bytes": 11421896
+    }
+  ],
+  "credential_pattern_hits_paths_only": [
+    {
+      "path": "Submission/Week2/Day6_Data_Collection_and_Formatting/Data/Formatted_Alpaca_5K.jsonl",
+      "kind": "api_key"
+    },
+    {
+      "path": "Submission/Week2/Day6_Data_Collection_and_Formatting/Data/Formatted_ShareGPT_5K.jsonl",
+      "kind": "api_key"
+    },
+    {
+      "path": "Submission/Week2/Day6_Data_Collection_and_Formatting/Manifest/Collection_Metadata.json",
+      "kind": "api_key"
+    },
+    {
+      "path": "Submission/Week2/Day6_Data_Collection_and_Formatting/Manifest/Raw_Data_Manifest.csv",
+      "kind": "api_key"
+    },
+    {
+      "path": "Submission/Week2/Day6_Data_Collection_and_Formatting/Manifest/Raw_Data_Manifest.md",
+      "kind": "api_key"
+    },
+    {
+      "path": "Submission/Week2/Day7_Cleaning_Pipeline/Data/Cleaned_Alpaca_4999.jsonl",
+      "kind": "api_key"
+    },
+    {
+      "path": "Submission/Week2/Day7_Cleaning_Pipeline/Data/Cleaned_ShareGPT_4999.jsonl",
+      "kind": "api_key"
+    },
+    {
+      "path": "deliverables/week2/day6/source/data/formatted/week2_5k_alpaca.jsonl",
+      "kind": "api_key"
+    },
+    {
+      "path": "deliverables/week2/day6/source/data/formatted/week2_5k_sharegpt.jsonl",
+      "kind": "api_key"
+    },
+    {
+      "path": "deliverables/week2/day6/source/data/raw/sharegpt_zh_1k.jsonl",
+      "kind": "api_key"
+    },
+    {
+      "path": "deliverables/week2/day6/source/manifests/collection_metadata.json",
+      "kind": "api_key"
+    },
+    {
+      "path": "deliverables/week2/day6/source/manifests/raw_data_manifest.csv",
+      "kind": "api_key"
+    },
+    {
+      "path": "deliverables/week2/day6/source/manifests/raw_data_manifest.md",
+      "kind": "api_key"
+    },
+    {
+      "path": "deliverables/week2/day6/source/scripts/collect_day6.py",
+      "kind": "api_key"
+    },
+    {
+      "path": "deliverables/week2/day7/data/week2_clean_alpaca.jsonl",
+      "kind": "api_key"
+    },
+    {
+      "path": "deliverables/week2/day7/data/week2_clean_sharegpt.jsonl",
+      "kind": "api_key"
+    },
+    {
+      "path": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/recovery_closeout_20260908/dispositions_4908.jsonl",
+      "kind": "api_key"
+    },
+    {
+      "path": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/recovery_closeout_20260908/provisional_sharegpt.jsonl",
+      "kind": "api_key"
+    },
+    {
+      "path": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/revision_audit_20260908/review_rows.json",
+      "kind": "api_key"
+    },
+    {
+      "path": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/revision_audit_20260908/review_rows_verified.json",
+      "kind": "api_key"
+    },
+    {
+      "path": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/revision_review_2165_20260910/02_修订正文完整阅读_2165条.html",
+      "kind": "api_key"
+    },
+    {
+      "path": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/revision_review_2165_20260910/03_保留修订正文_2165条.jsonl",
+      "kind": "api_key"
+    },
+    {
+      "path": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/revision_review_2165_20260910/failed_visual_attempt_001/02_修订正文完整阅读_2165条.html",
+      "kind": "api_key"
+    },
+    {
+      "path": "outputs/01a057f0-219e-7f43-9161-67e37e5d00d4/revision_review_2165_20260910/failed_visual_attempt_001/03_保留修订正文_2165条.jsonl",
+      "kind": "api_key"
+    }
+  ],
+  "scan_note": "working tree git tracked plus unignored files; text <=20 MiB only; excludes binary and Git history"
+}

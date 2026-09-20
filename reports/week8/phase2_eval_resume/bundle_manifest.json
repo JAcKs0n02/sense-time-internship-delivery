@@ -1,0 +1,1546 @@
+[
+  {
+    "path": "scripts/step3_eval.py",
+    "sha256": "663b115ec65ac8d91c42f4326dabcb951fd4fbf7823f0582b6baefa175971616"
+  },
+  {
+    "path": "scripts/week8_resume_eval.py",
+    "sha256": "68fb563b50bbb1ee37914cbca702b9bfbf719a0149d87253426412acfd1c7d40"
+  },
+  {
+    "path": "reports/week8/phase2_eval_resume/deploy_target.py",
+    "sha256": "0a529b5b8e3a0313dd5964608d2d412a1971f1d99be03b5cd5ce65d17e441350"
+  },
+  {
+    "path": "reports/week8/phase2_eval_resume/final_dpo_lock_candidate.json",
+    "sha256": "962e0fb45b363c015a94ce9aae933040e44524e9c3034aa3b36d8be734cb773a"
+  },
+  {
+    "path": "reports/week8/phase2_eval_resume/final_sft_lock_candidate.json",
+    "sha256": "812f3ad5b1ae70eb584bfb1f133b9458b2eb60c6b1945f1977d4aacfc9f35afb"
+  },
+  {
+    "path": "reports/week8/phase2_eval_resume/judge_profile_candidate.json",
+    "sha256": "4ef8e482f43f514b1196a91333879ee0e745deadaa5d14a1e6e8612d1e74cf7c"
+  },
+  {
+    "path": "reports/week8/phase2_eval_resume/local_review.json",
+    "sha256": "44b21e08192f377ce0bce9012e753919c2339b4ae410faa2ce39b927069ecdc1"
+  },
+  {
+    "path": "reports/week8/phase2_eval_resume/original_base_lock_candidate.json",
+    "sha256": "cefef6bcb893860598e97f5dcb8699b5303d858016bbbcf8f705c1a6c3bbacba"
+  },
+  {
+    "path": "reports/week8/phase2_eval_resume/recovered_review.json",
+    "sha256": "a187d02c1389224223648c4d915bfc214663fdfd45a1eeb9d4b48447dbf589f0"
+  },
+  {
+    "path": "reports/week8/phase2_eval_resume/run_resume_session.py",
+    "sha256": "3d5d73f09c502e9fe7c07d0dbec80d875d521291044606c06947d99cb97c2947"
+  },
+  {
+    "path": "reports/week8/phase2_eval_resume/source_validation.json",
+    "sha256": "afe41cdaf5d58dd31a3b4779a28b784d3ecad8333e014f586c76c31d3636a7b8"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/launch.json",
+    "sha256": "597981bb6cea59fc15e04fe18da784a3ba28c2d94541ccb278cdec6f0567582d"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/judge_starting_balance.json",
+    "sha256": "95da4b55c074884e47c8d70b0c668876d6c601d3f6f0920bfe9fbbab2bb51fe0"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/configs/20260917_061603_1525.py",
+    "sha256": "0834c2ae86acf074100fe0b4ad7d2f8a3e95756d26eb049e9feb13c90bd17117"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-accountant.out",
+    "sha256": "23551ff25ddc54916dfdeb048672c9a57479c5d8c0b6d041b3438d50efc33be3"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-advanced_mathematics.out",
+    "sha256": "0dccb6dbd938996f4c4741a752d3769294b7f5370481332cb4d7665665b93311"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-art_studies.out",
+    "sha256": "7c1af89a282608754a3f62886abc8762e681e71c86fc181490f10e192df4d2b0"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-basic_medicine.out",
+    "sha256": "6a895863d08db12401076dedbf568e6e376208faf4cfa4b958e46622dbf20c0a"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-business_administration.out",
+    "sha256": "3e71335252d87c62446b0a928b914e7055264a6f6a935ba02daf9ccb4a9154fc"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-chinese_language_and_literature.out",
+    "sha256": "576249d1c43485d34fda4d23e45d0a13f57ba6a7ab74605c8518d9d1cab52f90"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-civil_servant.out",
+    "sha256": "3ec7e7e6eaf6eae7d3e0595bb6f1c385171ec06eb432052e345a801e9318d8ba"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-clinical_medicine.out",
+    "sha256": "5c40a652e532795ad273a1e33bf2b0470250ebc83888eafcf73415f780b349a1"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-college_chemistry.out",
+    "sha256": "590a3089df013e9d3293eb2e1f8d9dd597c17665d28e0bf095ceff9492a946c8"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-college_economics.out",
+    "sha256": "8c21ab52215111e9e024c02b94fe4c9dd6888685fd998ccbd22d772cf80b6de7"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-college_physics.out",
+    "sha256": "60d13cb842de52606eb0612277b9e9eac8521f76f335f88cfb336bb3cea23601"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-college_programming.out",
+    "sha256": "a2068bd36c491836b1228483a041763296bcac9633a5fb32ebe8272061a6d5f0"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-computer_architecture.out",
+    "sha256": "38e0e8ba8c614a3e71777ee3833e8bb86b6c347e59bc6125abd13f7d9a92235a"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-computer_network.out",
+    "sha256": "e5dff0164c3d3d31eae3be201d09157539718f5ab29aa309a0a4d16436685557"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-discrete_mathematics.out",
+    "sha256": "e32d9a1723ded0720b6048a5ede4767f44fcf1275f905d110e4c4c70c0932bba"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-education_science.out",
+    "sha256": "be256cdba284544fd38c1144caaddfb4df2daef17ec0e51d8c5d551b27cf4a50"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-electrical_engineer.out",
+    "sha256": "66dbf4e969d7c41655da743d43968c468af86e5ebd7256f233b69c5a90cda50e"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-environmental_impact_assessment_engineer.out",
+    "sha256": "1b4e4bb0ddc2aeba4456c53c273f39786abd2f12e9ea14af963dc0144348f774"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-fire_engineer.out",
+    "sha256": "9f94cd8329c7e24f3e92eebd7a3442b373e4d8f8a415601e9684293bae59c79f"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-high_school_biology.out",
+    "sha256": "687f9c2d2e4ac0e11c411a44cd82447f13df2f8fe940becfcb318ae7d0adee79"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-high_school_chemistry.out",
+    "sha256": "f7ed4c98ca24e045dba760d912308d35a52ace7a16ce206c16966c9c93ffea32"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-high_school_chinese.out",
+    "sha256": "38dac5a759a0104970f9b8c0706f99bfa7658626d188e9b082dae65f8348654e"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-high_school_geography.out",
+    "sha256": "0caf7181d0494167fd7f0b1eb983ec3f8662dcd3b4b0b99b5a4bf68a6866d1b8"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-high_school_history.out",
+    "sha256": "5abfb8e5870dd6a3cdbf4637e00283bfdd82859c61954a579f157f1be350ffeb"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-high_school_mathematics.out",
+    "sha256": "63170daf1293d4cdf0cc5620f0ed00fcffd19518fe0434b32ff1e55a982e668b"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-high_school_physics.out",
+    "sha256": "8a3ccc1d391eb3d6dea9fd68ab775b5006fbdcec6d489fcaa06503252c9a11aa"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-high_school_politics.out",
+    "sha256": "6c2b79234fe1603764dc506f1fe4432110d7651bbc42033e89a2265a1fcc2da5"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-ideological_and_moral_cultivation.out",
+    "sha256": "6e06431258f25967b4f6f8d96dc36d5a7522bb923e7bc5db01ce49afbe2e5081"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-law.out",
+    "sha256": "d6a6f84b269aa9a18e727d39dfe6c1fc01f84a818096e4924d70f59145351f8d"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-legal_professional.out",
+    "sha256": "a621fdb897050e499deff91007f6c0292e5c7fc6e1d1d8a63cddaf7a072dcfd0"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-logic.out",
+    "sha256": "462d1ab05ad636c2b9a41f7e837b9c9f0bba491acda5d284ffdb61acfdb0e7ed"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-mao_zedong_thought.out",
+    "sha256": "e65cdb53998f59a30f1ff1e0ac705dc71f365ad8d9f24a1371f11a6dab7f6730"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-marxism.out",
+    "sha256": "03fd4a90c314035191435701966b5dfcf6eb57537c366e529b2be856efd96c09"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-metrology_engineer.out",
+    "sha256": "cc228bf32a4c27480cbeb5831e5d68324ae52a84f6c4a546b94bc2f9bb11c7fc"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-middle_school_biology.out",
+    "sha256": "c8c08b32e1e2558b226431a5e224e3c056942e59d0503cd4e2ac602cde423abc"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-middle_school_chemistry.out",
+    "sha256": "1773176b89e4438d8c798b531b813192aef640bdd91a2d44d6ae9565539a6c68"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-middle_school_geography.out",
+    "sha256": "5362553d686842380f0894e4bd39ebda0eda7520c195adf8887b56f9e5fbe528"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-middle_school_history.out",
+    "sha256": "0e27f2bc4339f8b427638ffd1a789f56f1e01a853962e36dbcb736a44e81f923"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-middle_school_mathematics.out",
+    "sha256": "3726017a633220c1001f9a0c6ff16ba314a321b1f96efe8f595c97b540133111"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-middle_school_physics.out",
+    "sha256": "2d85868d98e4449777851429c18f5dcfebbae5d089e148dfdb205883e8f0ee66"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-middle_school_politics.out",
+    "sha256": "23ca66abd2df63c3c85c48963893164f8bab7f1def4424430accbda0989af77f"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-modern_chinese_history.out",
+    "sha256": "901d1c1d04f01b81cafa7a4b41bb1412c9149d49588da56f104bfa73f8bb615e"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-operating_system.out",
+    "sha256": "4c0408a11f61dc7241857af23fcec9d95560a0db4542769c57dbcd01dcf4574f"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-physician.out",
+    "sha256": "cc78922513188e0a054fa7745913e92fc96b9e877f1496ea96c99c7369299669"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-plant_protection.out",
+    "sha256": "4ab94365f43c45d563465675159e61e1ff77773b736069c3f3928b35280a41b2"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-probability_and_statistics.out",
+    "sha256": "f35118822f1a712b639d71eb2c0df5f2fd14379b243d683e61fa99b4d70b0820"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-professional_tour_guide.out",
+    "sha256": "92cf508d08617cc0b47fe0b74de9b250d10d737934b32c410f95e5bcd4753045"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-sports_science.out",
+    "sha256": "e8f0f47b928be98f588b60907b5bc44667600cf851ad328b26c88de95fada761"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-tax_accountant.out",
+    "sha256": "c568a9408d3421ad85d17dfdd89667ae293d02e1600666e3842cf250e33e4ae3"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-teacher_qualification.out",
+    "sha256": "c1cb770de2d42737d21156b2194605cfeaecfb87bb06d3032c93e8b3d073852f"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-urban_and_rural_planner.out",
+    "sha256": "7cedcdb3a116d5502380f4af696622e4812f4dcf536398b4b08ba5259ce49632"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/ceval-veterinary_medicine.out",
+    "sha256": "bbcfd675db8144a0ae705ca190417b271a6b241beb34441cbdeb95362e02042b"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-agronomy.out",
+    "sha256": "87990c11dd2b5812a9f8dd49c9970ef5e44c1c331e5b5b08c02eef1929fd1504"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-anatomy.out",
+    "sha256": "a3f99a4ddb697719b778562027b9716217d2453d2f1c4695485a6255ffdc7608"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-ancient_chinese.out",
+    "sha256": "7d2965991f12930256e537f2e2e0de156a48f315cdd8834104e6f2ba6382dcc4"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-arts.out",
+    "sha256": "f2845e7cf50e55e7fdd78e2a1e9941d3d42d9488bbccadc2969e9ba1fb7acc34"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-astronomy.out",
+    "sha256": "6ddf8515d6ce4f6cc56cbb457262c028382b2f17eb9b3bbddc3e144b101795b3"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-business_ethics.out",
+    "sha256": "cc6272e2c5ac91855757937bcae30281875040ed5302eb981a3c8e8c268c5c15"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-chinese_civil_service_exam.out",
+    "sha256": "1cbe11d0bc6f098e707f6eb42e004445dbee06626646ec8702d6956b5199e64a"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-chinese_driving_rule.out",
+    "sha256": "e046c03c0a7c2febd4a5bc77a0db8b367e050b820420227c7951c77d5a2af74c"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-chinese_food_culture.out",
+    "sha256": "ac2e98bac30aabec8a92277476e3b4433c10e7cc2202f06e07942fd6d3ed6da1"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-chinese_foreign_policy.out",
+    "sha256": "030817e8ab9b4033ee71817cb35f42dabd755be24bbd45ce002c5aadbaa3b5f5"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-chinese_history.out",
+    "sha256": "407441a708957ca6026c2ccda4920e27fd1ee758917c396e1c193db47a707f2f"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-chinese_literature.out",
+    "sha256": "2d76b419d941a4fcfab28968345c6334276c4810c0b27d24085a8c2abc795751"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-chinese_teacher_qualification.out",
+    "sha256": "6c021c94bf59304166c01b0cdf0fd6da15add57e3b79b3093dd3b1fab43c88f0"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-clinical_knowledge.out",
+    "sha256": "d3c737d6dd706df2bf41dfbf70937b6782046e17b4e3ef58c67475fabdc31253"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-college_actuarial_science.out",
+    "sha256": "3dce26775557a53f343e65c8bca4604b28c01a4252dacdf965b2a058d18f29c9"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-college_education.out",
+    "sha256": "c0b5828eb6fdb1ed68d9f896c6e4a127cc1f99be51c6728310267287466cef54"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-college_engineering_hydrology.out",
+    "sha256": "8c6041e5ac53345239377f0f9c32b58ef881fb2f21af18adf0f9c68a52bc4282"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-college_law.out",
+    "sha256": "5159cce26e69f3096632bf551ec92e1337409b0fce232f16c24204da52a2823c"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-college_mathematics.out",
+    "sha256": "739d663b5d679a7ba1e82b6eec90a4261c750914d82151faf1295f9c358b26fb"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-college_medical_statistics.out",
+    "sha256": "9449e40bf05746e155882ef1e4d1b2d29afbd66cd6c3defe0fd9e208aa6b46f6"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-college_medicine.out",
+    "sha256": "98a982630510bec8cbf6ce09dcde97ba49f763256f763c0ff7775abdae1a649d"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-computer_science.out",
+    "sha256": "29c5b7f236dcd0c9ee93f51e91941a1ecb4b312bd72d1477c2516c7c465b367b"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-computer_security.out",
+    "sha256": "d4079f9f561ee5348f8a452e90d64442cfddc282ab97d5124e29280bec076372"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-conceptual_physics.out",
+    "sha256": "3f0096a14338b0dd6928343b66dd91644bf9a7fed2fc7a6b9b1a323b912f9429"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-construction_project_management.out",
+    "sha256": "50260fbb19aa511e60458ddd3d6f27af6962f78f708371371cb9fb8dab0e8cbb"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-economics.out",
+    "sha256": "cc36fdd80e4818a20abae32d03ae7e210d924ce56c37235edce2bcd89aff1549"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-education.out",
+    "sha256": "f374456b960e5ad339c5b44f359bf160c9f08338217284ec80491db74f469c2f"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-electrical_engineering.out",
+    "sha256": "36ea80e33380e1044f6b35cb30a0ad51a7153098ec749dad340e7afc1adb5db4"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-elementary_chinese.out",
+    "sha256": "23fed5bc162e96270c5a5d6713c135d687c7f096b2bf43dbeb2e003e0b174770"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-elementary_commonsense.out",
+    "sha256": "17f5114267df10ec55b76bd4a83b02a19331abf768b7dadb0ce3a561e99b7fb8"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-elementary_information_and_technology.out",
+    "sha256": "85b9fc72817653428838622ae5be5570f7042c040a73589e1e819848f29cb66b"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-elementary_mathematics.out",
+    "sha256": "1b807cded3996dd2fac62e62a6379af93f6c51b42c002171393e2cb6377e6fc5"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-ethnology.out",
+    "sha256": "e54fb7d6abe2742c6cce73b3f0f9599cc998b83ffd84b32584e39e49c5c5b73e"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-food_science.out",
+    "sha256": "8fd0b64c04321dff64e255c83b20338df23bc85e9be79ee9af703ee658566d6c"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-genetics.out",
+    "sha256": "9965b9427381f4b5d87a39cec622bbb31010471c8d91859ad425a21f988e3754"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-global_facts.out",
+    "sha256": "a19e25031bbe35443792c8e080fec2258ed33b93bd4a41dd869e37082e8567c6"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-high_school_biology.out",
+    "sha256": "e0b6da56269da0099b82b3d5983b693787e25370e4beda53f92c6d4fbfa47e3d"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-high_school_chemistry.out",
+    "sha256": "db4fcb281bfc879baea1e4f76e5711760b97558521746f90012a120ca99abad1"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-high_school_geography.out",
+    "sha256": "9ea3bc91e06c9323c930989bd757a36abbb602c6fe77dd7fb8de66290c99bf19"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-high_school_mathematics.out",
+    "sha256": "283e30a27262e61982697923a055f96ff7f6b2236415206bd10c6b6c7eb61994"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-high_school_physics.out",
+    "sha256": "58e03b6ca2d13c5ddd3afcf98e9f00feba099951ef3bda96cf471a932c9b91c3"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-high_school_politics.out",
+    "sha256": "cbbdcdb5f95a58ff4964895a319d1b4bd6ca4ec1e2621a9e3525bd9fd2f26868"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-human_sexuality.out",
+    "sha256": "cab7b5fe19f63c616da6ce985cdfc0212c6711a02b2c97b1c7bed940d7458619"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-international_law.out",
+    "sha256": "b4cd13f101d6f1f5b35c448c872e151ce03147adfae0dd5265ce30e13d77eb64"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-journalism.out",
+    "sha256": "0cd9a0cd3281d1b45ccd3c5f9a11a645c89c9f6587e6d7446e83c8ef1848fe45"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-jurisprudence.out",
+    "sha256": "667fc1c72cc9bc2b8f0e424627e7ffebfca035402b054ae8ba4be1e2f878a721"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-legal_and_moral_basis.out",
+    "sha256": "3160c9e37e7920812b882c26aca75ee56234678f5fc962e7c844fb7b248a2a38"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-logical.out",
+    "sha256": "0b208612eed84f71cf98f87da01e4a5e9660d89f2d578374525bfa9a839eb161"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-machine_learning.out",
+    "sha256": "3019a98bf9e40f4e941c2a5a33be9982c5f851f0aeabe541acbf79b1d5490850"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-management.out",
+    "sha256": "198a4224860902b21346753a921cc79813fc4fe2431ffe7e3497468edfa87714"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-marketing.out",
+    "sha256": "0bf73005b72596833fe0b4a42cf5c50c0d62548e7f3fa954c6d6c0ed72343b09"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-marxist_theory.out",
+    "sha256": "327af98962727b1a49b291e8cd01f09021fc879bfab3e6ebb19c69b887edad36"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-modern_chinese.out",
+    "sha256": "ed79f6e49cf6d10329b1e39dc99fc8554e808c74428ba966f4850a685d6ca195"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-nutrition.out",
+    "sha256": "97d1c9a640fe0fe0c33bd50c108d6d000e8ac0d7f4903e84ee3e29512f666e95"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-philosophy.out",
+    "sha256": "67819fca824aee8d3deab38d9c4bb6bd6f62d2d48c2529a392eb84febaa2fdf5"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-professional_accounting.out",
+    "sha256": "bdb00be9b5bb83af97af345b53ee1f1abdedb4d57f0c78269d23a25e4262ef7d"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-professional_law.out",
+    "sha256": "329dc6646d537c7f2226f06cd7f1c808904ac15ac3dc29431c2f3d4973473677"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-professional_medicine.out",
+    "sha256": "0d96522a552d60fca2a3e836c28f475b6508e4f1c575039886ced2f902aaaea0"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-professional_psychology.out",
+    "sha256": "6a788e7a6d1cb0694fdf62a19389f14653cc7e570890270568f2646b5ef894d9"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-public_relations.out",
+    "sha256": "07b1c209739fe155c4be85b4d2de76d808131177fd06b24f10c9c6c488eb93f1"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-security_study.out",
+    "sha256": "50ed82391829ff5cb5c2be6f5186819d4a1313c3e2893ae92b38b4fd2810dbbe"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-sociology.out",
+    "sha256": "a6783eec27b40410ceb0350663860921487730a6bed1acb91c1f42431889cc23"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-sports_science.out",
+    "sha256": "7ff5a8fb0161ab7c02310c6cd9c10d94d27ae43dabc821437f4b96c5bddb8a8f"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-traditional_chinese_medicine.out",
+    "sha256": "21903e2ca469b39367d319ae3aa62a45d7e7ea6957f1e12ead14a2fde6e384c3"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-virology.out",
+    "sha256": "e316b021dfd82c593e0ba3290c9a14e414e992384b73dad45a36ab36047f4d2d"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-world_history.out",
+    "sha256": "e7185b3b98bf3c0dff7e6cc2fb7666fbdb216f8c281d2d370d895f761b26d225"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/eval/week8-bound-model/cmmlu-world_religions.out",
+    "sha256": "7efb34ac1731c476e86866cd329f616afb0c45482dd20aa327acd4fea3586f9d"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/logs/infer/week8-bound-model/ceval-computer_network.out",
+    "sha256": "b10e9875c48832ad34a0e466e6704b1227bc1baad02ecd82fc888cc96543b402"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-accountant.json",
+    "sha256": "da52069ccda98974f10b34bb36a7af4e4182740b4681d0adbba2c4f1ea3448ca"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-advanced_mathematics.json",
+    "sha256": "6a5f412b6ee5e87643ea7a6b253830835f97a180eb66d65ec4872a0cb60e8872"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-art_studies.json",
+    "sha256": "635958dbb0df6847aa3576f62866f08cece7d08743d9d973d61e8b3558c40626"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-basic_medicine.json",
+    "sha256": "edecbd31617e29b9d1128d51209931f93ccaa3ea92ca37997873393fa7a478b8"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-business_administration.json",
+    "sha256": "b6dfd4e5c2da50d5d60a7edadfe68a4f179bf2cd3260580bcf4aa1d2a59351f1"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-chinese_language_and_literature.json",
+    "sha256": "0d689a281ff92b03a87d9904c5b4658a7ee779999994e21b3798c3f75eda151b"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-civil_servant.json",
+    "sha256": "5298fc8e13ab0309215b7ffc02a0f1a81fa5d6c81049bf932213aeddef675af9"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-clinical_medicine.json",
+    "sha256": "123f055a4f98197a2523eb59e062e02239fd6eecfed6e08201793ae6eb8abea8"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-college_chemistry.json",
+    "sha256": "140b26f3ac791db90292992d4bd2285727674cae67457b0fee8195f9fc2f3837"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-college_economics.json",
+    "sha256": "83665e56194deb260f7bd34dba3ab7a3917805400c2f041d99efaf11a4d3defd"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-college_physics.json",
+    "sha256": "15fd6992f777e61d84b0b72e353113417d00a43ef2446ecd8fda997a915d56d5"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-college_programming.json",
+    "sha256": "11bbb31664956ca08df20b02fc75588a75a112d6a31f102b316a0ac37a156a92"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-computer_architecture.json",
+    "sha256": "b617b617940e5c645613497ff8521b4142b9d666d408143d1692d3f7db1e7f0d"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-computer_network.json",
+    "sha256": "4f6aec0ab68b64d1d041609d3393ef93dcbef113cde3e9be09f7650073d58797"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-discrete_mathematics.json",
+    "sha256": "e0ea5f55dec3da617dd5734f953c237dc770a8de112b39a338e81f4a0b25ef5e"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-education_science.json",
+    "sha256": "b5d4985a598af61cccc4bfa2127110485e888a43ad1f75924167a2be219e330e"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-electrical_engineer.json",
+    "sha256": "8e7c78f2f9ce83ee92c55881c3233b173428b58aad60c9108cc2e1f8ddc42d7f"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-environmental_impact_assessment_engineer.json",
+    "sha256": "f799d4e72ecd4b36ad7e7c19ba100e76772b390889697f08077cd65eed4e4a48"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-fire_engineer.json",
+    "sha256": "7f9c561029d1810da4c5fbcf74023c4a77aeaea1c150ffb2c54cfb696d4f1c07"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-high_school_biology.json",
+    "sha256": "c6aac0cf383f032a37293b58851e810eae8e3b714308beaa6df868a7a38a65aa"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-high_school_chemistry.json",
+    "sha256": "cca342a39779b643d60f934ff19b215024592a94aa0180bd26a62dcaa5815fba"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-high_school_chinese.json",
+    "sha256": "94322d90c17fcca3ada4daf7db50f463064f94d51b8eb24e74fae83df17b7269"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-high_school_geography.json",
+    "sha256": "46a96936c2f8d5a62f8e30c4c84b6e6e63eddaa5fb1a198fde12a8fa670ebada"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-high_school_history.json",
+    "sha256": "fd9c9026e972216882d54f690fb30cb34fb276a4cc11b12e221aaf66c10ca618"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-high_school_mathematics.json",
+    "sha256": "b13b9b33261f7ff9e54721d3f29bb4a09928bce6a9f5a1869501d8c42456ebfa"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-high_school_physics.json",
+    "sha256": "c86be21e3cf46c66a6288f234492a0253a75b3edf7bf471bc50825657f0f797a"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-high_school_politics.json",
+    "sha256": "5fc89430892f1fe9a0a4cf8398d417288cd3cdd76f5941ce67d61b9a7fe3f914"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-ideological_and_moral_cultivation.json",
+    "sha256": "ef0b5f08592f329abec19237be66f0961f3720a4e6fa03238957ddcab42ac545"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-law.json",
+    "sha256": "72cde3ff0f78a4216b4f6544b41797cf232554db8a1b11f0edf89ba85ef4778f"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-legal_professional.json",
+    "sha256": "d690113a21850b8a3c06ef7b263e399fd389d6b96b68505650a198e6b847da6a"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-logic.json",
+    "sha256": "797dd618658e06228407ee0bc672d1b5b52020bb9a1ec74cb198587bcc0bc38b"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-mao_zedong_thought.json",
+    "sha256": "de2bd32627133cdfd056e7dc1462f8ded0871995d156d7484e2fe8f83acbabdb"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-marxism.json",
+    "sha256": "e803de32ac3725922ee03ff57404bc278d1cd3516cedef81ab00a50271aa6b66"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-metrology_engineer.json",
+    "sha256": "d1f94ddd812324ee0732b21b9ad9c4e8aa0770fba21ed555a5e2401c5873ab5b"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-middle_school_biology.json",
+    "sha256": "40eda597f393d90b25fae1842617f83bbd6ce0aa8a6f62af2b7710623e8fc20c"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-middle_school_chemistry.json",
+    "sha256": "a4f99c0f67668ab6070b9b27e9e89e9361358bedc0ad832dff7bc8e5f66f1e31"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-middle_school_geography.json",
+    "sha256": "c5c2897dc514efbc163058560333f793eaf3c014ee27f1facba720789c229fbe"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-middle_school_history.json",
+    "sha256": "44907fe1aa509e878e333335d1e1c5202bc83148b6861dc1bb94116954f88298"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-middle_school_mathematics.json",
+    "sha256": "2d0e5a99b7ead72cab57a9aa2f2bcacaa468c1f83447308cd65f3fa122b2df97"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-middle_school_physics.json",
+    "sha256": "cc4585492aeeae6debdd22893ce043ba3bb6c96571918c1b0c11186b0822aadc"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-middle_school_politics.json",
+    "sha256": "9f63b40d6b88dcec21f7754b1bb4902c9f55c73086113f017898832e2ade94ec"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-modern_chinese_history.json",
+    "sha256": "3788e37d758a0d67244d34660bdc4c71fb5dfb968ff3b53527101a33ea0da22e"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-operating_system.json",
+    "sha256": "8ca63df67f0f2cf75e35f3d7488f5daec9a9f6639655c5f42967a7d82cb02ce2"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-physician.json",
+    "sha256": "fbd41f462e143e23f567da4e816e58a0e86328b7b6809c78a0074e711d8f90ec"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-plant_protection.json",
+    "sha256": "31b9258a2d2b413e0c989398e8bf6269f4d93712f0ff28394fa0877e2fddcf0f"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-probability_and_statistics.json",
+    "sha256": "4c5d3fc9162708c5a9d8b405b047947e24bf168965d1f5af76dc7bd162243f35"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-professional_tour_guide.json",
+    "sha256": "969bd7b005488cc2495cd280b69849d80670c097626ca91926ebff6019ac764c"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-sports_science.json",
+    "sha256": "7379ec76b81d6222149bae6d71b8729ea53445706a8a5292ab730d8b55aa1673"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-tax_accountant.json",
+    "sha256": "ffd292f7881426e428d2498123ba9ff0a252074a8d0b31295b6b79824d12a564"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-teacher_qualification.json",
+    "sha256": "b8139cb8c4a48884f20fc8c964e4970ab95cc203caa300a26bf022289ba09a47"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-urban_and_rural_planner.json",
+    "sha256": "0dfec5aaed86a7f2f785345349b0bcd27b5a9be5804966c0cb838676acf641dd"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/ceval-veterinary_medicine.json",
+    "sha256": "f791eb264ab710565de787ef48e4463916aa891337f4a17dfe385eb85db73065"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-agronomy.json",
+    "sha256": "d956ac665c656c4de1edf2b4f73dd179eef0d1b518c9052d83d106b0c3b12b97"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-anatomy.json",
+    "sha256": "abfaaea96e0e36c8c734467182e6e16cfaab1dd2d59e053c638e7837ff07c79b"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-ancient_chinese.json",
+    "sha256": "20041548d6fab992bcbca0daf55c2fd44f7c0fe9784702a6193c13cb5fb0979b"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-arts.json",
+    "sha256": "dd7ec20bdb6d7a3c17d11b922835b7965ebc448ddd3103fb5563cbf7b8452674"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-astronomy.json",
+    "sha256": "b4191f95a8a3a7969c3e957c51713a3220b173c2b7812be431ca48296d995d56"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-business_ethics.json",
+    "sha256": "0dcf8bae88ee674ce064531d5d2041795d3b3728217b4f41c30c66fc36c1bf40"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-chinese_civil_service_exam.json",
+    "sha256": "ee88c7f0814c423e0a2db93cfdbedc0c0e4a3ec50d54d594fbe36151bee54be4"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-chinese_driving_rule.json",
+    "sha256": "0cabe7293d10045b726b8fe4a23a4a6ce9dd5a525abd3ce7d5c34db0aff60cd6"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-chinese_food_culture.json",
+    "sha256": "9be21a6c0262ebabc9011e523bd3d11d2329086714708410ee4e738116ccf933"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-chinese_foreign_policy.json",
+    "sha256": "999323a28c387380d91cc15eaa316e0d2f53e942ccd6e86092e3ead7ab603794"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-chinese_history.json",
+    "sha256": "6be216d4c354d4860fc19f7097f17094bcaeefabeace47288c6a2fcfd8f2b748"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-chinese_literature.json",
+    "sha256": "4da13e2daa4930ba52ed8a18c1f8759142a0f5bf4615dd756ec32bb6273b2706"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-chinese_teacher_qualification.json",
+    "sha256": "af2c1e02b84905cfba029bd31ab5f95f169d5519137fd67ad2ef8b3ae3080ad3"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-clinical_knowledge.json",
+    "sha256": "55b5174aacba852a491d5f31374021914193bd7b17681d61d03e9de5050aeb59"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-college_actuarial_science.json",
+    "sha256": "da9da055916b09ca771a87d4525d592e1713aee228bf4428dfea1233b7b2a97f"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-college_education.json",
+    "sha256": "10eecb5cb678249edd70259310935fbb959e9f9f7b322f0b564fdaca86fa1431"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-college_engineering_hydrology.json",
+    "sha256": "6d087d411fdd336b0e736afb60d370d0827dd3a1dab66b30a3270fc48230c0ed"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-college_law.json",
+    "sha256": "8105450553cd775fd95a29facaa1186c7378022dc3308588c32daad6447affdf"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-college_mathematics.json",
+    "sha256": "c9b26217f88077ac3385a755eef89912f162ada4efe44c5fa2d484bd610b061e"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-college_medical_statistics.json",
+    "sha256": "8d846ff6b3cebac8054edbf5c5a2054d8275e2778cdea7a5db3d4b08d7dc9cce"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-college_medicine.json",
+    "sha256": "0b3896e564b9d46a688094cf213a3d127ded9c5fd5db9d3cc1cb46a1a5583f8f"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-computer_science.json",
+    "sha256": "f429fc12849ac792adedb7cd75deda84daaf5ad72cb46dd310603c0262d84df0"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-computer_security.json",
+    "sha256": "7ece34eb891f109a058decb0c80b55a0be48245342230c24eba9e1a428468e24"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-conceptual_physics.json",
+    "sha256": "60f7be46d72c5ad6cf2e247edf6a0a5847f782e53e8d23a735c2516a20bf9b5c"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-construction_project_management.json",
+    "sha256": "dcd695a542356dc6e56f2113a4b7ac332c262b73e86c7e74e49608f9ed2a311b"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-economics.json",
+    "sha256": "cd6c50a0b8102188bcfbe5d8458cd98bffbe7ab803152b2650897ff016c719bd"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-education.json",
+    "sha256": "ed0d5d60dcbe86f5fc4a7356a22350e8fb35ef07ad14c11edbd6151178bd0a4f"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-electrical_engineering.json",
+    "sha256": "11504e45abbe51cffd9638593527e915e86b08032e1064de8ab792afe8eece31"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-elementary_chinese.json",
+    "sha256": "81073ad9a34d3591df9b584be816b0bf543c9c004d104c254e28dc118d577b84"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-elementary_commonsense.json",
+    "sha256": "5cb7935075de6f8d029ab9b5056f70ca1bd7da52e137a317ef4a78d797a2913b"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-elementary_information_and_technology.json",
+    "sha256": "7fcd46db6bef32d178eff0d372fb0d43b9a9d37e4d3b88c29857b2f73c3086c5"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-elementary_mathematics.json",
+    "sha256": "4059ce0b6b38f0f31cd5624f96f337b84bcf9917c0c762a9515a49e53babfdec"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-ethnology.json",
+    "sha256": "78d39d4689bda739510b8300fc1fb106c2ed924c11441fceca33a20432f8a3b6"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-food_science.json",
+    "sha256": "449e7d115a4bd036f8cd515ebcc867ba195ca701fca672895c45acd2b1b74eda"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-genetics.json",
+    "sha256": "0c843b495c46392c31b20a6ce4a571d723a03f259f1e2f35a6c43cb814e1420e"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-global_facts.json",
+    "sha256": "ab31830675d56bbcdd56b68000e71904db65b0dfeaeaddd6934ba43e1c659ddb"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-high_school_biology.json",
+    "sha256": "c1f147153427bfad0e73b35e3d3abb0c3164b7a2f3069a196876c8104dcde0bc"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-high_school_chemistry.json",
+    "sha256": "78964012ba95576e2e43267401ade837685a88c75ed82d2598aebc992c5db7b0"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-high_school_geography.json",
+    "sha256": "f8a3479f76f5649b9aaface487cb744f3a02728ac162af2eef2e3b2bb70f0e69"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-high_school_mathematics.json",
+    "sha256": "7e11072638d8dceaee29d512c404dde9120aad1979bea43b55342710d5d51860"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-high_school_physics.json",
+    "sha256": "284f718735368d02e77c3043d7eff8339bcacfcaa9a8df8d4dd73860093b7a91"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-high_school_politics.json",
+    "sha256": "224f75c730750058d40b9b59795ea767d934bb0ebfe173ec827181b3618f325d"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-human_sexuality.json",
+    "sha256": "5d2094fc65e40daf4f00df9e0aa8d51a0c8b58a4d5c8c9db43f1c15392a8c288"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-international_law.json",
+    "sha256": "aa77eb7bb477aafc2f57865017d54de1ded882b5f34c9d1d4d2d0b39df1703f1"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-journalism.json",
+    "sha256": "74223cf7a6828a30866152d8cb02b48edd79511ed774ce6a92d281d5a211c300"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-jurisprudence.json",
+    "sha256": "b35abd36bdd6713d007330d3dccdaf13720d3c3097788542de7334c79d3ecba8"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-legal_and_moral_basis.json",
+    "sha256": "3ef6fb51abc4fa464f6e1a8defe9427b083108cd4d23a77816ac41f113271d8c"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-logical.json",
+    "sha256": "65631150b18cd21882c210dc9313f5079addb28a38fe8923e6d2510d69c349c3"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-machine_learning.json",
+    "sha256": "417aee2e60cc5b134fb477058dd30f1db19db7d11cbd2b930cef2bb155220545"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-management.json",
+    "sha256": "c7e8928f27fb7ad917717f3a03a9f9ff0aac8438019902df4447c5b6d7cabb63"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-marketing.json",
+    "sha256": "7b18b6bb1d54eada8a15cf0ede4646ee91ec9753f6536ec3c2ea3b8caf5dc60d"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-marxist_theory.json",
+    "sha256": "7fecca08de3b2db2a14a551bac587505292448b934f89d8f68cd160fa3acca28"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-modern_chinese.json",
+    "sha256": "daf83b18a15d445284040fb0f04128dc7b8030c5e5500016e4eecc72fb645c44"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-nutrition.json",
+    "sha256": "83c95c1687c1c24976ba95a101b8b25a4bcc64681de4228d93b7978fbea65ea8"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-philosophy.json",
+    "sha256": "4c8016f8b3b695afe5c903c625ac509507e8281d391c6982b9c46e0e546e4cc0"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-professional_accounting.json",
+    "sha256": "488a8257e992b5223f85bab8f704947e08fa9b2a6cdf76a552805816ca247b94"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-professional_law.json",
+    "sha256": "f71ae6075f73bd7b53eff88544e4a548e3f1cc67c82515b72fae28c9edfbcaf1"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-professional_medicine.json",
+    "sha256": "d58658d5d8df2e55183b6c43bb3f89256235c817cce719e6da52d1533999fcfd"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-professional_psychology.json",
+    "sha256": "ac088590719bb806b1224641bdccd57b4427fb1038c58c34f325efb2cdfc731d"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-public_relations.json",
+    "sha256": "51794fdd16545db8a9d357ad58fd19182d382c071abf20d10e2192c311af7645"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-security_study.json",
+    "sha256": "b1f28c867949390cdaebc6af82224774fe2e57179b61f35f9d977af862f142ee"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-sociology.json",
+    "sha256": "35d4cc2c056fee9982147e39d6fb8e0f4ab25593f15d761eb2d1768da7301dbd"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-sports_science.json",
+    "sha256": "1e66b7e51a7606a168a8e019527f9be988dcdaec28e66525868fe9840d1115a7"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-traditional_chinese_medicine.json",
+    "sha256": "918c8d21ee2a4d8df995bf55a0f9ad9f2f058ff0dfc8a5d434631fa3f8c01c53"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-virology.json",
+    "sha256": "4478f0bf10d780c5da7fef35ebcc3cfec2fa8960b19e06016144b1606ca0a3f9"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-world_history.json",
+    "sha256": "985c2f541153d73547aa47d8fd373d3657df3ad8a485409fac2688dff71bc266"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/predictions/week8-bound-model/cmmlu-world_religions.json",
+    "sha256": "153c70d3a18843a6d6b2eb23e0eccfc5d2351d6d1576dacb44e152e378c69db7"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-accountant.json",
+    "sha256": "12e8fb52f465018be8f68562feb4d21c3202753ff364c8bce074949230e7d58b"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-advanced_mathematics.json",
+    "sha256": "2aa66df03ab3a508336071b9762f804748cacd473f7de7275e287a3c34d03b13"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-art_studies.json",
+    "sha256": "2e2ce5159e23729698170a5b1583ce603978d65ebfed49f5a9ef9cba56ec7b46"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-basic_medicine.json",
+    "sha256": "7fe3e68552a09cf19303931ad84ca011406dd2491ab1bc7672dbec421f5a277a"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-business_administration.json",
+    "sha256": "d8ffc5e1db644d7bc7a078cba072c53cf9ad13c578e16ad75a53e66144a0bbfe"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-chinese_language_and_literature.json",
+    "sha256": "60445d77dfe10d78de02118ee86f3aa01af82dc7c84d0535653d898f6644ab41"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-civil_servant.json",
+    "sha256": "b61ce3a97e0426843d9d2d80ca0e1de1892ce7751c3fb17927c589d34b9f16a3"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-clinical_medicine.json",
+    "sha256": "4eebc84c1621094288cfbd44af146f539ca61d6ab7578dabf1fe634039c08774"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-college_chemistry.json",
+    "sha256": "9f350537d29c179c29910ce2fc1589dc32433491d0a880bb4125e579ad97e7e7"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-college_economics.json",
+    "sha256": "0b956497a465ed0d303a029e037c76dbe04191e70a8fefdc3bc10e185b4476ab"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-college_physics.json",
+    "sha256": "05dbe7571896fa7c550ee776d079690f44cbdbf461342f06a5c61eb4c8a6fb3f"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-college_programming.json",
+    "sha256": "7530aed8fe5475b24902c5e9dc5caaac77009bf17acd974993394cf8cdbc143b"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-computer_architecture.json",
+    "sha256": "e6757c9d532dbc8e1482eb6390c9f1d3443b64a032b1ecfe3088c9cd203c5f7f"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-computer_network.json",
+    "sha256": "8e63fedec562a0d88f6f4195066e38ff36c99ea8023a15dfefa063bad28826f2"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-discrete_mathematics.json",
+    "sha256": "6e3fea4f091649f2052e4a1ccbd910e29a346e19632b7f283e08b8a7f8ce9b03"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-education_science.json",
+    "sha256": "48b084c9c8e58c6b5154446114bcf162a09ed30c58ebce7fc66a75a571783dd9"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-electrical_engineer.json",
+    "sha256": "555ba549a17b372eef2708b60b40ef46dc8befe7409ae004e83ff3f66e674f23"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-environmental_impact_assessment_engineer.json",
+    "sha256": "fdde088b95620a263ec4fc68ff9c9d55d1320c93076691b6b8143b1eee408202"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-fire_engineer.json",
+    "sha256": "cc1f08603f391543821315f921fd0edfca6618bf36819bdb32dbda03fbd46ef2"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-high_school_biology.json",
+    "sha256": "4ec2c0451db0715707f88e8cd21399e6bf73c4020a9f4319232a4403652dd01b"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-high_school_chemistry.json",
+    "sha256": "9c015d4cf8a3953f25e75502ae137bd869c1842025d3c0d282e3dfb704060e45"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-high_school_chinese.json",
+    "sha256": "86bfd477b04038fdfe0564cdaf450e56038cd9af7f5bddfbee8d6aab4c088c69"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-high_school_geography.json",
+    "sha256": "cc48fc680b96e9a60965442b9c473ee5223745bf93805f3f9848f6f92e2b676d"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-high_school_history.json",
+    "sha256": "40c5561c73d0d542de518cc626639be79cb2a4b0b9e4136720502ca184c58d93"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-high_school_mathematics.json",
+    "sha256": "7f54a346b39f308f90707f4a368a90519253787ccfc6464832c9832af9908f10"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-high_school_physics.json",
+    "sha256": "de39aa8927a268ee3aca7e5c16a6fab7803e2011dfcaeb01e01cfdc24f2aecbd"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-high_school_politics.json",
+    "sha256": "b1252baf9a6b1ceddf4dc24f9c23754c9a07a4f86f0bffacf27d68a902de09e4"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-ideological_and_moral_cultivation.json",
+    "sha256": "40359f610d90d4f3eb52f111be239348df10ffdda0d7c9316002d5883a656bc1"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-law.json",
+    "sha256": "41b7cc79cdd13402e1f8414c576d56393c2062475e371db1d997a0ff2615bcce"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-legal_professional.json",
+    "sha256": "e1d1cd9bc22605f84fa8920f501b97171754e6e2209df8654259bf06ad4ff2c0"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-logic.json",
+    "sha256": "4f067f5231b1c56d74a4c448742d185e0ad7faca00806265d9a3250abe22527b"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-mao_zedong_thought.json",
+    "sha256": "e79a50176823dfcbb0dfdc2cf6f518d8ce2f9e201e04ffc35d89c97fa1293bc6"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-marxism.json",
+    "sha256": "323e06bc06095acd476ce9b4c74392b33844188f2e2eff3c450e099fe6094bef"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-metrology_engineer.json",
+    "sha256": "7f4781125915398139f9a5a70e1bf16e41b4ee171ada5dfe292db082a0df596f"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-middle_school_biology.json",
+    "sha256": "6898a2aa81d0e9554dd9f4fec7a030638fe9b6f61778543e546567043190c595"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-middle_school_chemistry.json",
+    "sha256": "074da08898cd6c576386c14eac616a3427caed86613893e972a1911814a758fe"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-middle_school_geography.json",
+    "sha256": "4099e2d3f102084d3f2c731e64cad7fb14ad138c50a1ea81ce1dbeb94da70cc4"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-middle_school_history.json",
+    "sha256": "24e24355c5a267ee5295ada82eb5a1abdc4b1ad83c99f39b4fefce78fd58ac72"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-middle_school_mathematics.json",
+    "sha256": "ead71334bc861d5c8568b534859e70491fda528c18e7ba263146cbeff92bbc41"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-middle_school_physics.json",
+    "sha256": "4da7ee57b439a091259c78296e74bc7d00bf0a6617e1f36e3905e0f37611fc61"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-middle_school_politics.json",
+    "sha256": "3fdf7c4e183a88a3dc1a6c379c168540fbc340929ee8979d43ef563caf966c5c"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-modern_chinese_history.json",
+    "sha256": "6ffda411b31ba91f39334cb2b2c38b12ca74bb1c8827ee432cc824b7d324afbe"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-operating_system.json",
+    "sha256": "5aefc9159a4f8bf29ad9f478d5b6e0100208f3e84218956f5301c9bc7318246d"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-physician.json",
+    "sha256": "0839d5da85d85ddb5449cac486a563fd6cb43740b776d497cff075880c2468c9"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-plant_protection.json",
+    "sha256": "cd3cec01a802fc0da351ddf04bf8752ea31192a5e1b6d7b5afefca07b40328f7"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-probability_and_statistics.json",
+    "sha256": "69be4850c352d03bb3eed209dcf66d143ef654d0d484a9e9081f14fd9b450fd4"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-professional_tour_guide.json",
+    "sha256": "9f811d55bb471b5e5eaeba7f3e592dcb361fe790ca4301817f60d21a1944738f"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-sports_science.json",
+    "sha256": "ae9889e75f02445725c3aa65de7ae7c240580de16bce50474cfceb5c421bffa8"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-tax_accountant.json",
+    "sha256": "5df969448263e247cb804e281ccf41d7c970ec91d17405cb8d51291fbbac061c"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-teacher_qualification.json",
+    "sha256": "0486d6bbe66ddf9fcb36da5e1fe5d2e3cd9d9a13bc813680ad56f4a3da23a994"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-urban_and_rural_planner.json",
+    "sha256": "6dc08023888a3e28602121da77d8a8af257371180d9e4d2a42ae68bda83ea412"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/ceval-veterinary_medicine.json",
+    "sha256": "9e6476a57f22cea5bafecf0dd5baa6d3850db40e8841de136e5329777e456dca"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-agronomy.json",
+    "sha256": "5532fba77d8289b3674b095e42dae57ba7152bc1b4b884a0f1e75ecff4bc38d9"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-anatomy.json",
+    "sha256": "c023c753eab455cefbf93d35a9131ee0bdad53434efdab2662f11d485b7754de"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-ancient_chinese.json",
+    "sha256": "d21c6a02fab3f058621825e4b64acb4aba43309179f774c77e84abebd83c8435"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-arts.json",
+    "sha256": "75797a29802c9d0b41475d54ec48e845f9e59d7c1c30fade6348c632467b83be"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-astronomy.json",
+    "sha256": "59babec8eb02cde4cacfd734b1904a22ea6f6bccc3e781bbe5024135234667da"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-business_ethics.json",
+    "sha256": "9ca337bd00810019b6843af24c218bb84a7b2c051ef5c9cc121cd193580feee0"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-chinese_civil_service_exam.json",
+    "sha256": "2f49f48c7e1d9a42fce87781932d7237e5c844d274ed61ebd007c5bfc611f82a"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-chinese_driving_rule.json",
+    "sha256": "ce6b11598842ac76224611b36d85c3769531963268e459fad6f2b58e54975cd0"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-chinese_food_culture.json",
+    "sha256": "1891df387ddd882f771fdfcad768c5ccb9416b80111baa9bcc271a1cba02d9de"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-chinese_foreign_policy.json",
+    "sha256": "afd648b518f85429bdfa5a0c2ed35259ae5f237e4fb8fc879e14a5d8d31ea9a5"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-chinese_history.json",
+    "sha256": "3815f8aa0353ce6ae7fa065e2810388e90a44923c0f344209efb1109fd07d0db"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-chinese_literature.json",
+    "sha256": "5c5b2a9577d1eb9d4c0bc2d9d1a13c6fe019ad4fd3405774eccd588b1105d9e6"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-chinese_teacher_qualification.json",
+    "sha256": "64d4937bb53f1c99973ea96e6794bd037e1b3906d3c1207168afcce5a89e241a"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-clinical_knowledge.json",
+    "sha256": "4d377c687869fde6fc73b131053f0c5d3170fe48c1d668c92d4d492ba87c01a0"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-college_actuarial_science.json",
+    "sha256": "106c330c48a6ca1b439ad0dde68e6a9e4a5a00fadab0a1b23a71633fa92c765a"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-college_education.json",
+    "sha256": "9daad48757582fdce797c63c8762ce546f2d9d19d90d047a35bf4d8eda09db03"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-college_engineering_hydrology.json",
+    "sha256": "cf5bd0789b39a37ce5aae4a6e21653eb4009d7cd0ef17c7e0d4d282f8f7e436c"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-college_law.json",
+    "sha256": "02ad67a74513d5bdcf5172e7023f85cc6487b0d59b9bcb57cce833f44572bdca"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-college_mathematics.json",
+    "sha256": "030cf09ceb91991f83adce88642c36ffb806402c1c854d9c6ba843adb1f13c14"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-college_medical_statistics.json",
+    "sha256": "de05740b053f67de2a2ea502868644430ab6d2f1786dadb715d95301e9c7cf1c"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-college_medicine.json",
+    "sha256": "cc2f60f6676c4b10d4fd4268d1420e88eafd35cdc804df962fa199c328e21805"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-computer_science.json",
+    "sha256": "96c6c1420a941b396ecc96c78a37d16925fbe24f5a2de28810ff59824d3fecab"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-computer_security.json",
+    "sha256": "667c4c7073f641af0eaa7d066e158eeddfaad0dcaa12f8be0251db09b7a07291"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-conceptual_physics.json",
+    "sha256": "1d9631213dc798ae2939d76717a26441df30da10a6a139f6997316e30864e152"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-construction_project_management.json",
+    "sha256": "556ed19a5b1a89ae397f253b1c609a9ddb23a1605f4ca925747d41537969bd17"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-economics.json",
+    "sha256": "61157b4c3fd6960ab634eea67d3eaebce0245786aec748f87cc5f69662216e7d"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-education.json",
+    "sha256": "c4d9857986b976ca165f59b1849f1d3d69f78815588de83ada651b8f774f009a"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-electrical_engineering.json",
+    "sha256": "6e862f226710c4778a21f33428c52cdf934ed95482587d3eb254dd028943007b"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-elementary_chinese.json",
+    "sha256": "fb2d3c73dd01b91449c89be70221daa1a50216b7f1fb4d6c575800adaaec0dc0"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-elementary_commonsense.json",
+    "sha256": "c2a2bd9ec629dd6e98dfb5d63ec41406051e4291f50d89071e6f403ce847582e"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-elementary_information_and_technology.json",
+    "sha256": "9579dafffe7f6adbd22a47ee7057e53cf26a810a9a1443fef3644c6d92ee87a4"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-elementary_mathematics.json",
+    "sha256": "b37cec7591f7a7828abab2e29591c37b61f4823d6f57f1baa52d7aa46ab75a78"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-ethnology.json",
+    "sha256": "05455be76a48bb169ce7ad5f14946eff9599ad328275a54b40c71b4181902467"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-food_science.json",
+    "sha256": "4c55d93f13f42dd2bd3e096854d23bb53a62eb3037a469276c8ebff3e3159e43"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-genetics.json",
+    "sha256": "62794b5379f61d21fdc37031a620f6bb550cc51aed90bdf7774e8afd94fdac05"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-global_facts.json",
+    "sha256": "cf648f864b4988f8b4ab2b085d82f2ec5de012e161a135082fb68e7816f0ea3b"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-high_school_biology.json",
+    "sha256": "4f7957087c604cb71798f2cafcc9d34d6874d6f57fc4960adc8cf0f9623a8d06"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-high_school_chemistry.json",
+    "sha256": "46e024972e49471f276448fd8020e006d1a21a8966df485831a341fec2d574bf"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-high_school_geography.json",
+    "sha256": "dafb31e575be228fdcf186b3f0366785aad2b589de5c3dc1e6a4539f0939e8ab"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-high_school_mathematics.json",
+    "sha256": "38894eb00255c3ffcbf957cfaf66f30d7b32585f423b6acbfeb3c1900145e9b8"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-high_school_physics.json",
+    "sha256": "291307612ad472b699bb2f59d0f042445a94d4c98a000e6b579aeb2fc8d19f02"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-high_school_politics.json",
+    "sha256": "b78bd160d5afdcfa6dcdf7b2fae70a0e38c9954ef4289dd261bef4e97303815c"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-human_sexuality.json",
+    "sha256": "e4124b671370a7de7437e35e18fb654c16503687364371090872476a937c5928"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-international_law.json",
+    "sha256": "f3c3ab6b7675660c46ec5279659d3c5a9165c2086850935829c5d11926638e2c"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-journalism.json",
+    "sha256": "37909b822aa846443cfde6e8cd5a935e638703d21d17791a7ee98ea1ed64b682"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-jurisprudence.json",
+    "sha256": "fe0e1611ec84cfaf3a7e84a4ca7dad53be5c6a8bd5426adc481e8a94e20f5d7d"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-legal_and_moral_basis.json",
+    "sha256": "feeeee83ac1ee61343f5b7f052cffb89170a18ea4becd8c304b7e4be1f20f1ce"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-logical.json",
+    "sha256": "206f846b06aa41580e45153a8e870662956d05a5e05bd040d0a464d3c8503bd8"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-machine_learning.json",
+    "sha256": "4281a6a176c07084250506fd796604fccf08a409d4b89a031c7d580cfdf8eef2"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-management.json",
+    "sha256": "128de3c30b54e11d515dfb5cd95bcb27b26d27a5bb7b0f4489b966ab9d77d842"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-marketing.json",
+    "sha256": "ea2297064d35e5d85cb8027febb97f7200fc3193159e23e01a25e83e964bdb30"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-marxist_theory.json",
+    "sha256": "2087f858e0d649a5664bd355c454f8a956fc24f3e7a563117953a5d6bc783fa4"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-modern_chinese.json",
+    "sha256": "4e6f8bbdf11765a060838983f6eb793a6ef6d559535f2d47e226d1a2a211b3c0"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-nutrition.json",
+    "sha256": "f5a081bc920c448777292eaaf8a11c28a37ed37776d3361df7bcaf2ebacb96ef"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-philosophy.json",
+    "sha256": "a1fb0a83a82c8cdc169640b1c225e8c2945af8ba343e5d3651b48eb6a970e2a0"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-professional_accounting.json",
+    "sha256": "42dd6ed9824049b089172a0e086c479dfe4d6b6bb9de58a0b994ef842013bcda"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-professional_law.json",
+    "sha256": "86694b7f97925c56f7924cd05dac3b34b3bb2fdf6cc734f4f8b403fea75c39a6"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-professional_medicine.json",
+    "sha256": "78cb55bcc58f94c414cf184f378b3bfefe43990a6fc5a2fa86509ae82e56db12"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-professional_psychology.json",
+    "sha256": "e4d5582c536787e5a2ae14fe6f7a8ad2b172e0dd7507c37a6b76c26c29be6288"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-public_relations.json",
+    "sha256": "1dc7e27cd08077e16644f6e672a6ea5020916407e9ac978a1f686cb80a848e3b"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-security_study.json",
+    "sha256": "52989c2220bdabd39916ac7f7dc3f3ce48c05236ca307abad17b8d3565d31dc1"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-sociology.json",
+    "sha256": "bfdf4a5ab4576cbdc2eee7daf6ffe57798e982b67b4c4fbe7b2f46c534953c46"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-sports_science.json",
+    "sha256": "5a1fc692d3a43a697cf5ad6ee1ebc126e704315797fef1a01bffa136b65da5d9"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-traditional_chinese_medicine.json",
+    "sha256": "d841d5e93ba5d332834a1adef05f4e3c8f8d15068d41d067e290097ae9fff1ed"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-virology.json",
+    "sha256": "b15af3ec7484b4dbf9701d0ed196d21524e93bd0ee376abc838be9fea0b79a7e"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-world_history.json",
+    "sha256": "6c2f2dae6bb2c389b3602c96e00c0e4009c46528cce2e96f1dc19adaec543fc3"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/results/week8-bound-model/cmmlu-world_religions.json",
+    "sha256": "840d27c3e0a1f06f11698ff30b4b1f2792e0f6f1b2b302540deb9031b927ac66"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/summary/summary_20260917_061603.csv",
+    "sha256": "7dd96840c930ae79c90659274e153ad572f786d9a5110a629af816a0b648b063"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/summary/summary_20260917_061603.md",
+    "sha256": "ee6e05fed561ed0582b1a72d969da05c1e24b3702dce1edd541d42044bf69879"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass/20260917_061603/summary/summary_20260917_061603.txt",
+    "sha256": "9592949a126c14c3f9acc26166eda7e36a5a759a44ac2017cabd3156fe6c4fea"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass.log",
+    "sha256": "ca872f45503907faa10f612595fd50a5d6fe242271b1e422ca15b8226f0dfadf"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/opencompass_command.json",
+    "sha256": "1afbc01cd78171cd84a01ef03cdbc833882ffb37e99a98bda872c33dbc0149b9"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base/status.json",
+    "sha256": "545ee304518944a95d848c5911f2a4f9047d9a653911aea268c5b64ed6b3d2f0"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base.log",
+    "sha256": "f77ce7fdece0efb3061a5eebbffc255eff6c91167c4d626c56728acb6d3bda8e"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base_command.json",
+    "sha256": "685ed780d096a8db44037aee7f8d2d524a6235faeba9f6b77e253eb79ce5bf35"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/original_base_process.json",
+    "sha256": "cf33daa7c1162d026e207093394c81cb4fefee60b157611669492a812a0f2417"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/preflight_before.json",
+    "sha256": "3c319856325831352f4bcb7b805a014fc3775b0c09b29a606abbba560604701b"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/session_exit.json",
+    "sha256": "ba02eaa228d91d0dd80ca7f0f35ca676ce10109fa27b72011253b63b73ad74da"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01/status.json",
+    "sha256": "61a36e2d4a34bc49238a664372b89cfb7e80f762fd6be96d07c1106d767d3264"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/formal-eval-20260916-01-coordinator.log",
+    "sha256": "317cf2f4716b00c08d922deab6b91e5fdc1fe1ad6abc49e74403de98b4d147b7"
+  },
+  {
+    "path": "reports/week8/phase2_formal_inference/recovered_failure/manifest.json",
+    "sha256": "4badbc8b4b2cc9393396b8194ba7dfb921e973fe6538caf529e685dc746396d1"
+  }
+]

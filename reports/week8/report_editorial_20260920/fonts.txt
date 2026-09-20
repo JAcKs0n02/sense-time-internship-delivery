@@ -1,0 +1,15 @@
+name                                 type              encoding         emb sub uni object ID
+------------------------------------ ----------------- ---------------- --- --- --- ---------
+IHAIZV+TeXGyreHeros-Bold-Identity-H  CID Type 0C       Identity-H       yes yes yes      4  0
+BZIVMZ+FandolHei-Bold-Identity-H     CID Type 0C       Identity-H       yes yes no       6  0
+IXFAWU+FandolSong-Regular-Identity-H CID Type 0C       Identity-H       yes yes no       8  0
+TQTHRL+TeXGyreTermes-Regular-Identity-H CID Type 0C       Identity-H       yes yes yes     10  0
+YEUUOC+FandolSong-Bold-Identity-H    CID Type 0C       Identity-H       yes yes no      16  0
+AKHCZK+TeXGyreTermes-Bold-Identity-H CID Type 0C       Identity-H       yes yes yes     18  0
+VDVGTR+TeXGyreCursor-Regular-Identity-H CID Type 0C       Identity-H       yes yes yes     35  0
+DDIEWW+CMR10                         Type 1C           Builtin          yes yes yes     40  0
+FKPJSN+CMMI10                        Type 1C           Builtin          yes yes yes     41  0
+PVTTLK+CMSY8                         Type 1C           Builtin          yes yes yes     42  0
+JAGKKY+CMMI8                         Type 1C           Builtin          yes yes yes     43  0
+CAFSZL+TeXGyreHeros-Regular-Identity-H CID Type 0C       Identity-H       yes yes yes     44  0
+NOMARO+CMSY10                        Type 1C           Builtin          yes yes yes     46  0

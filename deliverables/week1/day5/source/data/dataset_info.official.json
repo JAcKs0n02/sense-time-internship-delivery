@@ -1,0 +1,106 @@
+{
+  "identity": {
+    "hf_hub_url": "llamafactory/demo_data",
+    "subset": "identity"
+  },
+  "alpaca_en_demo": {
+    "hf_hub_url": "llamafactory/demo_data",
+    "subset": "alpaca_en_demo"
+  },
+  "alpaca_zh_demo": {
+    "hf_hub_url": "llamafactory/demo_data",
+    "subset": "alpaca_zh_demo"
+  },
+  "glaive_toolcall_en_demo": {
+    "hf_hub_url": "llamafactory/demo_data",
+    "subset": "glaive_toolcall_en_demo",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "tools": "tools"
+    }
+  },
+  "glaive_toolcall_zh_demo": {
+    "hf_hub_url": "llamafactory/demo_data",
+    "subset": "glaive_toolcall_zh_demo",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "tools": "tools"
+    }
+  },
+  "system_chat": {
+    "hf_hub_url": "llamafactory/demo_data",
+    "subset": "system_chat",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "mllm_demo": {
+    "hf_hub_url": "llamafactory/demo_data",
+    "subset": "mllm_demo",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "dpo_en_demo": {
+    "hf_hub_url": "llamafactory/demo_data",
+    "subset": "dpo_en_demo",
+    "ranking": true,
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "dpo_zh_demo": {
+    "hf_hub_url": "llamafactory/demo_data",
+    "subset": "dpo_zh_demo",
+    "ranking": true,
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "kto_en_demo": {
+    "hf_hub_url": "llamafactory/demo_data",
+    "subset": "kto_en_demo",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "kto_tag": "label"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "c4_demo": {
+    "hf_hub_url": "llamafactory/demo_data",
+    "subset": "c4_demo",
+    "columns": {
+      "prompt": "text"
+    }
+  }
+}

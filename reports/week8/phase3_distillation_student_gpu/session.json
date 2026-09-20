@@ -1,0 +1,20 @@
+{
+  "status": "STUDENT_TRAINING_VERIFIED_INSTANCE_OFF_COMPARISON_PENDING",
+  "instance": "be044ebe99-be706b14",
+  "mode": "RTX3090_SINGLE_GPU",
+  "hourly_cny": 1.48,
+  "platform_shutdown_utc": "2026-09-18T20:25:00Z",
+  "platform_shutdown_display": "2026-09-18 21:25:00",
+  "internal_deadline_utc": "2026-09-18T20:20:00Z",
+  "launch_observed_before_utc": "2026-09-18T19:40:25.035588+00:00",
+  "coordinator_shell_job_pid": 1292,
+  "package_sha256": "a2f8d8df3beaff36627d7180748d06fbb5ab0a539eb4a61857ea432a2dd35039",
+  "expected_epochs": 2,
+  "expected_optimizer_steps": 36,
+  "automatic_retry": false,
+  "instance_off_verified": true,
+  "instance_off_evidence": "AutoDL console row be044ebe99-be706b14 showed 已关机 after shutdown confirmation; observed before this record",
+  "recorded_utc": "2026-09-18T19:48:04.003250+00:00",
+  "remote_model_dir": "/root/autodl-tmp/week8-distillation-student-20260918/run-01/student/final_distilled",
+  "local_checks": "checks.json"
+}

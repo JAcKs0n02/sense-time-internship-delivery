@@ -1,0 +1,362 @@
+[
+  {
+    "source": "README.md",
+    "target": "docs/week8_human_scoring_result.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "docs/week8_acceptance_audit.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "reports/technical_report.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "reports/week8/current_evaluation_summary.csv",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "docs/week8_custom20_diagnostic_review.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "Submission/Week8/README.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "docs/prior_weeks_documentation_audit.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "configs/README.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "docs/week8_pipeline_score_integration.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "Submission/Week7/本地部署与操作手册.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "docs/week8_supervised_deployment.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "configs/distillation.json",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "docs/week8_execution_plan.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "docs/week8_distillation_student_training.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "docs/week8_distillation_comparison.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "Submission/Week1/README.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "Submission/Week2/README.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "Submission/Week3/README.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "Submission/Week4/README.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "Submission/Week5/README.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "Submission/Week6/README.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "Submission/Week7/README.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "docs/week8_execution_plan.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "docs/week1_execution_plan.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "docs/week2_execution_plan.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "docs/week3_execution_plan.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "docs/week4_execution_plan.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "docs/week5_execution_plan.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "docs/week6_execution_plan.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "docs/week7_execution_plan.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "docs/week8_execution_plan.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "Submission/Week7/README.md",
+    "exists": true
+  },
+  {
+    "source": "Submission/README.md",
+    "target": "Week8/README.md",
+    "exists": true
+  },
+  {
+    "source": "Submission/README.md",
+    "target": "Week1/README.md",
+    "exists": true
+  },
+  {
+    "source": "Submission/README.md",
+    "target": "Week2/README.md",
+    "exists": true
+  },
+  {
+    "source": "Submission/README.md",
+    "target": "Week3/README.md",
+    "exists": true
+  },
+  {
+    "source": "Submission/README.md",
+    "target": "Week4/README.md",
+    "exists": true
+  },
+  {
+    "source": "Submission/README.md",
+    "target": "Week5/README.md",
+    "exists": true
+  },
+  {
+    "source": "Submission/README.md",
+    "target": "Week6/README.md",
+    "exists": true
+  },
+  {
+    "source": "Submission/README.md",
+    "target": "Week7/README.md",
+    "exists": true
+  },
+  {
+    "source": "Submission/README.md",
+    "target": "Week4_Submission.zip",
+    "exists": true
+  },
+  {
+    "source": "Submission/README.md",
+    "target": "Week4_Submission.zip.sha256",
+    "exists": true
+  },
+  {
+    "source": "Submission/README.md",
+    "target": "../docs/week8_execution_plan.md",
+    "exists": true
+  },
+  {
+    "source": "Submission/README.md",
+    "target": "SHA256SUMS.txt",
+    "exists": true
+  },
+  {
+    "source": "Submission/Week8/README.md",
+    "target": "../../reports/technical_report.pdf",
+    "exists": true
+  },
+  {
+    "source": "Submission/Week8/README.md",
+    "target": "../../reports/technical_report.docx",
+    "exists": true
+  },
+  {
+    "source": "Submission/Week8/README.md",
+    "target": "../../reports/technical_report.md",
+    "exists": true
+  },
+  {
+    "source": "Submission/Week8/README.md",
+    "target": "../../docs/week8_acceptance_audit.md",
+    "exists": true
+  },
+  {
+    "source": "Submission/Week8/README.md",
+    "target": "../../reports/week8/current_evaluation_summary.csv",
+    "exists": true
+  },
+  {
+    "source": "Submission/Week8/README.md",
+    "target": "../../docs/week8_trained_gemini_scoring.md",
+    "exists": true
+  },
+  {
+    "source": "Submission/Week8/README.md",
+    "target": "../../docs/week8_custom20_diagnostic_review.md",
+    "exists": true
+  },
+  {
+    "source": "Submission/Week8/README.md",
+    "target": "../../docs/week8_human_scoring_result.md",
+    "exists": true
+  },
+  {
+    "source": "Submission/Week8/README.md",
+    "target": "../../reports/week8/phase2_human_scores/summary.csv",
+    "exists": true
+  },
+  {
+    "source": "Submission/Week8/README.md",
+    "target": "../../README.md",
+    "exists": true
+  },
+  {
+    "source": "Submission/Week8/README.md",
+    "target": "../../configs/README.md",
+    "exists": true
+  },
+  {
+    "source": "Submission/Week8/README.md",
+    "target": "../../docs/week8_data_protocol.md",
+    "exists": true
+  },
+  {
+    "source": "Submission/Week8/README.md",
+    "target": "../../docs/week8_full_training_target.md",
+    "exists": true
+  },
+  {
+    "source": "Submission/Week8/README.md",
+    "target": "../../docs/week8_distillation_comparison.md",
+    "exists": true
+  },
+  {
+    "source": "Submission/Week8/README.md",
+    "target": "../../docs/week8_supervised_deployment.md",
+    "exists": true
+  },
+  {
+    "source": "Submission/Week8/README.md",
+    "target": "../../docs/week8_pipeline_score_integration.md",
+    "exists": true
+  },
+  {
+    "source": "Submission/Week8/README.md",
+    "target": "../../reports/week8/final_report_update/verification.json",
+    "exists": true
+  },
+  {
+    "source": "Submission/Week8/README.md",
+    "target": "../../reports/week8/final_report_update/manifest.json",
+    "exists": true
+  },
+  {
+    "source": "Submission/Week8/README.md",
+    "target": "../../reports/week8/closeout-20260918/verification.json",
+    "exists": true
+  },
+  {
+    "source": "Submission/Week8/README.md",
+    "target": "../../reports/week8/closeout-20260918/manifest.json",
+    "exists": true
+  },
+  {
+    "source": "Submission/Week8/README.md",
+    "target": "../../reports/week8/phase2_custom20_review/reviewers/README.md",
+    "exists": true
+  },
+  {
+    "source": "reports/README.md",
+    "target": "week8/final_report_update/verification.json",
+    "exists": true
+  },
+  {
+    "source": "reports/README.md",
+    "target": "technical_report.md",
+    "exists": true
+  },
+  {
+    "source": "reports/README.md",
+    "target": "technical_report.docx",
+    "exists": true
+  },
+  {
+    "source": "reports/README.md",
+    "target": "technical_report.pdf",
+    "exists": true
+  },
+  {
+    "source": "reports/README.md",
+    "target": "../docs/week8_acceptance_audit.md",
+    "exists": true
+  },
+  {
+    "source": "reports/README.md",
+    "target": "week8/current_evaluation_summary.csv",
+    "exists": true
+  },
+  {
+    "source": "configs/README.md",
+    "target": "../docs/week8_phase1_task5_result.md",
+    "exists": true
+  }
+]

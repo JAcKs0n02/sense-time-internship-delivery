@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "status": "preregistered",
+  "repository": "Qwen/Qwen2-VL-7B-Instruct",
+  "revision": "eed13092ef92e448dd6875b2a00151bd3f7db0ac",
+  "generation_config_sha256": "0d1f0f59fce9b688f9445b0b4fee4c0c38d1bec4c4e3e4910efb34b3d7bb513d",
+  "layer_number_1_based": 20,
+  "case_count": 4,
+  "cases": [
+    {
+      "case_id": "case-01-scene-mountain",
+      "record_id": "d23-scene-description",
+      "target_text": "山峰",
+      "target_occurrence": 1,
+      "target_display_label": "mountain_peak",
+      "target_category": "grounded_object",
+      "image_id": "w5-scene-01",
+      "image_type": "natural_scene",
+      "image_relative_path": "images/w5-scene-01.jpg",
+      "image_sha256": "32c63883fbedbd2da1590245b1ccaa55bdb26ffa63bf3328456202356ed307d6",
+      "prompt": "请描述图片中可见的主要内容，包括主要对象、属性和位置关系。只陈述图像能够支持的事实；无法确认的信息请明确说明，不要猜测。",
+      "expected_day23_response": "这张图片展示了一个宁静的自然景观。前景中有一个平静的湖泊，湖面如镜，反射出上方的天空和远处的山脉。湖的边缘有一些岩石和树枝，增添了自然的氛围。湖的对岸是一片茂密的森林，树木高大而密集，呈现出深绿色。在背景中，可以看到一座被雪覆盖的山峰，山顶在天空中显得格外醒目。天空上方是多云的，给整个场景带来了一种柔和的光线。",
+      "expected_day23_response_sha256": "5309bfd8e2381662aa29b7c70528cf7824e771191f92098296f73114bd667c6c",
+      "day23_image_grid_thw": [
+        [
+          1,
+          32,
+          48
+        ]
+      ],
+      "day23_input_tokens": 439,
+      "day23_output_tokens": 104
+    },
+    {
+      "case_id": "case-02-table-description",
+      "record_id": "d23-table-ocr",
+      "target_text": "DESCRIPTION",
+      "target_occurrence": 1,
+      "target_display_label": "DESCRIPTION",
+      "target_category": "grounded_ocr",
+      "image_id": "w5-table-01",
+      "image_type": "table_screenshot",
+      "image_relative_path": "images/w5-table-01.png",
+      "image_sha256": "3232767ffc76d8feb99f44bf48788cd6e53a7d3411c771527bf7e7897dc9b9c7",
+      "prompt": "请提取图片中所有可识别的文字、数字和数学符号，并尽量保留原有的行列或层级结构。无法辨认的部分请标记为[无法辨认]；如果没有可识别文字，请明确说明。",
+      "expected_day23_response": "| A | B | C | D | E | F |\n|---|---|---|---|---|---|\n| 1 | [无法辨认] | DESCRIPTION | ALIAS | PREDICATE 1 | PREDICATE 2 | PREDICATE 3 |\n| 2 | SUBJECT A | text | text | OBJECT | OBJECT | OBJECT |\n| 3 | SUBJECT B | text | text | OBJECT | OBJECT | OBJECT |\n| 4 | SUBJECT C | text | text | OBJECT | OBJECT | OBJECT |",
+      "expected_day23_response_sha256": "625bd316bace3b8b9b134b490738a855d30f7921163c1a0b835e5e421e87b6bd",
+      "day23_image_grid_thw": [
+        [
+          1,
+          14,
+          84
+        ]
+      ],
+      "day23_input_tokens": 358,
+      "day23_output_tokens": 114
+    },
+    {
+      "case_id": "case-03-formula-gamma",
+      "record_id": "d23-formula-description",
+      "target_text": "gamma",
+      "target_occurrence": 1,
+      "target_display_label": "gamma",
+      "target_category": "hallucinated_symbol",
+      "image_id": "w5-formula-01",
+      "image_type": "handwritten_formula",
+      "image_relative_path": "images/w5-formula-01.jpg",
+      "image_sha256": "f8e0a95c9ad7e321ad8beae1e0206d11f86d1c8c4e82a797fa14c1fbdbe3fd0d",
+      "prompt": "请描述图片中可见的主要内容，包括主要对象、属性和位置关系。只陈述图像能够支持的事实；无法确认的信息请明确说明，不要猜测。",
+      "expected_day23_response": "图片中可见的主要内容是一个数学公式。公式如下：\n\n\\[ \\gamma = \\frac{mc^2}{\\sqrt{1 - \\frac{v^2}{c^2}}} \\]\n\n公式中的符号和变量如下：\n- \\( \\gamma \\)：希腊字母伽马，表示相对论因子。\n- \\( m \\)：质量。\n- \\( c \\)：光速。\n- \\( v \\)：速度。\n\n公式表示的是相对论因子 \\(\\gamma\\) 与质量 \\(m\\)、光速 \\(c\\) 和速度 \\(v\\) 之间的关系。公式中的根号部分表示速度 \\(v\\) 与光速 \\(c\\) 的比值的平方根。",
+      "expected_day23_response_sha256": "a5ab01c2fcee6f954d6d660016b125c50c5f6cc223c7a1667b08deab752f74e0",
+      "day23_image_grid_thw": [
+        [
+          1,
+          22,
+          50
+        ]
+      ],
+      "day23_input_tokens": 330,
+      "day23_output_tokens": 146
+    },
+    {
+      "case_id": "case-04-logo-triangle",
+      "record_id": "d23-logo-structure",
+      "target_text": "三角形",
+      "target_occurrence": 1,
+      "target_display_label": "triangle",
+      "target_category": "hallucinated_geometry",
+      "image_id": "w5-logo-01",
+      "image_type": "logo",
+      "image_relative_path": "images/w5-logo-01.png",
+      "image_sha256": "7767ed3373a71e22e3cabe828e1ccc5914a61f8711550e1161bda751ad31e557",
+      "prompt": "请解释图片中元素的组织结构、层级和相互关系。如果是表格，请解释行列关系；如果是公式，请解释分子、分母和符号关系；如果是UI、Logo或自然场景，请解释界面层级、几何组成或空间关系。不要补充图片中不存在的数值或对象。",
+      "expected_day23_response": "这张图片展示了一个抽象的标志设计。标志由几个基本的几何形状组成，包括一个绿色的地球仪和三个颜色不同的圆形。具体分析如下：\n\n1. **地球仪**：标志的中心是一个绿色的地球仪，地球仪的轮廓清晰，显示出地球的形状和地理特征。\n\n2. **圆形**：地球仪被三个圆形包围。这三个圆形的颜色分别是红色、蓝色和绿色，分别位于地球仪的上方、左侧和右侧。\n\n3. **颜色**：红色、蓝色和绿色的圆形形成了一个三角形的图案，三角形的顶点指向地球仪的中心。\n\n4. **整体结构**：整个标志的设计简洁明了，地球仪作为中心元素，周围的圆形形成了一个对称的图案，颜色的使用增加了视觉上的对比和层次感。\n\n这种设计通常用于代表全球范围内的组织或公司，强调全球连接和合作的理念。标志的几何形状和颜色的选择都旨在传达出一种国际化和多元化的形象。",
+      "expected_day23_response_sha256": "a655d3f6288bcec14f286df4f3c89238715de1539bf417271c3e3b3c26a2c4b7",
+      "day23_image_grid_thw": [
+        [
+          1,
+          38,
+          38
+        ]
+      ],
+      "day23_input_tokens": 443,
+      "day23_output_tokens": 207
+    }
+  ]
+}

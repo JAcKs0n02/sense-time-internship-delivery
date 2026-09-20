@@ -1,0 +1,41 @@
+case_id,passed,primary_label,secondary_labels,expected_tool_sequence,actual_tool_sequence,failed_checks
+dev-calculator-001,True,,[],"[""calculator""]","[""calculator""]",[]
+dev-calculator-002,False,final_answer_error,[],"[""calculator""]","[""calculator""]","[""final_answer_grounded""]"
+dev-calculator-003,True,,[],"[""calculator""]","[""calculator""]",[]
+dev-calculator-004,True,,[],"[""calculator""]","[""calculator""]",[]
+dev-calculator-005,True,,[],"[""calculator""]","[""calculator""]",[]
+dev-calculator-006,False,format_parse_error,"[""wrong_tool"", ""argument_extraction_error"", ""final_answer_error""]","[""calculator""]",[],"[""first_tool_choice"", ""full_tool_sequence"", ""argument_correctness"", ""format_valid"", ""semantic_correctness"", ""final_answer_grounded"", ""completion""]"
+dev-calculator-007,True,,[],"[""calculator""]","[""calculator""]",[]
+dev-calculator-008,True,,[],"[""calculator""]","[""calculator""]",[]
+dev-knowledge-001,True,,[],"[""knowledge_retrieval""]","[""knowledge_retrieval""]",[]
+dev-knowledge-002,False,final_answer_error,[],"[""knowledge_retrieval""]","[""knowledge_retrieval""]","[""semantic_correctness"", ""final_answer_grounded""]"
+dev-knowledge-003,False,final_answer_error,[],"[""knowledge_retrieval""]","[""knowledge_retrieval""]","[""semantic_correctness"", ""final_answer_grounded""]"
+dev-knowledge-004,True,,[],"[""knowledge_retrieval""]","[""knowledge_retrieval""]",[]
+dev-knowledge-005,True,,[],"[""knowledge_retrieval""]","[""knowledge_retrieval""]",[]
+dev-knowledge-006,False,final_answer_error,[],"[""knowledge_retrieval""]","[""knowledge_retrieval""]","[""semantic_correctness"", ""final_answer_grounded""]"
+dev-knowledge-007,True,,[],"[""knowledge_retrieval""]","[""knowledge_retrieval""]",[]
+dev-knowledge-008,False,final_answer_error,[],"[""knowledge_retrieval""]","[""knowledge_retrieval""]","[""semantic_correctness"", ""final_answer_grounded""]"
+dev-code-001,False,final_answer_error,[],"[""code_executor""]","[""code_executor""]","[""semantic_correctness"", ""final_answer_grounded""]"
+dev-code-002,False,final_answer_error,[],"[""code_executor""]","[""code_executor""]","[""semantic_correctness"", ""final_answer_grounded""]"
+dev-code-003,False,final_answer_error,[],"[""code_executor""]","[""code_executor""]","[""semantic_correctness"", ""final_answer_grounded""]"
+dev-code-004,True,,[],"[""code_executor""]","[""code_executor""]",[]
+dev-code-005,True,,[],"[""code_executor""]","[""code_executor""]",[]
+dev-code-006,False,final_answer_error,[],"[""code_executor""]","[""code_executor""]","[""semantic_correctness"", ""final_answer_grounded""]"
+dev-code-007,False,final_answer_error,[],"[""code_executor""]","[""code_executor""]","[""semantic_correctness"", ""final_answer_grounded""]"
+dev-code-008,False,final_answer_error,[],"[""code_executor""]","[""code_executor""]","[""semantic_correctness"", ""final_answer_grounded""]"
+dev-budget-001,False,final_answer_error,[],"[""knowledge_retrieval"", ""calculator""]","[""knowledge_retrieval"", ""calculator""]","[""semantic_correctness"", ""final_answer_grounded""]"
+dev-budget-002,False,final_answer_error,[],"[""knowledge_retrieval"", ""calculator""]","[""knowledge_retrieval"", ""calculator""]","[""semantic_correctness"", ""final_answer_grounded""]"
+dev-budget-003,False,format_parse_error,"[""final_answer_error""]","[""knowledge_retrieval"", ""calculator""]","[""knowledge_retrieval"", ""calculator""]","[""format_valid"", ""semantic_correctness"", ""final_answer_grounded"", ""completion""]"
+dev-budget-004,True,,[],"[""knowledge_retrieval"", ""calculator""]","[""knowledge_retrieval"", ""calculator""]",[]
+dev-budget-005,False,final_answer_error,[],"[""knowledge_retrieval"", ""calculator""]","[""knowledge_retrieval"", ""calculator""]","[""semantic_correctness"", ""final_answer_grounded""]"
+dev-budget-006,False,final_answer_error,[],"[""knowledge_retrieval"", ""calculator""]","[""knowledge_retrieval"", ""calculator""]","[""semantic_correctness"", ""final_answer_grounded""]"
+dev-budget-007,False,argument_extraction_error,"[""final_answer_error""]","[""knowledge_retrieval"", ""calculator""]","[""knowledge_retrieval"", ""calculator""]","[""argument_correctness"", ""format_valid"", ""final_answer_grounded"", ""completion""]"
+dev-budget-008,False,final_answer_error,[],"[""knowledge_retrieval"", ""calculator""]","[""knowledge_retrieval"", ""calculator""]","[""semantic_correctness"", ""final_answer_grounded""]"
+dev-budget-009,True,,[],"[""knowledge_retrieval"", ""calculator""]","[""knowledge_retrieval"", ""calculator""]",[]
+dev-budget-010,False,final_answer_error,[],"[""knowledge_retrieval"", ""calculator""]","[""knowledge_retrieval"", ""calculator""]","[""semantic_correctness"", ""final_answer_grounded""]"
+dev-recovery-001,True,,[],"[""calculator""]","[""calculator""]",[]
+dev-recovery-002,True,,[],"[""knowledge_retrieval""]","[""knowledge_retrieval""]",[]
+dev-recovery-003,False,format_parse_error,"[""wrong_tool"", ""argument_extraction_error"", ""final_answer_error""]","[""code_executor""]",[],"[""first_tool_choice"", ""full_tool_sequence"", ""argument_correctness"", ""format_valid"", ""semantic_correctness"", ""final_answer_grounded"", ""safe_termination"", ""completion""]"
+dev-recovery-004,True,,[],"[""calculator""]","[""calculator""]",[]
+dev-recovery-005,True,,[],"[""knowledge_retrieval""]","[""knowledge_retrieval""]",[]
+dev-recovery-006,False,format_parse_error,"[""wrong_tool"", ""argument_extraction_error"", ""final_answer_error""]","[""code_executor""]",[],"[""first_tool_choice"", ""full_tool_sequence"", ""argument_correctness"", ""format_valid"", ""semantic_correctness"", ""final_answer_grounded"", ""safe_termination"", ""completion""]"

@@ -1,0 +1,2056 @@
+{
+  "schema_version": 1,
+  "status": "CURATION_COMPLETE_TRAINING_GATE_PENDING",
+  "review_date_utc": "2026-09-18",
+  "reviewer_type": "assistant_full_text_review",
+  "human_review": false,
+  "scope": "All 200 raw outputs and their complete messages inspected; 191 complete outputs assessed; 9 truncations excluded. Conservative pedagogical selection, not an external factual certification or independent human score.",
+  "generation_receipt_path": "retrieved/generation/generation_receipt.json",
+  "generation_receipt_sha256": "2ad4c1fccc01ea807f89452a4e29a02d56fb4444aecdf58a164461a87a83cd35",
+  "original_targets_path": "retrieved/generation/teacher_targets.json",
+  "original_targets_sha256": "9559025ad117486c41797e6c84e92a21e55f7f47ad15d329dbee81236dabedad",
+  "curated_targets_path": "curated_targets.json",
+  "curated_targets_sha256": "8f0bed57299c4e088782ec53703e78d6a2fdffc82e8cdef0f53b6f2a353bcccf",
+  "counts": {
+    "generated": 200,
+    "complete": 191,
+    "truncated": 9,
+    "retained": 152,
+    "excluded_complete": 39,
+    "excluded_total": 48
+  },
+  "reason_counts": {
+    "LANGUAGE_ERROR": 1,
+    "KEEP": 152,
+    "UNCERTAIN_LABEL": 3,
+    "TRANSLATION_PRECISION": 2,
+    "MISSING_CONTEXT": 2,
+    "TRUNCATED": 9,
+    "ARITHMETIC_ERROR": 1,
+    "TASK_MISMATCH": 2,
+    "AMBIGUOUS_PROMPT": 3,
+    "UNCERTAIN_TRANSLATION": 2,
+    "UNSUPPORTED_INFERENCE": 1,
+    "FACTUAL_ERROR": 4,
+    "UNVERIFIED_SOURCE": 1,
+    "COUNT_CONSTRAINT": 4,
+    "TEXT_QUALITY": 2,
+    "UNCERTAIN_LENGTH": 1,
+    "UNVERIFIED_CLAIMS": 1,
+    "UNVERIFIED_TEMPORAL": 1,
+    "UNSUPPORTED_ENTITY": 1,
+    "TRANSLITERATION_ERROR": 1,
+    "LANGUAGE_ALIGNMENT": 2,
+    "SEMANTIC_CHANGE": 1,
+    "NARRATIVE_CONSISTENCY": 1,
+    "CLASSIFICATION_CONSTRAINT": 1,
+    "CODE_ERROR": 1
+  },
+  "training_allowed": false,
+  "remaining_gates": [
+    "Auditable curated-subset support in train entry (current entry requires all 191 original targets).",
+    "Real pinned student tokenizer cleaning, deduplication, train/validation separation and schedule recalculation."
+  ],
+  "decisions": [
+    {
+      "index": 0,
+      "sample_id": "b4d8962bab697bfc8f5a37c7ee55c8b8713928f73f0f3727a0fc1d5691926ceb",
+      "raw_path": "retrieved/generation/teacher_raw/0000.json",
+      "raw_sha256": "38046a85cd1bbb8600e423bac75a60572912aef6f7a73e933f027058b970e2c6",
+      "decision": "EXCLUDE",
+      "reason_code": "LANGUAGE_ERROR",
+      "notes": "印地语标签混入英文片段，铲子的译词也不可靠。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 1,
+      "sample_id": "df3a4870dffe3a255f42f654e314bcf9d11ece22ed88f58ee8134bb6f2cab520",
+      "raw_path": "retrieved/generation/teacher_raw/0001.json",
+      "raw_sha256": "fdd19bf4f65eb8edec8db4e34ae087b4f79ff0b659e5636ea445a022483e5ed6",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "蓝色对应选项A，输出与问题一致。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 2,
+      "sample_id": "7885a9086fea47c948f12770be329390b6d1fa25ee4fc72432a8173f6718cf1b",
+      "raw_path": "retrieved/generation/teacher_raw/0002.json",
+      "raw_sha256": "87a226124f0789f4677b09900f4c0a8e2036dbf4c0aa5ae6494186245e96d941",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "韩语属格译为“的”，作品名称保留原文。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 3,
+      "sample_id": "95bed3d5502e1ecde9c83572bd5b9e6e26617dfe02328418cef6b376ef6bc24c",
+      "raw_path": "retrieved/generation/teacher_raw/0003.json",
+      "raw_sha256": "96beab9a568348a3a53e141ec31fbac70b42d9019edef0c0a9aaae90e7cbbde5",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "缺少待分析文本时明确请求补充，未编造主题。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 4,
+      "sample_id": "42dc0df24d684e1955301300449cbc4fd59bf93a1bac387904789c5f76a2345e",
+      "raw_path": "retrieved/generation/teacher_raw/0004.json",
+      "raw_sha256": "8f8120276cf65a8b78fca094363bd0079098e26eb3cd307ad75c85e6e0e13ffe",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "输出短语包含大流行、挑战、行动，完整性判断合理。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 5,
+      "sample_id": "a0cda6690f57e7c912a56fa610fd2d9ab76db9a692930a05944fc3c5a1a34e7e",
+      "raw_path": "retrieved/generation/teacher_raw/0005.json",
+      "raw_sha256": "c721e84d3ebb82b2c9ba7416cc4430551e880e5b4cb6cf2975366d337054170c",
+      "decision": "EXCLUDE",
+      "reason_code": "UNCERTAIN_LABEL",
+      "notes": "交通维度靠近地铁含正向信息，中立标签存在歧义，暂不训练。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 6,
+      "sample_id": "2958e8cd0b2145a4e1a4ef81d2c7816047e22267b91e939ef3558d1adf8b173b",
+      "raw_path": "retrieved/generation/teacher_raw/0006.json",
+      "raw_sha256": "4fcdbd7b0ca92f544fce75ac790a3ef51abebf0e5c98c5b915a1d5dfea22fffc",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "西班牙语语言识别正确。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 7,
+      "sample_id": "65c9fc52d399d7b7a2bdcdfc452ab9bdce3577721f5442b5fe7a3a3d829f0883",
+      "raw_path": "retrieved/generation/teacher_raw/0007.json",
+      "raw_sha256": "9f3308bb916d0f1e50f2acdeacb0c5c374d9b449d75ff49012e8e90f502dfd64",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "按给定动物/植物/矿物类别，石头归矿物合理。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 8,
+      "sample_id": "42eb22ad08615766388cf075c15c078b451d85b78b8a8cd725d8d8c920d90e4e",
+      "raw_path": "retrieved/generation/teacher_raw/0008.json",
+      "raw_sha256": "e1cacf5d9d60627fd932d6be86d448b832ea083143396e6729281ce41a9589f5",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "土耳其语译文对应步行和骑车。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 9,
+      "sample_id": "5732c2003eaa69ffcca2fce700b112d111a9444ab4b7ee45c470ddf78624da83",
+      "raw_path": "retrieved/generation/teacher_raw/0009.json",
+      "raw_sha256": "2dea6f323c3b09fb642fce5b562213ac28231bf78a6b7483e74b1394c299c9c8",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "生成了与气候变化应对相关的问题。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 10,
+      "sample_id": "7f14e57f7f339e0e1a1c8bc2e358d23d5596ba18bdb9b3912b8f2f01efc7b59a",
+      "raw_path": "retrieved/generation/teacher_raw/0010.json",
+      "raw_sha256": "3be61efb4d0f713bd19ae01b92f35d4c171124d59f49e9cce7fdc398bb36d4fd",
+      "decision": "EXCLUDE",
+      "reason_code": "TRANSLATION_PRECISION",
+      "notes": "ハウリング指音响啸叫，译成回声不够准确。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 11,
+      "sample_id": "b45dacceb87802c5173105c08caac77d1be9d73d72ae8395d532a4ea23637581",
+      "raw_path": "retrieved/generation/teacher_raw/0011.json",
+      "raw_sha256": "f69fbd85006c24740e20155452e0ccbf49997bf747ff718f5cbe8382ef1294b4",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "古吉拉特语回答“正确”，对应所给陈述。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 12,
+      "sample_id": "d0b85683b12239fb4c4ded3742384c9f8b4dcf75b62b0a3c634ea2cb7ee85847",
+      "raw_path": "retrieved/generation/teacher_raw/0012.json",
+      "raw_sha256": "f0404252311b489dc5a9129aa160681bb674bfc8c69aafca2d84f2c2e5b9139a",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "提供观察、注意、发现、察觉等动词改写。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 13,
+      "sample_id": "c0bd344236d4ed94a78e4edc2a72fe782df1759da0aa3f2ad9187d68a31e84a7",
+      "raw_path": "retrieved/generation/teacher_raw/0013.json",
+      "raw_sha256": "5032a1ad35de7db628d14f7b2834f64112856794d0bf14644ea698b1b7815109",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "准确指出杰西卡用自身跳伞经验进行说服。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 14,
+      "sample_id": "cebba349ed136556d8922d2584eedc35574586f6f372163a17ca7559a8e2b60b",
+      "raw_path": "retrieved/generation/teacher_raw/0014.json",
+      "raw_sha256": "77867b1bbbe7e68040694c1359acf6cf5cc43262ba3161c8ea0def39810d1b47",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "规则明确4<x<6且排除端点。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 15,
+      "sample_id": "fb34829698741d52af89338cb0757162b143d46b5ac882efd1fcebfaacba5e3c",
+      "raw_path": "retrieved/generation/teacher_raw/0015.json",
+      "raw_sha256": "6f9b97559245c904207a0a6374d4ede5a56b2d9b9aa288ca1a2b94d3a9ce06f0",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "SELECT DISTINCT满足去重部门名称要求，表名占位已说明。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 16,
+      "sample_id": "ce6bec3891e1a43ea1f71a1557371d76f112059fb82b3de0ef7e56d07864242a",
+      "raw_path": "retrieved/generation/teacher_raw/0016.json",
+      "raw_sha256": "6972dadd0497add1fdf8dd9dfed843e1e19f287858d6e9b671311ccaad8ce8c4",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "文本识别为马拉地语，与词形一致。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 17,
+      "sample_id": "0fb35604f3a2a676d4d18b0e780563745ea2aa031aa3d21314c01c23c2acceb1",
+      "raw_path": "retrieved/generation/teacher_raw/0017.json",
+      "raw_sha256": "62e4d07b247d88080ea52b4b6deda025ada68453d4301669853c347334241b83",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "口号围绕可持续能源和绿色未来。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 18,
+      "sample_id": "1cfd4e5e153135609ba5a8b9e46afd27051b1ffe2ab1c101b95e79a35145fda8",
+      "raw_path": "retrieved/generation/teacher_raw/0018.json",
+      "raw_sha256": "d00bfbb18dc76d1f9d41acb78d9284045e9c94daeddd0bdfeaab6e5d05da38ac",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "主谓分析正确，陈述句分类合理。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 19,
+      "sample_id": "3e45c5ee9af027916aa1ac330c9ed398fff34126d41ffcbd687b6b12bfb3a763",
+      "raw_path": "retrieved/generation/teacher_raw/0019.json",
+      "raw_sha256": "46bf52c879991240e832e77f0a9b7f4ca6aac38169193210479fc52377cf33be",
+      "decision": "EXCLUDE",
+      "reason_code": "MISSING_CONTEXT",
+      "notes": "未提供故事却断言主角勇敢、正直等具体性格。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 20,
+      "sample_id": "a6a4f30edc0fb444d7439d2abe87ac4cbc19a35ae10f27677ac58d2779307e5c",
+      "raw_path": "retrieved/generation/teacher_raw/0020.json",
+      "raw_sha256": "62488eeda820f93aea3b8d43ed9ef607ae309bc8c29056619f8e205112d1bcaf",
+      "decision": "EXCLUDE",
+      "reason_code": "TRUNCATED",
+      "notes": "生成标记截断，末尾停在“总之”。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 21,
+      "sample_id": "26a8c96cab7cd948bc53d2edab3e7f47c3f23fd7fea2af97c3a575e94945d883",
+      "raw_path": "retrieved/generation/teacher_raw/0021.json",
+      "raw_sha256": "8c5ddc5be4e5e125aab2dd47b684aa6cc0f9e5dd8d28e8b250ac86ef5d3a8a0d",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "仅按所给文章判断答案可找到，不作为独立医疗事实认证。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 22,
+      "sample_id": "76b0b510efdf0cd625c288504f58876d35a8531eeb92bfd5c89512147dca95dc",
+      "raw_path": "retrieved/generation/teacher_raw/0022.json",
+      "raw_sha256": "0b008ad1e3e3348aa065122cf4595e4b42a1636416c672f5861b6600c57d9e22",
+      "decision": "EXCLUDE",
+      "reason_code": "ARITHMETIC_ERROR",
+      "notes": "四数和应为35，答案过程写45且45/4并非8.75。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 23,
+      "sample_id": "504630615b4e94c8c1498a666123c41f87de99a72ced91a4f22518aa07e3678a",
+      "raw_path": "retrieved/generation/teacher_raw/0023.json",
+      "raw_sha256": "586cefd40d87903190c3a792862f8d431b633a2b649933f99c83b38755b47f2e",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "所给文本未明确列出身体部位实体，计数0合理。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 24,
+      "sample_id": "c7a904eacf79ad1099d740b25ebf4d18ae671e4232c941e5a0b59b8aa52afcb3",
+      "raw_path": "retrieved/generation/teacher_raw/0024.json",
+      "raw_sha256": "7353dfb909f22c87d50412aae136f8bc262cef64c9c7ddfbb79ca675921f68ec",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "韩语问句保留歌曲名并询问演唱者。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 25,
+      "sample_id": "f3fea8088366471889de4f11615edde16eb3b3f25e5e22830c8bb5cb6b7a3a62",
+      "raw_path": "retrieved/generation/teacher_raw/0025.json",
+      "raw_sha256": "2ec45a46ff5f5896cca72c0f004368eb5ba5a513af77f50d78d7c0a2a6f89aba",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "英语识别正确。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 26,
+      "sample_id": "31eddbf80415cc2f0f7888f3695d400e09fe108be8971cc8cf6327dc259d4632",
+      "raw_path": "retrieved/generation/teacher_raw/0026.json",
+      "raw_sha256": "505a71040180b0e279d4b1c9339c84d6138c03265defdc24f3ca2c6ce9ac51fd",
+      "decision": "EXCLUDE",
+      "reason_code": "TASK_MISMATCH",
+      "notes": "要求创建示例输入，回答却给出最大值输出14。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 27,
+      "sample_id": "b828fc7bf26d71173ffa9cb95a190575188ebc32d2ead42456415758b0c5514c",
+      "raw_path": "retrieved/generation/teacher_raw/0027.json",
+      "raw_sha256": "68441753559acb20e881b73ae52893e88d8b24fa4e1abe07230c083e92d0ade7",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "所给句子无科室名称，计数0。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 28,
+      "sample_id": "05da70b51a3c88cec46c21a0ace19c0d28e29ec2f66f8123e2e78b86c0a2164c",
+      "raw_path": "retrieved/generation/teacher_raw/0028.json",
+      "raw_sha256": "a43d7a292accd519f7b6619242a48ad0a81fcfcf01707eab510fc12a9cb71991",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "先询问健身目标、经验和健康限制，回应定制计划需求。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 29,
+      "sample_id": "dc85bfb9a096007558b6cc298a1df27f3a8438bedff86f9659539e75f1487fa2",
+      "raw_path": "retrieved/generation/teacher_raw/0029.json",
+      "raw_sha256": "0dee1debaf5bbf56b8f33e9ef42eb4d5ce2fefb20a76cf197b01e45fa4ffc809",
+      "decision": "EXCLUDE",
+      "reason_code": "TRUNCATED",
+      "notes": "解释和代码说明被截断。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 30,
+      "sample_id": "025e0947d4faa83db0b8ff79f9f19c4f51d2a9f51ed338d3e851f1c8cbd62d2d",
+      "raw_path": "retrieved/generation/teacher_raw/0030.json",
+      "raw_sha256": "dcbb2b123b07005aeca3b5ae18925c338fc21f1047fdeb36195535346105a876",
+      "decision": "EXCLUDE",
+      "reason_code": "AMBIGUOUS_PROMPT",
+      "notes": "原文仅为中文陈述，没有要求翻译。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 31,
+      "sample_id": "15adb33a497c676c25e4d1b11f0ca8b85fbda925f6197d24acafb1325ae520c6",
+      "raw_path": "retrieved/generation/teacher_raw/0031.json",
+      "raw_sha256": "08176afc416ba8b67f57d6c58b64cb180633f3095ad5d775bb0603c040f9f87c",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "丹麦语问句译为美国达人秀主持人是谁。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 32,
+      "sample_id": "1e105fa57e3be1234eca256822cc53cb1aa5bf0cbb493a50bc824dd964ddc8fb",
+      "raw_path": "retrieved/generation/teacher_raw/0032.json",
+      "raw_sha256": "6c60e6d5f921afe5b4178b3115ae04bba3876b34f99afffc411ca4be69e465b5",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "瑞典语问句译为银河护卫队中的坏人是谁。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 33,
+      "sample_id": "4ef271b5501903cebe1f75b59a3c763268ddc48ff683771e821e23cdadd4e108",
+      "raw_path": "retrieved/generation/teacher_raw/0033.json",
+      "raw_sha256": "2bc8b639d808feef77a2a933cfe93d89cafaaa0450ad9695dbf6552aee502f81",
+      "decision": "EXCLUDE",
+      "reason_code": "TRUNCATED",
+      "notes": "按原始生成截断标记排除，不因表面句子完整而改标记。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 34,
+      "sample_id": "cdfba1c73e8605674ea44c15ccd335fa8aa7cb4008ee97efe7fa5a061374ce07",
+      "raw_path": "retrieved/generation/teacher_raw/0034.json",
+      "raw_sha256": "2b0d03899dc7934143fcd393dcb41df91d406a1544aa742e75e181d995cef6ed",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "以假设形式提出气候和土地利用因素，未称已证实。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 35,
+      "sample_id": "c72c4e792bc8edcd6e84b7405b0487dae478271f3b87f01fd3bdc8e0632562c4",
+      "raw_path": "retrieved/generation/teacher_raw/0035.json",
+      "raw_sha256": "d4fa22bdd01a66e824cd693a97f6e7781915e14f593a9198a0c9ebadd7cce8d5",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "羽毛球新闻归体育。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 36,
+      "sample_id": "be9b679714595c6d314bfd9120cd18316635c578ad67ce663fb6aa31066c0ff4",
+      "raw_path": "retrieved/generation/teacher_raw/0036.json",
+      "raw_sha256": "37c01e9454d8a178051d9c458248087f90a9a9a6a07f6cd75d65be7776d429fa",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "罗马尼亚语和丹麦语问候均已给出。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 37,
+      "sample_id": "1c6dc06409db6ed0699197c74241b900488fa7a6214e093b91cce735995ffe34",
+      "raw_path": "retrieved/generation/teacher_raw/0037.json",
+      "raw_sha256": "403e15c74001afbfb073569756d7f6fc7028a6bddf2b8d3ded25f18f0984ff95",
+      "decision": "EXCLUDE",
+      "reason_code": "UNCERTAIN_TRANSLATION",
+      "notes": "缅甸语源指令涉及工作场所规则，译文泛化为日常效率；不保留未经充分核对的翻译。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 38,
+      "sample_id": "ea1c1776e48bcab951e2f4eb298277d121e35b7dcc86030ae5c974b122aeeb22",
+      "raw_path": "retrieved/generation/teacher_raw/0038.json",
+      "raw_sha256": "4fbff9ba9b5005d24d5af6a56bb16bafa4f538e3bbece74a0cdb5d0666b17358",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "文本为治疗方法描述，没有独立的症状表现实体。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 39,
+      "sample_id": "5a35028969d18122a72f8b4609e8fd40ca1dcb25270ef4e0f094e591eed3553b",
+      "raw_path": "retrieved/generation/teacher_raw/0039.json",
+      "raw_sha256": "3b534acf50001a3d334c7cb257d152982693431ea245a60b352338aa28d2f833",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "完成对吸烟危害表述的加强改写。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 40,
+      "sample_id": "e29404d670daab98499d8689bb5f7587ac2079f5fdbc2f5c9facbb477faf1e88",
+      "raw_path": "retrieved/generation/teacher_raw/0040.json",
+      "raw_sha256": "4272dbcff9f8fcb92d981d68d5e3a0e4603b6d9ad4243c79e628ed9302e47a08",
+      "decision": "EXCLUDE",
+      "reason_code": "UNSUPPORTED_INFERENCE",
+      "notes": "前提仅提维护局面，无法逻辑蕴含回答中新增的具体目的。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 41,
+      "sample_id": "0d4c48fa411f50fc070a43db06901ebb13584357d8bfb063d06d557dea9dccae",
+      "raw_path": "retrieved/generation/teacher_raw/0041.json",
+      "raw_sha256": "2aa225922ea93b05cc290a18525ffaaaac56b1ac0a3ab8316788e73fa43454e8",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "保留试管婴儿费用询问含义。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 42,
+      "sample_id": "b6c89043131e58c5a00e9e727d18d0a31da262fd95301bf1608c8a327e148ae1",
+      "raw_path": "retrieved/generation/teacher_raw/0042.json",
+      "raw_sha256": "5d88c7db92c1b9e351a91de631f38e1ea01f7c99573b89d3cb14dc592798c066",
+      "decision": "EXCLUDE",
+      "reason_code": "FACTUAL_ERROR",
+      "notes": "将花木兰、孙尚香列作四大美女，名单不符。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 43,
+      "sample_id": "9d8a98f7194e4d59274228832bdc85a0af45388b3e281e5daf4f8315edda09d9",
+      "raw_path": "retrieved/generation/teacher_raw/0043.json",
+      "raw_sha256": "ab9c3889532daa0ac9dc0f187782d0850028222c8bfc6796d0cbd177029b03cf",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "标题概括ICAI学生模型研究主题。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 44,
+      "sample_id": "68234d3d501a1a67ac43a45d1ab91323051223fc2d6889d13a1507607b11d06d",
+      "raw_path": "retrieved/generation/teacher_raw/0044.json",
+      "raw_sha256": "e174a09d5572a69d363be5fa031668169f2451dd91d2a5f42415f1b2d05c9921",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "漏印和要求检讨明确为差评0。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 45,
+      "sample_id": "e72ec900764ea91245f6eae68b35477e562144ea4050f75fd3db11bc5fa47e1f",
+      "raw_path": "retrieved/generation/teacher_raw/0045.json",
+      "raw_sha256": "31a00d89a301ca76b620c59f486db3bce892d6cabbb13c790aeb32afec5fef05",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "按问题主题归妇产科，不涉及诊疗结论。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 46,
+      "sample_id": "e0927b7aed68d5380be14c172055317730b1ec663bdd147f8c49c24d9899c7af",
+      "raw_path": "retrieved/generation/teacher_raw/0046.json",
+      "raw_sha256": "10b4cab354d8a105db08628664e771765246ce893df615cab10a3b691def15a1",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "“将会”把进行时改成将来表达。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 47,
+      "sample_id": "5f505d113b8f5b6579a04049b9ff62dd48c123712d058a226771aa073c17a616",
+      "raw_path": "retrieved/generation/teacher_raw/0047.json",
+      "raw_sha256": "1107ba3a5ac43000bf8908086dfd46892cc223973b54354993fe52bfab71b101",
+      "decision": "EXCLUDE",
+      "reason_code": "UNCERTAIN_LABEL",
+      "notes": "文本体裁信息不足，政府公报标签无法可靠确认。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 48,
+      "sample_id": "2284453d13581e6a76517ae41b1dbbf8b032b90c1a6b32261ee68a67a03e39e9",
+      "raw_path": "retrieved/generation/teacher_raw/0048.json",
+      "raw_sha256": "efdb7e57323dd22769efd42f8962edb34c9a4ebc5d2c1dcd8c1597a94eb776ec",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "提取了文本明确出现的优衣库实体。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 49,
+      "sample_id": "adefc464609749cd8473d6eb497288e5fe8a67ea2534605ba082c7baa372704f",
+      "raw_path": "retrieved/generation/teacher_raw/0049.json",
+      "raw_sha256": "5e7756cf03746a9969b82814a9df83c2b63ffbe061de91b05a8cd223674f7b8f",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "总费用26.4+(18-3)*0.64后除以18，表达式正确。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 50,
+      "sample_id": "89c40a7c13f6fd28b9b0435f6ec28eb5c7e573372196cb3bc8365ea47318eac7",
+      "raw_path": "retrieved/generation/teacher_raw/0050.json",
+      "raw_sha256": "9100578494af4b8df827b89041bc915a1ca68d5e034e692bf9f926402f85009f",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "对买书陈述作自然对话回应并询问偏好。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 51,
+      "sample_id": "4489374e4c005d08cb7ec6fd708c6fbbb509068d76aa23f6a953bf551c22960a",
+      "raw_path": "retrieved/generation/teacher_raw/0051.json",
+      "raw_sha256": "fffa9470aa17562fe9c0e3b4c999ac41d5ad0296835b25bf20d229c47d58c39e",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "j4k3t为5个字符。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 52,
+      "sample_id": "b8eed77e5af0e915cbd80f5d6faf45d728ff05a29914afc8e8627899ffcf425b",
+      "raw_path": "retrieved/generation/teacher_raw/0052.json",
+      "raw_sha256": "d4acf45223b536510cac2e51e6b01091348a5e4d4cf86c1384411ecb07ec54a2",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "波斯语回答加拿大位于美国北面。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 53,
+      "sample_id": "57b9e8c3bf3638af325cbaf402fd9ac89da5cb7e51ba9c81757f922ef813333a",
+      "raw_path": "retrieved/generation/teacher_raw/0053.json",
+      "raw_sha256": "1b231272afff32b6c05e788e46d64d3eec21cae42ea623d8c44c6c5eaacdf1ae",
+      "decision": "EXCLUDE",
+      "reason_code": "AMBIGUOUS_PROMPT",
+      "notes": "仅有三个短语，未要求标题生成，回答自行假定任务。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 54,
+      "sample_id": "34c9d1d101c75da17a7198472129c3e135e5864d0d1833d9b126af934afecb7c",
+      "raw_path": "retrieved/generation/teacher_raw/0054.json",
+      "raw_sha256": "c962e7910ff013aaf84e285c10f719443de1f6f2c7112917fddfb2558f88bad3",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "句子无科室实体，空序列正确。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 55,
+      "sample_id": "d1be45f93e2d08a0ca662da8fc055bf96b85330dd8b7810d3dc96bcee55c5593",
+      "raw_path": "retrieved/generation/teacher_raw/0055.json",
+      "raw_sha256": "2cc26ddbe93392dbb12c23d2718f3cfcc79254aca7647a443ca7ee81d7616ebf",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "俄语译文保留演员、作品及是否演唱的问句。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 56,
+      "sample_id": "05e9a04a190b8cee4dc9dd1e953208e6b017dafe310b3dd2dcb007a3f71fc87a",
+      "raw_path": "retrieved/generation/teacher_raw/0056.json",
+      "raw_sha256": "8f7b16a69391f835628143e7fd535884c16da1bf23c80d9e9b039053911f84ac",
+      "decision": "EXCLUDE",
+      "reason_code": "UNVERIFIED_SOURCE",
+      "notes": "未核对古诗全文，不能确认是否结尾，保守排除而非判错。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 57,
+      "sample_id": "5bb112a4ab051578bcc5fa8a76b61e02c5d72c0cc03725e31fcec10da15218fe",
+      "raw_path": "retrieved/generation/teacher_raw/0057.json",
+      "raw_sha256": "e646bc232be739721bdd4a9cb7f27b202f983d44f91a949d5b093eb324c14513",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "请求可能岗位名称，产品经理为合理示例。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 58,
+      "sample_id": "44a2ab7334c2ea1ec59db6ba124e2f261892f2af7c7623815f123bdd2488a033",
+      "raw_path": "retrieved/generation/teacher_raw/0058.json",
+      "raw_sha256": "9fb84bee338a89184adf9c43f8bf5e6ff69b8ca695c68494f5783445f425481e",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "裁员归组织关系，类别和指定格式一致。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 59,
+      "sample_id": "fde6a610fb70b08a4f065f678bebc818773979921df6eec5dde3d06266edde72",
+      "raw_path": "retrieved/generation/teacher_raw/0059.json",
+      "raw_sha256": "4cb88a0bafe164f25587f692aa27e4d2519f635569da8d5a62143805add090ac",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "和30、数量5、平均值6计算一致。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 60,
+      "sample_id": "ce00169b3fdeef53b9e297460a309aaa2f7ced13e4bf0f07a0fd10e1bb32ce5f",
+      "raw_path": "retrieved/generation/teacher_raw/0060.json",
+      "raw_sha256": "a8ef68bfaea91ccda5dd9e95549efa3645aed16fcb03af3431a83ad87919e065",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "水果、动物和交通工具分类正确。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 61,
+      "sample_id": "80da2362fc9d1d7777e50a3dcb60e897a2a5d329c0e710703565a4282c7cc8c7",
+      "raw_path": "retrieved/generation/teacher_raw/0061.json",
+      "raw_sha256": "0ad67630dba3f61cf829537df40a2ed706d22af9a1bacc73aa9d2dfaec693502",
+      "decision": "EXCLUDE",
+      "reason_code": "COUNT_CONSTRAINT",
+      "notes": "源指令要求一个摄影口号，输出十个。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 62,
+      "sample_id": "797167fd417d70f194267f58ae238a8e6758dfad07b8c5f81626c2e6872ba50e",
+      "raw_path": "retrieved/generation/teacher_raw/0062.json",
+      "raw_sha256": "42f7b60183cf302ebaa72161e003fbe2b370dc75d6b428e7b12798416d4e6969",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "工程师例子和解决问题能力说明相符。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 63,
+      "sample_id": "26d355ddfe186d8fe9fd7b290655963c911e4909c60efe1ac46530c27da432e0",
+      "raw_path": "retrieved/generation/teacher_raw/0063.json",
+      "raw_sha256": "e6b337bfbbd74c4373622702cf942fb94ec4666ba98c1c42cde021e7f61466c1",
+      "decision": "EXCLUDE",
+      "reason_code": "TRUNCATED",
+      "notes": "末项生成截断并出现替代字符。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 64,
+      "sample_id": "53a7e442bfaf719294fec154fff2eb709e480ad2c4a70d89493a43c4dd9aaed5",
+      "raw_path": "retrieved/generation/teacher_raw/0064.json",
+      "raw_sha256": "c79b911a243e3e8917bef6b2c18f86bd641d69cb333872799f7196afa56f4c6c",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "把-3的模理解为绝对值，结果3。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 65,
+      "sample_id": "706b36feab3a4475f65e0ba02e2a5bdf15eff3bbcc3529d98a45bbff9ee30701",
+      "raw_path": "retrieved/generation/teacher_raw/0065.json",
+      "raw_sha256": "da0cfdc3554d589491fdf781726248bc6a741a3e6e956b1b363943786f68d402",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "合并两项前提，没有新增类别事实。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 66,
+      "sample_id": "51c56357656dad1173cadde44c684bc0f434f7e862e21c491ea32f2ee2c1d86f",
+      "raw_path": "retrieved/generation/teacher_raw/0066.json",
+      "raw_sha256": "5a5c5749e6e87b034dc02e40942783d39d599a7cd7283628e7360ae24730feb4",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "先询问语言及项目需求，回应编程帮助请求。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 67,
+      "sample_id": "7ebf344a56e16fa92e8dca5c6a77adcb9832f30f25d41fd2e452049b659a90c6",
+      "raw_path": "retrieved/generation/teacher_raw/0067.json",
+      "raw_sha256": "30a97917007bb185dd2710c66ff164bbfa6fe2327396ed53866e6f2b669aeb21",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "评论明确高度正面，5分符合给定量表。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 68,
+      "sample_id": "a3f8054db7dba00c171fd526dc147c7cc99ad8eeaf34e87698b7bdfe1dfa3b91",
+      "raw_path": "retrieved/generation/teacher_raw/0068.json",
+      "raw_sha256": "6ba4622cf4ad1377ff442047c1a0a733525db1f9e760548a517c192e3928fe70",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "“有人生了女儿”由前提直接支持。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 69,
+      "sample_id": "0851d4a9ebe11ad0de36c55433fbe0548f6de392f177981abf20351baa51441e",
+      "raw_path": "retrieved/generation/teacher_raw/0069.json",
+      "raw_sha256": "d4c4c2189c6367dd613c2b86933fe9c01b344f58b775d1c18a378c5d6009eca5",
+      "decision": "EXCLUDE",
+      "reason_code": "TEXT_QUALITY",
+      "notes": "第四集出现“空中国家冒险”明显异常搭配。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 70,
+      "sample_id": "5aed274e323347e3e7ea934fcc2f31e72f9b523d080dff458ba0dc6ca88082a0",
+      "raw_path": "retrieved/generation/teacher_raw/0070.json",
+      "raw_sha256": "65ffd9b8d2e825cfa2cf5ff33605a8a68390e47abbea859024606451cf7fbff8",
+      "decision": "EXCLUDE",
+      "reason_code": "UNCERTAIN_LENGTH",
+      "notes": "要求约80个单词，中文输出缺少明确计词口径，保守排除。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 71,
+      "sample_id": "09bbddefa534eb4896b0f83ed2eb4d9d73454d7bfbdad9a8d5b84f55a62ba002",
+      "raw_path": "retrieved/generation/teacher_raw/0071.json",
+      "raw_sha256": "eff7f5685cdbaa0bca22cb87d7a4db132b31919b967a5289bd08f57b3d7a211f",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "快速响应为正面评价。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 72,
+      "sample_id": "e8cf1d22e22cd287800098961fef903dfb97904957c225b4da731dad52012976",
+      "raw_path": "retrieved/generation/teacher_raw/0072.json",
+      "raw_sha256": "c22f33997fa964d4b0f28dddd0bc8e23918c6939b0e1e34a9cfd560547bed2b4",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "解释青年与未来关系，关键点围绕原短语。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 73,
+      "sample_id": "122c3210bb825a08ede92f3495e46fbe6ec8a043589a145a38259aabc889b83e",
+      "raw_path": "retrieved/generation/teacher_raw/0073.json",
+      "raw_sha256": "bfb091854021437817c80188530adb9f442136ff0b4ec3df5dd4860d2c089119",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "说明缺少表结构并给出标明为示例的SELECT查询。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 74,
+      "sample_id": "12a939e1fc22c4b5e3630c265e94867197416a6f1ce29701c10c76bd5e4216f8",
+      "raw_path": "retrieved/generation/teacher_raw/0074.json",
+      "raw_sha256": "9b60e55f8dd9f13d8305e76191b426f6553b9643bc4ddba4ab11c56546938ba2",
+      "decision": "EXCLUDE",
+      "reason_code": "UNVERIFIED_CLAIMS",
+      "notes": "蔬菜清单额外加入多项未经核对的营养/功效断言，保守排除。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 75,
+      "sample_id": "c4c96faebbfc43cf2dbe32cf89d7d9333099134328b419d8bf5329655f13dac7",
+      "raw_path": "retrieved/generation/teacher_raw/0075.json",
+      "raw_sha256": "8dfb48f00132bcfcd66ce66b75cb5b467aad40b88bb816b1d1b3ed56d38c8321",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "两句均描述自己与别人打架的梦，语义相同。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 76,
+      "sample_id": "e42e5270ac391be610ed526fb4d6095579a11de676293d50a2f7690368fa1ef8",
+      "raw_path": "retrieved/generation/teacher_raw/0076.json",
+      "raw_sha256": "47d77801e83fa3989f40849730cd8190f4f6854daa47b198e8c70aa781a07571",
+      "decision": "EXCLUDE",
+      "reason_code": "FACTUAL_ERROR",
+      "notes": "谜底喜鹊与“红色嘴巴”的常见特征不符，不保留该谜面。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 77,
+      "sample_id": "1bb47bfc73c5e5dc99ddf0591dbecaf4f4f63aedcc273494fb9e6e50eb729040",
+      "raw_path": "retrieved/generation/teacher_raw/0077.json",
+      "raw_sha256": "229006b4fa13f776ed9e4c5b2386e0f5a13d5903136d05f915d2c7153dd3155d",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "加法函数返回a+b，示例3+5=8。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 78,
+      "sample_id": "54cdd39a1f62115b3ca8f6e56a7138fbdafaa32d865c21cd6823f7ae771b3d7d",
+      "raw_path": "retrieved/generation/teacher_raw/0078.json",
+      "raw_sha256": "c6eb2ac793e076a0e395f481957d00d03f85fa7916a8ea3d55374e6aaf035309",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "所选诗句直接对应给定释义。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 79,
+      "sample_id": "928c066b227363047839a4fadd7f082755fb19654f52acfaafa498bb5c85defa",
+      "raw_path": "retrieved/generation/teacher_raw/0079.json",
+      "raw_sha256": "227b2008e38be6069f795072f7925ad42895fbcffa88d443c6bbd37fe4c574e3",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "从礼貌、文化和伤害解释社交用语规范，回应完整。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 80,
+      "sample_id": "244b775105e84da4fc354c8ce91124e457cfd981999193c0d7a58e7d326a5aca",
+      "raw_path": "retrieved/generation/teacher_raw/0080.json",
+      "raw_sha256": "b30bf29960605b9d70e78f86dbdd492bc83ed501fcdc4ef589581fc3b89fa254",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "主要症状黑便及四天时长直接来自原文。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 81,
+      "sample_id": "462a8a06f1af06bd7e6d17015f523d1548db5b0ed2cbf30375d8560db612cc7a",
+      "raw_path": "retrieved/generation/teacher_raw/0081.json",
+      "raw_sha256": "bd76bec288389f69a67ec3eed6f250cc37290c2d159f2c594543e23b5286f074",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "文本未明确说明搭载乘客姓名，未猜测被害人身份。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 82,
+      "sample_id": "6b484bedc3e089a06c460c336841efccb87fd4e787f501da9b25b72302967610",
+      "raw_path": "retrieved/generation/teacher_raw/0082.json",
+      "raw_sha256": "49e9827aea915eb635092e0b56c67c9d991881227fd32d403a21cbc8efb21570",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "日本四大岛列表完整且正确。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 83,
+      "sample_id": "c782e69fd0512ed8876a36f1e16ecf4b825bcebacc250b122b4b64ed4935dfd3",
+      "raw_path": "retrieved/generation/teacher_raw/0083.json",
+      "raw_sha256": "17f6874513441a81adadfc4af6e9be51c0e812c94c52f1631d98af642a08da8b",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "西班牙语识别正确。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 84,
+      "sample_id": "fd7e88c1ced62b0353909ca55d71d94e886bc4d7a00440767a033970c6aa2592",
+      "raw_path": "retrieved/generation/teacher_raw/0084.json",
+      "raw_sha256": "1f79b29c929067cd03c0e456c02e00abd22beab96eb5656fe8580bb9de9761ae",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "围绕组织学习陈述展开解释，没有偏离主题。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 85,
+      "sample_id": "1eec81ec1cbd75d254939f374e1b0a848eacaf0276034f45a069de2676284d5b",
+      "raw_path": "retrieved/generation/teacher_raw/0085.json",
+      "raw_sha256": "4606208a40f213ae41c9224e7e3317e50d894f97069108172b32505efa5279ce",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "缠绕用于实际物体，否定动词隐喻合理。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 86,
+      "sample_id": "890e0b1293abb466a4684548a61789640769bb9d37d3162ecd829881fa6ec96c",
+      "raw_path": "retrieved/generation/teacher_raw/0086.json",
+      "raw_sha256": "de8d701e69d24ef0b84793bbb9316a0aec0c45f001b77e32c2359d8f4066e2c7",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "德语问句翻译保留人物、首次获得戒指及时间询问。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 87,
+      "sample_id": "5c5b0088280ff7f221af0024bae16f0c04677954ffddbd3234ff94213b5573ca",
+      "raw_path": "retrieved/generation/teacher_raw/0087.json",
+      "raw_sha256": "c5f75b8e58d2c810aaba8317758f94d1d27051f64b8815a7bd4181db3c6a944d",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "阿拉伯语识别正确。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 88,
+      "sample_id": "a88a5fdd86e752639a1a4a411a6d2af6963ddf77f159b70ec8b2afee3a264c4e",
+      "raw_path": "retrieved/generation/teacher_raw/0088.json",
+      "raw_sha256": "635593d5434b3ac45170dfff5a3264aad6e519333dc1ba21c35400dca259c034",
+      "decision": "EXCLUDE",
+      "reason_code": "TASK_MISMATCH",
+      "notes": "核对完整历史后，已有海滩照片，用户要再给三个字幕，回答却要求提供三个图片标题。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 89,
+      "sample_id": "65ffc410219b01e14d4ec677e1ea35b0170d956ecf3fa0a85d48b85bb02973d2",
+      "raw_path": "retrieved/generation/teacher_raw/0089.json",
+      "raw_sha256": "c479d68515c398eaf09b0d9b54eae9f65758374a7f86783dc761cf497d129b17",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "缺少文章时请求正文或链接，未假造总结。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 90,
+      "sample_id": "0327f602ad05af9fc31428569b653f955c69c050f091da19412ecf6eb997d08f",
+      "raw_path": "retrieved/generation/teacher_raw/0090.json",
+      "raw_sha256": "1594d18d2148214ebad39a7f383334dd7b0e73b47da000864c7e3732202307bf",
+      "decision": "EXCLUDE",
+      "reason_code": "TRUNCATED",
+      "notes": "函数和测试输出被截断，且算法存在问题，不用于训练。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 91,
+      "sample_id": "c1ca0745462c78deb0ea3bd2dba47c70c2a8c5f607ae9b97a54bf455eef59d17",
+      "raw_path": "retrieved/generation/teacher_raw/0091.json",
+      "raw_sha256": "7e68c5bcf3e374ec5619b1425e56144ee9313b43b706f05d408841fcf7782335",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "编码源与目标互换，判断不同正确。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 92,
+      "sample_id": "7d41214a5d49fa970ba12e3850cdb99df93d2e0be52b856b476b57ab3893b8bd",
+      "raw_path": "retrieved/generation/teacher_raw/0092.json",
+      "raw_sha256": "816f9bf8ec886101c1867c422472bd124c96b47f28cf37b468aa45df21ba7914",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "区分语法正确与事实错误。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 93,
+      "sample_id": "5c1be45a34b3b5c943f7627d7f2197e568da8c556469fe6e465e4481b253aa40",
+      "raw_path": "retrieved/generation/teacher_raw/0093.json",
+      "raw_sha256": "7ebe2ec211ce158d71d2f874fe37bb3fbb6d2b8883db8be575e69760bf5dcaf4",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "成交量与股价主题归股票。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 94,
+      "sample_id": "6e028c21e4948fdfb910dab1331bf74f552dd45a5500935dd156488b1085e212",
+      "raw_path": "retrieved/generation/teacher_raw/0094.json",
+      "raw_sha256": "1ca3297df330675df2c5fdaffc41df74f0743e981acaaa99adb68cb3d219abc4",
+      "decision": "EXCLUDE",
+      "reason_code": "UNVERIFIED_TEMPORAL",
+      "notes": "社交平台限制是时间敏感信息，140字符断言缺少适用时间和来源。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 95,
+      "sample_id": "7ad868e818c6d046406bf8b58d0ccd9496223e43688c60fb335b266c00f7a788",
+      "raw_path": "retrieved/generation/teacher_raw/0095.json",
+      "raw_sha256": "e34208e89fe1041ba79a26ad63d98a3b15d83b06997baf1d66ad2c5706d5bc66",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "逐字核对“耳濡慕染”中慕改目得到“耳濡目染”；纠正初读时误判，保留。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 96,
+      "sample_id": "56d761e64aaff1fcb7cc6b069cd70f358b1080e95d5404e2c90b8198f4fe778e",
+      "raw_path": "retrieved/generation/teacher_raw/0096.json",
+      "raw_sha256": "19ed7b4d3c1dadbf0fc36f4b4d72e5067a749a80484796dd48a4189b79fb2e29",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "对迟到被斥责作支持性对话回应。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 97,
+      "sample_id": "e59c2adf924471fb24a4992fd68709b352a4af116c8617c248f5d0325e3d6855",
+      "raw_path": "retrieved/generation/teacher_raw/0097.json",
+      "raw_sha256": "d24cda109aa95195e60492ded5624df3365da22a8735380ecf59c8aa2a1a57b0",
+      "decision": "EXCLUDE",
+      "reason_code": "UNCERTAIN_TRANSLATION",
+      "notes": "马拉地语技能段落的具体译法未充分核对，保守排除。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 98,
+      "sample_id": "670540ccd4b982088d61073bb9e26aeaaf341761b971a008221e1b34109773cd",
+      "raw_path": "retrieved/generation/teacher_raw/0098.json",
+      "raw_sha256": "a36b3d85e3bcdff0f44eb99d885446e8954217e478f16146ab9eb68d37e95016",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "给出目标、内容、测试和合规等通用建议，未给具体法律判断。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 99,
+      "sample_id": "a54700e499cf436425f8a223c1e2debecb5914cd65d58a0c8f2d9656a91ae10c",
+      "raw_path": "retrieved/generation/teacher_raw/0099.json",
+      "raw_sha256": "3b35c9cb8947019a5059a3890dec9ad73e257d17770679d8884ad84c7a6f1f22",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "常见橙子颜色回答合理。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 100,
+      "sample_id": "8d51c8052362bd42c4f9efacd80271989ec0a817a81457827dec7d84beda2832",
+      "raw_path": "retrieved/generation/teacher_raw/0100.json",
+      "raw_sha256": "c39e18f3064251e1042c51b9e40d3580115b97008e81a59f5ee46b6fc1458023",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "改写保留还款后请求结清证明的核心含义。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 101,
+      "sample_id": "061fee00eb6288390a414f0242a8d31b62675b5c5f976cedde3c4168eef0c61a",
+      "raw_path": "retrieved/generation/teacher_raw/0101.json",
+      "raw_sha256": "cdfd57f5beaf421f0c9ddb9bdc917aa2df41aaf3041ed90b4e03dc86bf932af6",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "标题概括基于DRG的Deep Web查询松弛策略。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 102,
+      "sample_id": "a3f6146792facfe67dc17506d6405440305b393d5662afe0558298d4b4740998",
+      "raw_path": "retrieved/generation/teacher_raw/0102.json",
+      "raw_sha256": "06ec6d551d8d4625baf03d4015a4c28c8e27174b0ee4f79ce4113f90c0747701",
+      "decision": "EXCLUDE",
+      "reason_code": "TRUNCATED",
+      "notes": "清洁建议被截断。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 103,
+      "sample_id": "259104b82271ec095f51b71fcfa512d17fc2677f46ba42efd3cd3f39e79634f2",
+      "raw_path": "retrieved/generation/teacher_raw/0103.json",
+      "raw_sha256": "20efc7d330db68a89f45a27fda95519cd5172e96be406777f3c18e968a47dfbb",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "文本定义感染类别，没有具体症状表现实体。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 104,
+      "sample_id": "ae461e3a27a105ff446c4da44bc9c219fd2f62e3e0503b1cc4f05d657f1e82b0",
+      "raw_path": "retrieved/generation/teacher_raw/0104.json",
+      "raw_sha256": "8cea2800295de4d989c15e136c264e6dd4b822d3aeac607bd4d9b4bf78debdec",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "检查方法和样本描述中没有药物实体。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 105,
+      "sample_id": "6d42532f3d7ebc166f39ceb3c16b4a60dc399391d82811a0aa823f93ccf2e021",
+      "raw_path": "retrieved/generation/teacher_raw/0105.json",
+      "raw_sha256": "09650c6a83b259cdf06488555f0b87b54d9b7e5f36bc09fd179f2e81812d65af",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "治疗结果描述中没有检验项目实体。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 106,
+      "sample_id": "213c904052a7ad402c2a6c62508d310d338bebd8b6a1ec1f61dc03dcbf872348",
+      "raw_path": "retrieved/generation/teacher_raw/0106.json",
+      "raw_sha256": "9fcc067fcd583ac26e6da9aef146d40735e3d8bcd9ef68a051c9834763d8430e",
+      "decision": "EXCLUDE",
+      "reason_code": "UNSUPPORTED_ENTITY",
+      "notes": "输入只有行业，回答附加特定企业“极海半导体”，没有依据。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 107,
+      "sample_id": "17262b4e5ce4ea2671dd4d718139265f56763dbbcf9a410b0d9b511ccaee0234",
+      "raw_path": "retrieved/generation/teacher_raw/0107.json",
+      "raw_sha256": "4bf42863206c40efdccb91854283167fbdc362886ce0f90bd976ca87ef81963a",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "马来语问句询问Guzman姓氏来源。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 108,
+      "sample_id": "5d6d71b6555b07d6431dc25431256bc3668785bd893ce6b7ce34dc9d6a728490",
+      "raw_path": "retrieved/generation/teacher_raw/0108.json",
+      "raw_sha256": "b9254eba9b82ce07b07ab526818add695ba4641b48f805ef4709ef7cfcf56a2b",
+      "decision": "EXCLUDE",
+      "reason_code": "TRANSLITERATION_ERROR",
+      "notes": "“未来”的拼音应对应WeiLai，回答写WeiYu。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 109,
+      "sample_id": "01098c8c950c404811d1a82ee118f7b195230af3c9a43e6eac7dc43240bcb1bb",
+      "raw_path": "retrieved/generation/teacher_raw/0109.json",
+      "raw_sha256": "4416438e30973825b4483122a0e5f4ced99fb239366a12ddfa06ea1f2d969e66",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "HTML包含三个按钮，文字和顺序匹配。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 110,
+      "sample_id": "9be63b239e45da6ccc0829ec8fdace73cd8ffe3bc87eea0b0f1f8f339a5240df",
+      "raw_path": "retrieved/generation/teacher_raw/0110.json",
+      "raw_sha256": "d5f35bac688ed04db7cbbb63d3682c658f7e1c4e0c4ed0fec483bf2d6a7bda95",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "提供虚构寓言及寓意，未作为真实历史或物理定理。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 111,
+      "sample_id": "d0c8546573dcb0748eab5137391f86cb37ba95bac7bd7319cf43be20b3c30b6a",
+      "raw_path": "retrieved/generation/teacher_raw/0111.json",
+      "raw_sha256": "69fb43341b11ddad44bf3e051e1d5fbeb2a6bc215511d6ade51853986e61d7a2",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "续写保持五言诗形式和离别登临主题；仅按创作续写评价，不认证原诗。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 112,
+      "sample_id": "62d027b16988ac00932055a825ab720b2a6c7147cb0721c4a572b4f5e88616f4",
+      "raw_path": "retrieved/generation/teacher_raw/0112.json",
+      "raw_sha256": "9cffd98c08adf10055f48c1762e412a8a06f5b92e1e87cce1ec81ca0d614a3a7",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "“受不了”对应沮丧、愤怒或烦躁。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 113,
+      "sample_id": "115469d30b56c7dc25a19e5f3974159948f34f60d23e39f17d21646d194583e4",
+      "raw_path": "retrieved/generation/teacher_raw/0113.json",
+      "raw_sha256": "42efc6309f3f4b0aa04de961f3a828739c2ac69296d8e5800ebbdcca3fc6a601",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "三个目标均由参考文本直接支持。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 114,
+      "sample_id": "e9ea15bc73f7790c2f9620ac4578702ebee29e55cea370930f1ea9eebc7f84b1",
+      "raw_path": "retrieved/generation/teacher_raw/0114.json",
+      "raw_sha256": "16d4f94e4f2570bb2b3f4f9c2aced1bf4ca77a770a8ada48f56f928ccfc74b81",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "中文主动语态改写明确她读书、他写草稿。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 115,
+      "sample_id": "d015b892a6d00de1c48bc36a47a4ad2e887e08ca5a988bda86ac80f7cb2471dc",
+      "raw_path": "retrieved/generation/teacher_raw/0115.json",
+      "raw_sha256": "10d45f8928524a8f8ff51e457cb9200b6f9704de243ca9cc1e4fe7b35e95375a",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "表格三种动物与四条腿数据逐项对应。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 116,
+      "sample_id": "e028d90fd82d1f33028a0f69420a8bc82dbceaa4a433bc0fa2f1d211382c6eef",
+      "raw_path": "retrieved/generation/teacher_raw/0116.json",
+      "raw_sha256": "40d63d90a5438d8246c8107f1209d74c78152c34571a95afd22853a92a8f1be8",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "给出迷人、动人两个形容表达。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 117,
+      "sample_id": "95d99eb4f61b532d08b5072954668789b1c96ad4584e14854261eeed836f9080",
+      "raw_path": "retrieved/generation/teacher_raw/0117.json",
+      "raw_sha256": "f9298343d556e9346b3ad1f552c347fcc9d3fae6aeabef08b6ba515487d1c23e",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "古吉拉特语识别正确。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 118,
+      "sample_id": "b59fade02f4659c70301f9e990feb53814f8fafe6a203e8266deec9a99b84990",
+      "raw_path": "retrieved/generation/teacher_raw/0118.json",
+      "raw_sha256": "2d58f58810f379aea7e613389c46c5609997ed7994761c1438980752311e7d1b",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "以一致维度区分好坏服务，回应完整。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 119,
+      "sample_id": "8195cea4328c4023ed1061ded1b74549b6089252e0ff4a393ca621a9531f96ec",
+      "raw_path": "retrieved/generation/teacher_raw/0119.json",
+      "raw_sha256": "b0ece409ee12e99fe3576ae01ed72b0d0cc2e7aa4a1bd4ba5f6bfe0eee1c6571",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "给出条件性的海景、露台、室内地点类型，未捏造具体商家。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 120,
+      "sample_id": "f4abc5f8fb7bf0f1a3a9a12a8e675beb7908a45d6e6d14d9cee150a734b5e6d9",
+      "raw_path": "retrieved/generation/teacher_raw/0120.json",
+      "raw_sha256": "e1a2b1f64300a4c7c0c077477867599a1c50f5c5f8a4be1c8e04bc7dbc162405",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "提出基于给定对话的理解问题。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 121,
+      "sample_id": "ec343bb6a9b3577cbe3217d72b43904efcd1d5975575d3f495d524efb2a1189c",
+      "raw_path": "retrieved/generation/teacher_raw/0121.json",
+      "raw_sha256": "e446c9464ce345554741f3477dd8378c72b30be1d5acc13828c55aa539bd0612",
+      "decision": "EXCLUDE",
+      "reason_code": "MISSING_CONTEXT",
+      "notes": "要求阅读以下内容但未给内容，答案自行生成词表。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 122,
+      "sample_id": "aefb3a1ff7d36284430dbcd6fc326c339e62625ce911def10f3cc58979c4ffaf",
+      "raw_path": "retrieved/generation/teacher_raw/0122.json",
+      "raw_sha256": "9e4f28c8c92462d5e8975bd1d91577d369f7ba299f300e0f8b98f1008e4ea333",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "第二句多了地点信息，4分语义相近合理。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 123,
+      "sample_id": "70760057645fe3a49e030a0fa19a36d94ea30668f7bd6bc680ac79603fd391b7",
+      "raw_path": "retrieved/generation/teacher_raw/0123.json",
+      "raw_sha256": "1d08a4818977db4aba47fb32f94850f2de79e2669edd71cbea84fc63b00d809b",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "德语识别正确。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 124,
+      "sample_id": "01c539157405dc78cc59af127265a620dd7c325838c5d6ef527c61ce902a91f8",
+      "raw_path": "retrieved/generation/teacher_raw/0124.json",
+      "raw_sha256": "7aad3df044ef77624ab0dd6a1445b2a2ff3663e3256336076fd4ab646148d4a6",
+      "decision": "EXCLUDE",
+      "reason_code": "TRUNCATED",
+      "notes": "质心代码停在z赋值，无法运行。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 125,
+      "sample_id": "a75a99d8908036515591906ba1417a43ec002206463ff4ba7dd322b5fdf48b6f",
+      "raw_path": "retrieved/generation/teacher_raw/0125.json",
+      "raw_sha256": "33ad03fddfb26ae6bb223a8545782452cd835d8cc4674cf85beb9dbe6448442f",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "哈萨克语识别与文本字形词汇一致。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 126,
+      "sample_id": "4878d1214cf6b67c66e4d6cbd53d3bcdc8e9e08d113533f557fd71eae108cc7d",
+      "raw_path": "retrieved/generation/teacher_raw/0126.json",
+      "raw_sha256": "c10954b9e3f1cfdf8e8fca363384f61fca00419dcc742bb1be76d46bc22a2802",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "正文明确为电影艺术理论，Art分类正确；长度交由真实分词清洗。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 127,
+      "sample_id": "acfe6bfa05dc5ed8050581ac24a600c23f28da59f61c5a9649f4196271a0288b",
+      "raw_path": "retrieved/generation/teacher_raw/0127.json",
+      "raw_sha256": "3b3bdf6d73a95902d1ee43ccc4edc14ffc9ff5bbb62694e97ea42b6366c4a451",
+      "decision": "EXCLUDE",
+      "reason_code": "TEXT_QUALITY",
+      "notes": "上联“人驼列队何等冷”语义不通顺，不保留。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 128,
+      "sample_id": "a134cca7ae5ec2cacf7c023a9b8cbdb0351694c84f8366ea2cca4ee8a54075ce",
+      "raw_path": "retrieved/generation/teacher_raw/0128.json",
+      "raw_sha256": "23c37b545031eb8e0b4f905851dfcf7aa112e7b600ab87a9981e53862d306bc6",
+      "decision": "EXCLUDE",
+      "reason_code": "COUNT_CONSTRAINT",
+      "notes": "请求第3至17行共15行，标题后生成16行。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 129,
+      "sample_id": "957039edf41f9563197e7ea56ec7f3d06cd5feb0e39d9f3bcc0e765ab2bb1046",
+      "raw_path": "retrieved/generation/teacher_raw/0129.json",
+      "raw_sha256": "46a3b72190ff9b4b445758be9c0b35502dac4c15314c8777d3ef3c0fae2eae85",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "两个机型和充电问题不同，判断语义不同合理。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 130,
+      "sample_id": "0861ddb0943e1627ec57a3005ee0d879e5cd71b2b6d542d90a3b7b9570ca0514",
+      "raw_path": "retrieved/generation/teacher_raw/0130.json",
+      "raw_sha256": "d6d97b7236e29e2a1b9454b38cf6fd63031eb5234382747721f3a47a35d489c8",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "文本为日文，PREDICTION=0且格式正确。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 131,
+      "sample_id": "a1a17aee7be6e3a15a6dff43ef660b89b2f63efc79ac5d36f527dd91b74825fb",
+      "raw_path": "retrieved/generation/teacher_raw/0131.json",
+      "raw_sha256": "e5275cae5fe115c2cb622c2112b1054bffff57d5c89aa9846eb941cf819e3921",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "加密、访问控制、备份等通用安全建议回应完整。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 132,
+      "sample_id": "aeec49369b50f1de4af7fa97ae4658ca618e44f7fc1023e29009c3bca028d807",
+      "raw_path": "retrieved/generation/teacher_raw/0132.json",
+      "raw_sha256": "53aa6e733b18b6e17b3f6041c5ce707e535b3eefa5b06b04d86f87d600bf5367",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "升级为更具体且合作性的对话。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 133,
+      "sample_id": "6325a9e1347ddcabd8b26fd5bf7ac1767d652fa70f1d625d02ad2008aa4b3c58",
+      "raw_path": "retrieved/generation/teacher_raw/0133.json",
+      "raw_sha256": "a14ff921117131b5e3ce9a0d91816deeff54e2fe3f4d95055d46888669a886f7",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "法语译文保留芬兰文化与宗教信息。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 134,
+      "sample_id": "f082aeea599fd3b25f3fb9c64af4736a574c3508f43580d6c045d30bf5276c77",
+      "raw_path": "retrieved/generation/teacher_raw/0134.json",
+      "raw_sha256": "0d2e0e7cfb54cf75929f420ecc17263a22b1f862147bfba0b92cf71f83dbf778",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "均询问每日转账限额，判相似合理。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 135,
+      "sample_id": "1207154813e2643b7d1421a6e5bad9137d0aa2ff5916bf5e6a0f963de3913712",
+      "raw_path": "retrieved/generation/teacher_raw/0135.json",
+      "raw_sha256": "4523464d3ca4b41d9b4ff71db53223055bf7add0418bd97a4ea9dff918cc1393",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "文本无微生物实体，数量0。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 136,
+      "sample_id": "adebd8b944446c97c49d2b94f0c2dee8e2f182ff86e7aa513e0e42d06e3bb85e",
+      "raw_path": "retrieved/generation/teacher_raw/0136.json",
+      "raw_sha256": "5498e655793c9a72bb331ca6e96ce1b797d8992ef68a0f272bb815b6b06d7e5c",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "俄语译文保留校友对学校的重要性。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 137,
+      "sample_id": "bfb638ae6ab931def9172276d9f2714e853af1fbe59d770d60cddd827b3ccbe9",
+      "raw_path": "retrieved/generation/teacher_raw/0137.json",
+      "raw_sha256": "36f852d005df7034b42d0d796876bd1363725beb3bc3c2b65c3f0eb0afa7369c",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "五类头型完全来自所给文章。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 138,
+      "sample_id": "9d5fe5111d91dc431f55615d6f3a0762c7700692b7cb922a03ce2984c13c2da1",
+      "raw_path": "retrieved/generation/teacher_raw/0138.json",
+      "raw_sha256": "dabd3848ae7f85d7caf2a99cfa6d2089c570d747f09f49d7a14f87ed7ba19ab3",
+      "decision": "EXCLUDE",
+      "reason_code": "AMBIGUOUS_PROMPT",
+      "notes": "只有中文陈述，没有翻译任务，回答自行英译。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 139,
+      "sample_id": "abbb8ff61f5efe409fb0186f02a83fb3937b43d6c4e1a6b871517a8ba8da5fb2",
+      "raw_path": "retrieved/generation/teacher_raw/0139.json",
+      "raw_sha256": "52776882637162d96677056b870c5bd16297dc5913b5dd32ebe9b1a1e3239a68",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "零售预测需求和库存为完整的假设应用示例。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 140,
+      "sample_id": "d099b312cc8e5fc891d442032b799d052a20c11bf893baa8eae484a39e7b5b02",
+      "raw_path": "retrieved/generation/teacher_raw/0140.json",
+      "raw_sha256": "f2722da53c3f0e04b3653c16a4ff69950952cb3a2524112c3d0c85e6caad691f",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "提供未来宇宙探索的故事背景。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 141,
+      "sample_id": "f20c042c26e1e6c30da36779f5048a5d48ddef32ab858aee93b0e8319b22a0fd",
+      "raw_path": "retrieved/generation/teacher_raw/0141.json",
+      "raw_sha256": "e0ba6dbbcb4776633e83bc1d449137a56434cfac4b0da63baee24ecf84d53d75",
+      "decision": "EXCLUDE",
+      "reason_code": "COUNT_CONSTRAINT",
+      "notes": "要求一种方法，回答列出六种。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 142,
+      "sample_id": "ed48eff182d2d3e67b9f2ae10ed298b1efda8099deb21de26dcde43401965fe5",
+      "raw_path": "retrieved/generation/teacher_raw/0142.json",
+      "raw_sha256": "d8cbff073f6b33f289b2bea5d32a8a616eb1a6a9b9f3b9719c99532acf0e6f53",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "印地语识别正确。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 143,
+      "sample_id": "03f5e69ec90b4806bc8a69a65167177211feca90842713199f527abe1527ac12",
+      "raw_path": "retrieved/generation/teacher_raw/0143.json",
+      "raw_sha256": "8b49cb4f5dccf5b79534aa3c4d92a9b65b265a9a77e2a3981e38214b4636bd7d",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "逐字复述并附加指定END标记。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 144,
+      "sample_id": "40921f3a3a82df0f4724712111fd40ffbcde1823b6b6006e4d530595a8da4901",
+      "raw_path": "retrieved/generation/teacher_raw/0144.json",
+      "raw_sha256": "217e2f9e918606f8fdc5d22ba3d809d150bd0df267955f0f0ec6ab003313388e",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "按中文翻译指令并说明区块链工程师职责，条理完整。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 145,
+      "sample_id": "4c8c5fa7e79a2b558e91d92c764a2c9c309dbccdc14937249e9e21534e273e3c",
+      "raw_path": "retrieved/generation/teacher_raw/0145.json",
+      "raw_sha256": "87703e9bf1d9c3ad39aa08c8567f70b9da36c55bfe21c688d511a3e1888f443e",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "给出安全风险、预算和进度失控两个中止情景。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 146,
+      "sample_id": "c8851e537dc07700e4f97e3475a09dfdd67b043c85a62d243ab4a8afd40c89c6",
+      "raw_path": "retrieved/generation/teacher_raw/0146.json",
+      "raw_sha256": "f6a37316d4dc17a5e69c1d080d8fc4a2202960f693e0ff98f8cdbe487e048941",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "售罄后的自然回应，替代观看方式以可能性表述。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 147,
+      "sample_id": "9ac4c2d18d390932ad7bafb410e4d025caf321671c249da2d2beefb325bb487e",
+      "raw_path": "retrieved/generation/teacher_raw/0147.json",
+      "raw_sha256": "4d5dd04718245d650d9cad5394dff0cd34da1be0526404d173b80a1d74863690",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "正确解释while按条件重复执行。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 148,
+      "sample_id": "0b4371f4c5445bc8b28cecf057537040bebd666dce6e26b06847710d34fc0df9",
+      "raw_path": "retrieved/generation/teacher_raw/0148.json",
+      "raw_sha256": "1250545f5e696208bae3eef8e119f625b62ea3e8b9c541259e30c2c1c6e911b2",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "四数最大值10。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 149,
+      "sample_id": "027ecd9c4d65214fea5da7ee36bff695395c1685d9b7128c06c135bd6e83901b",
+      "raw_path": "retrieved/generation/teacher_raw/0149.json",
+      "raw_sha256": "988fff06279b93ef0c0534080ad73b880832325ba44a08b755fd098b7f3667cb",
+      "decision": "EXCLUDE",
+      "reason_code": "LANGUAGE_ALIGNMENT",
+      "notes": "中文提问却完全英文回应，作为中文对话训练保守排除。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 150,
+      "sample_id": "663359c53ae8ed093e501faf853b8ef150955d243bee542c00a26a4f952ab03c",
+      "raw_path": "retrieved/generation/teacher_raw/0150.json",
+      "raw_sha256": "6b7758a2e765689b5b3393d9aa777fe7e0a4b5d02f8f46c0df6c5db4ec2034e7",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "科学计数法7.123e-2等于0.07123。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 151,
+      "sample_id": "d19ccad6718afbabdcf5f2f808200c9ae66ddd721492484994717b4bb329596b",
+      "raw_path": "retrieved/generation/teacher_raw/0151.json",
+      "raw_sha256": "701a09f8035c2e970e91a9d9704415267dd48bd03dc5442858216a37e29b012c",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "去元音代码与样例输出一致。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 152,
+      "sample_id": "599f5d69accf8432377a1522881fec3ecd81f0ac54c708b054392cbafb57efb9",
+      "raw_path": "retrieved/generation/teacher_raw/0152.json",
+      "raw_sha256": "d5337ce253fcef0c3e1482411fb606556d914a30f55a8dc0f868461cfc4b78b4",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "脚本创建cats目录并打印指定中文，适用于目录不存在的示例环境。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 153,
+      "sample_id": "f19ef6eb659491a6927763c40112421db4e59b2632bd55a704b5085889656fd7",
+      "raw_path": "retrieved/generation/teacher_raw/0153.json",
+      "raw_sha256": "9b7dfad32b75170c582133988221dd829491c0cb89a81e4adb8c1e17c671263c",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "裕由衣旁与谷组成，对应衣食互补字谜。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 154,
+      "sample_id": "e23581afc51677594fe3ba9095057339664065affb6928cbf31dac0cb63fd336",
+      "raw_path": "retrieved/generation/teacher_raw/0154.json",
+      "raw_sha256": "b0a2eda27a53d847687654b505d2488f4a4d01051c95688cd4ffb92101db0c23",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "希伯来语识别正确。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 155,
+      "sample_id": "bd024b4f134f485ed05e76aa6f6eebe232cd9794f24077efa61452779fd25332",
+      "raw_path": "retrieved/generation/teacher_raw/0155.json",
+      "raw_sha256": "f4d8ff0b20612452dce457acdd7d81d30aeb29350ad41a57f881b57dd05ac730",
+      "decision": "EXCLUDE",
+      "reason_code": "SEMANTIC_CHANGE",
+      "notes": "把“和我一起住”改成“与她共住”，改变了人物指代。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 156,
+      "sample_id": "1564281234bd4c986935846642995ab85994c9b6cadb42ed10bfa4923d6a49bc",
+      "raw_path": "retrieved/generation/teacher_raw/0156.json",
+      "raw_sha256": "55d2a0098bdbe58d715aa2be4cff5a06475819318ed8e9ed980c05dc92560e03",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "去除and后保留其余单词及原顺序。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 157,
+      "sample_id": "b579583618e7b04a7e8453572ed67b762e3c5d1167194dd8c52c8922e9f6fc04",
+      "raw_path": "retrieved/generation/teacher_raw/0157.json",
+      "raw_sha256": "b341540fa6ed77664175345a541c8c5c306bdb304d461c978c4706050a718949",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "中国文学主题归文化。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 158,
+      "sample_id": "525b12faaf7c3e994a9dea6652c0f2cb019878928b91a88167a5425ec52764b0",
+      "raw_path": "retrieved/generation/teacher_raw/0158.json",
+      "raw_sha256": "8821c6f5c2102ac35b02435368c6e3c7c9321a2e530d0238fd84f3bd8d6912c8",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "狗为常见宠物。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 159,
+      "sample_id": "74e2665c3e297392d6dac5409ac3beb0aa69d0d35eb4c01e62c216381e8f5d63",
+      "raw_path": "retrieved/generation/teacher_raw/0159.json",
+      "raw_sha256": "cb99bbed235b04b29fe726227265a694e9e46818c077a224fb4d3974fda54fed",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "逐段比对中英文本，步骤和含义对应；仅评价语义一致性。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 160,
+      "sample_id": "81685c406a41ba8695cdafacbdb98b174ed8bbb5435e93a300dce6352d9a7595",
+      "raw_path": "retrieved/generation/teacher_raw/0160.json",
+      "raw_sha256": "5258a413cb38d8104372e49bbc55bfa7dabd797ca8fb338c571e152a7f7cfa83",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "说明虚拟助手概念和职场日程、沟通应用。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 161,
+      "sample_id": "7502a3705324f930b42de6854cbebf282485c6c16890e7d3adbfa1925e2e1906",
+      "raw_path": "retrieved/generation/teacher_raw/0161.json",
+      "raw_sha256": "a62b0493b2d91c4fd8f87b786d97ed0041d55eab4c5ddb5ad8ca4901d3c23d73",
+      "decision": "EXCLUDE",
+      "reason_code": "LANGUAGE_ALIGNMENT",
+      "notes": "虽合理请求补充文本，但中文提问完全英文回应，保守排除。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 162,
+      "sample_id": "11516552bf66bfcc9eb04ca0e679bb1381be436095d57c5c61ce6d1fe9392382",
+      "raw_path": "retrieved/generation/teacher_raw/0162.json",
+      "raw_sha256": "4f51d4cd2685a02f43151f3348cefcaea3c8af2a186bcb695b9e9f8159dd16db",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "名称明确关联餐厅订餐场景。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 163,
+      "sample_id": "4f4e3760e9629d8f6dddaa620cadc95194351e336d6a8da7c0e886da91869445",
+      "raw_path": "retrieved/generation/teacher_raw/0163.json",
+      "raw_sha256": "2e1a7dec29df4157e835b109fdbe2786c17cd3ec53e147f48356fb19667a5822",
+      "decision": "EXCLUDE",
+      "reason_code": "FACTUAL_ERROR",
+      "notes": "把蚜虫列作瓢虫例子，混淆昆虫类别。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 164,
+      "sample_id": "d9fca85abbd0853592125f5e9caba429b4ed53f65dc21435b58d01b5c594c2d2",
+      "raw_path": "retrieved/generation/teacher_raw/0164.json",
+      "raw_sha256": "dd5934616b55644388318065ff7cbe2dfd70d0bee1f688404080488940bf0837",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "恰好给出五个河流描述词。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 165,
+      "sample_id": "69ca73a3a258196d1e09651b3327ea659f2e76541c3c4df0cb0e1e6549110c3a",
+      "raw_path": "retrieved/generation/teacher_raw/0165.json",
+      "raw_sha256": "941cf1eeb93801a12e47e85702ef1e55ee41fa26dde49485603886008130107d",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "科幻电影标题符合任务。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 166,
+      "sample_id": "9f13fd89cc0332d8f6028b3f569a8f858018ee3ddb05c8c9e5af8809e7052bec",
+      "raw_path": "retrieved/generation/teacher_raw/0166.json",
+      "raw_sha256": "d4dcea743fc97f44305545384dd56918f82084ea01d79b8b428d7f9a03bac656",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "捷克语识别正确。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 167,
+      "sample_id": "ae873c433bd52b32bc2a121011767f83d798394ad8b415fb0823cf3e134dd906",
+      "raw_path": "retrieved/generation/teacher_raw/0167.json",
+      "raw_sha256": "cd74f87ec17535a08ed5409b1832ba0266ad4c00f87ebea8289eef1f80d27036",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "改为开头并在令人兴奋后补充酷，语法自然。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 168,
+      "sample_id": "72887e4c9520f379d1e3704ec5035a4ddf28b4b91fec56353abe684c3c30df29",
+      "raw_path": "retrieved/generation/teacher_raw/0168.json",
+      "raw_sha256": "4efee4940624b81d5d299f932b7296c50ebefc722cd7a758ecf5e08449b4f7bf",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "葡萄牙语译文保留token赋予网络参与权的含义。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 169,
+      "sample_id": "72ea85fe92e5cef01c8072d39a95101006d868853f04ef4fadb9d46235eb6777",
+      "raw_path": "retrieved/generation/teacher_raw/0169.json",
+      "raw_sha256": "c68693d427b7c129eafe2dd5dfc6aff538bf17bf50fb05b89c903d9fe0fd5b64",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "以绿色能源计划为主线提出环境改善方案。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 170,
+      "sample_id": "fa0ea895703e06ee6404f399c2c9acfdea7d2e0600d4ec78afa96a3700e181f6",
+      "raw_path": "retrieved/generation/teacher_raw/0170.json",
+      "raw_sha256": "480885191ec9f138130e4c715ab07a3ba7ee70076b8935be4a4060a0afb11079",
+      "decision": "EXCLUDE",
+      "reason_code": "FACTUAL_ERROR",
+      "notes": "奥巴马民主党竞争对手姓名错误，沿用前轮已留存来源核查。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 171,
+      "sample_id": "144b5ed532655e581c1817579e3fb3dd6e667a50e6ef468dff1a191f0dae819b",
+      "raw_path": "retrieved/generation/teacher_raw/0171.json",
+      "raw_sha256": "fb8e91b659b0a7cef355c7159abb4bd8766130b4a037776ddfef0c53ea190c92",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "短故事完整体现女孩、魔法物品及奇异力量。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 172,
+      "sample_id": "7eeb459c0d1f1df0a25172ed1c10b22437e20b64f6debbc1eda7e06d60d277bb",
+      "raw_path": "retrieved/generation/teacher_raw/0172.json",
+      "raw_sha256": "ffe30fb7b57774b5137a20b6e9e09a017b8981fb14b2b2e8ea04a5808913494d",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "高棉语亦称柬埔寨语，语言识别合理。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 173,
+      "sample_id": "5536f7b3ed71252b390047ac3d42288a504cac50cc599003acb378aff6ed0262",
+      "raw_path": "retrieved/generation/teacher_raw/0173.json",
+      "raw_sha256": "93bafced08d1c490aac54472994808b6c7f20cc003ac1fea1ce8e0f32dee6f0c",
+      "decision": "EXCLUDE",
+      "reason_code": "TRANSLATION_PRECISION",
+      "notes": "日文改为“延长战是恐怖游戏吧”的确认语气，弱化原文建议及因果关系。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 174,
+      "sample_id": "650412e8aa68b87cb2783cd05547a2777569c805509e6a11fd4eeb958da6e762",
+      "raw_path": "retrieved/generation/teacher_raw/0174.json",
+      "raw_sha256": "92dcaab344a6c25e4dadd61d6f5b50d18f1440dac27c237b617c5115ec048465",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "平衡解释在家工作的利弊，与陈述一致。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 175,
+      "sample_id": "c8479af1ed7d9a388f610ac0e70cd675680d29250d1c1bafd223605e1977e816",
+      "raw_path": "retrieved/generation/teacher_raw/0175.json",
+      "raw_sha256": "429f278d356a603ee3fcc330c470fee36aaa3449a0836c21ed447510ad4e67e1",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "伪代码先求和再除3，示例均值7。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 176,
+      "sample_id": "6db3ec0e29a918e03ae339d3cb7ee41c802f45258b5906a10fccfaa8c66c15fc",
+      "raw_path": "retrieved/generation/teacher_raw/0176.json",
+      "raw_sha256": "e9829e8e99116a71737d04332722c7bcde3155e3f9510039e6299f30f6e6bcc9",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "用途直接摘自提供的语境，不新增化学操作建议。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 177,
+      "sample_id": "c770f69eeedf4a2d461eaac1b0f93126e6df6a8e8491426d6fadbe15ebfab807",
+      "raw_path": "retrieved/generation/teacher_raw/0177.json",
+      "raw_sha256": "8e3d2683630837d09e757cd1ed0b9f67d52b71c10a04363e571a6d653b8133e8",
+      "decision": "EXCLUDE",
+      "reason_code": "NARRATIVE_CONSISTENCY",
+      "notes": "先设定故事在资源匮乏星球，再说为拯救人类前往这个星球，迁居目标逻辑含混。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 178,
+      "sample_id": "9731aac905d217d084656b068bab7aea5e75543a999f9b98ef0ac7b75e2153d4",
+      "raw_path": "retrieved/generation/teacher_raw/0178.json",
+      "raw_sha256": "d82f23f5f1fe0a5efd4da83a9287830eda4c441676657b51cb97d5e5dcaa6d7e",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "同情男主的表达不构成对他人冒犯。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 179,
+      "sample_id": "157a644845f29b55f022038c030c36563cf5101b55506579fee918e4d8269cf4",
+      "raw_path": "retrieved/generation/teacher_raw/0179.json",
+      "raw_sha256": "2cee1f9b679b2c0bf8ae6e2ea2cc57cb9ab813b013ef7ba159da8589d4bb1909",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "按题设单利，本息表达式正确。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 180,
+      "sample_id": "cfe542a277862ea9630a7f6cde575a89c67d5005ae491f3b92b7c77113bac2cc",
+      "raw_path": "retrieved/generation/teacher_raw/0180.json",
+      "raw_sha256": "828344405a13a024d798bc378d8ef5fa0592e9e79bbca22a454693c47739e7e8",
+      "decision": "EXCLUDE",
+      "reason_code": "COUNT_CONSTRAINT",
+      "notes": "要求8字，实际10个汉字。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 181,
+      "sample_id": "7da378afd04f8904bd4bb63fc4b27df72d70d3853a0a286560b11997cefd8ca1",
+      "raw_path": "retrieved/generation/teacher_raw/0181.json",
+      "raw_sha256": "422b06391bc1e01d1652980c68761f052fcd030568dcc9e3b730f97ea2cddbfe",
+      "decision": "EXCLUDE",
+      "reason_code": "UNCERTAIN_LABEL",
+      "notes": "举牌主体与被举牌对象口径未定义，王府井标签存在角色歧义。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 182,
+      "sample_id": "957d8b177d435bdf143ea3298a8faeb8af0d903eebc866f3ced5fb3604935946",
+      "raw_path": "retrieved/generation/teacher_raw/0182.json",
+      "raw_sha256": "52ba24718f5df3cc2c4fa34bcb760e76cecb741b1bad20f014bf9d3617916c2e",
+      "decision": "EXCLUDE",
+      "reason_code": "CLASSIFICATION_CONSTRAINT",
+      "notes": "二选一归类却同时选两类，并有“人为诱发表现”异常措辞。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 183,
+      "sample_id": "4cb4dcee14f9fb172fea3a2d5f91c687b67557e8b1c2570be49106ca37f6e587",
+      "raw_path": "retrieved/generation/teacher_raw/0183.json",
+      "raw_sha256": "e2bfd73d74d86aa1f48769ca78a10ae980826d6faa92fece8c74ea91a1641ad4",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "正恒加速度下区间最大速度10+4*5=30。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 184,
+      "sample_id": "14381b57fb7d2702ce2323724eacf812f927ab21172a1a2b3ea6632bcb967b98",
+      "raw_path": "retrieved/generation/teacher_raw/0184.json",
+      "raw_sha256": "ec29ae125631445aa09884a970002512d51632864929d899432156f6c68dfd7b",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "主语The dog正确。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 185,
+      "sample_id": "98cf3206a26807d390ca91d51cb95f565cac507dce6771d839134bdcfb6390e5",
+      "raw_path": "retrieved/generation/teacher_raw/0185.json",
+      "raw_sha256": "4cb92058e8b09da8c010b74eb02dca3d18d74bc34a04bed887bf66399e1f3ceb",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "格鲁吉亚语指令要求句型，所给句子为陈述句。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 186,
+      "sample_id": "2ecddc024ae7e6b6f1420796b02f953c37fa2adfb9efddd01f6b291cc03dd501",
+      "raw_path": "retrieved/generation/teacher_raw/0186.json",
+      "raw_sha256": "86caa8f605f0093650348c6c5059fa2b6c8d560c9acd0e9a39406b038e22013e",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "策略围绕应对运动挫折，表达完整。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 187,
+      "sample_id": "74d968b23184fdcfd18eb8d21a3c1163684ab80c6041aafe4bdfac90f171ef27",
+      "raw_path": "retrieved/generation/teacher_raw/0187.json",
+      "raw_sha256": "af96b5483ce25ea9518aca05af45357d155655826ccdda2e97f785470e235678",
+      "decision": "EXCLUDE",
+      "reason_code": "TRUNCATED",
+      "notes": "面试对话被截断。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 188,
+      "sample_id": "09df000ab9ab73aa04062132e1febf4505c420ff116f85a83c395bc8b22af063",
+      "raw_path": "retrieved/generation/teacher_raw/0188.json",
+      "raw_sha256": "962828ae4b98b52df334d88a88453ae13284188441a23a6768addc9f8635c532",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "给出三个包装印刷相关文章题目，没有添加描述。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 189,
+      "sample_id": "1eef727300f05ca89fbb3f154200793bfabea004e3d5de6513ee475682f10996",
+      "raw_path": "retrieved/generation/teacher_raw/0189.json",
+      "raw_sha256": "c716cdd1349b432b6f6a1dd35311d98be5a9a472bbe217ef680f517e7d43f367",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "挪威语译文保留作品名称和制作时间询问。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 190,
+      "sample_id": "43ab90dc8d2639429a772ca7b02aa60fdbd985ceb09067fcaf6a612c797e0f07",
+      "raw_path": "retrieved/generation/teacher_raw/0190.json",
+      "raw_sha256": "8210a6fdbbec4517bfdd149e1efb53cf68e7999ade743e602bb24b35f5007e89",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "键盘不稳、易留指纹是负面评价。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 191,
+      "sample_id": "a4ecc47b27cc39f1f7a99889d42ff51391b60e19b9a159a9093711bc8f7bdfbd",
+      "raw_path": "retrieved/generation/teacher_raw/0191.json",
+      "raw_sha256": "d663c4fef519da711b53d5ac329247639734ab3756b3b2c39b505bd17bf3c0d2",
+      "decision": "EXCLUDE",
+      "reason_code": "TRUNCATED",
+      "notes": "写作技巧清单被截断。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 192,
+      "sample_id": "1d6e0f892df3412ae657886e12a06e9c7a96be6c25ede5d5f73ae8c1b8d9f959",
+      "raw_path": "retrieved/generation/teacher_raw/0192.json",
+      "raw_sha256": "3015604320193b7ccd7c066124b22a74e626410e134b3f24b37f96e4102c5273",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "发言语境中的发对应发表。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 193,
+      "sample_id": "d1affdab01f9ea7c903fe77e0fe6242ae89c3eeddf33458ece280f6152245c64",
+      "raw_path": "retrieved/generation/teacher_raw/0193.json",
+      "raw_sha256": "34997b0f6e108f2277f2de1f7d92f2ba915edaa5bcc3883d4bd22b0afcd0f098",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "提出倾听、公正和沟通策略，回应两难场景。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 194,
+      "sample_id": "98a42a2e683535d005187c921e6b6e5819d3aba89ef424a64cc6e2daf81c561a",
+      "raw_path": "retrieved/generation/teacher_raw/0194.json",
+      "raw_sha256": "49ea7d8dea53a6f093186be05aa712fda66c13c02c51714df70e8527228f87d3",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "单件利润100，20件利润2000，过程一致。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 195,
+      "sample_id": "82065fa572dce616ff571c4925e3fcb60cfcda14ca11a5b1ece15d80cbd25648",
+      "raw_path": "retrieved/generation/teacher_raw/0195.json",
+      "raw_sha256": "4a9abbd07181f7136d165efed8320d8868be5d344bd09984b5ba4ae0a63d5621",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "中文列出雪况、难度、设施三个选山因素。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 196,
+      "sample_id": "a4959b76dd3d52f79370ef5c6eeeaf5022345225c85c0d498a1f0c4d2aa1bb15",
+      "raw_path": "retrieved/generation/teacher_raw/0196.json",
+      "raw_sha256": "02193c9c3a82b5b5b74db39c48136ad52121a93ae69fe940e41318eae1c5e946",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "单价乘数量12*60符合题意。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 197,
+      "sample_id": "67bcd341c4684b8c9df0f959dac332c282985dd6ed96b7cae9075370d32b0499",
+      "raw_path": "retrieved/generation/teacher_raw/0197.json",
+      "raw_sha256": "b9ce8028d0d7cddcc83c81a7b22ba3954c1a8847127a5073ccbe7f19550a637c",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "在原场景基础上增加冬日环境与人物细节。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 198,
+      "sample_id": "9f7e7f432c51bd2817fc0fa6070a3c863b4047ee92d50d72a8bd57c94a192fc5",
+      "raw_path": "retrieved/generation/teacher_raw/0198.json",
+      "raw_sha256": "2c7f85739de4e3ebefe9ac535eff9396ded87377e9017468193a5c6eed3bd75b",
+      "decision": "EXCLUDE",
+      "reason_code": "CODE_ERROR",
+      "notes": "total被赋为元组，除以3抛TypeError；示例注释7.5也错误。",
+      "reviewer_type": "assistant_full_text_review"
+    },
+    {
+      "index": 199,
+      "sample_id": "c7061e4f51359272677b1d33cc98f9afcc48d59e92c4d8b6694c646eb466d335",
+      "raw_path": "retrieved/generation/teacher_raw/0199.json",
+      "raw_sha256": "ecccc73b6f37ce691e6e3fd4950088c6a1d9bb4244528b69fe5857941eb138d5",
+      "decision": "KEEP",
+      "reason_code": "KEEP",
+      "notes": "注意事项与具体服用方法不是同一问题，否合理。",
+      "reviewer_type": "assistant_full_text_review"
+    }
+  ]
+}

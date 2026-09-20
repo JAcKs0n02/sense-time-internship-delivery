@@ -1,0 +1,11 @@
+{
+  "host": "autodl-container-be044ebe99-be706b14",
+  "gpu": "NVIDIA GeForce RTX 3090, GPU-bf88b89e-43bc-dc76-6d69-2afa56a3c747, 24576 MiB",
+  "versions": {
+    "transformers": "4.50.0",
+    "torch": "2.5.1+cu121",
+    "opencompass": "0.5.3"
+  },
+  "started_utc": "2026-09-18T20:07:18.907079+00:00",
+  "deadline_utc": "2026-09-18T21:15:00Z"
+}

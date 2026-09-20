@@ -1,0 +1,14 @@
+{
+  "sample_id": "5aed274e323347e3e7ea934fcc2f31e72f9b523d080dff458ba0dc6ca88082a0",
+  "prompt": "使用给定的输入，创作一个大约80个单词的有创意的故事。\n\n输入：Jill和她的猫Harry正在森林里散步。",
+  "messages": [
+    {
+      "role": "user",
+      "content": "使用给定的输入，创作一个大约80个单词的有创意的故事。\n\n输入：Jill和她的猫Harry正在森林里散步。"
+    }
+  ],
+  "answer": "Jill和她的猫Harry正在森林里悠闲地散步。突然，Harry的眼睛一亮，它跳起来，扑向一棵树上的鸟巢。Jill惊讶地看着它，但Harry并不理会她，它用嘴小心翼翼地衔起了一只小鸟，并把它带回了Jill的身边。Jill感动极了，她从未见过一只如此温柔的猫。从此，Jill更加珍惜她的忠实伙伴Harry，而Harry也变得更加自信和快乐。它们继续在森林里漫步，享受着彼此的陪伴。",
+  "truncated": false,
+  "input_tokens": 60,
+  "output_tokens": 111
+}

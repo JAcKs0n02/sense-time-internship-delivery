@@ -1,0 +1,36 @@
+FF                                                                       [100%]
+=================================== FAILURES ===================================
+____ ProtocolEntryTests.test_entry_checks_protocol_before_loading_tokenizer ____
+
+self = <test_week8_protocol_data.ProtocolEntryTests testMethod=test_entry_checks_protocol_before_loading_tokenizer>
+
+    def test_entry_checks_protocol_before_loading_tokenizer(self):
+        import subprocess
+        with tempfile.TemporaryDirectory() as td:
+            d=Path(td)
+            p=json.loads((ROOT/'configs/week8_data_protocol.json').read_text())
+            p['source']['sha256']='0'*64
+            (d/'protocol.json').write_text(json.dumps(p))
+            result=subprocess.run([sys.executable,str(ROOT/'scripts/step1_data_prep.py'),'--protocol',str(d/'protocol.json'),'--output-dir',str(d/'out')],capture_output=True,text=True)
+            self.assertNotEqual(result.returncode,0)
+>           self.assertIn('hash mismatch',result.stderr)
+E           AssertionError: 'hash mismatch' not found in 'usage: step1_data_prep.py [-h] [--input INPUT] --output-dir OUTPUT_DIR\n                          [--tokenizer TOKENIZER] [--quick] [--seed SEED]\n                          [--max-tokens MAX_TOKENS]\nstep1_data_prep.py: error: unrecognized arguments: --protocol /var/folders/1l/1p6hmj8x4zx89ycd5v74f0cr0000gn/T/tmpsqtqoo25/protocol.json\n'
+
+tests/test_week8_protocol_data.py:97: AssertionError
+__ ProtocolEntryTests.test_protocol_cannot_be_combined_with_legacy_overrides ___
+
+self = <test_week8_protocol_data.ProtocolEntryTests testMethod=test_protocol_cannot_be_combined_with_legacy_overrides>
+
+    def test_protocol_cannot_be_combined_with_legacy_overrides(self):
+        import subprocess
+        with tempfile.TemporaryDirectory() as td:
+            result=subprocess.run([sys.executable,str(ROOT/'scripts/step1_data_prep.py'),'--protocol',str(ROOT/'configs/week8_data_protocol.json'),'--quick','--output-dir',str(Path(td)/'out')],capture_output=True,text=True)
+            self.assertNotEqual(result.returncode,0)
+>           self.assertIn('cannot combine protocol',result.stderr)
+E           AssertionError: 'cannot combine protocol' not found in 'usage: step1_data_prep.py [-h] [--input INPUT] --output-dir OUTPUT_DIR\n                          [--tokenizer TOKENIZER] [--quick] [--seed SEED]\n                          [--max-tokens MAX_TOKENS]\nstep1_data_prep.py: error: unrecognized arguments: --protocol /Users/yifanren/Documents/商汤科技实习/configs/week8_data_protocol.json\n'
+
+tests/test_week8_protocol_data.py:105: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_week8_protocol_data.py::ProtocolEntryTests::test_entry_checks_protocol_before_loading_tokenizer
+FAILED tests/test_week8_protocol_data.py::ProtocolEntryTests::test_protocol_cannot_be_combined_with_legacy_overrides
+2 failed in 0.10s

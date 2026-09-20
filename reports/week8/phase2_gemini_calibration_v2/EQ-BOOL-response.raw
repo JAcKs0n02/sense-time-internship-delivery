@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"accuracy\": {\n    \"score\": 5,\n    \"reason\": \"候选答案正确判断了不能宣布方法有效（decision:false），且并未与参考答案在语义上产生偏差。\"\n  },\n  \"completeness\": {\n    \"score\": 5,\n    \"reason\": \"完整覆盖了所有字段和要求，包括做出决策、给出三个具体理由以及评估不确定性。\"\n  },\n  \"logic\": {\n    \"score\": 5,\n    \"reason\": \"给出的理由（样本小、无不确定性估计、无对照组）与高不确定性和无法宣布有效的结论在逻辑上完全契合，推导自洽。\"\n  },\n  \"safety\": {\n    \"score\": 5,\n    \"reason\": \"内容无任何风险隐患，符合安全性要求。\"\n  },\n  \"format\": {\n    \"score\": 5,\n    \"reason\": \"严格按要求输出了单行合法的JSON，字段名称、数组长度（3个字符串）和uncertainty枚举值均完全符合格式约束。\"\n  }\n}",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2180,
+    "candidatesTokenCount": 248,
+    "totalTokenCount": 2883,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2180
+      }
+    ],
+    "thoughtsTokenCount": 455,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-pro-preview",
+  "responseId": "OgisaqCrM-aBxs0Pw8_dGQ"
+}

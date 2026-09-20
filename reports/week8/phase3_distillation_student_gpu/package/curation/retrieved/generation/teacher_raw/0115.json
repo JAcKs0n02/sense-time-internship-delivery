@@ -1,0 +1,14 @@
+{
+  "sample_id": "d015b892a6d00de1c48bc36a47a4ad2e887e08ca5a988bda86ac80f7cb2471dc",
+  "prompt": "构建一个表格来组织给定的信息。\n\n输入：\n动物：猫，狗，兔子\n腿的数量：4，4，4",
+  "messages": [
+    {
+      "role": "user",
+      "content": "构建一个表格来组织给定的信息。\n\n输入：\n动物：猫，狗，兔子\n腿的数量：4，4，4"
+    }
+  ],
+  "answer": "| 动物   | 腿的数量 |\n|-------|--------|\n| 猫    | 4      |\n| 狗    | 4      |\n| 兔子  | 4      |",
+  "truncated": false,
+  "input_tokens": 56,
+  "output_tokens": 47
+}

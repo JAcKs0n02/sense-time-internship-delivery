@@ -1,0 +1,57 @@
+{
+    "accuracy": 100.0,
+    "details": {
+        "type": "GEN",
+        "0": {
+            "prompt": [
+                {
+                    "role": "HUMAN",
+                    "prompt": "以下是中国关于大学编程考试的单项选择题，请选出其中的正确答案。\n在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____\nA. 当 x 不在数组中\nB. 当 x 接近数组开头处\nC. 当 x 接近数组结尾处\nD. 当 x 位于数组中间位置\n答案: \n"
+                },
+                {
+                    "role": "BOT",
+                    "prompt": "B"
+                },
+                {
+                    "role": "HUMAN",
+                    "prompt": "以下是中国关于大学编程考试的单项选择题，请选出其中的正确答案。\n先序序列为a，b，c的不同二叉树的个数是____\nA. 3\nB. 5\nC. 4\nD. 6\n答案: \n"
+                },
+                {
+                    "role": "BOT",
+                    "prompt": "B"
+                },
+                {
+                    "role": "HUMAN",
+                    "prompt": "以下是中国关于大学编程考试的单项选择题，请选出其中的正确答案。\n若森林F有15条边、25个结点，则F包含树的个数是____\nA. 8\nB. 9\nC. 10\nD. 11\n答案: \n"
+                },
+                {
+                    "role": "BOT",
+                    "prompt": "C"
+                },
+                {
+                    "role": "HUMAN",
+                    "prompt": "以下是中国关于大学编程考试的单项选择题，请选出其中的正确答案。\n#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。\nA. 10\nB. 2\nC. 9\nD. 0\n答案: \n"
+                },
+                {
+                    "role": "BOT",
+                    "prompt": "B"
+                },
+                {
+                    "role": "HUMAN",
+                    "prompt": "以下是中国关于大学编程考试的单项选择题，请选出其中的正确答案。\n在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的\nA. int func(int x) {return (x*x);}\nB. inline int func(int x) {return (x*x);}\nC. int inline func(int x) {return (x*x);}\nD. int func(int x) {return (x*x);}\n答案: \n"
+                },
+                {
+                    "role": "BOT",
+                    "prompt": "B"
+                },
+                {
+                    "role": "HUMAN",
+                    "prompt": "以下是中国关于大学编程考试的单项选择题，请选出其中的正确答案。\n当采用分块查找时，数据的组织方式为____\nA. 数据分成若干块， 每块内数据有序\nB. 数据分成若干块， 每块内数据不必有序， 但块间必须有序， 每块内最大（ 或最小） 的数据组成索引块\nC. 数据分成若干块， 每块内数据有序， 但块间必须有序， 每块内最大（ 或最小） 的数据组成索引块\nD. 数据分成若干块， 每块（ 除最后一块外） 中数据个数需相同\n答案: \n"
+                }
+            ],
+            "origin_prediction": "B",
+            "predictions": "B",
+            "references": "B"
+        }
+    }
+}

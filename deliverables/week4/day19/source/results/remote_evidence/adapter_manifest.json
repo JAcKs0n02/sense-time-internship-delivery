@@ -1,0 +1,57 @@
+{
+  "checkpoints": [
+    {
+      "adapter": {
+        "bytes": 80792096,
+        "path": "adapter_model.safetensors",
+        "sha256": "e67384a02d610ab160b9af35c3f5a6c4d534cb1a56eff189e75512882949048b"
+      },
+      "name": "checkpoint-160"
+    },
+    {
+      "adapter": {
+        "bytes": 80792096,
+        "path": "adapter_model.safetensors",
+        "sha256": "a1d7c5eafba28dd927e676836f30338870fbda3dc239caf6ffe950f064b7319b"
+      },
+      "name": "checkpoint-240"
+    }
+  ],
+  "files": [
+    {
+      "bytes": 3253,
+      "path": "README.md",
+      "sha256": "95e05ac8adeaf878d041f137ba17a7e4d8af4d70b2cf27916efe08a0d4af56c3"
+    },
+    {
+      "bytes": 900,
+      "path": "adapter_config.json",
+      "sha256": "99715fc4f7e6e842facf3c5900ca07f8352b9d7de8b3f05db7b12bc084c1c4bd"
+    },
+    {
+      "bytes": 80792096,
+      "path": "adapter_model.safetensors",
+      "sha256": "a1d7c5eafba28dd927e676836f30338870fbda3dc239caf6ffe950f064b7319b"
+    },
+    {
+      "bytes": 2507,
+      "path": "chat_template.jinja",
+      "sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f"
+    },
+    {
+      "bytes": 613,
+      "path": "special_tokens_map.json",
+      "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+    },
+    {
+      "bytes": 11421896,
+      "path": "tokenizer.json",
+      "sha256": "9c5ae00e602b8860cbd784ba82a8aa14e8feecec692e7076590d014d7b7fdafa"
+    },
+    {
+      "bytes": 4713,
+      "path": "tokenizer_config.json",
+      "sha256": "11d20a741a0eda1e7482d29b5d17553328922ed9e7391ec6f44d390215390f3d"
+    }
+  ]
+}

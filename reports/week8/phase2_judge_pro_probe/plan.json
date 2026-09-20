@@ -1,0 +1,14 @@
+{
+  "endpoint": "https://api.deepseek.com/beta/chat/completions",
+  "max_calls": 1,
+  "max_attempts_per_case": 1,
+  "automatic_retries": 0,
+  "reserve_cny": "1.00",
+  "max_observed_spend_cny": "0.50",
+  "formal_release": false,
+  "pair_checks": [],
+  "selection_warning": "Diagnostic cases include model-informed pilots; not an unbiased estimate of judge accuracy.",
+  "model": "deepseek-v4-pro",
+  "documented_version": "DeepSeek-V4-Pro-0813",
+  "version_caveat": "API alias is not an immutable version pin"
+}

@@ -1,0 +1,23 @@
+{
+  "status": "TARGET_PROMPT_CONFIG_AND_FORWARD_PASS_NOT_RELEASED",
+  "utc": "2026-09-15T13:40:20.437715+00:00",
+  "instance": "be044ebe99-be706b14",
+  "hourly_cny": 1.48,
+  "max_minutes": 60,
+  "training_allowed": false,
+  "auto_shutdown_server_time": "2026-09-15 15:35:00",
+  "auto_shutdown_utc": "2026-09-15T14:35:00Z",
+  "transfer_verified_files": 311,
+  "archive_sha256": "885dd623e583b23d2c2b2bde78b1e0032150ecfda943f5055b3e3f336d16a46b",
+  "remote_root": "/root/autodl-tmp/week8-target-runtime-20260915",
+  "initial_gpu_processes": "none",
+  "deployment_issue": "installed scripts package collided with namespace package; added explicit __init__.py; rerun in progress",
+  "duplicate_unpack": "second submission rejected by FileExistsError; first unpack and 311-file validation passed, no overwrite",
+  "final_power_state": "已关机",
+  "off_verified_at": "2026-09-15T13:52:40.664696+00:00",
+  "benchmark_scored": false,
+  "raw_archive_downloaded": false,
+  "receipt_transport_sha256": "5f8100ee61cf2910329ab29ee56f9341a92b0bdffa3f4614d5e1758e0273e84d",
+  "original_receipts_recovered_and_hash_verified": true,
+  "remote_config_byte_identity_verified": true
+}

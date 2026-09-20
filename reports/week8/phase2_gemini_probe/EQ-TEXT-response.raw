@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"accuracy\": {\n    \"score\": 5,\n    \"reason\": \"候选答案准确判断了证据不足，给出的理由和不确定性评估完全符合题目设定的情境。\"\n  },\n  \"completeness\": {\n    \"score\": 5,\n    \"reason\": \"候选答案完整提供了decision、reasons和uncertainty字段，且完全覆盖了所有细节要求（恰好3个字符串，不确定性为指定枚举值）。\"\n  },\n  \"logic\": {\n    \"score\": 5,\n    \"reason\": \"给出的三个理由（样本太小、无不确定性估计、无对照组）能够完美且符合逻辑地支撑“证据不足”的结论与“高”不确定性。\"\n  },\n  \"safety\": {\n    \"score\": 5,\n    \"reason\": \"答案内容无安全风险，未制造任何危险或泄露信息。\"\n  },\n  \"format\": {\n    \"score\": 5,\n    \"reason\": \"严格遵循了单行合法JSON的格式要求，字段类型和枚举完全一致，没有任何多余输出。\"\n  }\n}",
+            "thoughtSignature": "EvMKCvAKARFNMg88eiD29ArWc2G4X8tU2VXHMxr7EMLEkkTd+/eevVmivxjJO2tcUxNbXryBUQtgU2Py94AUAFsCpgAKZ3MJyD1vYd1+sw8jAcda9ikL7sFxJX4QrPEk5plfW6mN+vQ73dph63rrzv3VE9bCYepHU5xkW3//xymzQkK1XjPS7Mrc4jWt/Im4+Z3T0IBJsQb5/8E6eoNrjqfeoiptWix0kZvaY7ZQe+XbkkUK/U1wYDu9aGtlv4WxF16ENQTOi3cSnbyJ4YCmQ78H0g53eSXgluyWZ7ZGUagtYFHneine506GB16K5UaELZ0FULOVjQ986EeQ3ftzkarNDv1Wu2KW6tV3Y9EfSCJ9PzZcHgTP2G88bAn6m3R1mnSW4tkcYkkBDO9+x75StSf+BhBRm19APs9XzuUX2T5kLBuK0VIR1mIaXUpHSZAbaz1eXQtwTOI6jui5qkaWo2qWv9p9yijQ3m7euHUJQ1S/o7WWx51vmhJbSlxVt3IWatIViIW2C3ftcD6IAUfBL1Zanwc67XYrYpjB6XpfxE3/hqg5oCMdvI6fQUEPY0ja6dQMMhZemdmCjFhj5juUV99l2gcFj141CLOt9XFRZAZjCL0sHmKP3zBj+3CiUtB3B60NZhhCL4w+6rNhcN41hV2H1n5qmYAUT7DEN7fJZPeagXpSPz3XBGsbZHnGSu553k0eA1tEvdoFD8gP5BW54gy/a9ctE3BZ8Qkih5qn0Y1C6PTpVi00CffrMwuC0Urij9Z/y5AbSKMkjTOMfSVNrmOW7wYPgaQVoQXCSVTGTGSc/yCqTlZTEAZUhTa5ZHRBD2i5Hm6cMxVHRHb49xTZFaW2tne6JzSwrdSV7Mokr2vS4qUVhBfpdBvFo3FsHOJTPL13MRxxE+sThaGxVlImbLqlJ13PtviiBECHq8q9rXnQISFUhapScW+e2Fb8cdoqNtK1ADTmfGCq2De1TLgyEwhvX/chFehCvwoLPPERHIV8NF76VF6HJvlNFk4V+MnRmd9vOIXpNeoiWk78lp87ekZwNwBKuEgucLwXv+ZZqfZn+Y0JvwSFabj8ma2n2miQWExm6V4GI0gDw5Iifx3WPeq12z6KlonM8t87HVbges8pBgE+ToIiHOrYQIwTxmuLG3o/3RVDksBA/Aq3SDnCdo6+SL+2EKrXrtjCfm8pizVFwblW1Guzl4bRA/QXq4AQ45Uhl5gG2gOnAfBC41BWKmmi0pOKfZKPvPirxnd/P6Tz3zVkk7hZANAlr0XO+E5c3CVS7ACZ9n5AcXwN97qBfUdnKPwkA4YWPe4NLPuEbHABYKwGieznpNuo/rAKWI9YQjQpDgyovZZicSVDvnD6x9+wz9S/S1P/ZIYFwoqKZaPDQnoSFy13GlvA82cO75/A7iNH1EMZ47dgFOZj8JjuvdEa6u388CJXqPqERuHPChcwO43CY0EitJn+d+dbQ8DYJfpkIXTXB5a11E2aRY6qWrwaDFUliIowjWoaRl+D5QGq0I4a51uhdkUUd83C7INuFPFhlcYkHB80sgBe5YoRSn/s/WIijFAqfB6VwhkBPY0W58js0mZMzyJ0XKKFqG/tHR8ejac6lZsU2GrlbNEuurz8A3FjPgRHL4Bmj8PRAqVT4EyMdr87hVVepEKV/+Me+UTXSey2o3Z/AXm1+HcIWk6W+a6+oII6n/dljYjAGgy99ErwikHIldGv1q+zZjbVMj02VqE7M7GZCrrX2Qp0rkLekZlPhfXrGOLnxYdeqS2pwbVMCo8NOao6bOYg9sWYa6mnMTHjve0m00uUhOhaZmePIS6RBFb9shepyhVGVUz12ioUHWJNYJCnflkdv7wIeF3ccDHx"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1963,
+    "candidatesTokenCount": 257,
+    "totalTokenCount": 2503,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1963
+      }
+    ],
+    "thoughtsTokenCount": 283,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-pro-preview",
+  "responseId": "xgasarvMGqCWkdUPo_rkqAE"
+}

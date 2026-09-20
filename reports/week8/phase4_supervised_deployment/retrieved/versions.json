@@ -1,0 +1,7 @@
+{
+  "vllm": "0.6.4.post1",
+  "torch": "2.5.1+cu121",
+  "transformers": "4.50.0",
+  "gradio": "5.31.0",
+  "gradio_client": "1.10.1"
+}

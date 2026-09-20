@@ -1,0 +1,18 @@
+{
+  "status": "LOCAL_FORMAL_ENTRY_VERIFIED_NOT_DEPLOYED",
+  "tests_passed": 77,
+  "new_tests": 16,
+  "training_started": false,
+  "gpu_started": false,
+  "cold_load_gpu_verified": false,
+  "api_calls": 0,
+  "execution_enabled": false,
+  "release_files_verified": 40,
+  "candidate_release_sha256": "7c2723826a0cbee259b43eaf67158885953e3090a1fc5409a620c02bae1d7fed",
+  "archive_sha256": "11b9f88e47f377c5a435d2289c6b35b021d79bf2b2bc2bf8fa920d1e599648eb",
+  "archive_bytes": 1059951,
+  "regression_log_sha256": "2bf70601ff3871ff364ba723b5fa40a8cad47794a53defb4199631f68f5064ce",
+  "review_sha256": "f9ab9ab741859ea4016a389e6df57a4004f7012be5d7d1b719fc86cb17301a12",
+  "quality_first": true,
+  "reduce_training_for_price": false
+}

@@ -1,0 +1,32 @@
+{
+  "status": "PASS_PENDING_REVIEW",
+  "error": null,
+  "attempts": 17,
+  "accepted_cases": [
+    "ISO-FORMAT",
+    "ISO-CONTENT",
+    "ISO-BOTH",
+    "EQ-BOOL",
+    "EQ-TEXT",
+    "WRONG-CONCLUSION",
+    "STRICT-BOOL",
+    "STRICT-TEXT",
+    "MISSING-REASON",
+    "V3-01",
+    "V3-02",
+    "V3-03",
+    "V3-04",
+    "V3-05",
+    "V3-06",
+    "PILOT-MATH-05",
+    "PILOT-REASON-06"
+  ],
+  "usage": {
+    "promptTokenCount": 37295,
+    "candidatesTokenCount": 4135,
+    "thoughtsTokenCount": 11450,
+    "totalTokenCount": 52880
+  },
+  "usage_complete": true,
+  "formal_release": false
+}

@@ -1,0 +1,16 @@
+[
+  "/root/autodl-tmp/conda/envs/llm_exp/bin/python",
+  "/root/autodl-tmp/week8-distillation-comparison-20260918/scripts/compare_distillation.py",
+  "--before",
+  "/root/autodl-tmp/week8-distillation-comparison-20260918/run-01/views/before",
+  "--after",
+  "/root/autodl-tmp/week8-distillation-comparison-20260918/run-01/views/after",
+  "--before-manifest",
+  "/root/autodl-tmp/week8-distillation-comparison-20260918/run-01/before_view_manifest.json",
+  "--after-manifest",
+  "/root/autodl-tmp/week8-distillation-comparison-20260918/run-01/after_view_manifest.json",
+  "--timeout-seconds",
+  "3600",
+  "--output-dir",
+  "/root/autodl-tmp/week8-distillation-comparison-20260918/run-01/comparison"
+]

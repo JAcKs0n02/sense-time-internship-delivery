@@ -1,0 +1,65 @@
+{
+    "accuracy": 100.0,
+    "details": [
+        {
+            "example_abbr": "cmmlu-anatomy_test_0",
+            "prompt": [
+                [
+                    {
+                        "role": "HUMAN",
+                        "prompt": "以下是关于解剖学的单项选择题，请直接给出正确答案的选项。\n题目：壁胸膜的分部不包括\nA. 肋胸膜\nB. 肺胸膜\nC. 膈胸膜\nD. 胸膜顶\n"
+                    },
+                    {
+                        "role": "BOT",
+                        "prompt": "答案是: B"
+                    },
+                    {
+                        "role": "HUMAN",
+                        "prompt": "以下是关于解剖学的单项选择题，请直接给出正确答案的选项。\n题目：属于蝶骨上的结构为\nA. 垂体窝\nB. 棘孔\nC. 破裂孔\nD. 视神经管\n"
+                    },
+                    {
+                        "role": "BOT",
+                        "prompt": "答案是: B"
+                    },
+                    {
+                        "role": "HUMAN",
+                        "prompt": "以下是关于解剖学的单项选择题，请直接给出正确答案的选项。\n题目：属于右心房的结构是\nA. 肉柱\nB. 室上嵴\nC. 乳头肌\nD. 梳状肌\n"
+                    },
+                    {
+                        "role": "BOT",
+                        "prompt": "答案是: D"
+                    },
+                    {
+                        "role": "HUMAN",
+                        "prompt": "以下是关于解剖学的单项选择题，请直接给出正确答案的选项。\n题目：咽的分部\nA. 咽隐窝\nB. 口咽部\nC. 鼻咽部\nD. 喉咽部\n"
+                    },
+                    {
+                        "role": "BOT",
+                        "prompt": "答案是: C"
+                    },
+                    {
+                        "role": "HUMAN",
+                        "prompt": "以下是关于解剖学的单项选择题，请直接给出正确答案的选项。\n题目：舌下神经核位于\nA. 间脑\nB. 延髓\nC. 中脑\nD. 脑挢\n"
+                    },
+                    {
+                        "role": "BOT",
+                        "prompt": "答案是: B"
+                    },
+                    {
+                        "role": "HUMAN",
+                        "prompt": "以下是关于解剖学的单项选择题，请直接给出正确答案的选项。\n题目：女性生殖腺是\nA. 卵巢\nB. 前庭大腺\nC. 前庭球\nD. 乳腺\n"
+                    }
+                ]
+            ],
+            "pred": [
+                "A"
+            ],
+            "refr": [
+                "A"
+            ],
+            "is_correct": [
+                true
+            ]
+        }
+    ]
+}

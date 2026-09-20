@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/yifanren/Documents/商汤科技实习/outputs/week8-submission-20260919/repository/scripts/pipeline/step3_eval.py", line 195, in <module>
+    main()
+  File "/Users/yifanren/Documents/商汤科技实习/outputs/week8-submission-20260919/repository/scripts/pipeline/step3_eval.py", line 186, in main
+    score(output, plan)
+  File "/Users/yifanren/Documents/商汤科技实习/outputs/week8-submission-20260919/repository/scripts/pipeline/step3_eval.py", line 134, in score
+    scoring.run(score_plan, scored, ROOT/'reports/week8/score_only_claims')
+  File "/Users/yifanren/Documents/商汤科技实习/outputs/week8-submission-20260919/repository/scripts/week8_gemini_score_only.py", line 118, in run
+    require(not output.exists(), 'unclaimed output already exists')
+  File "/Users/yifanren/Documents/商汤科技实习/outputs/week8-submission-20260919/repository/scripts/week8_score_recovery_audit.py", line 20, in require
+    raise ValueError(message)
+ValueError: unclaimed output already exists

@@ -1,0 +1,70 @@
+\documentclass[UTF8,fontset=fandol,a4paper,11pt]{ctexart}
+\usepackage[margin=24mm,headheight=15pt]{geometry}
+\usepackage{fontspec}
+\setmainfont{texgyretermes-regular.otf}[BoldFont=texgyretermes-bold.otf,ItalicFont=texgyretermes-italic.otf,BoldItalicFont=texgyretermes-bolditalic.otf]
+\setsansfont{texgyreheros-regular.otf}[BoldFont=texgyreheros-bold.otf]
+\setmonofont{texgyrecursor-regular.otf}[Scale=0.91,BoldFont=texgyrecursor-bold.otf]
+\setCJKmainfont{FandolSong-Regular.otf}[BoldFont=FandolSong-Bold.otf,ItalicFont=FandolSong-Regular.otf]
+\setCJKsansfont{FandolHei-Regular.otf}[BoldFont=FandolHei-Bold.otf]
+\setCJKmonofont{FandolSong-Regular.otf}
+\usepackage{amsmath,amssymb,graphicx,booktabs,longtable,array,calc,float}
+\usepackage{fvextra,xurl,hyperref,bookmark,caption,etoolbox,setspace,fancyhdr,enumitem,needspace}
+\hypersetup{hidelinks,pdftitle={Qwen大模型实习综合技术报告},pdfauthor={}}
+\urlstyle{same}
+\setstretch{1.25}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{4pt}
+\setlength{\emergencystretch}{3em}
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\setlist{nosep,topsep=4pt,leftmargin=2em}
+\setcounter{secnumdepth}{0}
+\setcounter{tocdepth}{1}
+\ctexset{section={format=\Large\sffamily\bfseries,beforeskip=20pt,afterskip=10pt},
+  subsection={format=\large\sffamily\bfseries,beforeskip=14pt,afterskip=6pt},
+  subsubsection={format=\normalsize\sffamily\bfseries,beforeskip=10pt,afterskip=4pt}}
+\captionsetup{font=small,labelfont=bf,labelsep=quad,skip=6pt}
+\BeforeBeginEnvironment{longtable}{\begingroup\small\setstretch{1.12}\setlength{\tabcolsep}{4pt}}
+\AfterEndEnvironment{longtable}{\endgroup}
+\setlength{\LTpre}{8pt}
+\setlength{\LTpost}{8pt}
+\renewcommand{\arraystretch}{1.2}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Qwen 大模型实习综合技术报告}
+\fancyhead[R]{\small 2026年9月20日}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\pandocbounded}[1]{#1}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>0.48\textheight0.48\textheight\else\Gin@nat@height\fi}
+\makeatother
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\floatplacement{figure}{H}
+\begin{document}
+\hypersetup{pageanchor=false}
+\begin{titlepage}
+\centering
+\vspace*{28mm}
+{\sffamily\bfseries\fontsize{26}{36}\selectfont Qwen 大模型实习\\综合技术报告\par}
+\vspace{12mm}
+{\large 第1至8周：环境、数据、训练、评估与部署\par}
+\vspace{8mm}
+{\large 2026年9月20日修订版\par}
+\vfill
+\begin{minipage}{0.82\textwidth}
+\normalsize
+面向单卡资源约束下的Qwen模型实验，分析数据处理、参数高效微调、偏好对齐、多模态理解、工具调用、量化部署与知识蒸馏的方法、结果及适用范围。
+\end{minipage}
+\vspace{22mm}
+\end{titlepage}
+\pagenumbering{roman}
+\hypersetup{pageanchor=true}
+\tableofcontents
+\clearpage
+\pagenumbering{arabic}
+$body$
+\end{document}

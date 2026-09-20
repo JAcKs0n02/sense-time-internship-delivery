@@ -1,0 +1,162 @@
+[
+  {
+    "case_id": "chart_table-v8-dev-01--direct",
+    "image_relative_path": "images_v7/final/chart_table-v7-final-01.png",
+    "user_instruction": "请独立分析这张开发测试图片：概括图表主题、编码方式和两项可直接核对的数据关系。",
+    "reference_answer": "2025 年各国一次能源中可再生能源占比的世界地图。地图以由浅至深的绿色表示占比区间；图例范围从 0% 延伸至 70% 以上；斜线填充区域在图例中标注为 No data。",
+    "response_a": "### 图表主题\n这张地图展示了2025年全球不同国家和地区可再生能源在总能源供应中所占的百分比。\n\n### 编码方式\n- **颜色编码**：地图使用了从浅绿色到深绿色的颜色渐变来表示可再生能源占比的不同水平。\n  - 浅绿色：0%至10%\n  - 中等绿色：10%至20%\n  - 深绿色：20%至70%\n\n### 可直接核对的数据关系\n1. **区域间比较**：\n   - **欧洲**：大部分地区显示为深绿色，表明可再生能源占比较高。\n   - **亚洲**：部分国家如日本和韩国显示为深绿色，而其他国家则显示为浅绿色或中等绿色。\n   - **非洲**：整体上显示为浅绿色，表明可再生能源占比相对较低。\n   - **南美洲**：巴西显示为深绿色，表明其可再生能源占比较高。\n\n2. **国家内部比较**：\n   - **中国**：部分地区显示为深绿色，表明可再生能源占比较高。\n   - **美国**：部分地区显示为深绿色，表明可再生能源占比较高。\n   - **印度**：",
+    "response_b": "### 图表主题\n这张图表的主题是“2025年可再生能源在总能源供应中的占比”。它以世界地图的形式展示了不同国家和地区可再生能源在总能源供应中所占的比例。\n\n### 编码方式\n- **颜色编码**：地图上使用了不同的颜色来表示不同比例的可再生能源占比。\n  - **白色**：表示没有数据。\n  - **浅绿色**：表示0%到10%的比例。\n  - **深绿色**：表示70%及以上的比例。\n  - 其他颜色（如灰色）则表示介于浅绿和深绿之间的比例。\n\n### 可直接核对的数据关系\n1. **区域间的比较**：\n   - 例如，欧洲和北美洲的大部分地区显示为深绿色，表明这些地区的可再生能源占比较高。\n   - 而非洲和亚洲的部分地区则显示为浅绿色或白色，表明这些地区的可再生能源占比较低。\n\n2. **具体国家的比较**：\n   - 比如，中国和美国的大部分地区显示为深绿色，表明这两个国家的可再生能源占比相对较高。\n   - 而印度和巴西等国则显示为浅绿色，表明"
+  },
+  {
+    "case_id": "chart_table-v8-dev-01--verification",
+    "image_relative_path": "images_v7/final/chart_table-v7-final-01.png",
+    "user_instruction": "请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。\n待核验陈述：斜线填充区域代表没有数据。",
+    "reference_answer": "结论：符合。可见依据：地图下方图例把斜线填充样式明确标为“No data”。",
+    "response_a": "符合。\n\n最短充分视觉依据：图例中的“No data”表示斜线填充区域代表没有数据。",
+    "response_b": "符合。最短充分视觉依据：图例中“无数据”对应斜线填充区域。"
+  },
+  {
+    "case_id": "chart_table-v8-dev-02--direct",
+    "image_relative_path": "images_v7/final/chart_table-v7-final-02.png",
+    "user_instruction": "请独立分析这张开发测试图片：概括图表主题、编码方式和两项可直接核对的数据关系。",
+    "reference_answer": "1950 至 2023 年世界人口年龄组堆叠面积图。横轴从 1950 年延伸到 2023 年；右侧依次标注五个年龄组；蓝色的 25–64 岁区域在末端最宽。",
+    "response_a": "### 图表主题\n这是一张展示全球人口按年龄分组的折线图，数据来源为联合国世界人口展望（2024年版）。\n\n### 编码方式\n- **横轴**：表示时间，从1950年到2023年。\n- **纵轴**：表示人口数量，单位为十亿人。\n- **颜色编码**：不同年龄段的人口用不同的颜色表示，具体如下：\n  - 紫色：5岁以下儿童\n  - 橙色：5-14岁青少年\n  - 浅绿色：15-24岁青年人\n  - 蓝色：25-64岁成年人\n  - 深红色：65岁以上老年人\n\n### 可直接核对的数据关系\n1. **人口增长趋势**：随着年份增加，所有年龄段的人口数量都在增加。\n2. **各年龄段人口占比变化**：通过观察不同颜色区域在折线图中的面积大小，可以直观地看出各个年龄段人口数量的变化趋势。例如，5岁以下儿童和65岁以上老年人的比例相对较小，而25-64岁的成年人比例最大。\n\n### �",
+    "response_b": "### 图表主题\n这张图表的主题是“世界人口按年龄组分布”。它展示了从1950年到2023年，不同年龄段（包括5岁以下、5-14岁、15-24岁、25-64岁和65岁以上）的人口数量变化。\n\n### 编码方式\n- **颜色编码**：每个年龄段的人口数量用不同的颜色表示。\n  - 5岁以下：紫色\n  - 5-14岁：橙色\n  - 15-24岁：绿色\n  - 25-64岁：蓝色\n  - 65岁以上：红色\n\n### 可直接核对的数据关系\n1. **增长趋势**：\n   - 总体上，所有年龄段的人口都在增加。\n   - 65岁以上的人口增长最快，其次是25-64岁，然后是15-24岁，接着是5-14岁，最后是5岁以下。\n\n2. **相对比例**：\n   - 在1950年，5岁以下和5-14岁的人口比例较高。\n   - 到了2023年，65"
+  },
+  {
+    "case_id": "chart_table-v8-dev-02--verification",
+    "image_relative_path": "images_v7/final/chart_table-v7-final-02.png",
+    "user_instruction": "请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。\n待核验陈述：2023 年时 25–64 岁年龄组是图中最小的区域。",
+    "reference_answer": "结论：不符合。可见依据：2023 年末蓝色 25–64 岁区域最宽，并非最小。",
+    "response_a": "不符合。最短充分视觉依据：2023年时，25-64岁年龄组是图中最大的区域。",
+    "response_b": "不符合。\n\n最短充分视觉依据：2023年时，25-64岁年龄组是图中最大的区域。"
+  },
+  {
+    "case_id": "formula-v8-dev-02--direct",
+    "image_relative_path": "images_v7/final/formula-v7-final-02.png",
+    "user_instruction": "请独立分析这张开发测试图片：用 LaTeX 转写右栏编号 (1) 的公式，保留可见的符号、上下标和正负号。",
+    "reference_answer": "指定区域的转写为：(F*k)(\\mathbf{p})=\\sum_{\\mathbf{s}+\\mathbf{t}=\\mathbf{p}}F(\\mathbf{s})k(\\mathbf{t})",
+    "response_a": "根据您提供的信息，我将尝试独立分析这张图片并用 LaTeX 转写右栏编号 (1) 的公式。\n\n首先，我们注意到右栏编号 (1) 的公式是一个积分表达式，其中包含一个积分符号、被积函数、积分变量和积分上限。具体来说，该公式可以表示为：\n\n\\[\n\\int_{a}^{b} f(x) \\, dx\n\\]\n\n其中：\n- \\( \\int \\) 表示积分符号。\n- \\( f(x) \\) 是被积函数。\n- \\( x \\) 是积分变量。\n- \\( a \\) 和 \\( b \\) 分别是积分的下限和上限。\n\n这个公式通常用于计算函数在指定区间上的定积分。在实际应用中，积分符号两侧的上下标可能表示积分区域或特定条件，但在这个例子中，它们并未给出。\n\n综上所述，右栏编号 (1) 的公式可以表示为：\n\n\\[\n\\int_{a}^{b} f(x) \\, dx\n\\]",
+    "response_b": "$$\\sum _ { i = 0 } ^ { l - 1 } F ( s ( i ) ) ( t )$$"
+  },
+  {
+    "case_id": "formula-v8-dev-02--verification",
+    "image_relative_path": "images_v7/final/formula-v7-final-02.png",
+    "user_instruction": "请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。\n待核验陈述：编号 (1) 的求和条件写作 s+t=p。",
+    "reference_answer": "结论：符合。可见依据：式 (1) 的求和号下方清楚标出 s+t=p。",
+    "response_a": "是的，该陈述符合。最短充分视觉依据为：图2中，公式(1)的求和条件写作s+t=p。",
+    "response_b": "是的，该陈述符合图2中的公式(1)。图中显示了求和条件为s + t = p。"
+  },
+  {
+    "case_id": "formula-v8-dev-03--direct",
+    "image_relative_path": "images_v7/final/formula-v7-final-03.png",
+    "user_instruction": "请独立分析这张开发测试图片：用 LaTeX 转写图中四类数学标签，保留可见的符号、上下标和正负号。",
+    "reference_answer": "指定区域的转写为：x^2;\\ \\frac{b}{2a}x;\\ -\\frac{c}{a};\\ \\left(\\frac{b}{2a}\\right)^2",
+    "response_a": "好的，以下是图中四类数学标签的 LaTeX 转写：\n\n1. \\( x \\)\n2. \\( \\frac{b}{2a} \\)\n3. \\( x^2 \\)\n4. \\( -\\frac{c}{a} \\)\n5. \\( \\left( \\frac{b}{2a} \\right)^2 \\)",
+    "response_b": "好的，以下是转写的 LaTeX 代码：\n\n```latex\n\\documentclass{article}\n\\usepackage{amsmath}\n\n\\begin{document}\n\n\\[\n\\begin{array}{c}\nx \\\\\nx^2 \\\\\n\\frac{b}{2a} x \\\\\n\\left(\\frac{b}{2a}\\right)^2\n\\end{array}\n=\n\\begin{array}{c}\n\\textcolor{red}{- \\frac{c}{a}} \\\\\n\\textcolor{red}{+} \\\\\n\\textcolor{green}{\\left(\\frac{b}{2a}\\right)^2}\n\\end{array}\n\\]\n\n\\end{document}\n```\n\n该代码生成了与原图相同的布局和内容。"
+  },
+  {
+    "case_id": "formula-v8-dev-03--verification",
+    "image_relative_path": "images_v7/final/formula-v7-final-03.png",
+    "user_instruction": "请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。\n待核验陈述：右侧红色区域中的标签是正的 c/a。",
+    "reference_answer": "结论：不符合。可见依据：红色区域标签前有清晰负号，写作 -c/a。",
+    "response_a": "不符合。\n\n最短充分视觉依据：右侧红色区域中的标签是负的 -c/a。",
+    "response_b": "符合。最短充分视觉依据：右侧红色区域中的标签是正的 c/a。"
+  },
+  {
+    "case_id": "natural_scene-v8-dev-03--direct",
+    "image_relative_path": "images_v7/final/natural_scene-v7-final-03.jpg",
+    "user_instruction": "请独立分析这张开发测试图片：描述主体、背景与相对位置，不猜测地点、身份或拍摄信息。",
+    "reference_answer": "有多棵高大棕榈树的沙滩海景。多棵棕榈树集中在画面右半部；前景是浅色沙滩，左后方可见海面；远处有低矮山体轮廓，天空整体明亮。",
+    "response_a": "这张图片展示了一片海滩场景。前景中有几棵高大的棕榈树，它们的树干笔直向上延伸，叶子向四周展开。这些棕榈树位于沙滩上，沙滩一直延伸到远方的地平线。\n\n背景中可以看到远处的山脉轮廓，山脉在天空的映衬下显得模糊不清。天空呈现出一种柔和的色调，可能是清晨或傍晚时分的光线效果。整体氛围显得宁静而美丽，给人一种放松和休闲的感觉。\n\n由于没有明显的地标或特定的建筑特征，无法确定具体的地点。不过，这种海滩景观和棕榈树的组合常见于热带或亚热带地区。",
+    "response_b": "这张照片展示了一片海滩场景。前景中有几棵高大的棕榈树，它们的树干笔直向上延伸，叶子向四周展开。这些棕榈树位于沙滩上，沙滩一直延伸到远方的地平线。在地平线上方，可以看到一些模糊的山丘或山脉轮廓。天空呈现出柔和的色调，可能是清晨或傍晚时分。整体氛围显得宁静而美丽。"
+  },
+  {
+    "case_id": "natural_scene-v8-dev-03--verification",
+    "image_relative_path": "images_v7/final/natural_scene-v7-final-03.jpg",
+    "user_instruction": "请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。\n待核验陈述：沙滩右侧可以看到多棵高大的棕榈树。",
+    "reference_answer": "结论：符合。可见依据：画面右侧有数棵树干细长、树冠呈扇形的棕榈树。",
+    "response_a": "符合。\n\n最短充分视觉依据：沙滩右侧可以看到多棵高大的棕榈树。",
+    "response_b": "符合。最短充分视觉依据：沙滩右侧可以看到多棵高大的棕榈树。"
+  },
+  {
+    "case_id": "natural_scene-v8-dev-04--direct",
+    "image_relative_path": "images_v7/final/natural_scene-v7-final-04.jpg",
+    "user_instruction": "请独立分析这张开发测试图片：描述主体、背景与相对位置，不猜测地点、身份或拍摄信息。",
+    "reference_answer": "两只在雪地上朝镜头跑来的犬。前后各有一只犬，均面向镜头；两只犬的四肢处于奔跑姿态；地面覆盖白雪，背景可见树木和灌丛。",
+    "response_a": "这张照片的主体是两只在雪地里奔跑的哈士奇犬。它们的毛色主要是白色和灰色，带有棕色斑点。背景是一片被雪覆盖的开阔场地，周围有一些树木和灌木丛。前景中的狗看起来比后方的狗更接近观众，它们似乎正在向画面右侧跑去。整体氛围显得非常活跃和愉快。",
+    "response_b": "这张图片展示了一对在雪地里奔跑的哈士奇犬。前景中的哈士奇是白色的，带有棕色和黑色的斑纹，它正向镜头跑来。背景中的哈士奇是棕色和白色的，它也正在雪地上奔跑，但方向与前景中的狗相反。背景中可以看到一些树木和灌木丛，地面覆盖着厚厚的积雪。整体环境看起来像是一个冬季的户外场景。"
+  },
+  {
+    "case_id": "natural_scene-v8-dev-04--verification",
+    "image_relative_path": "images_v7/final/natural_scene-v7-final-04.jpg",
+    "user_instruction": "请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。\n待核验陈述：两只犬都坐在雪地上。",
+    "reference_answer": "结论：不符合。可见依据：两只犬的腿部均处于运动姿态，正在朝镜头跑来，并未坐下。",
+    "response_a": "不符合。\n\n最短充分视觉依据：两只狗都在雪地上奔跑，而不是坐着。",
+    "response_b": "不符合。最短充分视觉依据：两只犬都坐在雪地上。"
+  },
+  {
+    "case_id": "ocr-v8-dev-01--direct",
+    "image_relative_path": "images_v7/final/ocr-v7-final-01.png",
+    "user_instruction": "请独立分析这张开发测试图片：只转写整行招牌文字，不要补写模糊或被裁切的其他文字。",
+    "reference_answer": "指定区域的转写为：绿洲仕格维花园公寓",
+    "response_a": "绿洲仕格维花园公寓",
+    "response_b": "绿洲仕格维花园公寓"
+  },
+  {
+    "case_id": "ocr-v8-dev-01--verification",
+    "image_relative_path": "images_v7/final/ocr-v7-final-01.png",
+    "user_instruction": "请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。\n待核验陈述：招牌末尾两个字是“公寓”。",
+    "reference_answer": "结论：符合。可见依据：整行文字可转写为“绿洲仕格维花园公寓”，末尾确为“公寓”。",
+    "response_a": "符合。最短充分视觉依据：绿洲仕格维花园公寓。",
+    "response_b": "符合。"
+  },
+  {
+    "case_id": "ocr-v8-dev-02--direct",
+    "image_relative_path": "images_v7/final/ocr-v7-final-02.jpg",
+    "user_instruction": "请独立分析这张开发测试图片：只转写第一行清晰可见的命令，不要补写模糊或被裁切的其他文字。",
+    "reference_answer": "指定区域的转写为：python scripts/screenshot_daemon_with_server",
+    "response_a": "python scripts/screenshot_daemon_with_server",
+    "response_b": "python scripts/screenshot_daemon_with_server"
+  },
+  {
+    "case_id": "ocr-v8-dev-02--verification",
+    "image_relative_path": "images_v7/final/ocr-v7-final-02.jpg",
+    "user_instruction": "请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。\n待核验陈述：第一行命令以“pip install”开头。",
+    "reference_answer": "结论：不符合。可见依据：第一行清楚以“python”开头，后接 scripts/screenshot_daemon_with_server。",
+    "response_a": "不符合。\n\n最短充分视觉依据：图片中没有显示任何与“pip install”相关的命令。",
+    "response_b": "待核验陈述：第一行命令以“pip install”开头。\n\n视觉依据：无。"
+  },
+  {
+    "case_id": "ui-v8-dev-01--direct",
+    "image_relative_path": "images_v7/final/ui-v7-final-01.png",
+    "user_instruction": "请独立分析这张开发测试图片：说明界面名称、主要区域以及当前可见状态。",
+    "reference_answer": "PowerToys Settings 中的 Color Picker 设置页。Enable Color Picker 开关显示为 On；激活快捷键显示为 Windows、Shift 和 C；下方列出 HEX、RGB、HSL、HSV 和 CMYK 格式。",
+    "response_a": "### 界面名称：\n- **PowerToys Settings**\n\n### 主要区域：\n1. **Color Picker**：\n   - **Enable Color Picker**: 开启/关闭颜色选择器功能。\n   - **Shortcut**：\n     - **Activation shortcut**: 激活快捷键。\n     - **Activation behavior**: 激活行为（打开编辑器）。\n   - **Picker behavior**：\n     - **Default color format**: 默认颜色格式（HEX - #f64b5）。\n     - **Show color name**: 显示颜色名称（开/关）。\n   - **Color formats**：\n     - **HEX**: 开启/关闭HEX格式。\n     - **RGB**: 开启/关闭RGB格式。\n     - **HSL**: 开启/关闭HSL格式。\n     - **HSV**: 开启/关闭HSV格式。\n     - **CMYK**: 开启/关闭CMYK格式。\n\n### 当前可见状态：\n- **Enable Color Picker**: 开启状态。\n- **Shortcut**：\n  - **Activation shortcut**: Shift + C。\n  - **Activation behavior**: Open editor。\n- **Picker behavior**：\n  - **Default color format**: HEX - #f6",
+    "response_b": "### 界面名称：\n- **PowerToys Settings**\n\n### 主要区域：\n1. **标题栏**：显示“PowerToys Settings”。\n2. **主内容区**：分为多个子区域，包括“Color Picker”部分和其他设置选项。\n\n### 当前可见状态：\n1. **Color Picker**：\n   - **Enable Color Picker**：开关已开启（On）。\n   - **Shortcut**：\n     - **Activation shortcut**：未指定快捷键。\n     - **Activation behavior**：选择“Open editor”。\n   - **Picker behavior**：\n     - **Default color format**：选择“HEX - #RRGGBB”。\n     - **Show color name**：开关已关闭（Off）。\n   - **Color formats**：\n     - 显示了多种颜色格式，包括HEX、RGB、HSL、HSV和CMYK，每个格式的开关均开启（On），并提供了编辑和删除等操作按钮。\n\n### 总结：\n- **界面功能**：该界面是PowerToys Settings的一部分，主要用于配置和管理系统中的颜色拾取器（Color Picker）功能。\n- **当前状态**：颜色拾取器功能已启用，"
+  },
+  {
+    "case_id": "ui-v8-dev-01--verification",
+    "image_relative_path": "images_v7/final/ui-v7-final-01.png",
+    "user_instruction": "请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。\n待核验陈述：Color Picker 当前处于启用状态。",
+    "reference_answer": "结论：符合。可见依据：Enable Color Picker 一行右侧显示 On，开关呈蓝色启用状态。",
+    "response_a": "是的，该陈述符合。最短充分视觉依据是：在“Enable Color Picker”部分，开关已切换到“On”。",
+    "response_b": "是的，待核验陈述符合图片内容。\n\n最短充分视觉依据：在“Enable Color Picker”部分，有一个开关按钮，当前状态为“On”。"
+  },
+  {
+    "case_id": "ui-v8-dev-02--direct",
+    "image_relative_path": "images_v7/final/ui-v7-final-02.png",
+    "user_instruction": "请独立分析这张开发测试图片：说明界面名称、主要区域以及当前可见状态。",
+    "reference_answer": "PowerToys Settings 的 Home 总览页。左侧导航含 Home、General 和多个工具分类；中间 Quick access 区域提供多个快捷入口；右侧 Modules 列表中多项开关处于开启状态。",
+    "response_a": "这张图片显示的是一个名为“PowerToys Settings”的软件界面。以下是该界面的主要区域和当前可见状态的详细说明：\n\n### 界面名称：\n- **Home**：这是界面的主标签，表示用户正在查看PowerToys设置的主页。\n\n### 主要区域：\n1. **左侧导航栏**：\n   - **Home**：当前选中的选项卡。\n   - **General**：一般设置。\n   - **System Tools**：系统工具。\n   - **Windowing & Layouts**：窗口管理和布局。\n   - **Input / Output**：输入/输出设置。\n   - **File Management**：文件管理。\n   - **Advanced**：高级设置。\n\n2. **中间区域**：\n   - **Quick access**：快速访问模块，包含以下选项：\n     - Open Environment Variables（打开环境变量）\n     - Open layout editor（打开布局编辑器）\n     - Open Hosts File Editor（打开主机文件编辑器）\n     - Open Registry Preview（打开注册表预览）\n     - Open editor（打开编辑器）\n\n3. **右侧区域**：\n   - **Modules**：模块列表，包含以下选项：\n     - Advanced Paste（高级粘贴）\n     - Always",
+    "response_b": "### 界面名称：\n- **PowerToys Settings**\n\n### 主要区域：\n1. **顶部导航栏**：\n   - 显示“Home”标签，表示当前页面为首页。\n   - 右侧显示“你已更新到最新版本”，并附有更新时间戳。\n\n2. **左侧导航栏**：\n   - 列出多个功能模块，包括“Home”、“General”、“System Tools”、“Windowing & Layouts”、“Input / Output”、“File Management”和“Advanced”。\n\n3. **中间内容区域**：\n   - **快速访问**部分：\n     - 显示多个快捷方式图标，如“Open Environment Variables”、“Open layout editor”、“Open Hosts File Editor”等。\n   - **快捷键概览**部分：\n     - 列出一系列快捷键及其对应的功能，如“打开高级粘贴窗口”、“将文本粘贴为纯文本”、“将窗口固定”、“选择颜色”、“打开命令面板”、“创建缩略图”、“裁剪应用程序窗口”、“激活区域”、“激活编辑器”、“在点击时高亮显示”、“快速移动鼠标指针”、“预览文件”等。\n\n4. **右侧内容"
+  },
+  {
+    "case_id": "ui-v8-dev-02--verification",
+    "image_relative_path": "images_v7/final/ui-v7-final-02.png",
+    "user_instruction": "请审查下列最终测试陈述；先判断是否符合，再给出最短充分视觉依据。\n待核验陈述：Modules 列表中的所有模块开关都处于关闭状态。",
+    "reference_answer": "结论：不符合。可见依据：Advanced Paste、Always On Top、Awake、Color Picker 等多项开关明显处于开启状态。",
+    "response_a": "是的，待核验陈述符合。最短充分视觉依据为：在 Modules 列表中，所有模块的开关都显示为关闭状态（图标为灰色）。",
+    "response_b": "符合\n\n视觉依据：在“Modules”列表中，所有模块的开关都显示为关闭状态（图标为灰色）。"
+  }
+]

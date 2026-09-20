@@ -1,0 +1,15 @@
+{
+  "status": "COLD_LOAD_PASS",
+  "model_path": "/root/autodl-tmp/week8-full-training-runtime-20260916/logs/full-run-01/models/final_dpo",
+  "finite_logits": true,
+  "generated_tokens": 2,
+  "generated_token_ids": [
+    108386,
+    6313
+  ],
+  "text": "你好！",
+  "dtype": "torch.bfloat16",
+  "device": "cuda:0",
+  "peak_memory_allocated_bytes": 15272736256,
+  "benchmark_scored": false
+}

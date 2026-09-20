@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "model_id": "reward_corrective_40step_merged",
+  "runtime_load_mode": "base_plus_peft_merge",
+  "expected_remote_model_path": "/root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged",
+  "base_archive_manifest_sha256": "e4512f7dd0f85b2f1d8154d123aec176295f557046142aab406a030c8e76e971",
+  "expected_remote_adapter_path": "/root/autodl-tmp/qwen25-week4/day20-remediation/runs/reward-corrective-40step/attempt_001/trainer_output",
+  "expected_adapter_run": "reward-corrective-40step/attempt_001",
+  "expected_adapter_bytes": 80792096,
+  "expected_adapter_sha256": "d7a932ee4f28c8950db289126381f5d4dd30a037b238852e87ad8e5a241f9e52",
+  "archived_merged_model_path": "/root/autodl-tmp/qwen25-week4/best_model/qwen25-7b-week4-dpo-corrective-merged",
+  "archived_merged_manifest_sha256": "aca9a2932ed427f8fc6e9962e70274eb286a09c446d177af2bc00f6df1675e4c",
+  "tool_names": ["calculator", "knowledge_retrieval", "code_executor"],
+  "system_prompt_version": "week6-day30-three-tool-react-v1",
+  "max_steps": 6,
+  "runtime_limit_seconds": 60,
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 384,
+    "repetition_penalty": 1.0,
+    "seed": 42
+  }
+}

@@ -1,0 +1,14 @@
+[
+  "/root/autodl-tmp/conda/envs/llm_exp/bin/python",
+  "/root/autodl-tmp/week8-judge-runtime-20260916/scripts/step3_eval.py",
+  "--mode",
+  "fresh",
+  "--model",
+  "/root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct",
+  "--judge-model",
+  "deepseek-flash",
+  "--judge-url",
+  "https://api.deepseek.com",
+  "--output-dir",
+  "/root/autodl-tmp/week8-judge-runtime-20260916/logs/formal-eval-20260916-01/original_base"
+]

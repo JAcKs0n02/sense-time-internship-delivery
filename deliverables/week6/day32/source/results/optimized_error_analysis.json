@@ -1,0 +1,682 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "case_count": 30,
+  "frozen_eval_sha256": "7c7a0aace93c29525edafa630b063647bf4ec630be8cc7f9be52a64cdb433f54",
+  "generation_config": {
+    "do_sample": false,
+    "max_new_tokens": 192,
+    "repetition_penalty": 1.0,
+    "seed": 42
+  },
+  "model_identity_sha256": "270859bfe41ddce6d14b2d4e44e98db32704c075e9d8bd11b6f441ee9db4c183",
+  "metrics": {
+    "first_tool_choice": 0.9,
+    "full_tool_sequence": 0.8,
+    "argument_correctness": 0.7916666666666666,
+    "completion": 0.7333333333333333,
+    "no_loops": 1.0,
+    "no_hallucinated_observations": 1.0
+  },
+  "unique_failed_cases": 10,
+  "primary_label_counts": {
+    "wrong_tool": 6,
+    "argument_extraction_error": 2,
+    "dead_loop": 0,
+    "tool_error_unhandled": 0,
+    "premature_answer": 0,
+    "final_answer_error": 2,
+    "hallucinated_observation": 0,
+    "format_parse_error": 0,
+    "unknown_failure": 0
+  },
+  "label_occurrence_counts": {
+    "wrong_tool": 6,
+    "argument_extraction_error": 5,
+    "dead_loop": 0,
+    "tool_error_unhandled": 1,
+    "premature_answer": 0,
+    "final_answer_error": 2,
+    "hallucinated_observation": 0,
+    "format_parse_error": 0,
+    "unknown_failure": 0
+  },
+  "case_analysis": [
+    {
+      "case_id": "eval-calculator-01",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "eval-calculator-02",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "eval-calculator-03",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "eval-calculator-04",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "eval-calculator-05",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "eval-calculator-06",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "eval-calculator-07",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "eval-calculator-08",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "eval-calculator-09",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "eval-calculator-10",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "eval-aurora-zero-shipping-calculator-required",
+      "passed": false,
+      "primary_label": "wrong_tool",
+      "secondary_labels": [
+        "argument_extraction_error"
+      ],
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": [
+        "full_tool_sequence",
+        "argument_correctness",
+        "completion"
+      ]
+    },
+    {
+      "case_id": "eval-budget-02",
+      "passed": false,
+      "primary_label": "wrong_tool",
+      "secondary_labels": [
+        "argument_extraction_error"
+      ],
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": [
+        "full_tool_sequence",
+        "argument_correctness",
+        "completion"
+      ]
+    },
+    {
+      "case_id": "eval-budget-03",
+      "passed": false,
+      "primary_label": "wrong_tool",
+      "secondary_labels": [
+        "argument_extraction_error"
+      ],
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": [
+        "full_tool_sequence",
+        "argument_correctness",
+        "completion"
+      ]
+    },
+    {
+      "case_id": "eval-budget-04",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        },
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "eval-budget-05",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        },
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "eval-budget-06",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        },
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "eval-budget-07",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        },
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "eval-budget-08",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval",
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        },
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "eval-code-no-unnecessary-knowledge",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "actual_tool_sequence": [
+        "code_executor"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "eval-code-02",
+      "passed": false,
+      "primary_label": "argument_extraction_error",
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "actual_tool_sequence": [
+        "code_executor"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "rejected",
+          "error_code": "syntax_error"
+        }
+      ],
+      "failed_checks": [
+        "argument_correctness"
+      ]
+    },
+    {
+      "case_id": "eval-code-03",
+      "passed": false,
+      "primary_label": "argument_extraction_error",
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "actual_tool_sequence": [
+        "code_executor"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "rejected",
+          "error_code": "syntax_error"
+        }
+      ],
+      "failed_checks": [
+        "argument_correctness"
+      ]
+    },
+    {
+      "case_id": "eval-code-04",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "actual_tool_sequence": [
+        "code_executor"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "rejected",
+          "error_code": "risk_nodes_detected"
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "eval-code-05",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "actual_tool_sequence": [
+        "code_executor"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "rejected",
+          "error_code": "risk_nodes_detected"
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "eval-code-06",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "actual_tool_sequence": [
+        "code_executor"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "rejected",
+          "error_code": "risk_nodes_detected"
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "eval-recovery-01",
+      "passed": false,
+      "primary_label": "final_answer_error",
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": [
+        "completion"
+      ]
+    },
+    {
+      "case_id": "eval-recovery-02",
+      "passed": false,
+      "primary_label": "final_answer_error",
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "calculator"
+      ],
+      "actual_tool_sequence": [
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": [
+        "completion"
+      ]
+    },
+    {
+      "case_id": "eval-recovery-03",
+      "passed": true,
+      "primary_label": null,
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "not_found",
+          "error_code": "not_found"
+        }
+      ],
+      "failed_checks": []
+    },
+    {
+      "case_id": "eval-recovery-04",
+      "passed": false,
+      "primary_label": "wrong_tool",
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "actual_tool_sequence": [],
+      "observation_outcomes": [],
+      "failed_checks": [
+        "first_tool_choice",
+        "full_tool_sequence",
+        "completion"
+      ]
+    },
+    {
+      "case_id": "eval-recovery-05",
+      "passed": false,
+      "primary_label": "wrong_tool",
+      "secondary_labels": [
+        "tool_error_unhandled"
+      ],
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "actual_tool_sequence": [
+        "knowledge_retrieval"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "not_found",
+          "error_code": "not_found"
+        }
+      ],
+      "failed_checks": [
+        "first_tool_choice",
+        "full_tool_sequence",
+        "completion"
+      ]
+    },
+    {
+      "case_id": "eval-recovery-06",
+      "passed": false,
+      "primary_label": "wrong_tool",
+      "secondary_labels": [],
+      "expected_tool_sequence": [
+        "code_executor"
+      ],
+      "actual_tool_sequence": [
+        "calculator"
+      ],
+      "observation_outcomes": [
+        {
+          "status": "success",
+          "error_code": null
+        }
+      ],
+      "failed_checks": [
+        "first_tool_choice",
+        "full_tool_sequence",
+        "completion"
+      ]
+    }
+  ]
+}

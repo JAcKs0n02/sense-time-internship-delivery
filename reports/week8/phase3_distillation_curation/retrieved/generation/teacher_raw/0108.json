@@ -1,0 +1,14 @@
+{
+  "sample_id": "5d6d71b6555b07d6431dc25431256bc3668785bd893ce6b7ce34dc9d6a728490",
+  "prompt": "为科技创业公司生成一个创意名称。",
+  "messages": [
+    {
+      "role": "user",
+      "content": "为科技创业公司生成一个创意名称。"
+    }
+  ],
+  "answer": "\"智创未来\" (ZhiChuangWeiYu) - 这个名字结合了“智慧”、“创造”和“未来”，体现了一家专注于利用先进科技创造出引领未来的创业公司。",
+  "truncated": false,
+  "input_tokens": 38,
+  "output_tokens": 44
+}

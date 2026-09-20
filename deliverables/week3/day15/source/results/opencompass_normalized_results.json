@@ -1,0 +1,48 @@
+{
+  "results": [
+    {
+      "model": "base",
+      "dataset": "ceval",
+      "score": 77.542262,
+      "macro_subject_score": 77.001569,
+      "subject_count": 52,
+      "question_count": 1398,
+      "status": "completed",
+      "aggregation": "sample_weighted_accuracy",
+      "result_dir": "/root/autodl-tmp/qwen25-week3/opencompass/formal/base/attempt-001/20260807_121515/results/Qwen2.5-7B-Instruct_hf"
+    },
+    {
+      "model": "base",
+      "dataset": "cmmlu",
+      "score": 0.647412,
+      "macro_subject_score": 0.622482,
+      "subject_count": 67,
+      "question_count": 11649,
+      "status": "completed",
+      "aggregation": "sample_weighted_accuracy",
+      "result_dir": "/root/autodl-tmp/qwen25-week3/opencompass/formal/base/attempt-001/20260807_121515/results/Qwen2.5-7B-Instruct_hf"
+    },
+    {
+      "model": "best_sft",
+      "dataset": "ceval",
+      "score": 79.189426,
+      "macro_subject_score": 78.977255,
+      "subject_count": 52,
+      "question_count": 1398,
+      "status": "completed",
+      "aggregation": "sample_weighted_accuracy",
+      "result_dir": "/root/autodl-tmp/qwen25-week3/opencompass/formal/best_sft/attempt-001/20260807_141654/results/qwen25-7b-week3-best-merged_hf"
+    },
+    {
+      "model": "best_sft",
+      "dataset": "cmmlu",
+      "score": 5.205187,
+      "macro_subject_score": 5.003287,
+      "subject_count": 67,
+      "question_count": 11649,
+      "status": "completed",
+      "aggregation": "sample_weighted_accuracy",
+      "result_dir": "/root/autodl-tmp/qwen25-week3/opencompass/formal/best_sft/attempt-001/20260807_141654/results/qwen25-7b-week3-best-merged_hf"
+    }
+  ]
+}

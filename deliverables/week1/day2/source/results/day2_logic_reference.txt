@@ -1,0 +1,2 @@
+A=liar B=truth C=liar
+PASS unique solution

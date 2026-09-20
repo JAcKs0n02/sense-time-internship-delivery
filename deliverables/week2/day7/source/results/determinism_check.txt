@@ -1,0 +1,12 @@
+PASS data/week2_clean_alpaca.jsonl
+PASS data/week2_clean_sharegpt.jsonl
+PASS source/results/cleaning_stats.json
+PASS source/results/cleaning_stats.csv
+PASS source/results/cleaning_audit.jsonl
+PASS source/results/cleaned_provenance.jsonl
+PASS source/results/simhash_calibration.csv
+PASS source/results/duplicate_pairs.csv
+PASS source/results/dedup_clusters.jsonl
+PASS source/results/day7_validation.json
+PASS evidence/length_distribution.png
+PASS evidence/cleaning_counts.png

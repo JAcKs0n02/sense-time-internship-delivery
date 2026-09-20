@@ -1,0 +1,9 @@
+[
+  "opencompass",
+  "/root/autodl-tmp/week8-judge-runtime-20260916/reports/week8/phase2_three_model_eval/final_sft/opencompass_formal.py",
+  "--work-dir",
+  "/root/autodl-tmp/week8-judge-runtime-20260916/logs/trained-generation-20260917/final_sft/opencompass",
+  "--max-num-workers",
+  "1",
+  "--dump-eval-details"
+]

@@ -1,0 +1,1012 @@
+{
+  "ranking_input": false,
+  "source_receipts": {
+    "original_base": "93709d47020fb5671f4cf4d83eeabb5713bfc7643fa24b88e76b9a85d8a7046d",
+    "final_sft": "ca045ae0f9f829558a3a70db5c1741c492598e160bc9abbf77fdc4c4f9931fc7",
+    "final_dpo": "155c874ead2459e30a9f9fbbe12e13693975e9338f321c6360a179265e8e2231"
+  },
+  "records": [
+    {
+      "model": "original_base",
+      "question_id": "MATH-01",
+      "check_type": "numeric",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": true,
+        "observed": 202.0,
+        "expected": 202.0,
+        "tolerance": 0.0
+      },
+      "review_flags": [],
+      "ai_score": 4.9
+    },
+    {
+      "model": "original_base",
+      "question_id": "MATH-02",
+      "check_type": "numeric",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "observed": 0.285714,
+        "expected": 0.333333,
+        "tolerance": 1e-06
+      },
+      "review_flags": [
+        "numeric_final_mismatch"
+      ],
+      "ai_score": 3.5
+    },
+    {
+      "model": "original_base",
+      "question_id": "MATH-03",
+      "check_type": "numeric",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": true,
+        "observed": 40.0,
+        "expected": 40.0,
+        "tolerance": 0.0
+      },
+      "review_flags": [],
+      "ai_score": 4.9
+    },
+    {
+      "model": "original_base",
+      "question_id": "MATH-04",
+      "check_type": "numeric",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "observed": 4.0,
+        "expected": 42.0,
+        "tolerance": 0.0
+      },
+      "review_flags": [
+        "numeric_final_mismatch"
+      ],
+      "ai_score": 1.3
+    },
+    {
+      "model": "original_base",
+      "question_id": "MATH-05",
+      "check_type": "numeric",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "observed": 115.0,
+        "expected": 230.0,
+        "tolerance": 0.0
+      },
+      "review_flags": [
+        "numeric_final_mismatch",
+        "ambiguous_question_do_not_rank_from_this_item"
+      ],
+      "ai_score": 3.9
+    },
+    {
+      "model": "original_base",
+      "question_id": "MATH-06",
+      "check_type": "numeric",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": true,
+        "observed": 1.833333,
+        "expected": 1.833333,
+        "tolerance": 1e-06
+      },
+      "review_flags": [],
+      "ai_score": 5.0
+    },
+    {
+      "model": "original_base",
+      "question_id": "MATH-07",
+      "check_type": "numeric",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": true,
+        "observed": 5.333333,
+        "expected": 5.333333,
+        "tolerance": 1e-06
+      },
+      "review_flags": [],
+      "ai_score": 5.0
+    },
+    {
+      "model": "original_base",
+      "question_id": "REASON-01",
+      "check_type": "required_terms",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "group_results": [
+          false,
+          true,
+          false,
+          false,
+          false
+        ]
+      },
+      "review_flags": [
+        "keyword_miss_requires_semantic_review"
+      ],
+      "ai_score": 5.0
+    },
+    {
+      "model": "original_base",
+      "question_id": "REASON-02",
+      "check_type": "required_terms",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": true,
+        "group_results": [
+          true,
+          true,
+          true
+        ]
+      },
+      "review_flags": [],
+      "ai_score": 2.5
+    },
+    {
+      "model": "original_base",
+      "question_id": "REASON-03",
+      "check_type": "required_terms",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "group_results": [
+          false,
+          true,
+          false,
+          true
+        ]
+      },
+      "review_flags": [
+        "keyword_miss_requires_semantic_review"
+      ],
+      "ai_score": 3.5
+    },
+    {
+      "model": "original_base",
+      "question_id": "REASON-04",
+      "check_type": "required_terms",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "group_results": [
+          false,
+          true,
+          true,
+          false,
+          true
+        ]
+      },
+      "review_flags": [
+        "keyword_miss_requires_semantic_review"
+      ],
+      "ai_score": 5.0
+    },
+    {
+      "model": "original_base",
+      "question_id": "REASON-05",
+      "check_type": "required_terms",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "group_results": [
+          true,
+          false,
+          false,
+          true,
+          true
+        ]
+      },
+      "review_flags": [
+        "keyword_miss_requires_semantic_review"
+      ],
+      "ai_score": 4.7
+    },
+    {
+      "model": "original_base",
+      "question_id": "REASON-06",
+      "check_type": "format",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "pattern_results": [
+          true,
+          false,
+          true
+        ]
+      },
+      "review_flags": [],
+      "ai_score": 5.0
+    },
+    {
+      "model": "original_base",
+      "question_id": "REASON-07",
+      "check_type": "required_terms",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "group_results": [
+          false,
+          false,
+          true,
+          true,
+          true
+        ]
+      },
+      "review_flags": [
+        "keyword_miss_requires_semantic_review"
+      ],
+      "ai_score": 1.5
+    },
+    {
+      "model": "original_base",
+      "question_id": "CODE-01",
+      "check_type": "python_tests",
+      "automatic_evidence": {
+        "code_execution_status": "disabled_no_sandbox",
+        "tests_passed": null,
+        "reason": "bwrap is not installed",
+        "syntax_status": "valid_not_execution"
+      },
+      "review_flags": [
+        "code_behavior_not_executed"
+      ],
+      "ai_score": 3.9
+    },
+    {
+      "model": "original_base",
+      "question_id": "CODE-02",
+      "check_type": "python_tests",
+      "automatic_evidence": {
+        "code_execution_status": "disabled_no_sandbox",
+        "tests_passed": null,
+        "reason": "bwrap is not installed",
+        "syntax_status": "valid_not_execution"
+      },
+      "review_flags": [
+        "code_behavior_not_executed"
+      ],
+      "ai_score": 4.9
+    },
+    {
+      "model": "original_base",
+      "question_id": "CODE-03",
+      "check_type": "python_tests",
+      "automatic_evidence": {
+        "code_execution_status": "disabled_no_sandbox",
+        "tests_passed": null,
+        "reason": "bwrap is not installed",
+        "syntax_status": "valid_not_execution"
+      },
+      "review_flags": [
+        "code_behavior_not_executed"
+      ],
+      "ai_score": 3.45
+    },
+    {
+      "model": "original_base",
+      "question_id": "CODE-04",
+      "check_type": "python_tests",
+      "automatic_evidence": {
+        "code_execution_status": "disabled_no_sandbox",
+        "tests_passed": null,
+        "reason": "bwrap is not installed",
+        "syntax_status": "valid_not_execution"
+      },
+      "review_flags": [
+        "code_behavior_not_executed"
+      ],
+      "ai_score": 1.6
+    },
+    {
+      "model": "original_base",
+      "question_id": "CODE-05",
+      "check_type": "python_tests",
+      "automatic_evidence": {
+        "code_execution_status": "disabled_no_sandbox",
+        "tests_passed": null,
+        "reason": "bwrap is not installed",
+        "syntax_status": "valid_not_execution"
+      },
+      "review_flags": [
+        "code_behavior_not_executed"
+      ],
+      "ai_score": 5.0
+    },
+    {
+      "model": "original_base",
+      "question_id": "CODE-06",
+      "check_type": "python_tests",
+      "automatic_evidence": {
+        "code_execution_status": "disabled_no_sandbox",
+        "tests_passed": null,
+        "reason": "bwrap is not installed",
+        "syntax_status": "valid_not_execution"
+      },
+      "review_flags": [
+        "code_behavior_not_executed"
+      ],
+      "ai_score": 5.0
+    },
+    {
+      "model": "final_sft",
+      "question_id": "MATH-01",
+      "check_type": "numeric",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": true,
+        "observed": 202.0,
+        "expected": 202.0,
+        "tolerance": 0.0
+      },
+      "review_flags": [],
+      "ai_score": 5.0
+    },
+    {
+      "model": "final_sft",
+      "question_id": "MATH-02",
+      "check_type": "numeric",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "observed": 0.285714,
+        "expected": 0.333333,
+        "tolerance": 1e-06
+      },
+      "review_flags": [
+        "numeric_final_mismatch"
+      ],
+      "ai_score": 3.0
+    },
+    {
+      "model": "final_sft",
+      "question_id": "MATH-03",
+      "check_type": "numeric",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": true,
+        "observed": 40.0,
+        "expected": 40.0,
+        "tolerance": 0.0
+      },
+      "review_flags": [],
+      "ai_score": 4.5
+    },
+    {
+      "model": "final_sft",
+      "question_id": "MATH-04",
+      "check_type": "numeric",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "observed": 64.0,
+        "expected": 42.0,
+        "tolerance": 0.0
+      },
+      "review_flags": [
+        "numeric_final_mismatch"
+      ],
+      "ai_score": 2.7
+    },
+    {
+      "model": "final_sft",
+      "question_id": "MATH-05",
+      "check_type": "numeric",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "observed": 97.0,
+        "expected": 230.0,
+        "tolerance": 0.0
+      },
+      "review_flags": [
+        "numeric_final_mismatch",
+        "ambiguous_question_do_not_rank_from_this_item"
+      ],
+      "ai_score": 3.2
+    },
+    {
+      "model": "final_sft",
+      "question_id": "MATH-06",
+      "check_type": "numeric",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "observed": 0.185185,
+        "expected": 1.833333,
+        "tolerance": 1e-06
+      },
+      "review_flags": [
+        "numeric_final_mismatch"
+      ],
+      "ai_score": 4.2
+    },
+    {
+      "model": "final_sft",
+      "question_id": "MATH-07",
+      "check_type": "numeric",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "observed": 0.533333,
+        "expected": 5.333333,
+        "tolerance": 1e-06
+      },
+      "review_flags": [
+        "numeric_final_mismatch"
+      ],
+      "ai_score": 4.0
+    },
+    {
+      "model": "final_sft",
+      "question_id": "REASON-01",
+      "check_type": "required_terms",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "group_results": [
+          false,
+          true,
+          false,
+          false,
+          false
+        ]
+      },
+      "review_flags": [
+        "keyword_miss_requires_semantic_review"
+      ],
+      "ai_score": 5.0
+    },
+    {
+      "model": "final_sft",
+      "question_id": "REASON-02",
+      "check_type": "required_terms",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "group_results": [
+          false,
+          false,
+          true
+        ]
+      },
+      "review_flags": [
+        "keyword_miss_requires_semantic_review"
+      ],
+      "ai_score": 2.7
+    },
+    {
+      "model": "final_sft",
+      "question_id": "REASON-03",
+      "check_type": "required_terms",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "group_results": [
+          false,
+          true,
+          false,
+          true
+        ]
+      },
+      "review_flags": [
+        "keyword_miss_requires_semantic_review"
+      ],
+      "ai_score": 3.8
+    },
+    {
+      "model": "final_sft",
+      "question_id": "REASON-04",
+      "check_type": "required_terms",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "group_results": [
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      },
+      "review_flags": [
+        "keyword_miss_requires_semantic_review"
+      ],
+      "ai_score": 4.75
+    },
+    {
+      "model": "final_sft",
+      "question_id": "REASON-05",
+      "check_type": "required_terms",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "group_results": [
+          true,
+          false,
+          true,
+          true,
+          false
+        ]
+      },
+      "review_flags": [
+        "keyword_miss_requires_semantic_review"
+      ],
+      "ai_score": 5.0
+    },
+    {
+      "model": "final_sft",
+      "question_id": "REASON-06",
+      "check_type": "format",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "pattern_results": [
+          true,
+          false,
+          true
+        ]
+      },
+      "review_flags": [],
+      "ai_score": 5.0
+    },
+    {
+      "model": "final_sft",
+      "question_id": "REASON-07",
+      "check_type": "required_terms",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "group_results": [
+          false,
+          false,
+          false,
+          true,
+          true
+        ]
+      },
+      "review_flags": [
+        "keyword_miss_requires_semantic_review"
+      ],
+      "ai_score": 4.3
+    },
+    {
+      "model": "final_sft",
+      "question_id": "CODE-01",
+      "check_type": "python_tests",
+      "automatic_evidence": {
+        "code_execution_status": "disabled_no_sandbox",
+        "tests_passed": null,
+        "reason": "bwrap is not installed",
+        "syntax_status": "valid_not_execution"
+      },
+      "review_flags": [
+        "code_behavior_not_executed"
+      ],
+      "ai_score": 3.9
+    },
+    {
+      "model": "final_sft",
+      "question_id": "CODE-02",
+      "check_type": "python_tests",
+      "automatic_evidence": {
+        "code_execution_status": "disabled_no_sandbox",
+        "tests_passed": null,
+        "reason": "bwrap is not installed",
+        "syntax_status": "invalid",
+        "syntax_error": {
+          "type": "IndentationError",
+          "line": 1,
+          "message": "expected an indented block after function definition on line 1"
+        }
+      },
+      "review_flags": [
+        "invalid_python_syntax",
+        "code_behavior_not_executed"
+      ],
+      "ai_score": 1.25
+    },
+    {
+      "model": "final_sft",
+      "question_id": "CODE-03",
+      "check_type": "python_tests",
+      "automatic_evidence": {
+        "code_execution_status": "disabled_no_sandbox",
+        "tests_passed": null,
+        "reason": "bwrap is not installed",
+        "syntax_status": "valid_not_execution"
+      },
+      "review_flags": [
+        "code_behavior_not_executed"
+      ],
+      "ai_score": 3.45
+    },
+    {
+      "model": "final_sft",
+      "question_id": "CODE-04",
+      "check_type": "python_tests",
+      "automatic_evidence": {
+        "code_execution_status": "disabled_no_sandbox",
+        "tests_passed": null,
+        "reason": "bwrap is not installed",
+        "syntax_status": "valid_not_execution"
+      },
+      "review_flags": [
+        "code_behavior_not_executed"
+      ],
+      "ai_score": 2.3
+    },
+    {
+      "model": "final_sft",
+      "question_id": "CODE-05",
+      "check_type": "python_tests",
+      "automatic_evidence": {
+        "code_execution_status": "disabled_no_sandbox",
+        "tests_passed": null,
+        "reason": "bwrap is not installed",
+        "syntax_status": "valid_not_execution"
+      },
+      "review_flags": [
+        "code_behavior_not_executed"
+      ],
+      "ai_score": 3.5
+    },
+    {
+      "model": "final_sft",
+      "question_id": "CODE-06",
+      "check_type": "python_tests",
+      "automatic_evidence": {
+        "code_execution_status": "disabled_no_sandbox",
+        "tests_passed": null,
+        "reason": "bwrap is not installed",
+        "syntax_status": "valid_not_execution"
+      },
+      "review_flags": [
+        "code_behavior_not_executed"
+      ],
+      "ai_score": 5.0
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "MATH-01",
+      "check_type": "numeric",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": true,
+        "observed": 202.0,
+        "expected": 202.0,
+        "tolerance": 0.0
+      },
+      "review_flags": [],
+      "ai_score": 5.0
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "MATH-02",
+      "check_type": "numeric",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "observed": 0.285714,
+        "expected": 0.333333,
+        "tolerance": 1e-06
+      },
+      "review_flags": [
+        "numeric_final_mismatch"
+      ],
+      "ai_score": 3.5
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "MATH-03",
+      "check_type": "numeric",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": true,
+        "observed": 40.0,
+        "expected": 40.0,
+        "tolerance": 0.0
+      },
+      "review_flags": [],
+      "ai_score": 4.9
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "MATH-04",
+      "check_type": "numeric",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "observed": 64.0,
+        "expected": 42.0,
+        "tolerance": 0.0
+      },
+      "review_flags": [
+        "numeric_final_mismatch"
+      ],
+      "ai_score": 3.5
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "MATH-05",
+      "check_type": "numeric",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "observed": 115.0,
+        "expected": 230.0,
+        "tolerance": 0.0
+      },
+      "review_flags": [
+        "numeric_final_mismatch",
+        "ambiguous_question_do_not_rank_from_this_item"
+      ],
+      "ai_score": 3.9
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "MATH-06",
+      "check_type": "numeric",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "observed": 0.185185,
+        "expected": 1.833333,
+        "tolerance": 1e-06
+      },
+      "review_flags": [
+        "numeric_final_mismatch"
+      ],
+      "ai_score": 4.0
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "MATH-07",
+      "check_type": "numeric",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "observed": 1.666667,
+        "expected": 5.333333,
+        "tolerance": 1e-06
+      },
+      "review_flags": [
+        "numeric_final_mismatch"
+      ],
+      "ai_score": 3.5
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "REASON-01",
+      "check_type": "required_terms",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "group_results": [
+          false,
+          true,
+          false,
+          false,
+          false
+        ]
+      },
+      "review_flags": [
+        "keyword_miss_requires_semantic_review"
+      ],
+      "ai_score": 5.0
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "REASON-02",
+      "check_type": "required_terms",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "group_results": [
+          false,
+          true,
+          true
+        ]
+      },
+      "review_flags": [
+        "keyword_miss_requires_semantic_review"
+      ],
+      "ai_score": 2.7
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "REASON-03",
+      "check_type": "required_terms",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "group_results": [
+          false,
+          true,
+          false,
+          true
+        ]
+      },
+      "review_flags": [
+        "keyword_miss_requires_semantic_review"
+      ],
+      "ai_score": 3.5
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "REASON-04",
+      "check_type": "required_terms",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "group_results": [
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      },
+      "review_flags": [
+        "keyword_miss_requires_semantic_review"
+      ],
+      "ai_score": 4.5
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "REASON-05",
+      "check_type": "required_terms",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "group_results": [
+          true,
+          false,
+          true,
+          true,
+          true
+        ]
+      },
+      "review_flags": [
+        "keyword_miss_requires_semantic_review"
+      ],
+      "ai_score": 5.0
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "REASON-06",
+      "check_type": "format",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "pattern_results": [
+          true,
+          false,
+          true
+        ]
+      },
+      "review_flags": [],
+      "ai_score": 5.0
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "REASON-07",
+      "check_type": "required_terms",
+      "automatic_evidence": {
+        "status": "checked",
+        "passed": false,
+        "group_results": [
+          false,
+          false,
+          false,
+          true,
+          true
+        ]
+      },
+      "review_flags": [
+        "keyword_miss_requires_semantic_review"
+      ],
+      "ai_score": 4.35
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "CODE-01",
+      "check_type": "python_tests",
+      "automatic_evidence": {
+        "code_execution_status": "disabled_no_sandbox",
+        "tests_passed": null,
+        "reason": "bwrap is not installed",
+        "syntax_status": "valid_not_execution"
+      },
+      "review_flags": [
+        "code_behavior_not_executed"
+      ],
+      "ai_score": 3.7
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "CODE-02",
+      "check_type": "python_tests",
+      "automatic_evidence": {
+        "code_execution_status": "disabled_no_sandbox",
+        "tests_passed": null,
+        "reason": "bwrap is not installed",
+        "syntax_status": "invalid",
+        "syntax_error": {
+          "type": "IndentationError",
+          "line": 1,
+          "message": "expected an indented block after function definition on line 1"
+        }
+      },
+      "review_flags": [
+        "invalid_python_syntax",
+        "code_behavior_not_executed"
+      ],
+      "ai_score": 1.25
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "CODE-03",
+      "check_type": "python_tests",
+      "automatic_evidence": {
+        "code_execution_status": "disabled_no_sandbox",
+        "tests_passed": null,
+        "reason": "bwrap is not installed",
+        "syntax_status": "valid_not_execution"
+      },
+      "review_flags": [
+        "code_behavior_not_executed"
+      ],
+      "ai_score": 3.4
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "CODE-04",
+      "check_type": "python_tests",
+      "automatic_evidence": {
+        "code_execution_status": "disabled_no_sandbox",
+        "tests_passed": null,
+        "reason": "bwrap is not installed",
+        "syntax_status": "valid_not_execution"
+      },
+      "review_flags": [
+        "code_behavior_not_executed"
+      ],
+      "ai_score": 2.0
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "CODE-05",
+      "check_type": "python_tests",
+      "automatic_evidence": {
+        "code_execution_status": "disabled_no_sandbox",
+        "tests_passed": null,
+        "reason": "bwrap is not installed",
+        "syntax_status": "valid_not_execution"
+      },
+      "review_flags": [
+        "code_behavior_not_executed"
+      ],
+      "ai_score": 3.7
+    },
+    {
+      "model": "final_dpo",
+      "question_id": "CODE-06",
+      "check_type": "python_tests",
+      "automatic_evidence": {
+        "code_execution_status": "disabled_no_sandbox",
+        "tests_passed": null,
+        "reason": "bwrap is not installed",
+        "syntax_status": "valid_not_execution"
+      },
+      "review_flags": [
+        "code_behavior_not_executed"
+      ],
+      "ai_score": 5.0
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+﻿model,question_id,review_id,rater_1,rater_2,mean,absolute_delta,max_dimension_delta
+final_sft,CODE-02,8a60048bf8151385,2.0,1.8,1.9,0.2,2.0
+final_dpo,CODE-02,ac38cd90691c1410,2.0,1.8,1.9,0.2,2.0
+final_dpo,CODE-03,cce0a76c96d969cd,2.8,2.25,2.525,0.55,1.0
+final_sft,CODE-05,4a7c46801143e216,3.0,3.5,3.25,0.5,1.0
+original_base,CODE-05,9cdccad5180bd1cb,3.75,4.25,4.0,0.5,1.0
+final_dpo,CODE-05,30ba193cd0a3e338,3.0,3.5,3.25,0.5,1.0
+original_base,REASON-02,ac0cdbc21509b8eb,3.0,2.5,2.75,0.5,2.0
+final_sft,REASON-02,518c6bd0a15ffbad,3.0,2.25,2.625,0.75,3.0
+final_dpo,REASON-02,87420680a3ec01ea,3.0,2.5,2.75,0.5,2.0
+original_base,REASON-07,07bfa0c2c50507bf,3.0,2.25,2.625,0.75,3.0

@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "status": "PASS",
+  "trainable_tensor_count": 392,
+  "trainable_parameters": 40370176,
+  "all_parameters": 8331745792,
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+  ],
+  "forbidden_visual_or_projector_names": [],
+  "non_lora_trainable_names": [],
+  "vision_tower_frozen": true,
+  "multimodal_projector_frozen": true
+}

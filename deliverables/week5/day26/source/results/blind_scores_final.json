@@ -1,0 +1,102 @@
+[
+  {
+    "case_id": "chart_table-13--direct",
+    "response_a": {"scores": {"factual": 2, "instruction": 4, "completeness": 3, "usefulness": 2, "format": 4}, "hallucination": true, "reason": "识别到标题和部分字段，但错置表格关系，并臆测包容性等业务含义。"},
+    "response_b": {"scores": {"factual": 3, "instruction": 4, "completeness": 4, "usefulness": 3, "format": 4}, "hallucination": true, "reason": "覆盖标题、数值和多行文本，但行列对应关系仍有明显误读。"}
+  },
+  {
+    "case_id": "chart_table-13--correction",
+    "response_a": {"scores": {"factual": 5, "instruction": 5, "completeness": 4, "usefulness": 4, "format": 5}, "hallucination": false, "reason": "明确否定折线图说法，并以可见表格、列名和数据项为依据。"},
+    "response_b": {"scores": {"factual": 3, "instruction": 5, "completeness": 3, "usefulness": 3, "format": 5}, "hallucination": true, "reason": "结论正确且指出无红色折线，但把单个表格说成多个表格。"}
+  },
+  {
+    "case_id": "chart_table-14--direct",
+    "response_a": {"scores": {"factual": 2, "instruction": 3, "completeness": 2, "usefulness": 2, "format": 4}, "hallucination": true, "reason": "未描述页面三幅小图和双栏结构，并把内容错误概括为DNA聚合酶热稳定性。"},
+    "response_b": {"scores": {"factual": 3, "instruction": 4, "completeness": 4, "usefulness": 3, "format": 4}, "hallucination": true, "reason": "提到RNA聚合酶、启动子及图组，较接近页面主题，但虚构图号与多项具体结论。"}
+  },
+  {
+    "case_id": "chart_table-14--correction",
+    "response_a": {"scores": {"factual": 2, "instruction": 5, "completeness": 3, "usefulness": 2, "format": 4}, "hallucination": true, "reason": "否定结论正确，但凭空构造三行三列表格及其内容。"},
+    "response_b": {"scores": {"factual": 2, "instruction": 5, "completeness": 3, "usefulness": 2, "format": 4}, "hallucination": true, "reason": "否定结论正确，但虚构了三行四列表格；图像实际是文档页面和图组。"}
+  },
+  {
+    "case_id": "formula-13--direct",
+    "response_a": {"scores": {"factual": 3, "instruction": 5, "completeness": 4, "usefulness": 4, "format": 5}, "hallucination": true, "reason": "主体幂级数结构正确，但把可见下限负无穷误写为0。"},
+    "response_b": {"scores": {"factual": 2, "instruction": 5, "completeness": 5, "usefulness": 4, "format": 5}, "hallucination": true, "reason": "同样误写求和下限，并额外把双向级数说成Taylor级数。"}
+  },
+  {
+    "case_id": "formula-13--correction",
+    "response_a": {"scores": {"factual": 4, "instruction": 5, "completeness": 4, "usefulness": 4, "format": 5}, "hallucination": true, "reason": "正确指出等号与求和符号并列举证据，但加入了图中不清楚的q_n。"},
+    "response_b": {"scores": {"factual": 5, "instruction": 5, "completeness": 2, "usefulness": 3, "format": 5}, "hallucination": false, "reason": "判断完全正确但证据仅概括为有等号和数学符号，较不完整。"}
+  },
+  {
+    "case_id": "formula-14--direct",
+    "response_a": {"scores": {"factual": 1, "instruction": 3, "completeness": 3, "usefulness": 1, "format": 4}, "hallucination": true, "reason": "把复数模平方误读为复数平方根，并围绕错误公式展开。"},
+    "response_b": {"scores": {"factual": 1, "instruction": 3, "completeness": 4, "usefulness": 2, "format": 4}, "hallucination": true, "reason": "同样误读图像；后续平方根解释虽成体系，但与可见公式无关。"}
+  },
+  {
+    "case_id": "formula-14--correction",
+    "response_a": {"scores": {"factual": 5, "instruction": 5, "completeness": 3, "usefulness": 4, "format": 5}, "hallucination": false, "reason": "正确指出图中是数学公式而非普通中文段落。"},
+    "response_b": {"scores": {"factual": 2, "instruction": 5, "completeness": 4, "usefulness": 3, "format": 5}, "hallucination": true, "reason": "总体判断正确，但用错误的平方根转写作为依据。"}
+  },
+  {
+    "case_id": "natural_scene-13--direct",
+    "response_a": {"scores": {"factual": 4, "instruction": 5, "completeness": 5, "usefulness": 4, "format": 4}, "hallucination": true, "reason": "正确识别眼底与主要结构，但黄斑颜色、视盘位置和边缘描述存在偏差且回答被截断。"},
+    "response_b": {"scores": {"factual": 5, "instruction": 5, "completeness": 3, "usefulness": 4, "format": 5}, "hallucination": false, "reason": "简洁、准确地识别视网膜、黄斑及周围血管神经，但细节较少。"}
+  },
+  {
+    "case_id": "natural_scene-13--correction",
+    "response_a": {"scores": {"factual": 3, "instruction": 5, "completeness": 3, "usefulness": 3, "format": 5}, "hallucination": false, "reason": "正确否定公交车，但只描述红色背景和血管，未明确识别眼底。"},
+    "response_b": {"scores": {"factual": 5, "instruction": 5, "completeness": 4, "usefulness": 4, "format": 5}, "hallucination": false, "reason": "正确否定，并明确以视网膜、血管和视神经为可见依据。"}
+  },
+  {
+    "case_id": "natural_scene-14--direct",
+    "response_a": {"scores": {"factual": 5, "instruction": 5, "completeness": 4, "usefulness": 4, "format": 5}, "hallucination": false, "reason": "准确描述夜间发射台、火箭、塔架、天空与底部灯光。"},
+    "response_b": {"scores": {"factual": 4, "instruction": 5, "completeness": 5, "usefulness": 4, "format": 5}, "hallucination": true, "reason": "主体和环境正确，但银色尾部、塔架数量与后方塔等细节缺乏可靠依据。"}
+  },
+  {
+    "case_id": "natural_scene-14--correction",
+    "response_a": {"scores": {"factual": 5, "instruction": 5, "completeness": 4, "usefulness": 4, "format": 5}, "hallucination": false, "reason": "正确否定，并明确说明画面没有红色文字或标记。"},
+    "response_b": {"scores": {"factual": 5, "instruction": 5, "completeness": 2, "usefulness": 3, "format": 5}, "hallucination": false, "reason": "判断正确，但未给出火箭场景或其他积极可见依据。"}
+  },
+  {
+    "case_id": "ocr-13--direct",
+    "response_a": {"scores": {"factual": 4, "instruction": 5, "completeness": 5, "usefulness": 4, "format": 4}, "hallucination": true, "reason": "覆盖多块可见文字并包含2.33元，但MR.Z和部分号码存在OCR错误。"},
+    "response_b": {"scores": {"factual": 3, "instruction": 5, "completeness": 5, "usefulness": 4, "format": 4}, "hallucination": true, "reason": "覆盖多块文字，但首项、电话号码等误读较多，且漏掉清楚的2.33。"}
+  },
+  {
+    "case_id": "ocr-13--correction",
+    "response_a": {"scores": {"factual": 5, "instruction": 5, "completeness": 3, "usefulness": 3, "format": 5}, "hallucination": false, "reason": "正确判断没有清楚的WELCOME HOME字样。"},
+    "response_b": {"scores": {"factual": 5, "instruction": 5, "completeness": 3, "usefulness": 3, "format": 5}, "hallucination": false, "reason": "正确判断没有清楚的WELCOME HOME字样。"}
+  },
+  {
+    "case_id": "ocr-14--direct",
+    "response_a": {"scores": {"factual": 3, "instruction": 4, "completeness": 5, "usefulness": 2, "format": 1}, "hallucination": true, "reason": "识别出大量收据文字，但无分隔、错误较多且重复整段提示，实用性较低。"},
+    "response_b": {"scores": {"factual": 4, "instruction": 4, "completeness": 4, "usefulness": 3, "format": 2}, "hallucination": true, "reason": "整体更接近可见收据且没有重复整段，但仍有地址和个别字符误读。"}
+  },
+  {
+    "case_id": "ocr-14--correction",
+    "response_a": {"scores": {"factual": 1, "instruction": 3, "completeness": 1, "usefulness": 1, "format": 5}, "hallucination": true, "reason": "图中收据基本由英文、数字和常用符号组成，直接否定且不给依据并不成立。"},
+    "response_b": {"scores": {"factual": 1, "instruction": 4, "completeness": 3, "usefulness": 1, "format": 5}, "hallucination": true, "reason": "结论仍不成立，并把美元符号、数字编号错误当成非英文印刷体证据。"}
+  },
+  {
+    "case_id": "ui-13--direct",
+    "response_a": {"scores": {"factual": 5, "instruction": 5, "completeness": 4, "usefulness": 4, "format": 4}, "hallucination": false, "reason": "准确识别Word及主要区域和操作，但内容过长且在结尾被截断。"},
+    "response_b": {"scores": {"factual": 5, "instruction": 5, "completeness": 4, "usefulness": 5, "format": 5}, "hallucination": false, "reason": "简洁完整地说明Word用途、区域和常见操作。"}
+  },
+  {
+    "case_id": "ui-13--correction",
+    "response_a": {"scores": {"factual": 5, "instruction": 5, "completeness": 3, "usefulness": 4, "format": 5}, "hallucination": false, "reason": "正确指出是Word编辑器而非打印对话框。"},
+    "response_b": {"scores": {"factual": 5, "instruction": 5, "completeness": 4, "usefulness": 4, "format": 5}, "hallucination": false, "reason": "正确指出空白Word编辑窗口，并明确没有打印对话框。"}
+  },
+  {
+    "case_id": "ui-14--direct",
+    "response_a": {"scores": {"factual": 5, "instruction": 5, "completeness": 4, "usefulness": 4, "format": 5}, "hallucination": false, "reason": "准确说明搜索结果中的微软股票价格、走势图、右栏信息和可执行操作。"},
+    "response_b": {"scores": {"factual": 2, "instruction": 5, "completeness": 5, "usefulness": 3, "format": 4}, "hallucination": true, "reason": "界面类型正确，但开盘、最高、最低、成交量和时间范围等多项数字与画面不符。"}
+  },
+  {
+    "case_id": "ui-14--correction",
+    "response_a": {"scores": {"factual": 5, "instruction": 5, "completeness": 3, "usefulness": 4, "format": 5}, "hallucination": false, "reason": "正确指出画面没有系统错误提示或警告。"},
+    "response_b": {"scores": {"factual": 5, "instruction": 5, "completeness": 3, "usefulness": 4, "format": 5}, "hallucination": false, "reason": "正确指出画面没有系统错误提示或警告。"}
+  }
+]

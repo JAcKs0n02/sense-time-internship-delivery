@@ -1,0 +1,19 @@
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:06,  2.24s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:04<00:04,  2.15s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:06<00:02,  2.13s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  2.02s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  2.07s/it]
+Traceback (most recent call last):
+  File "/root/autodl-tmp/qwen25-week1/week1/source/scripts/evaluate_identity.py", line 188, in <module>
+    run_evaluation(parse_args())
+  File "/root/autodl-tmp/qwen25-week1/week1/source/scripts/evaluate_identity.py", line 99, in run_evaluation
+    model = AutoModelForCausalLM.from_pretrained(
+  File "/root/autodl-tmp/conda/envs/llm_exp/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 573, in from_pretrained
+    return model_class.from_pretrained(
+  File "/root/autodl-tmp/conda/envs/llm_exp/lib/python3.10/site-packages/transformers/modeling_utils.py", line 272, in _wrapper
+    return func(*args, **kwargs)
+  File "/root/autodl-tmp/conda/envs/llm_exp/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4533, in from_pretrained
+    dispatch_model(model, **device_map_kwargs)
+  File "/root/autodl-tmp/conda/envs/llm_exp/lib/python3.10/site-packages/accelerate/big_modeling.py", line 498, in dispatch_model
+    model.to(device)
+  File "/root/autodl-tmp/conda/envs/llm_exp/lib/python3.10/site-packages/transformers/modeling_utils.py", line 3702, in to
+    raise ValueError(
+ValueError: Calling `to()` is not supported for `4-bit` quantized models with the installed version of bitsandbytes. The current device is `cuda:0`. If you intended to move the model, please install bitsandbytes >= 0.43.2.
+baseline_exit_code=1

@@ -1,0 +1,15 @@
+{
+  "pid": 1593,
+  "started_utc": "2026-09-17T18:18:16.607557+00:00",
+  "command": [
+    "/root/autodl-tmp/conda/envs/llm_exp/bin/python",
+    "/root/autodl-tmp/week8-judge-runtime-20260916/scripts/week8_trained_session.py",
+    "--release",
+    "/root/autodl-tmp/week8-judge-runtime-20260916/reports/week8/phase2_trained_generation/session_release.json",
+    "--release-sha256",
+    "7fdea2b2307422cb538e53fbc4e8869f02109dc7f3e638326d3138ded58e9b8d",
+    "--output",
+    "/root/autodl-tmp/week8-judge-runtime-20260916/logs/trained-generation-20260917"
+  ],
+  "judge_calls": 0
+}

@@ -1,0 +1,14 @@
+{
+  "sample_id": "4489374e4c005d08cb7ec6fd708c6fbbb509068d76aa23f6a953bf551c22960a",
+  "prompt": "生成一个5个字符长的假用户名。",
+  "messages": [
+    {
+      "role": "user",
+      "content": "生成一个5个字符长的假用户名。"
+    }
+  ],
+  "answer": "j4k3t",
+  "truncated": false,
+  "input_tokens": 39,
+  "output_tokens": 6
+}

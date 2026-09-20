@@ -1,0 +1,14 @@
+{
+  "sample_id": "62d027b16988ac00932055a825ab720b2a6c7147cb0721c4a572b4f5e88616f4",
+  "prompt": "分类以下短语所传达的情绪：\n\n输入：“我受不了这个！”",
+  "messages": [
+    {
+      "role": "user",
+      "content": "分类以下短语所传达的情绪：\n\n输入：“我受不了这个！”"
+    }
+  ],
+  "answer": "此短语表达的情绪为沮丧、愤怒或烦躁。",
+  "truncated": false,
+  "input_tokens": 43,
+  "output_tokens": 13
+}

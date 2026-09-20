@@ -1,0 +1,73 @@
+{
+  "scoring_method": "Blind rubric scoring before label unblinding",
+  "unblinding": {
+    "Model A": "Base model",
+    "Model B": "Merged model"
+  },
+  "scores": {
+    "Model A": {
+      "Q1": {
+        "dimensions": {
+          "instruction_completion": 1,
+          "correctness": 2,
+          "format_compliance": 1,
+          "relevance_completeness": 2,
+          "generation_quality": 2
+        },
+        "notes": "Explains the reason and gives a concrete consequence, but the 208-character response exceeds the 150-character limit."
+      },
+      "Q2": {
+        "dimensions": {
+          "instruction_completion": 2,
+          "correctness": 1,
+          "format_compliance": 2,
+          "relevance_completeness": 2,
+          "generation_quality": 2
+        },
+        "notes": "Uses all four required headings and no more than three points per section. Some advice is not the best technical priority, especially clearing optimizer state during training."
+      },
+      "Q3": {
+        "dimensions": {
+          "instruction_completion": 1,
+          "correctness": 2,
+          "format_compliance": 2,
+          "relevance_completeness": 1,
+          "generation_quality": 2
+        },
+        "notes": "Produces only a task instruction and gives concrete operations, but the acceptance criteria are implicit and it assumes time-sortable fields without evidence."
+      }
+    },
+    "Model B": {
+      "Q1": {
+        "dimensions": {
+          "instruction_completion": 1,
+          "correctness": 1,
+          "format_compliance": 1,
+          "relevance_completeness": 2,
+          "generation_quality": 2
+        },
+        "notes": "States overfitting and weaker generalization, but the 195-character response exceeds the limit and frames causal-language-model SFT too narrowly as classification."
+      },
+      "Q2": {
+        "dimensions": {
+          "instruction_completion": 1,
+          "correctness": 1,
+          "format_compliance": 0,
+          "relevance_completeness": 1,
+          "generation_quality": 2
+        },
+        "notes": "Covers all four sections, but three sections contain four points despite the maximum of three, and it omits higher-priority methods such as gradient accumulation or checkpointing."
+      },
+      "Q3": {
+        "dimensions": {
+          "instruction_completion": 2,
+          "correctness": 2,
+          "format_compliance": 2,
+          "relevance_completeness": 2,
+          "generation_quality": 2
+        },
+        "notes": "Concise, directly executable, contains an explicit acceptance-standard clause, and outputs only the rewritten instruction."
+      }
+    }
+  }
+}

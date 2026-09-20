@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-08-11",
+  "reviewer_kind": "codex_review",
+  "exclusions": [
+    {
+      "source_id": "7f11d73f9b2133e90d1abb0d812e38368d1640d78fefaf5235be2bd897670a25",
+      "reason": "unsafe_to_publish",
+      "review_note": "长篇材料将宗教群体与自杀袭击作概括性关联，且回答重复了可能强化偏见的操作前叙述，不适合作为公开教学交付。"
+    },
+    {
+      "source_id": "161b66e7c41501c92ed5c95e03b9267f2bb0205ca81bd2583c849274b4bfb088",
+      "reason": "ambiguous_preference",
+      "review_note": "任务要求分类，但 chosen 改为泛化拒绝，无法确认其在任务正确性上明显优于 rejected；同时包含受保护群体仇恨文本。"
+    },
+    {
+      "source_id": "10eb0715878b4a4fe9a80e58d1f750a673199469df241cf884851065bbb8a7ff",
+      "reason": "over_cutoff_2048",
+      "review_note": "实际 Week 3 Qwen tokenizer 统计显示 rejected 完整序列为 2195 tokens，超过冻结的 2048 上限；为避免结构化截断改变偏好语义，排除并按确定性顺序补入下一条合格记录。"
+    }
+  ]
+}

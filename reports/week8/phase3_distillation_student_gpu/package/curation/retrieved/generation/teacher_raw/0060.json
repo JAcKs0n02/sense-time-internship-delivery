@@ -1,0 +1,14 @@
+{
+  "sample_id": "ce00169b3fdeef53b9e297460a309aaa2f7ced13e4bf0f07a0fd10e1bb32ce5f",
+  "prompt": "分类以下物品：苹果，香蕉，牛，飞机。",
+  "messages": [
+    {
+      "role": "user",
+      "content": "分类以下物品：苹果，香蕉，牛，飞机。"
+    }
+  ],
+  "answer": "苹果和香蕉属于水果类；\n牛属于动物类；\n飞机属于交通工具类。",
+  "truncated": false,
+  "input_tokens": 41,
+  "output_tokens": 18
+}

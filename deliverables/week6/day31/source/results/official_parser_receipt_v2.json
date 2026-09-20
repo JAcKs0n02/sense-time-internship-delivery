@@ -1,0 +1,46 @@
+{
+  "command": [
+    "deliverables/week6/day31/source/scripts/run_official_parser_smoke.py",
+    "--profile",
+    "v2",
+    "--dataset-info",
+    "deliverables/week6/day31/configs/dataset_info_v2.json",
+    "--output",
+    "../results/official_parser_receipt_v2.json"
+  ],
+  "profile": "v2",
+  "version": "0.9.3",
+  "git_revision": "ca75f1edf3cb50343ed1c98605141c3e22075b5f",
+  "exit_code": 0,
+  "train_aligned_rows": 300,
+  "eval_aligned_rows": 40,
+  "aligned_projection_sha256": {
+    "train": "e5cd6abf82753cfa933c493f5ac6f5f13aabefe9d62c9eee026c23318902c887",
+    "eval_frozen": "4f20fb6973a33793ce235d7cc34d69aa6027e0056af6c6b79acce70a424921be"
+  },
+  "dataset_sha256": {
+    "train": "b213a075e36266760bb54e30a705fe5266d257e85417ea8c76cd7f9895edb653",
+    "eval_frozen": "d90e49c54c69d52361aa0bb90dcdcddcf1b46575d0229fbb1252b5df134421ef"
+  },
+  "dataset_file_sha256": {
+    "train": "85c4840b3105a1be894e5c508afcd3df337db0626aa0fd0a1fcb432bd19e29c7",
+    "eval_frozen": "406b01115967c865cc1d38915e59810e7e260a2e09417722a55d734803043b84",
+    "dataset_info": "f5a916e441b4504b849c237d1a713d1035604e1816811cd46326c577d38ae52a"
+  },
+  "runner_script_sha256": "1eedf34dcbfdfb35d250c7387dacf5b8b26d5286fa7c0c7705f2ed5aa7e65f8c",
+  "official_module_hashes": {
+    "llamafactory.data.parser": {
+      "path": "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/data/parser.py",
+      "sha256": "9f7f34a13235306afd12de3beeddc4ed8906e2b2403936deeaa0a5704e10b0ae"
+    },
+    "llamafactory.data.converter": {
+      "path": "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/data/converter.py",
+      "sha256": "3d88c71bb6bfe00bb511bf44c15dce09cded6a4837ade486e9983ae639d4688d"
+    },
+    "llamafactory.data.loader": {
+      "path": "/root/autodl-tmp/LLaMA-Factory/src/llamafactory/data/loader.py",
+      "sha256": "a1abdd6182ab6d4735dfe4ca1abe30be5665cbca4f6c899a5b4f88d070a40172"
+    }
+  },
+  "receipt_sha256": "19ab35ab1f499711410bea81a1b6ff08680775dc3a76f9767024ab6d71be406c"
+}

@@ -1,0 +1,9 @@
+# Exact package snapshot recorded by the formal AutoDL Day30 run.
+langchain==1.3.13
+langchain-core==1.4.9
+langgraph==1.2.9
+langgraph-prebuilt==1.1.0
+pydantic==2.10.6
+peft==0.15.1
+transformers==4.50.0
+torch==2.5.1+cu121

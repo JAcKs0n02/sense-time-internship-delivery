@@ -1,0 +1,26 @@
+﻿record_id,image_id,question_type,strength_label,hallucination_label,reviewer_reason,reviewer_type
+d23-table-description,w5-table-01,description,acceptable,minor,主要列名、三条 SUBJECT 和 text/OBJECT 内容正确，但把空白的 A1 说成 SUBJECT 标题，并把 A、B 列笼统说成灰色填充。,codex_assisted_visual_review
+d23-table-ocr,w5-table-01,ocr,strong,none,完整识别 A-F、1-4、五个表头和三行数据；A1 实际为空，标为[无法辨认]是轻微表达问题，不构成虚构文字。,codex_assisted_visual_review
+d23-table-structure,w5-table-01,structure_explanation,acceptable,minor,4×6 结构、表头和行列对应关系解释正确；将相同占位值解释成同一属性的不同名称/实例超出了像素证据。,codex_assisted_visual_review
+d23-table-aesthetic,w5-table-01,aesthetic_review,acceptable,minor,能够评价布局、对比度和可读性，但把背景概括为浅灰，并称表头字体颜色与数据区分，未准确反映淡黄色表头与灰色 A1。,codex_assisted_visual_review
+d23-table-implicit,w5-table-01,implicit_reasoning,acceptable,none,以 DESCRIPTION/ALIAS/PREDICATE 为证据提出知识图谱或数据库可能性，并反复说明上下文不足；推断偏冗长但没有冒充确定事实。,codex_assisted_visual_review
+d23-scene-description,w5-scene-01,description,strong,none,准确覆盖平静湖面、倒影、常绿森林、雪山、多云天空以及右前景岩石和树枝，与冻结 ground truth 一致。,codex_assisted_visual_review
+d23-scene-ocr,w5-scene-01,ocr,strong,none,图片确实没有可见文字、数字或公式，模型明确给出无文字结论。,codex_assisted_visual_review
+d23-scene-structure,w5-scene-01,structure_explanation,acceptable,minor,湖泊、雪山、森林、倒影及前景岸线关系基本正确；把明显多云天空说成淡蓝且没有明显云彩，并将森林层级简单归为前景。,codex_assisted_visual_review
+d23-scene-aesthetic,w5-scene-01,aesthetic_review,strong,none,评价与画面的冷色调、雪山焦点、湖面倒影、纵深和清晰度相符，主观判断均给出了可见依据。,codex_assisted_visual_review
+d23-scene-implicit,w5-scene-01,implicit_reasoning,acceptable,minor,能够分别写证据、推断和不确定性；春秋季及清晨/傍晚的推断依据较弱，阴云不能支持具体季节或时段。,codex_assisted_visual_review
+d23-logo-description,w5-logo-01,description,acceptable,minor,识别出中央绿色球体、顶部红色和下方蓝色元素；错误地概括为红蓝绿三个圆形包围，实际是一个红弧和两个蓝色弧段。,codex_assisted_visual_review
+d23-logo-ocr,w5-logo-01,ocr,strong,none,Logo 中确实没有任何可见字母或单词，模型正确拒绝虚构 OCR。,codex_assisted_visual_review
+d23-logo-structure,w5-logo-01,structure_explanation,weak,severe,中央球形网格被识别，但回答虚构三个红蓝绿圆形、三角形顶点和对称包围结构；实际外围只有顶部红弧与左右两个蓝弧。,codex_assisted_visual_review
+d23-logo-aesthetic,w5-logo-01,aesthetic_review,acceptable,minor,中心焦点、红蓝绿配色和高对比度评价合理；将外围再次描述成三个彩色圆形线条，并默认白色背景，几何事实不够准确。,codex_assisted_visual_review
+d23-logo-implicit,w5-logo-01,implicit_reasoning,acceptable,none,全球连接、技术或通信均作为可能性提出，并明确组织身份、用途和颜色象征无法仅由图像确定。,codex_assisted_visual_review
+d23-formula-description,w5-formula-01,description,weak,severe,原图左侧是难辨认的书写符号，分母可见 q²/c²；回答改写为 γ 和 v，并直接赋予洛伦兹因子、质量、光速和速度含义，关键符号与语义均被虚构。,codex_assisted_visual_review
+d23-formula-ocr,w5-formula-01,ocr,weak,severe,回答加入向量箭头并把左侧和分母变量转写为 v；与冻结 ground truth 的 E-like 符号和 q²/c² 不符，属于关键公式 OCR 错误。,codex_assisted_visual_review
+d23-formula-structure,w5-formula-01,structure_explanation,weak,severe,分数和根号层级识别到位，但将公式重构为 γ=mc²/√(1-v²/c²)，并扩展到洛伦兹因子、质量增加等物理结论；图像并不支持这些关键解释。,codex_assisted_visual_review
+d23-formula-aesthetic,w5-formula-01,aesthetic_review,acceptable,none,能基于单色、居中分式、背景和笔迹评价构图与对比；对清晰度略显乐观，但属于有依据的主观评价。,codex_assisted_visual_review
+d23-formula-implicit,w5-formula-01,implicit_reasoning,strong,none,没有强行确定公式身份，只提出物理/数学关系的有限可能性，并明确变量含义与应用领域需要上下文确认。,codex_assisted_visual_review
+d23-ui-description,w5-ui-01,description,weak,severe,开头正确识别 LibreOffice Writer、test.odt、正文和部分状态栏，但随后虚构左侧日期 2012-01-01、段落框及大量保存/打印/预览/搜索/帮助项并循环至 token 上限。,codex_assisted_visual_review
+d23-ui-ocr,w5-ui-01,ocr,weak,severe,未转写标题栏、菜单、评论 M/N/O、(no date) 和状态栏，反而把正文短语重复扩写十余次并在 1024 token 处截断，严重虚构文字出现次数。,codex_assisted_visual_review
+d23-ui-structure,w5-ui-01,structure_explanation,acceptable,minor,标题栏、菜单栏、工具栏、编辑区和状态栏层级基本正确；把右侧四个评论框误称导航栏，并加入缩略图等未见元素。,codex_assisted_visual_review
+d23-ui-aesthetic,w5-ui-01,aesthetic_review,acceptable,none,对灰白主色、彩色图标、文本对比和功能分区的评价有图像依据；较为泛化且遗漏右侧彩色评论框，但未虚构关键事实。,codex_assisted_visual_review
+d23-ui-implicit,w5-ui-01,implicit_reasoning,strong,none,正确推断用户正在编辑带占位文本的文档，并把文档用途、评论标记用途和具体操作都明确列为无法确定。,codex_assisted_visual_review

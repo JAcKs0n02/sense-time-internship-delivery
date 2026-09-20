@@ -1,0 +1,14 @@
+{
+  "sample_id": "c8851e537dc07700e4f97e3475a09dfdd67b043c85a62d243ab4a8afd40c89c6",
+  "prompt": "比赛的门票已经卖光了。",
+  "messages": [
+    {
+      "role": "user",
+      "content": "比赛的门票已经卖光了。"
+    }
+  ],
+  "answer": "很遗憾，这意味着您无法购买比赛的门票。不过，您可以尝试查看是否有关于比赛的重播或录像，或者是否还有其他观看比赛的途径。希望您能找到替代方案并享受观看比赛的过程。",
+  "truncated": false,
+  "input_tokens": 37,
+  "output_tokens": 47
+}

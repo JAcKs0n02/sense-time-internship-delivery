@@ -1,0 +1,49 @@
+{
+  "schema_version": "2.0",
+  "selection_split": "development",
+  "policy_mode": "raw",
+  "selected_prompt": "main",
+  "ranking": [
+    "strict_success",
+    "semantic_correctness",
+    "prefer_main_on_tie"
+  ],
+  "candidates": [
+    {
+      "variant": "main",
+      "result_path": "/root/autodl-tmp/qwen25-week6/formal-v2/results/v2_dev_prompt_main.json",
+      "strict_success": 0.45,
+      "metrics": {
+        "first_tool_choice": 0.925,
+        "full_tool_sequence": 0.925,
+        "argument_schema_valid": 1.0,
+        "argument_correctness": 0.9,
+        "observation_integrity": 1.0,
+        "format_valid": 0.875,
+        "semantic_correctness": 0.5,
+        "final_answer_grounded": 0.45,
+        "safe_termination": 0.95,
+        "completion": 0.875,
+        "no_loops": 1.0
+      }
+    },
+    {
+      "variant": "ablation",
+      "result_path": "/root/autodl-tmp/qwen25-week6/formal-v2/results/v2_dev_prompt_ablation.json",
+      "strict_success": 0.35,
+      "metrics": {
+        "first_tool_choice": 0.95,
+        "full_tool_sequence": 0.95,
+        "argument_schema_valid": 1.0,
+        "argument_correctness": 0.925,
+        "observation_integrity": 1.0,
+        "format_valid": 0.85,
+        "semantic_correctness": 0.475,
+        "final_answer_grounded": 0.35,
+        "safe_termination": 1.0,
+        "completion": 0.85,
+        "no_loops": 1.0
+      }
+    }
+  ]
+}

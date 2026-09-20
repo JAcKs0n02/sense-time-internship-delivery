@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "status": "PASS",
+  "checks": {
+    "report_title": true,
+    "report_sections": true,
+    "report_no_pending_placeholder": true,
+    "acceptance_rows": true,
+    "acceptance_statuses": true,
+    "acceptance_all_pass": true,
+    "acceptance_evidence": true,
+    "acceptance_evidence_paths": true,
+    "input_manifest": true,
+    "model_archive": true
+  },
+  "failed_checks": [],
+  "details": {
+    "missing_report_sections": [],
+    "acceptance_status": {
+      "three_tools": "PASS",
+      "multistep": "PASS",
+      "error_analysis": "PASS",
+      "weekly_report": "PASS"
+    },
+    "manifest_failures": [],
+    "input_count": 13
+  }
+}

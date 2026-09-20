@@ -1,0 +1,65 @@
+[
+  {
+    "run_id": "rank-r8",
+    "attempt_id": "attempt-001",
+    "adapter_path": "runs/rank-r8/attempt-001/adapter",
+    "status": "completed",
+    "adapter_files_sha256": "runs/rank-r8/attempt-001/adapter_files.sha256"
+  },
+  {
+    "run_id": "rank-r32",
+    "attempt_id": "attempt-001",
+    "adapter_path": "runs/rank-r32/attempt-001/adapter",
+    "status": "completed",
+    "adapter_files_sha256": "runs/rank-r32/attempt-001/adapter_files.sha256"
+  },
+  {
+    "run_id": "rank-r64",
+    "attempt_id": "attempt-001",
+    "adapter_path": "runs/rank-r64/attempt-001/adapter",
+    "status": "completed",
+    "adapter_files_sha256": "runs/rank-r64/attempt-001/adapter_files.sha256"
+  },
+  {
+    "run_id": "lr-1e-4",
+    "attempt_id": "attempt-001",
+    "adapter_path": "runs/lr-1e-4/attempt-001/adapter",
+    "status": "completed",
+    "adapter_files_sha256": "runs/lr-1e-4/attempt-001/adapter_files.sha256"
+  },
+  {
+    "run_id": "lr-2e-4",
+    "attempt_id": "attempt-001",
+    "adapter_path": "runs/lr-2e-4/attempt-001/adapter",
+    "status": "completed",
+    "adapter_files_sha256": "runs/lr-2e-4/attempt-001/adapter_files.sha256"
+  },
+  {
+    "run_id": "lr-5e-5",
+    "attempt_id": "attempt-001",
+    "adapter_path": "runs/lr-5e-5/attempt-001/adapter",
+    "status": "completed",
+    "adapter_files_sha256": "runs/lr-5e-5/attempt-001/adapter_files.sha256"
+  },
+  {
+    "run_id": "epoch-e2",
+    "attempt_id": "attempt-001",
+    "adapter_path": "runs/epoch-e2/attempt-001/adapter",
+    "status": "completed",
+    "adapter_files_sha256": "runs/epoch-e2/attempt-001/adapter_files.sha256"
+  },
+  {
+    "run_id": "epoch-e3",
+    "attempt_id": "attempt-001",
+    "adapter_path": "runs/epoch-e3/attempt-001/adapter",
+    "status": "completed",
+    "adapter_files_sha256": "runs/epoch-e3/attempt-001/adapter_files.sha256"
+  },
+  {
+    "run_id": "epoch-e5",
+    "attempt_id": "attempt-001",
+    "adapter_path": "runs/epoch-e5/attempt-001/adapter",
+    "status": "completed",
+    "adapter_files_sha256": "runs/epoch-e5/attempt-001/adapter_files.sha256"
+  }
+]

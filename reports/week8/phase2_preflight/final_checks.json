@@ -1,0 +1,17 @@
+{
+  "status": "PASS_LOCAL_ARTIFACT_CHECKS_NOT_RUNTIME_READY",
+  "artifacts": 498,
+  "artifact_manifest_sha256": "c04378c8901add297440ea5692dbdfb2b531d274449df27678db34fef8eae601",
+  "local_document_links_checked": 7,
+  "phase1_data_unchanged": true,
+  "official_files": 160,
+  "local_data_files": 290,
+  "normalized_records_verified": 25865,
+  "scored_questions": 12928,
+  "lexical_hits": 0,
+  "opencompass_runtime_validated": false,
+  "judge_identity": null,
+  "gpu_target": null,
+  "training_started": false,
+  "user_information_request_pending": true
+}

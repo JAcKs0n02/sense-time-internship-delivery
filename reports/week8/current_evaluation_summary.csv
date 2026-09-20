@@ -1,0 +1,4 @@
+﻿model,ceval_correct,ceval_total,ceval_accuracy_pct,cmmlu_correct,cmmlu_total,cmmlu_accuracy_pct,ai_questions,ai_weighted_mean,accuracy,completeness,logic,safety,format,human_status,human_weighted_mean,human_scoring_date
+original_base,1049,1346,77.93462109955424,9246,11582,79.8307718874115,20,3.9775,3.3,4.3,3.7,4.85,4.45,COMPLETE,3.9825,2026-09-18
+final_sft,1072,1346,79.64338781575037,9260,11582,79.951649110689,20,3.8275,3.05,4.2,3.2,4.85,4.95,COMPLETE,3.64875,2026-09-18
+final_dpo,1077,1346,80.01485884101041,9264,11582,79.98618546019685,20,3.87,3.1,4.25,3.3,4.85,4.9,COMPLETE,3.62875,2026-09-18

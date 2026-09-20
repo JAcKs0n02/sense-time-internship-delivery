@@ -1,0 +1,11 @@
+{
+  "valid": true,
+  "config_path": "deliverables/week2/day8/configs/qwen25_7b_week2_lora_annotated.yaml",
+  "dataset_info_path": "deliverables/week2/day8/source/data/dataset_info.json",
+  "expected_count": 4999,
+  "active_parameter_count": 45,
+  "all_parameters_fully_annotated": true,
+  "missing_annotations": [],
+  "dataset_name": "week2_clean_alpaca",
+  "errors": []
+}

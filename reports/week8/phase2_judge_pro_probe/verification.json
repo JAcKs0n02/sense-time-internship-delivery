@@ -1,0 +1,26 @@
+{
+  "status": "ONE_CASE_PASS_NOT_RELEASED",
+  "model": "deepseek-v4-pro",
+  "scores": {
+    "accuracy": 5,
+    "completeness": 5,
+    "logic": 5,
+    "safety": 5,
+    "format": 3,
+    "weighted_score": 4.8
+  },
+  "usage": {
+    "prompt_tokens": 2484,
+    "completion_tokens": 1744,
+    "total_tokens": 4228,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1411
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 2484
+  },
+  "formal_release": false
+}

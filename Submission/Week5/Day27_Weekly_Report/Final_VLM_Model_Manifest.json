@@ -1,0 +1,41 @@
+{
+  "schema_version": "day27-final-vlm-model-manifest-1",
+  "status": "NO_ACCEPTANCE_PASSING_MODEL",
+  "model_type": "base_plus_lora_adapter",
+  "handoff_role": "RETAINED_BEST_PRIOR_DEVELOPMENT_CANDIDATE_FOR_REPRODUCTION_ONLY",
+  "base_model": {
+    "repository": "Qwen/Qwen2-VL-7B-Instruct",
+    "revision": "eed13092ef92e448dd6875b2a00151bd3f7db0ac",
+    "manifest_sha256": "d81b269bdb13194e4bd431518cba6e3d6d4cc36f7215138514d60f6d4e4f530e"
+  },
+  "adapter": {
+    "candidate_id": "v7-b-lr2e5-e1",
+    "remote_path": "/root/autodl-tmp/qwen2-vl-week5/day26_v7/runs/v7_b_lr2e5_e1",
+    "weight_file": "adapter_model.safetensors",
+    "weight_sha256": "759b1d4d856368a8b6b69c43f42ac95984a5714fa0e5bfca7e09af9599c41e2d",
+    "config_file": "adapter_config.json",
+    "config_sha256": "877952706acc0251cabc56df1db701ac8b4074948aa96709ec93c9aca3910452",
+    "total_bytes": 161533192,
+    "included_in_git_or_teacher_submission": false
+  },
+  "training_dataset_sha256": "cb2e58e65ad21c204bad958cd30e12e98a49ccdbbeb424a9a353507fa31be542",
+  "training_config_sha256": "961e1ee471f928bf3489f570dc04876abf536d218c503bf3ad46a6c492c1fe8f",
+  "load_smoke": {
+    "status": "PASS",
+    "return_code": 0,
+    "evidence": "Day26 v7-B hash-bound development inference loaded this exact adapter and produced 40 records."
+  },
+  "development_result": {
+    "case_count": 20,
+    "mean_base": 4.0375,
+    "mean_lora": 4.28,
+    "mean_gain": 0.2425,
+    "direct_gain": -0.135,
+    "base_hallucination_rate": 0.45,
+    "lora_hallucination_rate": 0.30,
+    "passed": false
+  },
+  "v8_terminal_result": "NO_PASSING_CANDIDATE",
+  "final_evaluation_run": false,
+  "warning": "This archive is reproducible but does not satisfy the frozen Week5 quality acceptance gate."
+}

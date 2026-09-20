@@ -1,0 +1,72 @@
+{
+  "schema_version": "day26-v7-score-summary-1",
+  "split": "dev",
+  "case_count": 20,
+  "mean_base": 4.0375,
+  "mean_lora": 4.0275,
+  "mean_gain": -0.009999999999999787,
+  "direct_base": 3.71,
+  "direct_lora": 3.525,
+  "direct_gain": -0.18500000000000005,
+  "lora_wins": 4,
+  "base_hallucination_count": 9,
+  "lora_hallucination_count": 8,
+  "base_hallucination_rate": 0.45,
+  "lora_hallucination_rate": 0.4,
+  "category_metrics": {
+    "natural_scene": {
+      "mean_base": 4.9625,
+      "mean_lora": 4.5125,
+      "mean_gain": -0.4500000000000002,
+      "lora_wins": 0
+    },
+    "ocr": {
+      "mean_base": 5.0,
+      "mean_lora": 4.65,
+      "mean_gain": -0.34999999999999964,
+      "lora_wins": 0
+    },
+    "chart_table": {
+      "mean_base": 2.9375,
+      "mean_lora": 2.975,
+      "mean_gain": 0.03750000000000009,
+      "lora_wins": 1
+    },
+    "ui": {
+      "mean_base": 4.0625,
+      "mean_lora": 3.925,
+      "mean_gain": -0.13750000000000018,
+      "lora_wins": 1
+    },
+    "formula": {
+      "mean_base": 3.225,
+      "mean_lora": 4.075,
+      "mean_gain": 0.8500000000000001,
+      "lora_wins": 2
+    }
+  },
+  "thresholds": {
+    "mean_gain_min": 0.35,
+    "direct_gain_min": 0.0,
+    "lora_wins_min": 12,
+    "hallucination_rate_not_worse": true
+  },
+  "checks": {
+    "mean_gain": false,
+    "lora_wins": false,
+    "hallucination_rate": true,
+    "direct_gain": false
+  },
+  "passed": false,
+  "run_id": "day26-v7-b-dev-s085",
+  "run_spec_sha256": "f4a1d86a6ab073c332e742dc2c54349aa4e8536160274f634fba6b31efc9f573",
+  "generation_config_sha256": "fe63978dbe52e0a2efac646d03bcdf444b1ab5ac9eddcfcb3137b834ec9ae9d7",
+  "scoring_config_sha256": "2f103cc3e4b8a7b919fd32a453986050e94ffeb6cd2728944ee09593f318de69",
+  "cases_sha256": "2ad4578003eaff01f4a47cefc10832f72351a266b374ea0c6c1cfae37c2b1d40",
+  "base_model_revision": "eed13092ef92e448dd6875b2a00151bd3f7db0ac",
+  "base_model_files_digest_sha256": "575d62b8abe01fda09b28a02ff8e6cd04e8df0d15fd03e1642d3a22bbe7eb812",
+  "base_model_manifest_sha256": "d81b269bdb13194e4bd431518cba6e3d6d4cc36f7215138514d60f6d4e4f530e",
+  "adapter_config_sha256": "877952706acc0251cabc56df1db701ac8b4074948aa96709ec93c9aca3910452",
+  "adapter_model_sha256": "759b1d4d856368a8b6b69c43f42ac95984a5714fa0e5bfca7e09af9599c41e2d",
+  "lora_scale": 0.85
+}

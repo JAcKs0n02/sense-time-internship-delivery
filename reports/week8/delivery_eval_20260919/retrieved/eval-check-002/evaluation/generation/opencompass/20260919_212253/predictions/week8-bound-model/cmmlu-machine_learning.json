@@ -1,0 +1,52 @@
+{
+    "0": {
+        "origin_prompt": [
+            {
+                "role": "HUMAN",
+                "prompt": "以下是关于机器学习的单项选择题，请直接给出正确答案的选项。\n题目：SVM在下列那种情况下表现糟糕\nA. 以上都不是\nB. 线性可分数据\nC. 清洗过的数据\nD. 含噪声数据与重叠数据点\n"
+            },
+            {
+                "role": "BOT",
+                "prompt": "答案是: D"
+            },
+            {
+                "role": "HUMAN",
+                "prompt": "以下是关于机器学习的单项选择题，请直接给出正确答案的选项。\n题目：从给定的句子、段落中识别人名、组织名的过程称为\nA. 命名实体识别\nB. 词干提取\nC. 新词发现\nD. 情感分析\n"
+            },
+            {
+                "role": "BOT",
+                "prompt": "答案是: A"
+            },
+            {
+                "role": "HUMAN",
+                "prompt": "以下是关于机器学习的单项选择题，请直接给出正确答案的选项。\n题目：针对“北京 是 中国 的 首都”这一分词后的结果，不经过预处理，可以生成多少个3-gram短语\nA. 4\nB. 3\nC. 5\nD. 2\n"
+            },
+            {
+                "role": "BOT",
+                "prompt": "答案是: B"
+            },
+            {
+                "role": "HUMAN",
+                "prompt": "以下是关于机器学习的单项选择题，请直接给出正确答案的选项。\n题目：统计模式分类问题中，当先验概率未知时，可以使用\nA. 最小误判概率准则\nB. 最小最大损失准则\nC. N-P判决\nD. 最小损失准则\n"
+            },
+            {
+                "role": "BOT",
+                "prompt": "答案是: B"
+            },
+            {
+                "role": "HUMAN",
+                "prompt": "以下是关于机器学习的单项选择题，请直接给出正确答案的选项。\n题目：请选择下面可以应用隐马尔科夫(HMM)模型的选项\nA. 所有以上\nB. 基因序列数据集\nC. 股票市场数据集\nD. 电影浏览数据集\n"
+            },
+            {
+                "role": "BOT",
+                "prompt": "答案是: A"
+            },
+            {
+                "role": "HUMAN",
+                "prompt": "以下是关于机器学习的单项选择题，请直接给出正确答案的选项。\n题目：在二分类问题中，当测试集的正例和负例数量不均衡时，以下评价方案哪个是相对不合理的（假设precision=TP/(TP+FP),recall=TP/(TP+FN)。）\nA. F-值:2recallprecision/(recall+precision)\nB. G-mean:sqrt(precision*recall)\nC. 准确性:(TP+TN)/all\nD. AUC:ROC曲线下面积\n"
+            }
+        ],
+        "prediction": "答案是: C",
+        "gold": "C"
+    }
+}

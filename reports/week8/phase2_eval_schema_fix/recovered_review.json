@@ -1,0 +1,22 @@
+{
+  "status": "RECOVERED_OBJECTIVE_VALIDATION_PASS",
+  "manifest_files": 374,
+  "validator_sha256": "d6fdc7eb6e0ac1bbe23a686670813188f830cb4a95064d37c6dbe3c5e4c2a3e7",
+  "records_sha256": "2d2a88a2f6afd2870cb1efcfc19f1c5c2eb5e33c45297532d50cdcae7afcfa32",
+  "results": {
+    "ceval": {
+      "subjects": 52,
+      "questions": 1346,
+      "correct": 1049,
+      "accuracy": 77.93462109955424
+    },
+    "cmmlu": {
+      "subjects": 67,
+      "questions": 11582,
+      "correct": 9246,
+      "accuracy": 79.8307718874115
+    }
+  },
+  "gpu_or_api_used": false,
+  "formal_evaluation_complete": false
+}

@@ -1,0 +1,190 @@
+{
+  "question_count": 20,
+  "training_prompt_count": 4999,
+  "jaccard_threshold": 0.8,
+  "exact_match_count": 0,
+  "manual_review_count": 0,
+  "all_questions_novel": true,
+  "questions": [
+    {
+      "id": "MATH-01",
+      "exact_match": false,
+      "maximum_jaccard": 0.10101010101010101,
+      "closest_training_line": 1964,
+      "closest_sample_id": null,
+      "closest_training_prompt": "计算五个数字的平均值。\n\n输入：3、5、10、12、17。",
+      "status": "novel"
+    },
+    {
+      "id": "MATH-02",
+      "exact_match": false,
+      "maximum_jaccard": 0.08372093023255814,
+      "closest_training_line": 2489,
+      "closest_sample_id": null,
+      "closest_training_prompt": "请根据下面的问题，给出求解的方程和最后的答案\n\n一本247页的童话书，小明13天就读完，照这样的阅读速度，一本171页的书，小明要多少天读完？",
+      "status": "novel"
+    },
+    {
+      "id": "MATH-03",
+      "exact_match": false,
+      "maximum_jaccard": 0.192,
+      "closest_training_line": 557,
+      "closest_sample_id": null,
+      "closest_training_prompt": "计算一辆汽车行驶120英里用时2小时的平均速度。",
+      "status": "novel"
+    },
+    {
+      "id": "MATH-04",
+      "exact_match": false,
+      "maximum_jaccard": 0.0967741935483871,
+      "closest_training_line": 747,
+      "closest_sample_id": null,
+      "closest_training_prompt": "计算函数y=x^2-2x+1在x=2时的值",
+      "status": "novel"
+    },
+    {
+      "id": "MATH-05",
+      "exact_match": false,
+      "maximum_jaccard": 0.11585365853658537,
+      "closest_training_line": 146,
+      "closest_sample_id": null,
+      "closest_training_prompt": "计算给定清单中的物品打9折后的最终价格。\n\n输入：\n物品和价格清单：\n1. 苹果 -> $2.50\n2. 香蕉 -> $1.25\n3. 橙子 -> $2.00",
+      "status": "novel"
+    },
+    {
+      "id": "MATH-06",
+      "exact_match": false,
+      "maximum_jaccard": 0.1016949152542373,
+      "closest_training_line": 438,
+      "closest_sample_id": null,
+      "closest_training_prompt": "写一个简单的数学方程式来计算200的10%。",
+      "status": "novel"
+    },
+    {
+      "id": "MATH-07",
+      "exact_match": false,
+      "maximum_jaccard": 0.09345794392523364,
+      "closest_training_line": 2487,
+      "closest_sample_id": null,
+      "closest_training_prompt": "请根据下面的问题，给出解答问题的数学方程\n\n18位同学合影留念，拍照需要26.4元，可以有3张照片，如果现在每人要1张照片，就需要加印，加印一张照片要0.64元，平均每人应付多少元？",
+      "status": "novel"
+    },
+    {
+      "id": "REASON-01",
+      "exact_match": false,
+      "maximum_jaccard": 0.07462686567164178,
+      "closest_training_line": 927,
+      "closest_sample_id": null,
+      "closest_training_prompt": "给出一个 GPT 模型可以完成的任务的例子。",
+      "status": "novel"
+    },
+    {
+      "id": "REASON-02",
+      "exact_match": false,
+      "maximum_jaccard": 0.09016393442622951,
+      "closest_training_line": 1233,
+      "closest_sample_id": null,
+      "closest_training_prompt": "辨认以下列表中不属于同一类的单词：大蒜，牛至，欧芹，辣椒。",
+      "status": "novel"
+    },
+    {
+      "id": "REASON-03",
+      "exact_match": false,
+      "maximum_jaccard": 0.08854166666666667,
+      "closest_training_line": 2025,
+      "closest_sample_id": null,
+      "closest_training_prompt": "设前提和假设之间是蕴含关系（即根据前提可以推断出假设），则根据以下前提，给出一个合理的假设：\n\n前提：看你信上说,生了个女儿.\n假设：",
+      "status": "novel"
+    },
+    {
+      "id": "REASON-04",
+      "exact_match": false,
+      "maximum_jaccard": 0.08196721311475409,
+      "closest_training_line": 2314,
+      "closest_sample_id": null,
+      "closest_training_prompt": "请判断下面两个句子在语义上是否相似。\n请直接输出“是”或“否”，不要额外输出多余内容。\n\n句子1：在狗的眼睛里世界是什么颜色的\n句子2：在狗的眼睛里世界是什么颜色的？",
+      "status": "novel"
+    },
+    {
+      "id": "REASON-05",
+      "exact_match": false,
+      "maximum_jaccard": 0.1016949152542373,
+      "closest_training_line": 2603,
+      "closest_sample_id": null,
+      "closest_training_prompt": "给定'输出'，提出一组恰当合理的'指令'和'输入'，其中'输入'可以为空：\n\n输出：如果有一个24小时的钟，现在是下午21点，那么还有多久钟上的小时指针和分钟指针会指向同一个数字？（提示：分钟指针每走一圈，小时指针会向前走一个刻度。）",
+      "status": "novel"
+    },
+    {
+      "id": "REASON-06",
+      "exact_match": false,
+      "maximum_jaccard": 0.16040955631399317,
+      "closest_training_line": 2214,
+      "closest_sample_id": null,
+      "closest_training_prompt": "判断下面两个文本的语义是否相同\n\n文本1：'Officials at Brandeis said this was an \"extremely heartrending\" time for the campus.'，文本2：'\"This is an extremely heartrending time for the entire Brandeis University community.\n'",
+      "status": "novel"
+    },
+    {
+      "id": "REASON-07",
+      "exact_match": false,
+      "maximum_jaccard": 0.09523809523809523,
+      "closest_training_line": 1612,
+      "closest_sample_id": null,
+      "closest_training_prompt": "建议一个可以在30分钟内完成的晚餐食谱。",
+      "status": "novel"
+    },
+    {
+      "id": "CODE-01",
+      "exact_match": false,
+      "maximum_jaccard": 0.16203703703703703,
+      "closest_training_line": 383,
+      "closest_sample_id": null,
+      "closest_training_prompt": "将以下计算机代码从Python转换为Java。\n\n输入：\n```\npublic static void greet(String name) {\n  System.out.println(\"Hello, \" + name + \"!\");\n}\n```",
+      "status": "novel"
+    },
+    {
+      "id": "CODE-02",
+      "exact_match": false,
+      "maximum_jaccard": 0.15422885572139303,
+      "closest_training_line": 2531,
+      "closest_sample_id": null,
+      "closest_training_prompt": "Given the multi-turn text query utterance, please generate the corresponding SQL query utterance for each text.\n\n['What', 'companies', 'are', 'in', 'the', 'banking', 'industry', '?']",
+      "status": "novel"
+    },
+    {
+      "id": "CODE-03",
+      "exact_match": false,
+      "maximum_jaccard": 0.140625,
+      "closest_training_line": 4449,
+      "closest_sample_id": null,
+      "closest_training_prompt": "ImportError: 无法从'decouple' 导入名称 'config' (C:\\Users\\alberto\\AppData\\Roaming\\Python\\Python311\\site-packages\\decouple\\\\_\\_init\\_\\_.py)。",
+      "status": "novel"
+    },
+    {
+      "id": "CODE-04",
+      "exact_match": false,
+      "maximum_jaccard": 0.1513157894736842,
+      "closest_training_line": 2702,
+      "closest_sample_id": null,
+      "closest_training_prompt": "请判断以下文本的语言类型\n\nEs mejor aceptar la oferta de trabajo que te ofrecen con un salario ya establecido, que estar buscando por meses uno que te pague mucho más, pero que aún no has encontrado. Más vale tener un ingreso seguro que estar esperando por uno hipotético e incierto.",
+      "status": "novel"
+    },
+    {
+      "id": "CODE-05",
+      "exact_match": false,
+      "maximum_jaccard": 0.1518324607329843,
+      "closest_training_line": 383,
+      "closest_sample_id": null,
+      "closest_training_prompt": "将以下计算机代码从Python转换为Java。\n\n输入：\n```\npublic static void greet(String name) {\n  System.out.println(\"Hello, \" + name + \"!\");\n}\n```",
+      "status": "novel"
+    },
+    {
+      "id": "CODE-06",
+      "exact_match": false,
+      "maximum_jaccard": 0.19230769230769232,
+      "closest_training_line": 2532,
+      "closest_sample_id": null,
+      "closest_training_prompt": "Given the text query utterance ， please generate the corresponding SQL query utterance.\n\nShow the album names, ids and the number of tracks for each album.",
+      "status": "novel"
+    }
+  ]
+}

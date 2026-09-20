@@ -1,0 +1,72 @@
+{
+  "schema_version": "day26-v7-score-summary-1",
+  "split": "dev",
+  "case_count": 20,
+  "mean_base": 4.0625,
+  "mean_lora": 3.7775,
+  "mean_gain": -0.28500000000000014,
+  "direct_base": 3.8,
+  "direct_lora": 3.225,
+  "direct_gain": -0.5749999999999997,
+  "lora_wins": 2,
+  "base_hallucination_count": 8,
+  "lora_hallucination_count": 8,
+  "base_hallucination_rate": 0.4,
+  "lora_hallucination_rate": 0.4,
+  "category_metrics": {
+    "natural_scene": {
+      "mean_base": 4.775,
+      "mean_lora": 4.55,
+      "mean_gain": -0.22500000000000053,
+      "lora_wins": 0
+    },
+    "ocr": {
+      "mean_base": 5.0,
+      "mean_lora": 4.8125,
+      "mean_gain": -0.1875,
+      "lora_wins": 0
+    },
+    "chart_table": {
+      "mean_base": 3.1374999999999997,
+      "mean_lora": 2.7875,
+      "mean_gain": -0.34999999999999964,
+      "lora_wins": 0
+    },
+    "ui": {
+      "mean_base": 4.025,
+      "mean_lora": 3.35,
+      "mean_gain": -0.6750000000000003,
+      "lora_wins": 0
+    },
+    "formula": {
+      "mean_base": 3.375,
+      "mean_lora": 3.3875,
+      "mean_gain": 0.012500000000000178,
+      "lora_wins": 2
+    }
+  },
+  "thresholds": {
+    "mean_gain_min": 0.35,
+    "direct_gain_min": 0.0,
+    "lora_wins_min": 12,
+    "hallucination_rate_not_worse": true
+  },
+  "checks": {
+    "mean_gain": false,
+    "lora_wins": false,
+    "hallucination_rate": true,
+    "direct_gain": false
+  },
+  "passed": false,
+  "run_id": "day26-v7-a-dev-s100",
+  "run_spec_sha256": "ddbbddbfea718131697b3cfdcf93923cf667b029a51cf50e27f56e7f4853db00",
+  "generation_config_sha256": "fe63978dbe52e0a2efac646d03bcdf444b1ab5ac9eddcfcb3137b834ec9ae9d7",
+  "scoring_config_sha256": "2f103cc3e4b8a7b919fd32a453986050e94ffeb6cd2728944ee09593f318de69",
+  "cases_sha256": "2ad4578003eaff01f4a47cefc10832f72351a266b374ea0c6c1cfae37c2b1d40",
+  "base_model_revision": "eed13092ef92e448dd6875b2a00151bd3f7db0ac",
+  "base_model_files_digest_sha256": "575d62b8abe01fda09b28a02ff8e6cd04e8df0d15fd03e1642d3a22bbe7eb812",
+  "base_model_manifest_sha256": "d81b269bdb13194e4bd431518cba6e3d6d4cc36f7215138514d60f6d4e4f530e",
+  "adapter_config_sha256": "7ff5faf0da5f0d3a515ba9733579e08aebf1e07b01a2707d9a25b1cd4d239df6",
+  "adapter_model_sha256": "6c73274d643935a7669bce88ef073404801dabe12b3ed74dac4043d3480f951b",
+  "lora_scale": 1.0
+}

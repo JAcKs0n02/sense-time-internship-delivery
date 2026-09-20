@@ -1,0 +1,13 @@
+{
+  "command": [
+    "llamafactory-cli",
+    "export",
+    "/root/autodl-tmp/week8-full-training-runtime-20260916/configs/week8_full_training_candidate/export_dpo.yaml"
+  ],
+  "started_utc": "2026-09-16T19:12:13.396447+00:00",
+  "returncode": 0,
+  "timed_out": false,
+  "header_verified": true,
+  "finished_utc": "2026-09-16T19:12:50.339060+00:00",
+  "log_sha256": "4e21bdbf9b337031e9f76c379d8a81de03c8dd301058d94f25fe03c5a73badd7"
+}

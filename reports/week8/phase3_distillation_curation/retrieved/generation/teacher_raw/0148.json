@@ -1,0 +1,14 @@
+{
+  "sample_id": "0b4371f4c5445bc8b28cecf057537040bebd666dce6e26b06847710d34fc0df9",
+  "prompt": "找出以下数字中最大的数字：5、10、3、7",
+  "messages": [
+    {
+      "role": "user",
+      "content": "找出以下数字中最大的数字：5、10、3、7"
+    }
+  ],
+  "answer": "在这些数字中，最大的数字是10。",
+  "truncated": false,
+  "input_tokens": 44,
+  "output_tokens": 12
+}

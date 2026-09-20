@@ -1,0 +1,17 @@
+{
+  "status": "PASS_INDEPENDENT_SAVED_TOKEN_AUDIT",
+  "records": 1580,
+  "assistant_turns": 1599,
+  "supervised_tokens": 94298,
+  "config_correction_changed_token_rows": false,
+  "historical_linux_token_rows_matching": 1580,
+  "historical_comparison_is_not_fresh_linux_run": true,
+  "historical_token_evidence_sha256": "13046b6e88184baaf9fd05df8d1f1a80f09ce89207de4dc37270fdd82ecd2863",
+  "no_MptConfig_in_final_log": true,
+  "source_files_unchanged": true,
+  "training_output_absent": true,
+  "token_row_hashes": {
+    "train_token_rows.jsonl": "346c9067ccfeb6acb05b1ca8300876e4ad7d7056f3694c5fd20f4ad769c54055",
+    "validation_token_rows.jsonl": "583d0a5681d139c1752dfa0c718b6a32cc8dd7ff915c61e4a1832c7031f23e3c"
+  }
+}

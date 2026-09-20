@@ -1,0 +1,15 @@
+{
+  "mean_base": 3.7825,
+  "mean_lora": 3.7950000000000004,
+  "mean_gain": 0.012500000000000178,
+  "lora_wins": 12,
+  "base_hallucination_rate": 0.65,
+  "lora_hallucination_rate": 0.55,
+  "checks": {
+    "mean_gain": false,
+    "lora_wins": true,
+    "hallucination_rate": true
+  },
+  "passed": false,
+  "scoring_config_sha256": "2dfb8beef9d277a89f37e9906d9cb3157b2357777d1c64f4229740e9f65a6355"
+}

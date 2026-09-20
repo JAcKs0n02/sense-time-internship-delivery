@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "reviewer_type": "codex_review",
+  "blind_seed": 42,
+  "model_prompt_counts": {
+    "sft_only": 5,
+    "safety-v2-lr2e6-e2": 5,
+    "safety-v2-lr5e6-e2": 5,
+    "safety-v2-lr2e6-e3": 5
+  },
+  "model_weighted_means": {
+    "sft_only": 3.58,
+    "safety-v2-lr2e6-e2": 3.505,
+    "safety-v2-lr5e6-e2": 3.505,
+    "safety-v2-lr2e6-e3": 3.485
+  },
+  "interpretation": "Five development prompts provide descriptive evidence only."
+}

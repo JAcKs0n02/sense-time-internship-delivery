@@ -1,0 +1,472 @@
+[
+  {
+    "subject": "ceval-computer_architecture",
+    "row_index": 16,
+    "question": "以下是中国关于计算机组成考试的单项选择题，请选出其中的正确答案。\n执行for循环时，需要传送循环次数值给某专用寄存器，一般使用的寻址方式是____。\nA. 立即寻址\nB. 直接寻址\nC. 基址寻址\nD. 相对寻址\n答案: \n",
+    "gold": "A",
+    "before_raw": "直接寻址",
+    "after_raw": "A",
+    "before_option": "",
+    "after_option": "A"
+  },
+  {
+    "subject": "ceval-college_programming",
+    "row_index": 29,
+    "question": "以下是中国关于大学编程考试的单项选择题，请选出其中的正确答案。\n假定AB为一个类，r2是AB类的对象，执行“AB r1=3;”时将自动调用该类的____\nA. 带一个整型参数的构造函数\nB. 无参构造函数\nC. 赋值运算符重载函数\nD. 拷贝构造函数\n答案: \n",
+    "gold": "A",
+    "before_raw": "D",
+    "after_raw": "A",
+    "before_option": "D",
+    "after_option": "A"
+  },
+  {
+    "subject": "ceval-college_physics",
+    "row_index": 16,
+    "question": "以下是中国关于大学物理考试的单项选择题，请选出其中的正确答案。\n把一平凸透镜放在平玻璃上，构成牛顿环装置．当平凸透镜慢慢地向上平移时，由反射光形成的牛顿环____\nA. 向中心收缩，条纹间隔变小\nB. 向中心收缩，环心呈明暗交替变化\nC. 向外扩张，环心呈明暗交替变化\nD. 向外扩张，条纹间隔变大\n答案: \n",
+    "gold": "B",
+    "before_raw": "B",
+    "after_raw": "A",
+    "before_option": "B",
+    "after_option": "A"
+  },
+  {
+    "subject": "ceval-discrete_mathematics",
+    "row_index": 3,
+    "question": "以下是中国关于离散数学考试的单项选择题，请选出其中的正确答案。\n下列说法错误的是____\nA. 若简单图每个节点的度大于等于$\\frac{n}{2}$,则$G$有$H$回路\nB. 简单图$G$存在$H$回路的充要条件是其闭合图存在$H$回路\nC. 简单图$G$的任意结点$v_i$，$v_j$之间恒有$d(v_{j})+d(v_{j})\\geq n{-}1$， 则$G$存在$H$回路\nD. 简单图的闭合图唯一\n答案: \n",
+    "gold": "C",
+    "before_raw": "B",
+    "after_raw": "A",
+    "before_option": "B",
+    "after_option": "A"
+  },
+  {
+    "subject": "ceval-electrical_engineer",
+    "row_index": 9,
+    "question": "以下是中国关于注册电气工程师考试的单项选择题，请选出其中的正确答案。\n用户冲击负荷引起的系统频率变动一般不得超过____。\nA. ±0.5Hz\nB. ±0.4Hz\nC. ±0.3Hz\nD. ±0.2Hz\n答案: \n",
+    "gold": "D",
+    "before_raw": "D",
+    "after_raw": "A",
+    "before_option": "D",
+    "after_option": "A"
+  },
+  {
+    "subject": "ceval-electrical_engineer",
+    "row_index": 22,
+    "question": "以下是中国关于注册电气工程师考试的单项选择题，请选出其中的正确答案。\n三级负荷对供电的要求是____。\nA. 无特殊要求\nB. 由两路低压电源供电\nC. 由两路高压电源供电\nD. 由一回6kV及以上专用架空线供电\n答案: \n",
+    "gold": "A",
+    "before_raw": "D",
+    "after_raw": "B",
+    "before_option": "D",
+    "after_option": "B"
+  },
+  {
+    "subject": "ceval-high_school_physics",
+    "row_index": 2,
+    "question": "以下是中国关于高中物理考试的单项选择题，请选出其中的正确答案。\n小船在静水中的速度是4m/s，一条河宽120m，河水流速为5m/s，下列说法正确的是____\nA. 小船在河中运动的最大速度是9m/s\nB. 小船渡河的最短时间是24s\nC. 小船能到达河的正对岸\nD. 小船渡河的最小位移是200m\n答案: \n",
+    "gold": "A",
+    "before_raw": "B",
+    "after_raw": "C",
+    "before_option": "B",
+    "after_option": "C"
+  },
+  {
+    "subject": "ceval-high_school_physics",
+    "row_index": 5,
+    "question": "以下是中国关于高中物理考试的单项选择题，请选出其中的正确答案。\n当你从商店买回一只标有“220V，100W”字样的白炽灯后，直接用多用电表测量白炽灯的电阻值，关于测量结果，以下说法正确的选项是____\nA. 测量值等于$484\\Omega$\nB. 测量值小于$484\\Omega$\nC. 测量值大于$484\\Omega$\nD. 无法判断测量值与$484\\Omega$之间的大小关系\n答案: \n",
+    "gold": "B",
+    "before_raw": "A",
+    "after_raw": "C",
+    "before_option": "A",
+    "after_option": "C"
+  },
+  {
+    "subject": "ceval-civil_servant",
+    "row_index": 8,
+    "question": "以下是中国关于公务员考试的单项选择题，请选出其中的正确答案。\n一天，一个农民的驴子掉到枯井里，那可怜的驴子在井里凄凉地惨叫了几个钟头，农民亦急得团团转，就是毫无办法把它救起来，最后，他断然认定：驴子已老了，这口枯井也该填起来，不值得花精力去救驴子。他请来所有邻居帮他填井。大家抓起铁锹，开始往井里填土。驴子很快意识到发生了什么事，起初，它恐慌地大哭，不一会儿，居然安静下来。人们忍不住往井里看，奇迹发生了。每一铲砸到驴子背上的土，它都作了出人意料的处理：迅速抖落一身尘土，然后狠狠地用脚踩紧。这样，没过多久，驴子竟然自己把自己升了起来，到了井口，它纵身一跳，平安地跑开了，在场的人均惊诧不已。 这段文字告诉我们的道理是____。\nA. 人生中的每一个困难都是通往成功的垫脚石\nB. 换一种思维常常能够产生意想不到的效果\nC. 冷静思考是克服困难的首要条件\nD. 求人不如求己，很多时候，自己才是自己最大的救星\n答案: \n",
+    "gold": "A",
+    "before_raw": "D",
+    "after_raw": "B",
+    "before_option": "D",
+    "after_option": "B"
+  },
+  {
+    "subject": "ceval-civil_servant",
+    "row_index": 24,
+    "question": "以下是中国关于公务员考试的单项选择题，请选出其中的正确答案。\n一特殊跑道为正三角形，某运动员用6米／秒的速度跑一圈耗时50秒，问该运动员提速10％后从跑道的某个顶点横穿跑道跑向对边，问最少约需多少秒可踏足对边?(四舍五入到个位)____\nA. 9秒\nB. 10秒\nC. 13秒\nD. 15秒\n答案: \n",
+    "gold": "C",
+    "before_raw": "C",
+    "after_raw": "A",
+    "before_option": "C",
+    "after_option": "A"
+  },
+  {
+    "subject": "ceval-high_school_chemistry",
+    "row_index": 2,
+    "question": "以下是中国关于高中化学考试的单项选择题，请选出其中的正确答案。\nX、Y、Z、W、R是5种短周期元素，其原子序数依次增大。X是周期表中原子半径最小的元素，Y原子最外层电子数是次外层电子数的3倍，Z、W、R处于同一周期，R与Y处于同一主族，Z、W原子的核外电子数之和与Y、R原子的核外电子数之和相等。下列说法正确的是____\nA. 元素Y、Z、W具有相同电子层结构的离子，其半径依次增大\nB. 元素X不能与元素Y形成化合物$X_2Y_2$\nC. 元素Y、R分别与元素X形成的化合物的热稳定性：$X_mY > X_mR$\nD. 元素W、R的最高价氧化物的水化物都是强酸\n答案: \n",
+    "gold": "C",
+    "before_raw": "C",
+    "after_raw": "A",
+    "before_option": "C",
+    "after_option": "A"
+  },
+  {
+    "subject": "ceval-high_school_chemistry",
+    "row_index": 7,
+    "question": "以下是中国关于高中化学考试的单项选择题，请选出其中的正确答案。\n某有机物在氧气中燃烧生成水蒸气和二氧化碳的物质的量之比为 1：1，由此得出的结论是____\nA. 该有机物分子中 C：H：O 原子个数比为 1：2：3\nB. 该有机物分子中 C：H 原子个数比为 1：1\nC. 该有机物中必定含氧\nD. 无法判断该有机物中是否含氧\n答案: \n",
+    "gold": "D",
+    "before_raw": "D",
+    "after_raw": "B",
+    "before_option": "D",
+    "after_option": "B"
+  },
+  {
+    "subject": "ceval-high_school_chemistry",
+    "row_index": 8,
+    "question": "以下是中国关于高中化学考试的单项选择题，请选出其中的正确答案。\n主族元素W、X、Y、Z的原子序数依次增加，且均不大于20。W、X、Y最外层电子数之和为11，W与Y同族且都是复合化肥的营养元素，Z的氢化物遇水可产生最轻的气体。下列说法正确的____\nA. 常温常压下X的单质为气态\nB. 简单气态氢化物的热稳定性：Y>W\nC. Z的氢化物含有共价键\nD. 简单离子半径：W>X\n答案: \n",
+    "gold": "D",
+    "before_raw": "A",
+    "after_raw": "C",
+    "before_option": "A",
+    "after_option": "C"
+  },
+  {
+    "subject": "ceval-plant_protection",
+    "row_index": 14,
+    "question": "以下是中国关于植物保护考试的单项选择题，请选出其中的正确答案。\n根尖中根的干细胞群是指____。\nA. 根冠\nB. 静止中心\nC. 分生组织\nD. 根毛\n答案: \n",
+    "gold": "B",
+    "before_raw": "A",
+    "after_raw": "C",
+    "before_option": "A",
+    "after_option": "C"
+  },
+  {
+    "subject": "ceval-plant_protection",
+    "row_index": 17,
+    "question": "以下是中国关于植物保护考试的单项选择题，请选出其中的正确答案。\n下列哪种元素的缺素症表现为植物叶尖积累过多的脲，严重出现坏死?____\nA. Ni\nB. Mn\nC. Fe\nD. Ca\n答案: \n",
+    "gold": "A",
+    "before_raw": "A",
+    "after_raw": "B",
+    "before_option": "A",
+    "after_option": "B"
+  },
+  {
+    "subject": "ceval-middle_school_biology",
+    "row_index": 15,
+    "question": "以下是中国关于初中生物考试的单项选择题，请选出其中的正确答案。\n果酒的制作需要____\nA. 酵母菌\nB. 乳酸菌\nC. 霉菌\nD. 醋酸菌\n答案: \n",
+    "gold": "A",
+    "before_raw": "A",
+    "after_raw": "C",
+    "before_option": "A",
+    "after_option": "C"
+  },
+  {
+    "subject": "ceval-middle_school_biology",
+    "row_index": 20,
+    "question": "以下是中国关于初中生物考试的单项选择题，请选出其中的正确答案。\n下列有关生命的起源和进化的叙述，不正确的是____\nA. 生命起源于原始陆地\nB. 化石是研究生物进化的最直接证据\nC. 米勒实验说明原始地球条件下无机小分子形成有机小分子是可能的\nD. 原始生命诞生的标志是能从外界获取营养并排出代谢废物，能进行生长和繁殖等\n答案: \n",
+    "gold": "A",
+    "before_raw": "A",
+    "after_raw": "D",
+    "before_option": "A",
+    "after_option": "D"
+  },
+  {
+    "subject": "ceval-clinical_medicine",
+    "row_index": 13,
+    "question": "以下是中国关于临床医学考试的单项选择题，请选出其中的正确答案。\n女性，29岁，因牙龈渗血伴低热1周入院，实验室检查血常规：白细胞11．3×10^9 ／L、红细胞2．6×10^12 ／L、 血红蛋白68g／L、血小板30×10^9 ／L，骨髓穿刺结果提示急性单核细胞白血病(M5)，以下哪个体征最少见____\nA. 牙龈肿胀\nB. 胸骨压痛\nC. 肝辟肿大\nD. 巩膜黄染\n答案: \n",
+    "gold": "D",
+    "before_raw": "D",
+    "after_raw": "C",
+    "before_option": "D",
+    "after_option": "C"
+  },
+  {
+    "subject": "ceval-clinical_medicine",
+    "row_index": 20,
+    "question": "以下是中国关于临床医学考试的单项选择题，请选出其中的正确答案。\n急性粒细胞性白血病时，瘤细胞在骨膜下浸润，聚集成肿块，称为____\nA. 棕色瘤\nB. 黄色瘤\nC. 绿色瘤\nD. Wilms瘤\n答案: \n",
+    "gold": "C",
+    "before_raw": "A",
+    "after_raw": "C",
+    "before_option": "A",
+    "after_option": "C"
+  },
+  {
+    "subject": "ceval-urban_and_rural_planner",
+    "row_index": 34,
+    "question": "以下是中国关于注册城乡规划师考试的单项选择题，请选出其中的正确答案。\n在规划实施过程中由城乡规划主管部门核发的证书不包括____。\nA. 建设用地规划许可证\nB. 建设工程规划许可证\nC. 乡村建设规划许可证\nD. 建设工程施工许可证\n答案: \n",
+    "gold": "D",
+    "before_raw": "D",
+    "after_raw": "C",
+    "before_option": "D",
+    "after_option": "C"
+  },
+  {
+    "subject": "ceval-middle_school_chemistry",
+    "row_index": 11,
+    "question": "以下是中国关于初中化学考试的单项选择题，请选出其中的正确答案。\n将100mL水与100mL酒精混合，所得溶液体积小于200mL。下列对此现象的解释最合理的是____\nA. 分子是由原子构成的\nB. 分子的质量和体积都是很小的\nC. 分子是不断运动的\nD. 分子间是有间隔的\n答案: \n",
+    "gold": "D",
+    "before_raw": "C",
+    "after_raw": "D",
+    "before_option": "C",
+    "after_option": "D"
+  },
+  {
+    "subject": "ceval-veterinary_medicine",
+    "row_index": 8,
+    "question": "以下是中国关于兽医学考试的单项选择题，请选出其中的正确答案。\n具5 \" -CpGpGpTpAp-3 \" 顺序的单链DNA能与下列____RNA杂交\nA. 5 \" -GpCpCpApTp3 \"\nB. 5 \" -GpCpCpUp-3 \"\nC. 5 \" -UpApCpCpGp-3 \"\nD. 5 \" -TpApCpGp-3 \"\n答案: \n",
+    "gold": "C",
+    "before_raw": "C",
+    "after_raw": "A",
+    "before_option": "C",
+    "after_option": "A"
+  },
+  {
+    "subject": "ceval-veterinary_medicine",
+    "row_index": 11,
+    "question": "以下是中国关于兽医学考试的单项选择题，请选出其中的正确答案。\n核酸变性后，可发生的效应是____。\nA. 减色效应\nB. 增色效应\nC. 失去对紫外线的吸收能力\nD. 最大吸收峰波长发生转移\n答案: \n",
+    "gold": "B",
+    "before_raw": "C",
+    "after_raw": "A",
+    "before_option": "C",
+    "after_option": "A"
+  },
+  {
+    "subject": "ceval-business_administration",
+    "row_index": 2,
+    "question": "以下是中国关于工商管理考试的单项选择题，请选出其中的正确答案。\n当所在行业处于寿命周期的成熟期时，大企业应采取的竞争战略是____。\nA. 集中化战略\nB. 成本集聚战略\nC. 稳定型战略\nD. 差异化战略\n答案: \n",
+    "gold": "D",
+    "before_raw": "C",
+    "after_raw": "A",
+    "before_option": "C",
+    "after_option": "A"
+  },
+  {
+    "subject": "ceval-teacher_qualification",
+    "row_index": 11,
+    "question": "以下是中国关于教师资格考试的单项选择题，请选出其中的正确答案。\n儿童坚持性发生明显质变的年龄约在____\nA. 3～4岁\nB. 4～5岁\nC. 5～6岁\nD. 6岁以后\n答案: \n",
+    "gold": "B",
+    "before_raw": "C",
+    "after_raw": "D",
+    "before_option": "C",
+    "after_option": "D"
+  },
+  {
+    "subject": "ceval-legal_professional",
+    "row_index": 19,
+    "question": "以下是中国关于法律职业资格考试的单项选择题，请选出其中的正确答案。\n甲致乙重伤，收集到下列证据，其中既属于直接证据，又属于传闻证据的有?____\nA. 有被害人血迹的匕首照片\nB. 证人看到甲身上有血迹，从现场走出的证言\nC. 匕首上留下的指印与甲的指纹同一的鉴定意见\nD. 丙听说甲伤害乙过程的陈述\n答案: \n",
+    "gold": "D",
+    "before_raw": "ABC",
+    "after_raw": "B",
+    "before_option": "A",
+    "after_option": "B"
+  },
+  {
+    "subject": "ceval-logic",
+    "row_index": 6,
+    "question": "以下是中国关于逻辑学考试的单项选择题，请选出其中的正确答案。\n李老师说“并非丽丽考上了清华大学并且明明没有考上南京大学。”如果李老师说的是为真，则以下哪项可能为真?____Ⅰ．丽丽考上了清华大学，明明考上了南京大学。Ⅱ．丽丽没考上清华大学，明明没考上南京大学。Ⅲ．丽丽没考上清华大学，明明考上了南京大学。Ⅳ．丽丽考上了清华大学，明明没有考上南京大学。\nA. 仅Ⅰ和Ⅱ。\nB. 仅Ⅱ和Ⅲ。\nC. 仅Ⅱ、Ⅲ和Ⅳ。\nD. 仅Ⅰ、Ⅱ和Ⅲ。\n答案: \n",
+    "gold": "D",
+    "before_raw": "C",
+    "after_raw": "D",
+    "before_option": "C",
+    "after_option": "D"
+  },
+  {
+    "subject": "ceval-logic",
+    "row_index": 20,
+    "question": "以下是中国关于逻辑学考试的单项选择题，请选出其中的正确答案。\n甲被指控犯罪，乙是此项起诉的主要证人。关于这个案件，有如下断定：(1)基于乙提供的有关证词，就可以宣判甲有罪。(2)乙的证词说明他自己实际上也参加了甲的犯罪活动。(3)甲被指控的犯罪活动只可能由一个人独立完成。如果以上断定都是真的，则以下哪项最可能是审判的结果?____\nA. 甲和乙都被宣判在乙起诉的案件中有罪。\nB. 除了在乙已被指控的案件中，甲和乙还被宣判为在其他案件中有罪。\nC. 甲被宣判为有罪，而乙被宣判为无罪。\nD. 甲被宣判为无罪。\n答案: \n",
+    "gold": "D",
+    "before_raw": "A",
+    "after_raw": "C",
+    "before_option": "A",
+    "after_option": "C"
+  },
+  {
+    "subject": "ceval-law",
+    "row_index": 14,
+    "question": "以下是中国关于法学考试的单项选择题，请选出其中的正确答案。\n下列选项中，属于无因行为的是____。\nA. 出售房屋\nB. 汇票的出票\nC. 赠与电脑\nD. 继承遗产\n答案: \n",
+    "gold": "B",
+    "before_raw": "C",
+    "after_raw": "A",
+    "before_option": "C",
+    "after_option": "A"
+  },
+  {
+    "subject": "ceval-high_school_chinese",
+    "row_index": 1,
+    "question": "以下是中国关于高中语文考试的单项选择题，请选出其中的正确答案。\n下列各句中，没有语病的一句是____\nA. 某些吃惯“大锅饭”的职工对劳动人为制度的革新，切实其实会感到不适应。\nB. “全面建设小康社会”的目标，对于我们感到十分亲热；它已经成为全党天下人民在新世纪中奋斗的行动纲领。\nC. 日本辅弼前去“靖国神社”为东条英机等战争罪犯招魂的反动行径，对于曾饱受侵略战争祸害的中国人民和其他亚洲国家的人民是不克不及容忍的。\nD. 世界重量级拳击冠军易斯接受了女皇颁发的皇家勋章，以表彰他为英国拳击事业做出的贡献。\n答案: \n",
+    "gold": "A",
+    "before_raw": "A",
+    "after_raw": "C",
+    "before_option": "A",
+    "after_option": "C"
+  },
+  {
+    "subject": "ceval-high_school_chinese",
+    "row_index": 3,
+    "question": "以下是中国关于高中语文考试的单项选择题，请选出其中的正确答案。\n下列各句中，没有语病的一句是____\nA. 记者从新闻发布会上获悉，10月26日，辽宁省锦州市黑山县出现禽流感疫情已得到有效控制。\nB. 王越洲和姚佳琪赶赴航天城，他们将从航天员的手中接过搭乘“神舟六号”进行太空之旅的自己的画作，并得到纪念证书。\nC. 不管《泰晤士报》这个排行榜的权威程度颇受国人质疑，但据专家称，排行榜是能够说明一些问题的。\nD. 进入乌镇，信步于幽深的街巷中，你就会觉得自己好像浏览着一部关于江南水乡文化的线装书。\n答案: \n",
+    "gold": "D",
+    "before_raw": "C",
+    "after_raw": "A",
+    "before_option": "C",
+    "after_option": "A"
+  },
+  {
+    "subject": "ceval-high_school_chinese",
+    "row_index": 6,
+    "question": "以下是中国关于高中语文考试的单项选择题，请选出其中的正确答案。\n下列各句标点符号使用合乎规范的一项是____\nA. 对李清照的诗，比之那“寻寻觅觅，冷冷清清，凄凄惨惨戚戚”的哀怨，我倒更喜欢她的“生当作人杰，死亦为鬼雄”的刚烈。\nB. 昨日，武汉工业学院三名学生宣布：他们经过连续奋战，已经找到了三种简便快速检测奶粉中是否含有三聚氰胺的办法，可见普通市民也可以自己动手检测奶粉中有无三聚氰胺。\nC. 为给地铁2号线和4号线让路，武汉市最大的广场——洪山广场将被拆除重建的消息传出后，许多人都非常关心未来的广场将怎么建？那里的几百株树木将怎么办？\nD. “绿动未来2008”环保方案评选活动开展以来，大赛组委会征集到高质量参赛方案367份，内容涉及新能源、新材料的开发与利用、发展绿色经济、环境保护和生态治理新技术等诸多方面。\n答案: \n",
+    "gold": "A",
+    "before_raw": "C",
+    "after_raw": "A",
+    "before_option": "C",
+    "after_option": "A"
+  },
+  {
+    "subject": "ceval-high_school_chinese",
+    "row_index": 7,
+    "question": "以下是中国关于高中语文考试的单项选择题，请选出其中的正确答案。\n下列各句中，没有语病、句意明确的一项是____\nA. 近年来骑马爱好者剧增，使得赛马运动发展迅速，相应的，一些骑马俱乐部也应运而生。\nB. 他饰演了一个英雄人物，观众被深深打动了，说这是我们的偶像。\nC. 在引进竞争机制的情况下，如果还想捧着“铁饭碗”不放，那就是一厢情愿。\nD. 艺术教育无论在德育、智育，在人格的完善、性情的陶冶等方面都是教育行为中的一个重要组成部分。\n答案: \n",
+    "gold": "C",
+    "before_raw": "A",
+    "after_raw": "D",
+    "before_option": "A",
+    "after_option": "D"
+  },
+  {
+    "subject": "ceval-chinese_language_and_literature",
+    "row_index": 3,
+    "question": "以下是中国关于中国语言文学考试的单项选择题，请选出其中的正确答案。\n《史记·高祖本纪》：“今则来，沛公恐不得有此。”句中“则”的用法是____。\nA. 表示承接\nB. 表示转折\nC. 表示假设\nD. 表示因果\n答案: \n",
+    "gold": "C",
+    "before_raw": "C",
+    "after_raw": "A",
+    "before_option": "C",
+    "after_option": "A"
+  },
+  {
+    "subject": "ceval-chinese_language_and_literature",
+    "row_index": 8,
+    "question": "以下是中国关于中国语言文学考试的单项选择题，请选出其中的正确答案。\n[p][p‘][b][m]四个音素的区别主要是____。\nA. 清浊\nB. 发音方法\nC. 发音部位\nD. 送气与否\n答案: \n",
+    "gold": "A",
+    "before_raw": "A",
+    "after_raw": "D",
+    "before_option": "A",
+    "after_option": "D"
+  },
+  {
+    "subject": "ceval-art_studies",
+    "row_index": 31,
+    "question": "以下是中国关于艺术学考试的单项选择题，请选出其中的正确答案。\n贝多芬共有____部交响曲。\nA. 5\nB. 7\nC. 9\nD. 11\n答案: \n",
+    "gold": "C",
+    "before_raw": "C",
+    "after_raw": "D",
+    "before_option": "C",
+    "after_option": "D"
+  },
+  {
+    "subject": "ceval-fire_engineer",
+    "row_index": 7,
+    "question": "以下是中国关于注册消防工程师考试的单项选择题，请选出其中的正确答案。\n某应急避难场所安装消防应急照明和疏散指示系统等消防设施，对于面积大于____的防火分区应单独设置应急照明配电箱或应急照明分配电装置。\nA. 1000m^2\nB. 2000m^2\nC. 2500m^2\nD. 3000m^2\n答案: \n",
+    "gold": "B",
+    "before_raw": "D",
+    "after_raw": "B",
+    "before_option": "D",
+    "after_option": "B"
+  },
+  {
+    "subject": "ceval-fire_engineer",
+    "row_index": 11,
+    "question": "以下是中国关于注册消防工程师考试的单项选择题，请选出其中的正确答案。\n下列不属于报警受理系统软件检查内容的是____。\nA. 用户信息传输装置模拟手动报警信息，经报警受理系统受理确认以后，检查火警信息终端能否接收、显示、记录及查询监控中心报警受理系统发送的火灾报警信息\nB. 用户信息传输装置模拟报警，检查报警受理系统能否对火灾报警信息进行确认和记录归档\nC. 用户信息传输装置模拟报警，检查报警受理系统能否接收、显示、记录及查询用户信息传输装置发送的火灾报警信息、建筑消防设施运行状态信息\nD. 用户信息传输装置模拟手动报警信息，检查报警受理系统能否将信息上报至火警信息终端\n答案: \n",
+    "gold": "A",
+    "before_raw": "D",
+    "after_raw": "B",
+    "before_option": "D",
+    "after_option": "B"
+  },
+  {
+    "subject": "ceval-fire_engineer",
+    "row_index": 17,
+    "question": "以下是中国关于注册消防工程师考试的单项选择题，请选出其中的正确答案。\n下列设施中，不属于消防车取水用的设施是____。\nA. 市政消火栓\nB. 水泵接合器\nC. 消防水池取水口\nD. 消防水鹤\n答案: \n",
+    "gold": "B",
+    "before_raw": "A",
+    "after_raw": "D",
+    "before_option": "A",
+    "after_option": "D"
+  },
+  {
+    "subject": "ceval-fire_engineer",
+    "row_index": 25,
+    "question": "以下是中国关于注册消防工程师考试的单项选择题，请选出其中的正确答案。\n下列几种常见的易燃或可燃液体中，火灾危险性最大的是____。\nA. 甲醇\nB. 酒精\nC. 丙酮\nD. 苯\n答案: \n",
+    "gold": "C",
+    "before_raw": "D",
+    "after_raw": "A",
+    "before_option": "D",
+    "after_option": "A"
+  },
+  {
+    "subject": "ceval-environmental_impact_assessment_engineer",
+    "row_index": 1,
+    "question": "以下是中国关于环境影响评价工程师考试的单项选择题，请选出其中的正确答案。\n根据《建设项目环境风险评价技术导则》(HJ169—2018)，建设项目环境风险潜势划分为____级。\nA. Ⅰ、Ⅱ、Ⅲ、Ⅳ、Ⅴ\nB. Ⅰ、Ⅱ、Ⅲ、ⅣV/Ⅳ+\nC. Ⅰ、Ⅱ、Ⅲ、Ⅳ\nD. Ⅰ、Ⅱ、Ⅲ\n答案: \n",
+    "gold": "B",
+    "before_raw": "C",
+    "after_raw": "A",
+    "before_option": "C",
+    "after_option": "A"
+  },
+  {
+    "subject": "ceval-environmental_impact_assessment_engineer",
+    "row_index": 17,
+    "question": "以下是中国关于环境影响评价工程师考试的单项选择题，请选出其中的正确答案。\n根据《污水综合排放标准》(GB8978—1996)，为判定下列污染物是否达标，可在排污单位总排放口采样的是____。\nA. 苯并[a]芘\nB. 六价铬\nC. 总铜\nD. 总镉\n答案: \n",
+    "gold": "C",
+    "before_raw": "B",
+    "after_raw": "A",
+    "before_option": "B",
+    "after_option": "A"
+  },
+  {
+    "subject": "ceval-environmental_impact_assessment_engineer",
+    "row_index": 27,
+    "question": "以下是中国关于环境影响评价工程师考试的单项选择题，请选出其中的正确答案。\n某自然景观距拟建高速公路的最小距离为1700m，按“相对距离”单项指标判断该景观的“敏感程度”为____。\nA. 极敏感\nB. 中等敏感\nC. 不敏感\nD. 背景\n答案: \n",
+    "gold": "D",
+    "before_raw": "B",
+    "after_raw": "A",
+    "before_option": "B",
+    "after_option": "A"
+  },
+  {
+    "subject": "ceval-tax_accountant",
+    "row_index": 12,
+    "question": "以下是中国关于税务师考试的单项选择题，请选出其中的正确答案。\n甲公司为工业企业，属于增值税一般纳税人。2019年取得主营业务收入为2000万元，本期发生现金折扣10万元，增值税销项税额为260万元；应收账款账户期初余额为600万元，期末余额为900万元，坏账准备的期初余额为10万元，期末余额为30万元；预收账款账户期初余额为100万元，期末余额为20万元；本期收到存货抵债减少应收账款40万元，本期发生不附追索权票据贴现利息5万元。假定不考虑其他因素，甲公司2019年度现金流量表中“销售商品、提供劳务收到的现金”项目的金额为____万元。\nA. 1825\nB. 1855\nC. 1860\nD. 1880\n答案: \n",
+    "gold": "A",
+    "before_raw": "B",
+    "after_raw": "A",
+    "before_option": "B",
+    "after_option": "A"
+  },
+  {
+    "subject": "ceval-tax_accountant",
+    "row_index": 19,
+    "question": "以下是中国关于税务师考试的单项选择题，请选出其中的正确答案。\n下列有关或有事项的表述中，正确的是____。\nA. 清偿因或有事项而确认的负债所需支出全部或部分预期由第三方补偿时，补偿金额在很可能收到时才能作为资产单独确认\nB. 对于或有事项既要确认或有负债，也要确认或有资产\nC. 对固定资产计提折旧不属于或有事项\nD. 或有事项应确认为预计负债\n答案: \n",
+    "gold": "C",
+    "before_raw": "D",
+    "after_raw": "A",
+    "before_option": "D",
+    "after_option": "A"
+  },
+  {
+    "subject": "ceval-tax_accountant",
+    "row_index": 38,
+    "question": "以下是中国关于税务师考试的单项选择题，请选出其中的正确答案。\n下列支出不能作为长期待摊费用的是____。\nA. 固定资产的大修理支出\nB. 租入固定资产的改建支出\nC. 外购房屋发生的装修费用\nD. 已足额提取折旧的固定资产的改建支出\n答案: \n",
+    "gold": "C",
+    "before_raw": "C",
+    "after_raw": "D",
+    "before_option": "C",
+    "after_option": "D"
+  },
+  {
+    "subject": "ceval-tax_accountant",
+    "row_index": 48,
+    "question": "以下是中国关于税务师考试的单项选择题，请选出其中的正确答案。\n某企业为增值税一般纳税人，2021年6月从某花木栽培公司手中购入花卉1100盆，取得的专用发票上注明价款为110580元。该企业将1/4用于赠送给某节日庆典，其余全部卖给客户取得产品不含税销售额705000元。则该企业当月应纳增值税税额为____元。\nA. 59442\nB. 91236.2\nC. 107824.6\nD. 74647.8\n答案: \n",
+    "gold": "D",
+    "before_raw": "B",
+    "after_raw": "A",
+    "before_option": "B",
+    "after_option": "A"
+  }
+]

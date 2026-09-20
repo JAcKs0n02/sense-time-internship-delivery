@@ -1,0 +1,16 @@
+{
+  "time_epoch": 1789774689.856534,
+  "resume_bytes": 2492709659,
+  "previous_workers": 4,
+  "current_workers": 12,
+  "range_chunk_bytes": 8388608,
+  "reason": "Increase bounded network concurrency; retain partial files; require complete final SHA256",
+  "final_tuning": {
+    "time_epoch": 1789775605.017468,
+    "outer_workers": 6,
+    "ranges_per_file": 2,
+    "maximum_range_requests": 12,
+    "write_order": "ordered contiguous validated 8MiB chunks",
+    "final_sha_required": true
+  }
+}

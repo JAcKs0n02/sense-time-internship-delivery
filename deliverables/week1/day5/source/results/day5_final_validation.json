@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "identity_records_before": 8,
+  "identity_records_each_run": 8,
+  "before_passed": 0,
+  "run1_passed": 6,
+  "run2_passed": 7,
+  "selected_run": "run2",
+  "training_exit_code": 0,
+  "train_loss": 1.074888162450357,
+  "validated_files": 18,
+  "file_sha256": {
+    "configs/qwen25_7b_identity_qlora.yaml": "607fc3118c8033f60c510f0658459c39e92726d22ebbffbd0285601e64ae82a8",
+    "configs/qwen25_7b_identity_qlora_run2.yaml": "35bd6f0a8e75318f8d31f1f5c0abbc3da3c76666e9a312b7daeff7bb380f117d",
+    "source/prompts/identity_prompts.json": "3fb8f4c486021ec8073ff56139b490dddcbb54b5c496f8925b1fbacf91b6bc22",
+    "source/results/day5_preflight.txt": "5c356e105026a3b6906376ebd940ec12fe535723b14bffcc056d503876f56e4b",
+    "source/results/day5_train.txt": "2635d27fbe8d6e744b85fee6fad8088816c89719b3d5d629c8698f1dface9133",
+    "source/results/day5_train_run2.txt": "3d8358118f8357e97e239accb2856fde6c4a18299e920d0606364f2f6b301180",
+    "source/results/day5_training_metrics.json": "01bf3cfbcc4a7edbe3a78af8c7fb9cf6d0ad78244ba1ca30356a2e92ecec20de",
+    "source/results/day5_adapter_inventory.txt": "87f3e9077f327fb50442b3e2689fb9a13064e2a5f78aa967e30d80d6507f4327",
+    "source/results/day5_adapter_inventory_run2.txt": "bce9bbb2c7bd405389a45831b4a17734f9776866960db5a207c3f8df291d012c",
+    "source/results/identity_before_training.jsonl": "18fffeb739905198a92783ee87d20e82e21ceb689bf1484cf37aa946ae8b7f1c",
+    "source/results/identity_after_run1.jsonl": "8bec66f67bbf5f780144c4555edb0e107e2bd16324756e7f343f21529b62e27d",
+    "source/results/identity_after_run2.jsonl": "6563d16ff73a1666f0bfe823f5f4bfbb9ba816517ad14227cad3aa6d37ea3440",
+    "source/results/identity_after_training.jsonl": "6563d16ff73a1666f0bfe823f5f4bfbb9ba816517ad14227cad3aa6d37ea3440",
+    "source/results/identity_evaluation.md": "1ed6c7c10e6121cc2425f6845ae463093c5645a628c63e1c0dcce5c0c60d4c70",
+    "source/results/day5_identity_comparison_summary.txt": "1c610c32b05fdf30b03ebe595dd07187b7f1c95074334b325130d5259e1153f0",
+    "source/results/day5_tensorboard_page_text.txt": "4e3fb3bc9acf9aedb7aeb3ba290130b7cdff0fa3cd0b92a79d1fcf7df41fae5a",
+    "evidence/training_complete.png": "9850a325a0a82559a31e82ec77c6060cfd2fe8e5e97f057fa2e7eb405ee081e4",
+    "evidence/tensorboard_loss.png": "bfcead958f47d2be52ecaf4990bd69830400533d0f3cde668685489d12053f21"
+  }
+}

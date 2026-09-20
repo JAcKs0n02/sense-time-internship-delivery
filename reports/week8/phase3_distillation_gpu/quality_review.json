@@ -1,0 +1,208 @@
+{
+  "status": "REJECTED_PENDING_DATA_CURATION",
+  "review_date": "2026-09-18",
+  "review_method": "assistant inspection of seed42 sample20 plus two complete edge prompts; deterministic code and character-count checks",
+  "generation_receipt_sha256": "2ad4c1fccc01ea807f89452a4e29a02d56fb4444aecdf58a164461a87a83cd35",
+  "targets_sha256": "9559025ad117486c41797e6c84e92a21e55f7f47ad15d329dbee81236dabedad",
+  "review_packet_sha256": "746e1c9983703a7e2c9957c4cd9d674ddc9b207d4b9e4d51c870ef9564bee704",
+  "generated": 200,
+  "complete_answers_before_quality_review": 191,
+  "truncated_excluded": 9,
+  "reviewed_sample_ids": [
+    "fa0ea895703e06ee6404f399c2c9acfdea7d2e0600d4ec78afa96a3700e181f6",
+    "025e0947d4faa83db0b8ff79f9f19c4f51d2a9f51ed338d3e851f1c8cbd62d2d",
+    "2958e8cd0b2145a4e1a4ef81d2c7816047e22267b91e939ef3558d1adf8b173b",
+    "9f7e7f432c51bd2817fc0fa6070a3c863b4047ee92d50d72a8bd57c94a192fc5",
+    "12a939e1fc22c4b5e3630c265e94867197416a6f1ce29701c10c76bd5e4216f8",
+    "51c56357656dad1173cadde44c684bc0f434f7e862e21c491ea32f2ee2c1d86f",
+    "ce00169b3fdeef53b9e297460a309aaa2f7ced13e4bf0f07a0fd10e1bb32ce5f",
+    "ea1c1776e48bcab951e2f4eb298277d121e35b7dcc86030ae5c974b122aeeb22",
+    "67bcd341c4684b8c9df0f959dac332c282985dd6ed96b7cae9075370d32b0499",
+    "b828fc7bf26d71173ffa9cb95a190575188ebc32d2ead42456415758b0c5514c",
+    "cfe542a277862ea9630a7f6cde575a89c67d5005ae491f3b92b7c77113bac2cc",
+    "c8851e537dc07700e4f97e3475a09dfdd67b043c85a62d243ab4a8afd40c89c6",
+    "504630615b4e94c8c1498a666123c41f87de99a72ced91a4f22518aa07e3678a",
+    "525b12faaf7c3e994a9dea6652c0f2cb019878928b91a88167a5425ec52764b0",
+    "e9ea15bc73f7790c2f9620ac4578702ebee29e55cea370930f1ea9eebc7f84b1",
+    "42eb22ad08615766388cf075c15c078b451d85b78b8a8cd725d8d8c920d90e4e",
+    "65c9fc52d399d7b7a2bdcdfc452ab9bdce3577721f5442b5fe7a3a3d829f0883",
+    "c7a904eacf79ad1099d740b25ebf4d18ae671e4232c941e5a0b59b8aa52afcb3",
+    "44a2ab7334c2ea1ec59db6ba124e2f261892f2af7c7623815f123bdd2488a033",
+    "797167fd417d70f194267f58ae238a8e6758dfad07b8c5f81626c2e6872ba50e",
+    "b4d8962bab697bfc8f5a37c7ee55c8b8713928f73f0f3727a0fc1d5691926ceb",
+    "c7061e4f51359272677b1d33cc98f9afcc48d59e92c4d8b6694c646eb466d335"
+  ],
+  "reviewed_count": 22,
+  "definite_rejects": 4,
+  "ambiguous_source_prompts": 1,
+  "no_obvious_issue_count": 17,
+  "unresolved_issues": [
+    {
+      "sample_id": "fa0ea895703e06ee6404f399c2c9acfdea7d2e0600d4ec78afa96a3700e181f6",
+      "review_sample_index": 0,
+      "verdict": "REJECT_FACTUAL_CLAIM",
+      "note": "把2008年民主党竞争对手写成“霍华德·戴维斯”，需要纠正；当时主要竞争对手为希拉里·克林顿。",
+      "source_url": "https://www.cbsnews.com/news/obama-clinches-dem-nomination/"
+    },
+    {
+      "sample_id": "025e0947d4faa83db0b8ff79f9f19c4f51d2a9f51ed338d3e851f1c8cbd62d2d",
+      "review_sample_index": 1,
+      "verdict": "AMBIGUOUS_SOURCE_PROMPT",
+      "note": "输入仅为一句陈述，没有翻译任务；回答自行假定要翻译成英文，不宜直接作为指令蒸馏样本。"
+    },
+    {
+      "sample_id": "9f7e7f432c51bd2817fc0fa6070a3c863b4047ee92d50d72a8bd57c94a192fc5",
+      "review_sample_index": 3,
+      "verdict": "REJECT_EXECUTION_AND_ARITHMETIC",
+      "note": "实际代码total=sum=(a,b,c)构造元组，avg=total/3抛TypeError；注释7.5也错误，(5+10+15)/3应为10。"
+    },
+    {
+      "sample_id": "cfe542a277862ea9630a7f6cde575a89c67d5005ae491f3b92b7c77113bac2cc",
+      "review_sample_index": 10,
+      "verdict": "REJECT_LENGTH_CONSTRAINT",
+      "note": "请求八个字，回答“秋风吹叶落，枝头寂无声。”去标点为10个汉字。"
+    },
+    {
+      "sample_id": "b4d8962bab697bfc8f5a37c7ee55c8b8713928f73f0f3727a0fc1d5691926ceb",
+      "review_sample_index": 20,
+      "verdict": "REJECT_LANGUAGE_CONSTRAINT",
+      "note": "要求印地语回复，类别标签中混入Non-和onic英文片段；未满足完整目标语言要求。"
+    }
+  ],
+  "notes": "191仅表示非空且未截断，不表示质量合格。存在已确认错误，禁止据此回执启动学生训练。不改写原始教师输出；下一步审核剩余169条并以可追溯筛选记录剔除问题样本，再绑定新的训练目标。不得把22条抽查的错误比例当作全量错误率。",
+  "rows": [
+    {
+      "sample_id": "fa0ea895703e06ee6404f399c2c9acfdea7d2e0600d4ec78afa96a3700e181f6",
+      "review_sample_index": 0,
+      "verdict": "REJECT_FACTUAL_CLAIM",
+      "note": "把2008年民主党竞争对手写成“霍华德·戴维斯”，需要纠正；当时主要竞争对手为希拉里·克林顿。",
+      "source_url": "https://www.cbsnews.com/news/obama-clinches-dem-nomination/"
+    },
+    {
+      "sample_id": "025e0947d4faa83db0b8ff79f9f19c4f51d2a9f51ed338d3e851f1c8cbd62d2d",
+      "review_sample_index": 1,
+      "verdict": "AMBIGUOUS_SOURCE_PROMPT",
+      "note": "输入仅为一句陈述，没有翻译任务；回答自行假定要翻译成英文，不宜直接作为指令蒸馏样本。"
+    },
+    {
+      "sample_id": "2958e8cd0b2145a4e1a4ef81d2c7816047e22267b91e939ef3558d1adf8b173b",
+      "review_sample_index": 2,
+      "verdict": "NO_OBVIOUS_ISSUE_IN_SPOT_REVIEW",
+      "note": "对照当前输入检查相关性和显式格式，未发现明显问题；不是外部事实/专业领域的全面正确性认证。"
+    },
+    {
+      "sample_id": "9f7e7f432c51bd2817fc0fa6070a3c863b4047ee92d50d72a8bd57c94a192fc5",
+      "review_sample_index": 3,
+      "verdict": "REJECT_EXECUTION_AND_ARITHMETIC",
+      "note": "实际代码total=sum=(a,b,c)构造元组，avg=total/3抛TypeError；注释7.5也错误，(5+10+15)/3应为10。"
+    },
+    {
+      "sample_id": "12a939e1fc22c4b5e3630c265e94867197416a6f1ce29701c10c76bd5e4216f8",
+      "review_sample_index": 4,
+      "verdict": "NO_OBVIOUS_ISSUE_IN_SPOT_REVIEW",
+      "note": "对照当前输入检查相关性和显式格式，未发现明显问题；不是外部事实/专业领域的全面正确性认证。"
+    },
+    {
+      "sample_id": "51c56357656dad1173cadde44c684bc0f434f7e862e21c491ea32f2ee2c1d86f",
+      "review_sample_index": 5,
+      "verdict": "NO_OBVIOUS_ISSUE_IN_SPOT_REVIEW",
+      "note": "对照当前输入检查相关性和显式格式，未发现明显问题；不是外部事实/专业领域的全面正确性认证。"
+    },
+    {
+      "sample_id": "ce00169b3fdeef53b9e297460a309aaa2f7ced13e4bf0f07a0fd10e1bb32ce5f",
+      "review_sample_index": 6,
+      "verdict": "NO_OBVIOUS_ISSUE_IN_SPOT_REVIEW",
+      "note": "对照当前输入检查相关性和显式格式，未发现明显问题；不是外部事实/专业领域的全面正确性认证。"
+    },
+    {
+      "sample_id": "ea1c1776e48bcab951e2f4eb298277d121e35b7dcc86030ae5c974b122aeeb22",
+      "review_sample_index": 7,
+      "verdict": "NO_OBVIOUS_ISSUE_IN_SPOT_REVIEW",
+      "note": "对照当前输入检查相关性和显式格式，未发现明显问题；不是外部事实/专业领域的全面正确性认证。"
+    },
+    {
+      "sample_id": "67bcd341c4684b8c9df0f959dac332c282985dd6ed96b7cae9075370d32b0499",
+      "review_sample_index": 8,
+      "verdict": "NO_OBVIOUS_ISSUE_IN_SPOT_REVIEW",
+      "note": "对照当前输入检查相关性和显式格式，未发现明显问题；不是外部事实/专业领域的全面正确性认证。"
+    },
+    {
+      "sample_id": "b828fc7bf26d71173ffa9cb95a190575188ebc32d2ead42456415758b0c5514c",
+      "review_sample_index": 9,
+      "verdict": "NO_OBVIOUS_ISSUE_IN_SPOT_REVIEW",
+      "note": "对照当前输入检查相关性和显式格式，未发现明显问题；不是外部事实/专业领域的全面正确性认证。"
+    },
+    {
+      "sample_id": "cfe542a277862ea9630a7f6cde575a89c67d5005ae491f3b92b7c77113bac2cc",
+      "review_sample_index": 10,
+      "verdict": "REJECT_LENGTH_CONSTRAINT",
+      "note": "请求八个字，回答“秋风吹叶落，枝头寂无声。”去标点为10个汉字。"
+    },
+    {
+      "sample_id": "c8851e537dc07700e4f97e3475a09dfdd67b043c85a62d243ab4a8afd40c89c6",
+      "review_sample_index": 11,
+      "verdict": "NO_OBVIOUS_ISSUE_IN_SPOT_REVIEW",
+      "note": "对照当前输入检查相关性和显式格式，未发现明显问题；不是外部事实/专业领域的全面正确性认证。"
+    },
+    {
+      "sample_id": "504630615b4e94c8c1498a666123c41f87de99a72ced91a4f22518aa07e3678a",
+      "review_sample_index": 12,
+      "verdict": "NO_OBVIOUS_ISSUE_IN_SPOT_REVIEW",
+      "note": "对照当前输入检查相关性和显式格式，未发现明显问题；不是外部事实/专业领域的全面正确性认证。"
+    },
+    {
+      "sample_id": "525b12faaf7c3e994a9dea6652c0f2cb019878928b91a88167a5425ec52764b0",
+      "review_sample_index": 13,
+      "verdict": "NO_OBVIOUS_ISSUE_IN_SPOT_REVIEW",
+      "note": "对照当前输入检查相关性和显式格式，未发现明显问题；不是外部事实/专业领域的全面正确性认证。"
+    },
+    {
+      "sample_id": "e9ea15bc73f7790c2f9620ac4578702ebee29e55cea370930f1ea9eebc7f84b1",
+      "review_sample_index": 14,
+      "verdict": "NO_OBVIOUS_ISSUE_IN_SPOT_REVIEW",
+      "note": "对照当前输入检查相关性和显式格式，未发现明显问题；不是外部事实/专业领域的全面正确性认证。"
+    },
+    {
+      "sample_id": "42eb22ad08615766388cf075c15c078b451d85b78b8a8cd725d8d8c920d90e4e",
+      "review_sample_index": 15,
+      "verdict": "NO_OBVIOUS_ISSUE_IN_SPOT_REVIEW",
+      "note": "对照当前输入检查相关性和显式格式，未发现明显问题；不是外部事实/专业领域的全面正确性认证。"
+    },
+    {
+      "sample_id": "65c9fc52d399d7b7a2bdcdfc452ab9bdce3577721f5442b5fe7a3a3d829f0883",
+      "review_sample_index": 16,
+      "verdict": "NO_OBVIOUS_ISSUE_IN_SPOT_REVIEW",
+      "note": "对照当前输入检查相关性和显式格式，未发现明显问题；不是外部事实/专业领域的全面正确性认证。"
+    },
+    {
+      "sample_id": "c7a904eacf79ad1099d740b25ebf4d18ae671e4232c941e5a0b59b8aa52afcb3",
+      "review_sample_index": 17,
+      "verdict": "NO_OBVIOUS_ISSUE_IN_SPOT_REVIEW",
+      "note": "对照当前输入检查相关性和显式格式，未发现明显问题；不是外部事实/专业领域的全面正确性认证。"
+    },
+    {
+      "sample_id": "44a2ab7334c2ea1ec59db6ba124e2f261892f2af7c7623815f123bdd2488a033",
+      "review_sample_index": 18,
+      "verdict": "NO_OBVIOUS_ISSUE_IN_SPOT_REVIEW",
+      "note": "对照当前输入检查相关性和显式格式，未发现明显问题；不是外部事实/专业领域的全面正确性认证。"
+    },
+    {
+      "sample_id": "797167fd417d70f194267f58ae238a8e6758dfad07b8c5f81626c2e6872ba50e",
+      "review_sample_index": 19,
+      "verdict": "NO_OBVIOUS_ISSUE_IN_SPOT_REVIEW",
+      "note": "对照当前输入检查相关性和显式格式，未发现明显问题；不是外部事实/专业领域的全面正确性认证。"
+    },
+    {
+      "sample_id": "b4d8962bab697bfc8f5a37c7ee55c8b8713928f73f0f3727a0fc1d5691926ceb",
+      "review_sample_index": 20,
+      "verdict": "REJECT_LANGUAGE_CONSTRAINT",
+      "note": "要求印地语回复，类别标签中混入Non-和onic英文片段；未满足完整目标语言要求。"
+    },
+    {
+      "sample_id": "c7061e4f51359272677b1d33cc98f9afcc48d59e92c4d8b6694c646eb466d335",
+      "review_sample_index": 21,
+      "verdict": "NO_OBVIOUS_ISSUE_IN_SPOT_REVIEW",
+      "note": "对照当前输入检查相关性和显式格式，未发现明显问题；不是外部事实/专业领域的全面正确性认证。"
+    }
+  ]
+}

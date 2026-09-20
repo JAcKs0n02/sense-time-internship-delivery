@@ -1,0 +1,11 @@
+{
+  "observed_at_utc": "2026-09-18T17:30:07.238895+00:00",
+  "source": "AutoDL console visible page, Codex in-app browser",
+  "instance": "be044ebe99-be706b14",
+  "machine": "320",
+  "state": "已关机",
+  "capacity": "GPU充足",
+  "data_disk_used_percent": 92.04,
+  "boot_performed": false,
+  "current_model_files_verified": false
+}

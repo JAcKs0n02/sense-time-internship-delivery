@@ -1,0 +1,25 @@
+{
+  "mode": "formal_tokenizer",
+  "tokenizer": "outputs/Week7_正式提交_20260912/02_AWQ模型单独交付",
+  "source": "/Users/yifanren/Documents/商汤科技实习/deliverables/week2/day6/source/data/formatted/week2_5k_sharegpt.jsonl",
+  "source_sha256": "96b383f5769ae9aa59d86d12b23384cbf08eb8cdb50555cfc4d3880e3a499645",
+  "seed": 42,
+  "raw_count": 5000,
+  "clean_count": 4999,
+  "rejected": 0,
+  "exact_duplicates": 1,
+  "fuzzy_duplicates": 0,
+  "train_count": 4499,
+  "validation_count": 500,
+  "split_policy": "90:10 shuffled prompt groups; integer rounding; same prompt stays together",
+  "prompt_overlap": 0,
+  "max_length": 2048,
+  "length_unit": "model_chat_template_tokens",
+  "outputs": {
+    "dataset_info.json": "31e506e1ef7460b8b390a1bbf25c193f7b2fd14ddb90278d2f04e7c1522727d4",
+    "train_alpaca.json": "c6f10afbd94f7a7db9bdf349d4b1a1fe63c7e31e468c0ee47ca3ec1bea31ea1f",
+    "train_sharegpt.json": "e67665fee4c747b2312e2e7d9b6713ae93276e873cc56e2c13ea081bc42e9c1a",
+    "validation_alpaca.json": "a479be99101ef03acfbd408454ad3b0ef186b5c0be5b4c90847ac83644619a9d",
+    "validation_sharegpt.json": "c1759898e2990b1a0202af90f059ec7186275dd9e4157ace6096adf52549fab1"
+  }
+}

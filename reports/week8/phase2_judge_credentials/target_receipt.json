@@ -1,0 +1,19 @@
+{
+  "status": "TARGET_CREDENTIAL_AND_READONLY_API_PASS",
+  "utc": "2026-09-15T23:26:03.372296+00:00",
+  "host": "autodl-container-be044ebe99-be706b14",
+  "root": "/root/autodl-tmp/week8-judge-runtime-20260916",
+  "key_file_mode": "0o600",
+  "parent_mode": "0o700",
+  "staging_key_removed": true,
+  "profile_verified": true,
+  "model_ids": [
+    "deepseek-flash",
+    "deepseek-v4-pro"
+  ],
+  "balance_cny": "9.83",
+  "read_only_api_calls": 2,
+  "paid_scoring_calls": 0,
+  "training_started": false,
+  "runtime_released": false
+}

@@ -1,0 +1,50 @@
+{
+  "status": "completed",
+  "opencompass_version": "0.5.3",
+  "instance_id": "78fb4ea487-e700080a",
+  "gpu": "NVIDIA GeForce RTX 3090 24 GB",
+  "formal_root": "/root/autodl-tmp/qwen25-week3/opencompass/formal",
+  "scheduler_exit_code": 0,
+  "formal_file_count": 729,
+  "formal_total_bytes": 59633182,
+  "formal_tree_sha256": "f2b3c49ea644e5cb71b38822528299d22612d33db3ebbc65445daaf12ff379d8",
+  "normalized_results_sha256": "8873940c6975c27973ab48ba5980ec04bdd1dbe529103e8900ca04e63a17a2b4",
+  "remote_scores_csv_sha256": "2006c0de91aa4f9a81a76487c9d5f38cc2e7531a2a491e7fd4a89d96ee12d559",
+  "local_lf_scores_csv_sha256": "ffd86555367bff8d3b9c66b39da7aa43cf50aa7f5750b66e3e5f7266053ac412",
+  "newline_normalization": "remote csv.writer CRLF normalized to repository LF; cell values unchanged",
+  "selection_changed_by_opencompass": false,
+  "smoke": {
+    "dataset": "CEval computer_network",
+    "base_score": 68.42,
+    "best_sft_score": 68.42,
+    "used_in_formal_table": false
+  },
+  "models": {
+    "base": {
+      "model_path": "/root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct",
+      "status": "completed",
+      "exit_code": 0,
+      "started_at": "2026-08-07T04:15:07.269819+00:00",
+      "ended_at": "2026-08-07T06:16:46.205799+00:00",
+      "prediction_file_count": 119,
+      "result_file_count": 119,
+      "log_path": "/root/autodl-tmp/qwen25-week3/logs/opencompass_formal_base_attempt-001.log"
+    },
+    "best_sft": {
+      "model_path": "/root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged",
+      "status": "completed",
+      "exit_code": 0,
+      "started_at": "2026-08-07T06:16:46.206380+00:00",
+      "ended_at": "2026-08-07T10:10:29.740599+00:00",
+      "prediction_file_count": 119,
+      "result_file_count": 119,
+      "log_path": "/root/autodl-tmp/qwen25-week3/logs/opencompass_formal_best_sft_attempt-001.log"
+    }
+  },
+  "coverage": {
+    "ceval_subjects": 52,
+    "ceval_questions": 1398,
+    "cmmlu_subjects": 67,
+    "cmmlu_questions": 11649
+  }
+}

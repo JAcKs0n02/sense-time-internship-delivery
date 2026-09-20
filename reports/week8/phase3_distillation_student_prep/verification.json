@@ -1,0 +1,109 @@
+{
+  "status": "INPUT_PREPARATION_VERIFIED_GPU_TRAINING_NOT_STARTED",
+  "created_utc": "2026-09-18T19:30:21.691227+00:00",
+  "tests_passed": 42,
+  "failures": 0,
+  "train_count": 137,
+  "validation_count": 15,
+  "epochs": 2,
+  "optimizer_steps": 36,
+  "gpu_started": false,
+  "api_calls": 0,
+  "files": [
+    {
+      "path": "reports/week8/phase3_distillation_student_prep/checks.json",
+      "sha256": "927a4b4134efc35bc8bf6fdc8eef6421f12c01114a44c25fc1c4bc6494ca34f5"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_prep/cli_check.json",
+      "sha256": "88c0105186fc3a00e60fae57275f5f13c59c385f0427c3156d22999ee61f50d0"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_prep/data/audit.json",
+      "sha256": "af5c1d4f2fd604b17b30b3a7cbcd6e4596d5e322c3fb9ca5a274c21d19db5921"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_prep/data/dataset_info.json",
+      "sha256": "31e506e1ef7460b8b390a1bbf25c193f7b2fd14ddb90278d2f04e7c1522727d4"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_prep/data/statistics.json",
+      "sha256": "c563fd24ff9b37edd488d6624b217196407a57999af60ffcfb760048d55db689"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_prep/data/train_alpaca.json",
+      "sha256": "986f5dda095bbeae0f3c5c239b8141124cec3836bd16e40eefbbaff61870be32"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_prep/data/train_sharegpt.json",
+      "sha256": "4703bc0a2f71af2caaef500f4c633673df78202ac6fe8b8a30e2b2359dce4ed1"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_prep/data/validation_alpaca.json",
+      "sha256": "02b33b5d12b9c17b65acd1caf90e520a1f6641529cc0e655aa97aad4439e0e21"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_prep/data/validation_sharegpt.json",
+      "sha256": "4f4ee46a1db52ef606c66e65b7d6f1a9f6c30e5e484a69e0713a1fb68d656623"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_prep/fetch_tokenizer.py",
+      "sha256": "a6b0e8971d55bba8666d7f5eb9384d700091ded584b502f3ce71467d65c7ae1a"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_prep/prepared_lineage.json",
+      "sha256": "34270ae9c60b299a0ac182a49920ffbcebd6eb015089d9cb06c0dca1d52e3e21"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_prep/quality_review.json",
+      "sha256": "40cf91e9b8ef2050b717cd8dce91a66ff8357ad76375fdfc69a39cb4933d9278"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_prep/regression.log",
+      "sha256": "efa2ee14e50b784c626fdba3ded64e72cf0da2e349d337a69887507976904c98"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_prep/student_training_schedule.json",
+      "sha256": "309d3354f26e7512a06d12ec516637c2579641c6bec5c270b75aaea35584da70"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_prep/test_result.json",
+      "sha256": "2bd1accedebe269e92a6616a57773d51b341a09ef61d79456de47dab7a1dad50"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_prep/tokenizer_receipt.json",
+      "sha256": "380ceb1d7481342b64d67756161060c56a8fba495db5e23597bf6bf8a673fc40"
+    },
+    {
+      "path": "reports/week8/phase3_distillation_student_prep/verify_preparation.py",
+      "sha256": "da4ca453c9636eaf22a281d85871e9789c680b03a4e79a04ab87216cf94d0a81"
+    },
+    {
+      "path": "scripts/distill.py",
+      "sha256": "32c54d0b5ced29b284dc27c166b7c550098c7d927a6dc2f118df1da89fded393"
+    },
+    {
+      "path": "tests/test_week8_distillation_curation.py",
+      "sha256": "13f659a19b4c5332a0cdd606fcbaefefc6601250d1faf410d3b8fadb8a1ce385"
+    },
+    {
+      "path": "docs/week8_distillation_student_preparation.md",
+      "sha256": "4499dd533e4d4aef04e47c45060302674d085ce559be911149fcae7743641e2c"
+    },
+    {
+      "path": "docs/week8_distillation_curation.md",
+      "sha256": "cc09441370888de80caec65c19503f82389b6e1f03d99604e9f8477ea04f59a5"
+    },
+    {
+      "path": "docs/week8_acceptance_audit.md",
+      "sha256": "16f670a432d504aca3b15c07c8684f5b33ebac5909e1c264aab28dd0bd7e63e3"
+    }
+  ],
+  "historical_curation_manifest_sha256": "6c212f094162a9c2990197c390e74382fd5c129ec39d4a48db45af8e0571f6d1",
+  "remaining_execution_gates": [
+    "320 model/dependency identity recheck",
+    "Remote regenerated data hashes must match local prepared outputs",
+    "Bounded GPU session with timeout and shutdown protection"
+  ],
+  "next_stage": "two_epoch_student_training"
+}

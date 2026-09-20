@@ -1,0 +1,44 @@
+{
+  "global_step": 40,
+  "first_loss": 0.6931,
+  "last_loss": 0.6742,
+  "validation": [
+    {
+      "epoch": 0.20434227330779056,
+      "eval_logits/chosen": -0.8051095008850098,
+      "eval_logits/rejected": -0.9164268970489502,
+      "eval_logps/chosen": -330.925048828125,
+      "eval_logps/rejected": -227.16091918945312,
+      "eval_loss": 0.6883051991462708,
+      "eval_rewards/accuracies": 0.5517241358757019,
+      "eval_rewards/chosen": 0.016640540212392807,
+      "eval_rewards/margins": 0.011494424194097519,
+      "eval_rewards/rejected": 0.005146116483956575,
+      "eval_runtime": 61.8335,
+      "eval_samples_per_second": 1.407,
+      "eval_steps_per_second": 1.407,
+      "step": 20
+    },
+    {
+      "epoch": 0.4086845466155811,
+      "eval_logits/chosen": -0.8014258146286011,
+      "eval_logits/rejected": -0.9143040180206299,
+      "eval_logps/chosen": -330.38873291015625,
+      "eval_logps/rejected": -227.01405334472656,
+      "eval_loss": 0.6703808307647705,
+      "eval_rewards/accuracies": 0.7126436829566956,
+      "eval_rewards/chosen": 0.0702722817659378,
+      "eval_rewards/margins": 0.050436973571777344,
+      "eval_rewards/rejected": 0.019835302606225014,
+      "eval_runtime": 61.8478,
+      "eval_samples_per_second": 1.407,
+      "eval_steps_per_second": 1.407,
+      "step": 40
+    }
+  ],
+  "tensor_count": 392,
+  "nonzero_lora_b_tensors": 196,
+  "optimizer_step": 40,
+  "adapter_sha256": "1c90dcff70680640178c364e60012d5926401065099b369c55d5cf4d73a56d7a",
+  "optimizer_sha256": "92d2e8d9d3aab32f952ce4cf8f8d5e50fd52a8681a2d5b5e8cb4e77b4fe42397"
+}

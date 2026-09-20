@@ -1,0 +1,72 @@
+[
+  {
+    "image_id": "w5-table-01",
+    "filename": "w5-table-01.png",
+    "image_type": "table_screenshot",
+    "title": "3 Sample spreadsheet2.png",
+    "source": "https://commons.wikimedia.org/w/index.php?title=File:3_Sample_spreadsheet2.png&oldid=767917806",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/3_Sample_spreadsheet2.png",
+    "author": "Loz.ross",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "3 Sample spreadsheet2.png by Loz.ross, CC BY-SA 4.0, via Wikimedia Commons",
+    "transformation": "Renamed only; image pixels were not modified.",
+    "retrieved_at": "2026-08-17"
+  },
+  {
+    "image_id": "w5-scene-01",
+    "filename": "w5-scene-01.jpg",
+    "image_type": "natural_scene",
+    "title": "Lake Mountain Landscape.jpg",
+    "source": "https://commons.wikimedia.org/w/index.php?title=File:Lake_Mountain_Landscape.jpg&oldid=1038228483",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Lake_Mountain_Landscape.jpg",
+    "author": "Bonnie Moreland",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Lake Mountain Landscape.jpg by Bonnie Moreland, CC0 1.0, via Wikimedia Commons",
+    "transformation": "Renamed only; image pixels were not modified.",
+    "retrieved_at": "2026-08-17"
+  },
+  {
+    "image_id": "w5-logo-01",
+    "filename": "w5-logo-01.png",
+    "image_type": "logo",
+    "title": "Wikimedia Community Logo.svg",
+    "source": "https://commons.wikimedia.org/w/index.php?title=File:Wikimedia_Community_Logo.svg&oldid=857280126",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Wikimedia_Community_Logo.svg/960px-Wikimedia_Community_Logo.svg.png",
+    "author": "Artur Jan Fijalkowski (WarX)",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/Template:PD-self",
+    "attribution": "Wikimedia Community Logo by Artur Jan Fijalkowski (WarX), public domain, via Wikimedia Commons",
+    "transformation": "Used Wikimedia Commons' 960 x 960 PNG rendering of the source SVG; no further pixel modification.",
+    "retrieved_at": "2026-08-17"
+  },
+  {
+    "image_id": "w5-formula-01",
+    "filename": "w5-formula-01.jpg",
+    "image_type": "handwritten_formula",
+    "title": "E mc 2 IMG 0859.jpg",
+    "source": "https://commons.wikimedia.org/w/index.php?title=File:E_mc_2_IMG_0859.jpg&oldid=1221877360",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/E_mc_2_IMG_0859.jpg",
+    "author": "Unknown author; uploaded by Penarc",
+    "license": "Public domain (PD-text)",
+    "license_url": "https://commons.wikimedia.org/wiki/Template:PD-text",
+    "attribution": "E mc 2 IMG 0859.jpg, unknown author, public domain (PD-text), via Wikimedia Commons",
+    "transformation": "Renamed only; image pixels were not modified.",
+    "retrieved_at": "2026-08-17"
+  },
+  {
+    "image_id": "w5-ui-01",
+    "filename": "w5-ui-01.png",
+    "image_type": "ui_interface",
+    "title": "Libreoffice writer nice pic of ui.png",
+    "source": "https://commons.wikimedia.org/w/index.php?title=File:Libreoffice_writer_nice_pic_of_ui.png&oldid=1035812475",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Libreoffice_writer_nice_pic_of_ui.png",
+    "author": "vmiklos / The Document Foundation",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Libreoffice writer nice pic of ui.png by vmiklos / The Document Foundation, CC0 1.0, via Wikimedia Commons",
+    "transformation": "Renamed only; image pixels were not modified.",
+    "retrieved_at": "2026-08-17"
+  }
+]

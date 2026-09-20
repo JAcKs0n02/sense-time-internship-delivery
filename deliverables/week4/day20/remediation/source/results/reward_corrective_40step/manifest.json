@@ -1,0 +1,14 @@
+{
+  "valid": true,
+  "model_alias": "reward-corrective-40step",
+  "prompt_count": 35,
+  "output_sha256": "8dd131fc4c2c0a2e88b64ba00507612abdf908b9227cb707b8cf420c6ff6de85",
+  "generation_config": {
+    "do_sample": false,
+    "max_new_tokens": 512,
+    "repetition_penalty": 1.0,
+    "seed": 42,
+    "dtype": "bfloat16",
+    "device": "cuda:0"
+  }
+}

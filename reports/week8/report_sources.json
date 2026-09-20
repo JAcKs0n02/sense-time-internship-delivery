@@ -1,0 +1,8 @@
+{
+  "reports/technical_report.md": "a89f3f78defcd596d6f54eec4b393f3b01134d821b13e7bcd2794545fd2698d9",
+  "reports/latex/report-template.tex": "3466d22f83e85bed456c6f3ff8b9dcfc9518691b9219a8f655fbf67ff4875306",
+  "scripts/render_technical_report_latex.py": "330fbfe9e6eca8b43b507f018d0411bf7be880c97c03dc0435ba07972e4456ff",
+  "reports/week8/delivery_eval_20260919/verification.json": "f1b97d0e8bc2ae6648a861c7ff01c9a5c4637e72d627b4d4725b483c4d5454eb",
+  "reports/week8/dependency_delivery_20260919/verification.json": "1bf053041f70b377f8e40aa1459b1d526b548f33a341ed6b5fa7a3044892762f",
+  "reports/week8/model_backup_20260919/verification.json": "df292de95fac95f5a182dc1d8f64ef22c00506bc96ff2ef1f65f764fac9dc2ef"
+}

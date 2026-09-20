@@ -1,0 +1,30 @@
+{
+  "status": "GPU_BASIC_AND_ORIGINAL_BASE_IDENTITY_PASS_NOT_TRAINING_READY",
+  "base_files_compared": 15,
+  "weight_shards_compared": 4,
+  "base_weight_bytes": 15231271888,
+  "receipt_transport_digest_verified": true,
+  "pip_check_pass": true,
+  "cuda_bf16_matmul_pass": true,
+  "nf4_probe_pass": true,
+  "framework_file_hash_differences": {},
+  "cpu_environment_differences": {
+    "peft": {
+      "cpu": "0.15.2",
+      "gpu": "0.15.1"
+    },
+    "accelerate": {
+      "cpu": "1.7.0",
+      "gpu": "1.2.1"
+    }
+  },
+  "whole_model_forward_tested": false,
+  "actual_week8_loader_on_gpu_host_verified": false,
+  "training_started": false,
+  "pending": [
+    "real Week8 dataset loader on target environment",
+    "OpenCompass explicit config and complete prompt-length verification",
+    "judge identity and complete evaluation runtime lock",
+    "separate 3-step SFT and DPO smoke after all pre-training gates pass"
+  ]
+}

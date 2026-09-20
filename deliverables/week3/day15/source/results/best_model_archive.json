@@ -1,0 +1,16 @@
+{
+  "status": "archived_and_load_validated",
+  "selected_run_id": "epoch-e5",
+  "adapter_path": "/root/autodl-tmp/qwen25-week3/runs/epoch-e5/attempt-001/adapter",
+  "adapter_model_sha256": "cd2822fc5b160095524aa0203b1e2bab8e71e7897535cf093f4e8807c540a75a",
+  "merged_model_path": "/root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged",
+  "merged_model_load": "PASS",
+  "merged_model_file_count": 14,
+  "merged_model_total_bytes": 15247184276,
+  "merged_model_manifest_path": "/root/autodl-tmp/qwen25-week3/manifests/best_merged_model_files.sha256",
+  "merged_model_manifest_sha256": "e4512f7dd0f85b2f1d8154d123aec176295f557046142aab406a030c8e76e971",
+  "merged_model_inventory_path": "/root/autodl-tmp/qwen25-week3/manifests/best_merged_model_inventory.csv",
+  "merged_model_inventory_sha256": "7f7260ee9e06a5605adc078ae010c73df07ec7f30a5b8ac367c44b4d4a18cff2",
+  "dpo_input_form": "merged_model",
+  "opencompass_used_for_selection": false
+}

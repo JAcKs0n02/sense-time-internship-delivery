@@ -1,0 +1,10 @@
+{
+  "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 595.71.05",
+  "gpu_error": "",
+  "hostname": "autodl-container-be044ebe99-be706b14",
+  "llamafactory_cli": "/root/miniconda3/bin/llamafactory-cli",
+  "nvidia_smi_returncode": 0,
+  "python": "3.10.8 (main, Nov 24 2022, 14:13:03) [GCC 11.2.0]",
+  "timestamp_utc": "2026-08-12T03:20:41.048886+00:00",
+  "working_directory": "/root/autodl-tmp/qwen25-week1/week1/day4/source/results"
+}

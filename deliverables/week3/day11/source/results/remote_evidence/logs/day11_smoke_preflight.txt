@@ -1,0 +1,24 @@
+smoke_started_at=2026-08-03T17:53:22.028508+08:00
+config=/root/autodl-tmp/qwen25-week3/configs/qwen25_7b_week3_smoke.yaml
+data=/root/autodl-tmp/qwen25-week3/data/week2_clean_alpaca.jsonl
+base_model=/root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct
+Python 3.10.20
+torch=2.5.1+cu121
+cuda=12.1
+cuda_available=True
+transformers=4.50.0
+bitsandbytes=0.43.3
+----------------------------------------------------------
+| Welcome to LLaMA Factory, version 0.9.3                |
+|                                                        |
+| Project page: https://github.com/hiyouga/LLaMA-Factory |
+----------------------------------------------------------
+NVIDIA GeForce RTX 3090, 595.58.03, 24576 MiB, 1 MiB, 0 %, 29
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme1n1    100G   41G   60G  41% /root/autodl-tmp
+4999 /root/autodl-tmp/qwen25-week3/data/week2_clean_alpaca.jsonl
+968c7ad51ad833caf3b3f3df7b81d24e59fe13147deb2057e44c76552121a3e1  /root/autodl-tmp/qwen25-week3/configs/qwen25_7b_week3_smoke.yaml
+600c01cb1d2ca41bb1fbe7fca3973336568062ead29ee0e6b6033733a86b2743  /root/autodl-tmp/qwen25-week3/data/week2_clean_alpaca.jsonl
+00b02ac6130c63ca5ba68bf34a21fa84c72a6549de3577e3ec649bf0e312ac72  /root/autodl-tmp/qwen25-week3/data/dataset_info.json
+7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c  /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct/config.json
+624bf7c47cd12468fdc16e38a47cf4f19e0415b859a223ba3c027eed2f0e1028  /root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct/model.safetensors.index.json

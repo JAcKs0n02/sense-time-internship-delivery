@@ -1,0 +1,28 @@
+{
+  "status": "LOCAL_SUBSTEPS_PASS_RUNTIME_PENDING",
+  "frozen_archive_hash_checks": 138,
+  "benchmark_csv_hash_checks": 290,
+  "independent_prompt_key_coverage": 12928,
+  "tests_passed": 31,
+  "training_allowed": false,
+  "actual_opencompass_runtime_verified": false,
+  "files": {
+    "scripts/step3_eval.py": "ac9c03afd426b99b265b2889674c1e6ce5f60170d77faf5f62ac86b50ba3f18e",
+    "scripts/audit_week8_benchmark_prompts.py": "0adf1870fc8efde926371899addc6e921c71db12b91ef3ab97a05c5f138fe176",
+    "tests/test_week8_eval.py": "80276432adbb1cf9da3d30e2b7b58db42dca3784258b8eedd9c4f7cc2b5fa5ff",
+    "docs/week8_phase2_eval_hardening.md": "4d03e9da52e93723a225445dfd81c40510a922cfa187b0100c351af28131f843",
+    "configs/week8_evaluation_preflight.json": "2541434160a95446f196b2759cf53db5154ba551308c10e4b9d8dc3156ce05a9",
+    "reports/week8/phase2_eval_hardening/candidate_datasets.json": "03483f5c0eac3869190c603a19ae197d95eb2d8b45d7e1d66f6a9f6ad5931289",
+    "reports/week8/phase2_eval_hardening/full_tests.log": "6683177e7c176e8dc341302db408bf00f5cfdde81183c0c4719e8aaf66012887",
+    "reports/week8/phase2_eval_hardening/official_source/opencompass/models/huggingface_above_v4_33.py": "7b9f15644d0fd3e0682f1cada3da3ae1b57193e517f547b3e959e3ad1cb434ae",
+    "reports/week8/phase2_eval_hardening/official_source/opencompass/openicl/icl_evaluator/icl_hf_evaluator.py": "4e237537e0fbe2aed18f4f262e22c1da356c8ddc55cb17eb9316383bee5bd3fc",
+    "reports/week8/phase2_eval_hardening/official_source/opencompass/openicl/icl_inferencer/icl_gen_inferencer.py": "05be1ae9b08f6c91ac4dc06cf85b2cf7e9d1f7f6fe2d2661ceac8186f198020e",
+    "reports/week8/phase2_eval_hardening/official_source/opencompass/tasks/openicl_eval.py": "d16cdfca4d95b86bdd6df0045835363864e5099788c659ec3e8847c1b1e832e9",
+    "reports/week8/phase2_eval_hardening/official_source_hashes.json": "f4c7eb6d821d2a90de2f3fe6c11858eed2702a4cacf76f3fd1d0788c042fee8a",
+    "reports/week8/phase2_eval_hardening/prompt_audit.json": "16eeaed670aaec8490316396463f493cc681e02b65bdf6f03ad6da13a54bddd8",
+    "reports/week8/phase2_eval_hardening/prompt_audit.log": "024b7ee235c2c42acf94888b70582cbdd113e6e15dce9599a56b07b6d97f15d1",
+    "reports/week8/phase2_eval_hardening/prompt_lengths.json": "4b09d6067113e20b9d388bf741fb4c892df0949673bf9dc61e95e5dd92e8a5f1",
+    "reports/week8/phase2_eval_hardening/tests_after.log": "e6ec182765cd965f2837d8eeaef5a64af48a104f245cd1a0b7281559194c57c1",
+    "reports/week8/phase2_eval_hardening/tests_before.log": "2d15eea08895c502f3af306fbc71e690a9e2ca1fe38b29022a26901f607ddf31"
+  }
+}

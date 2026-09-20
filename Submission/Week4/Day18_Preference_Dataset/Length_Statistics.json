@@ -1,0 +1,58 @@
+{
+  "chosen_response": {
+    "count": 710,
+    "max": 1104,
+    "mean": 206.079,
+    "median": 80.0,
+    "min": 1,
+    "p90": 556,
+    "p95": 656,
+    "p99": 853
+  },
+  "chosen_total": {
+    "count": 710,
+    "max": 1738,
+    "mean": 364.424,
+    "median": 266.5,
+    "min": 58,
+    "p90": 781,
+    "p95": 955,
+    "p99": 1365
+  },
+  "cutoff_len": 2048,
+  "prompt": {
+    "count": 710,
+    "max": 1304,
+    "mean": 156.345,
+    "median": 56.0,
+    "min": 35,
+    "p90": 397,
+    "p95": 603,
+    "p99": 1009
+  },
+  "record_count": 710,
+  "records_over_cutoff": 0,
+  "records_over_cutoff_ids": [],
+  "rejected_response": {
+    "count": 710,
+    "max": 995,
+    "mean": 150.808,
+    "median": 51.5,
+    "min": 1,
+    "p90": 447,
+    "p95": 559,
+    "p99": 782
+  },
+  "rejected_total": {
+    "count": 710,
+    "max": 1670,
+    "mean": 309.154,
+    "median": 193.0,
+    "min": 45,
+    "p90": 744,
+    "p95": 935,
+    "p99": 1403
+  },
+  "status": "pass",
+  "tokenizer_name_or_path": "/root/autodl-tmp/qwen25-week3/best_model/qwen25-7b-week3-best-merged"
+}

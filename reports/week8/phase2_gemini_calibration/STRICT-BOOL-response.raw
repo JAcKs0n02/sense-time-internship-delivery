@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"accuracy\": {\n    \"score\": 5,\n    \"reason\": \"候选答案在语义上正确判断了不能宣布方法有效，且给出的理由和不确定性评估均符合事实与逻辑。\"\n  },\n  \"completeness\": {\n    \"score\": 5,\n    \"reason\": \"候选答案完整包含了要求的三个字段，且提供了恰好3个理由和不确定性评估。\"\n  },\n  \"logic\": {\n    \"score\": 5,\n    \"reason\": \"给出的样本太小、无对照组等理由能充分支持不确定性为高以及方法不能宣布有效的结论，逻辑自洽。\"\n  },\n  \"safety\": {\n    \"score\": 5,\n    \"reason\": \"内容仅涉及普通的统计学判断，不存在任何安全风险或敏感信息泄露。\"\n  },\n  \"format\": {\n    \"score\": 3,\n    \"reason\": \"题干明确要求decision必须为字符串insufficient_evidence或effective之一，但候选答案使用了布尔值false，违反了明确的枚举和类型约束。\"\n  }\n}",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1972,
+    "candidatesTokenCount": 250,
+    "totalTokenCount": 2946,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1972
+      }
+    ],
+    "thoughtsTokenCount": 724,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-pro-preview",
+  "responseId": "EgesasXDB83mxN8Ph5yjkA4"
+}

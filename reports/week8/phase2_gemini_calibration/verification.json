@@ -1,0 +1,82 @@
+{
+  "status": "CALIBRATION_FAILED_NOT_RELEASED",
+  "api_calls": 6,
+  "valid_responses": 6,
+  "failures": [
+    {
+      "case": "MISSING-REASON",
+      "checks": {
+        "format_max": false
+      }
+    }
+  ],
+  "pair_checks": [
+    {
+      "pair": {
+        "left": "EQ-BOOL",
+        "right": "EQ-TEXT",
+        "max_weighted_delta": 0.5,
+        "max_dimension_delta": 1
+      },
+      "delta": {
+        "accuracy": 0,
+        "completeness": 0,
+        "logic": 0,
+        "safety": 0,
+        "format": 0,
+        "weighted_score": 0.0
+      },
+      "passed": true
+    }
+  ],
+  "usage": {
+    "promptTokenCount": 11791,
+    "candidatesTokenCount": 1481,
+    "thoughtsTokenCount": 3921,
+    "totalTokenCount": 17193
+  },
+  "model": "gemini-3.1-pro-preview",
+  "formal_release": false,
+  "gpu_started": false,
+  "files": {
+    "run.py": "165ee792241c843431f7acfcf55482afa8ee8dee617bb693ffa64910ca195fb1",
+    "plan.json": "3e9b264e8ae8e2b28ac28c4bdd881ca53e6fee9295d3ef478dfec3a52e48c6d3",
+    "EQ-BOOL-started.json": "181714b91e0f2cccfeb7ad36c6a54b3c9d46abc73c623cdbeb2e2f8a8014eb16",
+    "EQ-BOOL-checks.json": "3ef5a5e32bbeb7e64aba7348fed2cf3b9b954aaf268f20b99724eb5ff2b83805",
+    "WRONG-CONCLUSION-request.json": "343563ea278e93e507c08e40743ee1d7c7828770efe42cee6e9ec04bc7007675",
+    "EQ-TEXT-started.json": "181714b91e0f2cccfeb7ad36c6a54b3c9d46abc73c623cdbeb2e2f8a8014eb16",
+    "STRICT-TEXT-checks.json": "3ef5a5e32bbeb7e64aba7348fed2cf3b9b954aaf268f20b99724eb5ff2b83805",
+    "MISSING-REASON-request.json": "8a74c4c6a8a65816b16e76a38f4d84833f2d214011691da6ee030d5a617d0f41",
+    "V3-06-request.json": "3219a51c06fd07305a7d38b74a0326a18caca648af99aee4fc51a780dba8da3e",
+    "V3-01-request.json": "54613d06e25e40f4664aeefb9469ce7e446afdacca11e4c25c01325cc978cb5f",
+    "STRICT-BOOL-request.json": "d50a17d585381e331b23d67970783a676567d5f2baaac4ff763e002c27156237",
+    "EQ-BOOL-response.raw": "f6b517e6fc05c5ef718361e7beef0f1c8b9b0cd6cd27c6614abd88d36da0a82d",
+    "STRICT-TEXT-request.json": "154768b4728dd33f03c71b4f8a855cfb8b57ac50c856113ad94352a32468f646",
+    "review.py": "50457e291ac23faa5750fea2c5e4902cafcdacc36adba2c5b948939809cc3c53",
+    "EQ-TEXT-response.raw": "c339026ef3d84d784af91e3d39f4082f118b751750396602ebd6964d76aa7ef4",
+    "MISSING-REASON-checks.json": "fe8f0b4f8239795663060f2ac2c5c46c20a1b7ef79e176179427bfa2244feed7",
+    "MISSING-REASON-response.raw": "5cc9baecd647b72f7bf52a37dcd67d47c4b756456c96bb7171869fefb94d29a5",
+    "V3-03-request.json": "b914ff4a2519a1ce19076c8d302e4a6d75b2a6c75fae2670db9f2e3acd10a1c7",
+    "V3-04-request.json": "8aaae445f5baef30b7a266605aacee7d398dd07d6f01d168cf3b44c1a73bb4c9",
+    "started.json": "bc00fbfe22f1de3efecba17f3247a60d8ce9f5d48f7b2aa1ec02a3aecbe20a15",
+    "WRONG-CONCLUSION-checks.json": "9ab93248cc0b1b76ce64d2066a4055023f83fecc017ceba272f80b5c85fe282d",
+    "EQ-BOOL-request.json": "eee4d8a7ac570aeb59d7f1dee1a83a18b69582cf3e46dd8475c3c537312c6dc3",
+    "V3-05-request.json": "8aaae445f5baef30b7a266605aacee7d398dd07d6f01d168cf3b44c1a73bb4c9",
+    "PILOT-MATH-05-request.json": "31ea76bcd35b2a5dee759a008b11880219cf5e8c25c349621dc258d966e21738",
+    "V3-02-request.json": "85d306f58c12169332de93fc904bb8a01a6a69d5329e3c42cd40c0636ddb19f9",
+    "STRICT-BOOL-response.raw": "c8dff3316674be816e5646b3ce9295adfbc74e9c251841159e5f184e13b9fba2",
+    "cases.json": "a8c3f3293c32c6d9cff8ad3aeb4e8ed30263b760262cc287b7e25ebf70c679de",
+    "EQ-TEXT-request.json": "18a1331b211040acc4655f0b76738283ece7e966e73638a455207988ae1d1229",
+    "WRONG-CONCLUSION-started.json": "181714b91e0f2cccfeb7ad36c6a54b3c9d46abc73c623cdbeb2e2f8a8014eb16",
+    "STRICT-TEXT-response.raw": "0800e261495feba480de31c0b81ffded04ec2eaa13b4ee4e563052206a592734",
+    "manifest.json": "44972f213295bd0799cdb6f48d3a1a89b45b1f655ac6b81635edd6e093a87d86",
+    "EQ-TEXT-checks.json": "3ef5a5e32bbeb7e64aba7348fed2cf3b9b954aaf268f20b99724eb5ff2b83805",
+    "MISSING-REASON-started.json": "181714b91e0f2cccfeb7ad36c6a54b3c9d46abc73c623cdbeb2e2f8a8014eb16",
+    "STRICT-BOOL-checks.json": "722ae61407fc483625bee80446fdc91087b4ca52a70cba51639bea421e823ce3",
+    "PILOT-REASON-06-request.json": "070b70e1f3f436d23d89829fa5a59ea2f053e0f8fd08274a5ff9dda0127b3255",
+    "status.json": "e36f7925c63a8fa72e7e0df67916c92e31b1616936f96a6822811ce6a9f23f7d",
+    "STRICT-BOOL-started.json": "181714b91e0f2cccfeb7ad36c6a54b3c9d46abc73c623cdbeb2e2f8a8014eb16",
+    "WRONG-CONCLUSION-response.raw": "057748394601b6cad04ac7e908b9c8e053d0c51482ed3a33db021b1ea365d630",
+    "STRICT-TEXT-started.json": "181714b91e0f2cccfeb7ad36c6a54b3c9d46abc73c623cdbeb2e2f8a8014eb16"
+  }
+}

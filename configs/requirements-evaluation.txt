@@ -1,0 +1,21 @@
+# Current data + merged-model evaluation environment.
+# Versions taken from the 2026-09-19 AutoDL 320 successful evaluation.
+# Linux CUDA: install torch 2.5.1 from the cu121 index BEFORE this file.
+# macOS installs CPU torch; this does not enable the CUDA inference worker.
+torch==2.5.1
+transformers==4.50.0
+tokenizers==0.21.1
+accelerate==1.2.1
+datasets==3.2.0
+numpy==1.26.4
+opencompass==0.5.3
+mmengine-lite==0.10.7
+evaluate==0.4.6
+sentence-transformers==5.6.0
+opencv-python-headless==4.11.0.86
+huggingface_hub==0.36.2
+safetensors==0.8.0
+sentencepiece==0.2.0
+tiktoken==0.13.0
+PyYAML==6.0.3
+Jinja2==3.1.6

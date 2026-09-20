@@ -1,0 +1,302 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请客观读取这张开发集图片：概括图表主题、编码方式和两项可直接核对的数据关系。"
+      },
+      {
+        "role": "assistant",
+        "content": "2023 年预期寿命与人均卫生支出的散点图。横轴是人均卫生支出，纵轴是预期寿命；美国数据点位于最右侧，支出超过 12000 美元；日本数据点位于约 84 年附近，颜色表示洲别。"
+      }
+    ],
+    "images": [
+      "images_v7/dev/chart_table-v7-dev-01.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请核对下列开发集陈述；给出结论并说明图中依据，不使用外部知识。\n待核验陈述：美国的数据点位于所有标注国家的最右侧。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：符合。可见依据：标注为 United States 的点在横轴最右端，明显超过其他国家。"
+      }
+    ],
+    "images": [
+      "images_v7/dev/chart_table-v7-dev-01.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请客观读取这张开发集图片：概括图表主题、编码方式和两项可直接核对的数据关系。"
+      },
+      {
+        "role": "assistant",
+        "content": "多国人均二氧化碳排放的历史折线图。横轴覆盖约 1750 年至 2024 年；纵轴单位为每人吨数，图中有多条国家或地区曲线；美国紫色曲线在二十世纪后期曾高于 20 吨。"
+      }
+    ],
+    "images": [
+      "images_v7/dev/chart_table-v7-dev-02.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请核对下列开发集陈述；给出结论并说明图中依据，不使用外部知识。\n待核验陈述：中国曲线在 2024 年末低于每人 1 吨。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：2024 年末中国曲线约在 8 至 9 吨附近，明显高于 1 吨。"
+      }
+    ],
+    "images": [
+      "images_v7/dev/chart_table-v7-dev-02.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请客观读取这张开发集图片：用 LaTeX 转写左栏编号 (4) 的公式，保留可见的符号、上下标和正负号。"
+      },
+      {
+        "role": "assistant",
+        "content": "指定区域的转写为：\\phi(L,t)d\\log_{10}L=\\delta(M,t)\\psi(M,t)dM"
+      }
+    ],
+    "images": [
+      "images_v7/dev/formula-v7-dev-01.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请核对下列开发集陈述；给出结论并说明图中依据，不使用外部知识。\n待核验陈述：编号 (4) 的公式左侧含有 phi(L,t) 与 d log10 L。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：符合。可见依据：式 (4) 左侧清楚写有 phi(L,t)d log10 L。"
+      }
+    ],
+    "images": [
+      "images_v7/dev/formula-v7-dev-01.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请客观读取这张开发集图片：用 LaTeX 转写居中的完整损失公式，保留可见的符号、上下标和正负号。"
+      },
+      {
+        "role": "assistant",
+        "content": "指定区域的转写为：-\\mathbb{E}_{z\\sim q(z\\mid x)}[\\log(p(x\\mid z))]+KL(q(z\\mid x)\\Vert p(z))"
+      }
+    ],
+    "images": [
+      "images_v7/dev/formula-v7-dev-02.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请核对下列开发集陈述；给出结论并说明图中依据，不使用外部知识。\n待核验陈述：居中的损失公式完全不包含 KL 项。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：公式右半部分明确包含 KL(q(z|x)||p(z))。"
+      }
+    ],
+    "images": [
+      "images_v7/dev/formula-v7-dev-02.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请客观读取这张开发集图片：描述主体、背景与相对位置，不猜测地点、身份或拍摄信息。"
+      },
+      {
+        "role": "assistant",
+        "content": "雪山、针叶林与湖泊构成的自然风景。远处雪山位于画面左侧；湖面映出雪山和树木的倒影；右侧近岸可见岩石、枯木和茂密针叶树。"
+      }
+    ],
+    "images": [
+      "images_v7/dev/natural_scene-v7-dev-03.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请核对下列开发集陈述；给出结论并说明图中依据，不使用外部知识。\n待核验陈述：湖面可以看到雪山的倒影。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：符合。可见依据：雪山轮廓在湖面左下区域形成清晰倒影。"
+      }
+    ],
+    "images": [
+      "images_v7/dev/natural_scene-v7-dev-03.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请客观读取这张开发集图片：描述主体、背景与相对位置，不猜测地点、身份或拍摄信息。"
+      },
+      {
+        "role": "assistant",
+        "content": "秋季林木间的一条狭窄土路。土路从画面底部向树林深处延伸；左侧一棵树的叶片呈明显黄色；周围分布多棵高大树木和绿色灌木。"
+      }
+    ],
+    "images": [
+      "images_v7/dev/natural_scene-v7-dev-04.jpeg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请核对下列开发集陈述；给出结论并说明图中依据，不使用外部知识。\n待核验陈述：林间小路铺有平整的黑色柏油。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：路面是覆有落叶的土路，没有可见的黑色柏油铺装。"
+      }
+    ],
+    "images": [
+      "images_v7/dev/natural_scene-v7-dev-04.jpeg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请客观读取这张开发集图片：只转写左页正文的粗体小标题，不要补写模糊或被裁切的其他文字。"
+      },
+      {
+        "role": "assistant",
+        "content": "指定区域的转写为：The disappearing sum"
+      }
+    ],
+    "images": [
+      "images_v7/dev/ocr-v7-dev-01.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请核对下列开发集陈述；给出结论并说明图中依据，不使用外部知识。\n待核验陈述：左页粗体小标题写着“The disappearing sum”。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：符合。可见依据：左页正文上方可直接读到粗体标题“The disappearing sum”。"
+      }
+    ],
+    "images": [
+      "images_v7/dev/ocr-v7-dev-01.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请客观读取这张开发集图片：只转写印章中央图案下方的四个大字，不要补写模糊或被裁切的其他文字。"
+      },
+      {
+        "role": "assistant",
+        "content": "指定区域的转写为：发票专用章"
+      }
+    ],
+    "images": [
+      "images_v7/dev/ocr-v7-dev-02.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请核对下列开发集陈述；给出结论并说明图中依据，不使用外部知识。\n待核验陈述：印章中央图案下方写着“合同专用章”。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：该位置清楚写的是“发票专用章”，不是“合同专用章”。"
+      }
+    ],
+    "images": [
+      "images_v7/dev/ocr-v7-dev-02.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请客观读取这张开发集图片：说明界面名称、主要区域以及当前可见状态。"
+      },
+      {
+        "role": "assistant",
+        "content": "PowerToys Advanced Paste 的弹出操作面板。顶部输入框提示可格式化为 C# 字符串定义；面板列出 Paste as plain text、Paste as markdown 和 Paste as JSON；底部还有 Clipboard history 入口。"
+      }
+    ],
+    "images": [
+      "images_v7/dev/ui-v7-dev-01.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请核对下列开发集陈述；给出结论并说明图中依据，不使用外部知识。\n待核验陈述：面板提供“Paste as plain text”选项。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：符合。可见依据：选项列表第一项清楚显示“Paste as plain text”。"
+      }
+    ],
+    "images": [
+      "images_v7/dev/ui-v7-dev-01.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请客观读取这张开发集图片：说明界面名称、主要区域以及当前可见状态。"
+      },
+      {
+        "role": "assistant",
+        "content": "PowerToys FancyZones 的布局模板选择窗口。Templates 区域展示 Focus、Columns、Rows 等多个模板；Custom 区域展示三个自定义布局缩略图；右下角有 Create new layout 按钮。"
+      }
+    ],
+    "images": [
+      "images_v7/dev/ui-v7-dev-02.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请核对下列开发集陈述；给出结论并说明图中依据，不使用外部知识。\n待核验陈述：窗口中只显示一个可选布局模板。"
+      },
+      {
+        "role": "assistant",
+        "content": "结论：不符合。可见依据：Templates 与 Custom 区域合计显示多种布局，远不止一个。"
+      }
+    ],
+    "images": [
+      "images_v7/dev/ui-v7-dev-02.png"
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "review_completed_at_utc": "2026-09-18T23:13:30.857771+00:00",
+  "status": "REVIEW_COMPLETE_RELEASE_NOT_READY",
+  "model_cleanup_allowed": false,
+  "release_allowed": false,
+  "expected_week8_backup_bytes": 31498338719,
+  "week7_asset_files_verified": 16,
+  "entry_links_checked": 72,
+  "legacy_submission_checksums_verified": 439,
+  "full_submission_manifest_files": 456,
+  "credential_like_tracked_files": 9,
+  "credential_scan_scope": "Current Git tracked and unignored text <=20MiB; no history/archive/binary scan",
+  "score_recovery": "VERIFIED_EXISTING_SCORES",
+  "quick": "archived_evidence_replay_completed_14_rows",
+  "clean_clone_test": false,
+  "fresh_cuda_pipeline_test": false,
+  "gpu_started": false,
+  "new_paid_api_calls": 0,
+  "checkpoint_deletions": 0,
+  "commits_or_pushes": 0,
+  "remaining": [
+    "complete Week8 model backups and verify independent load",
+    "credential-safe publication copy and Git history review",
+    "publication allowlist and clean clone validation",
+    "complete CUDA single-run evidence"
+  ]
+}

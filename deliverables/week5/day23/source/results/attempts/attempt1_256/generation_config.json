@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "repository": "Qwen/Qwen2-VL-7B-Instruct",
+  "revision": "eed13092ef92e448dd6875b2a00151bd3f7db0ac",
+  "dtype": "bfloat16",
+  "local_files_only": true,
+  "do_sample": false,
+  "seed": 42,
+  "max_new_tokens": 256,
+  "min_pixels": 200704,
+  "max_pixels": 301056,
+  "processor_size": {
+    "shortest_edge": 200704,
+    "longest_edge": 301056
+  }
+}

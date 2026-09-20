@@ -1,0 +1,10 @@
+{
+  "observed_at_utc": "2026-09-15T23:42:51.871369+00:00",
+  "instance_id": "be044ebe99-be706b14",
+  "mode_used": "CPU only",
+  "final_console_state": "已关机",
+  "gpu_availability_at_shutdown": "GPU充足",
+  "api_calls": 0,
+  "training_started": false,
+  "receipt_sha256": "6c43d3ac7886ed1482d5e2d72cefcb400027890479687b0e5f6e324213da61ae"
+}

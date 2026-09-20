@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "counts": {
+    "alpaca_gpt4_zh": 2000,
+    "coig_pc": 2000,
+    "sharegpt_zh": 1000,
+    "formatted_alpaca": 5000,
+    "formatted_sharegpt": 5000,
+    "provenance": 5000
+  },
+  "expected_counts": {
+    "alpaca_gpt4_zh": 2000,
+    "coig_pc": 2000,
+    "sharegpt_zh": 1000
+  },
+  "errors": []
+}

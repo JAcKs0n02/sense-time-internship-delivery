@@ -1,0 +1,14 @@
+{
+  "sample_id": "09bbddefa534eb4896b0f83ed2eb4d9d73454d7bfbdad9a8d5b84f55a62ba002",
+  "prompt": "请判断这句评论中体现的对照相机的评价是正面的还是负面的，请直接回答正面的或者负面的。\n\n处理速度和拍摄响应上非常迅速",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请判断这句评论中体现的对照相机的评价是正面的还是负面的，请直接回答正面的或者负面的。\n\n处理速度和拍摄响应上非常迅速"
+    }
+  ],
+  "answer": "正面的",
+  "truncated": false,
+  "input_tokens": 64,
+  "output_tokens": 3
+}

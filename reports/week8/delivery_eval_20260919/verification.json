@@ -1,0 +1,76 @@
+{
+  "status": "PASS_SCOPED_FRESH_EVALUATION_REUSED_CUDA_ENV",
+  "verified_utc": "2026-09-19T13:57:35.335146+00:00",
+  "model": "week8_final_dpo",
+  "instance": "320",
+  "gpu_state": "stopped",
+  "execution_exit_code": 0,
+  "formal_data": {
+    "train": 1422,
+    "validation": 158,
+    "byte_identical_outputs": 15
+  },
+  "benchmarks": [
+    {
+      "model": "/root/autodl-tmp/week8-full-training-runtime-20260916/logs/full-run-01/models/final_dpo",
+      "dataset": "ceval",
+      "score": 82.6923076923077,
+      "subjects": 52,
+      "questions": 52,
+      "correct": 43,
+      "evidence_kind": "fresh_opencompass_sample",
+      "coverage": "sample"
+    },
+    {
+      "model": "/root/autodl-tmp/week8-full-training-runtime-20260916/logs/full-run-01/models/final_dpo",
+      "dataset": "cmmlu",
+      "score": 80.59701492537313,
+      "subjects": 67,
+      "questions": 67,
+      "correct": 54,
+      "evidence_kind": "fresh_opencompass_sample",
+      "coverage": "sample"
+    }
+  ],
+  "custom20": {
+    "questions": 20,
+    "weighted_mean": 3.775,
+    "historical_api_attempts": 20,
+    "usage": {
+      "prompt_tokens": 48853,
+      "completion_tokens": 27909,
+      "total_tokens": 76762
+    },
+    "evidence_kind": "verified_existing_ai_judge_scores",
+    "plan_hash": "a439545e750cc55d1724b96feeb63b0556989332ab808ac9c0d7fd88fac98efe",
+    "source": "reports/week8/delivery_eval_20260919/retrieved/eval-check-002/evaluation/scoring"
+  },
+  "new_api_calls": 20,
+  "generation_files_verified": 366,
+  "dependency_files_verified": 305,
+  "all_custom_answers_end_with_eos": true,
+  "evaluation_status": {
+    "status": "completed",
+    "fresh_model_inference": true,
+    "coverage": "sample",
+    "new_api_calls": 20,
+    "custom_questions": 20,
+    "judge_model": "gemini-3.1-pro-preview"
+  },
+  "summary_csv_sha256": "4865e6aeb981cfe64c3272423b77e50b9f90186a36711e1a35caea037f6004ae",
+  "runtime": "new repository directory; existing Linux CUDA environment reused; pip check passed; full freeze archived",
+  "fresh_cuda_install_verified": false,
+  "full_benchmark_rerun": false,
+  "retraining": false,
+  "initial_failure": "Minimal transport omitted historical data-preparation source/data dependencies; completed package passed isolated local dry-run before successful GPU rerun; failed first run retained",
+  "checkpoint_inventory": {
+    "total": 90,
+    "week8": 6,
+    "deleted": 0
+  },
+  "next": [
+    "Review and clean Week8 intermediate checkpoints after final model backups",
+    "Synchronize final report",
+    "Organize all-week submission repository and push Git"
+  ]
+}

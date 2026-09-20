@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "status": "PASS",
+  "run_id": "day23-formal-20260818-config1024",
+  "completed_at": "2026-08-18T15:45:09.016780+00:00",
+  "requested_record_count": 25,
+  "total_output_record_count": 25,
+  "pass_count_this_invocation": 25,
+  "fail_count_this_invocation": 0,
+  "model_load_seconds": 6.191,
+  "cuda_memory_after_load_mib": 15814.559,
+  "processor_effective_size": {
+    "shortest_edge": 200704,
+    "longest_edge": 301056
+  },
+  "generation_config_sha256": "0d1f0f59fce9b688f9445b0b4fee4c0c38d1bec4c4e3e4910efb34b3d7bb513d",
+  "matrix_sha256": "b408c923e9e4e727a1ee74ddbd6717cfe97a494854fd73a878992820685e856d"
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "grounding_policy": "Only state facts supported by the image; expose uncertainty and do not guess.",
+  "templates": [
+    {
+      "prompt_template_id": "d23-prompt-01",
+      "question_type": "description",
+      "record_slug": "description",
+      "prompt": "请用最多8条要点描述图片中可见的主要内容，包括主要对象、属性和位置关系，总长度不超过350个汉字。每项事实只说一次。只陈述图像能够支持的事实；无法确认的信息请明确说明，不要猜测。"
+    },
+    {
+      "prompt_template_id": "d23-prompt-02",
+      "question_type": "ocr",
+      "record_slug": "ocr",
+      "prompt": "请按从上到下、从左到右的顺序提取图片中所有可识别的文字、数字和数学符号，并尽量保留原有的行列或层级结构。同一文字行即使在图中重复出现，也只完整转写第一次，后续统一标记一次[相同文字重复]；禁止在回答中反复输出同一行。读到图像最下方的状态栏或边界后立即结束，最多80行。无法辨认的部分请标记为[无法辨认]；如果没有可识别文字，请明确说明。"
+    },
+    {
+      "prompt_template_id": "d23-prompt-03",
+      "question_type": "structure_explanation",
+      "record_slug": "structure",
+      "prompt": "请解释图片中元素的组织结构、层级和相互关系。如果是表格，请解释行列关系；如果是公式，请解释分子、分母和符号关系；如果是UI、Logo或自然场景，请解释界面层级、几何组成或空间关系。不要补充图片中不存在的数值或对象。"
+    },
+    {
+      "prompt_template_id": "d23-prompt-04",
+      "question_type": "aesthetic_review",
+      "record_slug": "aesthetic",
+      "prompt": "请从构图、色彩、对比度、视觉层级、清晰度和可读性方面评价这张图片。请区分可见的视觉事实与主观评价，并简要说明评价依据。"
+    },
+    {
+      "prompt_template_id": "d23-prompt-05",
+      "question_type": "implicit_reasoning",
+      "record_slug": "implicit",
+      "prompt": "请根据图片中可见的证据，推理最多3条可能的隐含信息。每条必须分别写明“图像证据”“合理推断”和“不确定性”。如果图像证据不足，请明确说明，不要把猜测当成事实。"
+    }
+  ]
+}

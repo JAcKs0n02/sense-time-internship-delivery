@@ -1,0 +1,7 @@
+{
+  "probe_file": "final_sft/model.safetensors.index.json",
+  "requested_range": "bytes=0-27751",
+  "observed_status": 200,
+  "observed_body_bytes": 27752,
+  "fix": "Accept 200 only for full-file range offset=0 and end=expected_bytes-1; retain body length and complete SHA256 assertions; partial ranges still require 206 and exact Content-Range"
+}

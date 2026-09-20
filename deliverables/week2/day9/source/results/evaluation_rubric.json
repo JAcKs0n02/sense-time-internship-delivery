@@ -1,0 +1,39 @@
+{
+  "scale": {
+    "minimum": 0,
+    "maximum": 2,
+    "meaning": {
+      "0": "Fails the dimension or contains a serious defect",
+      "1": "Partially satisfies the dimension with a noticeable defect",
+      "2": "Fully satisfies the dimension"
+    }
+  },
+  "dimensions": [
+    {
+      "id": "instruction_completion",
+      "name": "Instruction completion"
+    },
+    {
+      "id": "correctness",
+      "name": "Correctness and factual consistency"
+    },
+    {
+      "id": "format_compliance",
+      "name": "Format and explicit constraint compliance"
+    },
+    {
+      "id": "relevance_completeness",
+      "name": "Relevance and completeness"
+    },
+    {
+      "id": "generation_quality",
+      "name": "No repetition, garbling, or role leakage"
+    }
+  ],
+  "maximum_score_per_question": 10,
+  "blind_labels": [
+    "Model A",
+    "Model B"
+  ],
+  "decision_rule": "The merged model is better on this three-question check only if its total score is higher than the base model total and it has no generation-quality regression."
+}

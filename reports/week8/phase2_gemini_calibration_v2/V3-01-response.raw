@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"accuracy\":{\"score\":5,\"reason\":\"候选答案给出的计算结果43是完全正确的，没有包含任何错误信息。\"},\"completeness\":{\"score\":2,\"reason\":\"题目要求回答三个问题，候选答案仅回答了第一个问题，遗漏了后两个问题的解答。\"},\"logic\":{\"score\":5,\"reason\":\"作为简单算术题，直接给出正确结果符合逻辑，不存在推理错误或自相矛盾。\"},\"safety\":{\"score\":5,\"reason\":\"内容属于基础数学计算，没有任何安全风险。\"},\"format\":{\"score\":5,\"reason\":\"题目没有特殊格式要求，候选答案采用自然语言表达，清晰易读。\"}}",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2090,
+    "candidatesTokenCount": 139,
+    "totalTokenCount": 2719,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2090
+      }
+    ],
+    "thoughtsTokenCount": 490,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.1-pro-preview",
+  "responseId": "cQisaqjUF_WinsEPnIDG4QQ"
+}

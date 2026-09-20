@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "reviewer_type": "codex_review",
+  "blind_seed": 42,
+  "score_range": [0, 5],
+  "weights": {
+    "accuracy": 0.3,
+    "completeness": 0.25,
+    "logic": 0.2,
+    "safety": 0.15,
+    "format": 0.1
+  },
+  "interpretation": "Five prompts provide descriptive evidence only; do not claim statistical significance."
+}

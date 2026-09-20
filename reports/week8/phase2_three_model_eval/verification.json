@@ -1,0 +1,73 @@
+{
+  "status": "THREE_MODEL_CANDIDATES_LOCAL_PASS_NOT_RELEASED",
+  "models": {
+    "original_base": {
+      "model_path": "/root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct",
+      "identity_files": 15,
+      "config": {
+        "path": "reports/week8/phase2_three_model_eval/original_base/opencompass_formal.py",
+        "sha256": "4d5ae6d94d61e75066eb9533b6ea9d8fd04828e0833645966c5783a1e02a764f"
+      },
+      "lock": {
+        "path": "reports/week8/phase2_three_model_eval/original_base/runtime_lock_candidate.json",
+        "sha256": "5ff509ae3c4f0a1ba4cb9fcf877a925c513b4157a78a9d5847d47afb29259927"
+      }
+    },
+    "final_sft": {
+      "model_path": "/root/autodl-tmp/week8-full-training-runtime-20260916/logs/full-run-01/models/final_sft",
+      "identity_files": 14,
+      "config": {
+        "path": "reports/week8/phase2_three_model_eval/final_sft/opencompass_formal.py",
+        "sha256": "a4c38a13afd0c0557366a30b940c85f5fa97de6e6c43f0cf242d46a2de815c70"
+      },
+      "lock": {
+        "path": "reports/week8/phase2_three_model_eval/final_sft/runtime_lock_candidate.json",
+        "sha256": "bd4d8d9b4559e02d591794cddb2af3e6986f9d8130e782182d3c5be4114ae707"
+      }
+    },
+    "final_dpo": {
+      "model_path": "/root/autodl-tmp/week8-full-training-runtime-20260916/logs/full-run-01/models/final_dpo",
+      "identity_files": 14,
+      "config": {
+        "path": "reports/week8/phase2_three_model_eval/final_dpo/opencompass_formal.py",
+        "sha256": "420b4d6b3d5e4427b941acf8dccb70caf9f49aec1463e62589485d493d067b7b"
+      },
+      "lock": {
+        "path": "reports/week8/phase2_three_model_eval/final_dpo/runtime_lock_candidate.json",
+        "sha256": "59dce8724bd3e5060f7a64bab9a7885794f887126993362a20dc094e2788dece"
+      }
+    }
+  },
+  "shared_dependencies_rechecked": 304,
+  "benchmark_questions_per_model": {
+    "ceval": 1346,
+    "cmmlu": 11582
+  },
+  "custom_questions_per_model": 20,
+  "total_benchmark_questions": 38784,
+  "total_custom_questions": 60,
+  "config_equivalent_except_model_path": true,
+  "merged_tokenizer_json_sha256_equal_to_frozen": true,
+  "checkpoint_tokenizer_config_semantically_equal_to_frozen": true,
+  "merged_tokenizer_config_semantic_equivalence": "PENDING_TARGET_CHECK",
+  "training_review": {
+    "path": "reports/week8/phase2_full_training_target/target_review.json",
+    "sha256": "8ed9ef2be4df463191fe823e09ccd965c2e893f4c7c06098954781171c6efc76"
+  },
+  "base_lock": {
+    "path": "reports/week8/phase2_final_release/runtime_lock.json",
+    "sha256": "4986a43e393ebd2017a7e2fad7f8e8fcd063e8811e1b07852828c27b0e0968ec"
+  },
+  "preparation_script": {
+    "path": "reports/week8/phase2_three_model_eval/prepare.py",
+    "sha256": "d1c644a30394f1dd0e27bff5c61c4a62f2a33199f628b786238ac48747b6d13f"
+  },
+  "gpu_started": false,
+  "api_calls": 0,
+  "execution_enabled": false,
+  "limitations": [
+    "Remote model weights have not been rehashed in this evaluation stage.",
+    "No fresh benchmark or custom20 scores yet.",
+    "All three custom20 tokenizer configurations require target semantic comparison; merged config hashes differ from archived checkpoint configs."
+  ]
+}

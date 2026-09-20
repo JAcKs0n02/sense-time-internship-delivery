@@ -1,0 +1,23 @@
+{
+  "status": "FORMAL_TRAINING_PASS_LOCAL_REVIEWED",
+  "release_sha256": "c43eebb6b58e80d4be42d9535ea9257fbf6101d0f1d3a4ecd61041489c536c28",
+  "archive_sha256": "4cb84566fc14a9e373742719bc379438e8418850291c7e6e8ca50aaa61034cca",
+  "shutdown_deadline_utc": "2026-09-16T21:45:00+00:00",
+  "training_started": true,
+  "target_deployed": true,
+  "coordinator_pid": 1526,
+  "started_utc": "2026-09-16T17:51:43.026789+00:00",
+  "startup_receipt_sha256": "02de326e21107649a4e91e08da91f129321bf128127c0707ff248ec433147dc3",
+  "monitor": "week8-320",
+  "monitor_status": "PAUSED",
+  "quality_evaluated": false,
+  "last_observed_utc": "2026-09-16T19:07:23.775976+00:00",
+  "sft_steps_verified": 1775,
+  "sft_merge_and_cold_load_passed": true,
+  "instance_status": "OFF",
+  "target_review": "reports/week8/phase2_full_training_target/target_review.json",
+  "target_review_sha256": "8ed9ef2be4df463191fe823e09ccd965c2e893f4c7c06098954781171c6efc76",
+  "session_close_sha256": "ec3866dbf058d8c53045795d0496687ed7863125d4d4497409ff4149f538b358",
+  "full_training_completed": true,
+  "formal_evaluation_allowed": false
+}

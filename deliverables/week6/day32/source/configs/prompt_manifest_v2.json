@@ -1,0 +1,21 @@
+{
+  "schema_version": "2.0",
+  "change_scope": "single_rule_prompt_ablation",
+  "selection_split": "dev_v2",
+  "final_test_used_for_selection": false,
+  "baseline": {
+    "version": "week6-day30-three-tool-react-v1",
+    "path": "system_prompt_main.txt",
+    "sha256": "b9132d22ab2154b7f36eabe49c281dcfb4c005d67c604ae3e19ce3545654623e"
+  },
+  "optimized": {
+    "version": "week6-day32-three-tool-react-v2",
+    "path": "system_prompt_ablation_input_fidelity.txt",
+    "sha256": "7023933348b7e23e1dffdc440b9788fa795c75769e49502b1688b389a7e411aa"
+  },
+  "unchanged_prefix_sha256": "b9132d22ab2154b7f36eabe49c281dcfb4c005d67c604ae3e19ce3545654623e",
+  "added_rules": [
+    "- Copy every user-provided arithmetic expression or Python source exactly into the tool argument, preserving operators, equals signs, quotes, spaces, and line breaks."
+  ],
+  "targeted_metric": "argument_correctness"
+}

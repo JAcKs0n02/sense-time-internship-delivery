@@ -1,0 +1,14 @@
+{
+  "valid": true,
+  "model_alias": "sft_only",
+  "prompt_count": 15,
+  "generation_config": {
+    "do_sample": false,
+    "max_new_tokens": 512,
+    "repetition_penalty": 1.0,
+    "seed": 42,
+    "dtype": "bfloat16",
+    "device": "cuda:0"
+  },
+  "validate_only": true
+}

@@ -1,0 +1,30 @@
+{
+  "object": "list",
+  "data": [
+    {
+      "id": "week4-dpo-quantized",
+      "object": "model",
+      "created": 1789767745,
+      "owned_by": "vllm",
+      "root": "/root/autodl-tmp/qwen25-week7/models/week4-dpo-awq-4bit-g128-20260911",
+      "parent": null,
+      "max_model_len": 2048,
+      "permission": [
+        {
+          "id": "modelperm-b0798a30082c42e6a28c70ca4e0d8dfb",
+          "object": "model_permission",
+          "created": 1789767745,
+          "allow_create_engine": false,
+          "allow_sampling": true,
+          "allow_logprobs": true,
+          "allow_search_indices": false,
+          "allow_view": true,
+          "allow_fine_tuning": false,
+          "organization": "*",
+          "group": null,
+          "is_blocking": false
+        }
+      ]
+    }
+  ]
+}

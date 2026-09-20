@@ -1,0 +1,14 @@
+{
+  "sample_id": "43ab90dc8d2639429a772ca7b02aa60fdbd985ceb09067fcaf6a612c797e0f07",
+  "prompt": "请判断以下句子所包含的情感整体上是正面的还是负面的\n\n键盘不是很稳当，感觉好象要翘起来一样。 外表是真正的指纹收集器。",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请判断以下句子所包含的情感整体上是正面的还是负面的\n\n键盘不是很稳当，感觉好象要翘起来一样。 外表是真正的指纹收集器。"
+    }
+  ],
+  "answer": "负面",
+  "truncated": false,
+  "input_tokens": 66,
+  "output_tokens": 2
+}

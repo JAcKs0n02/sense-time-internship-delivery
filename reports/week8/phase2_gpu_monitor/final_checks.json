@@ -1,0 +1,21 @@
+{
+  "status": "TARGET_LOADER_PASS_OC_PROMPT_BLOCKED",
+  "train_validation_hashes_rechecked": true,
+  "placeholder_conflicts": 11,
+  "training_allowed": false,
+  "full_runtime_verified": false,
+  "files": {
+    "reports/week8/phase2_gpu_monitor/observed_receipt.json": "60018c09f9c4658896ce739b997375ed67cdc2a5491015d64719b2445a2b276f",
+    "reports/week8/phase2_gpu_monitor/independent_v2.log": "024b7ee235c2c42acf94888b70582cbdd113e6e15dce9599a56b07b6d97f15d1",
+    "reports/week8/phase2_gpu_monitor/run_oc_runtime_audit_03.py": "53e0c1ab1cb84722e06e3be0daf20722945bf2ed04e6bf2a6c3e24e8bf2bfbb5",
+    "reports/week8/phase2_gpu_monitor/run_oc_runtime_audit.py": "c205d5a3796b3ee672e6208445bc313ef46f03c58c89365b7198b8bc4310a61d",
+    "reports/week8/phase2_gpu_monitor/active_session.json": "1ae6c81a9f13b21b45e63cf963d7cc148f1ac8d9d6430be40740e9249d6ce341",
+    "reports/week8/phase2_gpu_monitor/checks.jsonl": "6d020f57a2fd4cc0f252160c292935df96da684819fdbd17a8672c50932e2f4c",
+    "reports/week8/phase2_gpu_monitor/recursive_placeholder_hits.json": "7de61e006638b7173782ed6616ce8616ed3cc230acdef1638aaee0ba406bd0c0",
+    "reports/week8/phase2_gpu_monitor/week8-recheck-20260915.tar.gz": "30c47d20b816d1e77f99185c3403813ee7425ef4d1de8841eaa2ba8d9ee1141b",
+    "reports/week8/phase2_gpu_monitor/run_oc_runtime_audit_04.py": "3f38ae871f94d45aa9b0d8f30ba890ebe323d18efda015246fa701810a06feb8",
+    "reports/week8/phase2_gpu_monitor/transfer_manifest.json": "34431d72b345a65dfcf092ee365bafff49b9bec91753cf6685755d81edf2b54c",
+    "reports/week8/phase2_gpu_monitor/run_oc_runtime_audit_05.py": "ea11cd9545e6ed3ef63974e1f0862d33f145a787d2b1ca4b761c659371fd01c3",
+    "reports/week8/phase2_gpu_monitor/__pycache__/run_oc_runtime_audit.cpython-314.pyc": "debc3bcfabb64ba61f3f8c7382f6b9923dfaab0bd6452ca37575acf64e291ee0"
+  }
+}

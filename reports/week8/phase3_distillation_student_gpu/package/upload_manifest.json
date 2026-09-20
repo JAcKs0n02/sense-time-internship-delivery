@@ -1,0 +1,1002 @@
+[
+  {
+    "path": "configs/distillation.json",
+    "sha256": "1c310fcdf82652e35fe06997f3f04681e31e3c10a6106d671b1effb017ccf325"
+  },
+  {
+    "path": "curation/curated_targets.json",
+    "sha256": "8f0bed57299c4e088782ec53703e78d6a2fdffc82e8cdef0f53b6f2a353bcccf"
+  },
+  {
+    "path": "curation/curation_manifest.json",
+    "sha256": "6c212f094162a9c2990197c390e74382fd5c129ec39d4a48db45af8e0571f6d1"
+  },
+  {
+    "path": "curation/retrieved/generation/generation_receipt.json",
+    "sha256": "2ad4c1fccc01ea807f89452a4e29a02d56fb4444aecdf58a164461a87a83cd35"
+  },
+  {
+    "path": "curation/retrieved/generation/selected_prompts.json",
+    "sha256": "a978378f4c494281f3550c44db41bd6a5f559d83b820c26476176ba4027e966b"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_identity.json",
+    "sha256": "39d6abfaa8d260be36524c10def770fd1381a6ad12d14f1cd145f220b39964a7"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0000.json",
+    "sha256": "38046a85cd1bbb8600e423bac75a60572912aef6f7a73e933f027058b970e2c6"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0001.json",
+    "sha256": "fdd19bf4f65eb8edec8db4e34ae087b4f79ff0b659e5636ea445a022483e5ed6"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0002.json",
+    "sha256": "87a226124f0789f4677b09900f4c0a8e2036dbf4c0aa5ae6494186245e96d941"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0003.json",
+    "sha256": "96beab9a568348a3a53e141ec31fbac70b42d9019edef0c0a9aaae90e7cbbde5"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0004.json",
+    "sha256": "8f8120276cf65a8b78fca094363bd0079098e26eb3cd307ad75c85e6e0e13ffe"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0005.json",
+    "sha256": "c721e84d3ebb82b2c9ba7416cc4430551e880e5b4cb6cf2975366d337054170c"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0006.json",
+    "sha256": "4fcdbd7b0ca92f544fce75ac790a3ef51abebf0e5c98c5b915a1d5dfea22fffc"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0007.json",
+    "sha256": "9f3308bb916d0f1e50f2acdeacb0c5c374d9b449d75ff49012e8e90f502dfd64"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0008.json",
+    "sha256": "e1cacf5d9d60627fd932d6be86d448b832ea083143396e6729281ce41a9589f5"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0009.json",
+    "sha256": "2dea6f323c3b09fb642fce5b562213ac28231bf78a6b7483e74b1394c299c9c8"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0010.json",
+    "sha256": "3be61efb4d0f713bd19ae01b92f35d4c171124d59f49e9cce7fdc398bb36d4fd"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0011.json",
+    "sha256": "f69fbd85006c24740e20155452e0ccbf49997bf747ff718f5cbe8382ef1294b4"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0012.json",
+    "sha256": "f0404252311b489dc5a9129aa160681bb674bfc8c69aafca2d84f2c2e5b9139a"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0013.json",
+    "sha256": "5032a1ad35de7db628d14f7b2834f64112856794d0bf14644ea698b1b7815109"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0014.json",
+    "sha256": "77867b1bbbe7e68040694c1359acf6cf5cc43262ba3161c8ea0def39810d1b47"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0015.json",
+    "sha256": "6f9b97559245c904207a0a6374d4ede5a56b2d9b9aa288ca1a2b94d3a9ce06f0"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0016.json",
+    "sha256": "6972dadd0497add1fdf8dd9dfed843e1e19f287858d6e9b671311ccaad8ce8c4"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0017.json",
+    "sha256": "62e4d07b247d88080ea52b4b6deda025ada68453d4301669853c347334241b83"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0018.json",
+    "sha256": "d00bfbb18dc76d1f9d41acb78d9284045e9c94daeddd0bdfeaab6e5d05da38ac"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0019.json",
+    "sha256": "46bf52c879991240e832e77f0a9b7f4ca6aac38169193210479fc52377cf33be"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0020.json",
+    "sha256": "62488eeda820f93aea3b8d43ed9ef607ae309bc8c29056619f8e205112d1bcaf"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0021.json",
+    "sha256": "8c5ddc5be4e5e125aab2dd47b684aa6cc0f9e5dd8d28e8b250ac86ef5d3a8a0d"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0022.json",
+    "sha256": "0b008ad1e3e3348aa065122cf4595e4b42a1636416c672f5861b6600c57d9e22"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0023.json",
+    "sha256": "586cefd40d87903190c3a792862f8d431b633a2b649933f99c83b38755b47f2e"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0024.json",
+    "sha256": "7353dfb909f22c87d50412aae136f8bc262cef64c9c7ddfbb79ca675921f68ec"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0025.json",
+    "sha256": "2ec45a46ff5f5896cca72c0f004368eb5ba5a513af77f50d78d7c0a2a6f89aba"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0026.json",
+    "sha256": "505a71040180b0e279d4b1c9339c84d6138c03265defdc24f3ca2c6ce9ac51fd"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0027.json",
+    "sha256": "68441753559acb20e881b73ae52893e88d8b24fa4e1abe07230c083e92d0ade7"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0028.json",
+    "sha256": "a43d7a292accd519f7b6619242a48ad0a81fcfcf01707eab510fc12a9cb71991"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0029.json",
+    "sha256": "0dee1debaf5bbf56b8f33e9ef42eb4d5ce2fefb20a76cf197b01e45fa4ffc809"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0030.json",
+    "sha256": "dcbb2b123b07005aeca3b5ae18925c338fc21f1047fdeb36195535346105a876"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0031.json",
+    "sha256": "08176afc416ba8b67f57d6c58b64cb180633f3095ad5d775bb0603c040f9f87c"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0032.json",
+    "sha256": "6c60e6d5f921afe5b4178b3115ae04bba3876b34f99afffc411ca4be69e465b5"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0033.json",
+    "sha256": "2bc8b639d808feef77a2a933cfe93d89cafaaa0450ad9695dbf6552aee502f81"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0034.json",
+    "sha256": "2b0d03899dc7934143fcd393dcb41df91d406a1544aa742e75e181d995cef6ed"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0035.json",
+    "sha256": "d4fa22bdd01a66e824cd693a97f6e7781915e14f593a9198a0c9ebadd7cce8d5"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0036.json",
+    "sha256": "37c01e9454d8a178051d9c458248087f90a9a9a6a07f6cd75d65be7776d429fa"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0037.json",
+    "sha256": "403e15c74001afbfb073569756d7f6fc7028a6bddf2b8d3ded25f18f0984ff95"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0038.json",
+    "sha256": "4fbff9ba9b5005d24d5af6a56bb16bafa4f538e3bbece74a0cdb5d0666b17358"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0039.json",
+    "sha256": "3b534acf50001a3d334c7cb257d152982693431ea245a60b352338aa28d2f833"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0040.json",
+    "sha256": "4272dbcff9f8fcb92d981d68d5e3a0e4603b6d9ad4243c79e628ed9302e47a08"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0041.json",
+    "sha256": "2aa225922ea93b05cc290a18525ffaaaac56b1ac0a3ab8316788e73fa43454e8"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0042.json",
+    "sha256": "5d88c7db92c1b9e351a91de631f38e1ea01f7c99573b89d3cb14dc592798c066"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0043.json",
+    "sha256": "ab9c3889532daa0ac9dc0f187782d0850028222c8bfc6796d0cbd177029b03cf"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0044.json",
+    "sha256": "e174a09d5572a69d363be5fa031668169f2451dd91d2a5f42415f1b2d05c9921"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0045.json",
+    "sha256": "31a00d89a301ca76b620c59f486db3bce892d6cabbb13c790aeb32afec5fef05"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0046.json",
+    "sha256": "10b4cab354d8a105db08628664e771765246ce893df615cab10a3b691def15a1"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0047.json",
+    "sha256": "1107ba3a5ac43000bf8908086dfd46892cc223973b54354993fe52bfab71b101"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0048.json",
+    "sha256": "efdb7e57323dd22769efd42f8962edb34c9a4ebc5d2c1dcd8c1597a94eb776ec"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0049.json",
+    "sha256": "5e7756cf03746a9969b82814a9df83c2b63ffbe061de91b05a8cd223674f7b8f"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0050.json",
+    "sha256": "9100578494af4b8df827b89041bc915a1ca68d5e034e692bf9f926402f85009f"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0051.json",
+    "sha256": "fffa9470aa17562fe9c0e3b4c999ac41d5ad0296835b25bf20d229c47d58c39e"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0052.json",
+    "sha256": "d4acf45223b536510cac2e51e6b01091348a5e4d4cf86c1384411ecb07ec54a2"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0053.json",
+    "sha256": "1b231272afff32b6c05e788e46d64d3eec21cae42ea623d8c44c6c5eaacdf1ae"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0054.json",
+    "sha256": "c962e7910ff013aaf84e285c10f719443de1f6f2c7112917fddfb2558f88bad3"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0055.json",
+    "sha256": "2cc26ddbe93392dbb12c23d2718f3cfcc79254aca7647a443ca7ee81d7616ebf"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0056.json",
+    "sha256": "8f7b16a69391f835628143e7fd535884c16da1bf23c80d9e9b039053911f84ac"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0057.json",
+    "sha256": "e646bc232be739721bdd4a9cb7f27b202f983d44f91a949d5b093eb324c14513"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0058.json",
+    "sha256": "9fb84bee338a89184adf9c43f8bf5e6ff69b8ca695c68494f5783445f425481e"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0059.json",
+    "sha256": "4cb88a0bafe164f25587f692aa27e4d2519f635569da8d5a62143805add090ac"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0060.json",
+    "sha256": "a8ef68bfaea91ccda5dd9e95549efa3645aed16fcb03af3431a83ad87919e065"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0061.json",
+    "sha256": "0ad67630dba3f61cf829537df40a2ed706d22af9a1bacc73aa9d2dfaec693502"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0062.json",
+    "sha256": "42f7b60183cf302ebaa72161e003fbe2b370dc75d6b428e7b12798416d4e6969"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0063.json",
+    "sha256": "e6b337bfbbd74c4373622702cf942fb94ec4666ba98c1c42cde021e7f61466c1"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0064.json",
+    "sha256": "c79b911a243e3e8917bef6b2c18f86bd641d69cb333872799f7196afa56f4c6c"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0065.json",
+    "sha256": "da0cfdc3554d589491fdf781726248bc6a741a3e6e956b1b363943786f68d402"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0066.json",
+    "sha256": "5a5c5749e6e87b034dc02e40942783d39d599a7cd7283628e7360ae24730feb4"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0067.json",
+    "sha256": "30a97917007bb185dd2710c66ff164bbfa6fe2327396ed53866e6f2b669aeb21"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0068.json",
+    "sha256": "6ba4622cf4ad1377ff442047c1a0a733525db1f9e760548a517c192e3928fe70"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0069.json",
+    "sha256": "d4c4c2189c6367dd613c2b86933fe9c01b344f58b775d1c18a378c5d6009eca5"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0070.json",
+    "sha256": "65ffd9b8d2e825cfa2cf5ff33605a8a68390e47abbea859024606451cf7fbff8"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0071.json",
+    "sha256": "eff7f5685cdbaa0bca22cb87d7a4db132b31919b967a5289bd08f57b3d7a211f"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0072.json",
+    "sha256": "c22f33997fa964d4b0f28dddd0bc8e23918c6939b0e1e34a9cfd560547bed2b4"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0073.json",
+    "sha256": "bfb091854021437817c80188530adb9f442136ff0b4ec3df5dd4860d2c089119"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0074.json",
+    "sha256": "9b60e55f8dd9f13d8305e76191b426f6553b9643bc4ddba4ab11c56546938ba2"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0075.json",
+    "sha256": "8dfb48f00132bcfcd66ce66b75cb5b467aad40b88bb816b1d1b3ed56d38c8321"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0076.json",
+    "sha256": "47d77801e83fa3989f40849730cd8190f4f6854daa47b198e8c70aa781a07571"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0077.json",
+    "sha256": "229006b4fa13f776ed9e4c5b2386e0f5a13d5903136d05f915d2c7153dd3155d"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0078.json",
+    "sha256": "c6eb2ac793e076a0e395f481957d00d03f85fa7916a8ea3d55374e6aaf035309"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0079.json",
+    "sha256": "227b2008e38be6069f795072f7925ad42895fbcffa88d443c6bbd37fe4c574e3"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0080.json",
+    "sha256": "b30bf29960605b9d70e78f86dbdd492bc83ed501fcdc4ef589581fc3b89fa254"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0081.json",
+    "sha256": "bd76bec288389f69a67ec3eed6f250cc37290c2d159f2c594543e23b5286f074"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0082.json",
+    "sha256": "49e9827aea915eb635092e0b56c67c9d991881227fd32d403a21cbc8efb21570"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0083.json",
+    "sha256": "17f6874513441a81adadfc4af6e9be51c0e812c94c52f1631d98af642a08da8b"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0084.json",
+    "sha256": "1f79b29c929067cd03c0e456c02e00abd22beab96eb5656fe8580bb9de9761ae"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0085.json",
+    "sha256": "4606208a40f213ae41c9224e7e3317e50d894f97069108172b32505efa5279ce"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0086.json",
+    "sha256": "de8d701e69d24ef0b84793bbb9316a0aec0c45f001b77e32c2359d8f4066e2c7"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0087.json",
+    "sha256": "c5f75b8e58d2c810aaba8317758f94d1d27051f64b8815a7bd4181db3c6a944d"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0088.json",
+    "sha256": "635593d5434b3ac45170dfff5a3264aad6e519333dc1ba21c35400dca259c034"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0089.json",
+    "sha256": "c479d68515c398eaf09b0d9b54eae9f65758374a7f86783dc761cf497d129b17"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0090.json",
+    "sha256": "1594d18d2148214ebad39a7f383334dd7b0e73b47da000864c7e3732202307bf"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0091.json",
+    "sha256": "7e68c5bcf3e374ec5619b1425e56144ee9313b43b706f05d408841fcf7782335"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0092.json",
+    "sha256": "816f9bf8ec886101c1867c422472bd124c96b47f28cf37b468aa45df21ba7914"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0093.json",
+    "sha256": "7ebe2ec211ce158d71d2f874fe37bb3fbb6d2b8883db8be575e69760bf5dcaf4"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0094.json",
+    "sha256": "1ca3297df330675df2c5fdaffc41df74f0743e981acaaa99adb68cb3d219abc4"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0095.json",
+    "sha256": "e34208e89fe1041ba79a26ad63d98a3b15d83b06997baf1d66ad2c5706d5bc66"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0096.json",
+    "sha256": "19ed7b4d3c1dadbf0fc36f4b4d72e5067a749a80484796dd48a4189b79fb2e29"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0097.json",
+    "sha256": "d24cda109aa95195e60492ded5624df3365da22a8735380ecf59c8aa2a1a57b0"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0098.json",
+    "sha256": "a36b3d85e3bcdff0f44eb99d885446e8954217e478f16146ab9eb68d37e95016"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0099.json",
+    "sha256": "3b35c9cb8947019a5059a3890dec9ad73e257d17770679d8884ad84c7a6f1f22"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0100.json",
+    "sha256": "c39e18f3064251e1042c51b9e40d3580115b97008e81a59f5ee46b6fc1458023"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0101.json",
+    "sha256": "cdfd57f5beaf421f0c9ddb9bdc917aa2df41aaf3041ed90b4e03dc86bf932af6"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0102.json",
+    "sha256": "06ec6d551d8d4625baf03d4015a4c28c8e27174b0ee4f79ce4113f90c0747701"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0103.json",
+    "sha256": "20efc7d330db68a89f45a27fda95519cd5172e96be406777f3c18e968a47dfbb"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0104.json",
+    "sha256": "8cea2800295de4d989c15e136c264e6dd4b822d3aeac607bd4d9b4bf78debdec"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0105.json",
+    "sha256": "09650c6a83b259cdf06488555f0b87b54d9b7e5f36bc09fd179f2e81812d65af"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0106.json",
+    "sha256": "9fcc067fcd583ac26e6da9aef146d40735e3d8bcd9ef68a051c9834763d8430e"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0107.json",
+    "sha256": "4bf42863206c40efdccb91854283167fbdc362886ce0f90bd976ca87ef81963a"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0108.json",
+    "sha256": "b9254eba9b82ce07b07ab526818add695ba4641b48f805ef4709ef7cfcf56a2b"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0109.json",
+    "sha256": "4416438e30973825b4483122a0e5f4ced99fb239366a12ddfa06ea1f2d969e66"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0110.json",
+    "sha256": "d5f35bac688ed04db7cbbb63d3682c658f7e1c4e0c4ed0fec483bf2d6a7bda95"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0111.json",
+    "sha256": "69fb43341b11ddad44bf3e051e1d5fbeb2a6bc215511d6ade51853986e61d7a2"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0112.json",
+    "sha256": "9cffd98c08adf10055f48c1762e412a8a06f5b92e1e87cce1ec81ca0d614a3a7"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0113.json",
+    "sha256": "42efc6309f3f4b0aa04de961f3a828739c2ac69296d8e5800ebbdcca3fc6a601"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0114.json",
+    "sha256": "16d4f94e4f2570bb2b3f4f9c2aced1bf4ca77a770a8ada48f56f928ccfc74b81"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0115.json",
+    "sha256": "10d45f8928524a8f8ff51e457cb9200b6f9704de243ca9cc1e4fe7b35e95375a"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0116.json",
+    "sha256": "40d63d90a5438d8246c8107f1209d74c78152c34571a95afd22853a92a8f1be8"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0117.json",
+    "sha256": "f9298343d556e9346b3ad1f552c347fcc9d3fae6aeabef08b6ba515487d1c23e"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0118.json",
+    "sha256": "2d58f58810f379aea7e613389c46c5609997ed7994761c1438980752311e7d1b"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0119.json",
+    "sha256": "b0ece409ee12e99fe3576ae01ed72b0d0cc2e7aa4a1bd4ba5f6bfe0eee1c6571"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0120.json",
+    "sha256": "e1a2b1f64300a4c7c0c077477867599a1c50f5c5f8a4be1c8e04bc7dbc162405"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0121.json",
+    "sha256": "e446c9464ce345554741f3477dd8378c72b30be1d5acc13828c55aa539bd0612"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0122.json",
+    "sha256": "9e4f28c8c92462d5e8975bd1d91577d369f7ba299f300e0f8b98f1008e4ea333"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0123.json",
+    "sha256": "1d08a4818977db4aba47fb32f94850f2de79e2669edd71cbea84fc63b00d809b"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0124.json",
+    "sha256": "7aad3df044ef77624ab0dd6a1445b2a2ff3663e3256336076fd4ab646148d4a6"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0125.json",
+    "sha256": "33ad03fddfb26ae6bb223a8545782452cd835d8cc4674cf85beb9dbe6448442f"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0126.json",
+    "sha256": "c10954b9e3f1cfdf8e8fca363384f61fca00419dcc742bb1be76d46bc22a2802"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0127.json",
+    "sha256": "3b3bdf6d73a95902d1ee43ccc4edc14ffc9ff5bbb62694e97ea42b6366c4a451"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0128.json",
+    "sha256": "23c37b545031eb8e0b4f905851dfcf7aa112e7b600ab87a9981e53862d306bc6"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0129.json",
+    "sha256": "46a3b72190ff9b4b445758be9c0b35502dac4c15314c8777d3ef3c0fae2eae85"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0130.json",
+    "sha256": "d6d97b7236e29e2a1b9454b38cf6fd63031eb5234382747721f3a47a35d489c8"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0131.json",
+    "sha256": "e5275cae5fe115c2cb622c2112b1054bffff57d5c89aa9846eb941cf819e3921"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0132.json",
+    "sha256": "53aa6e733b18b6e17b3f6041c5ce707e535b3eefa5b06b04d86f87d600bf5367"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0133.json",
+    "sha256": "a14ff921117131b5e3ce9a0d91816deeff54e2fe3f4d95055d46888669a886f7"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0134.json",
+    "sha256": "0d2e0e7cfb54cf75929f420ecc17263a22b1f862147bfba0b92cf71f83dbf778"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0135.json",
+    "sha256": "4523464d3ca4b41d9b4ff71db53223055bf7add0418bd97a4ea9dff918cc1393"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0136.json",
+    "sha256": "5498e655793c9a72bb331ca6e96ce1b797d8992ef68a0f272bb815b6b06d7e5c"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0137.json",
+    "sha256": "36f852d005df7034b42d0d796876bd1363725beb3bc3c2b65c3f0eb0afa7369c"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0138.json",
+    "sha256": "dabd3848ae7f85d7caf2a99cfa6d2089c570d747f09f49d7a14f87ed7ba19ab3"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0139.json",
+    "sha256": "52776882637162d96677056b870c5bd16297dc5913b5dd32ebe9b1a1e3239a68"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0140.json",
+    "sha256": "f2722da53c3f0e04b3653c16a4ff69950952cb3a2524112c3d0c85e6caad691f"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0141.json",
+    "sha256": "e0ba6dbbcb4776633e83bc1d449137a56434cfac4b0da63baee24ecf84d53d75"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0142.json",
+    "sha256": "d8cbff073f6b33f289b2bea5d32a8a616eb1a6a9b9f3b9719c99532acf0e6f53"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0143.json",
+    "sha256": "8b49cb4f5dccf5b79534aa3c4d92a9b65b265a9a77e2a3981e38214b4636bd7d"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0144.json",
+    "sha256": "217e2f9e918606f8fdc5d22ba3d809d150bd0df267955f0f0ec6ab003313388e"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0145.json",
+    "sha256": "87703e9bf1d9c3ad39aa08c8567f70b9da36c55bfe21c688d511a3e1888f443e"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0146.json",
+    "sha256": "f6a37316d4dc17a5e69c1d080d8fc4a2202960f693e0ff98f8cdbe487e048941"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0147.json",
+    "sha256": "4d5dd04718245d650d9cad5394dff0cd34da1be0526404d173b80a1d74863690"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0148.json",
+    "sha256": "1250545f5e696208bae3eef8e119f625b62ea3e8b9c541259e30c2c1c6e911b2"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0149.json",
+    "sha256": "988fff06279b93ef0c0534080ad73b880832325ba44a08b755fd098b7f3667cb"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0150.json",
+    "sha256": "6b7758a2e765689b5b3393d9aa777fe7e0a4b5d02f8f46c0df6c5db4ec2034e7"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0151.json",
+    "sha256": "701a09f8035c2e970e91a9d9704415267dd48bd03dc5442858216a37e29b012c"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0152.json",
+    "sha256": "d5337ce253fcef0c3e1482411fb606556d914a30f55a8dc0f868461cfc4b78b4"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0153.json",
+    "sha256": "9b7dfad32b75170c582133988221dd829491c0cb89a81e4adb8c1e17c671263c"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0154.json",
+    "sha256": "b0a2eda27a53d847687654b505d2488f4a4d01051c95688cd4ffb92101db0c23"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0155.json",
+    "sha256": "f4d8ff0b20612452dce457acdd7d81d30aeb29350ad41a57f881b57dd05ac730"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0156.json",
+    "sha256": "55d2a0098bdbe58d715aa2be4cff5a06475819318ed8e9ed980c05dc92560e03"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0157.json",
+    "sha256": "b341540fa6ed77664175345a541c8c5c306bdb304d461c978c4706050a718949"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0158.json",
+    "sha256": "8821c6f5c2102ac35b02435368c6e3c7c9321a2e530d0238fd84f3bd8d6912c8"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0159.json",
+    "sha256": "cb99bbed235b04b29fe726227265a694e9e46818c077a224fb4d3974fda54fed"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0160.json",
+    "sha256": "5258a413cb38d8104372e49bbc55bfa7dabd797ca8fb338c571e152a7f7cfa83"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0161.json",
+    "sha256": "a62b0493b2d91c4fd8f87b786d97ed0041d55eab4c5ddb5ad8ca4901d3c23d73"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0162.json",
+    "sha256": "4f51d4cd2685a02f43151f3348cefcaea3c8af2a186bcb695b9e9f8159dd16db"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0163.json",
+    "sha256": "2e1a7dec29df4157e835b109fdbe2786c17cd3ec53e147f48356fb19667a5822"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0164.json",
+    "sha256": "dd5934616b55644388318065ff7cbe2dfd70d0bee1f688404080488940bf0837"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0165.json",
+    "sha256": "941cf1eeb93801a12e47e85702ef1e55ee41fa26dde49485603886008130107d"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0166.json",
+    "sha256": "d4dcea743fc97f44305545384dd56918f82084ea01d79b8b428d7f9a03bac656"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0167.json",
+    "sha256": "cd74f87ec17535a08ed5409b1832ba0266ad4c00f87ebea8289eef1f80d27036"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0168.json",
+    "sha256": "4efee4940624b81d5d299f932b7296c50ebefc722cd7a758ecf5e08449b4f7bf"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0169.json",
+    "sha256": "c68693d427b7c129eafe2dd5dfc6aff538bf17bf50fb05b89c903d9fe0fd5b64"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0170.json",
+    "sha256": "480885191ec9f138130e4c715ab07a3ba7ee70076b8935be4a4060a0afb11079"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0171.json",
+    "sha256": "fb8e91b659b0a7cef355c7159abb4bd8766130b4a037776ddfef0c53ea190c92"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0172.json",
+    "sha256": "ffe30fb7b57774b5137a20b6e9e09a017b8981fb14b2b2e8ea04a5808913494d"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0173.json",
+    "sha256": "93bafced08d1c490aac54472994808b6c7f20cc003ac1fea1ce8e0f32dee6f0c"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0174.json",
+    "sha256": "92dcaab344a6c25e4dadd61d6f5b50d18f1440dac27c237b617c5115ec048465"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0175.json",
+    "sha256": "429f278d356a603ee3fcc330c470fee36aaa3449a0836c21ed447510ad4e67e1"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0176.json",
+    "sha256": "e9829e8e99116a71737d04332722c7bcde3155e3f9510039e6299f30f6e6bcc9"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0177.json",
+    "sha256": "8e3d2683630837d09e757cd1ed0b9f67d52b71c10a04363e571a6d653b8133e8"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0178.json",
+    "sha256": "d82f23f5f1fe0a5efd4da83a9287830eda4c441676657b51cb97d5e5dcaa6d7e"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0179.json",
+    "sha256": "2cee1f9b679b2c0bf8ae6e2ea2cc57cb9ab813b013ef7ba159da8589d4bb1909"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0180.json",
+    "sha256": "828344405a13a024d798bc378d8ef5fa0592e9e79bbca22a454693c47739e7e8"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0181.json",
+    "sha256": "422b06391bc1e01d1652980c68761f052fcd030568dcc9e3b730f97ea2cddbfe"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0182.json",
+    "sha256": "52ba24718f5df3cc2c4fa34bcb760e76cecb741b1bad20f014bf9d3617916c2e"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0183.json",
+    "sha256": "e2bfd73d74d86aa1f48769ca78a10ae980826d6faa92fece8c74ea91a1641ad4"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0184.json",
+    "sha256": "ec29ae125631445aa09884a970002512d51632864929d899432156f6c68dfd7b"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0185.json",
+    "sha256": "4cb92058e8b09da8c010b74eb02dca3d18d74bc34a04bed887bf66399e1f3ceb"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0186.json",
+    "sha256": "86caa8f605f0093650348c6c5059fa2b6c8d560c9acd0e9a39406b038e22013e"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0187.json",
+    "sha256": "af96b5483ce25ea9518aca05af45357d155655826ccdda2e97f785470e235678"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0188.json",
+    "sha256": "962828ae4b98b52df334d88a88453ae13284188441a23a6768addc9f8635c532"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0189.json",
+    "sha256": "c716cdd1349b432b6f6a1dd35311d98be5a9a472bbe217ef680f517e7d43f367"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0190.json",
+    "sha256": "8210a6fdbbec4517bfdd149e1efb53cf68e7999ade743e602bb24b35f5007e89"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0191.json",
+    "sha256": "d663c4fef519da711b53d5ac329247639734ab3756b3b2c39b505bd17bf3c0d2"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0192.json",
+    "sha256": "3015604320193b7ccd7c066124b22a74e626410e134b3f24b37f96e4102c5273"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0193.json",
+    "sha256": "34997b0f6e108f2277f2de1f7d92f2ba915edaa5bcc3883d4bd22b0afcd0f098"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0194.json",
+    "sha256": "49ea7d8dea53a6f093186be05aa712fda66c13c02c51714df70e8527228f87d3"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0195.json",
+    "sha256": "4a9abbd07181f7136d165efed8320d8868be5d344bd09984b5ba4ae0a63d5621"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0196.json",
+    "sha256": "02193c9c3a82b5b5b74db39c48136ad52121a93ae69fe940e41318eae1c5e946"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0197.json",
+    "sha256": "b9ce8028d0d7cddcc83c81a7b22ba3954c1a8847127a5073ccbe7f19550a637c"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0198.json",
+    "sha256": "2c7f85739de4e3ebefe9ac535eff9396ded87377e9017468193a5c6eed3bd75b"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_raw/0199.json",
+    "sha256": "ecccc73b6f37ce691e6e3fd4950088c6a1d9bb4244528b69fe5857941eb138d5"
+  },
+  {
+    "path": "curation/retrieved/generation/teacher_targets.json",
+    "sha256": "9559025ad117486c41797e6c84e92a21e55f7f47ad15d329dbee81236dabedad"
+  },
+  {
+    "path": "deliverables/week2/day7/clean_pipeline.py",
+    "sha256": "ae60f4f583a7ff5115362f08dafa5d341ed1755155ad8b2b804885e23823bff3"
+  },
+  {
+    "path": "execution_plan.json",
+    "sha256": "29746bc9d903bdf69ac1d59b1a80ab7247bd5a9777a63782f85f41628e42729a"
+  },
+  {
+    "path": "expected_schedule.json",
+    "sha256": "309d3354f26e7512a06d12ec516637c2579641c6bec5c270b75aaea35584da70"
+  },
+  {
+    "path": "expected_statistics.json",
+    "sha256": "c563fd24ff9b37edd488d6624b217196407a57999af60ffcfb760048d55db689"
+  },
+  {
+    "path": "quality_review.json",
+    "sha256": "40cf91e9b8ef2050b717cd8dce91a66ff8357ad76375fdfc69a39cb4933d9278"
+  },
+  {
+    "path": "run_student_session.py",
+    "sha256": "569d381860e9c57dc7ca23407ff8dd5d5316fe65897bfa9335887674f00230df"
+  },
+  {
+    "path": "scripts/__init__.py",
+    "sha256": "d57468bfcd25001d2910a08215028809f9e377c86dc035b79bdea14709cf7be4"
+  },
+  {
+    "path": "scripts/audit_week8_benchmark_prompts.py",
+    "sha256": "0adf1870fc8efde926371899addc6e921c71db12b91ef3ab97a05c5f138fe176"
+  },
+  {
+    "path": "scripts/audit_week8_benchmark_prompts_v2.py",
+    "sha256": "b524c1d9e391e958ea9bdf730ced5d36848f837a1e2a3e2d398294fcb9c2deae"
+  },
+  {
+    "path": "scripts/audit_week8_opencompass_runtime.py",
+    "sha256": "eb932c2d821993cd60b629fdbbcfd14dabdb63abbe9c9abdcbe099d779429662"
+  },
+  {
+    "path": "scripts/build_technical_report.py",
+    "sha256": "1bfe98e264ba918d183175a9065fd2dcb15be0a86f00a7fed7c179016b3eee0b"
+  },
+  {
+    "path": "scripts/build_week8_formal_eval_config.py",
+    "sha256": "78671c0bfe306cbd0d1286f64f1a193615c360ef1b2f07d0ead80942361c61c9"
+  },
+  {
+    "path": "scripts/check_week8_loader.py",
+    "sha256": "ef32ea44b01e0030e834e473caa3d4aa408388f9375242eccea78d87f04cb590"
+  },
+  {
+    "path": "scripts/check_week8_target_forward.py",
+    "sha256": "fb7950411032b88178f0d14af7a50ac5c3e25954d14bcfecb6595b9c676fcb8c"
+  },
+  {
+    "path": "scripts/common.py",
+    "sha256": "08001ce0972a14218fa552cc05c4acfd60913ea84d78885a02427ba0deee2ed9"
+  },
+  {
+    "path": "scripts/compare_distillation.py",
+    "sha256": "5eb7c285bcdb902938d8f213b77ef9fffebaae3b667b35d26959227d707ac583"
+  },
+  {
+    "path": "scripts/deploy.py",
+    "sha256": "be7911887d37943499f00b8ed8f0bb716be3c5cfef5325333131af3a40bbacba"
+  },
+  {
+    "path": "scripts/distill.py",
+    "sha256": "32c54d0b5ced29b284dc27c166b7c550098c7d927a6dc2f118df1da89fded393"
+  },
+  {
+    "path": "scripts/setup_week8_gemini_key.py",
+    "sha256": "8597bf1eb71cc2742c9c2f38371c998518a18254a42d7e2b251b2e9b3cdb2c43"
+  },
+  {
+    "path": "scripts/setup_week8_judge_key.py",
+    "sha256": "27a27f7cd7fba05794268e9a4e844a6264fa90526b2f4daecf6b5a46f3f63786"
+  },
+  {
+    "path": "scripts/step1_data_prep.py",
+    "sha256": "7f7244959b998e7282e08c348d590a9f4dbbceb3c3db0bc0629146006caef5bf"
+  },
+  {
+    "path": "scripts/step3_eval.py",
+    "sha256": "663b115ec65ac8d91c42f4326dabcb951fd4fbf7823f0582b6baefa175971616"
+  },
+  {
+    "path": "scripts/train_pipeline.py",
+    "sha256": "ef9100c760d90a173e5b1d1cc717a7d6134059e2d0a8e7ce03ba311a3bcdaa3d"
+  },
+  {
+    "path": "scripts/week8_data.py",
+    "sha256": "290b1ba94c5cb0bfdc6d7783348b41abc19c3de78fa37b9642405b65ceae0008"
+  },
+  {
+    "path": "scripts/week8_deepseek_judge.py",
+    "sha256": "5b8ad8ac4cb93578293a8d58aea0960ddd1dbacf93e02713e91cfe751cb5be7b"
+  },
+  {
+    "path": "scripts/week8_distillation_verify.py",
+    "sha256": "1fe867b62061d20705b89eb97767cc4013d66e7e0c5e664c252fd1e545570950"
+  },
+  {
+    "path": "scripts/week8_full_cold_load.py",
+    "sha256": "c2ffb7b9cd9ea7400f8e40b1bda05598effe13712660d1dfdf652dc0a027e4d3"
+  },
+  {
+    "path": "scripts/week8_full_training.py",
+    "sha256": "2bc7d8e6bf0c58e15b221ab8d9689a71e3fa6a151425672fa9c411c2f96df09f"
+  },
+  {
+    "path": "scripts/week8_full_verify.py",
+    "sha256": "83b856857ffc57df738f6cf7867ce96784ba967702f52de82eaf85641bbf335b"
+  },
+  {
+    "path": "scripts/week8_gemini_judge.py",
+    "sha256": "f4fc591480819d7a16105ab77950db7ab1eb67b41a09136854dc1ce1f88ffe5b"
+  },
+  {
+    "path": "scripts/week8_gemini_score_only.py",
+    "sha256": "d926647540e6f9e0b0f2bf9574fd6e23dd85b9c186ff41b659461a4d4c4cb665"
+  },
+  {
+    "path": "scripts/week8_generation_only.py",
+    "sha256": "c94894374676a74f6d4e0234b7ea3b1cc832f22e98fceab746e83c8f70aa13c9"
+  },
+  {
+    "path": "scripts/week8_prompt_template.py",
+    "sha256": "50c989d1291f7806b07ff11cd95a8ffb1064cf693f080ac3e6e7d434657efcb9"
+  },
+  {
+    "path": "scripts/week8_responses_judge.py",
+    "sha256": "f1a0a2e6dc53afc0d3d4a0f3bf66620b9830d2ae3fb3fb7bd39b11c9a5bdc2f8"
+  },
+  {
+    "path": "scripts/week8_resume_eval.py",
+    "sha256": "68fb563b50bbb1ee37914cbca702b9bfbf719a0149d87253426412acfd1c7d40"
+  },
+  {
+    "path": "scripts/week8_score_only.py",
+    "sha256": "cf2a68425e3e05d7e602491e0e64a73c5df495a85b1c6276a80b5cc771320b2e"
+  },
+  {
+    "path": "scripts/week8_score_recovery_audit.py",
+    "sha256": "e62543884c0e34713e3759da6532b9543c1ee079773edd396261192267577b2e"
+  },
+  {
+    "path": "scripts/week8_strict_tool_judge.py",
+    "sha256": "730957a6cda7d29d0ccdbe1a6a9f943050336e4ac4ff758f70732b976fb99a8c"
+  },
+  {
+    "path": "scripts/week8_trained_score.py",
+    "sha256": "1e78fbd634b13a201121efcc87dbbf7cee5efe122783571a4452c1f27ad71ca2"
+  },
+  {
+    "path": "scripts/week8_trained_session.py",
+    "sha256": "1c83da73aadb5ce2f74221a36228ebab3b7c8f9d55afbf3669217de815abb3d6"
+  },
+  {
+    "path": "scripts/week8_training_smoke.py",
+    "sha256": "63abfc633f3ac3c229c023fa6aa4661fffb8e1ca38f32d4b3fd5f7c12599e59d"
+  },
+  {
+    "path": "student_manifest.json",
+    "sha256": "026367d80e1b28ce1c70920b67171b3ea9003d210b3040fe97ad8cea9fdf7475"
+  },
+  {
+    "path": "teacher_manifest.json",
+    "sha256": "39d6abfaa8d260be36524c10def770fd1381a6ad12d14f1cd145f220b39964a7"
+  }
+]

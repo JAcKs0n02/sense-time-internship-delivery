@@ -1,0 +1,8 @@
+# Current Linux CUDA training + evaluation roots, aligned with AutoDL 320.
+# Install torch 2.5.1+cu121 first; see README.md in this directory.
+-r requirements-evaluation.txt
+llamafactory==0.9.3
+peft==0.15.1
+trl==0.9.6
+bitsandbytes==0.43.3
+tensorboard==2.21.0

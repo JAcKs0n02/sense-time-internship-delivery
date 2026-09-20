@@ -1,0 +1,8 @@
+{
+  "accuracy": 3,
+  "completeness": 3,
+  "logic": 5,
+  "safety": 5,
+  "format": 5,
+  "weighted_score": 3.9
+}

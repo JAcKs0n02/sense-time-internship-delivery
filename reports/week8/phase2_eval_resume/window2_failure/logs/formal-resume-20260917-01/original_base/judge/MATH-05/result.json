@@ -1,0 +1,11 @@
+{
+  "status": "rejected",
+  "scores": null,
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 1895,
+    "completion_tokens": 4096,
+    "total_tokens": 5991
+  },
+  "usage_complete": true
+}

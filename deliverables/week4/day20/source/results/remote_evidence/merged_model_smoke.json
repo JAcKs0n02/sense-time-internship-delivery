@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "merged_model_load": "PASS",
+  "harmless_generation": "PASS",
+  "model_path": "/root/autodl-tmp/qwen25-week4/best_model/qwen25-7b-week4-dpo-merged",
+  "model_class": "Qwen2ForCausalLM",
+  "tokenizer_class": "Qwen2TokenizerFast",
+  "local_files_only": true,
+  "prompt": "客户反馈导出报表缺少最近一天数据，请先给出三个澄清问题。",
+  "response": "1. 请问您所使用的系统或软件是什么版本？\n2. 您能否提供一个具体的例子，说明缺少最近一天数据的报表是哪种报表，以及您是如何生成该报表的？\n3. 您是否尝试过重新启动系统或软件，或清除缓存和临时文件，以解决问题？",
+  "input_tokens": 45,
+  "output_tokens": 67,
+  "generation_config": {
+    "do_sample": false,
+    "max_new_tokens": 128,
+    "repetition_penalty": 1.0,
+    "seed": 42
+  }
+}

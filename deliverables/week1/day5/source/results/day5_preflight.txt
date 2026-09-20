@@ -1,0 +1,63 @@
+=== DAY 5 PREFLIGHT ===
+2026-07-19T10:17:31+08:00
+workdir=/root/autodl-tmp/qwen25-week1/week1
+model_dir=/root/autodl-tmp/qwen25-week1/week1/models/Qwen2.5-7B-Instruct
+conda_prefix=/root/autodl-tmp/conda/envs/llm_exp
+Python 3.10.20
+/root/autodl-tmp/conda/envs/llm_exp/bin/python
+----------------------------------------------------------
+| Welcome to LLaMA Factory, version 0.9.3                |
+|                                                        |
+| Project page: https://github.com/hiyouga/LLaMA-Factory |
+----------------------------------------------------------
+torch=2.5.1+cu121
+torch_cuda=12.1
+cuda_available=True
+gpu=NVIDIA GeForce RTX 3090
+bf16_supported=True
+transformers=4.50.0
+peft=0.15.1
+bitsandbytes=0.43.1
+datasets=3.2.0
+accelerate=1.2.1
+TensorFlow installation not found - running with reduced feature set.
+2.21.0
+Sun Jul 19 10:17:50 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.71.05              Driver Version: 595.71.05      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 3090        On  |   00000000:D1:00.0 Off |                  N/A |
+| 30%   32C    P8             24W /  350W |       1MiB /  24576MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Filesystem     Type  Size  Used Avail Use% Mounted on
+/dev/nvme1n1   xfs   100G   23G   78G  23% /root/autodl-tmp
+model_config_present=true
+identity_present=true
+dataset_info_present=true
+config_present=true
+prompts_present=true
+identity_samples=91
+fixed_eval_prompts=8
+target_name=Qwen2.5-Intern
+target_author=Week 1 Internship Project
+475cca081507c57cc198a96231128801623f665c524e7b1d182265d782c2efc8  /root/autodl-tmp/qwen25-week1/week1/data/identity.template.json
+57e0d9978bc3b45ce2667cf1ba584efa5de810575d15255883ce2440388d3f3c  /root/autodl-tmp/qwen25-week1/week1/data/identity.json
+b97d6b4f4aae62a406fc0a8afc0ec77150c983a8a5880476b351d7fd65db603c  /root/autodl-tmp/qwen25-week1/week1/data/dataset_info.official.json
+505717c5fea235260382d804f1e67f58976c5f748bd73d0a9cf343db1cc64738  /root/autodl-tmp/qwen25-week1/week1/data/dataset_info.json
+607fc3118c8033f60c510f0658459c39e92726d22ebbffbd0285601e64ae82a8  /root/autodl-tmp/qwen25-week1/week1/configs/qwen25_7b_identity_qlora.yaml
+3fb8f4c486021ec8073ff56139b490dddcbb54b5c496f8925b1fbacf91b6bc22  /root/autodl-tmp/qwen25-week1/week1/source/prompts/identity_prompts.json
+output_dir_preexisting=false
+preflight_exit_code=0

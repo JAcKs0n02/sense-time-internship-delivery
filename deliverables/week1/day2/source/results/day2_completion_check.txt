@@ -1,0 +1,34 @@
+2026-07-16T12:12:13+08:00
+.....                                                [100%]
+5 passed in 3.36s
+model_type qwen2
+layers 28
+hidden_size 3584
+vocab 151665
+model-00001-of-00004.safetensors 3945441440
+model-00002-of-00004.safetensors 3864726352
+model-00003-of-00004.safetensors 3864726424
+model-00004-of-00004.safetensors 3556377672
+PASS model inventory
+PASS 3 result rows
+/tmp/day2_verify_lru.py
+A=liar B=truth C=liar
+PASS unique solution
+PASS chat template
+scripts/inference.py: OK
+scripts/validate_results.py: OK
+scripts/inspect_chat_template.py: OK
+scripts/logic_reference.py: OK
+scripts/model_inventory.py: OK
+prompts/day2_prompts.json: OK
+prompts/day2_code_retry.json: OK
+prompts/day2_code_retry_attempt_3.json: OK
+logs/day2_inference_results.jsonl: OK
+logs/day2_code_retry_results.jsonl: OK
+logs/day2_code_retry_attempt_3_results.jsonl: OK
+artifacts/day2_generated_lru.py: OK
+artifacts/day2_generated_lru_attempt_2.py: OK
+artifacts/day2_generated_lru_attempt_3.py: OK
+reports/day2_experiment_summary.md: OK
+PASS evidence wording audit
+PASS DAY2 COMPLETION CHECK

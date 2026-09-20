@@ -1,0 +1,22 @@
+{
+  "status": "PASS_CPU_COLD_LOAD_AND_GENERATION",
+  "role": "week8_final_sft",
+  "device": "cpu",
+  "dtype": "bfloat16",
+  "torch": "2.6.0",
+  "parameter_count": 7615616512,
+  "all_logits_finite": true,
+  "new_token_ids": [
+    16,
+    10,
+    16,
+    107106,
+    17,
+    1773,
+    151645
+  ],
+  "generated_text": "1+1等于2。",
+  "elapsed_seconds": 18.198997974395752,
+  "verified_utc": "2026-09-19T00:11:39.182121+00:00",
+  "scope": "Local backup fresh-process loading and 8-token smoke only; not benchmark or quality promotion"
+}

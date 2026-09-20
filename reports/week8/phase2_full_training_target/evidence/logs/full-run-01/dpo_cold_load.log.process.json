@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/root/autodl-tmp/conda/envs/llm_exp/bin/python",
+    "/root/autodl-tmp/week8-full-training-runtime-20260916/scripts/week8_full_cold_load.py",
+    "--model",
+    "/root/autodl-tmp/week8-full-training-runtime-20260916/logs/full-run-01/models/final_dpo",
+    "--output",
+    "/root/autodl-tmp/week8-full-training-runtime-20260916/logs/full-run-01/dpo_cold_load.json"
+  ],
+  "started_utc": "2026-09-16T19:13:31.487789+00:00",
+  "returncode": 0,
+  "timed_out": false,
+  "header_verified": true,
+  "finished_utc": "2026-09-16T19:13:39.495994+00:00",
+  "log_sha256": "4ea6fa09846ad11320d20c4ba778af52c887b4f164991564a6b69d8d244522c0"
+}

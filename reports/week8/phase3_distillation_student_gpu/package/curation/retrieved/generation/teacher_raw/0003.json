@@ -1,0 +1,14 @@
+{
+  "sample_id": "95bed3d5502e1ecde9c83572bd5b9e6e26617dfe02328418cef6b376ef6bc24c",
+  "prompt": "选择文本中最能反映文本主题的句子。",
+  "messages": [
+    {
+      "role": "user",
+      "content": "选择文本中最能反映文本主题的句子。"
+    }
+  ],
+  "answer": "如果您提供了文本，我可以为您选择出最能反映文本主题的句子。",
+  "truncated": false,
+  "input_tokens": 39,
+  "output_tokens": 17
+}

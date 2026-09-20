@@ -1,0 +1,220 @@
+{
+  "tokens": {
+    "<|endoftext|>": {
+      "vocabulary_id": 151643,
+      "protocol_ids": [
+        151643
+      ],
+      "protocol_token_strings": [
+        "<|endoftext|>"
+      ],
+      "protocol_decode_keep_special": "<|endoftext|>",
+      "protocol_decode_skip_special": "",
+      "literal_ids_split_special_tokens_true": [
+        27,
+        91,
+        8691,
+        723,
+        427,
+        91,
+        29
+      ],
+      "literal_token_strings": [
+        "<",
+        "|",
+        "endo",
+        "ft",
+        "ext",
+        "|",
+        ">"
+      ],
+      "literal_decode": "<|endoftext|>"
+    },
+    "<|im_start|>": {
+      "vocabulary_id": 151644,
+      "protocol_ids": [
+        151644
+      ],
+      "protocol_token_strings": [
+        "<|im_start|>"
+      ],
+      "protocol_decode_keep_special": "<|im_start|>",
+      "protocol_decode_skip_special": "",
+      "literal_ids_split_special_tokens_true": [
+        27,
+        91,
+        318,
+        4906,
+        91,
+        29
+      ],
+      "literal_token_strings": [
+        "<",
+        "|",
+        "im",
+        "_start",
+        "|",
+        ">"
+      ],
+      "literal_decode": "<|im_start|>"
+    },
+    "<|im_end|>": {
+      "vocabulary_id": 151645,
+      "protocol_ids": [
+        151645
+      ],
+      "protocol_token_strings": [
+        "<|im_end|>"
+      ],
+      "protocol_decode_keep_special": "<|im_end|>",
+      "protocol_decode_skip_special": "",
+      "literal_ids_split_special_tokens_true": [
+        27,
+        91,
+        318,
+        6213,
+        91,
+        29
+      ],
+      "literal_token_strings": [
+        "<",
+        "|",
+        "im",
+        "_end",
+        "|",
+        ">"
+      ],
+      "literal_decode": "<|im_end|>"
+    }
+  },
+  "chat_template": {
+    "add_generation_prompt_false": {
+      "text": "<|im_start|>system\n你是一个严谨的实验助手。<|im_end|>\n<|im_start|>user\n请用一句话解释分词。<|im_end|>\n",
+      "token_ids": [
+        151644,
+        8948,
+        198,
+        56568,
+        101909,
+        108487,
+        9370,
+        102140,
+        110498,
+        1773,
+        151645,
+        198,
+        151644,
+        872,
+        198,
+        14880,
+        11622,
+        105321,
+        104136,
+        17177,
+        99689,
+        1773,
+        151645,
+        198
+      ],
+      "token_count": 24,
+      "last_12_token_ids": [
+        151644,
+        872,
+        198,
+        14880,
+        11622,
+        105321,
+        104136,
+        17177,
+        99689,
+        1773,
+        151645,
+        198
+      ],
+      "last_12_token_strings": [
+        "<|im_start|>",
+        "user",
+        "Ċ",
+        "è¯·",
+        "çĶ¨",
+        "ä¸Ģåı¥è¯Ŀ",
+        "è§£éĩĬ",
+        "åĪĨ",
+        "è¯į",
+        "ãĢĤ",
+        "<|im_end|>",
+        "Ċ"
+      ]
+    },
+    "add_generation_prompt_true": {
+      "text": "<|im_start|>system\n你是一个严谨的实验助手。<|im_end|>\n<|im_start|>user\n请用一句话解释分词。<|im_end|>\n<|im_start|>assistant\n",
+      "token_ids": [
+        151644,
+        8948,
+        198,
+        56568,
+        101909,
+        108487,
+        9370,
+        102140,
+        110498,
+        1773,
+        151645,
+        198,
+        151644,
+        872,
+        198,
+        14880,
+        11622,
+        105321,
+        104136,
+        17177,
+        99689,
+        1773,
+        151645,
+        198,
+        151644,
+        77091,
+        198
+      ],
+      "token_count": 27,
+      "last_12_token_ids": [
+        14880,
+        11622,
+        105321,
+        104136,
+        17177,
+        99689,
+        1773,
+        151645,
+        198,
+        151644,
+        77091,
+        198
+      ],
+      "last_12_token_strings": [
+        "è¯·",
+        "çĶ¨",
+        "ä¸Ģåı¥è¯Ŀ",
+        "è§£éĩĬ",
+        "åĪĨ",
+        "è¯į",
+        "ãĢĤ",
+        "<|im_end|>",
+        "Ċ",
+        "<|im_start|>",
+        "assistant",
+        "Ċ"
+      ]
+    }
+  },
+  "chat_template_difference": {
+    "added_token_count": 3,
+    "added_suffix_ids": [
+      151644,
+      77091,
+      198
+    ],
+    "added_suffix_text": "<|im_start|>assistant\n"
+  }
+}

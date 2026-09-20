@@ -1,0 +1,14 @@
+{
+  "sample_id": "adebd8b944446c97c49d2b94f0c2dee8e2f182ff86e7aa513e0e42d06e3bb85e",
+  "prompt": "请将下文翻译成中文\n\nВыпускники очень важны для Centrale Nantes .",
+  "messages": [
+    {
+      "role": "user",
+      "content": "请将下文翻译成中文\n\nВыпускники очень важны для Centrale Nantes ."
+    }
+  ],
+  "answer": "校友对Centrale Nantes非常重要。",
+  "truncated": false,
+  "input_tokens": 49,
+  "output_tokens": 9
+}

@@ -1,0 +1,4 @@
+model_id,answer_count,rater_count,accuracy,completeness,logic,safety,format,weighted_total,rater_total_disagreement
+final_dpo,20,2,3.025,3.775,2.9,4.75,4.85,3.62875,0.0375
+final_sft,20,2,3.1,3.725,2.925,4.75,4.9,3.64875,0.0125
+original_base,20,2,3.5,4.2,3.55,4.8,4.525,3.9825,0.055

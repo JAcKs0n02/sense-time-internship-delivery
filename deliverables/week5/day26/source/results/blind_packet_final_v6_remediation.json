@@ -1,0 +1,162 @@
+[
+  {
+    "case_id": "chart_table-13--direct",
+    "image_relative_path": "images/final/chart_table-13.jpg",
+    "user_instruction": "请提取图表中的关键信息，并概括最重要的结论。",
+    "reference_answer": "图中显示一张名为 CRUncover 的小型结果表。表格有多列文本与数值；底部一行包含 2.72、Ingcubic 和 $744.78。",
+    "response_a": "这张图表展示了CRuncover的几个关键指标，包括Dres、Abstr和cludingGiv。以下是每个指标的具体值： - Dres：连续工作3 - Abstr：rSrivi - cludingGiv：2.72 从这些数据中，我们可以看到CRuncover在连续工作方面表现良好，但在抽象和包容性方面还有提升空间。具体来说： 1. **Dres（连续工作）**：值为“连续工作3”，表明连续工作的表现较好。 2. **Abstr（抽象）**：值为“rSrivi”，这可能是一个特定的指标或代码，需要进一步解释其含义。 3. **cludingGiv（包容性）**：值为2.72，这是一个相对较低的数值，表明在包容性方面有待提高。 **最重要的结论**：CRuncover在连续工作方面表现出色，但在抽象和包容性方面存在改进的空间。特别是包容性指标（cludingGiv）的低值，提示我们需要关注并改善这一方面的表现。",
+    "response_b": "图中为一张表格，表头为 CRuncover，包含三列：Dres、Abstr 和 cludingGiv。其中 Dres 列有“连续工作 3”、“取出来放在网上，没想”和“江、鳌江等八大”；Abstr 列有“rSrivi”和“$709.”；cludingGiv 列有“2.72”和“Ingubic $744.78”。结论：该表格未提供明确的结论或分析内容。"
+  },
+  {
+    "case_id": "chart_table-13--correction",
+    "image_relative_path": "images/final/chart_table-13.jpg",
+    "user_instruction": "有人声称：“图中是一张只有红色折线的折线图”。请先判断该说法是否符合图像，再给出可见依据。",
+    "reference_answer": "该说法不符合图像。图中显示一张名为 CRUncover 的小型结果表。表格有多列文本与数值；底部一行包含 2.72、Ingcubic 和 $744.78。",
+    "response_a": "结论：不符合。可见依据：图中为一张表格；表头为“CRuncover”；包含三列数据；未见红色折线。",
+    "response_b": "该说法不符合图像。 根据图像内容，这是一张表格，而不是折线图。表格中包含以下列： 1. CRuncover 2. Dres 3. Abstr 4. cludingGiv 每一列都有相应的数据项，例如“连续工作3”、“rSrivi”和“Ingubic”等。这些数据项没有以折线的形式展示，因此无法被视为红色折线的折线图。"
+  },
+  {
+    "case_id": "chart_table-14--direct",
+    "image_relative_path": "images/final/chart_table-14.jpg",
+    "user_instruction": "请提取图表中的关键信息，并概括最重要的结论。",
+    "reference_answer": "图中显示一页含三幅小图和双栏正文的学术文档。页面上部并排展示图表；下方是英文双栏正文，并有彩色区域框。",
+    "response_a": "图中为DNA聚合酶（RNAP）形成稳定开放复合体SNAP绑定、复杂复合体RP_2形成和转录起始的示意图。图中还展示了转录起始的热启动概率和转录延伸的热启动概率。结论：转录延伸的热启动概率可能更易受环境因素影响，而转录起始的热启动概率则与DNA结构和转录因子结合有关。",
+    "response_b": "### 图表关键信息 #### 图1.09 - **图A**：展示了工程化启动子（A）和原启动子（B）的相对转录强度。 - **图B**：展示了工程化启动子（C）和原启动子（D）的相对转录强度。 #### 图2.06 - **图A**：展示了RNA聚合酶（RNAP）形成稳定开放复合物SNAP绑定、形成复杂复合物RP、形成封闭和包裹复杂复合物L1、形成初始开放复合物L0和最终形成稳定开放复合物RP的过程。 - **图B**：展示了RNA聚合酶的转录过程，包括启动子逃逸、转录延长和终止。 #### 图3.00 - **图A**：展示了启动子序列对热稳定性的影响。 - **图B**：展示了启动子序列对转录效率的影响。 ### 最重要的结论 1. **启动子序列对热稳定性的影响**： - 启动子序列的改变显著影响了热稳定性，尤其是在温度变化较大的环境中。 - 热稳定性高的启动子序列在高温下仍能保持较高的转录效率。 2."
+  },
+  {
+    "case_id": "chart_table-14--correction",
+    "image_relative_path": "images/final/chart_table-14.jpg",
+    "user_instruction": "有人声称：“表格只有两行两列”。请先判断该说法是否符合图像，再给出可见依据。",
+    "reference_answer": "该说法不符合图像。图中显示一页含三幅小图和双栏正文的学术文档。页面上部并排展示图表；下方是英文双栏正文，并有彩色区域框。",
+    "response_a": "该说法不符合图像。 根据图像内容，表格实际上有三行和三列。具体来说： 1. 第一行：标题行，包含“DNA polymerase (RNAP)”、“SNAP binding”、“formation of complex RP”、“formation of the bent and wrapped complex L1”、“formation of initial open complex L0”、“and finally formation of a stable open complex RP”。 2. 第二行：数据行，包含“[9,31]”、“[9,31]”、“[9,31]”、“[9,31]”、“[9,31]”、“[9,31]”。 3. 第三行：数据行，包含“[9,31]”、“[9,31]”、“[9,31]”、“[9,31]”、“[9,31]”、“[9,31]”。 因此，该表格共有三行和三列，而不是两行两列。",
+    "response_b": "结论：不符合。可见依据：图中主体为多行多列的表格；左侧有文字说明和图例；右侧有文字和箭头指向；表格内有数据或符号。"
+  },
+  {
+    "case_id": "formula-13--direct",
+    "image_relative_path": "images/final/formula-13.jpg",
+    "user_instruction": "请转写图中的公式，并解释各部分表达的含义。",
+    "reference_answer": "图中是一条白色手写字的级数表达式。可转写为：f(x)=\\sum_{n=-\\infty}^{\\infty}a_n x^n（左端与下限手写字形略模糊）。左端为 f(x) 或相近函数记号；右端是带 a_n 和 x^n 的求和。",
+    "response_a": "转写结果：\\(\\sum_{n=0}^{\\infty}a_n = x^n\\)。解释：这是一个无穷级数求和公式，其中 \\(a_n\\) 表示第 \\(n\\) 项的系数，\\(x^n\\) 表示以 \\(x\\) 为底数的幂次方。求和符号 \\(\\sum\\) 指明了从 \\(n=0\\) 到无穷大的所有项之和。",
+    "response_b": "图中的公式是： \\[ f(x) = \\sum_{n=0}^{\\infty} a_n x^n \\] 这个公式是一个幂级数（Taylor series）的形式，其中： - \\( f(x) \\) 是函数。 - \\( \\sum \\) 表示求和符号。 - \\( n \\) 是从 0 到无穷大的整数。 - \\( a_n \\) 是系数。 - \\( x^n \\) 是变量 \\( x \\) 的幂。 这个公式表示函数 \\( f(x) \\) 可以通过无穷级数的形式来表示，其中每一项都是系数 \\( a_n \\) 乘以变量 \\( x \\) 的幂 \\( n \\)。这种表示方式在数学分析中非常常见，用于近似复杂的函数或解决微分方程等问题。"
+  },
+  {
+    "case_id": "formula-13--correction",
+    "image_relative_path": "images/final/formula-13.jpg",
+    "user_instruction": "有人声称：“图中没有等号或数学符号”。请先判断该说法是否符合图像，再给出可见依据。",
+    "reference_answer": "该说法不符合图像。图中是一条白色手写字的级数表达式。可转写为：f(x)=\\sum_{n=-\\infty}^{\\infty}a_n x^n（左端与下限手写字形略模糊）。左端为 f(x) 或相近函数记号；右端是带 a_n 和 x^n 的求和。",
+    "response_a": "结论：不符合。可见依据：图中可见手写数学公式；可见文字为“f(x)=∑∞n=0an=x^n”；可见符号有：等号、求和符号、无穷大符号、指数符号。",
+    "response_b": "该说法不符合图像。 在图中，可以看到以下数学符号和等号： 1. 等号：`=` 2. 数学符号：`∞`, `∑`, `n`, `a_n`, `x`, `q_n` 这些符号和等号都在图中清晰可见。"
+  },
+  {
+    "case_id": "formula-14--direct",
+    "image_relative_path": "images/final/formula-14.jpg",
+    "user_instruction": "请转写图中的公式，并解释各部分表达的含义。",
+    "reference_answer": "图中是一条白色手写字的复数模平方等式。可转写为：|a+ib|^2=a^2+b^2。左端为 |a+ib| 的平方形式；右端是 a^2+b^2。",
+    "response_a": "转写结果：\\sqrt{a+ib}=a^2+b^2。图中为一个数学公式，表示复数 \\(a+ib\\) 的模长等于 \\(a^2+b^2\\)。其中，\\(i\\) 是虚数单位，满足 \\(i^2 = -1\\)；\\(a, b\\) 为实数。",
+    "response_b": "图中的公式是： \\[ \\sqrt{a + ib} = a^2 + b^2 \\] 这个公式看起来不正确，因为根号下的表达式 \\( a + ib \\) 是一个复数，而右边的表达式 \\( a^2 + b^2 \\) 是实数。复数的平方根通常是一个复数，而不是一个实数。 正确的复数平方根公式应该是： \\[ \\sqrt{a + ib} = \\sqrt{\\frac{a^2 + b^2}{2}} \\left( \\cos(\\theta/2) + i\\sin(\\theta/2) \\right) \\] 其中 \\( \\theta \\) 是复数 \\( a + ib \\) 的辐角（角度），\\( \\cos(\\theta/2) \\) 和 \\( \\sin(\\theta/2) \\) 是三角函数值。 所以，正确的公式应该是： \\[ \\sqrt{a + ib} = \\sqrt{\\frac{a^2 + b^2}{2}} \\left( \\cos(\\theta/2) + i\\sin(\\theta/2) \\right) \\]"
+  },
+  {
+    "case_id": "formula-14--correction",
+    "image_relative_path": "images/final/formula-14.jpg",
+    "user_instruction": "有人声称：“表达式只包含普通中文段落”。请先判断该说法是否符合图像，再给出可见依据。",
+    "reference_answer": "该说法不符合图像。图中是一条白色手写字的复数模平方等式。可转写为：|a+ib|^2=a^2+b^2。左端为 |a+ib| 的平方形式；右端是 a^2+b^2。",
+    "response_a": "该说法不符合图像。 图像中显示的是一个数学公式，其中包含变量和指数。公式为： \\[ \\sqrt{a + ib} = a^2 + b^2 \\] 这个公式涉及到复数的平方根运算，显然不包含任何普通中文段落。因此，该说法与图像内容不符。",
+    "response_b": "结论：不符合。可见依据：图中为数学公式；可见文字或符号：\\( \\sqrt{a+ib} = a^2 + b^2 \\)。"
+  },
+  {
+    "case_id": "natural_scene-13--direct",
+    "image_relative_path": "images/final/natural_scene-13.jpg",
+    "user_instruction": "请客观描述图中的主体、环境和重要细节。",
+    "reference_answer": "图中显示眼底视网膜的圆形医学图像。整体为橙红色；左侧可见较亮的视盘，并有血管向四周分支。",
+    "response_a": "主体：一张红色背景的圆形图像；环境：无明显背景或场景；重要细节：中心有白色光斑，周围有血管状结构。",
+    "response_b": "这张图片展示了一张眼底照片，显示了视网膜的内部结构。以下是对图片的详细描述： 1. **主体**： - 图片的主要内容是视网膜的内部结构。 - 视网膜上可以看到许多细小的血管，这些血管在视网膜上形成了一种网格状的网络。 2. **环境**： - 背景是黑色的，这可能是为了突出视网膜的细节。 - 在视网膜的中心位置有一个明显的黄斑区，这是视网膜上视觉最敏锐的区域。 3. **重要细节**： - **黄斑区**：位于图像中央，呈黄色，是视网膜上视觉最敏锐的区域。 - **血管网络**：视网膜上有许多细小的血管，形成了一个复杂的网络结构。 - **视盘（视神经乳头）**：位于图像左下角，是一个圆形的区域，是视神经纤维进入眼球的地方。 - **视网膜边缘**：在图像右上角可以看到视网膜的边缘，边缘处有一些细小的血管。 4. **其他特征**： - 在图像的右"
+  },
+  {
+    "case_id": "natural_scene-13--correction",
+    "image_relative_path": "images/final/natural_scene-13.jpg",
+    "user_instruction": "有人声称：“图中主体是一辆蓝色公交车”。请先判断该说法是否符合图像，再给出可见依据。",
+    "reference_answer": "该说法不符合图像。图中显示眼底视网膜的圆形医学图像。整体为橙红色；左侧可见较亮的视盘，并有血管向四周分支。",
+    "response_a": "该说法不符合图像。图像中没有显示任何蓝色公交车的迹象。图像显示的是一个视网膜的特写照片，其中包含血管和视神经等结构。",
+    "response_b": "结论：不符合。可见依据：图中主体为红色背景上的血管和视网膜结构；可见文字或符号：无。"
+  },
+  {
+    "case_id": "natural_scene-14--direct",
+    "image_relative_path": "images/final/natural_scene-14.jpg",
+    "user_instruction": "请客观描述图中的主体、环境和重要细节。",
+    "reference_answer": "图中显示夜间发射台上的白色运载火箭。火箭竖立在画面中央偏右；两侧有发射塔架，底部灯光形成星芒。",
+    "response_a": "这张图片展示了一枚火箭发射前的场景。火箭位于画面中央，直立在发射台上。火箭的头部是白色的，尾部是银色的。火箭周围有三座高大的发射塔，其中两座位于火箭的两侧，一座位于火箭的后方。这些发射塔由金属制成，结构复杂，顶部装有天线和其他设备。 背景是一片深蓝色的天空，显得非常宁静。在火箭的底部，可以看到一些灯光，可能是为了照亮发射台和火箭。整体氛围显得非常庄重和神秘，预示着即将进行的重要任务。",
+    "response_b": "主体：火箭；环境：夜晚；重要细节：火箭顶部有黑色的圆圈；周围有三座高大的金属结构；背景是深蓝色的天空。"
+  },
+  {
+    "case_id": "natural_scene-14--correction",
+    "image_relative_path": "images/final/natural_scene-14.jpg",
+    "user_instruction": "有人声称：“画面右上角有醒目的红色文字”。请先判断该说法是否符合图像，再给出可见依据。",
+    "reference_answer": "该说法不符合图像。图中显示夜间发射台上的白色运载火箭。火箭竖立在画面中央偏右；两侧有发射塔架，底部灯光形成星芒。",
+    "response_a": "该说法不符合图像。图像中没有看到任何红色的文字或标记。",
+    "response_b": "结论：不符合；可见依据：主体为火箭发射场的夜景，画面中央是高耸的火箭，周围有三座金属发射塔和多盏路灯；天空为深蓝色，地平线处有云彩；未见红色文字或符号。"
+  },
+  {
+    "case_id": "ocr-13--direct",
+    "image_relative_path": "images/final/ocr-13.jpg",
+    "user_instruction": "请转写图中清晰可见的文字；无法确认的部分不要猜测。",
+    "reference_answer": "图中是包含街景、店招、票据和手机截图的多图拼图。小图数量较多；可见中文商户名、数字价格和交通标识等多种文字。可辨认文字包括：可辨认数字 2.33 等局部内容；不应把所有小图文字拼成一段连续文本。",
+    "response_a": "图中可见文字如下： 1. 0.23元 2. 2.33元 3. 2.33元 4. 2.33元 5. 2.33元 6. 2.33元 7. 2.33元 8. 2.33元 9. 2.33元 10. 2.33元 11. 2.33元 12. 2.33元 13. 2.33元 14. 2.33元 15. 2.33元 16. 2.33元 17. 2.33元 18. 2.33元 19. 2.33元 20. 2.33元 21. 2.33元 22. 2.33元 23. 2.33元 24. 2.33元 25. 2.33元 26. 2.33元",
+    "response_b": "图片中的文字如下： 1. MR.Z 2. 员工通道 凭证进入 3. Scent 4. 4008 976 999 5. 禁止停放自行车、摩托车 6. 永和大王 7. 你已进入无烟医院 8. NO SMOKING 9. 2.33元 10. 查看我的红包记录"
+  },
+  {
+    "case_id": "ocr-13--correction",
+    "image_relative_path": "images/final/ocr-13.jpg",
+    "user_instruction": "有人声称：“图中清楚写着 WELCOME HOME”。请先判断该说法是否符合图像，再给出可见依据。",
+    "reference_answer": "该说法不符合图像。图中是包含街景、店招、票据和手机截图的多图拼图。小图数量较多；可见中文商户名、数字价格和交通标识等多种文字。可辨认文字包括：可辨认数字 2.33 等局部内容；不应把所有小图文字拼成一段连续文本。",
+    "response_a": "该说法不符合图像。图像中没有清晰地写着“WELCOME HOME”的字样。",
+    "response_b": "结论：不符合。可见依据：图中主体为多个不同场景的图片拼接；中间位置可见一个红色圆角矩形框内有白色文字“2.33元”；左下角可见“永和大王”字样；右上角可见“禁止吸烟”标志；其他可见内容包括建筑外观、广告牌等。"
+  },
+  {
+    "case_id": "ocr-14--direct",
+    "image_relative_path": "images/final/ocr-14.jpeg",
+    "user_instruction": "请转写图中清晰可见的文字；无法确认的部分不要猜测。",
+    "reference_answer": "图中是一张英文购物收据的照片。收据中央有较大的号码；下方按行列出项目、数量与金额。可辨认文字包括：YOUR NUMBER TOTAL IS；T31232；TOTAL；底部包含 Please See Your Receipt 等提示。",
+    "response_a": "carmichaelcarwash6505fairoaksvblvdcarmichael,ca95608916-488-32747/18/20168:10amyourmanagertodayis:edgarrt31232premiumexpress(10)1unlimitedpremiwashcash($9.99)SUBTOTAL:0.00TAXES:0.00TENDERED:0.00CHANCEDUE:0.00pleasesaveryourreceiptforrewash,raincheckforexteriorwashonlyandvalidfor24hoursafterit'sraining.withpurchaseofanyrainxorultimategewashreceivelf1$onyournextvisitwithin1yrsaveyourreceiptforrewash,raincheckforexteriorwashonlyandvalidfor24hoursafterit'sraining.withpurchaseofanyrainxorultimategewashreceivelf1$onyournextvisitwithin1yr",
+    "response_b": "图中可见文字：Carmichael CarWash 8505 Fair Oaks Blvd Carmichael, CA 95608 916-488-3274 7/18/2016 8:10 AM YOUR MANAGER TODAY IS: Edgar R T31232 PREMIUM EXPRESS(10) 1 UNLIMITED PREMIUM WASH CASH ($9.99) SUBTOTAL: $0.00 TAXES: $0.00 TOTAL: $0.00 TENDERED: $0.00 CHANGE DUE: $0.00 Please Save Your Receipt For Rewash, Rain Check for Exterior Wash only and valid for 24 hours after it is raining. With purchase of any RainX or Ultimate Express wash receive 1$ off your next visit within 24 hours."
+  },
+  {
+    "case_id": "ocr-14--correction",
+    "image_relative_path": "images/final/ocr-14.jpeg",
+    "user_instruction": "有人声称：“所有文字都是英文印刷体”。请先判断该说法是否符合图像，再给出可见依据。",
+    "reference_answer": "该说法不符合图像。图中是一张英文购物收据的照片。收据中央有较大的号码；下方按行列出项目、数量与金额。可辨认文字包括：YOUR NUMBER TOTAL IS；T31232；TOTAL；底部包含 Please See Your Receipt 等提示。",
+    "response_a": "结论：不符合。可见依据：图中可见的主体为一张手写的纸条；手写内容包括“Carmichael CarWash”、“95608”等信息；手写文字为黑色或蓝色；纸张背景为白色或浅色。",
+    "response_b": "该说法不符合图像。在图像中，存在非英文字符，例如“$”和“T31232”，这些字符不是英文印刷体。"
+  },
+  {
+    "case_id": "ui-13--direct",
+    "image_relative_path": "images/final/ui-13.png",
+    "user_instruction": "请说明当前界面的用途、主要区域以及用户可以执行的操作。",
+    "reference_answer": "图中显示Microsoft Word 的文档编辑窗口。顶部为 Word 功能区；中央白色页面基本为空，并显示 Copilot 写作提示。",
+    "response_a": "当前界面是Microsoft Word文档编辑器的主界面，主要用于创建、编辑和格式化文档。以下是主要区域及其用途： 1. **标题栏**：显示文档的名称和当前编辑状态。 2. **菜单栏**：包含文件、编辑、视图、插入、页面布局、引用、邮件、审阅、视图和帮助等选项卡，用于执行各种文档操作。 3. **工具栏**： - **常用工具**：包括撤销、重做、剪切、复制、粘贴、查找和替换等功能。 - **格式工具**：包括字体、段落、样式、边框、对齐方式等格式设置。 - **插入工具**：包括图片、表格、形状、文本框、页眉/页脚等插入功能。 - **审阅工具**：包括拼写检查、语法检查、修订、批注等审阅功能。 4. **文档窗口**：显示正在编辑的Word文档内容。 5. **状态栏**：显示文档的页数、字数、字体大小等信息。 用户可以执行的操作包括： - 创建新文档或打开现有文档。 - 格式化文本（如字体、字号、",
+    "response_b": "图中是Microsoft Word文档编辑界面，顶部有功能标签和工具栏；中间是空白文档页面；底部是状态栏和任务栏。用户可进行文字编辑、格式设置、插入图片等操作。"
+  },
+  {
+    "case_id": "ui-13--correction",
+    "image_relative_path": "images/final/ui-13.png",
+    "user_instruction": "有人声称：“界面正在显示打印对话框”。请先判断该说法是否符合图像，再给出可见依据。",
+    "reference_answer": "该说法不符合图像。图中显示Microsoft Word 的文档编辑窗口。顶部为 Word 功能区；中央白色页面基本为空，并显示 Copilot 写作提示。",
+    "response_a": "该说法不符合图像。图像中显示的是一个空白的Word文档编辑窗口，没有显示任何打印对话框的迹象。",
+    "response_b": "结论：不符合。可见依据：图中是 Word 文档编辑界面；顶部有“文件”、“开始”等标签；文档空白；底部有任务栏和桌面图标。"
+  },
+  {
+    "case_id": "ui-14--direct",
+    "image_relative_path": "images/final/ui-14.jpg",
+    "user_instruction": "请说明当前界面的用途、主要区域以及用户可以执行的操作。",
+    "reference_answer": "图中显示浏览器中的 Microsoft Corporation 股票信息页。页面中央有价格折线图；右侧显示市场摘要和绿色涨幅数据。",
+    "response_a": "图中是一个网页浏览器的全屏截图，显示了关于微软公司股票价格和市场信息的页面。页面顶部是谷歌搜索结果，左侧是股票价格图表，右侧是相关公司和新闻链接。底部可见任务栏和部分桌面图标。用户可以点击图表或链接获取更多详细信息。",
+    "response_b": "当前界面是一个股票信息查询页面，主要用于显示和分析特定股票（如微软公司）的市场表现和相关信息。以下是该界面的主要区域及其用途： 1. **顶部搜索栏**：用户可以在此输入关键词进行搜索。 2. **股票名称和价格**： - **Microsoft Corp**：显示股票名称。 - **373.04 USD**：显示当前股票价格。 - **+2.09 (0.56%)**：显示今天的涨跌情况和百分比变化。 3. **实时报价**： - **最新价**：373.04美元。 - **开盘价**：360.20美元。 - **最高价**：378.85美元。 - **最低价**：360.23美元。 - **收盘价**：373.04美元。 - **成交量**：1,215,120股。 - **市值**：2.77万亿美元。 4. **图表**： - **日线图**：显示过去一年内股票的价格波动情况。 - **周线图**：显示"
+  },
+  {
+    "case_id": "ui-14--correction",
+    "image_relative_path": "images/final/ui-14.jpg",
+    "user_instruction": "有人声称：“屏幕中央弹出了系统错误提示”。请先判断该说法是否符合图像，再给出可见依据。",
+    "reference_answer": "该说法不符合图像。图中显示浏览器中的 Microsoft Corporation 股票信息页。页面中央有价格折线图；右侧显示市场摘要和绿色涨幅数据。",
+    "response_a": "结论：不符合。可见依据：图中主体为网页内容；左侧是股票价格信息；右侧是相关公司比较和链接；底部有新闻标题；页面顶部可见浏览器标签行。",
+    "response_b": "该说法不符合图像。图像中没有显示任何系统错误提示或警告信息。"
+  }
+]

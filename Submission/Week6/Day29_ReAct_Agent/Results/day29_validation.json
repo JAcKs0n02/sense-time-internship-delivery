@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "status": "PASS",
+  "checks": {
+    "run_spec_integrity": true,
+    "trace_run_spec_sha256": true,
+    "trace_model_manifest_sha256": true,
+    "runner_evidence": true,
+    "initialization_artifacts": true,
+    "adapter_sha256": true,
+    "archived_merged_lineage": true,
+    "model_id": true,
+    "message_evidence": true
+  },
+  "failed_checks": [],
+  "message_validation": {
+    "status": "PASS",
+    "checks": {
+      "fixed_prompt": true,
+      "exactly_one_tool_call": true,
+      "calculator_action": true,
+      "exact_arguments": true,
+      "successful_observation": true,
+      "final_answer": true,
+      "no_repeated_action_input": true,
+      "raw_tool_call_provenance": true,
+      "raw_final_answer_provenance": true
+    },
+    "failed_checks": [],
+    "trace": [
+      {
+        "step_index": 1,
+        "action": "calculator",
+        "action_input": {
+          "expression": "123*456"
+        },
+        "tool_call_id": "model-turn-0-tool-call-0",
+        "raw_generated_text": "<tool_call>\n{\"name\": \"calculator\", \"arguments\": {\"expression\": \"123*456\"}}\n</tool_call>",
+        "observation": {
+          "status": "success",
+          "data": {
+            "value": 56088
+          },
+          "error_code": null
+        }
+      }
+    ],
+    "final_answer": "计算结果为 56088"
+  },
+  "recomputed_model_manifest_sha256": "d9be5c285591d7fcf0a8e91d5ec351ecefabe241d0372e1aa21d067e400d28ef",
+  "recomputed_tools_sha256": "5f062a3b9c2b6ae02e0ea67066415f6ea94c609375e99dba2d892e3aa8148840",
+  "recomputed_run_spec_sha256": "05b465941d1051eba123b9a0f677e5e922b28d765c138e9f31b8ce16029db354"
+}

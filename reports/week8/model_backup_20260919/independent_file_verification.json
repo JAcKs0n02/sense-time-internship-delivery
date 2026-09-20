@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "verified_utc": "2026-09-19T00:15:03.455274+00:00",
+  "models": [
+    {
+      "role": "week8_final_sft",
+      "files": 14,
+      "bytes": 15247180172,
+      "tensor_count": 339,
+      "sha256_and_index": "PASS"
+    },
+    {
+      "role": "week8_final_dpo",
+      "files": 14,
+      "bytes": 15247180172,
+      "tensor_count": 339,
+      "sha256_and_index": "PASS"
+    },
+    {
+      "role": "week8_final_distilled",
+      "files": 10,
+      "bytes": 1003978375,
+      "tensor_count": 290,
+      "sha256_and_index": "PASS"
+    }
+  ]
+}

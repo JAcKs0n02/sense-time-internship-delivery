@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "case_count": 40,
+  "frozen_eval_sha256": "406b01115967c865cc1d38915e59810e7e260a2e09417722a55d734803043b84",
+  "generation_config": {
+    "do_sample": false,
+    "max_new_tokens": 384,
+    "repetition_penalty": 1.0,
+    "seed": 42
+  },
+  "model_identity_sha256": "578dde8fbc32deef204286e12074c974ee9d9272fd4e8504f2857f796c8e2aef",
+  "baseline_metrics": {
+    "first_tool_choice": 0.925,
+    "full_tool_sequence": 0.925,
+    "argument_schema_valid": 1.0,
+    "argument_correctness": 0.9,
+    "observation_integrity": 1.0,
+    "format_valid": 0.875,
+    "semantic_correctness": 0.5,
+    "final_answer_grounded": 0.45,
+    "safe_termination": 0.95,
+    "completion": 0.875,
+    "no_loops": 1.0
+  },
+  "optimized_metrics": {
+    "first_tool_choice": 0.95,
+    "full_tool_sequence": 0.95,
+    "argument_schema_valid": 1.0,
+    "argument_correctness": 0.925,
+    "observation_integrity": 1.0,
+    "format_valid": 0.85,
+    "semantic_correctness": 0.475,
+    "final_answer_grounded": 0.35,
+    "safe_termination": 1.0,
+    "completion": 0.85,
+    "no_loops": 1.0
+  },
+  "metric_deltas": {
+    "argument_correctness": 0.025000000000000022,
+    "argument_schema_valid": 0.0,
+    "completion": -0.025000000000000022,
+    "final_answer_grounded": -0.10000000000000003,
+    "first_tool_choice": 0.02499999999999991,
+    "format_valid": -0.025000000000000022,
+    "full_tool_sequence": 0.02499999999999991,
+    "no_loops": 0.0,
+    "observation_integrity": 0.0,
+    "safe_termination": 0.050000000000000044,
+    "semantic_correctness": -0.025000000000000022
+  },
+  "baseline_unique_failed_cases": 22,
+  "optimized_unique_failed_cases": 26,
+  "improved_cases": [
+    "dev-knowledge-003"
+  ],
+  "regression_cases": [
+    "dev-calculator-003",
+    "dev-calculator-007",
+    "dev-code-004",
+    "dev-recovery-002",
+    "dev-recovery-005"
+  ]
+}

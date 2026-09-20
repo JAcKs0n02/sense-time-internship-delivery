@@ -1,0 +1,112 @@
+{
+  "selected_run": "run2",
+  "selection_reason": "Only num_train_epochs was increased from 3.0 to 5.0; the fixed identity evaluation improved from 6/8 to 7/8.",
+  "training_exit_code": 0,
+  "epochs": 5.0,
+  "effective_epoch": 4.791208791208791,
+  "samples": 91,
+  "optimization_steps": 110,
+  "train_runtime_seconds": 160.9298,
+  "train_samples_per_second": 2.827,
+  "train_steps_per_second": 0.684,
+  "train_loss": 1.074888162450357,
+  "last_step_loss": 0.3365,
+  "trainable_parameters": 20185088,
+  "all_parameters_with_adapter": 7635801600,
+  "trainable_percent": 0.2643,
+  "adapter_config_present": true,
+  "adapter_weights_present": true,
+  "tensorboard_event_present": true,
+  "runs": {
+    "run1": {
+      "training_exit_code": 0,
+      "configured_epochs": 3.0,
+      "effective_epoch": 2.879120879120879,
+      "samples": 91,
+      "optimization_steps": 66,
+      "train_runtime_seconds": 96.5597,
+      "train_samples_per_second": 2.827,
+      "train_steps_per_second": 0.684,
+      "train_loss": 1.4311816976829008,
+      "last_step_loss": 0.5694,
+      "identity_passed": 6,
+      "identity_total": 8
+    },
+    "run2": {
+      "training_exit_code": 0,
+      "configured_epochs": 5.0,
+      "effective_epoch": 4.791208791208791,
+      "samples": 91,
+      "optimization_steps": 110,
+      "train_runtime_seconds": 160.9298,
+      "train_samples_per_second": 2.827,
+      "train_steps_per_second": 0.684,
+      "train_loss": 1.074888162450357,
+      "last_step_loss": 0.3365,
+      "identity_passed": 7,
+      "identity_total": 8
+    }
+  },
+  "single_variable_change": {
+    "field": "num_train_epochs",
+    "run1": 3.0,
+    "run2": 5.0,
+    "bookkeeping_changes": [
+      "output_dir",
+      "run_name"
+    ]
+  },
+  "identity_evaluation": {
+    "prompts": 8,
+    "before_passed": 0,
+    "run1_passed": 6,
+    "run2_passed": 7,
+    "generation": {
+      "do_sample": false,
+      "max_new_tokens": 128,
+      "use_cache": true
+    },
+    "device": "cuda:0",
+    "dtype": "torch.bfloat16"
+  },
+  "training_configuration": {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "method": "4-bit QLoRA SFT",
+    "quantization_method": "bnb",
+    "quantization_type": "nf4",
+    "double_quantization": true,
+    "lora_rank": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05,
+    "lora_target": "all",
+    "cutoff_len": 512,
+    "per_device_train_batch_size": 1,
+    "gradient_accumulation_steps": 4,
+    "effective_batch_size": 4,
+    "learning_rate": 0.0001,
+    "lr_scheduler_type": "cosine",
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "bf16": true,
+    "seed": 42
+  },
+  "data": {
+    "source": "https://huggingface.co/datasets/llamafactory/demo_data",
+    "pinned_revision": "999e7a11dadd6ce929180d7f3d61d4ca7e761db8",
+    "matching_llamafactory_version": "0.9.3",
+    "samples": 91,
+    "target_name": "Qwen2.5-Intern",
+    "target_author": "Week 1 Internship Project",
+    "template_sha256": "475cca081507c57cc198a96231128801623f665c524e7b1d182265d782c2efc8",
+    "resolved_sha256": "57e0d9978bc3b45ce2667cf1ba584efa5de810575d15255883ce2440388d3f3c"
+  },
+  "environment": {
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "python": "3.10.20",
+    "pytorch": "2.5.1+cu121",
+    "cuda_runtime": "12.1",
+    "transformers": "4.50.0",
+    "llamafactory": "0.9.3",
+    "bitsandbytes_final": "0.43.3"
+  }
+}

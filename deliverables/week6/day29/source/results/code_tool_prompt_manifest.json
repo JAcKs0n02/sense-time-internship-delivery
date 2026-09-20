@@ -1,0 +1,81 @@
+{
+  "files": [
+    {
+      "path": "deliverables/week6/source/week6_agent/model_adapter.py",
+      "sha256": "6086831c7ad589f5e942f3f4579f5106501c2c40185bafdc94dc7b72bbb6e5cc"
+    },
+    {
+      "path": "deliverables/week6/source/week6_agent/agent_factory.py",
+      "sha256": "6ad46fd536099fb40f0be8f44fcbd125939f3fe6263ed1b864d820dfaa0004df"
+    },
+    {
+      "path": "deliverables/week6/source/week6_agent/trace_schema.py",
+      "sha256": "c6285272263cfc7b2a637cff1ab62640e96167ac9bcfd9aeb4f559ad4cadcb3b"
+    },
+    {
+      "path": "deliverables/week6/day29/source/scripts/initialize_agent.py",
+      "sha256": "0a95d7bee0f82beadda468140a586e0a841e3db054316d48df843a0e7810af29"
+    },
+    {
+      "path": "deliverables/week6/day29/source/scripts/run_single_turn.py",
+      "sha256": "83d27b3ef42c5cc80399ab85a281f977b02b394d33ee942b3076112f4e983b8d"
+    },
+    {
+      "path": "deliverables/week6/day29/source/scripts/validate_day29.py",
+      "sha256": "dcd9697733e503b58732120525e1d60cef845006abe1cb9b9092a95428c1d124"
+    }
+  ],
+  "tool_names": [
+    "calculator",
+    "knowledge_retrieval"
+  ],
+  "tools": [
+    {
+      "name": "calculator",
+      "description": "Safely calculates one bounded arithmetic expression.",
+      "source_path": "/root/autodl-tmp/qwen25-week6/day29/repo_final/deliverables/week6/source/week6_agent/tools/calculator.py",
+      "source_sha256": "6f60a42fde9f9d1506225f4033cb41572972ea6a12caa34fdc1d896dadd4e886",
+      "schema": {
+        "description": "Input accepted by the LangChain-compatible calculator wrapper.",
+        "properties": {
+          "expression": {
+            "description": "A single arithmetic expression.",
+            "title": "Expression",
+            "type": "string"
+          }
+        },
+        "required": [
+          "expression"
+        ],
+        "title": "CalculatorInput",
+        "type": "object"
+      },
+      "schema_sha256": "521ef9e264cdbd5b80c8bfcf997a63e85a2694b85f64e642198138facc33d507"
+    },
+    {
+      "name": "knowledge_retrieval",
+      "description": "Looks up product price, shipping, stock, and descriptions in local JSON.",
+      "source_path": "/root/autodl-tmp/qwen25-week6/day29/repo_final/deliverables/week6/source/week6_agent/tools/knowledge_retrieval.py",
+      "source_sha256": "c9a76c2826ce217753b03ebff0552e065e08731b30f742203a664330cd76cd3b",
+      "schema": {
+        "description": "Input accepted by the LangChain-compatible retrieval wrapper.",
+        "properties": {
+          "query": {
+            "description": "A product name, alias, or product keyword query.",
+            "title": "Query",
+            "type": "string"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "title": "KnowledgeRetrievalInput",
+        "type": "object"
+      },
+      "schema_sha256": "16fa4ea5208a1e9f7f5a61ee0e09fce7cf02269083ff8cc2b772daa04df2ef08"
+    }
+  ],
+  "tools_sha256": "5f062a3b9c2b6ae02e0ea67066415f6ea94c609375e99dba2d892e3aa8148840",
+  "system_prompt_version": "week6-day29-react-v1",
+  "system_prompt_sha256": "9730572628873a847359068e6e494ab196806dc72cbe12b34f96cd8a8f6c48fd"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "OFFLINE_TESTS_PASS_AWAITING_LOCAL_KEY",
+  "tests": 42,
+  "api_called": false,
+  "calibration_passed": false,
+  "local_key_file_exists": false,
+  "files": {
+    "scripts/setup_week8_judge_key.py": "27a27f7cd7fba05794268e9a4e844a6264fa90526b2f4daecf6b5a46f3f63786",
+    "scripts/week8_deepseek_judge.py": "ef10d835de1c3613bcc35743fc3619b6545dab8f17210ad4a8ad4cb6a6a1e6ae",
+    "tests/test_week8_judge_access.py": "ec48e069da63bc2a68a9a959838417b2f2bb5efb2ca562263c9eab231f61ce1e",
+    "tests/test_week8_deepseek_judge.py": "265d19f3e55646605c2f7eadcea847cdbc087a880457d7ec17fd0d0ee2379925"
+  }
+}

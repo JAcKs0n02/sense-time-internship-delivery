@@ -1,0 +1,20 @@
+{
+  "repository": "hiyouga/LLaMA-Factory",
+  "repository_url": "https://github.com/hiyouga/LLaMA-Factory",
+  "tag": "v0.9.3",
+  "revision": "ca75f1edf3cb50343ed1c98605141c3e22075b5f",
+  "revision_url": "https://github.com/hiyouga/LLaMA-Factory/tree/ca75f1edf3cb50343ed1c98605141c3e22075b5f",
+  "verified_features": {
+    "qwen2_vl_template": true,
+    "openai_sharegpt_multimodal_schema": true,
+    "freeze_vision_tower": true,
+    "freeze_multi_modal_projector": true,
+    "model_revision_argument": true
+  },
+  "evidence": {
+    "official_sft_example": "examples/train_lora/qwen2_5vl_lora_sft.yaml",
+    "qwen2_vl_registry": "src/llamafactory/model/model_utils/visual.py",
+    "lora_target_resolution": "src/llamafactory/model/adapter.py",
+    "dataset_schema": "data/README_zh.md"
+  }
+}
