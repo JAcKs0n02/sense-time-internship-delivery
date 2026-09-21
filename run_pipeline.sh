@@ -4,7 +4,6 @@ week8_root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 week8_python="${PIPELINE_PYTHON:-python3}"
 week8_quick=0; week8_skip_train=0; week8_skip_eval=0; week8_deploy=0
 week8_score_model=''; week8_execute_score=0
-week8_clean_action=''; week8_eval_plan=''; week8_eval_sha=''
 week8_dry_run=0; week8_eval_limit=0; week8_eval_phase=all
 week8_run="$week8_root/logs/week8-$(date +%Y%m%d-%H%M%S)-$$"
 while [[ $# -gt 0 ]]; do
@@ -16,9 +15,6 @@ while [[ $# -gt 0 ]]; do
     --dry-run) week8_dry_run=1; shift ;;
     --eval-limit-per-subject) [[ $# -ge 2 && "$2" =~ ^[0-9]+$ ]] || exit 2; week8_eval_limit="$2"; shift 2 ;;
     --eval-phase) [[ $# -ge 2 ]] || exit 2; case "$2" in all|generate) ;; *) exit 2 ;; esac; week8_eval_phase="$2"; shift 2 ;;
-    --clean-eval) [[ $# -ge 2 && -n "$2" && -z "$week8_clean_action" ]] || exit 2; week8_clean_action="$2"; shift 2 ;;
-    --eval-plan) [[ $# -ge 2 && -n "$2" && -z "$week8_eval_plan" ]] || exit 2; week8_eval_plan="$2"; shift 2 ;;
-    --eval-plan-sha256) [[ $# -ge 2 && -n "$2" && -z "$week8_eval_sha" ]] || exit 2; week8_eval_sha="$2"; shift 2 ;;
     --score-only) [[ $# -ge 2 ]] || exit 2; [[ -n "$2" && -z "$week8_score_model" ]] || exit 2; week8_score_model="$2"; shift 2 ;;
     --execute-score) week8_execute_score=1; shift ;;
     --run-dir) [[ $# -ge 2 ]] || exit 2; week8_run="$2"; shift 2 ;;
@@ -26,24 +22,16 @@ while [[ $# -gt 0 ]]; do
       echo '  --dry-run: prepare real data and plans; no training/inference/API/deployment'
       echo '  --eval-limit-per-subject N: explicit sample validation (default 0 = full)'
       echo '  --eval-phase {all|generate}: optionally stop before Gemini scoring'
-      echo 'run_pipeline.sh --clean-eval {audit|generate|score|verify-score} --eval-plan FILE --eval-plan-sha256 SHA --run-dir DIR'
       echo 'run_pipeline.sh --score-only {original_base|final_sft|final_dpo|all} [--execute-score] [--run-dir NEW_DIR]'; exit 0 ;;
     *) echo "Unknown option: $1" >&2; exit 2 ;;
   esac
 done
-if [[ -n "$week8_clean_action$week8_score_model" ]]; then
+if [[ -n "$week8_score_model" ]]; then
   [[ "$week8_dry_run" == 0 && "$week8_eval_limit" == 0 && "$week8_eval_phase" == all ]] || { echo 'legacy modes cannot combine with current pipeline options' >&2; exit 2; }
 fi
 [[ "$week8_dry_run" == 0 || "$week8_deploy" == 0 ]] || { echo 'dry-run cannot deploy' >&2; exit 2; }
 [[ "$week8_quick" == 0 || "$week8_dry_run$week8_eval_limit$week8_eval_phase" == 00all ]] || { echo 'quick cannot combine with fresh evaluation options' >&2; exit 2; }
 [[ "$week8_skip_eval" == 0 || "$week8_eval_limit$week8_eval_phase" == 0all ]] || { echo 'skip-eval cannot combine with evaluation options' >&2; exit 2; }
-if [[ -n "$week8_clean_action" ]]; then
-  [[ "$week8_quick$week8_skip_train$week8_skip_eval$week8_deploy$week8_execute_score" == 00000 && -z "$week8_score_model" ]] || { echo 'clean-eval cannot be combined with other stages' >&2; exit 2; }
-  case "$week8_clean_action" in audit|generate|score|verify-score) ;; *) echo 'unknown clean-eval action' >&2; exit 2 ;; esac
-  [[ -n "$week8_eval_plan" && "$week8_eval_sha" =~ ^[0-9a-f]{64}$ ]] || { echo 'clean-eval requires plan and SHA256' >&2; exit 2; }
-  exec "$week8_python" "$week8_root/scripts/week8_clean_eval.py" "$week8_clean_action" --plan "$week8_eval_plan" --plan-sha256 "$week8_eval_sha" --output "$week8_run"
-fi
-[[ -z "$week8_eval_plan$week8_eval_sha" ]] || { echo 'eval-plan requires clean-eval' >&2; exit 2; }
 if [[ -n "$week8_score_model" ]]; then
   [[ "$week8_quick$week8_skip_train$week8_skip_eval$week8_deploy" == 0000 ]] || { echo 'score-only cannot be combined with other pipeline stages' >&2; exit 2; }
   [[ "$week8_score_model" != all || "$week8_execute_score" == 0 ]] || { echo 'execute-score requires a single model' >&2; exit 2; }

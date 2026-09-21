@@ -85,7 +85,7 @@ def verify_model_manifest(model_path, manifest_path):
 def summarize_ceval(directory, root=ROOT):
     """Recount every prediction against frozen val golds, never reported weights."""
     from step3_eval import validate_subject_result
-    base = Path(root) / 'reports/week8/phase2_preflight'
+    base = Path(root) / 'data/evaluation/benchmarks'
     lock = json.loads((base / 'benchmark_input_lock.json').read_text())
     records = base / 'benchmark_records.json'
     if sha256(records) != lock['benchmark_records_sha256']:

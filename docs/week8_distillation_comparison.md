@@ -52,7 +52,7 @@
 3. **训练损失下降不能替代CEval。**本次仅137条训练、15条验证、2轮，采用教师生成文本监督；数据规模及通用指令任务与CEval专业知识问答的匹配有限，可能限制迁移收益。该解释是合理假设，不是经消融证明的因果结论；现有证据也不足以把下降确定归因于过拟合。
 4. **不将教师体量差异冒充蒸馏收益。**这里比较的是0.5B学生训练前后，不是7B教师与0.5B学生，因此本次不能报告“蒸馏使推理加速若干倍”。
 
-本次可登记为“成功完成蒸馏尝试，效果不理想并已有分析”。老师Day42.3要求比较CEval及推理速度，验收项❹明确写有“即便效果不理想，需有分析”（见requirements_snapshot.txt，对应源DOCX/PDF哈希本轮再次核对一致）。不据此把蒸馏模型提升为优于原始学生的发布候选，也不为追求正向数字自动追加训练。
+本次完成了蒸馏可行性验证与前后效果分析，准确率未提升。该结果不支持将蒸馏学生视为优于原始学生。
 
 ## 回收证据和复核方式
 
@@ -66,14 +66,6 @@ c66198254a8fb93a6953f9dd74bb8c1290a39961e44f910711df2b51a3176e3b
 
 本地复核重新确认：243份回收文件哈希；各52科1346题覆盖；原始预测与评分明细逐项对应；冻结标准答案重计；原始实际提示重建的token与冻结哈希一致；前后提示完全相同；测速GPU/软件/提示一致且每次128token；CSV与重算结果一致；两个评估视图各自权重SHA与原模型/训练导出回执一致。没有重新在本地加载GPU权重。
 
-使用含PyYAML、mmengine0.10.7与Transformers4.50.0的已有环境可复核：
 
-```bash
-/tmp/week8-student-tokenizer-20260918/bin/python reports/week8/phase3_distillation_comparison/verify_comparison.py c66198254a8fb93a6953f9dd74bb8c1290a39961e44f910711df2b51a3176e3b /tmp/week8-student-tokenizer-7ae557
-```
 
-临时tokenizer目录如已清理，先运行上一阶段的`phase3_distillation_student_prep/fetch_tokenizer.py`按固定revision重建并核对。本地`checks.json`是逐题复核结果，`verification.json`绑定本轮最终交付文件。
-
-## 后续任务
-
-Day42训练与前后评估已完成。下一项按验收索引推进已量化模型的监督部署器、API与Gradio UI真实联调，再把本次已核验数字纳入综合报告的Word/PDF终稿流程。本轮已补齐Markdown记录、对比CSV及验收索引；未宣称重建了综合报告Word/PDF或完成正式部署。
+现行提交保留[对比CSV](../reports/week8/phase3_distillation_comparison/comparison.csv)、[逐学科结果](../reports/week8/phase3_distillation_comparison/subject_comparison.csv)与[前后原始输出](../reports/week8/phase3_distillation_comparison/retrieved/comparison/)。部署、综合报告与仓库整理已推进至交付阶段，当前范围见[交付清单](DELIVERY_CONTENTS.md)。

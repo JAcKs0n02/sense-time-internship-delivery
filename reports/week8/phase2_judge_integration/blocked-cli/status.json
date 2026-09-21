@@ -1,5 +1,0 @@
-{
-  "status": "failed",
-  "mode": "fresh",
-  "error": "evaluation runtime lock is incomplete; no inference or judge calls allowed"
-}

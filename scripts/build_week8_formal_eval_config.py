@@ -24,7 +24,7 @@ def build_config(root, model_path):
     for key, path in checked.items():
         if sha256(path) != receipt[key]:
             raise ValueError(f'checked prompt artifact changed: {key}')
-    base = root / 'reports/week8/phase2_preflight'
+    base = root / 'data/evaluation/benchmarks'
     lock = json.loads((base / 'benchmark_input_lock.json').read_text())
     manifest = base / 'local_data_manifest.json'
     if sha256(manifest) != lock['local_data_manifest_sha256']:
@@ -45,7 +45,7 @@ def build_config(root, model_path):
         dataset['path'] = str(base / 'local_data' / benchmark)
         if dataset['infer_cfg']['ice_template']['type'] != 'scripts.week8_prompt_template.NonRecursivePromptTemplate':
             raise ValueError('unexpected prompt template')
-    tokenizer = root / 'logs/week8-real-loader-20260915/attempt-02/tokenizer'
+    tokenizer = root / 'data/evaluation/tokenizer'
     dependencies.extend(p for p in sorted(tokenizer.iterdir()) if p.is_file())
     cfg['models'] = [dict(
         type='opencompass.models.huggingface_above_v4_33.HuggingFacewithChatTemplate',

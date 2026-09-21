@@ -1,8 +1,0 @@
-{
-  "source_run": "formal-eval-20260916-01",
-  "source_model": "original_base",
-  "source_manifest_sha256": "4badbc8b4b2cc9393396b8194ba7dfb921e973fe6538caf529e685dc746396d1",
-  "source_lock_sha256": "ddf8cf644799a6e5fbe2946c911bad6424dcef14148411c927e44269cf2856e0",
-  "objective_inference_repeated": false,
-  "resume_runtime_lock_sha256": "ce2adde9027af06c96dad05b668db954e1ef3fcf27b52affd7c6371627b4aee3"
-}

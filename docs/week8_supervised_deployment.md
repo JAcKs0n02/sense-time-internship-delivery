@@ -43,10 +43,4 @@ bash scripts/step4_deploy.sh --run-dir /root/autodl-tmp/week8-deploy-manual-01
 
 修复后会话于2026-09-18 UTC21:41:47开始、21:43:12结束，正常停止和子进程故障回收均通过；48份证据（含首轮失败记录）已回收，并逐项哈希核对通过。AWQ全部文件与冻结清单一致，pip freeze前后不变；服务已停止，320已关机。
 
-本地共11项测试通过，320另跑2项真实套接字测试通过。证据总包SHA256为`763fde2baf39309ae47928b2cae9c369a40a9126e3141ecb3769eee15e23d672`。复核命令：
-
-```bash
-python3 reports/week8/phase4_supervised_deployment/verify_evidence.py 763fde2baf39309ae47928b2cae9c369a40a9126e3141ecb3769eee15e23d672
-```
-
-本次完成的是Day41.2部署联调。Day41.3正式Pipeline与评分恢复入口整合、综合Word/PDF终稿和仓库发布仍需继续。
+现行提交保留[实测回执](../reports/week8/phase4_supervised_deployment/verification.json)和[API/UI响应及正常停止、故障回收记录](../reports/week8/phase4_supervised_deployment/retrieved/)。首轮失败会话编排与重复部署包保存在原工程。当前自动化入口见[运行说明](RUNNING.md)。

@@ -13,8 +13,18 @@ def digest(value):
     return hashlib.sha256(json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(',', ':')).encode()).hexdigest()
 
 
+def input_path(relative):
+    """Resolve a frozen logical input name to its packaged storage location."""
+    mapping = json.loads((ROOT/'data/input_paths.json').read_text())
+    target = mapping.get(relative, {}).get('path', relative)
+    path = ROOT/target
+    if Path(target).is_absolute() or '..' in Path(target).parts or not path.resolve().is_relative_to(ROOT.resolve()):
+        raise ValueError('input path escapes the repository')
+    return path
+
+
 def verify_entry(entry):
-    path = ROOT / entry['path']
+    path = input_path(entry['path'])
     if not path.is_file() or sha256(path) != entry['sha256']:
         raise ValueError(f'hash mismatch or missing input: {path}')
     return path
@@ -246,12 +256,12 @@ def run(protocol_path, output_dir):
     import transformers
     if transformers.__version__ != protocol['transformers_version']:
         raise ValueError('transformers version does not match protocol')
-    tokenizer_dir = (ROOT/protocol['tokenizer_files'][0]['path']).parent
+    tokenizer_dir = input_path(protocol['tokenizer_files'][0]['path']).parent
     tokenizer = transformers.AutoTokenizer.from_pretrained(tokenizer_dir, local_files_only=True, use_fast=True)
     if not tokenizer.is_fast or hashlib.sha256(tokenizer.chat_template.encode()).hexdigest() != protocol['chat_template_sha256']:
         raise ValueError('tokenizer or chat template mismatch')
-    raw = read_records(ROOT/protocol['source']['path'])
-    lineage = read_records(ROOT/protocol['lineage']['path'])
+    raw = read_records(input_path(protocol['source']['path']))
+    lineage = read_records(input_path(protocol['lineage']['path']))
     if len(raw) != protocol['source']['records'] or len(lineage) != protocol['lineage']['records']:
         raise ValueError('source count mismatch')
     protected, coverage = [], []
@@ -259,7 +269,7 @@ def run(protocol_path, output_dir):
         if e['role'] == 'custom20_fixed_rubric':
             coverage.append({**e, 'question_count': 0, 'status': 'rubric_hashed_not_a_question_source'})
             continue
-        path = ROOT/e['path']
+        path = input_path(e['path'])
         payload = read_records(path) if path.suffix == '.jsonl' else json.loads(path.read_text())
         questions = extract_questions(payload)
         count = len(evaluation_rows(payload))
@@ -267,7 +277,7 @@ def run(protocol_path, output_dir):
             raise ValueError(f'evaluation count mismatch: {path}: {count} != {e["records"]}')
         coverage.append({**e, 'question_count': len(questions), 'status': 'parsed'})
         protected.extend({**q, 'path': e['path']} for q in questions)
-    links = read_records(ROOT/protocol['historical_group_links']['path'])
+    links = read_records(input_path(protocol['historical_group_links']['path']))
     result = prepare_records(raw, lineage, tokenizer, protected, links, protocol['max_tokens'])
     train, validation = split_groups(result['groups'])
     if not train or not validation:
@@ -311,7 +321,7 @@ def run(protocol_path, output_dir):
     def describe(ids):
         lengths = sorted(records[s]['tokens'] for s in ids)
         return {'count': len(ids), 'sources': dict(sorted(Counter(records[s]['source'] for s in ids).items())), 'multiturn': sum(sum(m['role']=='assistant' for m in records[s]['messages']) > 1 for s in ids), 'system_records': sum(records[s]['messages'][0]['role']=='system' for s in ids), 'tokens': {'min': min(lengths), 'median': lengths[len(lengths)//2], 'p95': lengths[math.ceil(.95*len(lengths))-1], 'max': max(lengths), 'mean': sum(lengths)/len(lengths)}}
-    stats = {'status': 'TASK3_MACHINE_CHECKS_PASS_NOT_DATA_READY', 'mode': 'protocol_formal_tokenizer', 'protocol_id': protocol['protocol_id'], 'protocol_sha256': sha256(protocol_path), 'source_sha256': protocol['source']['sha256'], 'raw_count': len(raw), 'valid_within_length': result['clean_count'], 'after_exact_dedup': result['deduplicated_count'], 'clean_count': len(records), 'exclusion_reasons': dict(sorted(reasons.items())), 'rejected': len(result['excluded']), 'truncated': 0, 'train_count': len(train), 'validation_count': len(validation), 'validation_ratio': len(validation)/len(records), 'groups': len(result['groups']), 'split_details': {'train': describe(train), 'validation': describe(validation)}, 'protected_unique_questions': result['protected_unique_questions'], 'protected_hit_pairs_before_quarantine': len(result['hits']), 'protected_hits_after_quarantine': 0, 'cross_split_group_count': 0, 'unchanged_source_records': len(records), 'dual_format_aligned_records': len(aligned), 'tokenizer': str(tokenizer_dir.relative_to(ROOT)), 'max_length': max(r['tokens'] for r in records.values()), 'pending_gates': ['content_sample_review', 'actual_lf_loader', 'benchmark_snapshot_and_judge_runtime_lock', 'final_release'], 'gpu_started': False}
+    stats = {'status': 'TASK3_MACHINE_CHECKS_PASS_NOT_DATA_READY', 'mode': 'protocol_formal_tokenizer', 'protocol_id': protocol['protocol_id'], 'protocol_sha256': sha256(protocol_path), 'source_sha256': protocol['source']['sha256'], 'raw_count': len(raw), 'valid_within_length': result['clean_count'], 'after_exact_dedup': result['deduplicated_count'], 'clean_count': len(records), 'exclusion_reasons': dict(sorted(reasons.items())), 'rejected': len(result['excluded']), 'truncated': 0, 'train_count': len(train), 'validation_count': len(validation), 'validation_ratio': len(validation)/len(records), 'groups': len(result['groups']), 'split_details': {'train': describe(train), 'validation': describe(validation)}, 'protected_unique_questions': result['protected_unique_questions'], 'protected_hit_pairs_before_quarantine': len(result['hits']), 'protected_hits_after_quarantine': 0, 'cross_split_group_count': 0, 'unchanged_source_records': len(records), 'dual_format_aligned_records': len(aligned), 'tokenizer': str(Path(protocol['tokenizer_files'][0]['path']).parent), 'max_length': max(r['tokens'] for r in records.values()), 'pending_gates': ['content_sample_review', 'actual_lf_loader', 'benchmark_snapshot_and_judge_runtime_lock', 'final_release'], 'gpu_started': False}
     output_dir.mkdir(parents=True, exist_ok=False)
     for name, payload in payloads.items():
         write_json(output_dir/name, payload)

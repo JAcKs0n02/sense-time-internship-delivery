@@ -15,4 +15,4 @@
 
 [预期备份文件清单](../reports/week8/release_audit_20260919/expected_model_backups.json)作为原审查快照保持不变。[备份验收记录](../docs/week8_model_backup.md)及[成功回执](../reports/week8/model_backup_20260919/verification.json)证明本次完整复制、两次逐文件哈希核对、索引检查和独立加载均通过。加载仅为短文本冒烟检查，不改变模型效果结论。具体中间检查点清理名单仍须单独审查；本次未删除任何模型或远端目录。
 
-[发布审查](../docs/week8_release_review.md)记录本轮缺口。Week7资产位置见[提交索引](../Submission/Week7/README.md)。
+[交付清单](../docs/DELIVERY_CONTENTS.md)记录材料范围与结果限制。Week7资产位置见[提交索引](../Submission/Week7/README.md)。

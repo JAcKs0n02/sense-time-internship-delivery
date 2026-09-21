@@ -1,9 +1,0 @@
-{
-  "instance": "320",
-  "instance_id": "be044ebe99-be706b14",
-  "state": "stopped",
-  "observed_utc": "2026-09-19T13:52:00+00:00",
-  "evidence": "AutoDL instance table visibly showed 已关机 GPU充足 after shutdown confirmation; generation results were downloaded and SHA256 verified before shutdown",
-  "generation_finished_utc": "2026-09-19T13:48:11.585853+00:00",
-  "bundle_sha256": "370f8c1d9c8fbebe31393e87638ed24e1e1493288082754a12278f3f014fedda"
-}

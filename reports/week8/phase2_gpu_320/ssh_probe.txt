@@ -1,1 +1,0 @@
-ssh: connect to host connect.nmb2.seetacloud.com port 27493: Connection refused

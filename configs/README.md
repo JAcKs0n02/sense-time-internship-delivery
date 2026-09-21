@@ -1,6 +1,6 @@
 # 环境和配置说明
 
-> 2026-09-19入口更新：现行命令见[主README](../README.md#当前分段流程)。`scripts/pipeline/` 复用已验证配置；新入口已在320实测119题基准样本＋完整custom20，并完成本地Gemini评分；复用既有CUDA环境，未从零安装。
+> 2026-09-19入口更新：现行命令见[主README](../docs/RUNNING.md#当前分段流程)。`scripts/pipeline/` 复用已验证配置；新入口已在320实测119题基准样本＋完整custom20，并完成本地Gemini评分；复用既有CUDA环境，未从零安装。
 
 `conda env create -f environment.yml` 创建本地流水线环境。`--quick`只依赖Python标准库，在无CUDA和不联网条件下运行数据处理与历史评分复算；不等于正式模型评估。
 
@@ -31,7 +31,7 @@ python -m pip install -r configs/requirements-training-cuda.txt
 python -m pip check
 ```
 
-该清单补充LLaMA-Factory0.9.3、PEFT0.15.1、TRL0.9.6和bitsandbytes0.43.3，版本依据[正式训练预检](../reports/week8/phase2_full_training_target/evidence/logs/full-run-01/target_preflight.json)。原`requirements-training.txt`由旧运行计划绑定哈希，保留原字节作为历史证据，不再作为现行安装入口。`requirements-loader-cpu.txt`同样仅记录此前CPU加载环境。本次交付不需要重复训练。
+该清单补充LLaMA-Factory0.9.3、PEFT0.15.1、TRL0.9.6和bitsandbytes0.43.3，版本依据[正式训练预检](../logs/week8/training/target_preflight.json)。原`requirements-training.txt`由旧运行计划绑定哈希，保留原字节作为历史证据，不再作为现行安装入口。`requirements-loader-cpu.txt`同样仅记录此前CPU加载环境。本次交付不需要重复训练。
 
 现行训练入口读取 `week8_full_training_candidate/sft.yaml` 和 `dpo.yaml`，仅替换本次模型、数据和输出路径。参数源于Week3/4方案，并已在Week8正式训练中实测：SFT rank8、alpha16、lr1e-4、5epoch、seed42；DPO beta0.1、lr2e-6、40steps。DPO引用本次合并SFT，adapter禁用提供隐式参考。生成计划不等于再次训练通过。
 
@@ -45,4 +45,4 @@ python -m pip check
 
 ## 已验证的CPU数据加载环境
 
-任务5已使用Python3.11.14、LLaMA-Factory0.9.3、Transformers4.50.0和Torch2.5.1，在独立macOS CPU环境完成真实加载验收。核心依赖见`requirements-loader-cpu.txt`，全量解析快照见`../reports/week8/phase1_task5/environment_freeze.txt`。这不替代上文Linux CUDA环境的实际复验，详情见[任务5结果](../docs/week8_phase1_task5_result.md)。
+任务5已使用Python3.11.14、LLaMA-Factory0.9.3、Transformers4.50.0和Torch2.5.1，在独立macOS CPU环境完成真实加载验收。核心依赖见`requirements-loader-cpu.txt`，全量解析快照见`../reports/week8/phase1_task5/environment_freeze.txt`。这不替代上文Linux CUDA环境的实际复验，详情见任务5结果（过程记录保存在原工程）。

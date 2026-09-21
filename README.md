@@ -21,6 +21,10 @@
 
 不同数据集、评分协议和运行阶段分别报告，训练损失或单项指标改善不代表全面能力提升。
 
+## 提交材料
+
+[逐项交付清单](docs/DELIVERY_CONTENTS.md)按Day1–45列出文件入口、外部附件和结果限制。恢复目录、临时输出和重复发布包已从当前提交树移出；原工程保留。
+
 ## 快速检查
 
 在仓库根目录使用Python 3.10及以上版本运行：
@@ -35,7 +39,7 @@ quick使用测试tokenizer处理历史数据并回放已有分数，不加载模
 
 ## 结构与复现边界
 
-代码、数据协议、模型说明和报告分别位于`scripts/`、`configs/`、`models/`、`reports/`；逐周材料位于`Submission/`，原始工程记录位于`deliverables/`。详见[目录约定](docs/REPOSITORY_STRUCTURE.md)。部分历史路径为冻结协议的必要依赖，保持原位。
+代码、数据协议、模型说明和报告分别位于`scripts/`、`configs/`、`models/`、`reports/`；逐周材料位于`Submission/`，各周独立实验代码与配套文件位于`deliverables/`。详见[目录约定](docs/REPOSITORY_STRUCTURE.md)。必要输入已迁入`data/`，冻结协议的历史名称通过路径映射解析。
 
 已有Linux CUDA训练、评估和部署记录，以及独立macOS环境的数据与评分验证；未验证从零安装CUDA后的全部流程。权重与大型视频单独存储，原仓库和中间检查点保留。独立发布副本提供`RELEASE_SHA256SUMS.txt`，用于核验当前文件完整性。
 

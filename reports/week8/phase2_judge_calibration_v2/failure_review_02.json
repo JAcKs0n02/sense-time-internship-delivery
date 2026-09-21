@@ -1,6 +1,0 @@
-{
-  "case": "V2-08",
-  "sha256": "5ce48f6f4653686b6b8a0281e237359e3c42951fd2e8559acde8dfdc3a5565a7",
-  "finding": "Multiple reason strings lack closing quotation marks despite finish_reason=stop.",
-  "action": "No repair or retry. Formal use rejected. Execute only remaining four pre-registered diagnostic cases, with original stop-on-invalid policy."
-}

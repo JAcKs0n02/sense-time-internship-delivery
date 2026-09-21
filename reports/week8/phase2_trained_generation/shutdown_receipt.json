@@ -1,8 +1,0 @@
-{
-  "instance": "be044ebe99-be706b14",
-  "observed_utc": "2026-09-17T17:46:03.021101+00:00",
-  "state": "OFF",
-  "evidence": "AutoDL in-app console displayed 已关机 after shutdown confirmation",
-  "session_mode": "CPU_ONLY",
-  "gpu_started": false
-}

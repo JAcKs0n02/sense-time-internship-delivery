@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 import compare_distillation as comparison
 
-ARCHIVE = ROOT / 'reports/week8/phase2_trained_generation/retrieved/logs/trained-generation-20260917'
+ARCHIVE = ROOT / 'reports/week8/benchmarks'
 
 
 class ComparisonTests(unittest.TestCase):
@@ -21,7 +21,7 @@ class ComparisonTests(unittest.TestCase):
     def test_real_results_count_questions_not_metadata(self):
         for model, correct in [('final_sft', 1072), ('final_dpo', 1077)]:
             with self.subTest(model=model):
-                result = self.summary(ARCHIVE / model / 'opencompass')
+                result = self.summary(ARCHIVE / model)
                 self.assertEqual(result['subjects'], 52)
                 self.assertEqual(result['questions'], 1346)
                 self.assertEqual(result['correct'], correct)
@@ -29,7 +29,7 @@ class ComparisonTests(unittest.TestCase):
 
     def test_missing_duplicate_and_tampered_results_fail(self):
         self.assertTrue(hasattr(comparison, 'summarize_ceval'), 'strict CEval summary missing')
-        source = ARCHIVE / 'final_sft/opencompass'
+        source = ARCHIVE / 'final_sft'
         with tempfile.TemporaryDirectory() as tmp:
             out = Path(tmp) / 'oc'
             for original in source.glob('*/results/*/ceval-*.json'):

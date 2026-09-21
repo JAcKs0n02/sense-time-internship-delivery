@@ -4,6 +4,7 @@ from pathlib import Path
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/'scripts'))
 import week8_data as data
@@ -79,8 +80,11 @@ class ProtocolDataTests(unittest.TestCase):
     def test_hashed_input_mutation_rejected(self):
         with tempfile.TemporaryDirectory() as td:
             p=Path(td)/'data.json';p.write_text('[]')
-            with self.assertRaisesRegex(ValueError,'hash mismatch'):
-                data.verify_entry({'path':str(p),'sha256':'0'*64})
+            (Path(td)/'data').mkdir()
+            (Path(td)/'data/input_paths.json').write_text('{}')
+            with patch.object(data, 'ROOT', Path(td)):
+                with self.assertRaisesRegex(ValueError,'hash mismatch'):
+                    data.verify_entry({'path':'data.json','sha256':'0'*64})
 
 if __name__=='__main__': unittest.main()
 

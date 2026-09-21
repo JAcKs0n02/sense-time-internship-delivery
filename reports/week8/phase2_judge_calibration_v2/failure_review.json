@@ -1,7 +1,0 @@
-{
-  "case_id": "V2-06",
-  "sha256": "c227dd240df9ac5214367ad6a119d492a5b35ac36c3d46ef8dcc2be54dd21ae4",
-  "finding": "Response ends with only the format object closing brace; top-level object is unclosed despite finish_reason=stop.",
-  "action": "Preserve invalid response, no repair or retry. Resume only six previously uncalled pre-registered cases. Overall full calibration cannot pass.",
-  "additional_calls_max": 6
-}

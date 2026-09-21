@@ -1,7 +1,0 @@
-{
-  "checks": {
-    "accuracy_max": true,
-    "logic_max": true
-  },
-  "passed": true
-}

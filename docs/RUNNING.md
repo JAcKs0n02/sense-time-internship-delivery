@@ -73,7 +73,7 @@ python scripts/pipeline/step3_eval.py --phase score \
 
 Gemini Key由仓库外的私有文件读取，设置命令为 `python scripts/setup_week8_gemini_key.py`。完整单命令运行可省略 `--eval-phase generate`，全量评估再省略 `--eval-limit-per-subject 1`。运行后查看 `evaluation/status.json`、`summary.csv`、逐题答案及API响应；已经完成的同目录评分会核验并复用，未知付费请求或失败不会自动重试。完成评分后若迁移目录，应只读核验已有结果；付费入口绑定原输出路径，不能在迁移目录直接重新执行，见[迁移说明](week8_dependency_delivery.md#已评分目录的迁移限制)。
 
-`--dry-run` 会真实执行数据准备并生成配置，输出为 `planned_only`，不能称为训练或推理成功。每次生成使用新目录，不能把计划目录直接当成实际运行目录。`scripts/step3_eval.py` 是旧实验依赖；现行主控、quick和上述命令均调用 `scripts/pipeline/step3_eval.py`。旧 `--clean-eval` 及 `--score-only` 参数仍可用于历史方案核验。
+`--dry-run` 会真实执行数据准备并生成配置，输出为 `planned_only`，不能称为训练或推理成功。每次生成使用新目录，不能把计划目录直接当成实际运行目录。`scripts/step3_eval.py` 是旧实验依赖；现行主控、quick和上述命令均调用 `scripts/pipeline/step3_eval.py`。`--score-only`用于核验已归档的三模型评分；旧实例专用`--clean-eval`不再作为交付命令。
 
 ## 已有评分核验与恢复
 
@@ -82,7 +82,7 @@ Gemini Key由仓库外的私有文件读取，设置命令为 `python scripts/se
 bash run_pipeline.sh --score-only all --run-dir logs/score-audit-001
 ```
 
-显式恢复单模型可加`--execute-score`；完整成绩不会重复收费，失败状态和未知付费请求仍会阻止重试。只能使用已冻结的三模型方案。详细边界及命令见[评分恢复入口](week8_pipeline_score_integration.md)。这不替代新模型fresh评估，也不代表整条CUDA流水线一次跑通。
+本命令核对最终答案、固定校准协议和原始响应，复算已有成绩，不读取旧失败任务目录。新的模型评估使用上面的fresh入口。详细边界及命令见[评分恢复入口](week8_pipeline_score_integration.md)。这不替代新模型fresh评估，也不代表整条CUDA流水线一次跑通。
 
 ## 部署与蒸馏
 
@@ -95,4 +95,4 @@ bash scripts/step4_deploy.sh --run-dir logs/deploy-001
 
 检查端口、vLLM health、模型身份与UI后返回后台监督进程PID。停止前核对本次status.json和进程身份，再向监督进程发送SIGTERM。单卡默认文字服务；视觉后端按[第7周手册](../Submission/Week7/本地部署与操作手册.md)单独切换。监督器已在320完成真实API、Gradio客户端对话、正常停止和异常回收验收，见[部署记录](week8_supervised_deployment.md)。验证结束后服务停止，实例关机。
 
-蒸馏教师为Week4 DPO，学生为Qwen2.5-0.5B-Instruct，使用离线序列级教师目标与2epoch学生LoRA，不冒称逐token软标签KL。配置为[distillation.json](../configs/distillation.json)，入口为`distill.py generate`、`distill.py train`、`compare_distillation.py`；命令见[Day42计划](week8_execution_plan.md)。真实学生训练已完成2轮36步，合并与CUDA冷加载通过，见[训练记录](week8_distillation_student_training.md)；前后CEval为53.7147%→53.1204%，速度55.5303→55.6263 token/s，效果未提升；完整证据与分析见[比较记录](week8_distillation_comparison.md)。
+蒸馏教师为Week4 DPO，学生为Qwen2.5-0.5B-Instruct，使用离线序列级教师目标与2epoch学生LoRA，不冒称逐token软标签KL。配置为[distillation.json](../configs/distillation.json)，入口为`distill.py generate`、`distill.py train`、`compare_distillation.py`；参数说明使用 `python scripts/distill.py --help` 和 `python scripts/compare_distillation.py --help` 查看。真实学生训练已完成2轮36步，合并与CUDA冷加载通过，见[训练记录](week8_distillation_student_training.md)；前后CEval为53.7147%→53.1204%，速度55.5303→55.6263 token/s，效果未提升；完整证据与分析见[比较记录](week8_distillation_comparison.md)。

@@ -1,5 +1,11 @@
-# 运行证据
+# 训练日志
 
-每次运行使用唯一目录，不覆盖旧日志。数据统计、逐条清洗记录、配置快照、训练attempt退出码、模型导出日志、OpenCompass结果和裁判原始依据均保存在该目录。日志目录默认不进Git；审阅后将必要证据复制到reports/week8/。
+`week8/training/` 保存最终SFT（1775步）与DPO（40步）的训练日志、Trainer状态、实际配置、合并和冷加载回执。
 
-部署成功返回supervisor_pid，监督进程保留后台服务。停止时核对本次status.json和进程身份，再向该监督进程发送SIGTERM，由其回收自己启动的子进程。
+- [SFT](week8/training/sft/)
+- [DPO](week8/training/dpo/)
+- [配置](week8/training/planned_configs.json)
+- [结果核验](../reports/week8/phase2_full_training_target/target_review.json)
+- [蒸馏训练日志](../reports/week8/phase3_distillation_student_gpu/retrieved/student/training/)
+
+Week1–7要求的原始实验日志保存在各周交付材料中。新运行输出仍写入 `logs/`，默认忽略未归档的本地运行目录。

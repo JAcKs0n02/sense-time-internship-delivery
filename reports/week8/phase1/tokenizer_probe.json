@@ -1,9 +1,0 @@
-{
-  "status": "PASS_LOCAL_TOKENIZER_PROBE_ONLY",
-  "is_fast": true,
-  "synthetic_probe_tokens": 34,
-  "eos_token": "<|im_end|>",
-  "eos_token_id": 151645,
-  "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
-  "actual_lf_loader_checked": false
-}

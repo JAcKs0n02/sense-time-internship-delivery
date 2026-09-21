@@ -1,6 +1,0 @@
-{
-  "status": "FAILED_OR_TIMEOUT",
-  "completed_models": [],
-  "error": "original_base exit=1; preserve evidence, no automatic retry",
-  "stopped_utc": "2026-09-16T23:43:02.306610+00:00"
-}

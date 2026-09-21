@@ -1,6 +1,0 @@
-{
-  "status": "REQUEST_PARITY_PASS",
-  "cases": 7,
-  "only_request_change": "max_tokens 4096 to 8192",
-  "plan_sha256": "0087a452206fb8c811813b52c82aace5131ae49207a2c167f96747335564ce20"
-}

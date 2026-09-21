@@ -15,4 +15,4 @@
 
 ## 实际结果
 
-17例全部通过独立复核，两组配对各维与加权差均为0。17次调用、零重试，总用量52880 token。正式入口尚未集成，候选协议未正式放行。详见同目录verification.json与judge_profile_candidate.json。
+17例全部通过独立复核，两组配对各维与加权差均为0。17次调用、零重试，总用量52880 token。该协议已经用于现行评估入口与三模型正式评分。详见同目录verification.json与judge_profile_candidate.json。

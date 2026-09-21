@@ -1,1 +1,0 @@
-Pipeline finished: /Users/yifanren/Documents/商汤科技实习/logs/week8-quick-verified-20260914 (quick=1; skip_train=1; skip_eval=0)

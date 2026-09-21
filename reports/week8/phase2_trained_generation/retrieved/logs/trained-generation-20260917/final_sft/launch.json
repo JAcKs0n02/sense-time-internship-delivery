@@ -1,6 +1,0 @@
-{
-  "model_name": "final_sft",
-  "plan_sha256": "1294064be32e9bf92263346f38b4d7a2e3b2338cfbb3cdea6f5d0cb284a11a8c",
-  "gpu_host": "autodl-container-be044ebe99-be706b14",
-  "judge_calls": 0
-}

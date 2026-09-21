@@ -12,8 +12,12 @@ output = root/'reports/week8/delivery_eval_20260919/retrieved/eval-check-002/eva
 plan = json.loads((output/'plan.json').read_text())
 receipt = json.loads((output/'generation/generation_receipt.json').read_text())
 assert receipt['plan_sha256'] == sha256(output/'plan.json')
-for path, expected in plan['dependencies'].items():
-    assert sha256(root/path) == expected, path
+mapping = json.loads((root/'reports/week8/reproduction/dependency_paths.json').read_text())
+def verify_dependencies(dependencies):
+    for name, expected in dependencies.items():
+        entry = mapping[name]
+        assert entry['sha256'] == expected and sha256(root/entry['path']) == expected, name
+verify_dependencies(plan['dependencies'])
 for name, key in [('opencompass_config.py', 'config_sha256'), ('benchmark_records.json', 'records_sha256')]:
     assert sha256(output/name) == plan[key], name
 m.shared.verify_source_files(output/'generation', receipt)
@@ -23,7 +27,10 @@ answers = [json.loads(line) for line in (output/'generation/answers.jsonl').read
 score_plan = m.shared.bind_score_plan(answers, sha256(output/'generation/answers.jsonl'),
                                      sha256(output/'generation/generation_receipt.json'))
 score_plan.update(scope='pipeline_custom20', model_name=plan['model_path'])
-result = m.verify_completed(score_plan, output/'scoring')
+saved_score_plan = json.loads((output/'scoring/plan.json').read_text())
+verify_dependencies(saved_score_plan['dependencies'])
+assert {k:v for k,v in score_plan.items() if k != 'dependencies'} == {k:v for k,v in saved_score_plan.items() if k != 'dependencies'}
+result = m.verify_completed(saved_score_plan, output/'scoring')
 assert result['questions'] == 20 and result['weighted_mean'] == 3.775
 print(json.dumps({'status':'PASS_READ_ONLY_EXISTING_EVALUATION',
     'generation_files':len(receipt['files']), 'dependencies':len(plan['dependencies']),

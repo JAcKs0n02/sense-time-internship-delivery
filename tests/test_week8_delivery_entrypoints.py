@@ -15,7 +15,7 @@ from unittest.mock import patch
 import pytest
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT/'logs/week8-protocol-data-20260914/run-a'
+DATA = ROOT/'data/week8/prepared'
 
 
 class DeliveryEntrypointTests(unittest.TestCase):

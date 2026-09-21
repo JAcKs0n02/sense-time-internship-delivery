@@ -21,11 +21,11 @@ META = dict(round=[dict(role='HUMAN', prompt=QUESTION),
 
 class PromptTemplateTests(unittest.TestCase):
     def test_all_eleven_observed_corruptions(self):
-        hits = json.loads((ROOT / 'reports/week8/phase2_gpu_monitor/recursive_placeholder_hits.json').read_text())
+        hits = json.loads((ROOT / 'tests/fixtures/recursive_placeholder_hits.json').read_text())
         self.assertEqual(len(hits), 11)
         for hit in hits:
             dataset, subject, split, index = hit['id'].split(':')
-            path = ROOT / 'reports/week8/phase2_preflight/local_data' / dataset / split / (subject + '.csv')
+            path = ROOT / 'data/evaluation/benchmarks/local_data' / dataset / split / (subject + '.csv')
             # C-Eval filenames include the split suffix.
             if dataset == 'ceval':
                 path = path.with_name(subject + '_' + split + '.csv')

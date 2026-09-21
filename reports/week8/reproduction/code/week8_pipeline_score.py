@@ -25,8 +25,12 @@ def load_release(model):
     relative,expected=RELEASES[model];path=ROOT/relative
     require(not path.is_symlink() and digest(path)==expected,'release hash mismatch')
     plan=read(path)
-    from submission_evidence import validate_plan
-    validate_plan(model, plan)
+    if model=='original_base':
+        current=scoring.prepare(ROOT/plan['source'],plan['source_manifest_sha256'],ROOT/plan['calibration'])
+    else:
+        from week8_trained_score import prepare
+        current=prepare(model)
+    require(plan==current,'released source/code/calibration changed')
     return plan
 
 

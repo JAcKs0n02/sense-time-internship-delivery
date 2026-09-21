@@ -1,7 +1,0 @@
-{
-  "status": "CURATED_GATE_PASSED_MODEL_ARGUMENT_GUARD_REACHED",
-  "returncode": 1,
-  "expected_error": "--student must point to a local Qwen2.5-0.5B-Instruct snapshot",
-  "output_directory_created": false,
-  "training_started": false
-}

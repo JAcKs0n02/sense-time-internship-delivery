@@ -1,1 +1,0 @@
-root@connect.nmb2.seetacloud.com: Permission denied (publickey,password).

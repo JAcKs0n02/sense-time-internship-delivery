@@ -37,8 +37,6 @@ def build_plan(model, output, limit=0):
     scored = [r for r in records if r['split'] == ('val' if r['benchmark'] == 'ceval' else 'test')]
     dependencies = {a['path']: a['sha256'] for a in binding['dependencies']}
     dependencies['scripts/pipeline/step3_eval.py'] = sha256(Path(__file__))
-    dependencies['scripts/submission_evidence.py'] = sha256(ROOT/'scripts/submission_evidence.py')
-    dependencies['scripts/week8_pipeline_score.py'] = sha256(ROOT/'scripts/week8_pipeline_score.py')
     plan = {'model_path': str(model), 'judge_model': MODEL,
             'coverage': 'sample' if limit else 'full', 'limit_per_subject': limit,
             'benchmark_questions': len(scored), 'custom_questions': 20,

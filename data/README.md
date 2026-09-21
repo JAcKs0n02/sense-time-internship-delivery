@@ -1,16 +1,23 @@
-# 本周数据入口
+# 数据目录
 
-正式入口默认读取 `configs/week8_data_protocol.json`，绑定已审核原文1580条、血缘、历史分组关系、83条保留集及评估题哈希。历史Day6清洗仅保留在显式 `--quick` 或 `--legacy` 模式中。
+[项目首页](../README.md) · [数据协议](../docs/week8_data_protocol.md)
+
+| 位置 | 用途 |
+|---|---|
+| `week8/source/` | 1580条正式SFT原始对话、来源血缘与问题组关系 |
+| `week8/protected/` | 历史83条保留集及其他已暴露评估题，仅用于隔离检查 |
+| `week8/tokenizer/` | 数据清洗使用的冻结tokenizer |
+| `week8/prepared/` | 原始实测的1422条训练、158条验证及15份统计/追溯文件 |
+| `evaluation/benchmarks/` | CEval/CMMLU数据、题目记录与校验清单 |
+| `evaluation/tokenizer/` | 公开基准模型配置使用的tokenizer |
+| `evaluation/answers/` | 原基座、最终SFT、最终DPO各20条固定题答案 |
+| `input_paths.json` | 冻结输入名称到当前物理路径的映射 |
 
 ```bash
 python scripts/step1_data_prep.py --protocol configs/week8_data_protocol.json \
   --output-dir logs/new-data-run/data
 ```
 
-每次使用不存在的新目录，安装 `configs/requirements-data.txt` 中锁定的依赖；正式模式不能用命令行参数覆盖输入、tokenizer、seed或长度。路径缺失、哈希变化、未知评估结构会失败，不自动回退旧数据。
+正式处理规则和输入哈希冻结于 `configs/week8_data_protocol.json`。其中历史状态字段与路径保留为实验身份，不表示当前任务未完成；物理位置通过映射解析。每次使用新输出目录，不能用命令行覆盖tokenizer、seed或长度。四份训练/验证格式文件保持原文，来源和样本标识在独立的lineage文件中。
 
-本次结果位于 `logs/week8-protocol-data-20260914/run-a/`：1422条训练、158条验证，另83条历史验证仍隔离在原位置。四份格式JSON保留完整正文，sample_id与来源放在独立 `lineage.json` 中，以split和row_index对齐。`dataset_info.json`登记ShareGPT训练格式；Alpaca包含history和system，用于可逆交付。
-
-其他文件包括问题组与边、每条token长度、排除记录、保留题覆盖及命中记录、输入哈希收据、协议快照和统计。去重、长度、分组及划分细则见[冻结协议](../docs/week8_data_protocol.md)，本次验收与复跑见[任务3结果](../docs/week8_phase1_task3_result.md)。
-
-任务1–6已完成，数据准备阶段PASS，详见[最终验收与冻结快照](../docs/week8_phase1_task6_result.md)。benchmark快照与裁判身份锁定、实际题目污染复检和GPU/完整基座预检仍待完成，训练入口继续拒绝当前尚未获训练放行的数据。
+早期周次数据保存在对应 `Submission/WeekN/` 与独立实验包中；不参与本周新的随机划分。隔离题与基准题不作为SFT训练输入。

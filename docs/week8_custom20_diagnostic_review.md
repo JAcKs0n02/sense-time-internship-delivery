@@ -41,6 +41,6 @@ SFT/DPO 的 MATH-06 推导写出11/6，最终却写0.185185；MATH-07推导写�
 
 这组固定题未提供“训练后数学和代码能力提升”的证据；客观基准提升与这些具体能力退化可以同时存在。加上上轮相同答案出现裁判分差，不宜直接扩大上线。结论限于该20题集和本次冻结测试，不能推广为所有任务上的总体优劣。
 
-下一步收集实际人工盲评，形成独立人工汇总；仓库内可继续把本轮客观评估、AI评分、确定性检查整合到Week8报告，并审计尚缺的部署/压缩/干净环境验收项。当前不自动重新训练或用这些评测题调参，以免污染测试集。
+两份匿名人工评分现已完成并独立汇总，见[人工评分结果](week8_human_scoring_result.md)。本诊断不用于重新调参或选择中间检查点。
 
 证据：automatic_review.json、review_flags.csv、code_execution.json、verification.json；生成过程：build_packet.py、run_isolated_checks.py（均位于reports/week8/phase2_custom20_review）。
